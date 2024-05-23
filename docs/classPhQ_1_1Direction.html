@@ -235,8 +235,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a1b598224a97c3cf5c41c4ffdea7c3529"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acccd3afe9ca1b76994c55eb2d86c995f"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1TemperatureGradient.html">TemperatureGradient</a>&lt; Number &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Direction.html#acccd3afe9ca1b76994c55eb2d86c995f">operator*</a> (const <a class="el" href="classPhQ_1_1ScalarTemperatureGradient.html">ScalarTemperatureGradient</a>&lt; Number &gt; &amp;scalar_temperature_gradient) const</td></tr>
 <tr class="separator:acccd3afe9ca1b76994c55eb2d86c995f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ace61a85b95cf8d00288b6f2830557e4f"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1Traction.html">Traction</a>&lt; Number &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Direction.html#ace61a85b95cf8d00288b6f2830557e4f">operator*</a> (const <a class="el" href="classPhQ_1_1StaticPressure.html">StaticPressure</a>&lt; Number &gt; &amp;static_pressure) const</td></tr>
-<tr class="separator:ace61a85b95cf8d00288b6f2830557e4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28fc44d8af9786038867f984ab620131"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1Traction.html">Traction</a>&lt; Number &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Direction.html#a28fc44d8af9786038867f984ab620131">operator*</a> (const <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt; Number &gt; &amp;scalar_traction) const</td></tr>
+<tr class="separator:a28fc44d8af9786038867f984ab620131"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1c27bf826e422abcd5ac3b18a0d43e06"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1Velocity.html">Velocity</a>&lt; Number &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Direction.html#a1c27bf826e422abcd5ac3b18a0d43e06">operator*</a> (const <a class="el" href="classPhQ_1_1Speed.html">Speed</a>&lt; Number &gt; &amp;speed) const</td></tr>
 <tr class="separator:a1c27bf826e422abcd5ac3b18a0d43e06"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac1bdae22b6995ced84e7a38b26b181e0"><td class="memItemLeft" align="right" valign="top">constexpr const <a class="el" href="classPhQ_1_1Vector.html">PhQ::Vector</a>&lt; double &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionlessVector.html#ac1bdae22b6995ced84e7a38b26b181e0">Value</a> () const noexcept</td></tr>
@@ -647,7 +647,7 @@ template&lt;typename Number &gt; </div>
 
 <p>Constructor. Constructs a direction from a traction. </p>
 
-<p class="definition">Definition at line <a class="el" href="Traction_8hpp_source.html#l00251">251</a> of file <a class="el" href="Traction_8hpp_source.html">Traction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Traction_8hpp_source.html#l00254">254</a> of file <a class="el" href="Traction_8hpp_source.html">Traction.hpp</a>.</p>
 
 </div>
 </div>
@@ -1444,8 +1444,38 @@ template&lt;typename Number &gt; </div>
 
 </div>
 </div>
+<a id="a28fc44d8af9786038867f984ab620131"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a28fc44d8af9786038867f984ab620131">&#9670;&nbsp;</a></span>operator*() <span class="overload">[7/8]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Number &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Traction.html">Traction</a>&lt; Number &gt; <a class="el" href="classPhQ_1_1Direction.html">PhQ::Direction</a>&lt; Number &gt;::operator* </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramname"><em>scalar_traction</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="Traction_8hpp_source.html#l00266">266</a> of file <a class="el" href="Traction_8hpp_source.html">Traction.hpp</a>.</p>
+
+</div>
+</div>
 <a id="a1c27bf826e422abcd5ac3b18a0d43e06"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1c27bf826e422abcd5ac3b18a0d43e06">&#9670;&nbsp;</a></span>operator*() <span class="overload">[7/8]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a1c27bf826e422abcd5ac3b18a0d43e06">&#9670;&nbsp;</a></span>operator*() <span class="overload">[8/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1471,36 +1501,6 @@ template&lt;typename Number &gt; </div>
 </div><div class="memdoc">
 
 <p class="definition">Definition at line <a class="el" href="Velocity_8hpp_source.html#l00287">287</a> of file <a class="el" href="Velocity_8hpp_source.html">Velocity.hpp</a>.</p>
-
-</div>
-</div>
-<a id="ace61a85b95cf8d00288b6f2830557e4f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ace61a85b95cf8d00288b6f2830557e4f">&#9670;&nbsp;</a></span>operator*() <span class="overload">[8/8]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename Number &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Traction.html">Traction</a>&lt; Number &gt; <a class="el" href="classPhQ_1_1Direction.html">PhQ::Direction</a>&lt; Number &gt;::operator* </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1StaticPressure.html">StaticPressure</a>&lt; Number &gt; &amp;&#160;</td>
-          <td class="paramname"><em>static_pressure</em></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="Traction_8hpp_source.html#l00263">263</a> of file <a class="el" href="Traction_8hpp_source.html">Traction.hpp</a>.</p>
 
 </div>
 </div>
