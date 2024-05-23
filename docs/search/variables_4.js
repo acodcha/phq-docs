@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['electric_5fcurrent_1575',['electric_current',['../classPhQ_1_1Dimensions.html#a94becd508d162fde32e0248f5697f9bf',1,'PhQ::Dimensions']]]
+  ['mass_1558',['mass',['../classPhQ_1_1Dimensions.html#a8d0a0f37422dfbfdc7e2db0d037b00be',1,'PhQ::Dimensions']]]
 ];

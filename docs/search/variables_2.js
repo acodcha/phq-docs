@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['consistentunits_1572',['ConsistentUnits',['../namespacePhQ_1_1Internal.html#aa33c9ff1e58d5324a9c8c7b93d20d650',1,'PhQ::Internal']]]
+  ['electric_5fcurrent_1554',['electric_current',['../classPhQ_1_1Dimensions.html#a94becd508d162fde32e0248f5697f9bf',1,'PhQ::Dimensions']]]
 ];

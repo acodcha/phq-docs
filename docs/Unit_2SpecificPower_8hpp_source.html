@@ -101,7 +101,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search','.html');
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment">// models, and units of measure for scientific computation.</span></div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment">//</span></div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment">// Physical Quantities (PhQ) is hosted at:</span></div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment">//     https://github.com/acodcha/physical-quantities</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment">//     https://github.com/acodcha/phq</span></div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="comment">//</span></div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment">// Physical Quantities (PhQ) is licensed under the MIT License:</span></div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment">//     https://mit-license.org</span></div>
@@ -210,7 +210,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search','.html');
 <div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;};</div>
 <div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160; </div>
 <div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;<span class="keyword">template</span> &lt;&gt;</div>
-<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;<span class="keyword">inline</span> <span class="keyword">const</span> std::unordered_map&lt;std::string_view, Unit::SpecificPower&gt; <a class="code" href="namespacePhQ_1_1Internal.html#a54ce004d9026ab5e6ea4427873744a26">Spellings</a>&lt;</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;<span class="keyword">inline</span> <span class="keyword">const</span> std::unordered_map&lt;std::string_view, Unit::SpecificPower&gt; Spellings&lt;</div>
 <div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;    <a class="code" href="namespacePhQ_1_1Unit.html#abeb76b00111f69bc769e12910520e927">Unit::SpecificPower</a>&gt;{</div>
 <div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;    {<span class="stringliteral">&quot;W/kg&quot;</span>,              <a class="code" href="namespacePhQ_1_1Unit.html#abeb76b00111f69bc769e12910520e927a838cd2d5381c7e5bd144d42e26315607">Unit::SpecificPower::WattPerKilogram</a>            },</div>
 <div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;    {<span class="stringliteral">&quot;N·m/kg/s&quot;</span>,          <a class="code" href="namespacePhQ_1_1Unit.html#abeb76b00111f69bc769e12910520e927a838cd2d5381c7e5bd144d42e26315607">Unit::SpecificPower::WattPerKilogram</a>            },</div>
@@ -339,19 +339,19 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search','.html');
 <div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;<span class="keyword">template</span> &lt;&gt;</div>
 <div class="line"><a name="l00243"></a><span class="lineno">  243</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">typename</span> Number&gt;</div>
 <div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;<span class="keyword">inline</span> constexpr <span class="keywordtype">void</span></div>
-<div class="line"><a name="l00245"></a><span class="lineno"><a class="line" href="classPhQ_1_1Internal_1_1Conversion.html#a9c37c12d94bfedeaf5e6a6d8145e6836">  245</a></span>&#160;<a class="code" href="classPhQ_1_1Internal_1_1Conversion.html#a6ba0cfef6dcde6cbcb9c933f0216d99a">Conversion&lt;Unit::SpecificPower, Unit::SpecificPower::WattPerKilogram&gt;::FromStandard</a>(</div>
+<div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;Conversion&lt;Unit::SpecificPower, Unit::SpecificPower::WattPerKilogram&gt;::FromStandard(</div>
 <div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;    Number&amp; <span class="comment">/*value*/</span>) noexcept {}</div>
 <div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160; </div>
 <div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;<span class="keyword">template</span> &lt;&gt;</div>
 <div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">typename</span> Number&gt;</div>
 <div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;<span class="keyword">inline</span> constexpr <span class="keywordtype">void</span></div>
-<div class="line"><a name="l00251"></a><span class="lineno"><a class="line" href="classPhQ_1_1Internal_1_1Conversion.html#a5e737e4d77706fea31b073020a2a4d0c">  251</a></span>&#160;<a class="code" href="classPhQ_1_1Internal_1_1Conversion.html#a39e390d2dd45525656c1eeb46c638cea">Conversion&lt;Unit::SpecificPower, Unit::SpecificPower::WattPerKilogram&gt;::ToStandard</a>(</div>
+<div class="line"><a name="l00251"></a><span class="lineno">  251</span>&#160;Conversion&lt;Unit::SpecificPower, Unit::SpecificPower::WattPerKilogram&gt;::ToStandard(</div>
 <div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;    Number&amp; <span class="comment">/*value*/</span>) noexcept {}</div>
 <div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160; </div>
 <div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;<span class="keyword">template</span> &lt;&gt;</div>
 <div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">typename</span> Number&gt;</div>
 <div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;<span class="keyword">inline</span> constexpr <span class="keywordtype">void</span></div>
-<div class="line"><a name="l00257"></a><span class="lineno"><a class="line" href="classPhQ_1_1Internal_1_1Conversion.html#aec9a57de25b482f722748b7607b90e2b">  257</a></span>&#160;<a class="code" href="classPhQ_1_1Internal_1_1Conversion.html#a6ba0cfef6dcde6cbcb9c933f0216d99a">Conversion&lt;Unit::SpecificPower, Unit::SpecificPower::NanowattPerGram&gt;::FromStandard</a>(</div>
+<div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;Conversion&lt;Unit::SpecificPower, Unit::SpecificPower::NanowattPerGram&gt;::FromStandard(</div>
 <div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;    Number&amp; value) noexcept {</div>
 <div class="line"><a name="l00259"></a><span class="lineno">  259</span>&#160;  value *= <span class="keyword">static_cast&lt;</span>Number<span class="keyword">&gt;</span>(1000000.0L);</div>
 <div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;}</div>
@@ -359,7 +359,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search','.html');
 <div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;<span class="keyword">template</span> &lt;&gt;</div>
 <div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">typename</span> Number&gt;</div>
 <div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;<span class="keyword">inline</span> constexpr <span class="keywordtype">void</span></div>
-<div class="line"><a name="l00265"></a><span class="lineno"><a class="line" href="classPhQ_1_1Internal_1_1Conversion.html#a819c667eba507ea1fd9b32408e802d9d">  265</a></span>&#160;<a class="code" href="classPhQ_1_1Internal_1_1Conversion.html#a39e390d2dd45525656c1eeb46c638cea">Conversion&lt;Unit::SpecificPower, Unit::SpecificPower::NanowattPerGram&gt;::ToStandard</a>(</div>
+<div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;Conversion&lt;Unit::SpecificPower, Unit::SpecificPower::NanowattPerGram&gt;::ToStandard(</div>
 <div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;    Number&amp; value) noexcept {</div>
 <div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160;  value *= <span class="keyword">static_cast&lt;</span>Number<span class="keyword">&gt;</span>(0.000001L);</div>
 <div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;}</div>
@@ -367,7 +367,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search','.html');
 <div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;<span class="keyword">template</span> &lt;&gt;</div>
 <div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">typename</span> Number&gt;</div>
 <div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;<span class="keyword">inline</span> constexpr <span class="keywordtype">void</span></div>
-<div class="line"><a name="l00273"></a><span class="lineno"><a class="line" href="classPhQ_1_1Internal_1_1Conversion.html#ad33b5b4896d1f7ba4a92aaeab6d761e1">  273</a></span>&#160;<a class="code" href="classPhQ_1_1Internal_1_1Conversion.html#a6ba0cfef6dcde6cbcb9c933f0216d99a">Conversion&lt;Unit::SpecificPower, Unit::SpecificPower::FootPoundPerSlugPerSecond&gt;::FromStandard</a>(</div>
+<div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;Conversion&lt;Unit::SpecificPower, Unit::SpecificPower::FootPoundPerSlugPerSecond&gt;::FromStandard(</div>
 <div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;    Number&amp; value) noexcept {</div>
 <div class="line"><a name="l00275"></a><span class="lineno">  275</span>&#160;  value /= <span class="keyword">static_cast&lt;</span>Number<span class="keyword">&gt;</span>(0.3048L) * <span class="keyword">static_cast&lt;</span>Number<span class="keyword">&gt;</span>(0.3048L);</div>
 <div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;}</div>
@@ -375,7 +375,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search','.html');
 <div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;<span class="keyword">template</span> &lt;&gt;</div>
 <div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">typename</span> Number&gt;</div>
 <div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;<span class="keyword">inline</span> constexpr <span class="keywordtype">void</span></div>
-<div class="line"><a name="l00281"></a><span class="lineno"><a class="line" href="classPhQ_1_1Internal_1_1Conversion.html#a475fff27dc627f9790a40638a652e97f">  281</a></span>&#160;<a class="code" href="classPhQ_1_1Internal_1_1Conversion.html#a39e390d2dd45525656c1eeb46c638cea">Conversion&lt;Unit::SpecificPower, Unit::SpecificPower::FootPoundPerSlugPerSecond&gt;::ToStandard</a>(</div>
+<div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;Conversion&lt;Unit::SpecificPower, Unit::SpecificPower::FootPoundPerSlugPerSecond&gt;::ToStandard(</div>
 <div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;    Number&amp; value) noexcept {</div>
 <div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160;  value *= <span class="keyword">static_cast&lt;</span>Number<span class="keyword">&gt;</span>(0.3048L) * <span class="keyword">static_cast&lt;</span>Number<span class="keyword">&gt;</span>(0.3048L);</div>
 <div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;}</div>
@@ -383,7 +383,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search','.html');
 <div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;<span class="keyword">template</span> &lt;&gt;</div>
 <div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">typename</span> Number&gt;</div>
 <div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;<span class="keyword">inline</span> constexpr <span class="keywordtype">void</span></div>
-<div class="line"><a name="l00289"></a><span class="lineno"><a class="line" href="classPhQ_1_1Internal_1_1Conversion.html#a7756f2a066431c295b455a2efbac4336">  289</a></span>&#160;<a class="code" href="classPhQ_1_1Internal_1_1Conversion.html#a6ba0cfef6dcde6cbcb9c933f0216d99a">Conversion&lt;Unit::SpecificPower, Unit::SpecificPower::InchPoundPerSlinchPerSecond&gt;::FromStandard</a>(</div>
+<div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;Conversion&lt;Unit::SpecificPower, Unit::SpecificPower::InchPoundPerSlinchPerSecond&gt;::FromStandard(</div>
 <div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;    Number&amp; value) noexcept {</div>
 <div class="line"><a name="l00291"></a><span class="lineno">  291</span>&#160;  value /= <span class="keyword">static_cast&lt;</span>Number<span class="keyword">&gt;</span>(0.0254L) * <span class="keyword">static_cast&lt;</span>Number<span class="keyword">&gt;</span>(0.0254L);</div>
 <div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;}</div>
@@ -391,7 +391,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search','.html');
 <div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;<span class="keyword">template</span> &lt;&gt;</div>
 <div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">typename</span> Number&gt;</div>
 <div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;<span class="keyword">inline</span> constexpr <span class="keywordtype">void</span></div>
-<div class="line"><a name="l00297"></a><span class="lineno"><a class="line" href="classPhQ_1_1Internal_1_1Conversion.html#ac469c17f41e3396e1c4fa25db82595f0">  297</a></span>&#160;<a class="code" href="classPhQ_1_1Internal_1_1Conversion.html#a39e390d2dd45525656c1eeb46c638cea">Conversion&lt;Unit::SpecificPower, Unit::SpecificPower::InchPoundPerSlinchPerSecond&gt;::ToStandard</a>(</div>
+<div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;Conversion&lt;Unit::SpecificPower, Unit::SpecificPower::InchPoundPerSlinchPerSecond&gt;::ToStandard(</div>
 <div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;    Number&amp; value) noexcept {</div>
 <div class="line"><a name="l00299"></a><span class="lineno">  299</span>&#160;  value *= <span class="keyword">static_cast&lt;</span>Number<span class="keyword">&gt;</span>(0.0254L) * <span class="keyword">static_cast&lt;</span>Number<span class="keyword">&gt;</span>(0.0254L);</div>
 <div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;}</div>
@@ -401,7 +401,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search','.html');
 <div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;                      std::function&lt;void(Number* values, <span class="keyword">const</span> std::size_t size)&gt;&gt;</div>
 <div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;    MapOfConversionsFromStandard&lt;Unit::SpecificPower, Number&gt;{</div>
 <div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;        {<a class="code" href="namespacePhQ_1_1Unit.html#abeb76b00111f69bc769e12910520e927a838cd2d5381c7e5bd144d42e26315607">Unit::SpecificPower::WattPerKilogram</a>,</div>
-<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;         <a class="code" href="classPhQ_1_1Internal_1_1Conversions.html">Conversions</a>&lt;<a class="code" href="namespacePhQ_1_1Unit.html#abeb76b00111f69bc769e12910520e927">Unit::SpecificPower</a>,</div>
+<div class="line"><a name="l00307"></a><span class="lineno">  307</span>&#160;         Conversions&lt;<a class="code" href="namespacePhQ_1_1Unit.html#abeb76b00111f69bc769e12910520e927">Unit::SpecificPower</a>,</div>
 <div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;         <a class="code" href="namespacePhQ_1_1Unit.html#abeb76b00111f69bc769e12910520e927a838cd2d5381c7e5bd144d42e26315607">Unit::SpecificPower::WattPerKilogram</a>&gt;::FromStandard&lt;Number&gt;            },</div>
 <div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;        {<a class="code" href="namespacePhQ_1_1Unit.html#abeb76b00111f69bc769e12910520e927a82aeb47c0a844f7607e685d342046423">Unit::SpecificPower::NanowattPerGram</a>,</div>
 <div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;         Conversions&lt;<a class="code" href="namespacePhQ_1_1Unit.html#abeb76b00111f69bc769e12910520e927">Unit::SpecificPower</a>,</div>
@@ -437,10 +437,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search','.html');
 <div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160;}  <span class="comment">// namespace PhQ</span></div>
 <div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160; </div>
 <div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;<span class="preprocessor">#endif  </span><span class="comment">// PHQ_UNIT_SPECIFIC_POWER_HPP</span></div>
-<div class="ttc" id="aclassPhQ_1_1Internal_1_1Conversion_html_a39e390d2dd45525656c1eeb46c638cea"><div class="ttname"><a href="classPhQ_1_1Internal_1_1Conversion.html#a39e390d2dd45525656c1eeb46c638cea">PhQ::Internal::Conversion::ToStandard</a></div><div class="ttdeci">static constexpr void ToStandard(Number &amp;value) noexcept</div><div class="ttdoc">Converts a value expressed in any given unit of measure of a given unit type to the standard unit of ...</div></div>
-<div class="ttc" id="aclassPhQ_1_1Internal_1_1Conversion_html_a6ba0cfef6dcde6cbcb9c933f0216d99a"><div class="ttname"><a href="classPhQ_1_1Internal_1_1Conversion.html#a6ba0cfef6dcde6cbcb9c933f0216d99a">PhQ::Internal::Conversion::FromStandard</a></div><div class="ttdeci">static constexpr void FromStandard(Number &amp;value) noexcept</div><div class="ttdoc">Converts a value expressed in the standard unit of measure of a given unit type to any given unit of ...</div></div>
-<div class="ttc" id="aclassPhQ_1_1Internal_1_1Conversions_html"><div class="ttname"><a href="classPhQ_1_1Internal_1_1Conversions.html">PhQ::Internal::Conversions</a></div><div class="ttdoc">Abstract class for converting a series of values expressed in a unit of measure to or from the standa...</div><div class="ttdef"><b>Definition:</b> <a href="Unit_8hpp_source.html#l00075">Unit.hpp:75</a></div></div>
-<div class="ttc" id="anamespacePhQ_1_1Internal_html_a54ce004d9026ab5e6ea4427873744a26"><div class="ttname"><a href="namespacePhQ_1_1Internal.html#a54ce004d9026ab5e6ea4427873744a26">PhQ::Internal::Spellings</a></div><div class="ttdeci">const std::unordered_map&lt; std::string_view, Enumeration &gt; Spellings</div><div class="ttdoc">Map of spellings to their corresponding enumeration values. This is an internal implementation detail...</div><div class="ttdef"><b>Definition:</b> <a href="Base_8hpp_source.html#l00098">Base.hpp:98</a></div></div>
 <div class="ttc" id="anamespacePhQ_1_1Unit_html_a2e6f71b9e47d2b68ce4a58b527b46e09"><div class="ttname"><a href="namespacePhQ_1_1Unit.html#a2e6f71b9e47d2b68ce4a58b527b46e09">PhQ::Unit::Mass</a></div><div class="ttdeci">Mass</div><div class="ttdoc">Mass units.</div><div class="ttdef"><b>Definition:</b> <a href="Unit_2Mass_8hpp_source.html#l00055">Mass.hpp:55</a></div></div>
 <div class="ttc" id="anamespacePhQ_1_1Unit_html_a3c167018d0818cf5b0ce11aafe7dc67c"><div class="ttname"><a href="namespacePhQ_1_1Unit.html#a3c167018d0818cf5b0ce11aafe7dc67c">PhQ::Unit::Length</a></div><div class="ttdeci">Length</div><div class="ttdoc">Length units.</div><div class="ttdef"><b>Definition:</b> <a href="Unit_2Length_8hpp_source.html#l00055">Length.hpp:55</a></div></div>
 <div class="ttc" id="anamespacePhQ_1_1Unit_html_a79857f614e4ca41f98abf938a339e0e5"><div class="ttname"><a href="namespacePhQ_1_1Unit.html#a79857f614e4ca41f98abf938a339e0e5">PhQ::Unit::SubstanceAmount</a></div><div class="ttdeci">SubstanceAmount</div><div class="ttdoc">Amount of substance units.</div><div class="ttdef"><b>Definition:</b> <a href="Unit_2SubstanceAmount_8hpp_source.html#l00055">SubstanceAmount.hpp:55</a></div></div>

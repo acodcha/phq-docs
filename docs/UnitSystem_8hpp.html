@@ -115,9 +115,6 @@ Namespaces</h2></td></tr>
 <tr class="memitem:namespacePhQ"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePhQ.html">PhQ</a></td></tr>
 <tr class="memdesc:namespacePhQ"><td class="mdescLeft">&#160;</td><td class="mdescRight">Namespace that encompasses all of the Physical Quantities library's content. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:namespacePhQ_1_1Internal"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacePhQ_1_1Internal.html">PhQ::Internal</a></td></tr>
-<tr class="memdesc:namespacePhQ_1_1Internal"><td class="mdescLeft">&#160;</td><td class="mdescRight">Namespace that contains internal implementation details of the Physical Quantities library. Contents within this namespace are not meant to be used except by the the Physical Quantities library's own functions and classes. <br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
@@ -152,20 +149,6 @@ Variables</h2></td></tr>
 <tr class="memitem:a49a238ac79069d2a8f30a5e7d86cfd2f"><td class="memTemplItemLeft" align="right" valign="top">constexpr const UnitSystem&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacePhQ.html#a49a238ac79069d2a8f30a5e7d86cfd2f">PhQ::Standard&lt; UnitSystem &gt;</a> {UnitSystem::MetreKilogramSecondKelvin}</td></tr>
 <tr class="memdesc:a49a238ac79069d2a8f30a5e7d86cfd2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">The standard unit system: the International System of Units (SI). It uses the following standard units: second (s) for time, metre (m) for length, kilogram (kg) for mass, ampere (A) for electric current, kelvin (K) for temperature, mole (mol) for substance amount, and candela (cd) for luminous intensity.  <a href="namespacePhQ.html#a49a238ac79069d2a8f30a5e7d86cfd2f">More...</a><br /></td></tr>
 <tr class="separator:a49a238ac79069d2a8f30a5e7d86cfd2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3a710dcb92bce0bee7b8330083dc8458"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
-<tr class="memitem:a3a710dcb92bce0bee7b8330083dc8458"><td class="memTemplItemLeft" align="right" valign="top">const std::map&lt; UnitSystem, std::string_view &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacePhQ_1_1Internal.html#a3a710dcb92bce0bee7b8330083dc8458">PhQ::Internal::Abbreviations&lt; UnitSystem &gt;</a></td></tr>
-<tr class="separator:a3a710dcb92bce0bee7b8330083dc8458"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a97c51eafaec2252636898d5fa16594b0"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
-<tr class="memitem:a97c51eafaec2252636898d5fa16594b0"><td class="memTemplItemLeft" align="right" valign="top">const std::unordered_map&lt; std::string_view, UnitSystem &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacePhQ_1_1Internal.html#a97c51eafaec2252636898d5fa16594b0">PhQ::Internal::Spellings&lt; UnitSystem &gt;</a></td></tr>
-<tr class="separator:a97c51eafaec2252636898d5fa16594b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa33c9ff1e58d5324a9c8c7b93d20d650"><td class="memTemplParams" colspan="2">template&lt;typename Unit &gt; </td></tr>
-<tr class="memitem:aa33c9ff1e58d5324a9c8c7b93d20d650"><td class="memTemplItemLeft" align="right" valign="top">const std::map&lt; UnitSystem, Unit &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacePhQ_1_1Internal.html#aa33c9ff1e58d5324a9c8c7b93d20d650">PhQ::Internal::ConsistentUnits</a></td></tr>
-<tr class="memdesc:aa33c9ff1e58d5324a9c8c7b93d20d650"><td class="mdescLeft">&#160;</td><td class="mdescRight">Map of unit systems to their corresponding units. This is an internal implementation detail and is not intended to be used except by the <a class="el" href="namespacePhQ.html#a235315b67af4910e80d6c4bd279f15ce" title="Returns the unit of a given type that corresponds to a given unit system. For example,...">PhQ::ConsistentUnit</a> function.  <a href="namespacePhQ_1_1Internal.html#aa33c9ff1e58d5324a9c8c7b93d20d650">More...</a><br /></td></tr>
-<tr class="separator:aa33c9ff1e58d5324a9c8c7b93d20d650"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a86d3b466a9a89f11ab8a85a87452d758"><td class="memTemplParams" colspan="2">template&lt;typename Unit &gt; </td></tr>
-<tr class="memitem:a86d3b466a9a89f11ab8a85a87452d758"><td class="memTemplItemLeft" align="right" valign="top">const std::map&lt; Unit, UnitSystem &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacePhQ_1_1Internal.html#a86d3b466a9a89f11ab8a85a87452d758">PhQ::Internal::RelatedUnitSystems</a></td></tr>
-<tr class="memdesc:a86d3b466a9a89f11ab8a85a87452d758"><td class="mdescLeft">&#160;</td><td class="mdescRight">Map of units to their corresponding unit systems. This is an internal implementation detail and is not intended to be used except by the <a class="el" href="namespacePhQ.html#a8cc3aae9a7b257010986c978ab8249e0" title="Returns the unit system, if any, that corresponds to a given unit, or std::nullptr otherwise....">PhQ::RelatedUnitSystem</a> function.  <a href="namespacePhQ_1_1Internal.html#a86d3b466a9a89f11ab8a85a87452d758">More...</a><br /></td></tr>
-<tr class="separator:a86d3b466a9a89f11ab8a85a87452d758"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->
