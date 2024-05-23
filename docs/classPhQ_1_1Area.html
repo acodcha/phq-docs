@@ -105,7 +105,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search','.html');
 </div><!--header-->
 <div class="contents">
 
-<p>Scalar area. Can also represent a component or the magnitude of a vector area. See also <a class="el" href="classPhQ_1_1VectorArea.html" title="Vector area. The vector analog to a scalar area. See also PhQ::Area.">PhQ::VectorArea</a>.  
+<p>Scalar area. Can also represent a component or the magnitude of a vector area. See also <a class="el" href="classPhQ_1_1VectorArea.html" title="Vector-area. The vector analog to a scalar area. See also PhQ::Area.">PhQ::VectorArea</a>.  
  <a href="classPhQ_1_1Area.html#details">More...</a></p>
 
 <p><code>#include &quot;<a class="el" href="Area_8hpp_source.html">Area.hpp</a>&quot;</code></p>
@@ -124,6 +124,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a0e9808c811eab78376b39a1802c82320"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Area.html#a0e9808c811eab78376b39a1802c82320">Area</a> (const <a class="el" href="classPhQ_1_1Volume.html">Volume</a>&lt; Number &gt; &amp;volume, const <a class="el" href="classPhQ_1_1Length.html">Length</a>&lt; Number &gt; &amp;length)</td></tr>
 <tr class="memdesc:a0e9808c811eab78376b39a1802c82320"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs an area from a given volume and length.  <a href="classPhQ_1_1Area.html#a0e9808c811eab78376b39a1802c82320">More...</a><br /></td></tr>
 <tr class="separator:a0e9808c811eab78376b39a1802c82320"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5684de430023965e69dd964bcbd9be0"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Area.html#ae5684de430023965e69dd964bcbd9be0">Area</a> (const <a class="el" href="classPhQ_1_1ScalarForce.html">ScalarForce</a>&lt; Number &gt; &amp;scalar_force, const <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt; Number &gt; &amp;scalar_traction)</td></tr>
+<tr class="memdesc:ae5684de430023965e69dd964bcbd9be0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs an area from a given scalar force magnitude and scalar traction magnitude using the definition of traction.  <a href="classPhQ_1_1Area.html#ae5684de430023965e69dd964bcbd9be0">More...</a><br /></td></tr>
+<tr class="separator:ae5684de430023965e69dd964bcbd9be0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a453ebdd61341f2374167300998c69799"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Area.html#a453ebdd61341f2374167300998c69799">Area</a> (const <a class="el" href="classPhQ_1_1ScalarForce.html">ScalarForce</a>&lt; Number &gt; &amp;scalar_force, const <a class="el" href="classPhQ_1_1StaticPressure.html">StaticPressure</a>&lt; Number &gt; &amp;static_pressure)</td></tr>
 <tr class="memdesc:a453ebdd61341f2374167300998c69799"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs an area from a given scalar force magnitude and static pressure using the definition of pressure.  <a href="classPhQ_1_1Area.html#a453ebdd61341f2374167300998c69799">More...</a><br /></td></tr>
 <tr class="separator:a453ebdd61341f2374167300998c69799"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -158,6 +161,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a33c2b5f26d841936479494d597111884"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a804369c05da76ad2f721c8225a32ccae"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1Volume.html">Volume</a>&lt; Number &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Area.html#a804369c05da76ad2f721c8225a32ccae">operator*</a> (const <a class="el" href="classPhQ_1_1Length.html">Length</a>&lt; Number &gt; &amp;length) const</td></tr>
 <tr class="separator:a804369c05da76ad2f721c8225a32ccae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad2ce7378511e85033eed8f60df5a4934"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1ScalarForce.html">ScalarForce</a>&lt; Number &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Area.html#ad2ce7378511e85033eed8f60df5a4934">operator*</a> (const <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt; Number &gt; &amp;scalar_traction) const</td></tr>
+<tr class="separator:ad2ce7378511e85033eed8f60df5a4934"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1444e1d3c5c6dd9b8ba621561003ddc1"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1ScalarForce.html">ScalarForce</a>&lt; Number &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Area.html#a1444e1d3c5c6dd9b8ba621561003ddc1">operator*</a> (const <a class="el" href="classPhQ_1_1StaticPressure.html">StaticPressure</a>&lt; Number &gt; &amp;static_pressure) const</td></tr>
 <tr class="separator:a1444e1d3c5c6dd9b8ba621561003ddc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1bda0816876532d9ada500dc677b1013"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1VectorArea.html">VectorArea</a>&lt; Number &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Area.html#a1bda0816876532d9ada500dc677b1013">operator*</a> (const <a class="el" href="classPhQ_1_1Direction.html">Direction</a>&lt; Number &gt; &amp;direction) const</td></tr>
@@ -254,12 +259,12 @@ Friends</h2></td></tr>
 <div class="textblock"><h3>template&lt;typename Number = double&gt;<br />
 class PhQ::Area&lt; Number &gt;</h3>
 
-<p>Scalar area. Can also represent a component or the magnitude of a vector area. See also <a class="el" href="classPhQ_1_1VectorArea.html" title="Vector area. The vector analog to a scalar area. See also PhQ::Area.">PhQ::VectorArea</a>. </p>
+<p>Scalar area. Can also represent a component or the magnitude of a vector area. See also <a class="el" href="classPhQ_1_1VectorArea.html" title="Vector-area. The vector analog to a scalar area. See also PhQ::Area.">PhQ::VectorArea</a>. </p>
 
-<p class="definition">Definition at line <a class="el" href="Area_8hpp_source.html#l00067">67</a> of file <a class="el" href="Area_8hpp_source.html">Area.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Area_8hpp_source.html#l00071">71</a> of file <a class="el" href="Area_8hpp_source.html">Area.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aa13deecb1f03a77abb59221aea9233b5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa13deecb1f03a77abb59221aea9233b5">&#9670;&nbsp;</a></span>Area() <span class="overload">[1/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aa13deecb1f03a77abb59221aea9233b5">&#9670;&nbsp;</a></span>Area() <span class="overload">[1/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -288,7 +293,7 @@ template&lt;typename Number  = double&gt; </div>
 </div>
 </div>
 <a id="a2e22ea8d435a22fb375e464e75ddc30f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2e22ea8d435a22fb375e464e75ddc30f">&#9670;&nbsp;</a></span>Area() <span class="overload">[2/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e22ea8d435a22fb375e464e75ddc30f">&#9670;&nbsp;</a></span>Area() <span class="overload">[2/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -325,12 +330,12 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Constructor. Constructs an area with a given value expressed in a given area unit. </p>
 
-<p class="definition">Definition at line <a class="el" href="Area_8hpp_source.html#l00073">73</a> of file <a class="el" href="Area_8hpp_source.html">Area.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Area_8hpp_source.html#l00077">77</a> of file <a class="el" href="Area_8hpp_source.html">Area.hpp</a>.</p>
 
 </div>
 </div>
 <a id="af8220797b724430f0f8bfd7741d3a69b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af8220797b724430f0f8bfd7741d3a69b">&#9670;&nbsp;</a></span>Area() <span class="overload">[3/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#af8220797b724430f0f8bfd7741d3a69b">&#9670;&nbsp;</a></span>Area() <span class="overload">[3/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -367,12 +372,12 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Constructor. Constructs an area from two given lengths. </p>
 
-<p class="definition">Definition at line <a class="el" href="Area_8hpp_source.html#l00077">77</a> of file <a class="el" href="Area_8hpp_source.html">Area.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Area_8hpp_source.html#l00081">81</a> of file <a class="el" href="Area_8hpp_source.html">Area.hpp</a>.</p>
 
 </div>
 </div>
 <a id="a0e9808c811eab78376b39a1802c82320"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0e9808c811eab78376b39a1802c82320">&#9670;&nbsp;</a></span>Area() <span class="overload">[4/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e9808c811eab78376b39a1802c82320">&#9670;&nbsp;</a></span>Area() <span class="overload">[4/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -411,8 +416,48 @@ template&lt;typename Number  = double&gt; </div>
 
 </div>
 </div>
+<a id="ae5684de430023965e69dd964bcbd9be0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae5684de430023965e69dd964bcbd9be0">&#9670;&nbsp;</a></span>Area() <span class="overload">[5/10]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Number  = double&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Area.html">PhQ::Area</a>&lt; Number &gt;::<a class="el" href="classPhQ_1_1Area.html">Area</a> </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1ScalarForce.html">ScalarForce</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramname"><em>scalar_force</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramname"><em>scalar_traction</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Constructor. Constructs an area from a given scalar force magnitude and scalar traction magnitude using the definition of traction. </p>
+
+</div>
+</div>
 <a id="a453ebdd61341f2374167300998c69799"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a453ebdd61341f2374167300998c69799">&#9670;&nbsp;</a></span>Area() <span class="overload">[5/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a453ebdd61341f2374167300998c69799">&#9670;&nbsp;</a></span>Area() <span class="overload">[6/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -481,7 +526,7 @@ template&lt;typename Number  = double&gt; </div>
 </div>
 </div>
 <a id="a09c0cda5322fa80173a9208fbf7eaa36"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a09c0cda5322fa80173a9208fbf7eaa36">&#9670;&nbsp;</a></span>Area() <span class="overload">[6/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a09c0cda5322fa80173a9208fbf7eaa36">&#9670;&nbsp;</a></span>Area() <span class="overload">[7/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -511,7 +556,7 @@ template&lt;typename Number  = double&gt; </div>
 </div>
 </div>
 <a id="a47ae9c80a9435c771b9bf1099a4550ec"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a47ae9c80a9435c771b9bf1099a4550ec">&#9670;&nbsp;</a></span>Area() <span class="overload">[7/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a47ae9c80a9435c771b9bf1099a4550ec">&#9670;&nbsp;</a></span>Area() <span class="overload">[8/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -540,12 +585,12 @@ template&lt;typename OtherNumber &gt; </div>
 
 <p>Copy constructor. Constructs an area by copying another one. </p>
 
-<p class="definition">Definition at line <a class="el" href="Area_8hpp_source.html#l00096">96</a> of file <a class="el" href="Area_8hpp_source.html">Area.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Area_8hpp_source.html#l00105">105</a> of file <a class="el" href="Area_8hpp_source.html">Area.hpp</a>.</p>
 
 </div>
 </div>
 <a id="a367cf7aa151711b6fa335438f12a5197"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a367cf7aa151711b6fa335438f12a5197">&#9670;&nbsp;</a></span>Area() <span class="overload">[8/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a367cf7aa151711b6fa335438f12a5197">&#9670;&nbsp;</a></span>Area() <span class="overload">[9/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -575,7 +620,7 @@ template&lt;typename Number  = double&gt; </div>
 </div>
 </div>
 <a id="ada2e0aca61d5b9da7ed13376b5b798e8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ada2e0aca61d5b9da7ed13376b5b798e8">&#9670;&nbsp;</a></span>Area() <span class="overload">[9/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ada2e0aca61d5b9da7ed13376b5b798e8">&#9670;&nbsp;</a></span>Area() <span class="overload">[10/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -602,7 +647,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Constructor. Constructs an area with a given value expressed in the standard area unit. </p>
 
-<p class="definition">Definition at line <a class="el" href="Area_8hpp_source.html#l00174">174</a> of file <a class="el" href="Area_8hpp_source.html">Area.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Area_8hpp_source.html#l00185">185</a> of file <a class="el" href="Area_8hpp_source.html">Area.hpp</a>.</p>
 
 </div>
 </div>
@@ -637,7 +682,7 @@ template&lt;Unit::Area Unit&gt; </div>
 
 <p>Statically creates an area with a given value expressed in a given area unit. </p>
 
-<p class="definition">Definition at line <a class="el" href="Area_8hpp_source.html#l00122">122</a> of file <a class="el" href="Area_8hpp_source.html">Area.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Area_8hpp_source.html#l00131">131</a> of file <a class="el" href="Area_8hpp_source.html">Area.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00218">PhQ::DimensionalScalar&lt; Unit::Area, double &gt;::value</a>.</p>
 
@@ -761,7 +806,7 @@ template&lt;Unit::Area Unit&gt; </div>
 </div>
 </div>
 <a id="a1bda0816876532d9ada500dc677b1013"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1bda0816876532d9ada500dc677b1013">&#9670;&nbsp;</a></span>operator*() <span class="overload">[1/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a1bda0816876532d9ada500dc677b1013">&#9670;&nbsp;</a></span>operator*() <span class="overload">[1/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -789,7 +834,7 @@ template&lt;typename Number  = double&gt; </div>
 </div>
 </div>
 <a id="a804369c05da76ad2f721c8225a32ccae"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a804369c05da76ad2f721c8225a32ccae">&#9670;&nbsp;</a></span>operator*() <span class="overload">[2/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a804369c05da76ad2f721c8225a32ccae">&#9670;&nbsp;</a></span>operator*() <span class="overload">[2/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -817,7 +862,7 @@ template&lt;typename Number  = double&gt; </div>
 </div>
 </div>
 <a id="a33c2b5f26d841936479494d597111884"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a33c2b5f26d841936479494d597111884">&#9670;&nbsp;</a></span>operator*() <span class="overload">[3/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a33c2b5f26d841936479494d597111884">&#9670;&nbsp;</a></span>operator*() <span class="overload">[3/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -842,14 +887,42 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Area_8hpp_source.html#l00134">134</a> of file <a class="el" href="Area_8hpp_source.html">Area.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Area_8hpp_source.html#l00143">143</a> of file <a class="el" href="Area_8hpp_source.html">Area.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00218">PhQ::DimensionalScalar&lt; Unit::Area, double &gt;::value</a>.</p>
 
 </div>
 </div>
+<a id="ad2ce7378511e85033eed8f60df5a4934"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad2ce7378511e85033eed8f60df5a4934">&#9670;&nbsp;</a></span>operator*() <span class="overload">[4/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Number  = double&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1ScalarForce.html">ScalarForce</a>&lt;Number&gt; <a class="el" href="classPhQ_1_1Area.html">PhQ::Area</a>&lt; Number &gt;::operator* </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramname"><em>scalar_traction</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a1444e1d3c5c6dd9b8ba621561003ddc1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1444e1d3c5c6dd9b8ba621561003ddc1">&#9670;&nbsp;</a></span>operator*() <span class="overload">[4/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a1444e1d3c5c6dd9b8ba621561003ddc1">&#9670;&nbsp;</a></span>operator*() <span class="overload">[5/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -902,7 +975,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Area_8hpp_source.html#l00164">164</a> of file <a class="el" href="Area_8hpp_source.html">Area.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Area_8hpp_source.html#l00175">175</a> of file <a class="el" href="Area_8hpp_source.html">Area.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00218">PhQ::DimensionalScalar&lt; Unit::Area, double &gt;::value</a>.</p>
 
@@ -934,7 +1007,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Area_8hpp_source.html#l00126">126</a> of file <a class="el" href="Area_8hpp_source.html">Area.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Area_8hpp_source.html#l00135">135</a> of file <a class="el" href="Area_8hpp_source.html">Area.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00218">PhQ::DimensionalScalar&lt; UnitType, Number &gt;::value</a>, and <a class="el" href="DimensionalScalar_8hpp_source.html#l00218">PhQ::DimensionalScalar&lt; Unit::Area, double &gt;::value</a>.</p>
 
@@ -966,7 +1039,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Area_8hpp_source.html#l00156">156</a> of file <a class="el" href="Area_8hpp_source.html">Area.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Area_8hpp_source.html#l00167">167</a> of file <a class="el" href="Area_8hpp_source.html">Area.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00218">PhQ::DimensionalScalar&lt; Unit::Area, double &gt;::value</a>.</p>
 
@@ -998,7 +1071,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Area_8hpp_source.html#l00130">130</a> of file <a class="el" href="Area_8hpp_source.html">Area.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Area_8hpp_source.html#l00139">139</a> of file <a class="el" href="Area_8hpp_source.html">Area.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00218">PhQ::DimensionalScalar&lt; UnitType, Number &gt;::value</a>, and <a class="el" href="DimensionalScalar_8hpp_source.html#l00218">PhQ::DimensionalScalar&lt; Unit::Area, double &gt;::value</a>.</p>
 
@@ -1030,7 +1103,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Area_8hpp_source.html#l00160">160</a> of file <a class="el" href="Area_8hpp_source.html">Area.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Area_8hpp_source.html#l00171">171</a> of file <a class="el" href="Area_8hpp_source.html">Area.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00218">PhQ::DimensionalScalar&lt; Unit::Area, double &gt;::value</a>.</p>
 
@@ -1062,7 +1135,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Area_8hpp_source.html#l00152">152</a> of file <a class="el" href="Area_8hpp_source.html">Area.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Area_8hpp_source.html#l00163">163</a> of file <a class="el" href="Area_8hpp_source.html">Area.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00218">PhQ::DimensionalScalar&lt; Unit::Area, double &gt;::value</a>.</p>
 
@@ -1094,7 +1167,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Area_8hpp_source.html#l00148">148</a> of file <a class="el" href="Area_8hpp_source.html">Area.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Area_8hpp_source.html#l00159">159</a> of file <a class="el" href="Area_8hpp_source.html">Area.hpp</a>.</p>
 
 </div>
 </div>
@@ -1124,7 +1197,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Area_8hpp_source.html#l00144">144</a> of file <a class="el" href="Area_8hpp_source.html">Area.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Area_8hpp_source.html#l00155">155</a> of file <a class="el" href="Area_8hpp_source.html">Area.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00218">PhQ::DimensionalScalar&lt; Unit::Area, double &gt;::value</a>.</p>
 
@@ -1156,7 +1229,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Area_8hpp_source.html#l00168">168</a> of file <a class="el" href="Area_8hpp_source.html">Area.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Area_8hpp_source.html#l00179">179</a> of file <a class="el" href="Area_8hpp_source.html">Area.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00218">PhQ::DimensionalScalar&lt; Unit::Area, double &gt;::value</a>.</p>
 
@@ -1252,7 +1325,7 @@ template&lt;typename OtherNumber &gt; </div>
 
 <p>Copy assignment operator. Assigns this area by copying another one. </p>
 
-<p class="definition">Definition at line <a class="el" href="Area_8hpp_source.html#l00107">107</a> of file <a class="el" href="Area_8hpp_source.html">Area.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Area_8hpp_source.html#l00116">116</a> of file <a class="el" href="Area_8hpp_source.html">Area.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00064">PhQ::DimensionalScalar&lt; UnitType, Number &gt;::Value()</a>, and <a class="el" href="DimensionalScalar_8hpp_source.html#l00218">PhQ::DimensionalScalar&lt; Unit::Area, double &gt;::value</a>.</p>
 
@@ -1609,7 +1682,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Statically creates an area of zero. </p>
 
-<p class="definition">Definition at line <a class="el" href="Area_8hpp_source.html#l00116">116</a> of file <a class="el" href="Area_8hpp_source.html">Area.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Area_8hpp_source.html#l00125">125</a> of file <a class="el" href="Area_8hpp_source.html">Area.hpp</a>.</p>
 
 </div>
 </div>
@@ -1638,7 +1711,7 @@ template&lt;typename OtherArea &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Area_8hpp_source.html#l00177">177</a> of file <a class="el" href="Area_8hpp_source.html">Area.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Area_8hpp_source.html#l00188">188</a> of file <a class="el" href="Area_8hpp_source.html">Area.hpp</a>.</p>
 
 </div>
 </div>

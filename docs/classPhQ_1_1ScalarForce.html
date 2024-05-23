@@ -118,6 +118,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aaff8942a757e572b90c16ccc3db955cb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1ScalarForce.html#aaff8942a757e572b90c16ccc3db955cb">ScalarForce</a> (const Number <a class="el" href="classPhQ_1_1DimensionalScalar.html#a076d75036473812cf5583dc12b30aac2">value</a>, const <a class="el" href="namespacePhQ_1_1Unit.html#a20e1ca5befd77a102d307dd0e77baa1d">Unit::Force</a> unit)</td></tr>
 <tr class="memdesc:aaff8942a757e572b90c16ccc3db955cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a scalar force with a given value expressed in a given force unit.  <a href="classPhQ_1_1ScalarForce.html#aaff8942a757e572b90c16ccc3db955cb">More...</a><br /></td></tr>
 <tr class="separator:aaff8942a757e572b90c16ccc3db955cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a54b5b29d5227502d402d73ab01536be6"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1ScalarForce.html#a54b5b29d5227502d402d73ab01536be6">ScalarForce</a> (const <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt; Number &gt; &amp;scalar_traction, const <a class="el" href="classPhQ_1_1Area.html">Area</a>&lt; Number &gt; &amp;area)</td></tr>
+<tr class="memdesc:a54b5b29d5227502d402d73ab01536be6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a scalar force from a given scalar traction and area using the definition of traction.  <a href="classPhQ_1_1ScalarForce.html#a54b5b29d5227502d402d73ab01536be6">More...</a><br /></td></tr>
+<tr class="separator:a54b5b29d5227502d402d73ab01536be6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abd47effb33036e1ffd884202dc196d6f"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1ScalarForce.html#abd47effb33036e1ffd884202dc196d6f">ScalarForce</a> (const <a class="el" href="classPhQ_1_1StaticPressure.html">StaticPressure</a>&lt; Number &gt; &amp;static_pressure, const <a class="el" href="classPhQ_1_1Area.html">Area</a>&lt; Number &gt; &amp;area)</td></tr>
 <tr class="memdesc:abd47effb33036e1ffd884202dc196d6f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a scalar force from a given static pressure and area using the definition of pressure.  <a href="classPhQ_1_1ScalarForce.html#abd47effb33036e1ffd884202dc196d6f">More...</a><br /></td></tr>
 <tr class="separator:abd47effb33036e1ffd884202dc196d6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -247,10 +250,10 @@ class PhQ::ScalarForce&lt; Number &gt;</h3>
 
 <p>Scalar force component or magnitude of a force vector. See also <a class="el" href="classPhQ_1_1Force.html" title="Force vector. See also PhQ::ScalarForce.">PhQ::Force</a>. </p>
 
-<p class="definition">Definition at line <a class="el" href="ScalarForce_8hpp_source.html#l00054">54</a> of file <a class="el" href="ScalarForce_8hpp_source.html">ScalarForce.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ScalarForce_8hpp_source.html#l00058">58</a> of file <a class="el" href="ScalarForce_8hpp_source.html">ScalarForce.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a2d809afca00b625335c35fc0b136ff7d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2d809afca00b625335c35fc0b136ff7d">&#9670;&nbsp;</a></span>ScalarForce() <span class="overload">[1/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d809afca00b625335c35fc0b136ff7d">&#9670;&nbsp;</a></span>ScalarForce() <span class="overload">[1/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -279,7 +282,7 @@ template&lt;typename Number  = double&gt; </div>
 </div>
 </div>
 <a id="aaff8942a757e572b90c16ccc3db955cb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaff8942a757e572b90c16ccc3db955cb">&#9670;&nbsp;</a></span>ScalarForce() <span class="overload">[2/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aaff8942a757e572b90c16ccc3db955cb">&#9670;&nbsp;</a></span>ScalarForce() <span class="overload">[2/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -316,12 +319,54 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Constructor. Constructs a scalar force with a given value expressed in a given force unit. </p>
 
-<p class="definition">Definition at line <a class="el" href="ScalarForce_8hpp_source.html#l00061">61</a> of file <a class="el" href="ScalarForce_8hpp_source.html">ScalarForce.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ScalarForce_8hpp_source.html#l00065">65</a> of file <a class="el" href="ScalarForce_8hpp_source.html">ScalarForce.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a54b5b29d5227502d402d73ab01536be6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a54b5b29d5227502d402d73ab01536be6">&#9670;&nbsp;</a></span>ScalarForce() <span class="overload">[3/8]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Number &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1ScalarForce.html">PhQ::ScalarForce</a>&lt; Number &gt;::<a class="el" href="classPhQ_1_1ScalarForce.html">ScalarForce</a> </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramname"><em>scalar_traction</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1Area.html">Area</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramname"><em>area</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Constructor. Constructs a scalar force from a given scalar traction and area using the definition of traction. </p>
+
+<p class="definition">Definition at line <a class="el" href="ScalarTraction_8hpp_source.html#l00215">215</a> of file <a class="el" href="ScalarTraction_8hpp_source.html">ScalarTraction.hpp</a>.</p>
 
 </div>
 </div>
 <a id="abd47effb33036e1ffd884202dc196d6f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abd47effb33036e1ffd884202dc196d6f">&#9670;&nbsp;</a></span>ScalarForce() <span class="overload">[3/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#abd47effb33036e1ffd884202dc196d6f">&#9670;&nbsp;</a></span>ScalarForce() <span class="overload">[4/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -358,7 +403,7 @@ template&lt;typename Number &gt; </div>
 
 <p>Constructor. Constructs a scalar force from a given static pressure and area using the definition of pressure. </p>
 
-<p class="definition">Definition at line <a class="el" href="StaticPressure_8hpp_source.html#l00255">255</a> of file <a class="el" href="StaticPressure_8hpp_source.html">StaticPressure.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="StaticPressure_8hpp_source.html#l00244">244</a> of file <a class="el" href="StaticPressure_8hpp_source.html">StaticPressure.hpp</a>.</p>
 
 </div>
 </div>
@@ -392,7 +437,7 @@ template&lt;typename Number  = double&gt; </div>
 </div>
 </div>
 <a id="ab60c9ff4a88993f08ba636ac245cad07"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab60c9ff4a88993f08ba636ac245cad07">&#9670;&nbsp;</a></span>ScalarForce() <span class="overload">[4/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ab60c9ff4a88993f08ba636ac245cad07">&#9670;&nbsp;</a></span>ScalarForce() <span class="overload">[5/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -422,7 +467,7 @@ template&lt;typename Number  = double&gt; </div>
 </div>
 </div>
 <a id="a9f330fdd8b2578839bb817a99f5885bc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9f330fdd8b2578839bb817a99f5885bc">&#9670;&nbsp;</a></span>ScalarForce() <span class="overload">[5/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f330fdd8b2578839bb817a99f5885bc">&#9670;&nbsp;</a></span>ScalarForce() <span class="overload">[6/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -451,12 +496,12 @@ template&lt;typename OtherNumber &gt; </div>
 
 <p>Copy constructor. Constructs a scalar force by copying another one. </p>
 
-<p class="definition">Definition at line <a class="el" href="ScalarForce_8hpp_source.html#l00076">76</a> of file <a class="el" href="ScalarForce_8hpp_source.html">ScalarForce.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ScalarForce_8hpp_source.html#l00084">84</a> of file <a class="el" href="ScalarForce_8hpp_source.html">ScalarForce.hpp</a>.</p>
 
 </div>
 </div>
 <a id="a193bcd031e7ffafa6c91c0d19da3df75"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a193bcd031e7ffafa6c91c0d19da3df75">&#9670;&nbsp;</a></span>ScalarForce() <span class="overload">[6/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a193bcd031e7ffafa6c91c0d19da3df75">&#9670;&nbsp;</a></span>ScalarForce() <span class="overload">[7/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -486,7 +531,7 @@ template&lt;typename Number  = double&gt; </div>
 </div>
 </div>
 <a id="a33aeaba86fe611823df33ba200203064"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a33aeaba86fe611823df33ba200203064">&#9670;&nbsp;</a></span>ScalarForce() <span class="overload">[7/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a33aeaba86fe611823df33ba200203064">&#9670;&nbsp;</a></span>ScalarForce() <span class="overload">[8/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -513,7 +558,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Constructor. Constructs a scalar force with a given value expressed in the standard force unit. </p>
 
-<p class="definition">Definition at line <a class="el" href="ScalarForce_8hpp_source.html#l00149">149</a> of file <a class="el" href="ScalarForce_8hpp_source.html">ScalarForce.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ScalarForce_8hpp_source.html#l00157">157</a> of file <a class="el" href="ScalarForce_8hpp_source.html">ScalarForce.hpp</a>.</p>
 
 </div>
 </div>
@@ -548,7 +593,7 @@ template&lt;Unit::Force Unit&gt; </div>
 
 <p>Statically creates a scalar force with a given value expressed in a given force unit. </p>
 
-<p class="definition">Definition at line <a class="el" href="ScalarForce_8hpp_source.html#l00102">102</a> of file <a class="el" href="ScalarForce_8hpp_source.html">ScalarForce.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ScalarForce_8hpp_source.html#l00110">110</a> of file <a class="el" href="ScalarForce_8hpp_source.html">ScalarForce.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00218">PhQ::DimensionalScalar&lt; Unit::Force, double &gt;::value</a>.</p>
 
@@ -727,7 +772,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ScalarForce_8hpp_source.html#l00114">114</a> of file <a class="el" href="ScalarForce_8hpp_source.html">ScalarForce.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ScalarForce_8hpp_source.html#l00122">122</a> of file <a class="el" href="ScalarForce_8hpp_source.html">ScalarForce.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00218">PhQ::DimensionalScalar&lt; Unit::Force, double &gt;::value</a>.</p>
 
@@ -759,7 +804,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ScalarForce_8hpp_source.html#l00138">138</a> of file <a class="el" href="ScalarForce_8hpp_source.html">ScalarForce.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ScalarForce_8hpp_source.html#l00146">146</a> of file <a class="el" href="ScalarForce_8hpp_source.html">ScalarForce.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00218">PhQ::DimensionalScalar&lt; Unit::Force, double &gt;::value</a>.</p>
 
@@ -791,7 +836,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ScalarForce_8hpp_source.html#l00106">106</a> of file <a class="el" href="ScalarForce_8hpp_source.html">ScalarForce.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ScalarForce_8hpp_source.html#l00114">114</a> of file <a class="el" href="ScalarForce_8hpp_source.html">ScalarForce.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00218">PhQ::DimensionalScalar&lt; UnitType, Number &gt;::value</a>, and <a class="el" href="DimensionalScalar_8hpp_source.html#l00218">PhQ::DimensionalScalar&lt; Unit::Force, double &gt;::value</a>.</p>
 
@@ -823,7 +868,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ScalarForce_8hpp_source.html#l00130">130</a> of file <a class="el" href="ScalarForce_8hpp_source.html">ScalarForce.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ScalarForce_8hpp_source.html#l00138">138</a> of file <a class="el" href="ScalarForce_8hpp_source.html">ScalarForce.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00218">PhQ::DimensionalScalar&lt; Unit::Force, double &gt;::value</a>.</p>
 
@@ -855,7 +900,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ScalarForce_8hpp_source.html#l00110">110</a> of file <a class="el" href="ScalarForce_8hpp_source.html">ScalarForce.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ScalarForce_8hpp_source.html#l00118">118</a> of file <a class="el" href="ScalarForce_8hpp_source.html">ScalarForce.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00218">PhQ::DimensionalScalar&lt; UnitType, Number &gt;::value</a>, and <a class="el" href="DimensionalScalar_8hpp_source.html#l00218">PhQ::DimensionalScalar&lt; Unit::Force, double &gt;::value</a>.</p>
 
@@ -887,7 +932,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ScalarForce_8hpp_source.html#l00134">134</a> of file <a class="el" href="ScalarForce_8hpp_source.html">ScalarForce.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ScalarForce_8hpp_source.html#l00142">142</a> of file <a class="el" href="ScalarForce_8hpp_source.html">ScalarForce.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00218">PhQ::DimensionalScalar&lt; Unit::Force, double &gt;::value</a>.</p>
 
@@ -919,7 +964,7 @@ template&lt;typename Number &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="StaticPressure_8hpp_source.html#l00266">266</a> of file <a class="el" href="StaticPressure_8hpp_source.html">StaticPressure.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="StaticPressure_8hpp_source.html#l00255">255</a> of file <a class="el" href="StaticPressure_8hpp_source.html">StaticPressure.hpp</a>.</p>
 
 </div>
 </div>
@@ -949,7 +994,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ScalarForce_8hpp_source.html#l00120">120</a> of file <a class="el" href="ScalarForce_8hpp_source.html">ScalarForce.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ScalarForce_8hpp_source.html#l00128">128</a> of file <a class="el" href="ScalarForce_8hpp_source.html">ScalarForce.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00218">PhQ::DimensionalScalar&lt; Unit::Force, double &gt;::value</a>.</p>
 
@@ -981,7 +1026,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ScalarForce_8hpp_source.html#l00126">126</a> of file <a class="el" href="ScalarForce_8hpp_source.html">ScalarForce.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ScalarForce_8hpp_source.html#l00134">134</a> of file <a class="el" href="ScalarForce_8hpp_source.html">ScalarForce.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00218">PhQ::DimensionalScalar&lt; Unit::Force, double &gt;::value</a>.</p>
 
@@ -1013,7 +1058,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ScalarForce_8hpp_source.html#l00142">142</a> of file <a class="el" href="ScalarForce_8hpp_source.html">ScalarForce.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ScalarForce_8hpp_source.html#l00150">150</a> of file <a class="el" href="ScalarForce_8hpp_source.html">ScalarForce.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00218">PhQ::DimensionalScalar&lt; Unit::Force, double &gt;::value</a>.</p>
 
@@ -1079,7 +1124,7 @@ template&lt;typename OtherNumber &gt; </div>
 
 <p>Copy assignment operator. Assigns this scalar force by copying another one. </p>
 
-<p class="definition">Definition at line <a class="el" href="ScalarForce_8hpp_source.html#l00087">87</a> of file <a class="el" href="ScalarForce_8hpp_source.html">ScalarForce.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ScalarForce_8hpp_source.html#l00095">95</a> of file <a class="el" href="ScalarForce_8hpp_source.html">ScalarForce.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00064">PhQ::DimensionalScalar&lt; UnitType, Number &gt;::Value()</a>, and <a class="el" href="DimensionalScalar_8hpp_source.html#l00218">PhQ::DimensionalScalar&lt; Unit::Force, double &gt;::value</a>.</p>
 
@@ -1466,7 +1511,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Statically creates a scalar force of zero. </p>
 
-<p class="definition">Definition at line <a class="el" href="ScalarForce_8hpp_source.html#l00096">96</a> of file <a class="el" href="ScalarForce_8hpp_source.html">ScalarForce.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ScalarForce_8hpp_source.html#l00104">104</a> of file <a class="el" href="ScalarForce_8hpp_source.html">ScalarForce.hpp</a>.</p>
 
 </div>
 </div>
@@ -1497,7 +1542,7 @@ template&lt;typename OtherNumber &gt; </div>
 
 <p><a class="el" href="classPhQ_1_1Force.html" title="Force vector. See also PhQ::ScalarForce.">Force</a> units. </p>
 
-<p class="definition">Definition at line <a class="el" href="ScalarForce_8hpp_source.html#l00153">153</a> of file <a class="el" href="ScalarForce_8hpp_source.html">ScalarForce.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ScalarForce_8hpp_source.html#l00161">161</a> of file <a class="el" href="ScalarForce_8hpp_source.html">ScalarForce.hpp</a>.</p>
 
 </div>
 </div>
@@ -1532,6 +1577,7 @@ template&lt;typename OtherNumber &gt; </div>
 <li>PhQ/<a class="el" href="Area_8hpp_source.html">Area.hpp</a></li>
 <li>PhQ/<a class="el" href="ScalarForce_8hpp_source.html">ScalarForce.hpp</a></li>
 <li>PhQ/<a class="el" href="Force_8hpp_source.html">Force.hpp</a></li>
+<li>PhQ/<a class="el" href="ScalarTraction_8hpp_source.html">ScalarTraction.hpp</a></li>
 <li>PhQ/<a class="el" href="StaticPressure_8hpp_source.html">StaticPressure.hpp</a></li>
 </ul>
 </div><!-- contents -->
