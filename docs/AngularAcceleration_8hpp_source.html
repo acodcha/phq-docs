@@ -101,7 +101,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search','.html');
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="comment">// models, and units of measure for scientific computation.</span></div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="comment">//</span></div>
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="comment">// Physical Quantities (PhQ) is hosted at:</span></div>
-<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment">//     https://github.com/acodcha/physical-quantities</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="comment">//     https://github.com/acodcha/phq</span></div>
 <div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="comment">//</span></div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="comment">// Physical Quantities (PhQ) is licensed under the MIT License:</span></div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="comment">//     https://mit-license.org</span></div>
@@ -252,7 +252,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search','.html');
 <div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;};</div>
 <div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160; </div>
 <div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;<span class="keyword">template</span> &lt;&gt;</div>
-<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;<span class="keyword">inline</span> <span class="keyword">const</span> std::unordered_map&lt;std::string_view, Unit::AngularAcceleration&gt; <a class="code" href="namespacePhQ_1_1Internal.html#a54ce004d9026ab5e6ea4427873744a26">Spellings</a>&lt;</div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;<span class="keyword">inline</span> <span class="keyword">const</span> std::unordered_map&lt;std::string_view, Unit::AngularAcceleration&gt; Spellings&lt;</div>
 <div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;    <a class="code" href="namespacePhQ_1_1Unit.html#ab54ec1ebc34bacf3b20c0cba25d117c0">Unit::AngularAcceleration</a>&gt;{</div>
 <div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;    {<span class="stringliteral">&quot;rad/s^2&quot;</span>,        <a class="code" href="namespacePhQ_1_1Unit.html#ab54ec1ebc34bacf3b20c0cba25d117c0afa4298febc93bb3f8b84c392239fb4f2">Unit::AngularAcceleration::RadianPerSquareSecond</a>    },</div>
 <div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;    {<span class="stringliteral">&quot;rad/s2&quot;</span>,         <a class="code" href="namespacePhQ_1_1Unit.html#ab54ec1ebc34bacf3b20c0cba25d117c0afa4298febc93bb3f8b84c392239fb4f2">Unit::AngularAcceleration::RadianPerSquareSecond</a>    },</div>
@@ -313,27 +313,27 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search','.html');
 <div class="line"><a name="l00216"></a><span class="lineno">  216</span>&#160;<span class="keyword">template</span> &lt;&gt;</div>
 <div class="line"><a name="l00217"></a><span class="lineno">  217</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">typename</span> Number&gt;</div>
 <div class="line"><a name="l00218"></a><span class="lineno">  218</span>&#160;<span class="keyword">inline</span> constexpr <span class="keywordtype">void</span></div>
-<div class="line"><a name="l00219"></a><span class="lineno"><a class="line" href="classPhQ_1_1Internal_1_1Conversion.html#ac92cd16b2a1c008fc4f4e6e61d909629">  219</a></span>&#160;<a class="code" href="classPhQ_1_1Internal_1_1Conversion.html#a6ba0cfef6dcde6cbcb9c933f0216d99a">Conversion&lt;Unit::AngularAcceleration, Unit::AngularAcceleration::RadianPerSquareSecond&gt;::</a></div>
-<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;<a class="code" href="classPhQ_1_1Internal_1_1Conversion.html#a6ba0cfef6dcde6cbcb9c933f0216d99a">    FromStandard</a>(Number&amp; <span class="comment">/*value*/</span>) noexcept {}</div>
+<div class="line"><a name="l00219"></a><span class="lineno">  219</span>&#160;Conversion&lt;Unit::AngularAcceleration, Unit::AngularAcceleration::RadianPerSquareSecond&gt;::</div>
+<div class="line"><a name="l00220"></a><span class="lineno">  220</span>&#160;    FromStandard(Number&amp; <span class="comment">/*value*/</span>) noexcept {}</div>
 <div class="line"><a name="l00221"></a><span class="lineno">  221</span>&#160; </div>
 <div class="line"><a name="l00222"></a><span class="lineno">  222</span>&#160;<span class="keyword">template</span> &lt;&gt;</div>
 <div class="line"><a name="l00223"></a><span class="lineno">  223</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">typename</span> Number&gt;</div>
 <div class="line"><a name="l00224"></a><span class="lineno">  224</span>&#160;<span class="keyword">inline</span> constexpr <span class="keywordtype">void</span></div>
-<div class="line"><a name="l00225"></a><span class="lineno"><a class="line" href="classPhQ_1_1Internal_1_1Conversion.html#ad83e2f25432f0a5c0bcb836d5db4c29d">  225</a></span>&#160;<a class="code" href="classPhQ_1_1Internal_1_1Conversion.html#a39e390d2dd45525656c1eeb46c638cea">Conversion&lt;Unit::AngularAcceleration, Unit::AngularAcceleration::RadianPerSquareSecond&gt;::ToStandard</a>(</div>
+<div class="line"><a name="l00225"></a><span class="lineno">  225</span>&#160;Conversion&lt;Unit::AngularAcceleration, Unit::AngularAcceleration::RadianPerSquareSecond&gt;::ToStandard(</div>
 <div class="line"><a name="l00226"></a><span class="lineno">  226</span>&#160;    Number&amp; <span class="comment">/*value*/</span>) noexcept {}</div>
 <div class="line"><a name="l00227"></a><span class="lineno">  227</span>&#160; </div>
 <div class="line"><a name="l00228"></a><span class="lineno">  228</span>&#160;<span class="keyword">template</span> &lt;&gt;</div>
 <div class="line"><a name="l00229"></a><span class="lineno">  229</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">typename</span> Number&gt;</div>
 <div class="line"><a name="l00230"></a><span class="lineno">  230</span>&#160;<span class="keyword">inline</span> constexpr <span class="keywordtype">void</span></div>
-<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;<a class="code" href="classPhQ_1_1Internal_1_1Conversion.html">Conversion</a>&lt;<a class="code" href="namespacePhQ_1_1Unit.html#ab54ec1ebc34bacf3b20c0cba25d117c0">Unit::AngularAcceleration</a>,</div>
-<div class="line"><a name="l00232"></a><span class="lineno"><a class="line" href="classPhQ_1_1Internal_1_1Conversion.html#a1ffab77481c706b5af1b07609625bf57">  232</a></span>&#160;           <a class="code" href="namespacePhQ_1_1Unit.html#ab54ec1ebc34bacf3b20c0cba25d117c0ae1202f77c776f55c9a57aff54cfa2ae6">Unit::AngularAcceleration::RadianPerSquareMinute</a>&gt;::FromStandard(Number&amp; value) noexcept {</div>
+<div class="line"><a name="l00231"></a><span class="lineno">  231</span>&#160;Conversion&lt;<a class="code" href="namespacePhQ_1_1Unit.html#ab54ec1ebc34bacf3b20c0cba25d117c0">Unit::AngularAcceleration</a>,</div>
+<div class="line"><a name="l00232"></a><span class="lineno">  232</span>&#160;           <a class="code" href="namespacePhQ_1_1Unit.html#ab54ec1ebc34bacf3b20c0cba25d117c0ae1202f77c776f55c9a57aff54cfa2ae6">Unit::AngularAcceleration::RadianPerSquareMinute</a>&gt;::FromStandard(Number&amp; value) noexcept {</div>
 <div class="line"><a name="l00233"></a><span class="lineno">  233</span>&#160;  value *= <span class="keyword">static_cast&lt;</span>Number<span class="keyword">&gt;</span>(3600.0L);</div>
 <div class="line"><a name="l00234"></a><span class="lineno">  234</span>&#160;}</div>
 <div class="line"><a name="l00235"></a><span class="lineno">  235</span>&#160; </div>
 <div class="line"><a name="l00236"></a><span class="lineno">  236</span>&#160;<span class="keyword">template</span> &lt;&gt;</div>
 <div class="line"><a name="l00237"></a><span class="lineno">  237</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">typename</span> Number&gt;</div>
 <div class="line"><a name="l00238"></a><span class="lineno">  238</span>&#160;<span class="keyword">inline</span> constexpr <span class="keywordtype">void</span></div>
-<div class="line"><a name="l00239"></a><span class="lineno"><a class="line" href="classPhQ_1_1Internal_1_1Conversion.html#a3d8af9d41f8a6a13a50bbdf1c12f07ba">  239</a></span>&#160;<a class="code" href="classPhQ_1_1Internal_1_1Conversion.html#a39e390d2dd45525656c1eeb46c638cea">Conversion&lt;Unit::AngularAcceleration, Unit::AngularAcceleration::RadianPerSquareMinute&gt;::ToStandard</a>(</div>
+<div class="line"><a name="l00239"></a><span class="lineno">  239</span>&#160;Conversion&lt;Unit::AngularAcceleration, Unit::AngularAcceleration::RadianPerSquareMinute&gt;::ToStandard(</div>
 <div class="line"><a name="l00240"></a><span class="lineno">  240</span>&#160;    Number&amp; value) noexcept {</div>
 <div class="line"><a name="l00241"></a><span class="lineno">  241</span>&#160;  value /= <span class="keyword">static_cast&lt;</span>Number<span class="keyword">&gt;</span>(3600.0L);</div>
 <div class="line"><a name="l00242"></a><span class="lineno">  242</span>&#160;}</div>
@@ -341,7 +341,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search','.html');
 <div class="line"><a name="l00244"></a><span class="lineno">  244</span>&#160;<span class="keyword">template</span> &lt;&gt;</div>
 <div class="line"><a name="l00245"></a><span class="lineno">  245</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">typename</span> Number&gt;</div>
 <div class="line"><a name="l00246"></a><span class="lineno">  246</span>&#160;<span class="keyword">inline</span> constexpr <span class="keywordtype">void</span></div>
-<div class="line"><a name="l00247"></a><span class="lineno"><a class="line" href="classPhQ_1_1Internal_1_1Conversion.html#a24bc9f48a50b39f675d5656ec11ecbc3">  247</a></span>&#160;<a class="code" href="classPhQ_1_1Internal_1_1Conversion.html#a6ba0cfef6dcde6cbcb9c933f0216d99a">Conversion&lt;Unit::AngularAcceleration, Unit::AngularAcceleration::RadianPerSquareHour&gt;::FromStandard</a>(</div>
+<div class="line"><a name="l00247"></a><span class="lineno">  247</span>&#160;Conversion&lt;Unit::AngularAcceleration, Unit::AngularAcceleration::RadianPerSquareHour&gt;::FromStandard(</div>
 <div class="line"><a name="l00248"></a><span class="lineno">  248</span>&#160;    Number&amp; value) noexcept {</div>
 <div class="line"><a name="l00249"></a><span class="lineno">  249</span>&#160;  value *= <span class="keyword">static_cast&lt;</span>Number<span class="keyword">&gt;</span>(12960000.0L);</div>
 <div class="line"><a name="l00250"></a><span class="lineno">  250</span>&#160;}</div>
@@ -349,7 +349,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search','.html');
 <div class="line"><a name="l00252"></a><span class="lineno">  252</span>&#160;<span class="keyword">template</span> &lt;&gt;</div>
 <div class="line"><a name="l00253"></a><span class="lineno">  253</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">typename</span> Number&gt;</div>
 <div class="line"><a name="l00254"></a><span class="lineno">  254</span>&#160;<span class="keyword">inline</span> constexpr <span class="keywordtype">void</span></div>
-<div class="line"><a name="l00255"></a><span class="lineno"><a class="line" href="classPhQ_1_1Internal_1_1Conversion.html#aaf0f34e6d5f47f2bacfdf8c23772620b">  255</a></span>&#160;<a class="code" href="classPhQ_1_1Internal_1_1Conversion.html#a39e390d2dd45525656c1eeb46c638cea">Conversion&lt;Unit::AngularAcceleration, Unit::AngularAcceleration::RadianPerSquareHour&gt;::ToStandard</a>(</div>
+<div class="line"><a name="l00255"></a><span class="lineno">  255</span>&#160;Conversion&lt;Unit::AngularAcceleration, Unit::AngularAcceleration::RadianPerSquareHour&gt;::ToStandard(</div>
 <div class="line"><a name="l00256"></a><span class="lineno">  256</span>&#160;    Number&amp; value) noexcept {</div>
 <div class="line"><a name="l00257"></a><span class="lineno">  257</span>&#160;  value /= <span class="keyword">static_cast&lt;</span>Number<span class="keyword">&gt;</span>(12960000.0L);</div>
 <div class="line"><a name="l00258"></a><span class="lineno">  258</span>&#160;}</div>
@@ -357,15 +357,15 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search','.html');
 <div class="line"><a name="l00260"></a><span class="lineno">  260</span>&#160;<span class="keyword">template</span> &lt;&gt;</div>
 <div class="line"><a name="l00261"></a><span class="lineno">  261</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">typename</span> Number&gt;</div>
 <div class="line"><a name="l00262"></a><span class="lineno">  262</span>&#160;<span class="keyword">inline</span> constexpr <span class="keywordtype">void</span></div>
-<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;<a class="code" href="classPhQ_1_1Internal_1_1Conversion.html">Conversion</a>&lt;<a class="code" href="namespacePhQ_1_1Unit.html#ab54ec1ebc34bacf3b20c0cba25d117c0">Unit::AngularAcceleration</a>,</div>
-<div class="line"><a name="l00264"></a><span class="lineno"><a class="line" href="classPhQ_1_1Internal_1_1Conversion.html#adcb190c5918c641117a7f8f650a6164b">  264</a></span>&#160;           <a class="code" href="namespacePhQ_1_1Unit.html#ab54ec1ebc34bacf3b20c0cba25d117c0a29a4f2e459d8f8b2594e1a718f5b5c58">Unit::AngularAcceleration::DegreePerSquareSecond</a>&gt;::FromStandard(Number&amp; value) noexcept {</div>
+<div class="line"><a name="l00263"></a><span class="lineno">  263</span>&#160;Conversion&lt;<a class="code" href="namespacePhQ_1_1Unit.html#ab54ec1ebc34bacf3b20c0cba25d117c0">Unit::AngularAcceleration</a>,</div>
+<div class="line"><a name="l00264"></a><span class="lineno">  264</span>&#160;           <a class="code" href="namespacePhQ_1_1Unit.html#ab54ec1ebc34bacf3b20c0cba25d117c0a29a4f2e459d8f8b2594e1a718f5b5c58">Unit::AngularAcceleration::DegreePerSquareSecond</a>&gt;::FromStandard(Number&amp; value) noexcept {</div>
 <div class="line"><a name="l00265"></a><span class="lineno">  265</span>&#160;  value *= <span class="keyword">static_cast&lt;</span>Number<span class="keyword">&gt;</span>(180.0L) / Pi&lt;Number&gt;;</div>
 <div class="line"><a name="l00266"></a><span class="lineno">  266</span>&#160;}</div>
 <div class="line"><a name="l00267"></a><span class="lineno">  267</span>&#160; </div>
 <div class="line"><a name="l00268"></a><span class="lineno">  268</span>&#160;<span class="keyword">template</span> &lt;&gt;</div>
 <div class="line"><a name="l00269"></a><span class="lineno">  269</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">typename</span> Number&gt;</div>
 <div class="line"><a name="l00270"></a><span class="lineno">  270</span>&#160;<span class="keyword">inline</span> constexpr <span class="keywordtype">void</span></div>
-<div class="line"><a name="l00271"></a><span class="lineno"><a class="line" href="classPhQ_1_1Internal_1_1Conversion.html#a86bb5afdd969ba4aa3f0f7aa558e7e15">  271</a></span>&#160;<a class="code" href="classPhQ_1_1Internal_1_1Conversion.html#a39e390d2dd45525656c1eeb46c638cea">Conversion&lt;Unit::AngularAcceleration, Unit::AngularAcceleration::DegreePerSquareSecond&gt;::ToStandard</a>(</div>
+<div class="line"><a name="l00271"></a><span class="lineno">  271</span>&#160;Conversion&lt;Unit::AngularAcceleration, Unit::AngularAcceleration::DegreePerSquareSecond&gt;::ToStandard(</div>
 <div class="line"><a name="l00272"></a><span class="lineno">  272</span>&#160;    Number&amp; value) noexcept {</div>
 <div class="line"><a name="l00273"></a><span class="lineno">  273</span>&#160;  value *= Pi&lt;Number&gt; / <span class="keyword">static_cast&lt;</span>Number<span class="keyword">&gt;</span>(180.0L);</div>
 <div class="line"><a name="l00274"></a><span class="lineno">  274</span>&#160;}</div>
@@ -373,15 +373,15 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search','.html');
 <div class="line"><a name="l00276"></a><span class="lineno">  276</span>&#160;<span class="keyword">template</span> &lt;&gt;</div>
 <div class="line"><a name="l00277"></a><span class="lineno">  277</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">typename</span> Number&gt;</div>
 <div class="line"><a name="l00278"></a><span class="lineno">  278</span>&#160;<span class="keyword">inline</span> constexpr <span class="keywordtype">void</span></div>
-<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;<a class="code" href="classPhQ_1_1Internal_1_1Conversion.html">Conversion</a>&lt;<a class="code" href="namespacePhQ_1_1Unit.html#ab54ec1ebc34bacf3b20c0cba25d117c0">Unit::AngularAcceleration</a>,</div>
-<div class="line"><a name="l00280"></a><span class="lineno"><a class="line" href="classPhQ_1_1Internal_1_1Conversion.html#aba2d3ad7e3291a68ca4637faae7e1c68">  280</a></span>&#160;           <a class="code" href="namespacePhQ_1_1Unit.html#ab54ec1ebc34bacf3b20c0cba25d117c0acbecd26818c7d0b8212322096ee8ac53">Unit::AngularAcceleration::DegreePerSquareMinute</a>&gt;::FromStandard(Number&amp; value) noexcept {</div>
+<div class="line"><a name="l00279"></a><span class="lineno">  279</span>&#160;Conversion&lt;<a class="code" href="namespacePhQ_1_1Unit.html#ab54ec1ebc34bacf3b20c0cba25d117c0">Unit::AngularAcceleration</a>,</div>
+<div class="line"><a name="l00280"></a><span class="lineno">  280</span>&#160;           <a class="code" href="namespacePhQ_1_1Unit.html#ab54ec1ebc34bacf3b20c0cba25d117c0acbecd26818c7d0b8212322096ee8ac53">Unit::AngularAcceleration::DegreePerSquareMinute</a>&gt;::FromStandard(Number&amp; value) noexcept {</div>
 <div class="line"><a name="l00281"></a><span class="lineno">  281</span>&#160;  value *= <span class="keyword">static_cast&lt;</span>Number<span class="keyword">&gt;</span>(648000.0L) / Pi&lt;Number&gt;;</div>
 <div class="line"><a name="l00282"></a><span class="lineno">  282</span>&#160;}</div>
 <div class="line"><a name="l00283"></a><span class="lineno">  283</span>&#160; </div>
 <div class="line"><a name="l00284"></a><span class="lineno">  284</span>&#160;<span class="keyword">template</span> &lt;&gt;</div>
 <div class="line"><a name="l00285"></a><span class="lineno">  285</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">typename</span> Number&gt;</div>
 <div class="line"><a name="l00286"></a><span class="lineno">  286</span>&#160;<span class="keyword">inline</span> constexpr <span class="keywordtype">void</span></div>
-<div class="line"><a name="l00287"></a><span class="lineno"><a class="line" href="classPhQ_1_1Internal_1_1Conversion.html#a50f726d2b590ee5ce6ae73728cfa3732">  287</a></span>&#160;<a class="code" href="classPhQ_1_1Internal_1_1Conversion.html#a39e390d2dd45525656c1eeb46c638cea">Conversion&lt;Unit::AngularAcceleration, Unit::AngularAcceleration::DegreePerSquareMinute&gt;::ToStandard</a>(</div>
+<div class="line"><a name="l00287"></a><span class="lineno">  287</span>&#160;Conversion&lt;Unit::AngularAcceleration, Unit::AngularAcceleration::DegreePerSquareMinute&gt;::ToStandard(</div>
 <div class="line"><a name="l00288"></a><span class="lineno">  288</span>&#160;    Number&amp; value) noexcept {</div>
 <div class="line"><a name="l00289"></a><span class="lineno">  289</span>&#160;  value *= Pi&lt;Number&gt; / <span class="keyword">static_cast&lt;</span>Number<span class="keyword">&gt;</span>(648000.0L);</div>
 <div class="line"><a name="l00290"></a><span class="lineno">  290</span>&#160;}</div>
@@ -389,7 +389,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search','.html');
 <div class="line"><a name="l00292"></a><span class="lineno">  292</span>&#160;<span class="keyword">template</span> &lt;&gt;</div>
 <div class="line"><a name="l00293"></a><span class="lineno">  293</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">typename</span> Number&gt;</div>
 <div class="line"><a name="l00294"></a><span class="lineno">  294</span>&#160;<span class="keyword">inline</span> constexpr <span class="keywordtype">void</span></div>
-<div class="line"><a name="l00295"></a><span class="lineno"><a class="line" href="classPhQ_1_1Internal_1_1Conversion.html#ab307e759259c387a864feee64f2292c4">  295</a></span>&#160;<a class="code" href="classPhQ_1_1Internal_1_1Conversion.html#a6ba0cfef6dcde6cbcb9c933f0216d99a">Conversion&lt;Unit::AngularAcceleration, Unit::AngularAcceleration::DegreePerSquareHour&gt;::FromStandard</a>(</div>
+<div class="line"><a name="l00295"></a><span class="lineno">  295</span>&#160;Conversion&lt;Unit::AngularAcceleration, Unit::AngularAcceleration::DegreePerSquareHour&gt;::FromStandard(</div>
 <div class="line"><a name="l00296"></a><span class="lineno">  296</span>&#160;    Number&amp; value) noexcept {</div>
 <div class="line"><a name="l00297"></a><span class="lineno">  297</span>&#160;  value *= <span class="keyword">static_cast&lt;</span>Number<span class="keyword">&gt;</span>(2332800000.0L) / Pi&lt;Number&gt;;</div>
 <div class="line"><a name="l00298"></a><span class="lineno">  298</span>&#160;}</div>
@@ -397,7 +397,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search','.html');
 <div class="line"><a name="l00300"></a><span class="lineno">  300</span>&#160;<span class="keyword">template</span> &lt;&gt;</div>
 <div class="line"><a name="l00301"></a><span class="lineno">  301</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">typename</span> Number&gt;</div>
 <div class="line"><a name="l00302"></a><span class="lineno">  302</span>&#160;<span class="keyword">inline</span> constexpr <span class="keywordtype">void</span></div>
-<div class="line"><a name="l00303"></a><span class="lineno"><a class="line" href="classPhQ_1_1Internal_1_1Conversion.html#aa6153e9ef7e95135e7bc5886b51d2b9f">  303</a></span>&#160;<a class="code" href="classPhQ_1_1Internal_1_1Conversion.html#a39e390d2dd45525656c1eeb46c638cea">Conversion&lt;Unit::AngularAcceleration, Unit::AngularAcceleration::DegreePerSquareHour&gt;::ToStandard</a>(</div>
+<div class="line"><a name="l00303"></a><span class="lineno">  303</span>&#160;Conversion&lt;Unit::AngularAcceleration, Unit::AngularAcceleration::DegreePerSquareHour&gt;::ToStandard(</div>
 <div class="line"><a name="l00304"></a><span class="lineno">  304</span>&#160;    Number&amp; value) noexcept {</div>
 <div class="line"><a name="l00305"></a><span class="lineno">  305</span>&#160;  value *= Pi&lt;Number&gt; / <span class="keyword">static_cast&lt;</span>Number<span class="keyword">&gt;</span>(2332800000.0L);</div>
 <div class="line"><a name="l00306"></a><span class="lineno">  306</span>&#160;}</div>
@@ -405,144 +405,144 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search','.html');
 <div class="line"><a name="l00308"></a><span class="lineno">  308</span>&#160;<span class="keyword">template</span> &lt;&gt;</div>
 <div class="line"><a name="l00309"></a><span class="lineno">  309</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">typename</span> Number&gt;</div>
 <div class="line"><a name="l00310"></a><span class="lineno">  310</span>&#160;<span class="keyword">inline</span> constexpr <span class="keywordtype">void</span></div>
-<div class="line"><a name="l00311"></a><span class="lineno"><a class="line" href="classPhQ_1_1Internal_1_1Conversion.html#af829d1950c711ed972cdcaecd2baca3f">  311</a></span>&#160;<a class="code" href="classPhQ_1_1Internal_1_1Conversion.html#a6ba0cfef6dcde6cbcb9c933f0216d99a">Conversion&lt;Unit::AngularAcceleration, Unit::AngularAcceleration::ArcminutePerSquareSecond&gt;::</a></div>
-<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;<a class="code" href="classPhQ_1_1Internal_1_1Conversion.html#a6ba0cfef6dcde6cbcb9c933f0216d99a">    FromStandard</a>(Number&amp; value) noexcept {</div>
+<div class="line"><a name="l00311"></a><span class="lineno">  311</span>&#160;Conversion&lt;Unit::AngularAcceleration, Unit::AngularAcceleration::ArcminutePerSquareSecond&gt;::</div>
+<div class="line"><a name="l00312"></a><span class="lineno">  312</span>&#160;    FromStandard(Number&amp; value) noexcept {</div>
 <div class="line"><a name="l00313"></a><span class="lineno">  313</span>&#160;  value *= <span class="keyword">static_cast&lt;</span>Number<span class="keyword">&gt;</span>(10800.0L) / Pi&lt;Number&gt;;</div>
 <div class="line"><a name="l00314"></a><span class="lineno">  314</span>&#160;}</div>
 <div class="line"><a name="l00315"></a><span class="lineno">  315</span>&#160; </div>
 <div class="line"><a name="l00316"></a><span class="lineno">  316</span>&#160;<span class="keyword">template</span> &lt;&gt;</div>
 <div class="line"><a name="l00317"></a><span class="lineno">  317</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">typename</span> Number&gt;</div>
 <div class="line"><a name="l00318"></a><span class="lineno">  318</span>&#160;<span class="keyword">inline</span> constexpr <span class="keywordtype">void</span></div>
-<div class="line"><a name="l00319"></a><span class="lineno"><a class="line" href="classPhQ_1_1Internal_1_1Conversion.html#a6dc3cb8d8739a7f0c909e6858cb454c6">  319</a></span>&#160;<a class="code" href="classPhQ_1_1Internal_1_1Conversion.html#a39e390d2dd45525656c1eeb46c638cea">Conversion&lt;Unit::AngularAcceleration, Unit::AngularAcceleration::ArcminutePerSquareSecond&gt;::</a></div>
-<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;<a class="code" href="classPhQ_1_1Internal_1_1Conversion.html#a39e390d2dd45525656c1eeb46c638cea">    ToStandard</a>(Number&amp; value) noexcept {</div>
+<div class="line"><a name="l00319"></a><span class="lineno">  319</span>&#160;Conversion&lt;Unit::AngularAcceleration, Unit::AngularAcceleration::ArcminutePerSquareSecond&gt;::</div>
+<div class="line"><a name="l00320"></a><span class="lineno">  320</span>&#160;    ToStandard(Number&amp; value) noexcept {</div>
 <div class="line"><a name="l00321"></a><span class="lineno">  321</span>&#160;  value *= Pi&lt;Number&gt; / <span class="keyword">static_cast&lt;</span>Number<span class="keyword">&gt;</span>(10800.0L);</div>
 <div class="line"><a name="l00322"></a><span class="lineno">  322</span>&#160;}</div>
 <div class="line"><a name="l00323"></a><span class="lineno">  323</span>&#160; </div>
 <div class="line"><a name="l00324"></a><span class="lineno">  324</span>&#160;<span class="keyword">template</span> &lt;&gt;</div>
 <div class="line"><a name="l00325"></a><span class="lineno">  325</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">typename</span> Number&gt;</div>
 <div class="line"><a name="l00326"></a><span class="lineno">  326</span>&#160;<span class="keyword">inline</span> constexpr <span class="keywordtype">void</span></div>
-<div class="line"><a name="l00327"></a><span class="lineno"><a class="line" href="classPhQ_1_1Internal_1_1Conversion.html#a497bb988d4d9ffe92d5d06eefd6760ae">  327</a></span>&#160;<a class="code" href="classPhQ_1_1Internal_1_1Conversion.html#a6ba0cfef6dcde6cbcb9c933f0216d99a">Conversion&lt;Unit::AngularAcceleration, Unit::AngularAcceleration::ArcminutePerSquareMinute&gt;::</a></div>
-<div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;<a class="code" href="classPhQ_1_1Internal_1_1Conversion.html#a6ba0cfef6dcde6cbcb9c933f0216d99a">    FromStandard</a>(Number&amp; value) noexcept {</div>
+<div class="line"><a name="l00327"></a><span class="lineno">  327</span>&#160;Conversion&lt;Unit::AngularAcceleration, Unit::AngularAcceleration::ArcminutePerSquareMinute&gt;::</div>
+<div class="line"><a name="l00328"></a><span class="lineno">  328</span>&#160;    FromStandard(Number&amp; value) noexcept {</div>
 <div class="line"><a name="l00329"></a><span class="lineno">  329</span>&#160;  value *= <span class="keyword">static_cast&lt;</span>Number<span class="keyword">&gt;</span>(38880000.0L) / Pi&lt;Number&gt;;</div>
 <div class="line"><a name="l00330"></a><span class="lineno">  330</span>&#160;}</div>
 <div class="line"><a name="l00331"></a><span class="lineno">  331</span>&#160; </div>
 <div class="line"><a name="l00332"></a><span class="lineno">  332</span>&#160;<span class="keyword">template</span> &lt;&gt;</div>
 <div class="line"><a name="l00333"></a><span class="lineno">  333</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">typename</span> Number&gt;</div>
 <div class="line"><a name="l00334"></a><span class="lineno">  334</span>&#160;<span class="keyword">inline</span> constexpr <span class="keywordtype">void</span></div>
-<div class="line"><a name="l00335"></a><span class="lineno"><a class="line" href="classPhQ_1_1Internal_1_1Conversion.html#a6ef4c587238f758a1cc4d404f0792b93">  335</a></span>&#160;<a class="code" href="classPhQ_1_1Internal_1_1Conversion.html#a39e390d2dd45525656c1eeb46c638cea">Conversion&lt;Unit::AngularAcceleration, Unit::AngularAcceleration::ArcminutePerSquareMinute&gt;::</a></div>
-<div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;<a class="code" href="classPhQ_1_1Internal_1_1Conversion.html#a39e390d2dd45525656c1eeb46c638cea">    ToStandard</a>(Number&amp; value) noexcept {</div>
+<div class="line"><a name="l00335"></a><span class="lineno">  335</span>&#160;Conversion&lt;Unit::AngularAcceleration, Unit::AngularAcceleration::ArcminutePerSquareMinute&gt;::</div>
+<div class="line"><a name="l00336"></a><span class="lineno">  336</span>&#160;    ToStandard(Number&amp; value) noexcept {</div>
 <div class="line"><a name="l00337"></a><span class="lineno">  337</span>&#160;  value *= Pi&lt;Number&gt; / <span class="keyword">static_cast&lt;</span>Number<span class="keyword">&gt;</span>(38880000.0L);</div>
 <div class="line"><a name="l00338"></a><span class="lineno">  338</span>&#160;}</div>
 <div class="line"><a name="l00339"></a><span class="lineno">  339</span>&#160; </div>
 <div class="line"><a name="l00340"></a><span class="lineno">  340</span>&#160;<span class="keyword">template</span> &lt;&gt;</div>
 <div class="line"><a name="l00341"></a><span class="lineno">  341</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">typename</span> Number&gt;</div>
 <div class="line"><a name="l00342"></a><span class="lineno">  342</span>&#160;<span class="keyword">inline</span> constexpr <span class="keywordtype">void</span></div>
-<div class="line"><a name="l00343"></a><span class="lineno"><a class="line" href="classPhQ_1_1Internal_1_1Conversion.html#ace55fa48c2eccee1daac36ff7fc57e32">  343</a></span>&#160;<a class="code" href="classPhQ_1_1Internal_1_1Conversion.html#a6ba0cfef6dcde6cbcb9c933f0216d99a">Conversion&lt;Unit::AngularAcceleration, Unit::AngularAcceleration::ArcminutePerSquareHour&gt;::</a></div>
-<div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;<a class="code" href="classPhQ_1_1Internal_1_1Conversion.html#a6ba0cfef6dcde6cbcb9c933f0216d99a">    FromStandard</a>(Number&amp; value) noexcept {</div>
+<div class="line"><a name="l00343"></a><span class="lineno">  343</span>&#160;Conversion&lt;Unit::AngularAcceleration, Unit::AngularAcceleration::ArcminutePerSquareHour&gt;::</div>
+<div class="line"><a name="l00344"></a><span class="lineno">  344</span>&#160;    FromStandard(Number&amp; value) noexcept {</div>
 <div class="line"><a name="l00345"></a><span class="lineno">  345</span>&#160;  value *= <span class="keyword">static_cast&lt;</span>Number<span class="keyword">&gt;</span>(139968000000.0L) / Pi&lt;Number&gt;;</div>
 <div class="line"><a name="l00346"></a><span class="lineno">  346</span>&#160;}</div>
 <div class="line"><a name="l00347"></a><span class="lineno">  347</span>&#160; </div>
 <div class="line"><a name="l00348"></a><span class="lineno">  348</span>&#160;<span class="keyword">template</span> &lt;&gt;</div>
 <div class="line"><a name="l00349"></a><span class="lineno">  349</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">typename</span> Number&gt;</div>
 <div class="line"><a name="l00350"></a><span class="lineno">  350</span>&#160;<span class="keyword">inline</span> constexpr <span class="keywordtype">void</span></div>
-<div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160;<a class="code" href="classPhQ_1_1Internal_1_1Conversion.html">Conversion</a>&lt;<a class="code" href="namespacePhQ_1_1Unit.html#ab54ec1ebc34bacf3b20c0cba25d117c0">Unit::AngularAcceleration</a>,</div>
-<div class="line"><a name="l00352"></a><span class="lineno"><a class="line" href="classPhQ_1_1Internal_1_1Conversion.html#a68e175f7d7ea06a293e8c1fe7b037a1c">  352</a></span>&#160;           <a class="code" href="namespacePhQ_1_1Unit.html#ab54ec1ebc34bacf3b20c0cba25d117c0a2bbff7d12ee9159bdf4988bb3d87b430">Unit::AngularAcceleration::ArcminutePerSquareHour</a>&gt;::ToStandard(Number&amp; value) noexcept {</div>
+<div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160;Conversion&lt;<a class="code" href="namespacePhQ_1_1Unit.html#ab54ec1ebc34bacf3b20c0cba25d117c0">Unit::AngularAcceleration</a>,</div>
+<div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160;           <a class="code" href="namespacePhQ_1_1Unit.html#ab54ec1ebc34bacf3b20c0cba25d117c0a2bbff7d12ee9159bdf4988bb3d87b430">Unit::AngularAcceleration::ArcminutePerSquareHour</a>&gt;::ToStandard(Number&amp; value) noexcept {</div>
 <div class="line"><a name="l00353"></a><span class="lineno">  353</span>&#160;  value *= Pi&lt;Number&gt; / <span class="keyword">static_cast&lt;</span>Number<span class="keyword">&gt;</span>(139968000000.0L);</div>
 <div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160;}</div>
 <div class="line"><a name="l00355"></a><span class="lineno">  355</span>&#160; </div>
 <div class="line"><a name="l00356"></a><span class="lineno">  356</span>&#160;<span class="keyword">template</span> &lt;&gt;</div>
 <div class="line"><a name="l00357"></a><span class="lineno">  357</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">typename</span> Number&gt;</div>
 <div class="line"><a name="l00358"></a><span class="lineno">  358</span>&#160;<span class="keyword">inline</span> constexpr <span class="keywordtype">void</span></div>
-<div class="line"><a name="l00359"></a><span class="lineno"><a class="line" href="classPhQ_1_1Internal_1_1Conversion.html#a65e284cbdb0ff5e2f137d7f9d4e891b5">  359</a></span>&#160;<a class="code" href="classPhQ_1_1Internal_1_1Conversion.html#a6ba0cfef6dcde6cbcb9c933f0216d99a">Conversion&lt;Unit::AngularAcceleration, Unit::AngularAcceleration::ArcsecondPerSquareSecond&gt;::</a></div>
-<div class="line"><a name="l00360"></a><span class="lineno">  360</span>&#160;<a class="code" href="classPhQ_1_1Internal_1_1Conversion.html#a6ba0cfef6dcde6cbcb9c933f0216d99a">    FromStandard</a>(Number&amp; value) noexcept {</div>
+<div class="line"><a name="l00359"></a><span class="lineno">  359</span>&#160;Conversion&lt;Unit::AngularAcceleration, Unit::AngularAcceleration::ArcsecondPerSquareSecond&gt;::</div>
+<div class="line"><a name="l00360"></a><span class="lineno">  360</span>&#160;    FromStandard(Number&amp; value) noexcept {</div>
 <div class="line"><a name="l00361"></a><span class="lineno">  361</span>&#160;  value *= <span class="keyword">static_cast&lt;</span>Number<span class="keyword">&gt;</span>(648000.0L) / Pi&lt;Number&gt;;</div>
 <div class="line"><a name="l00362"></a><span class="lineno">  362</span>&#160;}</div>
 <div class="line"><a name="l00363"></a><span class="lineno">  363</span>&#160; </div>
 <div class="line"><a name="l00364"></a><span class="lineno">  364</span>&#160;<span class="keyword">template</span> &lt;&gt;</div>
 <div class="line"><a name="l00365"></a><span class="lineno">  365</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">typename</span> Number&gt;</div>
 <div class="line"><a name="l00366"></a><span class="lineno">  366</span>&#160;<span class="keyword">inline</span> constexpr <span class="keywordtype">void</span></div>
-<div class="line"><a name="l00367"></a><span class="lineno"><a class="line" href="classPhQ_1_1Internal_1_1Conversion.html#a2f237018ceac45b19152b144e8bb1dbd">  367</a></span>&#160;<a class="code" href="classPhQ_1_1Internal_1_1Conversion.html#a39e390d2dd45525656c1eeb46c638cea">Conversion&lt;Unit::AngularAcceleration, Unit::AngularAcceleration::ArcsecondPerSquareSecond&gt;::</a></div>
-<div class="line"><a name="l00368"></a><span class="lineno">  368</span>&#160;<a class="code" href="classPhQ_1_1Internal_1_1Conversion.html#a39e390d2dd45525656c1eeb46c638cea">    ToStandard</a>(Number&amp; value) noexcept {</div>
+<div class="line"><a name="l00367"></a><span class="lineno">  367</span>&#160;Conversion&lt;Unit::AngularAcceleration, Unit::AngularAcceleration::ArcsecondPerSquareSecond&gt;::</div>
+<div class="line"><a name="l00368"></a><span class="lineno">  368</span>&#160;    ToStandard(Number&amp; value) noexcept {</div>
 <div class="line"><a name="l00369"></a><span class="lineno">  369</span>&#160;  value *= Pi&lt;Number&gt; / <span class="keyword">static_cast&lt;</span>Number<span class="keyword">&gt;</span>(648000.0L);</div>
 <div class="line"><a name="l00370"></a><span class="lineno">  370</span>&#160;}</div>
 <div class="line"><a name="l00371"></a><span class="lineno">  371</span>&#160; </div>
 <div class="line"><a name="l00372"></a><span class="lineno">  372</span>&#160;<span class="keyword">template</span> &lt;&gt;</div>
 <div class="line"><a name="l00373"></a><span class="lineno">  373</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">typename</span> Number&gt;</div>
 <div class="line"><a name="l00374"></a><span class="lineno">  374</span>&#160;<span class="keyword">inline</span> constexpr <span class="keywordtype">void</span></div>
-<div class="line"><a name="l00375"></a><span class="lineno"><a class="line" href="classPhQ_1_1Internal_1_1Conversion.html#a0268655fb63b94f294c53f9f698551f4">  375</a></span>&#160;<a class="code" href="classPhQ_1_1Internal_1_1Conversion.html#a6ba0cfef6dcde6cbcb9c933f0216d99a">Conversion&lt;Unit::AngularAcceleration, Unit::AngularAcceleration::ArcsecondPerSquareMinute&gt;::</a></div>
-<div class="line"><a name="l00376"></a><span class="lineno">  376</span>&#160;<a class="code" href="classPhQ_1_1Internal_1_1Conversion.html#a6ba0cfef6dcde6cbcb9c933f0216d99a">    FromStandard</a>(Number&amp; value) noexcept {</div>
+<div class="line"><a name="l00375"></a><span class="lineno">  375</span>&#160;Conversion&lt;Unit::AngularAcceleration, Unit::AngularAcceleration::ArcsecondPerSquareMinute&gt;::</div>
+<div class="line"><a name="l00376"></a><span class="lineno">  376</span>&#160;    FromStandard(Number&amp; value) noexcept {</div>
 <div class="line"><a name="l00377"></a><span class="lineno">  377</span>&#160;  value *= <span class="keyword">static_cast&lt;</span>Number<span class="keyword">&gt;</span>(2332800000.0L) / Pi&lt;Number&gt;;</div>
 <div class="line"><a name="l00378"></a><span class="lineno">  378</span>&#160;}</div>
 <div class="line"><a name="l00379"></a><span class="lineno">  379</span>&#160; </div>
 <div class="line"><a name="l00380"></a><span class="lineno">  380</span>&#160;<span class="keyword">template</span> &lt;&gt;</div>
 <div class="line"><a name="l00381"></a><span class="lineno">  381</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">typename</span> Number&gt;</div>
 <div class="line"><a name="l00382"></a><span class="lineno">  382</span>&#160;<span class="keyword">inline</span> constexpr <span class="keywordtype">void</span></div>
-<div class="line"><a name="l00383"></a><span class="lineno"><a class="line" href="classPhQ_1_1Internal_1_1Conversion.html#a679784799ff94d71a2a52ad3b3a232d9">  383</a></span>&#160;<a class="code" href="classPhQ_1_1Internal_1_1Conversion.html#a39e390d2dd45525656c1eeb46c638cea">Conversion&lt;Unit::AngularAcceleration, Unit::AngularAcceleration::ArcsecondPerSquareMinute&gt;::</a></div>
-<div class="line"><a name="l00384"></a><span class="lineno">  384</span>&#160;<a class="code" href="classPhQ_1_1Internal_1_1Conversion.html#a39e390d2dd45525656c1eeb46c638cea">    ToStandard</a>(Number&amp; value) noexcept {</div>
+<div class="line"><a name="l00383"></a><span class="lineno">  383</span>&#160;Conversion&lt;Unit::AngularAcceleration, Unit::AngularAcceleration::ArcsecondPerSquareMinute&gt;::</div>
+<div class="line"><a name="l00384"></a><span class="lineno">  384</span>&#160;    ToStandard(Number&amp; value) noexcept {</div>
 <div class="line"><a name="l00385"></a><span class="lineno">  385</span>&#160;  value *= Pi&lt;Number&gt; / <span class="keyword">static_cast&lt;</span>Number<span class="keyword">&gt;</span>(2332800000.0L);</div>
 <div class="line"><a name="l00386"></a><span class="lineno">  386</span>&#160;}</div>
 <div class="line"><a name="l00387"></a><span class="lineno">  387</span>&#160; </div>
 <div class="line"><a name="l00388"></a><span class="lineno">  388</span>&#160;<span class="keyword">template</span> &lt;&gt;</div>
 <div class="line"><a name="l00389"></a><span class="lineno">  389</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">typename</span> Number&gt;</div>
 <div class="line"><a name="l00390"></a><span class="lineno">  390</span>&#160;<span class="keyword">inline</span> constexpr <span class="keywordtype">void</span></div>
-<div class="line"><a name="l00391"></a><span class="lineno"><a class="line" href="classPhQ_1_1Internal_1_1Conversion.html#a291ae1facff2ef2d7cd69321d821ed73">  391</a></span>&#160;<a class="code" href="classPhQ_1_1Internal_1_1Conversion.html#a6ba0cfef6dcde6cbcb9c933f0216d99a">Conversion&lt;Unit::AngularAcceleration, Unit::AngularAcceleration::ArcsecondPerSquareHour&gt;::</a></div>
-<div class="line"><a name="l00392"></a><span class="lineno">  392</span>&#160;<a class="code" href="classPhQ_1_1Internal_1_1Conversion.html#a6ba0cfef6dcde6cbcb9c933f0216d99a">    FromStandard</a>(Number&amp; value) noexcept {</div>
+<div class="line"><a name="l00391"></a><span class="lineno">  391</span>&#160;Conversion&lt;Unit::AngularAcceleration, Unit::AngularAcceleration::ArcsecondPerSquareHour&gt;::</div>
+<div class="line"><a name="l00392"></a><span class="lineno">  392</span>&#160;    FromStandard(Number&amp; value) noexcept {</div>
 <div class="line"><a name="l00393"></a><span class="lineno">  393</span>&#160;  value *= <span class="keyword">static_cast&lt;</span>Number<span class="keyword">&gt;</span>(8398080000000.0L) / Pi&lt;Number&gt;;</div>
 <div class="line"><a name="l00394"></a><span class="lineno">  394</span>&#160;}</div>
 <div class="line"><a name="l00395"></a><span class="lineno">  395</span>&#160; </div>
 <div class="line"><a name="l00396"></a><span class="lineno">  396</span>&#160;<span class="keyword">template</span> &lt;&gt;</div>
 <div class="line"><a name="l00397"></a><span class="lineno">  397</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">typename</span> Number&gt;</div>
 <div class="line"><a name="l00398"></a><span class="lineno">  398</span>&#160;<span class="keyword">inline</span> constexpr <span class="keywordtype">void</span></div>
-<div class="line"><a name="l00399"></a><span class="lineno">  399</span>&#160;<a class="code" href="classPhQ_1_1Internal_1_1Conversion.html">Conversion</a>&lt;<a class="code" href="namespacePhQ_1_1Unit.html#ab54ec1ebc34bacf3b20c0cba25d117c0">Unit::AngularAcceleration</a>,</div>
-<div class="line"><a name="l00400"></a><span class="lineno"><a class="line" href="classPhQ_1_1Internal_1_1Conversion.html#ab15e01d74c23fb8f241518d68f0a6271">  400</a></span>&#160;           <a class="code" href="namespacePhQ_1_1Unit.html#ab54ec1ebc34bacf3b20c0cba25d117c0a938204a8dc8f8381dda89133d5db8ee7">Unit::AngularAcceleration::ArcsecondPerSquareHour</a>&gt;::ToStandard(Number&amp; value) noexcept {</div>
+<div class="line"><a name="l00399"></a><span class="lineno">  399</span>&#160;Conversion&lt;<a class="code" href="namespacePhQ_1_1Unit.html#ab54ec1ebc34bacf3b20c0cba25d117c0">Unit::AngularAcceleration</a>,</div>
+<div class="line"><a name="l00400"></a><span class="lineno">  400</span>&#160;           <a class="code" href="namespacePhQ_1_1Unit.html#ab54ec1ebc34bacf3b20c0cba25d117c0a938204a8dc8f8381dda89133d5db8ee7">Unit::AngularAcceleration::ArcsecondPerSquareHour</a>&gt;::ToStandard(Number&amp; value) noexcept {</div>
 <div class="line"><a name="l00401"></a><span class="lineno">  401</span>&#160;  value *= Pi&lt;Number&gt; / <span class="keyword">static_cast&lt;</span>Number<span class="keyword">&gt;</span>(8398080000000.0L);</div>
 <div class="line"><a name="l00402"></a><span class="lineno">  402</span>&#160;}</div>
 <div class="line"><a name="l00403"></a><span class="lineno">  403</span>&#160; </div>
 <div class="line"><a name="l00404"></a><span class="lineno">  404</span>&#160;<span class="keyword">template</span> &lt;&gt;</div>
 <div class="line"><a name="l00405"></a><span class="lineno">  405</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">typename</span> Number&gt;</div>
 <div class="line"><a name="l00406"></a><span class="lineno">  406</span>&#160;<span class="keyword">inline</span> constexpr <span class="keywordtype">void</span></div>
-<div class="line"><a name="l00407"></a><span class="lineno"><a class="line" href="classPhQ_1_1Internal_1_1Conversion.html#ab40fb30b354b37c73e03297a88164a01">  407</a></span>&#160;<a class="code" href="classPhQ_1_1Internal_1_1Conversion.html#a6ba0cfef6dcde6cbcb9c933f0216d99a">Conversion&lt;Unit::AngularAcceleration, Unit::AngularAcceleration::RevolutionPerSquareSecond&gt;::</a></div>
-<div class="line"><a name="l00408"></a><span class="lineno">  408</span>&#160;<a class="code" href="classPhQ_1_1Internal_1_1Conversion.html#a6ba0cfef6dcde6cbcb9c933f0216d99a">    FromStandard</a>(Number&amp; value) noexcept {</div>
+<div class="line"><a name="l00407"></a><span class="lineno">  407</span>&#160;Conversion&lt;Unit::AngularAcceleration, Unit::AngularAcceleration::RevolutionPerSquareSecond&gt;::</div>
+<div class="line"><a name="l00408"></a><span class="lineno">  408</span>&#160;    FromStandard(Number&amp; value) noexcept {</div>
 <div class="line"><a name="l00409"></a><span class="lineno">  409</span>&#160;  value *= <span class="keyword">static_cast&lt;</span>Number<span class="keyword">&gt;</span>(0.5L) / Pi&lt;Number&gt;;</div>
 <div class="line"><a name="l00410"></a><span class="lineno">  410</span>&#160;}</div>
 <div class="line"><a name="l00411"></a><span class="lineno">  411</span>&#160; </div>
 <div class="line"><a name="l00412"></a><span class="lineno">  412</span>&#160;<span class="keyword">template</span> &lt;&gt;</div>
 <div class="line"><a name="l00413"></a><span class="lineno">  413</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">typename</span> Number&gt;</div>
 <div class="line"><a name="l00414"></a><span class="lineno">  414</span>&#160;<span class="keyword">inline</span> constexpr <span class="keywordtype">void</span></div>
-<div class="line"><a name="l00415"></a><span class="lineno"><a class="line" href="classPhQ_1_1Internal_1_1Conversion.html#a89b53705e2e9857b3110a85fe0282354">  415</a></span>&#160;<a class="code" href="classPhQ_1_1Internal_1_1Conversion.html#a39e390d2dd45525656c1eeb46c638cea">Conversion&lt;Unit::AngularAcceleration, Unit::AngularAcceleration::RevolutionPerSquareSecond&gt;::</a></div>
-<div class="line"><a name="l00416"></a><span class="lineno">  416</span>&#160;<a class="code" href="classPhQ_1_1Internal_1_1Conversion.html#a39e390d2dd45525656c1eeb46c638cea">    ToStandard</a>(Number&amp; value) noexcept {</div>
+<div class="line"><a name="l00415"></a><span class="lineno">  415</span>&#160;Conversion&lt;Unit::AngularAcceleration, Unit::AngularAcceleration::RevolutionPerSquareSecond&gt;::</div>
+<div class="line"><a name="l00416"></a><span class="lineno">  416</span>&#160;    ToStandard(Number&amp; value) noexcept {</div>
 <div class="line"><a name="l00417"></a><span class="lineno">  417</span>&#160;  value *= <span class="keyword">static_cast&lt;</span>Number<span class="keyword">&gt;</span>(2.0L) * Pi&lt;Number&gt;;</div>
 <div class="line"><a name="l00418"></a><span class="lineno">  418</span>&#160;}</div>
 <div class="line"><a name="l00419"></a><span class="lineno">  419</span>&#160; </div>
 <div class="line"><a name="l00420"></a><span class="lineno">  420</span>&#160;<span class="keyword">template</span> &lt;&gt;</div>
 <div class="line"><a name="l00421"></a><span class="lineno">  421</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">typename</span> Number&gt;</div>
 <div class="line"><a name="l00422"></a><span class="lineno">  422</span>&#160;<span class="keyword">inline</span> constexpr <span class="keywordtype">void</span></div>
-<div class="line"><a name="l00423"></a><span class="lineno"><a class="line" href="classPhQ_1_1Internal_1_1Conversion.html#a14c96e4333007ef3a20bc9d25a9b9be2">  423</a></span>&#160;<a class="code" href="classPhQ_1_1Internal_1_1Conversion.html#a6ba0cfef6dcde6cbcb9c933f0216d99a">Conversion&lt;Unit::AngularAcceleration, Unit::AngularAcceleration::RevolutionPerSquareMinute&gt;::</a></div>
-<div class="line"><a name="l00424"></a><span class="lineno">  424</span>&#160;<a class="code" href="classPhQ_1_1Internal_1_1Conversion.html#a6ba0cfef6dcde6cbcb9c933f0216d99a">    FromStandard</a>(Number&amp; value) noexcept {</div>
+<div class="line"><a name="l00423"></a><span class="lineno">  423</span>&#160;Conversion&lt;Unit::AngularAcceleration, Unit::AngularAcceleration::RevolutionPerSquareMinute&gt;::</div>
+<div class="line"><a name="l00424"></a><span class="lineno">  424</span>&#160;    FromStandard(Number&amp; value) noexcept {</div>
 <div class="line"><a name="l00425"></a><span class="lineno">  425</span>&#160;  value *= <span class="keyword">static_cast&lt;</span>Number<span class="keyword">&gt;</span>(1800.0L) / Pi&lt;Number&gt;;</div>
 <div class="line"><a name="l00426"></a><span class="lineno">  426</span>&#160;}</div>
 <div class="line"><a name="l00427"></a><span class="lineno">  427</span>&#160; </div>
 <div class="line"><a name="l00428"></a><span class="lineno">  428</span>&#160;<span class="keyword">template</span> &lt;&gt;</div>
 <div class="line"><a name="l00429"></a><span class="lineno">  429</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">typename</span> Number&gt;</div>
 <div class="line"><a name="l00430"></a><span class="lineno">  430</span>&#160;<span class="keyword">inline</span> constexpr <span class="keywordtype">void</span></div>
-<div class="line"><a name="l00431"></a><span class="lineno"><a class="line" href="classPhQ_1_1Internal_1_1Conversion.html#afe924f4f928f112cbc3dd462cba2ab8a">  431</a></span>&#160;<a class="code" href="classPhQ_1_1Internal_1_1Conversion.html#a39e390d2dd45525656c1eeb46c638cea">Conversion&lt;Unit::AngularAcceleration, Unit::AngularAcceleration::RevolutionPerSquareMinute&gt;::</a></div>
-<div class="line"><a name="l00432"></a><span class="lineno">  432</span>&#160;<a class="code" href="classPhQ_1_1Internal_1_1Conversion.html#a39e390d2dd45525656c1eeb46c638cea">    ToStandard</a>(Number&amp; value) noexcept {</div>
+<div class="line"><a name="l00431"></a><span class="lineno">  431</span>&#160;Conversion&lt;Unit::AngularAcceleration, Unit::AngularAcceleration::RevolutionPerSquareMinute&gt;::</div>
+<div class="line"><a name="l00432"></a><span class="lineno">  432</span>&#160;    ToStandard(Number&amp; value) noexcept {</div>
 <div class="line"><a name="l00433"></a><span class="lineno">  433</span>&#160;  value *= Pi&lt;Number&gt; / <span class="keyword">static_cast&lt;</span>Number<span class="keyword">&gt;</span>(1800.0L);</div>
 <div class="line"><a name="l00434"></a><span class="lineno">  434</span>&#160;}</div>
 <div class="line"><a name="l00435"></a><span class="lineno">  435</span>&#160; </div>
 <div class="line"><a name="l00436"></a><span class="lineno">  436</span>&#160;<span class="keyword">template</span> &lt;&gt;</div>
 <div class="line"><a name="l00437"></a><span class="lineno">  437</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">typename</span> Number&gt;</div>
 <div class="line"><a name="l00438"></a><span class="lineno">  438</span>&#160;<span class="keyword">inline</span> constexpr <span class="keywordtype">void</span></div>
-<div class="line"><a name="l00439"></a><span class="lineno"><a class="line" href="classPhQ_1_1Internal_1_1Conversion.html#a79a2b77460662befb75b3061e35d2422">  439</a></span>&#160;<a class="code" href="classPhQ_1_1Internal_1_1Conversion.html#a6ba0cfef6dcde6cbcb9c933f0216d99a">Conversion&lt;Unit::AngularAcceleration, Unit::AngularAcceleration::RevolutionPerSquareHour&gt;::</a></div>
-<div class="line"><a name="l00440"></a><span class="lineno">  440</span>&#160;<a class="code" href="classPhQ_1_1Internal_1_1Conversion.html#a6ba0cfef6dcde6cbcb9c933f0216d99a">    FromStandard</a>(Number&amp; value) noexcept {</div>
+<div class="line"><a name="l00439"></a><span class="lineno">  439</span>&#160;Conversion&lt;Unit::AngularAcceleration, Unit::AngularAcceleration::RevolutionPerSquareHour&gt;::</div>
+<div class="line"><a name="l00440"></a><span class="lineno">  440</span>&#160;    FromStandard(Number&amp; value) noexcept {</div>
 <div class="line"><a name="l00441"></a><span class="lineno">  441</span>&#160;  value *= <span class="keyword">static_cast&lt;</span>Number<span class="keyword">&gt;</span>(6480000.0L) / Pi&lt;Number&gt;;</div>
 <div class="line"><a name="l00442"></a><span class="lineno">  442</span>&#160;}</div>
 <div class="line"><a name="l00443"></a><span class="lineno">  443</span>&#160; </div>
 <div class="line"><a name="l00444"></a><span class="lineno">  444</span>&#160;<span class="keyword">template</span> &lt;&gt;</div>
 <div class="line"><a name="l00445"></a><span class="lineno">  445</span>&#160;<span class="keyword">template</span> &lt;<span class="keyword">typename</span> Number&gt;</div>
 <div class="line"><a name="l00446"></a><span class="lineno">  446</span>&#160;<span class="keyword">inline</span> constexpr <span class="keywordtype">void</span></div>
-<div class="line"><a name="l00447"></a><span class="lineno">  447</span>&#160;<a class="code" href="classPhQ_1_1Internal_1_1Conversion.html">Conversion</a>&lt;<a class="code" href="namespacePhQ_1_1Unit.html#ab54ec1ebc34bacf3b20c0cba25d117c0">Unit::AngularAcceleration</a>,</div>
-<div class="line"><a name="l00448"></a><span class="lineno"><a class="line" href="classPhQ_1_1Internal_1_1Conversion.html#a15a20a60b980e622bcf7eb684c887d31">  448</a></span>&#160;           <a class="code" href="namespacePhQ_1_1Unit.html#ab54ec1ebc34bacf3b20c0cba25d117c0af20306b5fef43ed4d32a60858b24be61">Unit::AngularAcceleration::RevolutionPerSquareHour</a>&gt;::ToStandard(Number&amp; value) noexcept {</div>
+<div class="line"><a name="l00447"></a><span class="lineno">  447</span>&#160;Conversion&lt;<a class="code" href="namespacePhQ_1_1Unit.html#ab54ec1ebc34bacf3b20c0cba25d117c0">Unit::AngularAcceleration</a>,</div>
+<div class="line"><a name="l00448"></a><span class="lineno">  448</span>&#160;           <a class="code" href="namespacePhQ_1_1Unit.html#ab54ec1ebc34bacf3b20c0cba25d117c0af20306b5fef43ed4d32a60858b24be61">Unit::AngularAcceleration::RevolutionPerSquareHour</a>&gt;::ToStandard(Number&amp; value) noexcept {</div>
 <div class="line"><a name="l00449"></a><span class="lineno">  449</span>&#160;  value *= Pi&lt;Number&gt; / <span class="keyword">static_cast&lt;</span>Number<span class="keyword">&gt;</span>(6480000.0L);</div>
 <div class="line"><a name="l00450"></a><span class="lineno">  450</span>&#160;}</div>
 <div class="line"><a name="l00451"></a><span class="lineno">  451</span>&#160; </div>
@@ -551,7 +551,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search','.html');
 <div class="line"><a name="l00454"></a><span class="lineno">  454</span>&#160;                      std::function&lt;void(Number* values, <span class="keyword">const</span> std::size_t size)&gt;&gt;</div>
 <div class="line"><a name="l00455"></a><span class="lineno">  455</span>&#160;    MapOfConversionsFromStandard&lt;Unit::AngularAcceleration, Number&gt;{</div>
 <div class="line"><a name="l00456"></a><span class="lineno">  456</span>&#160;        {<a class="code" href="namespacePhQ_1_1Unit.html#ab54ec1ebc34bacf3b20c0cba25d117c0afa4298febc93bb3f8b84c392239fb4f2">Unit::AngularAcceleration::RadianPerSquareSecond</a>,</div>
-<div class="line"><a name="l00457"></a><span class="lineno">  457</span>&#160;         <a class="code" href="classPhQ_1_1Internal_1_1Conversions.html">Conversions</a>&lt;<a class="code" href="namespacePhQ_1_1Unit.html#ab54ec1ebc34bacf3b20c0cba25d117c0">Unit::AngularAcceleration</a>,</div>
+<div class="line"><a name="l00457"></a><span class="lineno">  457</span>&#160;         Conversions&lt;<a class="code" href="namespacePhQ_1_1Unit.html#ab54ec1ebc34bacf3b20c0cba25d117c0">Unit::AngularAcceleration</a>,</div>
 <div class="line"><a name="l00458"></a><span class="lineno">  458</span>&#160;         <a class="code" href="namespacePhQ_1_1Unit.html#ab54ec1ebc34bacf3b20c0cba25d117c0afa4298febc93bb3f8b84c392239fb4f2">Unit::AngularAcceleration::RadianPerSquareSecond</a>&gt;::FromStandard&lt;Number&gt;    },</div>
 <div class="line"><a name="l00459"></a><span class="lineno">  459</span>&#160;        {<a class="code" href="namespacePhQ_1_1Unit.html#ab54ec1ebc34bacf3b20c0cba25d117c0ae1202f77c776f55c9a57aff54cfa2ae6">Unit::AngularAcceleration::RadianPerSquareMinute</a>,</div>
 <div class="line"><a name="l00460"></a><span class="lineno">  460</span>&#160;         Conversions&lt;<a class="code" href="namespacePhQ_1_1Unit.html#ab54ec1ebc34bacf3b20c0cba25d117c0">Unit::AngularAcceleration</a>,</div>
@@ -653,11 +653,6 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search','.html');
 <div class="line"><a name="l00556"></a><span class="lineno">  556</span>&#160;}  <span class="comment">// namespace PhQ</span></div>
 <div class="line"><a name="l00557"></a><span class="lineno">  557</span>&#160; </div>
 <div class="line"><a name="l00558"></a><span class="lineno">  558</span>&#160;<span class="preprocessor">#endif  </span><span class="comment">// PHQ_UNIT_ANGULAR_ACCELERATION_HPP</span></div>
-<div class="ttc" id="aclassPhQ_1_1Internal_1_1Conversion_html"><div class="ttname"><a href="classPhQ_1_1Internal_1_1Conversion.html">PhQ::Internal::Conversion</a></div><div class="ttdoc">Abstract class for converting a value expressed in a unit of measure to or from the standard unit of ...</div><div class="ttdef"><b>Definition:</b> <a href="Unit_8hpp_source.html#l00056">Unit.hpp:56</a></div></div>
-<div class="ttc" id="aclassPhQ_1_1Internal_1_1Conversion_html_a39e390d2dd45525656c1eeb46c638cea"><div class="ttname"><a href="classPhQ_1_1Internal_1_1Conversion.html#a39e390d2dd45525656c1eeb46c638cea">PhQ::Internal::Conversion::ToStandard</a></div><div class="ttdeci">static constexpr void ToStandard(Number &amp;value) noexcept</div><div class="ttdoc">Converts a value expressed in any given unit of measure of a given unit type to the standard unit of ...</div></div>
-<div class="ttc" id="aclassPhQ_1_1Internal_1_1Conversion_html_a6ba0cfef6dcde6cbcb9c933f0216d99a"><div class="ttname"><a href="classPhQ_1_1Internal_1_1Conversion.html#a6ba0cfef6dcde6cbcb9c933f0216d99a">PhQ::Internal::Conversion::FromStandard</a></div><div class="ttdeci">static constexpr void FromStandard(Number &amp;value) noexcept</div><div class="ttdoc">Converts a value expressed in the standard unit of measure of a given unit type to any given unit of ...</div></div>
-<div class="ttc" id="aclassPhQ_1_1Internal_1_1Conversions_html"><div class="ttname"><a href="classPhQ_1_1Internal_1_1Conversions.html">PhQ::Internal::Conversions</a></div><div class="ttdoc">Abstract class for converting a series of values expressed in a unit of measure to or from the standa...</div><div class="ttdef"><b>Definition:</b> <a href="Unit_8hpp_source.html#l00075">Unit.hpp:75</a></div></div>
-<div class="ttc" id="anamespacePhQ_1_1Internal_html_a54ce004d9026ab5e6ea4427873744a26"><div class="ttname"><a href="namespacePhQ_1_1Internal.html#a54ce004d9026ab5e6ea4427873744a26">PhQ::Internal::Spellings</a></div><div class="ttdeci">const std::unordered_map&lt; std::string_view, Enumeration &gt; Spellings</div><div class="ttdoc">Map of spellings to their corresponding enumeration values. This is an internal implementation detail...</div><div class="ttdef"><b>Definition:</b> <a href="Base_8hpp_source.html#l00098">Base.hpp:98</a></div></div>
 <div class="ttc" id="anamespacePhQ_1_1Unit_html_a2e6f71b9e47d2b68ce4a58b527b46e09"><div class="ttname"><a href="namespacePhQ_1_1Unit.html#a2e6f71b9e47d2b68ce4a58b527b46e09">PhQ::Unit::Mass</a></div><div class="ttdeci">Mass</div><div class="ttdoc">Mass units.</div><div class="ttdef"><b>Definition:</b> <a href="Unit_2Mass_8hpp_source.html#l00055">Mass.hpp:55</a></div></div>
 <div class="ttc" id="anamespacePhQ_1_1Unit_html_a3c167018d0818cf5b0ce11aafe7dc67c"><div class="ttname"><a href="namespacePhQ_1_1Unit.html#a3c167018d0818cf5b0ce11aafe7dc67c">PhQ::Unit::Length</a></div><div class="ttdeci">Length</div><div class="ttdoc">Length units.</div><div class="ttdef"><b>Definition:</b> <a href="Unit_2Length_8hpp_source.html#l00055">Length.hpp:55</a></div></div>
 <div class="ttc" id="anamespacePhQ_1_1Unit_html_a79857f614e4ca41f98abf938a339e0e5"><div class="ttname"><a href="namespacePhQ_1_1Unit.html#a79857f614e4ca41f98abf938a339e0e5">PhQ::Unit::SubstanceAmount</a></div><div class="ttdeci">SubstanceAmount</div><div class="ttdoc">Amount of substance units.</div><div class="ttdef"><b>Definition:</b> <a href="Unit_2SubstanceAmount_8hpp_source.html#l00055">SubstanceAmount.hpp:55</a></div></div>
