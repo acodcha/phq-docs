@@ -120,6 +120,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a982efe4ae441eaba106f4f7c64152a5f"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Acceleration.html#a982efe4ae441eaba106f4f7c64152a5f">Acceleration</a> (const <a class="el" href="classPhQ_1_1ScalarAcceleration.html">ScalarAcceleration</a>&lt; Number &gt; &amp;scalar_acceleration, const <a class="el" href="classPhQ_1_1Direction.html">Direction</a>&lt; Number &gt; &amp;direction)</td></tr>
 <tr class="memdesc:a982efe4ae441eaba106f4f7c64152a5f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs an acceleration vector from a given scalar acceleration magnitude and direction.  <a href="classPhQ_1_1Acceleration.html#a982efe4ae441eaba106f4f7c64152a5f">More...</a><br /></td></tr>
 <tr class="separator:a982efe4ae441eaba106f4f7c64152a5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a409eb141fc340c44746a04bfa1d13d"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Acceleration.html#a4a409eb141fc340c44746a04bfa1d13d">Acceleration</a> (const <a class="el" href="classPhQ_1_1PlanarAcceleration.html">PlanarAcceleration</a>&lt; Number &gt; &amp;planar_acceleration)</td></tr>
+<tr class="memdesc:a4a409eb141fc340c44746a04bfa1d13d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs an acceleration vector from a given planar acceleration vector in the XY plane. This acceleration vector's z-component is initialized to zero.  <a href="classPhQ_1_1Acceleration.html#a4a409eb141fc340c44746a04bfa1d13d">More...</a><br /></td></tr>
+<tr class="separator:a4a409eb141fc340c44746a04bfa1d13d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2de7191da3b100855dd049e6ef7badba"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Acceleration.html#a2de7191da3b100855dd049e6ef7badba">Acceleration</a> (const <a class="el" href="classPhQ_1_1Velocity.html">Velocity</a>&lt; Number &gt; &amp;velocity, const <a class="el" href="classPhQ_1_1Time.html">Time</a>&lt; Number &gt; &amp;time)</td></tr>
 <tr class="memdesc:a2de7191da3b100855dd049e6ef7badba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs an acceleration vector from a given velocity and time using the definition of acceleration.  <a href="classPhQ_1_1Acceleration.html#a2de7191da3b100855dd049e6ef7badba">More...</a><br /></td></tr>
 <tr class="separator:a2de7191da3b100855dd049e6ef7badba"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -203,10 +206,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a9f539e9b49ea2af8fe9f86156337baa9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the value of this physical quantity expressed in its standard unit of measure to the given value.  <a href="classPhQ_1_1DimensionalVector.html#a9f539e9b49ea2af8fe9f86156337baa9">More...</a><br /></td></tr>
 <tr class="separator:a9f539e9b49ea2af8fe9f86156337baa9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a99ed09897dee742af4dd2ae5dddc05e5"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalVector.html#a99ed09897dee742af4dd2ae5dddc05e5">Print</a> () const</td></tr>
-<tr class="memdesc:a99ed09897dee742af4dd2ae5dddc05e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints this physical quantity as a string. This physical quantity's value is expressed in its standard unit of measure and printed to Number floating point precision.  <a href="classPhQ_1_1DimensionalVector.html#a99ed09897dee742af4dd2ae5dddc05e5">More...</a><br /></td></tr>
+<tr class="memdesc:a99ed09897dee742af4dd2ae5dddc05e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints this physical quantity as a string. This physical quantity's value is expressed in its standard unit of measure.  <a href="classPhQ_1_1DimensionalVector.html#a99ed09897dee742af4dd2ae5dddc05e5">More...</a><br /></td></tr>
 <tr class="separator:a99ed09897dee742af4dd2ae5dddc05e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad2ac83a81055ccf8d1117c57186f2d86"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalVector.html#ad2ac83a81055ccf8d1117c57186f2d86">Print</a> (const <a class="el" href="namespacePhQ_1_1Unit.html#acdc177702368d31d132069881da0dc14">Unit::Acceleration</a> unit) const</td></tr>
-<tr class="memdesc:ad2ac83a81055ccf8d1117c57186f2d86"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints this physical quantity as a string. This physical quantity's value is expressed in the given unit of measure and printed to Number floating point precision.  <a href="classPhQ_1_1DimensionalVector.html#ad2ac83a81055ccf8d1117c57186f2d86">More...</a><br /></td></tr>
+<tr class="memdesc:ad2ac83a81055ccf8d1117c57186f2d86"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints this physical quantity as a string. This physical quantity's value is expressed in the given unit of measure.  <a href="classPhQ_1_1DimensionalVector.html#ad2ac83a81055ccf8d1117c57186f2d86">More...</a><br /></td></tr>
 <tr class="separator:ad2ac83a81055ccf8d1117c57186f2d86"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa5d01fbac3fe45387202f1f4094b3504"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalVector.html#aa5d01fbac3fe45387202f1f4094b3504">JSON</a> () const</td></tr>
 <tr class="memdesc:aa5d01fbac3fe45387202f1f4094b3504"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serializes this physical quantity as a JSON message. This physical quantity's value is expressed in its standard unit of measure.  <a href="classPhQ_1_1DimensionalVector.html#aa5d01fbac3fe45387202f1f4094b3504">More...</a><br /></td></tr>
@@ -269,10 +272,10 @@ class PhQ::Acceleration&lt; Number &gt;</h3>
 
 <p><a class="el" href="classPhQ_1_1Acceleration.html" title="Acceleration vector. See also PhQ::ScalarAcceleration.">Acceleration</a> vector. See also <a class="el" href="classPhQ_1_1ScalarAcceleration.html" title="Scalar acceleration component or magnitude of an acceleration vector. See also PhQ::Acceleration.">PhQ::ScalarAcceleration</a>. </p>
 
-<p class="definition">Definition at line <a class="el" href="Acceleration_8hpp_source.html#l00049">49</a> of file <a class="el" href="Acceleration_8hpp_source.html">Acceleration.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Acceleration_8hpp_source.html#l00050">50</a> of file <a class="el" href="Acceleration_8hpp_source.html">Acceleration.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="af1bed37378742f6816adf38454e914d4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af1bed37378742f6816adf38454e914d4">&#9670;&nbsp;</a></span>Acceleration() <span class="overload">[1/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#af1bed37378742f6816adf38454e914d4">&#9670;&nbsp;</a></span>Acceleration() <span class="overload">[1/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -301,7 +304,7 @@ template&lt;typename Number  = double&gt; </div>
 </div>
 </div>
 <a id="ad807a4370831cb0d64c4b8444d826b2c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad807a4370831cb0d64c4b8444d826b2c">&#9670;&nbsp;</a></span>Acceleration() <span class="overload">[2/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ad807a4370831cb0d64c4b8444d826b2c">&#9670;&nbsp;</a></span>Acceleration() <span class="overload">[2/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -338,12 +341,12 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Constructor. Constructs an acceleration vector with a given value expressed in a given acceleration unit. </p>
 
-<p class="definition">Definition at line <a class="el" href="Acceleration_8hpp_source.html#l00056">56</a> of file <a class="el" href="Acceleration_8hpp_source.html">Acceleration.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Acceleration_8hpp_source.html#l00057">57</a> of file <a class="el" href="Acceleration_8hpp_source.html">Acceleration.hpp</a>.</p>
 
 </div>
 </div>
 <a id="a982efe4ae441eaba106f4f7c64152a5f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a982efe4ae441eaba106f4f7c64152a5f">&#9670;&nbsp;</a></span>Acceleration() <span class="overload">[3/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a982efe4ae441eaba106f4f7c64152a5f">&#9670;&nbsp;</a></span>Acceleration() <span class="overload">[3/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -380,12 +383,46 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Constructor. Constructs an acceleration vector from a given scalar acceleration magnitude and direction. </p>
 
-<p class="definition">Definition at line <a class="el" href="Acceleration_8hpp_source.html#l00061">61</a> of file <a class="el" href="Acceleration_8hpp_source.html">Acceleration.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Acceleration_8hpp_source.html#l00062">62</a> of file <a class="el" href="Acceleration_8hpp_source.html">Acceleration.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a4a409eb141fc340c44746a04bfa1d13d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a409eb141fc340c44746a04bfa1d13d">&#9670;&nbsp;</a></span>Acceleration() <span class="overload">[4/10]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Number  = double&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Acceleration.html">PhQ::Acceleration</a>&lt; Number &gt;::<a class="el" href="classPhQ_1_1Acceleration.html">Acceleration</a> </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1PlanarAcceleration.html">PlanarAcceleration</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramname"><em>planar_acceleration</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">explicit</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Constructor. Constructs an acceleration vector from a given planar acceleration vector in the XY plane. This acceleration vector's z-component is initialized to zero. </p>
+
+<p class="definition">Definition at line <a class="el" href="Acceleration_8hpp_source.html#l00068">68</a> of file <a class="el" href="Acceleration_8hpp_source.html">Acceleration.hpp</a>.</p>
+
+<p class="reference">References <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00060">PhQ::DimensionalPlanarVector&lt; UnitType, Number &gt;::Value()</a>.</p>
 
 </div>
 </div>
 <a id="a2de7191da3b100855dd049e6ef7badba"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2de7191da3b100855dd049e6ef7badba">&#9670;&nbsp;</a></span>Acceleration() <span class="overload">[4/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a2de7191da3b100855dd049e6ef7badba">&#9670;&nbsp;</a></span>Acceleration() <span class="overload">[5/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -422,12 +459,12 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Constructor. Constructs an acceleration vector from a given velocity and time using the definition of acceleration. </p>
 
-<p class="definition">Definition at line <a class="el" href="Acceleration_8hpp_source.html#l00067">67</a> of file <a class="el" href="Acceleration_8hpp_source.html">Acceleration.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Acceleration_8hpp_source.html#l00073">73</a> of file <a class="el" href="Acceleration_8hpp_source.html">Acceleration.hpp</a>.</p>
 
 </div>
 </div>
 <a id="acdebcf0ff9166c818a12812037e40509"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acdebcf0ff9166c818a12812037e40509">&#9670;&nbsp;</a></span>Acceleration() <span class="overload">[5/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#acdebcf0ff9166c818a12812037e40509">&#9670;&nbsp;</a></span>Acceleration() <span class="overload">[6/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -464,7 +501,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Constructor. Constructs an acceleration vector from a given velocity and frequency using the definition of acceleration. </p>
 
-<p class="definition">Definition at line <a class="el" href="Acceleration_8hpp_source.html#l00072">72</a> of file <a class="el" href="Acceleration_8hpp_source.html">Acceleration.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Acceleration_8hpp_source.html#l00078">78</a> of file <a class="el" href="Acceleration_8hpp_source.html">Acceleration.hpp</a>.</p>
 
 </div>
 </div>
@@ -498,7 +535,7 @@ template&lt;typename Number  = double&gt; </div>
 </div>
 </div>
 <a id="a951d5e9c29c397e3d5373b3aea59f3e3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a951d5e9c29c397e3d5373b3aea59f3e3">&#9670;&nbsp;</a></span>Acceleration() <span class="overload">[6/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a951d5e9c29c397e3d5373b3aea59f3e3">&#9670;&nbsp;</a></span>Acceleration() <span class="overload">[7/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -528,7 +565,7 @@ template&lt;typename Number  = double&gt; </div>
 </div>
 </div>
 <a id="ae7943cb3ac5bcc52dfa3072cae0a8d07"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae7943cb3ac5bcc52dfa3072cae0a8d07">&#9670;&nbsp;</a></span>Acceleration() <span class="overload">[7/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ae7943cb3ac5bcc52dfa3072cae0a8d07">&#9670;&nbsp;</a></span>Acceleration() <span class="overload">[8/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -557,12 +594,12 @@ template&lt;typename OtherNumber &gt; </div>
 
 <p>Copy constructor. Constructs an acceleration vector by copying another one. </p>
 
-<p class="definition">Definition at line <a class="el" href="Acceleration_8hpp_source.html#l00083">83</a> of file <a class="el" href="Acceleration_8hpp_source.html">Acceleration.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Acceleration_8hpp_source.html#l00089">89</a> of file <a class="el" href="Acceleration_8hpp_source.html">Acceleration.hpp</a>.</p>
 
 </div>
 </div>
 <a id="aac18690c03d2bc27895e3ff6d2987690"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aac18690c03d2bc27895e3ff6d2987690">&#9670;&nbsp;</a></span>Acceleration() <span class="overload">[8/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aac18690c03d2bc27895e3ff6d2987690">&#9670;&nbsp;</a></span>Acceleration() <span class="overload">[9/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -592,7 +629,7 @@ template&lt;typename Number  = double&gt; </div>
 </div>
 </div>
 <a id="a856c03f805f8d1f89ecd7f2a385bc1f4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a856c03f805f8d1f89ecd7f2a385bc1f4">&#9670;&nbsp;</a></span>Acceleration() <span class="overload">[9/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a856c03f805f8d1f89ecd7f2a385bc1f4">&#9670;&nbsp;</a></span>Acceleration() <span class="overload">[10/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -619,7 +656,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Constructor. Constructs an acceleration vector with a given value expressed in the standard acceleration unit. </p>
 
-<p class="definition">Definition at line <a class="el" href="Acceleration_8hpp_source.html#l00206">206</a> of file <a class="el" href="Acceleration_8hpp_source.html">Acceleration.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Acceleration_8hpp_source.html#l00212">212</a> of file <a class="el" href="Acceleration_8hpp_source.html">Acceleration.hpp</a>.</p>
 
 </div>
 </div>
@@ -652,7 +689,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the angle between this acceleration vector and another one. </p>
 
-<p class="definition">Definition at line <a class="el" href="Acceleration_8hpp_source.html#l00159">159</a> of file <a class="el" href="Acceleration_8hpp_source.html">Acceleration.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Acceleration_8hpp_source.html#l00165">165</a> of file <a class="el" href="Acceleration_8hpp_source.html">Acceleration.hpp</a>.</p>
 
 </div>
 </div>
@@ -702,9 +739,9 @@ template&lt;Unit::Acceleration Unit&gt; </div>
 
 <p>Statically creates an acceleration vector from the given x, y, and z Cartesian components expressed in a given acceleration unit. </p>
 
-<p class="definition">Definition at line <a class="el" href="Acceleration_8hpp_source.html#l00110">110</a> of file <a class="el" href="Acceleration_8hpp_source.html">Acceleration.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Acceleration_8hpp_source.html#l00116">116</a> of file <a class="el" href="Acceleration_8hpp_source.html">Acceleration.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Acceleration_8hpp_source.html#l00134">PhQ::Acceleration&lt; Number &gt;::x()</a>, <a class="el" href="Acceleration_8hpp_source.html#l00139">PhQ::Acceleration&lt; Number &gt;::y()</a>, and <a class="el" href="Acceleration_8hpp_source.html#l00144">PhQ::Acceleration&lt; Number &gt;::z()</a>.</p>
+<p class="reference">References <a class="el" href="Acceleration_8hpp_source.html#l00140">PhQ::Acceleration&lt; Number &gt;::x()</a>, <a class="el" href="Acceleration_8hpp_source.html#l00145">PhQ::Acceleration&lt; Number &gt;::y()</a>, and <a class="el" href="Acceleration_8hpp_source.html#l00150">PhQ::Acceleration&lt; Number &gt;::z()</a>.</p>
 
 </div>
 </div>
@@ -738,7 +775,7 @@ template&lt;Unit::Acceleration Unit&gt; </div>
 
 <p>Statically creates an acceleration vector from the given x, y, and z Cartesian components expressed in a given acceleration unit. </p>
 
-<p class="definition">Definition at line <a class="el" href="Acceleration_8hpp_source.html#l00119">119</a> of file <a class="el" href="Acceleration_8hpp_source.html">Acceleration.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Acceleration_8hpp_source.html#l00125">125</a> of file <a class="el" href="Acceleration_8hpp_source.html">Acceleration.hpp</a>.</p>
 
 </div>
 </div>
@@ -772,7 +809,7 @@ template&lt;Unit::Acceleration Unit&gt; </div>
 
 <p>Statically creates an acceleration vector with a given value expressed in a given acceleration unit. </p>
 
-<p class="definition">Definition at line <a class="el" href="Acceleration_8hpp_source.html#l00128">128</a> of file <a class="el" href="Acceleration_8hpp_source.html">Acceleration.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Acceleration_8hpp_source.html#l00134">134</a> of file <a class="el" href="Acceleration_8hpp_source.html">Acceleration.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Acceleration, double &gt;::value</a>.</p>
 
@@ -834,9 +871,9 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the direction of this acceleration vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="Acceleration_8hpp_source.html#l00154">154</a> of file <a class="el" href="Acceleration_8hpp_source.html">Acceleration.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Acceleration_8hpp_source.html#l00160">160</a> of file <a class="el" href="Acceleration_8hpp_source.html">Acceleration.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Direction_8hpp_source.html#l00374">PhQ::Vector&lt; Number &gt;::Direction()</a>, and <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Acceleration, double &gt;::value</a>.</p>
+<p class="reference">References <a class="el" href="Direction_8hpp_source.html#l00379">PhQ::Vector&lt; Number &gt;::Direction()</a>, and <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Acceleration, double &gt;::value</a>.</p>
 
 </div>
 </div>
@@ -926,9 +963,9 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the magnitude of this acceleration vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="Acceleration_8hpp_source.html#l00149">149</a> of file <a class="el" href="Acceleration_8hpp_source.html">Acceleration.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Acceleration_8hpp_source.html#l00155">155</a> of file <a class="el" href="Acceleration_8hpp_source.html">Acceleration.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00200">PhQ::Vector&lt; Number &gt;::Magnitude()</a>, and <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Acceleration, double &gt;::value</a>.</p>
+<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00206">PhQ::Vector&lt; Number &gt;::Magnitude()</a>, and <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Acceleration, double &gt;::value</a>.</p>
 
 </div>
 </div>
@@ -987,7 +1024,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Acceleration_8hpp_source.html#l00171">171</a> of file <a class="el" href="Acceleration_8hpp_source.html">Acceleration.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Acceleration_8hpp_source.html#l00177">177</a> of file <a class="el" href="Acceleration_8hpp_source.html">Acceleration.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Acceleration, double &gt;::value</a>.</p>
 
@@ -1019,7 +1056,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Acceleration_8hpp_source.html#l00175">175</a> of file <a class="el" href="Acceleration_8hpp_source.html">Acceleration.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Acceleration_8hpp_source.html#l00181">181</a> of file <a class="el" href="Acceleration_8hpp_source.html">Acceleration.hpp</a>.</p>
 
 </div>
 </div>
@@ -1049,7 +1086,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Acceleration_8hpp_source.html#l00195">195</a> of file <a class="el" href="Acceleration_8hpp_source.html">Acceleration.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Acceleration_8hpp_source.html#l00201">201</a> of file <a class="el" href="Acceleration_8hpp_source.html">Acceleration.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Acceleration, double &gt;::value</a>.</p>
 
@@ -1081,7 +1118,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Acceleration_8hpp_source.html#l00163">163</a> of file <a class="el" href="Acceleration_8hpp_source.html">Acceleration.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Acceleration_8hpp_source.html#l00169">169</a> of file <a class="el" href="Acceleration_8hpp_source.html">Acceleration.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; UnitType, Number &gt;::value</a>, and <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Acceleration, double &gt;::value</a>.</p>
 
@@ -1113,7 +1150,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Acceleration_8hpp_source.html#l00187">187</a> of file <a class="el" href="Acceleration_8hpp_source.html">Acceleration.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Acceleration_8hpp_source.html#l00193">193</a> of file <a class="el" href="Acceleration_8hpp_source.html">Acceleration.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Acceleration, double &gt;::value</a>.</p>
 
@@ -1145,7 +1182,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Acceleration_8hpp_source.html#l00167">167</a> of file <a class="el" href="Acceleration_8hpp_source.html">Acceleration.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Acceleration_8hpp_source.html#l00173">173</a> of file <a class="el" href="Acceleration_8hpp_source.html">Acceleration.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; UnitType, Number &gt;::value</a>, and <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Acceleration, double &gt;::value</a>.</p>
 
@@ -1177,7 +1214,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Acceleration_8hpp_source.html#l00191">191</a> of file <a class="el" href="Acceleration_8hpp_source.html">Acceleration.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Acceleration_8hpp_source.html#l00197">197</a> of file <a class="el" href="Acceleration_8hpp_source.html">Acceleration.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Acceleration, double &gt;::value</a>.</p>
 
@@ -1209,7 +1246,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Acceleration_8hpp_source.html#l00183">183</a> of file <a class="el" href="Acceleration_8hpp_source.html">Acceleration.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Acceleration_8hpp_source.html#l00189">189</a> of file <a class="el" href="Acceleration_8hpp_source.html">Acceleration.hpp</a>.</p>
 
 </div>
 </div>
@@ -1239,7 +1276,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Acceleration_8hpp_source.html#l00179">179</a> of file <a class="el" href="Acceleration_8hpp_source.html">Acceleration.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Acceleration_8hpp_source.html#l00185">185</a> of file <a class="el" href="Acceleration_8hpp_source.html">Acceleration.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Acceleration, double &gt;::value</a>.</p>
 
@@ -1271,7 +1308,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Acceleration_8hpp_source.html#l00199">199</a> of file <a class="el" href="Acceleration_8hpp_source.html">Acceleration.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Acceleration_8hpp_source.html#l00205">205</a> of file <a class="el" href="Acceleration_8hpp_source.html">Acceleration.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Acceleration, double &gt;::value</a>.</p>
 
@@ -1367,7 +1404,7 @@ template&lt;typename OtherNumber &gt; </div>
 
 <p>Copy assignment operator. Assigns this acceleration vector by copying another one. </p>
 
-<p class="definition">Definition at line <a class="el" href="Acceleration_8hpp_source.html#l00094">94</a> of file <a class="el" href="Acceleration_8hpp_source.html">Acceleration.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Acceleration_8hpp_source.html#l00100">100</a> of file <a class="el" href="Acceleration_8hpp_source.html">Acceleration.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00060">PhQ::DimensionalVector&lt; UnitType, Number &gt;::Value()</a>, and <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Acceleration, double &gt;::value</a>.</p>
 
@@ -1396,7 +1433,7 @@ template&lt;typename OtherNumber &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Prints this physical quantity as a string. This physical quantity's value is expressed in its standard unit of measure and printed to Number floating point precision. </p>
+<p>Prints this physical quantity as a string. This physical quantity's value is expressed in its standard unit of measure. </p>
 
 <p class="definition">Definition at line <a class="el" href="DimensionalVector_8hpp_source.html#l00092">92</a> of file <a class="el" href="DimensionalVector_8hpp_source.html">DimensionalVector.hpp</a>.</p>
 
@@ -1426,7 +1463,7 @@ template&lt;typename OtherNumber &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Prints this physical quantity as a string. This physical quantity's value is expressed in the given unit of measure and printed to Number floating point precision. </p>
+<p>Prints this physical quantity as a string. This physical quantity's value is expressed in the given unit of measure. </p>
 
 <p class="definition">Definition at line <a class="el" href="DimensionalVector_8hpp_source.html#l00098">98</a> of file <a class="el" href="DimensionalVector_8hpp_source.html">DimensionalVector.hpp</a>.</p>
 
@@ -1606,11 +1643,11 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the x Cartesian component of this acceleration vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="Acceleration_8hpp_source.html#l00134">134</a> of file <a class="el" href="Acceleration_8hpp_source.html">Acceleration.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Acceleration_8hpp_source.html#l00140">140</a> of file <a class="el" href="Acceleration_8hpp_source.html">Acceleration.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Acceleration, double &gt;::value</a>, and <a class="el" href="Vector_8hpp_source.html#l00130">PhQ::Vector&lt; Number &gt;::x()</a>.</p>
+<p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Acceleration, double &gt;::value</a>, and <a class="el" href="Vector_8hpp_source.html#l00136">PhQ::Vector&lt; Number &gt;::x()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="Acceleration_8hpp_source.html#l00110">PhQ::Acceleration&lt; Number &gt;::Create()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="Acceleration_8hpp_source.html#l00116">PhQ::Acceleration&lt; Number &gt;::Create()</a>.</p>
 
 </div>
 </div>
@@ -1700,11 +1737,11 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the y Cartesian component of this acceleration vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="Acceleration_8hpp_source.html#l00139">139</a> of file <a class="el" href="Acceleration_8hpp_source.html">Acceleration.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Acceleration_8hpp_source.html#l00145">145</a> of file <a class="el" href="Acceleration_8hpp_source.html">Acceleration.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Acceleration, double &gt;::value</a>, and <a class="el" href="Vector_8hpp_source.html#l00135">PhQ::Vector&lt; Number &gt;::y()</a>.</p>
+<p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Acceleration, double &gt;::value</a>, and <a class="el" href="Vector_8hpp_source.html#l00141">PhQ::Vector&lt; Number &gt;::y()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="Acceleration_8hpp_source.html#l00110">PhQ::Acceleration&lt; Number &gt;::Create()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="Acceleration_8hpp_source.html#l00116">PhQ::Acceleration&lt; Number &gt;::Create()</a>.</p>
 
 </div>
 </div>
@@ -1794,11 +1831,11 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the z Cartesian component of this acceleration vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="Acceleration_8hpp_source.html#l00144">144</a> of file <a class="el" href="Acceleration_8hpp_source.html">Acceleration.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Acceleration_8hpp_source.html#l00150">150</a> of file <a class="el" href="Acceleration_8hpp_source.html">Acceleration.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Acceleration, double &gt;::value</a>, and <a class="el" href="Vector_8hpp_source.html#l00140">PhQ::Vector&lt; Number &gt;::z()</a>.</p>
+<p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Acceleration, double &gt;::value</a>, and <a class="el" href="Vector_8hpp_source.html#l00146">PhQ::Vector&lt; Number &gt;::z()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="Acceleration_8hpp_source.html#l00110">PhQ::Acceleration&lt; Number &gt;::Create()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="Acceleration_8hpp_source.html#l00116">PhQ::Acceleration&lt; Number &gt;::Create()</a>.</p>
 
 </div>
 </div>
@@ -1829,9 +1866,9 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Statically creates an acceleration vector of zero. </p>
 
-<p class="definition">Definition at line <a class="el" href="Acceleration_8hpp_source.html#l00103">103</a> of file <a class="el" href="Acceleration_8hpp_source.html">Acceleration.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Acceleration_8hpp_source.html#l00109">109</a> of file <a class="el" href="Acceleration_8hpp_source.html">Acceleration.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00117">PhQ::Vector&lt; Number &gt;::Zero()</a>.</p>
+<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00123">PhQ::Vector&lt; Number &gt;::Zero()</a>.</p>
 
 </div>
 </div>

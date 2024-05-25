@@ -152,6 +152,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:af1b5d13171b95950f044faae41b55756"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a16096d00b88eb4655eac7fa711f5e1b8"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1ScalarForce.html">ScalarForce</a>&lt; Number &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1ScalarTraction.html#a16096d00b88eb4655eac7fa711f5e1b8">operator*</a> (const <a class="el" href="classPhQ_1_1Area.html">Area</a>&lt; Number &gt; &amp;area) const</td></tr>
 <tr class="separator:a16096d00b88eb4655eac7fa711f5e1b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0fa9978b51ec167d5ea7311a09e3fb25"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1PlanarTraction.html">PlanarTraction</a>&lt; Number &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1ScalarTraction.html#a0fa9978b51ec167d5ea7311a09e3fb25">operator*</a> (const <a class="el" href="classPhQ_1_1PlanarDirection.html">PlanarDirection</a>&lt; Number &gt; &amp;planar_direction) const</td></tr>
+<tr class="separator:a0fa9978b51ec167d5ea7311a09e3fb25"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab44ce171d09a07440a8652af269428ee"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1Traction.html">Traction</a>&lt; Number &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1ScalarTraction.html#ab44ce171d09a07440a8652af269428ee">operator*</a> (const <a class="el" href="classPhQ_1_1Direction.html">Direction</a>&lt; Number &gt; &amp;direction) const</td></tr>
 <tr class="separator:ab44ce171d09a07440a8652af269428ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a05e36ac1e738ef0a6cf82778beb80ccd"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt; Number &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1ScalarTraction.html#a05e36ac1e738ef0a6cf82778beb80ccd">operator/</a> (const Number number) const</td></tr>
@@ -236,6 +238,9 @@ Private Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
 Friends</h2></td></tr>
+<tr class="memitem:a69d9d294dd580a8223a0d0449384ed49"><td class="memTemplParams" colspan="2">template&lt;typename OtherNumber &gt; </td></tr>
+<tr class="memitem:a69d9d294dd580a8223a0d0449384ed49"><td class="memTemplItemLeft" align="right" valign="top">class&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classPhQ_1_1ScalarTraction.html#a69d9d294dd580a8223a0d0449384ed49">PlanarTraction</a></td></tr>
+<tr class="separator:a69d9d294dd580a8223a0d0449384ed49"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1e69c6ca0189f8597e8a224ca04c4aa9"><td class="memTemplParams" colspan="2">template&lt;typename OtherNumber &gt; </td></tr>
 <tr class="memitem:a1e69c6ca0189f8597e8a224ca04c4aa9"><td class="memTemplItemLeft" align="right" valign="top">class&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classPhQ_1_1ScalarTraction.html#a1e69c6ca0189f8597e8a224ca04c4aa9">Traction</a></td></tr>
 <tr class="separator:a1e69c6ca0189f8597e8a224ca04c4aa9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -246,7 +251,7 @@ class PhQ::ScalarTraction&lt; Number &gt;</h3>
 
 <p>Scalar traction component or magnitude of a traction vector. <a class="el" href="classPhQ_1_1Traction.html" title="Traction vector. Traction is similar to pressure; however, traction can act in any direction,...">Traction</a> is similar to pressure; however, traction can act in any direction, whereas pressure always acts compressively perpendicular to a surface. See also <a class="el" href="classPhQ_1_1Traction.html" title="Traction vector. Traction is similar to pressure; however, traction can act in any direction,...">PhQ::Traction</a>. </p>
 
-<p class="definition">Definition at line <a class="el" href="ScalarTraction_8hpp_source.html#l00053">53</a> of file <a class="el" href="ScalarTraction_8hpp_source.html">ScalarTraction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ScalarTraction_8hpp_source.html#l00061">61</a> of file <a class="el" href="ScalarTraction_8hpp_source.html">ScalarTraction.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a42e1b957f10518aadfa63de4aead41b6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a42e1b957f10518aadfa63de4aead41b6">&#9670;&nbsp;</a></span>ScalarTraction() <span class="overload">[1/7]</span></h2>
@@ -315,7 +320,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Constructor. Constructs a scalar traction with a given value expressed in a given pressure unit. </p>
 
-<p class="definition">Definition at line <a class="el" href="ScalarTraction_8hpp_source.html#l00060">60</a> of file <a class="el" href="ScalarTraction_8hpp_source.html">ScalarTraction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ScalarTraction_8hpp_source.html#l00068">68</a> of file <a class="el" href="ScalarTraction_8hpp_source.html">ScalarTraction.hpp</a>.</p>
 
 </div>
 </div>
@@ -357,7 +362,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Constructor. Constructs a scalar traction from a given scalar force magnitude and area using the definition of traction. </p>
 
-<p class="definition">Definition at line <a class="el" href="ScalarTraction_8hpp_source.html#l00065">65</a> of file <a class="el" href="ScalarTraction_8hpp_source.html">ScalarTraction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ScalarTraction_8hpp_source.html#l00073">73</a> of file <a class="el" href="ScalarTraction_8hpp_source.html">ScalarTraction.hpp</a>.</p>
 
 </div>
 </div>
@@ -450,7 +455,7 @@ template&lt;typename OtherNumber &gt; </div>
 
 <p>Copy constructor. Constructs a scalar traction by copying another one. </p>
 
-<p class="definition">Definition at line <a class="el" href="ScalarTraction_8hpp_source.html#l00076">76</a> of file <a class="el" href="ScalarTraction_8hpp_source.html">ScalarTraction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ScalarTraction_8hpp_source.html#l00084">84</a> of file <a class="el" href="ScalarTraction_8hpp_source.html">ScalarTraction.hpp</a>.</p>
 
 </div>
 </div>
@@ -512,7 +517,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Constructor. Constructs a scalar traction with a given value expressed in the standard pressure unit. </p>
 
-<p class="definition">Definition at line <a class="el" href="ScalarTraction_8hpp_source.html#l00153">153</a> of file <a class="el" href="ScalarTraction_8hpp_source.html">ScalarTraction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ScalarTraction_8hpp_source.html#l00163">163</a> of file <a class="el" href="ScalarTraction_8hpp_source.html">ScalarTraction.hpp</a>.</p>
 
 </div>
 </div>
@@ -547,7 +552,7 @@ template&lt;Unit::Pressure Unit&gt; </div>
 
 <p>Statically creates a scalar traction with a given value expressed in a given pressure unit. </p>
 
-<p class="definition">Definition at line <a class="el" href="ScalarTraction_8hpp_source.html#l00103">103</a> of file <a class="el" href="ScalarTraction_8hpp_source.html">ScalarTraction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ScalarTraction_8hpp_source.html#l00111">111</a> of file <a class="el" href="ScalarTraction_8hpp_source.html">ScalarTraction.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00218">PhQ::DimensionalScalar&lt; Unit::Pressure, double &gt;::value</a>.</p>
 
@@ -671,7 +676,7 @@ template&lt;Unit::Pressure Unit&gt; </div>
 </div>
 </div>
 <a id="a16096d00b88eb4655eac7fa711f5e1b8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a16096d00b88eb4655eac7fa711f5e1b8">&#9670;&nbsp;</a></span>operator*() <span class="overload">[1/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a16096d00b88eb4655eac7fa711f5e1b8">&#9670;&nbsp;</a></span>operator*() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -696,12 +701,12 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ScalarTraction_8hpp_source.html#l00120">120</a> of file <a class="el" href="ScalarTraction_8hpp_source.html">ScalarTraction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ScalarTraction_8hpp_source.html#l00128">128</a> of file <a class="el" href="ScalarTraction_8hpp_source.html">ScalarTraction.hpp</a>.</p>
 
 </div>
 </div>
 <a id="ab44ce171d09a07440a8652af269428ee"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab44ce171d09a07440a8652af269428ee">&#9670;&nbsp;</a></span>operator*() <span class="overload">[2/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ab44ce171d09a07440a8652af269428ee">&#9670;&nbsp;</a></span>operator*() <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -726,12 +731,12 @@ template&lt;typename Number &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Traction_8hpp_source.html#l00272">272</a> of file <a class="el" href="Traction_8hpp_source.html">Traction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Traction_8hpp_source.html#l00278">278</a> of file <a class="el" href="Traction_8hpp_source.html">Traction.hpp</a>.</p>
 
 </div>
 </div>
 <a id="af1b5d13171b95950f044faae41b55756"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af1b5d13171b95950f044faae41b55756">&#9670;&nbsp;</a></span>operator*() <span class="overload">[3/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#af1b5d13171b95950f044faae41b55756">&#9670;&nbsp;</a></span>operator*() <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -756,9 +761,39 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ScalarTraction_8hpp_source.html#l00116">116</a> of file <a class="el" href="ScalarTraction_8hpp_source.html">ScalarTraction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ScalarTraction_8hpp_source.html#l00124">124</a> of file <a class="el" href="ScalarTraction_8hpp_source.html">ScalarTraction.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00218">PhQ::DimensionalScalar&lt; Unit::Pressure, double &gt;::value</a>.</p>
+
+</div>
+</div>
+<a id="a0fa9978b51ec167d5ea7311a09e3fb25"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0fa9978b51ec167d5ea7311a09e3fb25">&#9670;&nbsp;</a></span>operator*() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Number &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1PlanarTraction.html">PlanarTraction</a>&lt; Number &gt; <a class="el" href="classPhQ_1_1ScalarTraction.html">PhQ::ScalarTraction</a>&lt; Number &gt;::operator* </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1PlanarDirection.html">PlanarDirection</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramname"><em>planar_direction</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="PlanarTraction_8hpp_source.html#l00275">275</a> of file <a class="el" href="PlanarTraction_8hpp_source.html">PlanarTraction.hpp</a>.</p>
 
 </div>
 </div>
@@ -788,7 +823,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ScalarTraction_8hpp_source.html#l00142">142</a> of file <a class="el" href="ScalarTraction_8hpp_source.html">ScalarTraction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ScalarTraction_8hpp_source.html#l00152">152</a> of file <a class="el" href="ScalarTraction_8hpp_source.html">ScalarTraction.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00218">PhQ::DimensionalScalar&lt; Unit::Pressure, double &gt;::value</a>.</p>
 
@@ -820,7 +855,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ScalarTraction_8hpp_source.html#l00108">108</a> of file <a class="el" href="ScalarTraction_8hpp_source.html">ScalarTraction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ScalarTraction_8hpp_source.html#l00116">116</a> of file <a class="el" href="ScalarTraction_8hpp_source.html">ScalarTraction.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00218">PhQ::DimensionalScalar&lt; UnitType, Number &gt;::value</a>, and <a class="el" href="DimensionalScalar_8hpp_source.html#l00218">PhQ::DimensionalScalar&lt; Unit::Pressure, double &gt;::value</a>.</p>
 
@@ -852,7 +887,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ScalarTraction_8hpp_source.html#l00134">134</a> of file <a class="el" href="ScalarTraction_8hpp_source.html">ScalarTraction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ScalarTraction_8hpp_source.html#l00144">144</a> of file <a class="el" href="ScalarTraction_8hpp_source.html">ScalarTraction.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00218">PhQ::DimensionalScalar&lt; Unit::Pressure, double &gt;::value</a>.</p>
 
@@ -884,7 +919,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ScalarTraction_8hpp_source.html#l00112">112</a> of file <a class="el" href="ScalarTraction_8hpp_source.html">ScalarTraction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ScalarTraction_8hpp_source.html#l00120">120</a> of file <a class="el" href="ScalarTraction_8hpp_source.html">ScalarTraction.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00218">PhQ::DimensionalScalar&lt; UnitType, Number &gt;::value</a>, and <a class="el" href="DimensionalScalar_8hpp_source.html#l00218">PhQ::DimensionalScalar&lt; Unit::Pressure, double &gt;::value</a>.</p>
 
@@ -916,7 +951,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ScalarTraction_8hpp_source.html#l00138">138</a> of file <a class="el" href="ScalarTraction_8hpp_source.html">ScalarTraction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ScalarTraction_8hpp_source.html#l00148">148</a> of file <a class="el" href="ScalarTraction_8hpp_source.html">ScalarTraction.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00218">PhQ::DimensionalScalar&lt; Unit::Pressure, double &gt;::value</a>.</p>
 
@@ -948,7 +983,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ScalarTraction_8hpp_source.html#l00126">126</a> of file <a class="el" href="ScalarTraction_8hpp_source.html">ScalarTraction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ScalarTraction_8hpp_source.html#l00136">136</a> of file <a class="el" href="ScalarTraction_8hpp_source.html">ScalarTraction.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00218">PhQ::DimensionalScalar&lt; Unit::Pressure, double &gt;::value</a>.</p>
 
@@ -980,7 +1015,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ScalarTraction_8hpp_source.html#l00130">130</a> of file <a class="el" href="ScalarTraction_8hpp_source.html">ScalarTraction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ScalarTraction_8hpp_source.html#l00140">140</a> of file <a class="el" href="ScalarTraction_8hpp_source.html">ScalarTraction.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00218">PhQ::DimensionalScalar&lt; Unit::Pressure, double &gt;::value</a>.</p>
 
@@ -1012,7 +1047,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ScalarTraction_8hpp_source.html#l00146">146</a> of file <a class="el" href="ScalarTraction_8hpp_source.html">ScalarTraction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ScalarTraction_8hpp_source.html#l00156">156</a> of file <a class="el" href="ScalarTraction_8hpp_source.html">ScalarTraction.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00218">PhQ::DimensionalScalar&lt; Unit::Pressure, double &gt;::value</a>.</p>
 
@@ -1078,7 +1113,7 @@ template&lt;typename OtherNumber &gt; </div>
 
 <p>Copy assignment operator. Assigns this scalar traction by copying another one. </p>
 
-<p class="definition">Definition at line <a class="el" href="ScalarTraction_8hpp_source.html#l00087">87</a> of file <a class="el" href="ScalarTraction_8hpp_source.html">ScalarTraction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ScalarTraction_8hpp_source.html#l00095">95</a> of file <a class="el" href="ScalarTraction_8hpp_source.html">ScalarTraction.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00064">PhQ::DimensionalScalar&lt; UnitType, Number &gt;::Value()</a>, and <a class="el" href="DimensionalScalar_8hpp_source.html#l00218">PhQ::DimensionalScalar&lt; Unit::Pressure, double &gt;::value</a>.</p>
 
@@ -1465,11 +1500,39 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Statically creates a scalar traction of zero. </p>
 
-<p class="definition">Definition at line <a class="el" href="ScalarTraction_8hpp_source.html#l00096">96</a> of file <a class="el" href="ScalarTraction_8hpp_source.html">ScalarTraction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ScalarTraction_8hpp_source.html#l00104">104</a> of file <a class="el" href="ScalarTraction_8hpp_source.html">ScalarTraction.hpp</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Friends And Related Function Documentation</h2>
+<a id="a69d9d294dd580a8223a0d0449384ed49"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69d9d294dd580a8223a0d0449384ed49">&#9670;&nbsp;</a></span>PlanarTraction</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Number  = double&gt; </div>
+<div class="memtemplate">
+template&lt;typename OtherNumber &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">friend class <a class="el" href="classPhQ_1_1PlanarTraction.html">PlanarTraction</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="ScalarTraction_8hpp_source.html#l00167">167</a> of file <a class="el" href="ScalarTraction_8hpp_source.html">ScalarTraction.hpp</a>.</p>
+
+</div>
+</div>
 <a id="a1e69c6ca0189f8597e8a224ca04c4aa9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1e69c6ca0189f8597e8a224ca04c4aa9">&#9670;&nbsp;</a></span>Traction</h2>
 
@@ -1494,7 +1557,7 @@ template&lt;typename OtherNumber &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ScalarTraction_8hpp_source.html#l00157">157</a> of file <a class="el" href="ScalarTraction_8hpp_source.html">ScalarTraction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ScalarTraction_8hpp_source.html#l00170">170</a> of file <a class="el" href="ScalarTraction_8hpp_source.html">ScalarTraction.hpp</a>.</p>
 
 </div>
 </div>
@@ -1528,6 +1591,7 @@ template&lt;typename OtherNumber &gt; </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>PhQ/<a class="el" href="Area_8hpp_source.html">Area.hpp</a></li>
 <li>PhQ/<a class="el" href="ScalarTraction_8hpp_source.html">ScalarTraction.hpp</a></li>
+<li>PhQ/<a class="el" href="PlanarTraction_8hpp_source.html">PlanarTraction.hpp</a></li>
 <li>PhQ/<a class="el" href="Traction_8hpp_source.html">Traction.hpp</a></li>
 </ul>
 </div><!-- contents -->

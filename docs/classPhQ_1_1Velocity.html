@@ -104,7 +104,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search','.html');
 </div><!--header-->
 <div class="contents">
 
-<p><a class="el" href="classPhQ_1_1Velocity.html" title="Velocity vector.">Velocity</a> vector.  
+<p><a class="el" href="classPhQ_1_1Velocity.html" title="Velocity vector. Not to be confused with speed, which is its scalar analog. See also PhQ::Speed and P...">Velocity</a> vector. Not to be confused with speed, which is its scalar analog. See also <a class="el" href="classPhQ_1_1Speed.html" title="Speed scalar. Magnitude of the velocity vector.">PhQ::Speed</a> and <a class="el" href="classPhQ_1_1PlanarVelocity.html" title="Planar velocity vector in the XY plane. See also PhQ::Velocity and PhQ::Speed.">PhQ::PlanarVelocity</a>.  
  <a href="classPhQ_1_1Velocity.html#details">More...</a></p>
 
 <p><code>#include &quot;<a class="el" href="Velocity_8hpp_source.html">Velocity.hpp</a>&quot;</code></p>
@@ -120,6 +120,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a66ee49d1ef6f0dfed65f5e1d87084595"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Velocity.html#a66ee49d1ef6f0dfed65f5e1d87084595">Velocity</a> (const <a class="el" href="classPhQ_1_1Speed.html">Speed</a>&lt; Number &gt; &amp;speed, const <a class="el" href="classPhQ_1_1Direction.html">Direction</a>&lt; Number &gt; &amp;direction)</td></tr>
 <tr class="memdesc:a66ee49d1ef6f0dfed65f5e1d87084595"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a velocity vector from a given speed and direction.  <a href="classPhQ_1_1Velocity.html#a66ee49d1ef6f0dfed65f5e1d87084595">More...</a><br /></td></tr>
 <tr class="separator:a66ee49d1ef6f0dfed65f5e1d87084595"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32cf9c1b2a0305cff40de2546fdf41b7"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Velocity.html#a32cf9c1b2a0305cff40de2546fdf41b7">Velocity</a> (const <a class="el" href="classPhQ_1_1PlanarVelocity.html">PlanarVelocity</a>&lt; Number &gt; &amp;planar_velocity)</td></tr>
+<tr class="memdesc:a32cf9c1b2a0305cff40de2546fdf41b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a velocity vector from a given planar velocity vector in the XY plane. This velocity vector's z-component is initialized to zero.  <a href="classPhQ_1_1Velocity.html#a32cf9c1b2a0305cff40de2546fdf41b7">More...</a><br /></td></tr>
+<tr class="separator:a32cf9c1b2a0305cff40de2546fdf41b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a571558387120a5b40c818e89368c4e4e"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Velocity.html#a571558387120a5b40c818e89368c4e4e">Velocity</a> (const <a class="el" href="classPhQ_1_1Displacement.html">Displacement</a>&lt; Number &gt; &amp;displacement, const <a class="el" href="classPhQ_1_1Time.html">Time</a>&lt; Number &gt; &amp;time)</td></tr>
 <tr class="memdesc:a571558387120a5b40c818e89368c4e4e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a velocity vector from a given displacement vector and time using the definition of velocity.  <a href="classPhQ_1_1Velocity.html#a571558387120a5b40c818e89368c4e4e">More...</a><br /></td></tr>
 <tr class="separator:a571558387120a5b40c818e89368c4e4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -213,10 +216,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a9f539e9b49ea2af8fe9f86156337baa9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the value of this physical quantity expressed in its standard unit of measure to the given value.  <a href="classPhQ_1_1DimensionalVector.html#a9f539e9b49ea2af8fe9f86156337baa9">More...</a><br /></td></tr>
 <tr class="separator:a9f539e9b49ea2af8fe9f86156337baa9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a99ed09897dee742af4dd2ae5dddc05e5"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalVector.html#a99ed09897dee742af4dd2ae5dddc05e5">Print</a> () const</td></tr>
-<tr class="memdesc:a99ed09897dee742af4dd2ae5dddc05e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints this physical quantity as a string. This physical quantity's value is expressed in its standard unit of measure and printed to Number floating point precision.  <a href="classPhQ_1_1DimensionalVector.html#a99ed09897dee742af4dd2ae5dddc05e5">More...</a><br /></td></tr>
+<tr class="memdesc:a99ed09897dee742af4dd2ae5dddc05e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints this physical quantity as a string. This physical quantity's value is expressed in its standard unit of measure.  <a href="classPhQ_1_1DimensionalVector.html#a99ed09897dee742af4dd2ae5dddc05e5">More...</a><br /></td></tr>
 <tr class="separator:a99ed09897dee742af4dd2ae5dddc05e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad2ac83a81055ccf8d1117c57186f2d86"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalVector.html#ad2ac83a81055ccf8d1117c57186f2d86">Print</a> (const <a class="el" href="namespacePhQ_1_1Unit.html#ade1b15225d4c0137f9572ee61f237d3e">Unit::Speed</a> unit) const</td></tr>
-<tr class="memdesc:ad2ac83a81055ccf8d1117c57186f2d86"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints this physical quantity as a string. This physical quantity's value is expressed in the given unit of measure and printed to Number floating point precision.  <a href="classPhQ_1_1DimensionalVector.html#ad2ac83a81055ccf8d1117c57186f2d86">More...</a><br /></td></tr>
+<tr class="memdesc:ad2ac83a81055ccf8d1117c57186f2d86"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints this physical quantity as a string. This physical quantity's value is expressed in the given unit of measure.  <a href="classPhQ_1_1DimensionalVector.html#ad2ac83a81055ccf8d1117c57186f2d86">More...</a><br /></td></tr>
 <tr class="separator:ad2ac83a81055ccf8d1117c57186f2d86"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa5d01fbac3fe45387202f1f4094b3504"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalVector.html#aa5d01fbac3fe45387202f1f4094b3504">JSON</a> () const</td></tr>
 <tr class="memdesc:aa5d01fbac3fe45387202f1f4094b3504"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serializes this physical quantity as a JSON message. This physical quantity's value is expressed in its standard unit of measure.  <a href="classPhQ_1_1DimensionalVector.html#aa5d01fbac3fe45387202f1f4094b3504">More...</a><br /></td></tr>
@@ -277,12 +280,12 @@ Private Member Functions</h2></td></tr>
 <div class="textblock"><h3>template&lt;typename Number = double&gt;<br />
 class PhQ::Velocity&lt; Number &gt;</h3>
 
-<p><a class="el" href="classPhQ_1_1Velocity.html" title="Velocity vector.">Velocity</a> vector. </p>
+<p><a class="el" href="classPhQ_1_1Velocity.html" title="Velocity vector. Not to be confused with speed, which is its scalar analog. See also PhQ::Speed and P...">Velocity</a> vector. Not to be confused with speed, which is its scalar analog. See also <a class="el" href="classPhQ_1_1Speed.html" title="Speed scalar. Magnitude of the velocity vector.">PhQ::Speed</a> and <a class="el" href="classPhQ_1_1PlanarVelocity.html" title="Planar velocity vector in the XY plane. See also PhQ::Velocity and PhQ::Speed.">PhQ::PlanarVelocity</a>. </p>
 
-<p class="definition">Definition at line <a class="el" href="Velocity_8hpp_source.html#l00053">53</a> of file <a class="el" href="Velocity_8hpp_source.html">Velocity.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Velocity_8hpp_source.html#l00055">55</a> of file <a class="el" href="Velocity_8hpp_source.html">Velocity.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="af53f973d39845aebe166c2a4ad9a87c9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af53f973d39845aebe166c2a4ad9a87c9">&#9670;&nbsp;</a></span>Velocity() <span class="overload">[1/11]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#af53f973d39845aebe166c2a4ad9a87c9">&#9670;&nbsp;</a></span>Velocity() <span class="overload">[1/12]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -311,7 +314,7 @@ template&lt;typename Number  = double&gt; </div>
 </div>
 </div>
 <a id="a06250c4426f0802b7971bf7b1be23fa3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a06250c4426f0802b7971bf7b1be23fa3">&#9670;&nbsp;</a></span>Velocity() <span class="overload">[2/11]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a06250c4426f0802b7971bf7b1be23fa3">&#9670;&nbsp;</a></span>Velocity() <span class="overload">[2/12]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -348,12 +351,12 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Constructor. Constructs a velocity vector with a given value expressed in a given speed unit. </p>
 
-<p class="definition">Definition at line <a class="el" href="Velocity_8hpp_source.html#l00060">60</a> of file <a class="el" href="Velocity_8hpp_source.html">Velocity.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Velocity_8hpp_source.html#l00062">62</a> of file <a class="el" href="Velocity_8hpp_source.html">Velocity.hpp</a>.</p>
 
 </div>
 </div>
 <a id="a66ee49d1ef6f0dfed65f5e1d87084595"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a66ee49d1ef6f0dfed65f5e1d87084595">&#9670;&nbsp;</a></span>Velocity() <span class="overload">[3/11]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a66ee49d1ef6f0dfed65f5e1d87084595">&#9670;&nbsp;</a></span>Velocity() <span class="overload">[3/12]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -390,12 +393,46 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Constructor. Constructs a velocity vector from a given speed and direction. </p>
 
-<p class="definition">Definition at line <a class="el" href="Velocity_8hpp_source.html#l00064">64</a> of file <a class="el" href="Velocity_8hpp_source.html">Velocity.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Velocity_8hpp_source.html#l00066">66</a> of file <a class="el" href="Velocity_8hpp_source.html">Velocity.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a32cf9c1b2a0305cff40de2546fdf41b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a32cf9c1b2a0305cff40de2546fdf41b7">&#9670;&nbsp;</a></span>Velocity() <span class="overload">[4/12]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Number  = double&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Velocity.html">PhQ::Velocity</a>&lt; Number &gt;::<a class="el" href="classPhQ_1_1Velocity.html">Velocity</a> </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1PlanarVelocity.html">PlanarVelocity</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramname"><em>planar_velocity</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">explicit</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Constructor. Constructs a velocity vector from a given planar velocity vector in the XY plane. This velocity vector's z-component is initialized to zero. </p>
+
+<p class="definition">Definition at line <a class="el" href="Velocity_8hpp_source.html#l00071">71</a> of file <a class="el" href="Velocity_8hpp_source.html">Velocity.hpp</a>.</p>
+
+<p class="reference">References <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00060">PhQ::DimensionalPlanarVector&lt; UnitType, Number &gt;::Value()</a>.</p>
 
 </div>
 </div>
 <a id="a571558387120a5b40c818e89368c4e4e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a571558387120a5b40c818e89368c4e4e">&#9670;&nbsp;</a></span>Velocity() <span class="overload">[4/11]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a571558387120a5b40c818e89368c4e4e">&#9670;&nbsp;</a></span>Velocity() <span class="overload">[5/12]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -432,12 +469,12 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Constructor. Constructs a velocity vector from a given displacement vector and time using the definition of velocity. </p>
 
-<p class="definition">Definition at line <a class="el" href="Velocity_8hpp_source.html#l00069">69</a> of file <a class="el" href="Velocity_8hpp_source.html">Velocity.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Velocity_8hpp_source.html#l00076">76</a> of file <a class="el" href="Velocity_8hpp_source.html">Velocity.hpp</a>.</p>
 
 </div>
 </div>
 <a id="ad03d831e94807dda583b74b9e94cb134"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad03d831e94807dda583b74b9e94cb134">&#9670;&nbsp;</a></span>Velocity() <span class="overload">[5/11]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ad03d831e94807dda583b74b9e94cb134">&#9670;&nbsp;</a></span>Velocity() <span class="overload">[6/12]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -474,12 +511,12 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Constructor. Constructs a velocity vector from a given displacement vector and frequency using the definition of velocity. </p>
 
-<p class="definition">Definition at line <a class="el" href="Velocity_8hpp_source.html#l00074">74</a> of file <a class="el" href="Velocity_8hpp_source.html">Velocity.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Velocity_8hpp_source.html#l00081">81</a> of file <a class="el" href="Velocity_8hpp_source.html">Velocity.hpp</a>.</p>
 
 </div>
 </div>
 <a id="a10a4ad0869710dccc529aaf30c84e511"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a10a4ad0869710dccc529aaf30c84e511">&#9670;&nbsp;</a></span>Velocity() <span class="overload">[6/11]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a10a4ad0869710dccc529aaf30c84e511">&#9670;&nbsp;</a></span>Velocity() <span class="overload">[7/12]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -516,12 +553,12 @@ template&lt;typename Number &gt; </div>
 
 <p>Constructor. Constructs a velocity vector from a given acceleration vector and time using the definition of acceleration. </p>
 
-<p class="definition">Definition at line <a class="el" href="Acceleration_8hpp_source.html#l00268">268</a> of file <a class="el" href="Acceleration_8hpp_source.html">Acceleration.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Acceleration_8hpp_source.html#l00279">279</a> of file <a class="el" href="Acceleration_8hpp_source.html">Acceleration.hpp</a>.</p>
 
 </div>
 </div>
 <a id="aedac824ffe483c1dc941090e4786276b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aedac824ffe483c1dc941090e4786276b">&#9670;&nbsp;</a></span>Velocity() <span class="overload">[7/11]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aedac824ffe483c1dc941090e4786276b">&#9670;&nbsp;</a></span>Velocity() <span class="overload">[8/12]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -558,7 +595,7 @@ template&lt;typename Number &gt; </div>
 
 <p>Constructor. Constructs a velocity vector from a given acceleration vector and frequency using the definition of acceleration. </p>
 
-<p class="definition">Definition at line <a class="el" href="Acceleration_8hpp_source.html#l00273">273</a> of file <a class="el" href="Acceleration_8hpp_source.html">Acceleration.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Acceleration_8hpp_source.html#l00284">284</a> of file <a class="el" href="Acceleration_8hpp_source.html">Acceleration.hpp</a>.</p>
 
 </div>
 </div>
@@ -592,7 +629,7 @@ template&lt;typename Number  = double&gt; </div>
 </div>
 </div>
 <a id="af31c79c0cb26f0f8773d511959ef39fb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af31c79c0cb26f0f8773d511959ef39fb">&#9670;&nbsp;</a></span>Velocity() <span class="overload">[8/11]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#af31c79c0cb26f0f8773d511959ef39fb">&#9670;&nbsp;</a></span>Velocity() <span class="overload">[9/12]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -622,7 +659,7 @@ template&lt;typename Number  = double&gt; </div>
 </div>
 </div>
 <a id="a8e4fd022dd77745bfff0466f74a21ae8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8e4fd022dd77745bfff0466f74a21ae8">&#9670;&nbsp;</a></span>Velocity() <span class="overload">[9/11]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e4fd022dd77745bfff0466f74a21ae8">&#9670;&nbsp;</a></span>Velocity() <span class="overload">[10/12]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -651,12 +688,12 @@ template&lt;typename OtherNumber &gt; </div>
 
 <p>Copy constructor. Constructs a velocity by copying another one. </p>
 
-<p class="definition">Definition at line <a class="el" href="Velocity_8hpp_source.html#l00093">93</a> of file <a class="el" href="Velocity_8hpp_source.html">Velocity.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Velocity_8hpp_source.html#l00100">100</a> of file <a class="el" href="Velocity_8hpp_source.html">Velocity.hpp</a>.</p>
 
 </div>
 </div>
 <a id="afd5ea61af979d20041f503b1c2e71b72"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afd5ea61af979d20041f503b1c2e71b72">&#9670;&nbsp;</a></span>Velocity() <span class="overload">[10/11]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#afd5ea61af979d20041f503b1c2e71b72">&#9670;&nbsp;</a></span>Velocity() <span class="overload">[11/12]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -686,7 +723,7 @@ template&lt;typename Number  = double&gt; </div>
 </div>
 </div>
 <a id="afd8ad0f67738905ba97cb9149dbb28fa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afd8ad0f67738905ba97cb9149dbb28fa">&#9670;&nbsp;</a></span>Velocity() <span class="overload">[11/11]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#afd8ad0f67738905ba97cb9149dbb28fa">&#9670;&nbsp;</a></span>Velocity() <span class="overload">[12/12]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -713,7 +750,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Constructor. Constructs a velocity vector with a given value expressed in the standard speed unit. </p>
 
-<p class="definition">Definition at line <a class="el" href="Velocity_8hpp_source.html#l00217">217</a> of file <a class="el" href="Velocity_8hpp_source.html">Velocity.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Velocity_8hpp_source.html#l00224">224</a> of file <a class="el" href="Velocity_8hpp_source.html">Velocity.hpp</a>.</p>
 
 </div>
 </div>
@@ -746,7 +783,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the angle between this velocity vector and another one. </p>
 
-<p class="definition">Definition at line <a class="el" href="Velocity_8hpp_source.html#l00166">166</a> of file <a class="el" href="Velocity_8hpp_source.html">Velocity.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Velocity_8hpp_source.html#l00173">173</a> of file <a class="el" href="Velocity_8hpp_source.html">Velocity.hpp</a>.</p>
 
 </div>
 </div>
@@ -796,9 +833,9 @@ template&lt;Unit::Speed Unit&gt; </div>
 
 <p>Statically creates a velocity vector from the given x, y, and z Cartesian components expressed in a given speed unit. </p>
 
-<p class="definition">Definition at line <a class="el" href="Velocity_8hpp_source.html#l00120">120</a> of file <a class="el" href="Velocity_8hpp_source.html">Velocity.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Velocity_8hpp_source.html#l00127">127</a> of file <a class="el" href="Velocity_8hpp_source.html">Velocity.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Velocity_8hpp_source.html#l00141">PhQ::Velocity&lt; Number &gt;::x()</a>, <a class="el" href="Velocity_8hpp_source.html#l00146">PhQ::Velocity&lt; Number &gt;::y()</a>, and <a class="el" href="Velocity_8hpp_source.html#l00151">PhQ::Velocity&lt; Number &gt;::z()</a>.</p>
+<p class="reference">References <a class="el" href="Velocity_8hpp_source.html#l00148">PhQ::Velocity&lt; Number &gt;::x()</a>, <a class="el" href="Velocity_8hpp_source.html#l00153">PhQ::Velocity&lt; Number &gt;::y()</a>, and <a class="el" href="Velocity_8hpp_source.html#l00158">PhQ::Velocity&lt; Number &gt;::z()</a>.</p>
 
 </div>
 </div>
@@ -832,7 +869,7 @@ template&lt;Unit::Speed Unit&gt; </div>
 
 <p>Statically creates a velocity vector from the given x, y, and z Cartesian components expressed in a given speed unit. </p>
 
-<p class="definition">Definition at line <a class="el" href="Velocity_8hpp_source.html#l00128">128</a> of file <a class="el" href="Velocity_8hpp_source.html">Velocity.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Velocity_8hpp_source.html#l00135">135</a> of file <a class="el" href="Velocity_8hpp_source.html">Velocity.hpp</a>.</p>
 
 </div>
 </div>
@@ -866,7 +903,7 @@ template&lt;Unit::Speed Unit&gt; </div>
 
 <p>Statically creates a velocity vector with a given value expressed in a given speed unit. </p>
 
-<p class="definition">Definition at line <a class="el" href="Velocity_8hpp_source.html#l00136">136</a> of file <a class="el" href="Velocity_8hpp_source.html">Velocity.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Velocity_8hpp_source.html#l00143">143</a> of file <a class="el" href="Velocity_8hpp_source.html">Velocity.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Speed, double &gt;::value</a>.</p>
 
@@ -928,9 +965,9 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the direction of this velocity vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="Velocity_8hpp_source.html#l00161">161</a> of file <a class="el" href="Velocity_8hpp_source.html">Velocity.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Velocity_8hpp_source.html#l00168">168</a> of file <a class="el" href="Velocity_8hpp_source.html">Velocity.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Direction_8hpp_source.html#l00374">PhQ::Vector&lt; Number &gt;::Direction()</a>, and <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Speed, double &gt;::value</a>.</p>
+<p class="reference">References <a class="el" href="Direction_8hpp_source.html#l00379">PhQ::Vector&lt; Number &gt;::Direction()</a>, and <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Speed, double &gt;::value</a>.</p>
 
 </div>
 </div>
@@ -1020,9 +1057,9 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the magnitude of this velocity vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="Velocity_8hpp_source.html#l00156">156</a> of file <a class="el" href="Velocity_8hpp_source.html">Velocity.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Velocity_8hpp_source.html#l00163">163</a> of file <a class="el" href="Velocity_8hpp_source.html">Velocity.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00200">PhQ::Vector&lt; Number &gt;::Magnitude()</a>, and <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Speed, double &gt;::value</a>.</p>
+<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00206">PhQ::Vector&lt; Number &gt;::Magnitude()</a>, and <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Speed, double &gt;::value</a>.</p>
 
 </div>
 </div>
@@ -1081,7 +1118,7 @@ template&lt;typename Number &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Acceleration_8hpp_source.html#l00296">296</a> of file <a class="el" href="Acceleration_8hpp_source.html">Acceleration.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Acceleration_8hpp_source.html#l00307">307</a> of file <a class="el" href="Acceleration_8hpp_source.html">Acceleration.hpp</a>.</p>
 
 </div>
 </div>
@@ -1111,7 +1148,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Velocity_8hpp_source.html#l00178">178</a> of file <a class="el" href="Velocity_8hpp_source.html">Velocity.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Velocity_8hpp_source.html#l00185">185</a> of file <a class="el" href="Velocity_8hpp_source.html">Velocity.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Speed, double &gt;::value</a>.</p>
 
@@ -1143,7 +1180,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Velocity_8hpp_source.html#l00182">182</a> of file <a class="el" href="Velocity_8hpp_source.html">Velocity.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Velocity_8hpp_source.html#l00189">189</a> of file <a class="el" href="Velocity_8hpp_source.html">Velocity.hpp</a>.</p>
 
 </div>
 </div>
@@ -1173,7 +1210,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Velocity_8hpp_source.html#l00206">206</a> of file <a class="el" href="Velocity_8hpp_source.html">Velocity.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Velocity_8hpp_source.html#l00213">213</a> of file <a class="el" href="Velocity_8hpp_source.html">Velocity.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Speed, double &gt;::value</a>.</p>
 
@@ -1205,7 +1242,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Velocity_8hpp_source.html#l00170">170</a> of file <a class="el" href="Velocity_8hpp_source.html">Velocity.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Velocity_8hpp_source.html#l00177">177</a> of file <a class="el" href="Velocity_8hpp_source.html">Velocity.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; UnitType, Number &gt;::value</a>, and <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Speed, double &gt;::value</a>.</p>
 
@@ -1237,7 +1274,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Velocity_8hpp_source.html#l00198">198</a> of file <a class="el" href="Velocity_8hpp_source.html">Velocity.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Velocity_8hpp_source.html#l00205">205</a> of file <a class="el" href="Velocity_8hpp_source.html">Velocity.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Speed, double &gt;::value</a>.</p>
 
@@ -1269,7 +1306,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Velocity_8hpp_source.html#l00174">174</a> of file <a class="el" href="Velocity_8hpp_source.html">Velocity.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Velocity_8hpp_source.html#l00181">181</a> of file <a class="el" href="Velocity_8hpp_source.html">Velocity.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; UnitType, Number &gt;::value</a>, and <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Speed, double &gt;::value</a>.</p>
 
@@ -1301,7 +1338,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Velocity_8hpp_source.html#l00202">202</a> of file <a class="el" href="Velocity_8hpp_source.html">Velocity.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Velocity_8hpp_source.html#l00209">209</a> of file <a class="el" href="Velocity_8hpp_source.html">Velocity.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Speed, double &gt;::value</a>.</p>
 
@@ -1333,7 +1370,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Velocity_8hpp_source.html#l00194">194</a> of file <a class="el" href="Velocity_8hpp_source.html">Velocity.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Velocity_8hpp_source.html#l00201">201</a> of file <a class="el" href="Velocity_8hpp_source.html">Velocity.hpp</a>.</p>
 
 </div>
 </div>
@@ -1363,7 +1400,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Velocity_8hpp_source.html#l00188">188</a> of file <a class="el" href="Velocity_8hpp_source.html">Velocity.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Velocity_8hpp_source.html#l00195">195</a> of file <a class="el" href="Velocity_8hpp_source.html">Velocity.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Speed, double &gt;::value</a>.</p>
 
@@ -1395,7 +1432,7 @@ template&lt;typename Number &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Acceleration_8hpp_source.html#l00302">302</a> of file <a class="el" href="Acceleration_8hpp_source.html">Acceleration.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Acceleration_8hpp_source.html#l00319">319</a> of file <a class="el" href="Acceleration_8hpp_source.html">Acceleration.hpp</a>.</p>
 
 </div>
 </div>
@@ -1425,7 +1462,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Velocity_8hpp_source.html#l00210">210</a> of file <a class="el" href="Velocity_8hpp_source.html">Velocity.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Velocity_8hpp_source.html#l00217">217</a> of file <a class="el" href="Velocity_8hpp_source.html">Velocity.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Speed, double &gt;::value</a>.</p>
 
@@ -1491,7 +1528,7 @@ template&lt;typename OtherNumber &gt; </div>
 
 <p>Copy assignment operator. Assigns this velocity by copying another one. </p>
 
-<p class="definition">Definition at line <a class="el" href="Velocity_8hpp_source.html#l00104">104</a> of file <a class="el" href="Velocity_8hpp_source.html">Velocity.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Velocity_8hpp_source.html#l00111">111</a> of file <a class="el" href="Velocity_8hpp_source.html">Velocity.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00060">PhQ::DimensionalVector&lt; UnitType, Number &gt;::Value()</a>, and <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Speed, double &gt;::value</a>.</p>
 
@@ -1550,7 +1587,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Prints this physical quantity as a string. This physical quantity's value is expressed in its standard unit of measure and printed to Number floating point precision. </p>
+<p>Prints this physical quantity as a string. This physical quantity's value is expressed in its standard unit of measure. </p>
 
 <p class="definition">Definition at line <a class="el" href="DimensionalVector_8hpp_source.html#l00092">92</a> of file <a class="el" href="DimensionalVector_8hpp_source.html">DimensionalVector.hpp</a>.</p>
 
@@ -1580,7 +1617,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Prints this physical quantity as a string. This physical quantity's value is expressed in the given unit of measure and printed to Number floating point precision. </p>
+<p>Prints this physical quantity as a string. This physical quantity's value is expressed in the given unit of measure. </p>
 
 <p class="definition">Definition at line <a class="el" href="DimensionalVector_8hpp_source.html#l00098">98</a> of file <a class="el" href="DimensionalVector_8hpp_source.html">DimensionalVector.hpp</a>.</p>
 
@@ -1760,11 +1797,11 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the x Cartesian component of this velocity vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="Velocity_8hpp_source.html#l00141">141</a> of file <a class="el" href="Velocity_8hpp_source.html">Velocity.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Velocity_8hpp_source.html#l00148">148</a> of file <a class="el" href="Velocity_8hpp_source.html">Velocity.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Speed, double &gt;::value</a>, and <a class="el" href="Vector_8hpp_source.html#l00130">PhQ::Vector&lt; Number &gt;::x()</a>.</p>
+<p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Speed, double &gt;::value</a>, and <a class="el" href="Vector_8hpp_source.html#l00136">PhQ::Vector&lt; Number &gt;::x()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="Velocity_8hpp_source.html#l00120">PhQ::Velocity&lt; Number &gt;::Create()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="Velocity_8hpp_source.html#l00127">PhQ::Velocity&lt; Number &gt;::Create()</a>.</p>
 
 </div>
 </div>
@@ -1854,11 +1891,11 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the y Cartesian component of this velocity vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="Velocity_8hpp_source.html#l00146">146</a> of file <a class="el" href="Velocity_8hpp_source.html">Velocity.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Velocity_8hpp_source.html#l00153">153</a> of file <a class="el" href="Velocity_8hpp_source.html">Velocity.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Speed, double &gt;::value</a>, and <a class="el" href="Vector_8hpp_source.html#l00135">PhQ::Vector&lt; Number &gt;::y()</a>.</p>
+<p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Speed, double &gt;::value</a>, and <a class="el" href="Vector_8hpp_source.html#l00141">PhQ::Vector&lt; Number &gt;::y()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="Velocity_8hpp_source.html#l00120">PhQ::Velocity&lt; Number &gt;::Create()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="Velocity_8hpp_source.html#l00127">PhQ::Velocity&lt; Number &gt;::Create()</a>.</p>
 
 </div>
 </div>
@@ -1948,11 +1985,11 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the z Cartesian component of this velocity vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="Velocity_8hpp_source.html#l00151">151</a> of file <a class="el" href="Velocity_8hpp_source.html">Velocity.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Velocity_8hpp_source.html#l00158">158</a> of file <a class="el" href="Velocity_8hpp_source.html">Velocity.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Speed, double &gt;::value</a>, and <a class="el" href="Vector_8hpp_source.html#l00140">PhQ::Vector&lt; Number &gt;::z()</a>.</p>
+<p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Speed, double &gt;::value</a>, and <a class="el" href="Vector_8hpp_source.html#l00146">PhQ::Vector&lt; Number &gt;::z()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="Velocity_8hpp_source.html#l00120">PhQ::Velocity&lt; Number &gt;::Create()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="Velocity_8hpp_source.html#l00127">PhQ::Velocity&lt; Number &gt;::Create()</a>.</p>
 
 </div>
 </div>
@@ -1983,9 +2020,9 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Statically creates a velocity vector of zero. </p>
 
-<p class="definition">Definition at line <a class="el" href="Velocity_8hpp_source.html#l00113">113</a> of file <a class="el" href="Velocity_8hpp_source.html">Velocity.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Velocity_8hpp_source.html#l00120">120</a> of file <a class="el" href="Velocity_8hpp_source.html">Velocity.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00117">PhQ::Vector&lt; Number &gt;::Zero()</a>.</p>
+<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00123">PhQ::Vector&lt; Number &gt;::Zero()</a>.</p>
 
 </div>
 </div>
