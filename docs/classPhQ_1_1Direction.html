@@ -120,8 +120,11 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:aa7a026d01ad4847938b1b03d8d7d58a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a direction by normalizing a given array representing x, y, and z Cartesian components to a unit vector. If x = 0, y = 0, and z = 0, initializes the direction to the zero vector.  <a href="classPhQ_1_1Direction.html#aa7a026d01ad4847938b1b03d8d7d58a5">More...</a><br /></td></tr>
 <tr class="separator:aa7a026d01ad4847938b1b03d8d7d58a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3fbae016d9c1e1a32bfd72d4682617f0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Direction.html#a3fbae016d9c1e1a32bfd72d4682617f0">Direction</a> (const <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt; Number &gt; &amp;<a class="el" href="classPhQ_1_1DimensionlessVector.html#a34f486f32e6f515e991a1923441c2b15">value</a>)</td></tr>
-<tr class="memdesc:a3fbae016d9c1e1a32bfd72d4682617f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a direction by normalizing the given vector to a unit vector. If the given vector is a zero vector, initializes the direction to the zero vector.  <a href="classPhQ_1_1Direction.html#a3fbae016d9c1e1a32bfd72d4682617f0">More...</a><br /></td></tr>
+<tr class="memdesc:a3fbae016d9c1e1a32bfd72d4682617f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a direction by normalizing the given vector to a unit vector. If the given vector is the zero vector, initializes the direction to the zero vector.  <a href="classPhQ_1_1Direction.html#a3fbae016d9c1e1a32bfd72d4682617f0">More...</a><br /></td></tr>
 <tr class="separator:a3fbae016d9c1e1a32bfd72d4682617f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9387cbde3ca70a2f4d54f5423a95e885"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Direction.html#a9387cbde3ca70a2f4d54f5423a95e885">Direction</a> (const <a class="el" href="classPhQ_1_1PlanarDirection.html">PlanarDirection</a>&lt; Number &gt; &amp;planar_direction)</td></tr>
+<tr class="memdesc:a9387cbde3ca70a2f4d54f5423a95e885"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a direction from a given planar direction in the XY plane. This direction's z-component is initialized to zero.  <a href="classPhQ_1_1Direction.html#a9387cbde3ca70a2f4d54f5423a95e885">More...</a><br /></td></tr>
+<tr class="separator:a9387cbde3ca70a2f4d54f5423a95e885"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab68ff4f3b7296e6d7f97bf6aa30c0c63"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Direction.html#ab68ff4f3b7296e6d7f97bf6aa30c0c63">Direction</a> (const <a class="el" href="classPhQ_1_1Acceleration.html">Acceleration</a>&lt; Number &gt; &amp;acceleration)</td></tr>
 <tr class="memdesc:ab68ff4f3b7296e6d7f97bf6aa30c0c63"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a direction from an acceleration.  <a href="classPhQ_1_1Direction.html#ab68ff4f3b7296e6d7f97bf6aa30c0c63">More...</a><br /></td></tr>
 <tr class="separator:ab68ff4f3b7296e6d7f97bf6aa30c0c63"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -163,7 +166,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:af946a78bb096306346d771326e722020"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move constructor. Constructs a direction by moving another one.  <a href="classPhQ_1_1Direction.html#af946a78bb096306346d771326e722020">More...</a><br /></td></tr>
 <tr class="separator:af946a78bb096306346d771326e722020"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aba72a3e6fd0f7f3ede6de9a53890bdc4"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1Direction.html">Direction</a>&lt; Number &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Direction.html#aba72a3e6fd0f7f3ede6de9a53890bdc4">operator=</a> (const <a class="el" href="classPhQ_1_1Direction.html">Direction</a>&lt; Number &gt; &amp;other)=default</td></tr>
-<tr class="memdesc:aba72a3e6fd0f7f3ede6de9a53890bdc4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy assignment operator. Assigns the value of this direction by copying from another one.  <a href="classPhQ_1_1Direction.html#aba72a3e6fd0f7f3ede6de9a53890bdc4">More...</a><br /></td></tr>
+<tr class="memdesc:aba72a3e6fd0f7f3ede6de9a53890bdc4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy assignment operator. Assigns this direction by copying another one.  <a href="classPhQ_1_1Direction.html#aba72a3e6fd0f7f3ede6de9a53890bdc4">More...</a><br /></td></tr>
 <tr class="separator:aba72a3e6fd0f7f3ede6de9a53890bdc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a66d3cc93697b0c643e99ce7b2eb30a49"><td class="memTemplParams" colspan="2">template&lt;typename OtherNumber &gt; </td></tr>
 <tr class="memitem:a66d3cc93697b0c643e99ce7b2eb30a49"><td class="memTemplItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1Direction.html">Direction</a>&lt; Number &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Direction.html#a66d3cc93697b0c643e99ce7b2eb30a49">operator=</a> (const <a class="el" href="classPhQ_1_1Direction.html">Direction</a>&lt; OtherNumber &gt; &amp;other)</td></tr>
@@ -194,10 +197,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a78b2012d237c109c672c50cd89e4aec2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if this direction is the zero vector, or false if it is a unit vector.  <a href="classPhQ_1_1Direction.html#a78b2012d237c109c672c50cd89e4aec2">More...</a><br /></td></tr>
 <tr class="separator:a78b2012d237c109c672c50cd89e4aec2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab8b0972b438b9a9529307acef669c280"><td class="memItemLeft" align="right" valign="top">constexpr Number&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Direction.html#ab8b0972b438b9a9529307acef669c280">MagnitudeSquared</a> () const noexcept</td></tr>
-<tr class="memdesc:ab8b0972b438b9a9529307acef669c280"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the square of the magnitude of this direction. This is guaranteed to be exactly 1 if the direction is valid, or 0 if the direction is the zero vector.  <a href="classPhQ_1_1Direction.html#ab8b0972b438b9a9529307acef669c280">More...</a><br /></td></tr>
+<tr class="memdesc:ab8b0972b438b9a9529307acef669c280"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the square of the magnitude of this direction. This is guaranteed to be exactly 1 if the direction is not the zero vector, or 0 if the direction is the zero vector.  <a href="classPhQ_1_1Direction.html#ab8b0972b438b9a9529307acef669c280">More...</a><br /></td></tr>
 <tr class="separator:ab8b0972b438b9a9529307acef669c280"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9a49d162aef8eaaad4077b56383fdd0e"><td class="memItemLeft" align="right" valign="top">Number&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Direction.html#a9a49d162aef8eaaad4077b56383fdd0e">Magnitude</a> () const noexcept</td></tr>
-<tr class="memdesc:a9a49d162aef8eaaad4077b56383fdd0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the magnitude of this direction. This is guaranteed to be exactly 1 if the direction is valid, or 0 if the direction is the zero vector.  <a href="classPhQ_1_1Direction.html#a9a49d162aef8eaaad4077b56383fdd0e">More...</a><br /></td></tr>
+<tr class="memdesc:a9a49d162aef8eaaad4077b56383fdd0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the magnitude of this direction. This is guaranteed to be exactly 1 if the direction is not the zero vector, or 0 if the direction is the zero vector.  <a href="classPhQ_1_1Direction.html#a9a49d162aef8eaaad4077b56383fdd0e">More...</a><br /></td></tr>
 <tr class="separator:a9a49d162aef8eaaad4077b56383fdd0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a348c44dd7c37d2085ffd5f657a261bfa"><td class="memItemLeft" align="right" valign="top">constexpr Number&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Direction.html#a348c44dd7c37d2085ffd5f657a261bfa">Dot</a> (const <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt; Number &gt; &amp;vector) const noexcept</td></tr>
 <tr class="memdesc:a348c44dd7c37d2085ffd5f657a261bfa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the dot product (also known as the scalar product or the inner product) of this direction with the given vector.  <a href="classPhQ_1_1Direction.html#a348c44dd7c37d2085ffd5f657a261bfa">More...</a><br /></td></tr>
@@ -276,10 +279,10 @@ class PhQ::Direction&lt; Number &gt;</h3>
 
 <p><a class="el" href="classPhQ_1_1Direction.html" title="Direction. This is guaranteed to be either a unit vector or the zero vector (0, 0,...">Direction</a>. This is guaranteed to be either a unit vector or the zero vector (0, 0, 0). Use the <a class="el" href="classPhQ_1_1Direction.html#a78b2012d237c109c672c50cd89e4aec2" title="Returns true if this direction is the zero vector, or false if it is a unit vector.">IsZero()</a> method to check whether the direction is a unit vector or the zero vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00115">115</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00116">116</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a7232270e56940abaaf027bab20271710"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7232270e56940abaaf027bab20271710">&#9670;&nbsp;</a></span>Direction() <span class="overload">[1/16]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a7232270e56940abaaf027bab20271710">&#9670;&nbsp;</a></span>Direction() <span class="overload">[1/17]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -305,12 +308,12 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Default constructor. Initializes a direction to the zero vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00118">118</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00119">119</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
 
 </div>
 </div>
 <a id="a76fca2b02fc09d3f81e5d045fff3e77c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a76fca2b02fc09d3f81e5d045fff3e77c">&#9670;&nbsp;</a></span>Direction() <span class="overload">[2/16]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a76fca2b02fc09d3f81e5d045fff3e77c">&#9670;&nbsp;</a></span>Direction() <span class="overload">[2/17]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -353,14 +356,14 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Constructor. Constructs a direction by normalizing the given x, y, and z Cartesian components to a unit vector. If x = 0, y = 0, and z = 0, initializes the direction to the zero vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00123">123</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00124">124</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Direction_8hpp_source.html#l00218">PhQ::Direction&lt; Number &gt;::Set()</a>, <a class="el" href="Direction_8hpp_source.html#l00201">PhQ::Direction&lt; Number &gt;::x()</a>, <a class="el" href="Direction_8hpp_source.html#l00206">PhQ::Direction&lt; Number &gt;::y()</a>, and <a class="el" href="Direction_8hpp_source.html#l00211">PhQ::Direction&lt; Number &gt;::z()</a>.</p>
+<p class="reference">References <a class="el" href="Direction_8hpp_source.html#l00223">PhQ::Direction&lt; Number &gt;::Set()</a>, <a class="el" href="Direction_8hpp_source.html#l00206">PhQ::Direction&lt; Number &gt;::x()</a>, <a class="el" href="Direction_8hpp_source.html#l00211">PhQ::Direction&lt; Number &gt;::y()</a>, and <a class="el" href="Direction_8hpp_source.html#l00216">PhQ::Direction&lt; Number &gt;::z()</a>.</p>
 
 </div>
 </div>
 <a id="aa7a026d01ad4847938b1b03d8d7d58a5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa7a026d01ad4847938b1b03d8d7d58a5">&#9670;&nbsp;</a></span>Direction() <span class="overload">[3/16]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aa7a026d01ad4847938b1b03d8d7d58a5">&#9670;&nbsp;</a></span>Direction() <span class="overload">[3/17]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -387,14 +390,14 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Constructor. Constructs a direction by normalizing a given array representing x, y, and z Cartesian components to a unit vector. If x = 0, y = 0, and z = 0, initializes the direction to the zero vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00130">130</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00131">131</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Direction_8hpp_source.html#l00218">PhQ::Direction&lt; Number &gt;::Set()</a>.</p>
+<p class="reference">References <a class="el" href="Direction_8hpp_source.html#l00223">PhQ::Direction&lt; Number &gt;::Set()</a>.</p>
 
 </div>
 </div>
 <a id="a3fbae016d9c1e1a32bfd72d4682617f0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3fbae016d9c1e1a32bfd72d4682617f0">&#9670;&nbsp;</a></span>Direction() <span class="overload">[4/16]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a3fbae016d9c1e1a32bfd72d4682617f0">&#9670;&nbsp;</a></span>Direction() <span class="overload">[4/17]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -419,16 +422,50 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Constructor. Constructs a direction by normalizing the given vector to a unit vector. If the given vector is a zero vector, initializes the direction to the zero vector. </p>
+<p>Constructor. Constructs a direction by normalizing the given vector to a unit vector. If the given vector is the zero vector, initializes the direction to the zero vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00136">136</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00137">137</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Direction_8hpp_source.html#l00218">PhQ::Direction&lt; Number &gt;::Set()</a>, and <a class="el" href="DimensionlessVector_8hpp_source.html#l00136">PhQ::DimensionlessVector&lt; double &gt;::value</a>.</p>
+<p class="reference">References <a class="el" href="Direction_8hpp_source.html#l00223">PhQ::Direction&lt; Number &gt;::Set()</a>, and <a class="el" href="DimensionlessVector_8hpp_source.html#l00136">PhQ::DimensionlessVector&lt; double &gt;::value</a>.</p>
+
+</div>
+</div>
+<a id="a9387cbde3ca70a2f4d54f5423a95e885"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9387cbde3ca70a2f4d54f5423a95e885">&#9670;&nbsp;</a></span>Direction() <span class="overload">[5/17]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Number  = double&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Direction.html">PhQ::Direction</a>&lt; Number &gt;::<a class="el" href="classPhQ_1_1Direction.html">Direction</a> </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1PlanarDirection.html">PlanarDirection</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramname"><em>planar_direction</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">explicit</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Constructor. Constructs a direction from a given planar direction in the XY plane. This direction's z-component is initialized to zero. </p>
+
+<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00143">143</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
+
+<p class="reference">References <a class="el" href="DimensionlessPlanarVector_8hpp_source.html#l00060">PhQ::DimensionlessPlanarVector&lt; Number &gt;::Value()</a>.</p>
 
 </div>
 </div>
 <a id="ab68ff4f3b7296e6d7f97bf6aa30c0c63"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab68ff4f3b7296e6d7f97bf6aa30c0c63">&#9670;&nbsp;</a></span>Direction() <span class="overload">[5/16]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ab68ff4f3b7296e6d7f97bf6aa30c0c63">&#9670;&nbsp;</a></span>Direction() <span class="overload">[6/17]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -455,12 +492,12 @@ template&lt;typename Number &gt; </div>
 
 <p>Constructor. Constructs a direction from an acceleration. </p>
 
-<p class="definition">Definition at line <a class="el" href="Acceleration_8hpp_source.html#l00259">259</a> of file <a class="el" href="Acceleration_8hpp_source.html">Acceleration.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Acceleration_8hpp_source.html#l00265">265</a> of file <a class="el" href="Acceleration_8hpp_source.html">Acceleration.hpp</a>.</p>
 
 </div>
 </div>
 <a id="a96d2b6a53f72a48c89d4a12164b0bfe5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a96d2b6a53f72a48c89d4a12164b0bfe5">&#9670;&nbsp;</a></span>Direction() <span class="overload">[6/16]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a96d2b6a53f72a48c89d4a12164b0bfe5">&#9670;&nbsp;</a></span>Direction() <span class="overload">[7/17]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -487,12 +524,12 @@ template&lt;typename Number &gt; </div>
 
 <p>Constructor. Constructs a direction from a displacement. </p>
 
-<p class="definition">Definition at line <a class="el" href="Displacement_8hpp_source.html#l00273">273</a> of file <a class="el" href="Displacement_8hpp_source.html">Displacement.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Displacement_8hpp_source.html#l00279">279</a> of file <a class="el" href="Displacement_8hpp_source.html">Displacement.hpp</a>.</p>
 
 </div>
 </div>
 <a id="a83600a8e3cbfa09c9ea33b8265ac9f6c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a83600a8e3cbfa09c9ea33b8265ac9f6c">&#9670;&nbsp;</a></span>Direction() <span class="overload">[7/16]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a83600a8e3cbfa09c9ea33b8265ac9f6c">&#9670;&nbsp;</a></span>Direction() <span class="overload">[8/17]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -519,12 +556,12 @@ template&lt;typename Number &gt; </div>
 
 <p>Constructor. Constructs a direction from a force. </p>
 
-<p class="definition">Definition at line <a class="el" href="Force_8hpp_source.html#l00236">236</a> of file <a class="el" href="Force_8hpp_source.html">Force.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Force_8hpp_source.html#l00242">242</a> of file <a class="el" href="Force_8hpp_source.html">Force.hpp</a>.</p>
 
 </div>
 </div>
 <a id="a47c12240091e752b0cc7624c59823c59"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a47c12240091e752b0cc7624c59823c59">&#9670;&nbsp;</a></span>Direction() <span class="overload">[8/16]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a47c12240091e752b0cc7624c59823c59">&#9670;&nbsp;</a></span>Direction() <span class="overload">[9/17]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -551,12 +588,12 @@ template&lt;typename Number &gt; </div>
 
 <p>Constructor. Constructs a direction from a heat flux. </p>
 
-<p class="definition">Definition at line <a class="el" href="HeatFlux_8hpp_source.html#l00254">254</a> of file <a class="el" href="HeatFlux_8hpp_source.html">HeatFlux.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="HeatFlux_8hpp_source.html#l00260">260</a> of file <a class="el" href="HeatFlux_8hpp_source.html">HeatFlux.hpp</a>.</p>
 
 </div>
 </div>
 <a id="a1146324bf735e378198edaf74959d527"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1146324bf735e378198edaf74959d527">&#9670;&nbsp;</a></span>Direction() <span class="overload">[9/16]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a1146324bf735e378198edaf74959d527">&#9670;&nbsp;</a></span>Direction() <span class="overload">[10/17]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -583,12 +620,12 @@ template&lt;typename Number &gt; </div>
 
 <p>Constructor. Constructs a direction from a position. </p>
 
-<p class="definition">Definition at line <a class="el" href="Position_8hpp_source.html#l00258">258</a> of file <a class="el" href="Position_8hpp_source.html">Position.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Position_8hpp_source.html#l00264">264</a> of file <a class="el" href="Position_8hpp_source.html">Position.hpp</a>.</p>
 
 </div>
 </div>
 <a id="a9c1a5823fa54975bcef96ddf96d1b4b3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9c1a5823fa54975bcef96ddf96d1b4b3">&#9670;&nbsp;</a></span>Direction() <span class="overload">[10/16]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a9c1a5823fa54975bcef96ddf96d1b4b3">&#9670;&nbsp;</a></span>Direction() <span class="overload">[11/17]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -615,12 +652,12 @@ template&lt;typename Number &gt; </div>
 
 <p>Constructor. Constructs a direction from a temperature gradient. </p>
 
-<p class="definition">Definition at line <a class="el" href="TemperatureGradient_8hpp_source.html#l00251">251</a> of file <a class="el" href="TemperatureGradient_8hpp_source.html">TemperatureGradient.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="TemperatureGradient_8hpp_source.html#l00259">259</a> of file <a class="el" href="TemperatureGradient_8hpp_source.html">TemperatureGradient.hpp</a>.</p>
 
 </div>
 </div>
 <a id="a52b9cef85e96d7bb18e915e3310eead3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a52b9cef85e96d7bb18e915e3310eead3">&#9670;&nbsp;</a></span>Direction() <span class="overload">[11/16]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a52b9cef85e96d7bb18e915e3310eead3">&#9670;&nbsp;</a></span>Direction() <span class="overload">[12/17]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -647,12 +684,12 @@ template&lt;typename Number &gt; </div>
 
 <p>Constructor. Constructs a direction from a traction. </p>
 
-<p class="definition">Definition at line <a class="el" href="Traction_8hpp_source.html#l00254">254</a> of file <a class="el" href="Traction_8hpp_source.html">Traction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Traction_8hpp_source.html#l00260">260</a> of file <a class="el" href="Traction_8hpp_source.html">Traction.hpp</a>.</p>
 
 </div>
 </div>
 <a id="ad9c3b5ecebdf10356bf86b72eaf762bb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad9c3b5ecebdf10356bf86b72eaf762bb">&#9670;&nbsp;</a></span>Direction() <span class="overload">[12/16]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ad9c3b5ecebdf10356bf86b72eaf762bb">&#9670;&nbsp;</a></span>Direction() <span class="overload">[13/17]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -679,12 +716,12 @@ template&lt;typename Number &gt; </div>
 
 <p>Constructor. Constructs a direction from a vector area. </p>
 
-<p class="definition">Definition at line <a class="el" href="VectorArea_8hpp_source.html#l00231">231</a> of file <a class="el" href="VectorArea_8hpp_source.html">VectorArea.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="VectorArea_8hpp_source.html#l00237">237</a> of file <a class="el" href="VectorArea_8hpp_source.html">VectorArea.hpp</a>.</p>
 
 </div>
 </div>
 <a id="a3561eb7ca663d371b9c2493d0cadc2bc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3561eb7ca663d371b9c2493d0cadc2bc">&#9670;&nbsp;</a></span>Direction() <span class="overload">[13/16]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a3561eb7ca663d371b9c2493d0cadc2bc">&#9670;&nbsp;</a></span>Direction() <span class="overload">[14/17]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -711,7 +748,7 @@ template&lt;typename Number &gt; </div>
 
 <p>Constructor. Constructs a direction from a velocity. </p>
 
-<p class="definition">Definition at line <a class="el" href="Velocity_8hpp_source.html#l00269">269</a> of file <a class="el" href="Velocity_8hpp_source.html">Velocity.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Velocity_8hpp_source.html#l00276">276</a> of file <a class="el" href="Velocity_8hpp_source.html">Velocity.hpp</a>.</p>
 
 </div>
 </div>
@@ -745,7 +782,7 @@ template&lt;typename Number  = double&gt; </div>
 </div>
 </div>
 <a id="ab81ef00fb9a244288654f956d8656699"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab81ef00fb9a244288654f956d8656699">&#9670;&nbsp;</a></span>Direction() <span class="overload">[14/16]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ab81ef00fb9a244288654f956d8656699">&#9670;&nbsp;</a></span>Direction() <span class="overload">[15/17]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -775,7 +812,7 @@ template&lt;typename Number  = double&gt; </div>
 </div>
 </div>
 <a id="a600472586855d6c35900f229c6b01dbe"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a600472586855d6c35900f229c6b01dbe">&#9670;&nbsp;</a></span>Direction() <span class="overload">[15/16]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a600472586855d6c35900f229c6b01dbe">&#9670;&nbsp;</a></span>Direction() <span class="overload">[16/17]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -804,12 +841,12 @@ template&lt;typename OtherNumber &gt; </div>
 
 <p>Copy constructor. Constructs a direction by copying another one. </p>
 
-<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00175">175</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00181">181</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
 
 </div>
 </div>
 <a id="af946a78bb096306346d771326e722020"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af946a78bb096306346d771326e722020">&#9670;&nbsp;</a></span>Direction() <span class="overload">[16/16]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#af946a78bb096306346d771326e722020">&#9670;&nbsp;</a></span>Direction() <span class="overload">[17/17]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -867,7 +904,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the angle between this direction and the given other direction. </p>
 
-<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00303">303</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00308">308</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
 
 </div>
 </div>
@@ -899,7 +936,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the angle between this direction and the given vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00298">298</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00303">303</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
 
 </div>
 </div>
@@ -931,9 +968,9 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the cross product of this direction with the given other direction. </p>
 
-<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00283">283</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00288">288</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00220">PhQ::Vector&lt; Number &gt;::Cross()</a>, <a class="el" href="DimensionlessVector_8hpp_source.html#l00136">PhQ::DimensionlessVector&lt; Number &gt;::value</a>, and <a class="el" href="DimensionlessVector_8hpp_source.html#l00136">PhQ::DimensionlessVector&lt; double &gt;::value</a>.</p>
+<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00226">PhQ::Vector&lt; Number &gt;::Cross()</a>, <a class="el" href="DimensionlessVector_8hpp_source.html#l00136">PhQ::DimensionlessVector&lt; Number &gt;::value</a>, and <a class="el" href="DimensionlessVector_8hpp_source.html#l00136">PhQ::DimensionlessVector&lt; double &gt;::value</a>.</p>
 
 </div>
 </div>
@@ -965,9 +1002,11 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the cross product of this direction with the given vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00278">278</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00283">283</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00220">PhQ::Vector&lt; Number &gt;::Cross()</a>, and <a class="el" href="DimensionlessVector_8hpp_source.html#l00136">PhQ::DimensionlessVector&lt; double &gt;::value</a>.</p>
+<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00226">PhQ::Vector&lt; Number &gt;::Cross()</a>, and <a class="el" href="DimensionlessVector_8hpp_source.html#l00136">PhQ::DimensionlessVector&lt; double &gt;::value</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="Direction_8hpp_source.html#l00436">PhQ::PlanarDirection&lt; Number &gt;::Cross()</a>.</p>
 
 </div>
 </div>
@@ -1028,9 +1067,9 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the dot product (also known as the scalar product or the inner product) of this direction with the given other direction. </p>
 
-<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00273">273</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00278">278</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00209">PhQ::Vector&lt; Number &gt;::Dot()</a>, and <a class="el" href="DimensionlessVector_8hpp_source.html#l00136">PhQ::DimensionlessVector&lt; double &gt;::value</a>.</p>
+<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00215">PhQ::Vector&lt; Number &gt;::Dot()</a>, and <a class="el" href="DimensionlessVector_8hpp_source.html#l00136">PhQ::DimensionlessVector&lt; double &gt;::value</a>.</p>
 
 </div>
 </div>
@@ -1062,9 +1101,9 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the dot product (also known as the scalar product or the inner product) of this direction with the given vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00267">267</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00272">272</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00209">PhQ::Vector&lt; Number &gt;::Dot()</a>, and <a class="el" href="DimensionlessVector_8hpp_source.html#l00136">PhQ::DimensionlessVector&lt; double &gt;::value</a>.</p>
+<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00215">PhQ::Vector&lt; Number &gt;::Dot()</a>, and <a class="el" href="DimensionlessVector_8hpp_source.html#l00136">PhQ::DimensionlessVector&lt; double &gt;::value</a>.</p>
 
 </div>
 </div>
@@ -1096,9 +1135,9 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the dyadic product of this direction with the given other direction. </p>
 
-<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00293">293</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00298">298</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Dyad_8hpp_source.html#l00684">PhQ::Vector&lt; Number &gt;::Dyadic()</a>, <a class="el" href="DimensionlessVector_8hpp_source.html#l00136">PhQ::DimensionlessVector&lt; Number &gt;::value</a>, and <a class="el" href="DimensionlessVector_8hpp_source.html#l00136">PhQ::DimensionlessVector&lt; double &gt;::value</a>.</p>
+<p class="reference">References <a class="el" href="Dyad_8hpp_source.html#l00702">PhQ::Vector&lt; Number &gt;::Dyadic()</a>, <a class="el" href="DimensionlessVector_8hpp_source.html#l00136">PhQ::DimensionlessVector&lt; Number &gt;::value</a>, and <a class="el" href="DimensionlessVector_8hpp_source.html#l00136">PhQ::DimensionlessVector&lt; double &gt;::value</a>.</p>
 
 </div>
 </div>
@@ -1130,9 +1169,9 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the dyadic product of this direction with the given vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00288">288</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00293">293</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Dyad_8hpp_source.html#l00684">PhQ::Vector&lt; Number &gt;::Dyadic()</a>, and <a class="el" href="DimensionlessVector_8hpp_source.html#l00136">PhQ::DimensionlessVector&lt; double &gt;::value</a>.</p>
+<p class="reference">References <a class="el" href="Dyad_8hpp_source.html#l00702">PhQ::Vector&lt; Number &gt;::Dyadic()</a>, and <a class="el" href="DimensionlessVector_8hpp_source.html#l00136">PhQ::DimensionlessVector&lt; double &gt;::value</a>.</p>
 
 </div>
 </div>
@@ -1163,9 +1202,9 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns true if this direction is the zero vector, or false if it is a unit vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00248">248</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00253">253</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionlessVector_8hpp_source.html#l00136">PhQ::DimensionlessVector&lt; double &gt;::value</a>, <a class="el" href="Vector_8hpp_source.html#l00130">PhQ::Vector&lt; Number &gt;::x()</a>, <a class="el" href="Vector_8hpp_source.html#l00135">PhQ::Vector&lt; Number &gt;::y()</a>, and <a class="el" href="Vector_8hpp_source.html#l00140">PhQ::Vector&lt; Number &gt;::z()</a>.</p>
+<p class="reference">References <a class="el" href="DimensionlessVector_8hpp_source.html#l00136">PhQ::DimensionlessVector&lt; double &gt;::value</a>, <a class="el" href="Vector_8hpp_source.html#l00136">PhQ::Vector&lt; Number &gt;::x()</a>, <a class="el" href="Vector_8hpp_source.html#l00141">PhQ::Vector&lt; Number &gt;::y()</a>, and <a class="el" href="Vector_8hpp_source.html#l00146">PhQ::Vector&lt; Number &gt;::z()</a>.</p>
 
 </div>
 </div>
@@ -1223,11 +1262,11 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Returns the magnitude of this direction. This is guaranteed to be exactly 1 if the direction is valid, or 0 if the direction is the zero vector. </p>
+<p>Returns the magnitude of this direction. This is guaranteed to be exactly 1 if the direction is not the zero vector, or 0 if the direction is the zero vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00261">261</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00266">266</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00200">PhQ::Vector&lt; Number &gt;::Magnitude()</a>, and <a class="el" href="DimensionlessVector_8hpp_source.html#l00136">PhQ::DimensionlessVector&lt; double &gt;::value</a>.</p>
+<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00206">PhQ::Vector&lt; Number &gt;::Magnitude()</a>, and <a class="el" href="DimensionlessVector_8hpp_source.html#l00136">PhQ::DimensionlessVector&lt; double &gt;::value</a>.</p>
 
 </div>
 </div>
@@ -1256,11 +1295,11 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Returns the square of the magnitude of this direction. This is guaranteed to be exactly 1 if the direction is valid, or 0 if the direction is the zero vector. </p>
+<p>Returns the square of the magnitude of this direction. This is guaranteed to be exactly 1 if the direction is not the zero vector, or 0 if the direction is the zero vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00255">255</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00260">260</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00195">PhQ::Vector&lt; Number &gt;::MagnitudeSquared()</a>, and <a class="el" href="DimensionlessVector_8hpp_source.html#l00136">PhQ::DimensionlessVector&lt; double &gt;::value</a>.</p>
+<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00201">PhQ::Vector&lt; Number &gt;::MagnitudeSquared()</a>, and <a class="el" href="DimensionlessVector_8hpp_source.html#l00136">PhQ::DimensionlessVector&lt; double &gt;::value</a>.</p>
 
 </div>
 </div>
@@ -1290,7 +1329,7 @@ template&lt;typename Number &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="VectorArea_8hpp_source.html#l00240">240</a> of file <a class="el" href="VectorArea_8hpp_source.html">VectorArea.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="VectorArea_8hpp_source.html#l00246">246</a> of file <a class="el" href="VectorArea_8hpp_source.html">VectorArea.hpp</a>.</p>
 
 </div>
 </div>
@@ -1320,7 +1359,7 @@ template&lt;typename Number &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Position_8hpp_source.html#l00282">282</a> of file <a class="el" href="Position_8hpp_source.html">Position.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Position_8hpp_source.html#l00288">288</a> of file <a class="el" href="Position_8hpp_source.html">Position.hpp</a>.</p>
 
 </div>
 </div>
@@ -1350,7 +1389,7 @@ template&lt;typename Number &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Acceleration_8hpp_source.html#l00278">278</a> of file <a class="el" href="Acceleration_8hpp_source.html">Acceleration.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Acceleration_8hpp_source.html#l00289">289</a> of file <a class="el" href="Acceleration_8hpp_source.html">Acceleration.hpp</a>.</p>
 
 </div>
 </div>
@@ -1380,7 +1419,7 @@ template&lt;typename Number &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Force_8hpp_source.html#l00244">244</a> of file <a class="el" href="Force_8hpp_source.html">Force.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Force_8hpp_source.html#l00250">250</a> of file <a class="el" href="Force_8hpp_source.html">Force.hpp</a>.</p>
 
 </div>
 </div>
@@ -1410,7 +1449,7 @@ template&lt;typename Number &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="HeatFlux_8hpp_source.html#l00263">263</a> of file <a class="el" href="HeatFlux_8hpp_source.html">HeatFlux.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="HeatFlux_8hpp_source.html#l00269">269</a> of file <a class="el" href="HeatFlux_8hpp_source.html">HeatFlux.hpp</a>.</p>
 
 </div>
 </div>
@@ -1440,7 +1479,7 @@ template&lt;typename Number &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="TemperatureGradient_8hpp_source.html#l00260">260</a> of file <a class="el" href="TemperatureGradient_8hpp_source.html">TemperatureGradient.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="TemperatureGradient_8hpp_source.html#l00268">268</a> of file <a class="el" href="TemperatureGradient_8hpp_source.html">TemperatureGradient.hpp</a>.</p>
 
 </div>
 </div>
@@ -1470,7 +1509,7 @@ template&lt;typename Number &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Traction_8hpp_source.html#l00266">266</a> of file <a class="el" href="Traction_8hpp_source.html">Traction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Traction_8hpp_source.html#l00272">272</a> of file <a class="el" href="Traction_8hpp_source.html">Traction.hpp</a>.</p>
 
 </div>
 </div>
@@ -1500,7 +1539,7 @@ template&lt;typename Number &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Velocity_8hpp_source.html#l00287">287</a> of file <a class="el" href="Velocity_8hpp_source.html">Velocity.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Velocity_8hpp_source.html#l00298">298</a> of file <a class="el" href="Velocity_8hpp_source.html">Velocity.hpp</a>.</p>
 
 </div>
 </div>
@@ -1530,7 +1569,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Copy assignment operator. Assigns the value of this direction by copying from another one. </p>
+<p>Copy assignment operator. Assigns this direction by copying another one. </p>
 
 </div>
 </div>
@@ -1564,7 +1603,7 @@ template&lt;typename OtherNumber &gt; </div>
 
 <p>Copy assignment operator. Assigns this direction by copying another one. </p>
 
-<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00187">187</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00192">192</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionlessVector_8hpp_source.html#l00060">PhQ::DimensionlessVector&lt; Number &gt;::Value()</a>, and <a class="el" href="DimensionlessVector_8hpp_source.html#l00136">PhQ::DimensionlessVector&lt; double &gt;::value</a>.</p>
 
@@ -1673,11 +1712,11 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Sets the value of this direction by normalizing the given x, y, and z Cartesian components to a unit vector. If x = 0, y = 0, and z = 0, sets the direction to the zero vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00218">218</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00223">223</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Direction_8hpp_source.html#l00201">PhQ::Direction&lt; Number &gt;::x()</a>, <a class="el" href="Direction_8hpp_source.html#l00206">PhQ::Direction&lt; Number &gt;::y()</a>, and <a class="el" href="Direction_8hpp_source.html#l00211">PhQ::Direction&lt; Number &gt;::z()</a>.</p>
+<p class="reference">References <a class="el" href="Direction_8hpp_source.html#l00206">PhQ::Direction&lt; Number &gt;::x()</a>, <a class="el" href="Direction_8hpp_source.html#l00211">PhQ::Direction&lt; Number &gt;::y()</a>, and <a class="el" href="Direction_8hpp_source.html#l00216">PhQ::Direction&lt; Number &gt;::z()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="Direction_8hpp_source.html#l00123">PhQ::Direction&lt; Number &gt;::Direction()</a>, and <a class="el" href="Direction_8hpp_source.html#l00243">PhQ::Direction&lt; Number &gt;::Set()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="Direction_8hpp_source.html#l00414">PhQ::Vector&lt; double &gt;::Angle()</a>, and <a class="el" href="Direction_8hpp_source.html#l00124">PhQ::Direction&lt; Number &gt;::Direction()</a>.</p>
 
 </div>
 </div>
@@ -1709,7 +1748,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Sets the value of this direction by normalizing the given x, y, and z Cartesian components to a unit vector. If x = 0, y = 0, and z = 0, sets the direction to the zero vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00231">231</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00236">236</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
 
 </div>
 </div>
@@ -1741,9 +1780,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Sets the value of this direction by normalizing the given vector to a unit vector. If the given vector is a zero vector, sets the direction to the zero vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00243">243</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
-
-<p class="reference">References <a class="el" href="Direction_8hpp_source.html#l00218">PhQ::Direction&lt; Number &gt;::Set()</a>, <a class="el" href="DimensionlessVector_8hpp_source.html#l00136">PhQ::DimensionlessVector&lt; double &gt;::value</a>, and <a class="el" href="Vector_8hpp_source.html#l00125">PhQ::Vector&lt; Number &gt;::x_y_z()</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00248">248</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
 
 </div>
 </div>
@@ -1803,11 +1840,11 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the x Cartesian component of this direction. </p>
 
-<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00201">201</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00206">206</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionlessVector_8hpp_source.html#l00136">PhQ::DimensionlessVector&lt; double &gt;::value</a>, and <a class="el" href="Vector_8hpp_source.html#l00130">PhQ::Vector&lt; Number &gt;::x()</a>.</p>
+<p class="reference">References <a class="el" href="DimensionlessVector_8hpp_source.html#l00136">PhQ::DimensionlessVector&lt; double &gt;::value</a>, and <a class="el" href="Vector_8hpp_source.html#l00136">PhQ::Vector&lt; Number &gt;::x()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="Direction_8hpp_source.html#l00123">PhQ::Direction&lt; Number &gt;::Direction()</a>, and <a class="el" href="Direction_8hpp_source.html#l00218">PhQ::Direction&lt; Number &gt;::Set()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="Direction_8hpp_source.html#l00124">PhQ::Direction&lt; Number &gt;::Direction()</a>, and <a class="el" href="Direction_8hpp_source.html#l00223">PhQ::Direction&lt; Number &gt;::Set()</a>.</p>
 
 </div>
 </div>
@@ -1867,11 +1904,9 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the y Cartesian component of this direction. </p>
 
-<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00206">206</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00211">211</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionlessVector_8hpp_source.html#l00136">PhQ::DimensionlessVector&lt; double &gt;::value</a>, and <a class="el" href="Vector_8hpp_source.html#l00135">PhQ::Vector&lt; Number &gt;::y()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="Direction_8hpp_source.html#l00123">PhQ::Direction&lt; Number &gt;::Direction()</a>, and <a class="el" href="Direction_8hpp_source.html#l00218">PhQ::Direction&lt; Number &gt;::Set()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="Direction_8hpp_source.html#l00124">PhQ::Direction&lt; Number &gt;::Direction()</a>, and <a class="el" href="Direction_8hpp_source.html#l00223">PhQ::Direction&lt; Number &gt;::Set()</a>.</p>
 
 </div>
 </div>
@@ -1931,11 +1966,11 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the z Cartesian component of this direction. </p>
 
-<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00211">211</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00216">216</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionlessVector_8hpp_source.html#l00136">PhQ::DimensionlessVector&lt; double &gt;::value</a>, and <a class="el" href="Vector_8hpp_source.html#l00140">PhQ::Vector&lt; Number &gt;::z()</a>.</p>
+<p class="reference">References <a class="el" href="DimensionlessVector_8hpp_source.html#l00136">PhQ::DimensionlessVector&lt; double &gt;::value</a>, and <a class="el" href="Vector_8hpp_source.html#l00146">PhQ::Vector&lt; Number &gt;::z()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="Direction_8hpp_source.html#l00123">PhQ::Direction&lt; Number &gt;::Direction()</a>, and <a class="el" href="Direction_8hpp_source.html#l00218">PhQ::Direction&lt; Number &gt;::Set()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="Direction_8hpp_source.html#l00124">PhQ::Direction&lt; Number &gt;::Direction()</a>, and <a class="el" href="Direction_8hpp_source.html#l00223">PhQ::Direction&lt; Number &gt;::Set()</a>.</p>
 
 </div>
 </div>
@@ -1966,7 +2001,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Statically creates a direction whose value is the zero vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00196">196</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00201">201</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
 
 </div>
 </div>

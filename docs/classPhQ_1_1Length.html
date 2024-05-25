@@ -176,6 +176,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a58f5aabc795a6543bfcac5a192a57971"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a91fad1c94b35ed7de093b50010cba794"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1Position.html">Position</a>&lt; Number &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Length.html#a91fad1c94b35ed7de093b50010cba794">operator*</a> (const <a class="el" href="classPhQ_1_1Direction.html">Direction</a>&lt; Number &gt; &amp;direction) const</td></tr>
 <tr class="separator:a91fad1c94b35ed7de093b50010cba794"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1d27e27dd9754c9b77ce18ee108e87d"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1PlanarPosition.html">PlanarPosition</a>&lt; Number &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Length.html#ac1d27e27dd9754c9b77ce18ee108e87d">operator*</a> (const <a class="el" href="classPhQ_1_1PlanarDirection.html">PlanarDirection</a>&lt; Number &gt; &amp;planar_direction) const</td></tr>
+<tr class="separator:ac1d27e27dd9754c9b77ce18ee108e87d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a68e41b93773537c6833f3391b663a918"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1Energy.html">Energy</a>&lt; Number &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Length.html#a68e41b93773537c6833f3391b663a918">operator*</a> (const <a class="el" href="classPhQ_1_1TransportEnergyConsumption.html">TransportEnergyConsumption</a>&lt; Number &gt; &amp;transport_energy_consumption) const</td></tr>
 <tr class="separator:a68e41b93773537c6833f3391b663a918"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae003afbbfc5644cec61e492a68b7e823"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1Length.html">Length</a>&lt; Number &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Length.html#ae003afbbfc5644cec61e492a68b7e823">operator/</a> (const Number number) const</td></tr>
@@ -267,6 +269,12 @@ Friends</h2></td></tr>
 <tr class="memitem:abec3eeecf595a5705acab9fa4832ef01"><td class="memTemplParams" colspan="2">template&lt;typename OtherNumber &gt; </td></tr>
 <tr class="memitem:abec3eeecf595a5705acab9fa4832ef01"><td class="memTemplItemLeft" align="right" valign="top">class&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Length.html#abec3eeecf595a5705acab9fa4832ef01">Displacement</a></td></tr>
 <tr class="separator:abec3eeecf595a5705acab9fa4832ef01"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60bd849210435ff170ecf1b504c38a03"><td class="memTemplParams" colspan="2">template&lt;typename OtherNumber &gt; </td></tr>
+<tr class="memitem:a60bd849210435ff170ecf1b504c38a03"><td class="memTemplItemLeft" align="right" valign="top">class&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Length.html#a60bd849210435ff170ecf1b504c38a03">PlanarDisplacement</a></td></tr>
+<tr class="separator:a60bd849210435ff170ecf1b504c38a03"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8141d49c51cc4b223f061d6ce738ea29"><td class="memTemplParams" colspan="2">template&lt;typename OtherNumber &gt; </td></tr>
+<tr class="memitem:a8141d49c51cc4b223f061d6ce738ea29"><td class="memTemplItemLeft" align="right" valign="top">class&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Length.html#a8141d49c51cc4b223f061d6ce738ea29">PlanarPosition</a></td></tr>
+<tr class="separator:a8141d49c51cc4b223f061d6ce738ea29"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6e58f32a5d373885e467242c69e93438"><td class="memTemplParams" colspan="2">template&lt;typename OtherNumber &gt; </td></tr>
 <tr class="memitem:a6e58f32a5d373885e467242c69e93438"><td class="memTemplItemLeft" align="right" valign="top">class&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Length.html#a6e58f32a5d373885e467242c69e93438">Position</a></td></tr>
 <tr class="separator:a6e58f32a5d373885e467242c69e93438"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -277,7 +285,7 @@ class PhQ::Length&lt; Number &gt;</h3>
 
 <p><a class="el" href="classPhQ_1_1Length.html" title="Length, size, or distance. Can also represent the magnitude of a position vector or displacement vect...">Length</a>, size, or distance. Can also represent the magnitude of a position vector or displacement vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="Length_8hpp_source.html#l00098">98</a> of file <a class="el" href="Length_8hpp_source.html">Length.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Length_8hpp_source.html#l00110">110</a> of file <a class="el" href="Length_8hpp_source.html">Length.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aa442678d6ba2e138b092acd8c425a3ce"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa442678d6ba2e138b092acd8c425a3ce">&#9670;&nbsp;</a></span>Length() <span class="overload">[1/13]</span></h2>
@@ -346,7 +354,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Constructor. Constructs a length with a given value expressed in a given length unit. </p>
 
-<p class="definition">Definition at line <a class="el" href="Length_8hpp_source.html#l00104">104</a> of file <a class="el" href="Length_8hpp_source.html">Length.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Length_8hpp_source.html#l00116">116</a> of file <a class="el" href="Length_8hpp_source.html">Length.hpp</a>.</p>
 
 </div>
 </div>
@@ -737,7 +745,7 @@ template&lt;typename OtherNumber &gt; </div>
 
 <p>Copy constructor. Constructs a length by copying another one. </p>
 
-<p class="definition">Definition at line <a class="el" href="Length_8hpp_source.html#l00146">146</a> of file <a class="el" href="Length_8hpp_source.html">Length.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Length_8hpp_source.html#l00158">158</a> of file <a class="el" href="Length_8hpp_source.html">Length.hpp</a>.</p>
 
 </div>
 </div>
@@ -799,7 +807,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Constructor. Constructs a length with a given value expressed in the standard length unit. </p>
 
-<p class="definition">Definition at line <a class="el" href="Length_8hpp_source.html#l00230">230</a> of file <a class="el" href="Length_8hpp_source.html">Length.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Length_8hpp_source.html#l00244">244</a> of file <a class="el" href="Length_8hpp_source.html">Length.hpp</a>.</p>
 
 </div>
 </div>
@@ -834,7 +842,7 @@ template&lt;Unit::Length Unit&gt; </div>
 
 <p>Statically creates a length with a given value expressed in a given length unit. </p>
 
-<p class="definition">Definition at line <a class="el" href="Length_8hpp_source.html#l00172">172</a> of file <a class="el" href="Length_8hpp_source.html">Length.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Length_8hpp_source.html#l00184">184</a> of file <a class="el" href="Length_8hpp_source.html">Length.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00218">PhQ::DimensionalScalar&lt; Unit::Length, double &gt;::value</a>.</p>
 
@@ -958,7 +966,7 @@ template&lt;Unit::Length Unit&gt; </div>
 </div>
 </div>
 <a id="a7f0b23aafd62f8babe256dbcc5b1ec61"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7f0b23aafd62f8babe256dbcc5b1ec61">&#9670;&nbsp;</a></span>operator*() <span class="overload">[1/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a7f0b23aafd62f8babe256dbcc5b1ec61">&#9670;&nbsp;</a></span>operator*() <span class="overload">[1/7]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -986,7 +994,7 @@ template&lt;typename Number  = double&gt; </div>
 </div>
 </div>
 <a id="a91fad1c94b35ed7de093b50010cba794"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a91fad1c94b35ed7de093b50010cba794">&#9670;&nbsp;</a></span>operator*() <span class="overload">[2/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a91fad1c94b35ed7de093b50010cba794">&#9670;&nbsp;</a></span>operator*() <span class="overload">[2/7]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1014,7 +1022,7 @@ template&lt;typename Number  = double&gt; </div>
 </div>
 </div>
 <a id="a58f5aabc795a6543bfcac5a192a57971"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a58f5aabc795a6543bfcac5a192a57971">&#9670;&nbsp;</a></span>operator*() <span class="overload">[3/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a58f5aabc795a6543bfcac5a192a57971">&#9670;&nbsp;</a></span>operator*() <span class="overload">[3/7]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1042,7 +1050,7 @@ template&lt;typename Number  = double&gt; </div>
 </div>
 </div>
 <a id="a9f5635da9e67040d250b735bfa6c4b45"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9f5635da9e67040d250b735bfa6c4b45">&#9670;&nbsp;</a></span>operator*() <span class="overload">[4/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f5635da9e67040d250b735bfa6c4b45">&#9670;&nbsp;</a></span>operator*() <span class="overload">[4/7]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1070,7 +1078,7 @@ template&lt;typename Number  = double&gt; </div>
 </div>
 </div>
 <a id="a908d752c3009b34797ff834a4a617f23"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a908d752c3009b34797ff834a4a617f23">&#9670;&nbsp;</a></span>operator*() <span class="overload">[5/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a908d752c3009b34797ff834a4a617f23">&#9670;&nbsp;</a></span>operator*() <span class="overload">[5/7]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1095,14 +1103,42 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Length_8hpp_source.html#l00184">184</a> of file <a class="el" href="Length_8hpp_source.html">Length.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Length_8hpp_source.html#l00196">196</a> of file <a class="el" href="Length_8hpp_source.html">Length.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00218">PhQ::DimensionalScalar&lt; Unit::Length, double &gt;::value</a>.</p>
 
 </div>
 </div>
+<a id="ac1d27e27dd9754c9b77ce18ee108e87d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac1d27e27dd9754c9b77ce18ee108e87d">&#9670;&nbsp;</a></span>operator*() <span class="overload">[6/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Number  = double&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1PlanarPosition.html">PlanarPosition</a>&lt;Number&gt; <a class="el" href="classPhQ_1_1Length.html">PhQ::Length</a>&lt; Number &gt;::operator* </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1PlanarDirection.html">PlanarDirection</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramname"><em>planar_direction</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a68e41b93773537c6833f3391b663a918"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a68e41b93773537c6833f3391b663a918">&#9670;&nbsp;</a></span>operator*() <span class="overload">[6/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a68e41b93773537c6833f3391b663a918">&#9670;&nbsp;</a></span>operator*() <span class="overload">[7/7]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1155,7 +1191,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Length_8hpp_source.html#l00219">219</a> of file <a class="el" href="Length_8hpp_source.html">Length.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Length_8hpp_source.html#l00233">233</a> of file <a class="el" href="Length_8hpp_source.html">Length.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00218">PhQ::DimensionalScalar&lt; Unit::Length, double &gt;::value</a>.</p>
 
@@ -1187,7 +1223,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Length_8hpp_source.html#l00176">176</a> of file <a class="el" href="Length_8hpp_source.html">Length.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Length_8hpp_source.html#l00188">188</a> of file <a class="el" href="Length_8hpp_source.html">Length.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00218">PhQ::DimensionalScalar&lt; UnitType, Number &gt;::value</a>, and <a class="el" href="DimensionalScalar_8hpp_source.html#l00218">PhQ::DimensionalScalar&lt; Unit::Length, double &gt;::value</a>.</p>
 
@@ -1219,7 +1255,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Length_8hpp_source.html#l00211">211</a> of file <a class="el" href="Length_8hpp_source.html">Length.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Length_8hpp_source.html#l00225">225</a> of file <a class="el" href="Length_8hpp_source.html">Length.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00218">PhQ::DimensionalScalar&lt; Unit::Length, double &gt;::value</a>.</p>
 
@@ -1251,7 +1287,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Length_8hpp_source.html#l00180">180</a> of file <a class="el" href="Length_8hpp_source.html">Length.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Length_8hpp_source.html#l00192">192</a> of file <a class="el" href="Length_8hpp_source.html">Length.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00218">PhQ::DimensionalScalar&lt; UnitType, Number &gt;::value</a>, and <a class="el" href="DimensionalScalar_8hpp_source.html#l00218">PhQ::DimensionalScalar&lt; Unit::Length, double &gt;::value</a>.</p>
 
@@ -1283,7 +1319,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Length_8hpp_source.html#l00215">215</a> of file <a class="el" href="Length_8hpp_source.html">Length.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Length_8hpp_source.html#l00229">229</a> of file <a class="el" href="Length_8hpp_source.html">Length.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00218">PhQ::DimensionalScalar&lt; Unit::Length, double &gt;::value</a>.</p>
 
@@ -1315,7 +1351,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Length_8hpp_source.html#l00207">207</a> of file <a class="el" href="Length_8hpp_source.html">Length.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Length_8hpp_source.html#l00221">221</a> of file <a class="el" href="Length_8hpp_source.html">Length.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00218">PhQ::DimensionalScalar&lt; Unit::Length, double &gt;::value</a>.</p>
 
@@ -1347,7 +1383,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Length_8hpp_source.html#l00199">199</a> of file <a class="el" href="Length_8hpp_source.html">Length.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Length_8hpp_source.html#l00213">213</a> of file <a class="el" href="Length_8hpp_source.html">Length.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00218">PhQ::DimensionalScalar&lt; Unit::Length, double &gt;::value</a>.</p>
 
@@ -1435,7 +1471,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Length_8hpp_source.html#l00223">223</a> of file <a class="el" href="Length_8hpp_source.html">Length.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Length_8hpp_source.html#l00237">237</a> of file <a class="el" href="Length_8hpp_source.html">Length.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00218">PhQ::DimensionalScalar&lt; Unit::Length, double &gt;::value</a>.</p>
 
@@ -1501,7 +1537,7 @@ template&lt;typename OtherNumber &gt; </div>
 
 <p>Copy assignment operator. Assigns this length by copying another one. </p>
 
-<p class="definition">Definition at line <a class="el" href="Length_8hpp_source.html#l00157">157</a> of file <a class="el" href="Length_8hpp_source.html">Length.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Length_8hpp_source.html#l00169">169</a> of file <a class="el" href="Length_8hpp_source.html">Length.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00064">PhQ::DimensionalScalar&lt; UnitType, Number &gt;::Value()</a>, and <a class="el" href="DimensionalScalar_8hpp_source.html#l00218">PhQ::DimensionalScalar&lt; Unit::Length, double &gt;::value</a>.</p>
 
@@ -1888,7 +1924,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Statically creates a length of zero. </p>
 
-<p class="definition">Definition at line <a class="el" href="Length_8hpp_source.html#l00166">166</a> of file <a class="el" href="Length_8hpp_source.html">Length.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Length_8hpp_source.html#l00178">178</a> of file <a class="el" href="Length_8hpp_source.html">Length.hpp</a>.</p>
 
 </div>
 </div>
@@ -1917,7 +1953,63 @@ template&lt;typename OtherNumber &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Length_8hpp_source.html#l00233">233</a> of file <a class="el" href="Length_8hpp_source.html">Length.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Length_8hpp_source.html#l00247">247</a> of file <a class="el" href="Length_8hpp_source.html">Length.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a60bd849210435ff170ecf1b504c38a03"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a60bd849210435ff170ecf1b504c38a03">&#9670;&nbsp;</a></span>PlanarDisplacement</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Number  = double&gt; </div>
+<div class="memtemplate">
+template&lt;typename OtherNumber &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">friend class <a class="el" href="classPhQ_1_1PlanarDisplacement.html">PlanarDisplacement</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="Length_8hpp_source.html#l00250">250</a> of file <a class="el" href="Length_8hpp_source.html">Length.hpp</a>.</p>
+
+</div>
+</div>
+<a id="a8141d49c51cc4b223f061d6ce738ea29"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8141d49c51cc4b223f061d6ce738ea29">&#9670;&nbsp;</a></span>PlanarPosition</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Number  = double&gt; </div>
+<div class="memtemplate">
+template&lt;typename OtherNumber &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">friend class <a class="el" href="classPhQ_1_1PlanarPosition.html">PlanarPosition</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="Length_8hpp_source.html#l00253">253</a> of file <a class="el" href="Length_8hpp_source.html">Length.hpp</a>.</p>
 
 </div>
 </div>
@@ -1945,7 +2037,7 @@ template&lt;typename OtherNumber &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Length_8hpp_source.html#l00236">236</a> of file <a class="el" href="Length_8hpp_source.html">Length.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Length_8hpp_source.html#l00256">256</a> of file <a class="el" href="Length_8hpp_source.html">Length.hpp</a>.</p>
 
 </div>
 </div>

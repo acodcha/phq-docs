@@ -112,7 +112,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search','.html');
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:aad5269a38f45f4915347427a4d8235ab"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1HeatFlux.html#aad5269a38f45f4915347427a4d8235ab">HeatFlux</a> ()=default</td></tr>
-<tr class="memdesc:aad5269a38f45f4915347427a4d8235ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor. Constructs a heat flux with an uninitialized value.  <a href="classPhQ_1_1HeatFlux.html#aad5269a38f45f4915347427a4d8235ab">More...</a><br /></td></tr>
+<tr class="memdesc:aad5269a38f45f4915347427a4d8235ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor. Constructs a heat flux vector with an uninitialized value.  <a href="classPhQ_1_1HeatFlux.html#aad5269a38f45f4915347427a4d8235ab">More...</a><br /></td></tr>
 <tr class="separator:aad5269a38f45f4915347427a4d8235ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a055af00f38456ba2faa7fd8da72ad8c1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1HeatFlux.html#a055af00f38456ba2faa7fd8da72ad8c1">HeatFlux</a> (const <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt; Number &gt; &amp;<a class="el" href="classPhQ_1_1DimensionalVector.html#a78b67be16ddde9f38cc2b7a5c723b5cc">value</a>, const <a class="el" href="namespacePhQ_1_1Unit.html#a3d148d3ea4f67aaf566421387ec35ca2">Unit::EnergyFlux</a> unit)</td></tr>
 <tr class="memdesc:a055af00f38456ba2faa7fd8da72ad8c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a heat flux vector with a given value expressed in a given energy flux unit.  <a href="classPhQ_1_1HeatFlux.html#a055af00f38456ba2faa7fd8da72ad8c1">More...</a><br /></td></tr>
@@ -120,6 +120,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a3217a7f94266fe6186d5fe7f22e0f8d3"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1HeatFlux.html#a3217a7f94266fe6186d5fe7f22e0f8d3">HeatFlux</a> (const <a class="el" href="classPhQ_1_1ScalarHeatFlux.html">ScalarHeatFlux</a>&lt; Number &gt; &amp;scalar_heat_flux, const <a class="el" href="classPhQ_1_1Direction.html">Direction</a>&lt; Number &gt; &amp;direction)</td></tr>
 <tr class="memdesc:a3217a7f94266fe6186d5fe7f22e0f8d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a heat flux vector from a given scalar heat flux magnitude and direction.  <a href="classPhQ_1_1HeatFlux.html#a3217a7f94266fe6186d5fe7f22e0f8d3">More...</a><br /></td></tr>
 <tr class="separator:a3217a7f94266fe6186d5fe7f22e0f8d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba2cf82729e2ec52ca31e1cf5eefd886"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1HeatFlux.html#aba2cf82729e2ec52ca31e1cf5eefd886">HeatFlux</a> (const <a class="el" href="classPhQ_1_1PlanarHeatFlux.html">PlanarHeatFlux</a>&lt; Number &gt; &amp;planar_heat_flux)</td></tr>
+<tr class="memdesc:aba2cf82729e2ec52ca31e1cf5eefd886"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a heat flux vector from a given planar heat flux vector in the XY plane. This heat flux vector's z-component is initialized to zero.  <a href="classPhQ_1_1HeatFlux.html#aba2cf82729e2ec52ca31e1cf5eefd886">More...</a><br /></td></tr>
+<tr class="separator:aba2cf82729e2ec52ca31e1cf5eefd886"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4a378ab33e5cf910ad5b8c286b415549"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1HeatFlux.html#a4a378ab33e5cf910ad5b8c286b415549">HeatFlux</a> (const <a class="el" href="classPhQ_1_1ScalarThermalConductivity.html">ScalarThermalConductivity</a>&lt; Number &gt; &amp;scalar_thermal_conductivity, const <a class="el" href="classPhQ_1_1TemperatureGradient.html">TemperatureGradient</a>&lt; Number &gt; &amp;temperature_gradient)</td></tr>
 <tr class="memdesc:a4a378ab33e5cf910ad5b8c286b415549"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a heat flux vector from a given scalar thermal conductivity and temperature gradient vector using Fourier's law of heat conduction. Since heat flows opposite the temperature gradient, the resulting heat flux direction is opposite the temperature gradient direction.  <a href="classPhQ_1_1HeatFlux.html#a4a378ab33e5cf910ad5b8c286b415549">More...</a><br /></td></tr>
 <tr class="separator:a4a378ab33e5cf910ad5b8c286b415549"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -199,10 +202,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a9f539e9b49ea2af8fe9f86156337baa9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the value of this physical quantity expressed in its standard unit of measure to the given value.  <a href="classPhQ_1_1DimensionalVector.html#a9f539e9b49ea2af8fe9f86156337baa9">More...</a><br /></td></tr>
 <tr class="separator:a9f539e9b49ea2af8fe9f86156337baa9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a99ed09897dee742af4dd2ae5dddc05e5"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalVector.html#a99ed09897dee742af4dd2ae5dddc05e5">Print</a> () const</td></tr>
-<tr class="memdesc:a99ed09897dee742af4dd2ae5dddc05e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints this physical quantity as a string. This physical quantity's value is expressed in its standard unit of measure and printed to Number floating point precision.  <a href="classPhQ_1_1DimensionalVector.html#a99ed09897dee742af4dd2ae5dddc05e5">More...</a><br /></td></tr>
+<tr class="memdesc:a99ed09897dee742af4dd2ae5dddc05e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints this physical quantity as a string. This physical quantity's value is expressed in its standard unit of measure.  <a href="classPhQ_1_1DimensionalVector.html#a99ed09897dee742af4dd2ae5dddc05e5">More...</a><br /></td></tr>
 <tr class="separator:a99ed09897dee742af4dd2ae5dddc05e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad2ac83a81055ccf8d1117c57186f2d86"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalVector.html#ad2ac83a81055ccf8d1117c57186f2d86">Print</a> (const <a class="el" href="namespacePhQ_1_1Unit.html#a3d148d3ea4f67aaf566421387ec35ca2">Unit::EnergyFlux</a> unit) const</td></tr>
-<tr class="memdesc:ad2ac83a81055ccf8d1117c57186f2d86"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints this physical quantity as a string. This physical quantity's value is expressed in the given unit of measure and printed to Number floating point precision.  <a href="classPhQ_1_1DimensionalVector.html#ad2ac83a81055ccf8d1117c57186f2d86">More...</a><br /></td></tr>
+<tr class="memdesc:ad2ac83a81055ccf8d1117c57186f2d86"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints this physical quantity as a string. This physical quantity's value is expressed in the given unit of measure.  <a href="classPhQ_1_1DimensionalVector.html#ad2ac83a81055ccf8d1117c57186f2d86">More...</a><br /></td></tr>
 <tr class="separator:ad2ac83a81055ccf8d1117c57186f2d86"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa5d01fbac3fe45387202f1f4094b3504"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalVector.html#aa5d01fbac3fe45387202f1f4094b3504">JSON</a> () const</td></tr>
 <tr class="memdesc:aa5d01fbac3fe45387202f1f4094b3504"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serializes this physical quantity as a JSON message. This physical quantity's value is expressed in its standard unit of measure.  <a href="classPhQ_1_1DimensionalVector.html#aa5d01fbac3fe45387202f1f4094b3504">More...</a><br /></td></tr>
@@ -265,10 +268,10 @@ class PhQ::HeatFlux&lt; Number &gt;</h3>
 
 <p>Heat flux vector. See also <a class="el" href="classPhQ_1_1ScalarHeatFlux.html" title="Scalar heat flux component or magnitude of a heat flux vector. See also PhQ::HeatFlux.">PhQ::ScalarHeatFlux</a>. </p>
 
-<p class="definition">Definition at line <a class="el" href="HeatFlux_8hpp_source.html#l00048">48</a> of file <a class="el" href="HeatFlux_8hpp_source.html">HeatFlux.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="HeatFlux_8hpp_source.html#l00049">49</a> of file <a class="el" href="HeatFlux_8hpp_source.html">HeatFlux.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aad5269a38f45f4915347427a4d8235ab"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aad5269a38f45f4915347427a4d8235ab">&#9670;&nbsp;</a></span>HeatFlux() <span class="overload">[1/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aad5269a38f45f4915347427a4d8235ab">&#9670;&nbsp;</a></span>HeatFlux() <span class="overload">[1/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -292,12 +295,12 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Default constructor. Constructs a heat flux with an uninitialized value. </p>
+<p>Default constructor. Constructs a heat flux vector with an uninitialized value. </p>
 
 </div>
 </div>
 <a id="a055af00f38456ba2faa7fd8da72ad8c1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a055af00f38456ba2faa7fd8da72ad8c1">&#9670;&nbsp;</a></span>HeatFlux() <span class="overload">[2/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a055af00f38456ba2faa7fd8da72ad8c1">&#9670;&nbsp;</a></span>HeatFlux() <span class="overload">[2/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -334,12 +337,12 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Constructor. Constructs a heat flux vector with a given value expressed in a given energy flux unit. </p>
 
-<p class="definition">Definition at line <a class="el" href="HeatFlux_8hpp_source.html#l00055">55</a> of file <a class="el" href="HeatFlux_8hpp_source.html">HeatFlux.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="HeatFlux_8hpp_source.html#l00056">56</a> of file <a class="el" href="HeatFlux_8hpp_source.html">HeatFlux.hpp</a>.</p>
 
 </div>
 </div>
 <a id="a3217a7f94266fe6186d5fe7f22e0f8d3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3217a7f94266fe6186d5fe7f22e0f8d3">&#9670;&nbsp;</a></span>HeatFlux() <span class="overload">[3/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a3217a7f94266fe6186d5fe7f22e0f8d3">&#9670;&nbsp;</a></span>HeatFlux() <span class="overload">[3/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -376,12 +379,46 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Constructor. Constructs a heat flux vector from a given scalar heat flux magnitude and direction. </p>
 
-<p class="definition">Definition at line <a class="el" href="HeatFlux_8hpp_source.html#l00060">60</a> of file <a class="el" href="HeatFlux_8hpp_source.html">HeatFlux.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="HeatFlux_8hpp_source.html#l00061">61</a> of file <a class="el" href="HeatFlux_8hpp_source.html">HeatFlux.hpp</a>.</p>
+
+</div>
+</div>
+<a id="aba2cf82729e2ec52ca31e1cf5eefd886"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba2cf82729e2ec52ca31e1cf5eefd886">&#9670;&nbsp;</a></span>HeatFlux() <span class="overload">[4/10]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Number  = double&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1HeatFlux.html">PhQ::HeatFlux</a>&lt; Number &gt;::<a class="el" href="classPhQ_1_1HeatFlux.html">HeatFlux</a> </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1PlanarHeatFlux.html">PlanarHeatFlux</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramname"><em>planar_heat_flux</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">explicit</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Constructor. Constructs a heat flux vector from a given planar heat flux vector in the XY plane. This heat flux vector's z-component is initialized to zero. </p>
+
+<p class="definition">Definition at line <a class="el" href="HeatFlux_8hpp_source.html#l00067">67</a> of file <a class="el" href="HeatFlux_8hpp_source.html">HeatFlux.hpp</a>.</p>
+
+<p class="reference">References <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00060">PhQ::DimensionalPlanarVector&lt; UnitType, Number &gt;::Value()</a>.</p>
 
 </div>
 </div>
 <a id="a4a378ab33e5cf910ad5b8c286b415549"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4a378ab33e5cf910ad5b8c286b415549">&#9670;&nbsp;</a></span>HeatFlux() <span class="overload">[4/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a378ab33e5cf910ad5b8c286b415549">&#9670;&nbsp;</a></span>HeatFlux() <span class="overload">[5/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -418,12 +455,12 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Constructor. Constructs a heat flux vector from a given scalar thermal conductivity and temperature gradient vector using Fourier's law of heat conduction. Since heat flows opposite the temperature gradient, the resulting heat flux direction is opposite the temperature gradient direction. </p>
 
-<p class="definition">Definition at line <a class="el" href="HeatFlux_8hpp_source.html#l00068">68</a> of file <a class="el" href="HeatFlux_8hpp_source.html">HeatFlux.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="HeatFlux_8hpp_source.html#l00074">74</a> of file <a class="el" href="HeatFlux_8hpp_source.html">HeatFlux.hpp</a>.</p>
 
 </div>
 </div>
 <a id="a2eedb8f6e01fe583cebe1f700689aa49"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2eedb8f6e01fe583cebe1f700689aa49">&#9670;&nbsp;</a></span>HeatFlux() <span class="overload">[5/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a2eedb8f6e01fe583cebe1f700689aa49">&#9670;&nbsp;</a></span>HeatFlux() <span class="overload">[6/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -460,7 +497,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Constructor. Constructs a heat flux vector from a given thermal conductivity tensor and temperature gradient vector using Fourier's law of heat conduction. Since heat flows opposite the temperature gradient, the resulting heat flux direction is opposite the temperature gradient direction. </p>
 
-<p class="definition">Definition at line <a class="el" href="HeatFlux_8hpp_source.html#l00076">76</a> of file <a class="el" href="HeatFlux_8hpp_source.html">HeatFlux.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="HeatFlux_8hpp_source.html#l00082">82</a> of file <a class="el" href="HeatFlux_8hpp_source.html">HeatFlux.hpp</a>.</p>
 
 </div>
 </div>
@@ -494,7 +531,7 @@ template&lt;typename Number  = double&gt; </div>
 </div>
 </div>
 <a id="ac2bf4468794a784a3e1e06e99edb1951"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac2bf4468794a784a3e1e06e99edb1951">&#9670;&nbsp;</a></span>HeatFlux() <span class="overload">[6/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ac2bf4468794a784a3e1e06e99edb1951">&#9670;&nbsp;</a></span>HeatFlux() <span class="overload">[7/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -524,7 +561,7 @@ template&lt;typename Number  = double&gt; </div>
 </div>
 </div>
 <a id="abc528ca5cc3ac0c0cba2be8ef279e1ce"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abc528ca5cc3ac0c0cba2be8ef279e1ce">&#9670;&nbsp;</a></span>HeatFlux() <span class="overload">[7/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#abc528ca5cc3ac0c0cba2be8ef279e1ce">&#9670;&nbsp;</a></span>HeatFlux() <span class="overload">[8/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -553,12 +590,12 @@ template&lt;typename OtherNumber &gt; </div>
 
 <p>Copy constructor. Constructs a heat flux vector by copying another one. </p>
 
-<p class="definition">Definition at line <a class="el" href="HeatFlux_8hpp_source.html#l00088">88</a> of file <a class="el" href="HeatFlux_8hpp_source.html">HeatFlux.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="HeatFlux_8hpp_source.html#l00094">94</a> of file <a class="el" href="HeatFlux_8hpp_source.html">HeatFlux.hpp</a>.</p>
 
 </div>
 </div>
 <a id="a14f773e02a36278111d7ddad8d6d52de"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a14f773e02a36278111d7ddad8d6d52de">&#9670;&nbsp;</a></span>HeatFlux() <span class="overload">[8/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a14f773e02a36278111d7ddad8d6d52de">&#9670;&nbsp;</a></span>HeatFlux() <span class="overload">[9/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -588,7 +625,7 @@ template&lt;typename Number  = double&gt; </div>
 </div>
 </div>
 <a id="a2399d8146209e98ba0333c429ca2a359"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2399d8146209e98ba0333c429ca2a359">&#9670;&nbsp;</a></span>HeatFlux() <span class="overload">[9/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a2399d8146209e98ba0333c429ca2a359">&#9670;&nbsp;</a></span>HeatFlux() <span class="overload">[10/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -615,7 +652,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Constructor. Constructs a heat flux vector with a given value expressed in the standard energy flux unit. </p>
 
-<p class="definition">Definition at line <a class="el" href="HeatFlux_8hpp_source.html#l00201">201</a> of file <a class="el" href="HeatFlux_8hpp_source.html">HeatFlux.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="HeatFlux_8hpp_source.html#l00207">207</a> of file <a class="el" href="HeatFlux_8hpp_source.html">HeatFlux.hpp</a>.</p>
 
 </div>
 </div>
@@ -648,7 +685,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the angle between this heat flux vector and another one. </p>
 
-<p class="definition">Definition at line <a class="el" href="HeatFlux_8hpp_source.html#l00162">162</a> of file <a class="el" href="HeatFlux_8hpp_source.html">HeatFlux.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="HeatFlux_8hpp_source.html#l00168">168</a> of file <a class="el" href="HeatFlux_8hpp_source.html">HeatFlux.hpp</a>.</p>
 
 </div>
 </div>
@@ -698,9 +735,9 @@ template&lt;Unit::EnergyFlux Unit&gt; </div>
 
 <p>Statically creates a heat flux vector from the given x, y, and z Cartesian components expressed in a given energy flux unit. </p>
 
-<p class="definition">Definition at line <a class="el" href="HeatFlux_8hpp_source.html#l00115">115</a> of file <a class="el" href="HeatFlux_8hpp_source.html">HeatFlux.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="HeatFlux_8hpp_source.html#l00121">121</a> of file <a class="el" href="HeatFlux_8hpp_source.html">HeatFlux.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="HeatFlux_8hpp_source.html#l00137">PhQ::HeatFlux&lt; Number &gt;::x()</a>, <a class="el" href="HeatFlux_8hpp_source.html#l00142">PhQ::HeatFlux&lt; Number &gt;::y()</a>, and <a class="el" href="HeatFlux_8hpp_source.html#l00147">PhQ::HeatFlux&lt; Number &gt;::z()</a>.</p>
+<p class="reference">References <a class="el" href="HeatFlux_8hpp_source.html#l00143">PhQ::HeatFlux&lt; Number &gt;::x()</a>, <a class="el" href="HeatFlux_8hpp_source.html#l00148">PhQ::HeatFlux&lt; Number &gt;::y()</a>, and <a class="el" href="HeatFlux_8hpp_source.html#l00153">PhQ::HeatFlux&lt; Number &gt;::z()</a>.</p>
 
 </div>
 </div>
@@ -734,7 +771,7 @@ template&lt;Unit::EnergyFlux Unit&gt; </div>
 
 <p>Statically creates a heat flux vector from the given x, y, and z Cartesian components expressed in a given energy flux unit. </p>
 
-<p class="definition">Definition at line <a class="el" href="HeatFlux_8hpp_source.html#l00123">123</a> of file <a class="el" href="HeatFlux_8hpp_source.html">HeatFlux.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="HeatFlux_8hpp_source.html#l00129">129</a> of file <a class="el" href="HeatFlux_8hpp_source.html">HeatFlux.hpp</a>.</p>
 
 </div>
 </div>
@@ -768,7 +805,7 @@ template&lt;Unit::EnergyFlux Unit&gt; </div>
 
 <p>Statically creates a heat flux vector with a given value expressed in a given energy flux unit. </p>
 
-<p class="definition">Definition at line <a class="el" href="HeatFlux_8hpp_source.html#l00131">131</a> of file <a class="el" href="HeatFlux_8hpp_source.html">HeatFlux.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="HeatFlux_8hpp_source.html#l00137">137</a> of file <a class="el" href="HeatFlux_8hpp_source.html">HeatFlux.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::EnergyFlux, double &gt;::value</a>.</p>
 
@@ -830,9 +867,9 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the direction of this heat flux vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="HeatFlux_8hpp_source.html#l00157">157</a> of file <a class="el" href="HeatFlux_8hpp_source.html">HeatFlux.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="HeatFlux_8hpp_source.html#l00163">163</a> of file <a class="el" href="HeatFlux_8hpp_source.html">HeatFlux.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Direction_8hpp_source.html#l00374">PhQ::Vector&lt; Number &gt;::Direction()</a>, and <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::EnergyFlux, double &gt;::value</a>.</p>
+<p class="reference">References <a class="el" href="Direction_8hpp_source.html#l00379">PhQ::Vector&lt; Number &gt;::Direction()</a>, and <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::EnergyFlux, double &gt;::value</a>.</p>
 
 </div>
 </div>
@@ -922,9 +959,9 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the magnitude of this heat flux vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="HeatFlux_8hpp_source.html#l00152">152</a> of file <a class="el" href="HeatFlux_8hpp_source.html">HeatFlux.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="HeatFlux_8hpp_source.html#l00158">158</a> of file <a class="el" href="HeatFlux_8hpp_source.html">HeatFlux.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00200">PhQ::Vector&lt; Number &gt;::Magnitude()</a>, and <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::EnergyFlux, double &gt;::value</a>.</p>
+<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00206">PhQ::Vector&lt; Number &gt;::Magnitude()</a>, and <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::EnergyFlux, double &gt;::value</a>.</p>
 
 </div>
 </div>
@@ -983,7 +1020,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="HeatFlux_8hpp_source.html#l00174">174</a> of file <a class="el" href="HeatFlux_8hpp_source.html">HeatFlux.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="HeatFlux_8hpp_source.html#l00180">180</a> of file <a class="el" href="HeatFlux_8hpp_source.html">HeatFlux.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::EnergyFlux, double &gt;::value</a>.</p>
 
@@ -1015,7 +1052,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="HeatFlux_8hpp_source.html#l00190">190</a> of file <a class="el" href="HeatFlux_8hpp_source.html">HeatFlux.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="HeatFlux_8hpp_source.html#l00196">196</a> of file <a class="el" href="HeatFlux_8hpp_source.html">HeatFlux.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::EnergyFlux, double &gt;::value</a>.</p>
 
@@ -1047,7 +1084,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="HeatFlux_8hpp_source.html#l00166">166</a> of file <a class="el" href="HeatFlux_8hpp_source.html">HeatFlux.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="HeatFlux_8hpp_source.html#l00172">172</a> of file <a class="el" href="HeatFlux_8hpp_source.html">HeatFlux.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; UnitType, Number &gt;::value</a>, and <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::EnergyFlux, double &gt;::value</a>.</p>
 
@@ -1079,7 +1116,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="HeatFlux_8hpp_source.html#l00182">182</a> of file <a class="el" href="HeatFlux_8hpp_source.html">HeatFlux.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="HeatFlux_8hpp_source.html#l00188">188</a> of file <a class="el" href="HeatFlux_8hpp_source.html">HeatFlux.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::EnergyFlux, double &gt;::value</a>.</p>
 
@@ -1111,7 +1148,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="HeatFlux_8hpp_source.html#l00170">170</a> of file <a class="el" href="HeatFlux_8hpp_source.html">HeatFlux.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="HeatFlux_8hpp_source.html#l00176">176</a> of file <a class="el" href="HeatFlux_8hpp_source.html">HeatFlux.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; UnitType, Number &gt;::value</a>, and <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::EnergyFlux, double &gt;::value</a>.</p>
 
@@ -1143,7 +1180,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="HeatFlux_8hpp_source.html#l00186">186</a> of file <a class="el" href="HeatFlux_8hpp_source.html">HeatFlux.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="HeatFlux_8hpp_source.html#l00192">192</a> of file <a class="el" href="HeatFlux_8hpp_source.html">HeatFlux.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::EnergyFlux, double &gt;::value</a>.</p>
 
@@ -1175,7 +1212,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="HeatFlux_8hpp_source.html#l00178">178</a> of file <a class="el" href="HeatFlux_8hpp_source.html">HeatFlux.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="HeatFlux_8hpp_source.html#l00184">184</a> of file <a class="el" href="HeatFlux_8hpp_source.html">HeatFlux.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::EnergyFlux, double &gt;::value</a>.</p>
 
@@ -1207,7 +1244,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="HeatFlux_8hpp_source.html#l00194">194</a> of file <a class="el" href="HeatFlux_8hpp_source.html">HeatFlux.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="HeatFlux_8hpp_source.html#l00200">200</a> of file <a class="el" href="HeatFlux_8hpp_source.html">HeatFlux.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::EnergyFlux, double &gt;::value</a>.</p>
 
@@ -1273,7 +1310,7 @@ template&lt;typename OtherNumber &gt; </div>
 
 <p>Copy assignment operator. Assigns this heat flux vector by copying another one. </p>
 
-<p class="definition">Definition at line <a class="el" href="HeatFlux_8hpp_source.html#l00099">99</a> of file <a class="el" href="HeatFlux_8hpp_source.html">HeatFlux.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="HeatFlux_8hpp_source.html#l00105">105</a> of file <a class="el" href="HeatFlux_8hpp_source.html">HeatFlux.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00060">PhQ::DimensionalVector&lt; UnitType, Number &gt;::Value()</a>, and <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::EnergyFlux, double &gt;::value</a>.</p>
 
@@ -1332,7 +1369,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Prints this physical quantity as a string. This physical quantity's value is expressed in its standard unit of measure and printed to Number floating point precision. </p>
+<p>Prints this physical quantity as a string. This physical quantity's value is expressed in its standard unit of measure. </p>
 
 <p class="definition">Definition at line <a class="el" href="DimensionalVector_8hpp_source.html#l00092">92</a> of file <a class="el" href="DimensionalVector_8hpp_source.html">DimensionalVector.hpp</a>.</p>
 
@@ -1362,7 +1399,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Prints this physical quantity as a string. This physical quantity's value is expressed in the given unit of measure and printed to Number floating point precision. </p>
+<p>Prints this physical quantity as a string. This physical quantity's value is expressed in the given unit of measure. </p>
 
 <p class="definition">Definition at line <a class="el" href="DimensionalVector_8hpp_source.html#l00098">98</a> of file <a class="el" href="DimensionalVector_8hpp_source.html">DimensionalVector.hpp</a>.</p>
 
@@ -1542,11 +1579,11 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the x Cartesian component of this heat flux vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="HeatFlux_8hpp_source.html#l00137">137</a> of file <a class="el" href="HeatFlux_8hpp_source.html">HeatFlux.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="HeatFlux_8hpp_source.html#l00143">143</a> of file <a class="el" href="HeatFlux_8hpp_source.html">HeatFlux.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::EnergyFlux, double &gt;::value</a>, and <a class="el" href="Vector_8hpp_source.html#l00130">PhQ::Vector&lt; Number &gt;::x()</a>.</p>
+<p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::EnergyFlux, double &gt;::value</a>, and <a class="el" href="Vector_8hpp_source.html#l00136">PhQ::Vector&lt; Number &gt;::x()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="HeatFlux_8hpp_source.html#l00115">PhQ::HeatFlux&lt; Number &gt;::Create()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="HeatFlux_8hpp_source.html#l00121">PhQ::HeatFlux&lt; Number &gt;::Create()</a>.</p>
 
 </div>
 </div>
@@ -1636,11 +1673,11 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the y Cartesian component of this heat flux vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="HeatFlux_8hpp_source.html#l00142">142</a> of file <a class="el" href="HeatFlux_8hpp_source.html">HeatFlux.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="HeatFlux_8hpp_source.html#l00148">148</a> of file <a class="el" href="HeatFlux_8hpp_source.html">HeatFlux.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::EnergyFlux, double &gt;::value</a>, and <a class="el" href="Vector_8hpp_source.html#l00135">PhQ::Vector&lt; Number &gt;::y()</a>.</p>
+<p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::EnergyFlux, double &gt;::value</a>, and <a class="el" href="Vector_8hpp_source.html#l00141">PhQ::Vector&lt; Number &gt;::y()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="HeatFlux_8hpp_source.html#l00115">PhQ::HeatFlux&lt; Number &gt;::Create()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="HeatFlux_8hpp_source.html#l00121">PhQ::HeatFlux&lt; Number &gt;::Create()</a>.</p>
 
 </div>
 </div>
@@ -1730,11 +1767,11 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the z Cartesian component of this heat flux vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="HeatFlux_8hpp_source.html#l00147">147</a> of file <a class="el" href="HeatFlux_8hpp_source.html">HeatFlux.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="HeatFlux_8hpp_source.html#l00153">153</a> of file <a class="el" href="HeatFlux_8hpp_source.html">HeatFlux.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::EnergyFlux, double &gt;::value</a>, and <a class="el" href="Vector_8hpp_source.html#l00140">PhQ::Vector&lt; Number &gt;::z()</a>.</p>
+<p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::EnergyFlux, double &gt;::value</a>, and <a class="el" href="Vector_8hpp_source.html#l00146">PhQ::Vector&lt; Number &gt;::z()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="HeatFlux_8hpp_source.html#l00115">PhQ::HeatFlux&lt; Number &gt;::Create()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="HeatFlux_8hpp_source.html#l00121">PhQ::HeatFlux&lt; Number &gt;::Create()</a>.</p>
 
 </div>
 </div>
@@ -1765,9 +1802,9 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Statically creates a heat flux vector of zero. </p>
 
-<p class="definition">Definition at line <a class="el" href="HeatFlux_8hpp_source.html#l00108">108</a> of file <a class="el" href="HeatFlux_8hpp_source.html">HeatFlux.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="HeatFlux_8hpp_source.html#l00114">114</a> of file <a class="el" href="HeatFlux_8hpp_source.html">HeatFlux.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00117">PhQ::Vector&lt; Number &gt;::Zero()</a>.</p>
+<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00123">PhQ::Vector&lt; Number &gt;::Zero()</a>.</p>
 
 </div>
 </div>
