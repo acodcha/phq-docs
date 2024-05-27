@@ -113,7 +113,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search','.html');
 </div><!--header-->
 <div class="contents">
 
-<p>Planar force vector in the XY plane. See also <a class="el" href="classPhQ_1_1Force.html" title="Force vector. See also PhQ::ScalarForce.">PhQ::Force</a> and <a class="el" href="classPhQ_1_1ScalarForce.html" title="Scalar force component or magnitude of a force vector. See also PhQ::Force.">PhQ::ScalarForce</a>.  
+<p>Two-dimensional Euclidean force vector in the XY plane. Contains two components in Cartesian coordinates: x and y. For a three-dimensional Euclidean force vector, see <a class="el" href="classPhQ_1_1Force.html" title="Three-dimensional Euclidean force vector. Contains three components in Cartesian coordinates: x,...">PhQ::Force</a>. For scalar force components or for the magnitude of a force vector, see <a class="el" href="classPhQ_1_1ScalarForce.html" title="Scalar force component or magnitude of a force vector. For a three-dimensional Euclidean force vector...">PhQ::ScalarForce</a>.  
  <a href="classPhQ_1_1PlanarForce.html#details">More...</a></p>
 
 <p><code>#include &quot;<a class="el" href="PlanarForce_8hpp_source.html">PlanarForce.hpp</a>&quot;</code></p>
@@ -271,9 +271,9 @@ Private Member Functions</h2></td></tr>
 <div class="textblock"><h3>template&lt;typename Number = double&gt;<br />
 class PhQ::PlanarForce&lt; Number &gt;</h3>
 
-<p>Planar force vector in the XY plane. See also <a class="el" href="classPhQ_1_1Force.html" title="Force vector. See also PhQ::ScalarForce.">PhQ::Force</a> and <a class="el" href="classPhQ_1_1ScalarForce.html" title="Scalar force component or magnitude of a force vector. See also PhQ::Force.">PhQ::ScalarForce</a>. </p>
+<p>Two-dimensional Euclidean force vector in the XY plane. Contains two components in Cartesian coordinates: x and y. For a three-dimensional Euclidean force vector, see <a class="el" href="classPhQ_1_1Force.html" title="Three-dimensional Euclidean force vector. Contains three components in Cartesian coordinates: x,...">PhQ::Force</a>. For scalar force components or for the magnitude of a force vector, see <a class="el" href="classPhQ_1_1ScalarForce.html" title="Scalar force component or magnitude of a force vector. For a three-dimensional Euclidean force vector...">PhQ::ScalarForce</a>. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarForce_8hpp_source.html#l00050">50</a> of file <a class="el" href="PlanarForce_8hpp_source.html">PlanarForce.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarForce_8hpp_source.html#l00052">52</a> of file <a class="el" href="PlanarForce_8hpp_source.html">PlanarForce.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a52ec0139ccf676f7becfe0ca68f74d4a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a52ec0139ccf676f7becfe0ca68f74d4a">&#9670;&nbsp;</a></span>PlanarForce() <span class="overload">[1/9]</span></h2>
@@ -342,7 +342,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Constructor. Constructs a planar force vector with a given value expressed in a given force unit. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarForce_8hpp_source.html#l00057">57</a> of file <a class="el" href="PlanarForce_8hpp_source.html">PlanarForce.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarForce_8hpp_source.html#l00059">59</a> of file <a class="el" href="PlanarForce_8hpp_source.html">PlanarForce.hpp</a>.</p>
 
 </div>
 </div>
@@ -384,7 +384,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Constructor. Constructs a planar force vector from a given scalar force magnitude and planar direction. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarForce_8hpp_source.html#l00062">62</a> of file <a class="el" href="PlanarForce_8hpp_source.html">PlanarForce.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarForce_8hpp_source.html#l00064">64</a> of file <a class="el" href="PlanarForce_8hpp_source.html">PlanarForce.hpp</a>.</p>
 
 </div>
 </div>
@@ -416,7 +416,7 @@ template&lt;typename Number &gt; </div>
 
 <p>Constructor. Constructs a planar force vector from a given force vector by projecting the force vector onto the XY plane. </p>
 
-<p class="definition">Definition at line <a class="el" href="Force_8hpp_source.html#l00262">262</a> of file <a class="el" href="Force_8hpp_source.html">Force.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Force_8hpp_source.html#l00265">265</a> of file <a class="el" href="Force_8hpp_source.html">Force.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00060">PhQ::DimensionalVector&lt; UnitType, Number &gt;::Value()</a>.</p>
 
@@ -460,7 +460,7 @@ template&lt;typename Number &gt; </div>
 
 <p>Constructor. Constructs a planar force vector from a given planar traction and area using the definition of traction. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarTraction_8hpp_source.html#l00264">264</a> of file <a class="el" href="PlanarTraction_8hpp_source.html">PlanarTraction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarTraction_8hpp_source.html#l00268">268</a> of file <a class="el" href="PlanarTraction_8hpp_source.html">PlanarTraction.hpp</a>.</p>
 
 </div>
 </div>
@@ -553,7 +553,7 @@ template&lt;typename OtherNumber &gt; </div>
 
 <p>Copy constructor. Constructs a planar force vector by copying another one. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarForce_8hpp_source.html#l00082">82</a> of file <a class="el" href="PlanarForce_8hpp_source.html">PlanarForce.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarForce_8hpp_source.html#l00084">84</a> of file <a class="el" href="PlanarForce_8hpp_source.html">PlanarForce.hpp</a>.</p>
 
 </div>
 </div>
@@ -615,7 +615,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Constructor. Constructs a planar force vector with a given value expressed in the standard force unit. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarForce_8hpp_source.html#l00191">191</a> of file <a class="el" href="PlanarForce_8hpp_source.html">PlanarForce.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarForce_8hpp_source.html#l00193">193</a> of file <a class="el" href="PlanarForce_8hpp_source.html">PlanarForce.hpp</a>.</p>
 
 </div>
 </div>
@@ -648,7 +648,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the angle between this planar force vector and another one. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarForce_8hpp_source.html#l00150">150</a> of file <a class="el" href="PlanarForce_8hpp_source.html">PlanarForce.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarForce_8hpp_source.html#l00152">152</a> of file <a class="el" href="PlanarForce_8hpp_source.html">PlanarForce.hpp</a>.</p>
 
 </div>
 </div>
@@ -692,9 +692,9 @@ template&lt;Unit::Force Unit&gt; </div>
 
 <p>Statically creates a planar force vector from the given x and y Cartesian components expressed in a given force unit. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarForce_8hpp_source.html#l00109">109</a> of file <a class="el" href="PlanarForce_8hpp_source.html">PlanarForce.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarForce_8hpp_source.html#l00111">111</a> of file <a class="el" href="PlanarForce_8hpp_source.html">PlanarForce.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="PlanarForce_8hpp_source.html#l00130">PhQ::PlanarForce&lt; Number &gt;::x()</a>, and <a class="el" href="PlanarForce_8hpp_source.html#l00135">PhQ::PlanarForce&lt; Number &gt;::y()</a>.</p>
+<p class="reference">References <a class="el" href="PlanarForce_8hpp_source.html#l00132">PhQ::PlanarForce&lt; Number &gt;::x()</a>, and <a class="el" href="PlanarForce_8hpp_source.html#l00137">PhQ::PlanarForce&lt; Number &gt;::y()</a>.</p>
 
 </div>
 </div>
@@ -728,7 +728,7 @@ template&lt;Unit::Force Unit&gt; </div>
 
 <p>Statically creates a planar force vector with a given value expressed in a given force unit. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarForce_8hpp_source.html#l00125">125</a> of file <a class="el" href="PlanarForce_8hpp_source.html">PlanarForce.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarForce_8hpp_source.html#l00127">127</a> of file <a class="el" href="PlanarForce_8hpp_source.html">PlanarForce.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00219">PhQ::DimensionalPlanarVector&lt; Unit::Force, double &gt;::value</a>.</p>
 
@@ -764,7 +764,7 @@ template&lt;Unit::Force Unit&gt; </div>
 
 <p>Statically creates a planar force vector from the given x and y Cartesian components expressed in a given force unit. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarForce_8hpp_source.html#l00117">117</a> of file <a class="el" href="PlanarForce_8hpp_source.html">PlanarForce.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarForce_8hpp_source.html#l00119">119</a> of file <a class="el" href="PlanarForce_8hpp_source.html">PlanarForce.hpp</a>.</p>
 
 </div>
 </div>
@@ -883,9 +883,9 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the magnitude of this planar force vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarForce_8hpp_source.html#l00140">140</a> of file <a class="el" href="PlanarForce_8hpp_source.html">PlanarForce.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarForce_8hpp_source.html#l00142">142</a> of file <a class="el" href="PlanarForce_8hpp_source.html">PlanarForce.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="PlanarVector_8hpp_source.html#l00194">PhQ::PlanarVector&lt; Number &gt;::Magnitude()</a>, and <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00219">PhQ::DimensionalPlanarVector&lt; Unit::Force, double &gt;::value</a>.</p>
+<p class="reference">References <a class="el" href="PlanarVector_8hpp_source.html#l00196">PhQ::PlanarVector&lt; Number &gt;::Magnitude()</a>, and <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00219">PhQ::DimensionalPlanarVector&lt; Unit::Force, double &gt;::value</a>.</p>
 
 </div>
 </div>
@@ -944,7 +944,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="PlanarForce_8hpp_source.html#l00162">162</a> of file <a class="el" href="PlanarForce_8hpp_source.html">PlanarForce.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarForce_8hpp_source.html#l00164">164</a> of file <a class="el" href="PlanarForce_8hpp_source.html">PlanarForce.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00219">PhQ::DimensionalPlanarVector&lt; Unit::Force, double &gt;::value</a>.</p>
 
@@ -976,7 +976,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="PlanarForce_8hpp_source.html#l00180">180</a> of file <a class="el" href="PlanarForce_8hpp_source.html">PlanarForce.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarForce_8hpp_source.html#l00182">182</a> of file <a class="el" href="PlanarForce_8hpp_source.html">PlanarForce.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00219">PhQ::DimensionalPlanarVector&lt; Unit::Force, double &gt;::value</a>.</p>
 
@@ -1008,7 +1008,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="PlanarForce_8hpp_source.html#l00154">154</a> of file <a class="el" href="PlanarForce_8hpp_source.html">PlanarForce.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarForce_8hpp_source.html#l00156">156</a> of file <a class="el" href="PlanarForce_8hpp_source.html">PlanarForce.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00219">PhQ::DimensionalPlanarVector&lt; UnitType, Number &gt;::value</a>, and <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00219">PhQ::DimensionalPlanarVector&lt; Unit::Force, double &gt;::value</a>.</p>
 
@@ -1040,7 +1040,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="PlanarForce_8hpp_source.html#l00172">172</a> of file <a class="el" href="PlanarForce_8hpp_source.html">PlanarForce.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarForce_8hpp_source.html#l00174">174</a> of file <a class="el" href="PlanarForce_8hpp_source.html">PlanarForce.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00219">PhQ::DimensionalPlanarVector&lt; Unit::Force, double &gt;::value</a>.</p>
 
@@ -1072,7 +1072,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="PlanarForce_8hpp_source.html#l00158">158</a> of file <a class="el" href="PlanarForce_8hpp_source.html">PlanarForce.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarForce_8hpp_source.html#l00160">160</a> of file <a class="el" href="PlanarForce_8hpp_source.html">PlanarForce.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00219">PhQ::DimensionalPlanarVector&lt; UnitType, Number &gt;::value</a>, and <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00219">PhQ::DimensionalPlanarVector&lt; Unit::Force, double &gt;::value</a>.</p>
 
@@ -1104,7 +1104,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="PlanarForce_8hpp_source.html#l00176">176</a> of file <a class="el" href="PlanarForce_8hpp_source.html">PlanarForce.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarForce_8hpp_source.html#l00178">178</a> of file <a class="el" href="PlanarForce_8hpp_source.html">PlanarForce.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00219">PhQ::DimensionalPlanarVector&lt; Unit::Force, double &gt;::value</a>.</p>
 
@@ -1136,7 +1136,7 @@ template&lt;typename Number &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="PlanarTraction_8hpp_source.html#l00281">281</a> of file <a class="el" href="PlanarTraction_8hpp_source.html">PlanarTraction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarTraction_8hpp_source.html#l00285">285</a> of file <a class="el" href="PlanarTraction_8hpp_source.html">PlanarTraction.hpp</a>.</p>
 
 </div>
 </div>
@@ -1166,7 +1166,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="PlanarForce_8hpp_source.html#l00166">166</a> of file <a class="el" href="PlanarForce_8hpp_source.html">PlanarForce.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarForce_8hpp_source.html#l00168">168</a> of file <a class="el" href="PlanarForce_8hpp_source.html">PlanarForce.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00219">PhQ::DimensionalPlanarVector&lt; Unit::Force, double &gt;::value</a>.</p>
 
@@ -1198,7 +1198,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="PlanarForce_8hpp_source.html#l00184">184</a> of file <a class="el" href="PlanarForce_8hpp_source.html">PlanarForce.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarForce_8hpp_source.html#l00186">186</a> of file <a class="el" href="PlanarForce_8hpp_source.html">PlanarForce.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00219">PhQ::DimensionalPlanarVector&lt; Unit::Force, double &gt;::value</a>.</p>
 
@@ -1264,7 +1264,7 @@ template&lt;typename OtherNumber &gt; </div>
 
 <p>Copy assignment operator. Assigns this planar force vector by copying another one. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarForce_8hpp_source.html#l00093">93</a> of file <a class="el" href="PlanarForce_8hpp_source.html">PlanarForce.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarForce_8hpp_source.html#l00095">95</a> of file <a class="el" href="PlanarForce_8hpp_source.html">PlanarForce.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00060">PhQ::DimensionalPlanarVector&lt; UnitType, Number &gt;::Value()</a>, and <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00219">PhQ::DimensionalPlanarVector&lt; Unit::Force, double &gt;::value</a>.</p>
 
@@ -1327,9 +1327,9 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the planar direction of this planar force vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarForce_8hpp_source.html#l00145">145</a> of file <a class="el" href="PlanarForce_8hpp_source.html">PlanarForce.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarForce_8hpp_source.html#l00147">147</a> of file <a class="el" href="PlanarForce_8hpp_source.html">PlanarForce.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="PlanarDirection_8hpp_source.html#l00383">PhQ::PlanarVector&lt; Number &gt;::PlanarDirection()</a>, and <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00219">PhQ::DimensionalPlanarVector&lt; Unit::Force, double &gt;::value</a>.</p>
+<p class="reference">References <a class="el" href="PlanarDirection_8hpp_source.html#l00377">PhQ::PlanarVector&lt; Number &gt;::PlanarDirection()</a>, and <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00219">PhQ::DimensionalPlanarVector&lt; Unit::Force, double &gt;::value</a>.</p>
 
 </div>
 </div>
@@ -1566,11 +1566,11 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the x Cartesian component of this planar force vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarForce_8hpp_source.html#l00130">130</a> of file <a class="el" href="PlanarForce_8hpp_source.html">PlanarForce.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarForce_8hpp_source.html#l00132">132</a> of file <a class="el" href="PlanarForce_8hpp_source.html">PlanarForce.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00219">PhQ::DimensionalPlanarVector&lt; Unit::Force, double &gt;::value</a>, and <a class="el" href="PlanarVector_8hpp_source.html#l00139">PhQ::PlanarVector&lt; Number &gt;::x()</a>.</p>
+<p class="reference">References <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00219">PhQ::DimensionalPlanarVector&lt; Unit::Force, double &gt;::value</a>, and <a class="el" href="PlanarVector_8hpp_source.html#l00141">PhQ::PlanarVector&lt; Number &gt;::x()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="PlanarForce_8hpp_source.html#l00109">PhQ::PlanarForce&lt; Number &gt;::Create()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="PlanarForce_8hpp_source.html#l00111">PhQ::PlanarForce&lt; Number &gt;::Create()</a>.</p>
 
 </div>
 </div>
@@ -1660,11 +1660,11 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the y Cartesian component of this planar force vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarForce_8hpp_source.html#l00135">135</a> of file <a class="el" href="PlanarForce_8hpp_source.html">PlanarForce.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarForce_8hpp_source.html#l00137">137</a> of file <a class="el" href="PlanarForce_8hpp_source.html">PlanarForce.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00219">PhQ::DimensionalPlanarVector&lt; Unit::Force, double &gt;::value</a>, and <a class="el" href="PlanarVector_8hpp_source.html#l00144">PhQ::PlanarVector&lt; Number &gt;::y()</a>.</p>
+<p class="reference">References <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00219">PhQ::DimensionalPlanarVector&lt; Unit::Force, double &gt;::value</a>, and <a class="el" href="PlanarVector_8hpp_source.html#l00146">PhQ::PlanarVector&lt; Number &gt;::y()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="PlanarForce_8hpp_source.html#l00109">PhQ::PlanarForce&lt; Number &gt;::Create()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="PlanarForce_8hpp_source.html#l00111">PhQ::PlanarForce&lt; Number &gt;::Create()</a>.</p>
 
 </div>
 </div>
@@ -1754,9 +1754,9 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Statically creates a planar force vector of zero. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarForce_8hpp_source.html#l00102">102</a> of file <a class="el" href="PlanarForce_8hpp_source.html">PlanarForce.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarForce_8hpp_source.html#l00104">104</a> of file <a class="el" href="PlanarForce_8hpp_source.html">PlanarForce.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="PlanarVector_8hpp_source.html#l00127">PhQ::PlanarVector&lt; Number &gt;::Zero()</a>.</p>
+<p class="reference">References <a class="el" href="PlanarVector_8hpp_source.html#l00129">PhQ::PlanarVector&lt; Number &gt;::Zero()</a>.</p>
 
 </div>
 </div>

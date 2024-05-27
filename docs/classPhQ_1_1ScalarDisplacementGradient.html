@@ -112,7 +112,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search','.html');
 </div><!--header-->
 <div class="contents">
 
-<p>Scalar component or resultant of a displacement gradient tensor. See also <a class="el" href="classPhQ_1_1DisplacementGradient.html" title="Displacement gradient dyadic tensor. Gradient of the displacement vector. In general,...">PhQ::DisplacementGradient</a> and <a class="el" href="classPhQ_1_1ScalarVelocityGradient.html" title="Scalar component or resultant of a velocity gradient tensor. Time rate of change of a scalar displace...">PhQ::ScalarVelocityGradient</a>.  
+<p>Scalar component or resultant of a three-dimensional Euclidean displacement gradient dyadic tensor. For the related tensor, see <a class="el" href="classPhQ_1_1DisplacementGradient.html" title="Three-dimensional Euclidean displacement gradient dyadic tensor. Gradient of the displacement vector....">PhQ::DisplacementGradient</a>. The time rate of change of a scalar displacement gradient is a scalar velocity gradient; see <a class="el" href="classPhQ_1_1ScalarVelocityGradient.html" title="Scalar component or resultant of a three-dimensional Euclidean velocity gradient dyadic tensor....">PhQ::ScalarVelocityGradient</a>, <a class="el" href="classPhQ_1_1Time.html" title="Time. Can represent either a point in time, a time duration, or a period. For the inverse of time,...">PhQ::Time</a>, and <a class="el" href="classPhQ_1_1Frequency.html" title="Frequency. Inverse of a time duration. See also PhQ::Time.">PhQ::Frequency</a>.  
  <a href="classPhQ_1_1ScalarDisplacementGradient.html#details">More...</a></p>
 
 <p><code>#include &quot;<a class="el" href="ScalarDisplacementGradient_8hpp_source.html">ScalarDisplacementGradient.hpp</a>&quot;</code></p>
@@ -217,9 +217,9 @@ Protected Attributes</h2></td></tr>
 <div class="textblock"><h3>template&lt;typename Number = double&gt;<br />
 class PhQ::ScalarDisplacementGradient&lt; Number &gt;</h3>
 
-<p>Scalar component or resultant of a displacement gradient tensor. See also <a class="el" href="classPhQ_1_1DisplacementGradient.html" title="Displacement gradient dyadic tensor. Gradient of the displacement vector. In general,...">PhQ::DisplacementGradient</a> and <a class="el" href="classPhQ_1_1ScalarVelocityGradient.html" title="Scalar component or resultant of a velocity gradient tensor. Time rate of change of a scalar displace...">PhQ::ScalarVelocityGradient</a>. </p>
+<p>Scalar component or resultant of a three-dimensional Euclidean displacement gradient dyadic tensor. For the related tensor, see <a class="el" href="classPhQ_1_1DisplacementGradient.html" title="Three-dimensional Euclidean displacement gradient dyadic tensor. Gradient of the displacement vector....">PhQ::DisplacementGradient</a>. The time rate of change of a scalar displacement gradient is a scalar velocity gradient; see <a class="el" href="classPhQ_1_1ScalarVelocityGradient.html" title="Scalar component or resultant of a three-dimensional Euclidean velocity gradient dyadic tensor....">PhQ::ScalarVelocityGradient</a>, <a class="el" href="classPhQ_1_1Time.html" title="Time. Can represent either a point in time, a time duration, or a period. For the inverse of time,...">PhQ::Time</a>, and <a class="el" href="classPhQ_1_1Frequency.html" title="Frequency. Inverse of a time duration. See also PhQ::Time.">PhQ::Frequency</a>. </p>
 
-<p class="definition">Definition at line <a class="el" href="ScalarDisplacementGradient_8hpp_source.html#l00053">53</a> of file <a class="el" href="ScalarDisplacementGradient_8hpp_source.html">ScalarDisplacementGradient.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ScalarDisplacementGradient_8hpp_source.html#l00055">55</a> of file <a class="el" href="ScalarDisplacementGradient_8hpp_source.html">ScalarDisplacementGradient.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ab98a50d8f1ba19c50e271ad15228de16"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab98a50d8f1ba19c50e271ad15228de16">&#9670;&nbsp;</a></span>ScalarDisplacementGradient() <span class="overload">[1/7]</span></h2>
@@ -278,7 +278,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Constructor. Constructs a scalar displacement gradient with a given value. </p>
 
-<p class="definition">Definition at line <a class="el" href="ScalarDisplacementGradient_8hpp_source.html#l00060">60</a> of file <a class="el" href="ScalarDisplacementGradient_8hpp_source.html">ScalarDisplacementGradient.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ScalarDisplacementGradient_8hpp_source.html#l00062">62</a> of file <a class="el" href="ScalarDisplacementGradient_8hpp_source.html">ScalarDisplacementGradient.hpp</a>.</p>
 
 </div>
 </div>
@@ -320,7 +320,7 @@ template&lt;typename Number &gt; </div>
 
 <p>Constructor. Constructs a scalar displacement gradient from a given scalar velocity gradient and time using the definition of speed. </p>
 
-<p class="definition">Definition at line <a class="el" href="ScalarVelocityGradient_8hpp_source.html#l00219">219</a> of file <a class="el" href="ScalarVelocityGradient_8hpp_source.html">ScalarVelocityGradient.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ScalarVelocityGradient_8hpp_source.html#l00220">220</a> of file <a class="el" href="ScalarVelocityGradient_8hpp_source.html">ScalarVelocityGradient.hpp</a>.</p>
 
 </div>
 </div>
@@ -362,7 +362,7 @@ template&lt;typename Number &gt; </div>
 
 <p>Constructor. Constructs a scalar displacement gradient from a given scalar velocity gradient and frequency using the definition of speed. </p>
 
-<p class="definition">Definition at line <a class="el" href="ScalarVelocityGradient_8hpp_source.html#l00224">224</a> of file <a class="el" href="ScalarVelocityGradient_8hpp_source.html">ScalarVelocityGradient.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ScalarVelocityGradient_8hpp_source.html#l00225">225</a> of file <a class="el" href="ScalarVelocityGradient_8hpp_source.html">ScalarVelocityGradient.hpp</a>.</p>
 
 </div>
 </div>
@@ -455,7 +455,7 @@ template&lt;typename OtherNumber &gt; </div>
 
 <p>Copy constructor. Constructs a scalar displacement gradient by copying another one. </p>
 
-<p class="definition">Definition at line <a class="el" href="ScalarDisplacementGradient_8hpp_source.html#l00082">82</a> of file <a class="el" href="ScalarDisplacementGradient_8hpp_source.html">ScalarDisplacementGradient.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ScalarDisplacementGradient_8hpp_source.html#l00084">84</a> of file <a class="el" href="ScalarDisplacementGradient_8hpp_source.html">ScalarDisplacementGradient.hpp</a>.</p>
 
 </div>
 </div>
@@ -603,7 +603,7 @@ template&lt;typename Number &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ScalarVelocityGradient_8hpp_source.html#l00230">230</a> of file <a class="el" href="ScalarVelocityGradient_8hpp_source.html">ScalarVelocityGradient.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ScalarVelocityGradient_8hpp_source.html#l00231">231</a> of file <a class="el" href="ScalarVelocityGradient_8hpp_source.html">ScalarVelocityGradient.hpp</a>.</p>
 
 </div>
 </div>
@@ -633,7 +633,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ScalarDisplacementGradient_8hpp_source.html#l00124">124</a> of file <a class="el" href="ScalarDisplacementGradient_8hpp_source.html">ScalarDisplacementGradient.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ScalarDisplacementGradient_8hpp_source.html#l00126">126</a> of file <a class="el" href="ScalarDisplacementGradient_8hpp_source.html">ScalarDisplacementGradient.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionlessScalar_8hpp_source.html#l00138">PhQ::DimensionlessScalar&lt; double &gt;::value</a>.</p>
 
@@ -665,7 +665,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ScalarDisplacementGradient_8hpp_source.html#l00151">151</a> of file <a class="el" href="ScalarDisplacementGradient_8hpp_source.html">ScalarDisplacementGradient.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ScalarDisplacementGradient_8hpp_source.html#l00153">153</a> of file <a class="el" href="ScalarDisplacementGradient_8hpp_source.html">ScalarDisplacementGradient.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionlessScalar_8hpp_source.html#l00138">PhQ::DimensionlessScalar&lt; double &gt;::value</a>.</p>
 
@@ -697,7 +697,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ScalarDisplacementGradient_8hpp_source.html#l00114">114</a> of file <a class="el" href="ScalarDisplacementGradient_8hpp_source.html">ScalarDisplacementGradient.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ScalarDisplacementGradient_8hpp_source.html#l00116">116</a> of file <a class="el" href="ScalarDisplacementGradient_8hpp_source.html">ScalarDisplacementGradient.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionlessScalar_8hpp_source.html#l00138">PhQ::DimensionlessScalar&lt; Number &gt;::value</a>, and <a class="el" href="DimensionlessScalar_8hpp_source.html#l00138">PhQ::DimensionlessScalar&lt; double &gt;::value</a>.</p>
 
@@ -729,7 +729,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ScalarDisplacementGradient_8hpp_source.html#l00141">141</a> of file <a class="el" href="ScalarDisplacementGradient_8hpp_source.html">ScalarDisplacementGradient.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ScalarDisplacementGradient_8hpp_source.html#l00143">143</a> of file <a class="el" href="ScalarDisplacementGradient_8hpp_source.html">ScalarDisplacementGradient.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionlessScalar_8hpp_source.html#l00138">PhQ::DimensionlessScalar&lt; double &gt;::value</a>.</p>
 
@@ -761,7 +761,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ScalarDisplacementGradient_8hpp_source.html#l00119">119</a> of file <a class="el" href="ScalarDisplacementGradient_8hpp_source.html">ScalarDisplacementGradient.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ScalarDisplacementGradient_8hpp_source.html#l00121">121</a> of file <a class="el" href="ScalarDisplacementGradient_8hpp_source.html">ScalarDisplacementGradient.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionlessScalar_8hpp_source.html#l00138">PhQ::DimensionlessScalar&lt; Number &gt;::value</a>, and <a class="el" href="DimensionlessScalar_8hpp_source.html#l00138">PhQ::DimensionlessScalar&lt; double &gt;::value</a>.</p>
 
@@ -793,7 +793,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ScalarDisplacementGradient_8hpp_source.html#l00146">146</a> of file <a class="el" href="ScalarDisplacementGradient_8hpp_source.html">ScalarDisplacementGradient.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ScalarDisplacementGradient_8hpp_source.html#l00148">148</a> of file <a class="el" href="ScalarDisplacementGradient_8hpp_source.html">ScalarDisplacementGradient.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionlessScalar_8hpp_source.html#l00138">PhQ::DimensionlessScalar&lt; double &gt;::value</a>.</p>
 
@@ -825,7 +825,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ScalarDisplacementGradient_8hpp_source.html#l00130">130</a> of file <a class="el" href="ScalarDisplacementGradient_8hpp_source.html">ScalarDisplacementGradient.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ScalarDisplacementGradient_8hpp_source.html#l00132">132</a> of file <a class="el" href="ScalarDisplacementGradient_8hpp_source.html">ScalarDisplacementGradient.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionlessScalar_8hpp_source.html#l00138">PhQ::DimensionlessScalar&lt; double &gt;::value</a>.</p>
 
@@ -857,7 +857,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ScalarDisplacementGradient_8hpp_source.html#l00136">136</a> of file <a class="el" href="ScalarDisplacementGradient_8hpp_source.html">ScalarDisplacementGradient.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ScalarDisplacementGradient_8hpp_source.html#l00138">138</a> of file <a class="el" href="ScalarDisplacementGradient_8hpp_source.html">ScalarDisplacementGradient.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionlessScalar_8hpp_source.html#l00138">PhQ::DimensionlessScalar&lt; double &gt;::value</a>.</p>
 
@@ -889,7 +889,7 @@ template&lt;typename Number &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ScalarVelocityGradient_8hpp_source.html#l00236">236</a> of file <a class="el" href="ScalarVelocityGradient_8hpp_source.html">ScalarVelocityGradient.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ScalarVelocityGradient_8hpp_source.html#l00237">237</a> of file <a class="el" href="ScalarVelocityGradient_8hpp_source.html">ScalarVelocityGradient.hpp</a>.</p>
 
 </div>
 </div>
@@ -919,7 +919,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ScalarDisplacementGradient_8hpp_source.html#l00155">155</a> of file <a class="el" href="ScalarDisplacementGradient_8hpp_source.html">ScalarDisplacementGradient.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ScalarDisplacementGradient_8hpp_source.html#l00157">157</a> of file <a class="el" href="ScalarDisplacementGradient_8hpp_source.html">ScalarDisplacementGradient.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionlessScalar_8hpp_source.html#l00138">PhQ::DimensionlessScalar&lt; double &gt;::value</a>.</p>
 
@@ -985,7 +985,7 @@ template&lt;typename OtherNumber &gt; </div>
 
 <p>Copy assignment operator. Assigns this scalar displacement gradient by copying another one. </p>
 
-<p class="definition">Definition at line <a class="el" href="ScalarDisplacementGradient_8hpp_source.html#l00098">98</a> of file <a class="el" href="ScalarDisplacementGradient_8hpp_source.html">ScalarDisplacementGradient.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ScalarDisplacementGradient_8hpp_source.html#l00100">100</a> of file <a class="el" href="ScalarDisplacementGradient_8hpp_source.html">ScalarDisplacementGradient.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionlessScalar_8hpp_source.html#l00060">PhQ::DimensionlessScalar&lt; Number &gt;::Value()</a>, and <a class="el" href="DimensionlessScalar_8hpp_source.html#l00138">PhQ::DimensionlessScalar&lt; double &gt;::value</a>.</p>
 
@@ -1194,7 +1194,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Statically creates a scalar displacement gradient of zero. </p>
 
-<p class="definition">Definition at line <a class="el" href="ScalarDisplacementGradient_8hpp_source.html#l00110">110</a> of file <a class="el" href="ScalarDisplacementGradient_8hpp_source.html">ScalarDisplacementGradient.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ScalarDisplacementGradient_8hpp_source.html#l00112">112</a> of file <a class="el" href="ScalarDisplacementGradient_8hpp_source.html">ScalarDisplacementGradient.hpp</a>.</p>
 
 </div>
 </div>

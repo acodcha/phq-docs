@@ -113,7 +113,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search','.html');
 </div><!--header-->
 <div class="contents">
 
-<p>Thermal conductivity symmetric dyadic tensor. See also <a class="el" href="classPhQ_1_1ScalarThermalConductivity.html" title="Scalar component or resultant of a thermal conductivity tensor. For materials that are isotropic,...">PhQ::ScalarThermalConductivity</a>.  
+<p>Three-dimensional Euclidean Cauchy thermal conductivity symmetric dyadic tensor. Contains six components in Cartesian coordinates: xx, xy = yx, xz = zx, yy, yz = zy, and zz. In general, thermal conductivity is a tensor; however, in isotropic materials, thermal conductivity simplifies to a scalar. For the scalar components or resultants of a thermal conductivity tensor, see <a class="el" href="classPhQ_1_1ScalarThermalConductivity.html" title="Scalar component or resultant of a three-dimensional Euclidean thermal conductivity symmetric dyadic ...">PhQ::ScalarThermalConductivity</a>.  
  <a href="classPhQ_1_1ThermalConductivity.html#details">More...</a></p>
 
 <p><code>#include &quot;<a class="el" href="ThermalConductivity_8hpp_source.html">ThermalConductivity.hpp</a>&quot;</code></p>
@@ -275,9 +275,9 @@ Private Member Functions</h2></td></tr>
 <div class="textblock"><h3>template&lt;typename Number = double&gt;<br />
 class PhQ::ThermalConductivity&lt; Number &gt;</h3>
 
-<p>Thermal conductivity symmetric dyadic tensor. See also <a class="el" href="classPhQ_1_1ScalarThermalConductivity.html" title="Scalar component or resultant of a thermal conductivity tensor. For materials that are isotropic,...">PhQ::ScalarThermalConductivity</a>. </p>
+<p>Three-dimensional Euclidean Cauchy thermal conductivity symmetric dyadic tensor. Contains six components in Cartesian coordinates: xx, xy = yx, xz = zx, yy, yz = zy, and zz. In general, thermal conductivity is a tensor; however, in isotropic materials, thermal conductivity simplifies to a scalar. For the scalar components or resultants of a thermal conductivity tensor, see <a class="el" href="classPhQ_1_1ScalarThermalConductivity.html" title="Scalar component or resultant of a three-dimensional Euclidean thermal conductivity symmetric dyadic ...">PhQ::ScalarThermalConductivity</a>. </p>
 
-<p class="definition">Definition at line <a class="el" href="ThermalConductivity_8hpp_source.html#l00044">44</a> of file <a class="el" href="ThermalConductivity_8hpp_source.html">ThermalConductivity.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ThermalConductivity_8hpp_source.html#l00048">48</a> of file <a class="el" href="ThermalConductivity_8hpp_source.html">ThermalConductivity.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a7fa4e23c3f67e3132de96ae75f814f0e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7fa4e23c3f67e3132de96ae75f814f0e">&#9670;&nbsp;</a></span>ThermalConductivity() <span class="overload">[1/7]</span></h2>
@@ -346,7 +346,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Constructor. Constructs a thermal conductivity tensor with a given value expressed in a given thermal conductivity unit. </p>
 
-<p class="definition">Definition at line <a class="el" href="ThermalConductivity_8hpp_source.html#l00052">52</a> of file <a class="el" href="ThermalConductivity_8hpp_source.html">ThermalConductivity.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ThermalConductivity_8hpp_source.html#l00056">56</a> of file <a class="el" href="ThermalConductivity_8hpp_source.html">ThermalConductivity.hpp</a>.</p>
 
 </div>
 </div>
@@ -378,7 +378,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Constructor. Constructs a thermal conductivity tensor from a given scalar thermal conductivity. </p>
 
-<p class="definition">Definition at line <a class="el" href="ThermalConductivity_8hpp_source.html#l00057">57</a> of file <a class="el" href="ThermalConductivity_8hpp_source.html">ThermalConductivity.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ThermalConductivity_8hpp_source.html#l00061">61</a> of file <a class="el" href="ThermalConductivity_8hpp_source.html">ThermalConductivity.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00064">PhQ::DimensionalScalar&lt; UnitType, Number &gt;::Value()</a>.</p>
 
@@ -473,7 +473,7 @@ template&lt;typename OtherNumber &gt; </div>
 
 <p>Copy constructor. Constructs a thermal conductivity tensor by copying another one. </p>
 
-<p class="definition">Definition at line <a class="el" href="ThermalConductivity_8hpp_source.html#l00071">71</a> of file <a class="el" href="ThermalConductivity_8hpp_source.html">ThermalConductivity.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ThermalConductivity_8hpp_source.html#l00075">75</a> of file <a class="el" href="ThermalConductivity_8hpp_source.html">ThermalConductivity.hpp</a>.</p>
 
 </div>
 </div>
@@ -535,7 +535,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Constructor. Constructs a thermal conductivity tensor with a given value expressed in the standard thermal conductivity unit. </p>
 
-<p class="definition">Definition at line <a class="el" href="ThermalConductivity_8hpp_source.html#l00212">212</a> of file <a class="el" href="ThermalConductivity_8hpp_source.html">ThermalConductivity.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ThermalConductivity_8hpp_source.html#l00216">216</a> of file <a class="el" href="ThermalConductivity_8hpp_source.html">ThermalConductivity.hpp</a>.</p>
 
 </div>
 </div>
@@ -604,9 +604,9 @@ template&lt;Unit::ThermalConductivity Unit&gt; </div>
 
 <p>Statically creates a thermal conductivity tensor from the given xx, xy, xz, yy, yz, and zz Cartesian components expressed in a given pressure unit. </p>
 
-<p class="definition">Definition at line <a class="el" href="ThermalConductivity_8hpp_source.html#l00103">103</a> of file <a class="el" href="ThermalConductivity_8hpp_source.html">ThermalConductivity.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ThermalConductivity_8hpp_source.html#l00107">107</a> of file <a class="el" href="ThermalConductivity_8hpp_source.html">ThermalConductivity.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="ThermalConductivity_8hpp_source.html#l00131">PhQ::ThermalConductivity&lt; Number &gt;::xx()</a>, <a class="el" href="ThermalConductivity_8hpp_source.html#l00136">PhQ::ThermalConductivity&lt; Number &gt;::xy()</a>, <a class="el" href="ThermalConductivity_8hpp_source.html#l00141">PhQ::ThermalConductivity&lt; Number &gt;::xz()</a>, <a class="el" href="ThermalConductivity_8hpp_source.html#l00151">PhQ::ThermalConductivity&lt; Number &gt;::yy()</a>, <a class="el" href="ThermalConductivity_8hpp_source.html#l00156">PhQ::ThermalConductivity&lt; Number &gt;::yz()</a>, and <a class="el" href="ThermalConductivity_8hpp_source.html#l00171">PhQ::ThermalConductivity&lt; Number &gt;::zz()</a>.</p>
+<p class="reference">References <a class="el" href="ThermalConductivity_8hpp_source.html#l00135">PhQ::ThermalConductivity&lt; Number &gt;::xx()</a>, <a class="el" href="ThermalConductivity_8hpp_source.html#l00140">PhQ::ThermalConductivity&lt; Number &gt;::xy()</a>, <a class="el" href="ThermalConductivity_8hpp_source.html#l00145">PhQ::ThermalConductivity&lt; Number &gt;::xz()</a>, <a class="el" href="ThermalConductivity_8hpp_source.html#l00155">PhQ::ThermalConductivity&lt; Number &gt;::yy()</a>, <a class="el" href="ThermalConductivity_8hpp_source.html#l00160">PhQ::ThermalConductivity&lt; Number &gt;::yz()</a>, and <a class="el" href="ThermalConductivity_8hpp_source.html#l00175">PhQ::ThermalConductivity&lt; Number &gt;::zz()</a>.</p>
 
 </div>
 </div>
@@ -640,7 +640,7 @@ template&lt;Unit::ThermalConductivity Unit&gt; </div>
 
 <p>Statically creates a thermal conductivity tensor from the given xx, xy, xz, yy, yz, and zz Cartesian components expressed in a given pressure unit. </p>
 
-<p class="definition">Definition at line <a class="el" href="ThermalConductivity_8hpp_source.html#l00114">114</a> of file <a class="el" href="ThermalConductivity_8hpp_source.html">ThermalConductivity.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ThermalConductivity_8hpp_source.html#l00118">118</a> of file <a class="el" href="ThermalConductivity_8hpp_source.html">ThermalConductivity.hpp</a>.</p>
 
 </div>
 </div>
@@ -674,7 +674,7 @@ template&lt;Unit::ThermalConductivity Unit&gt; </div>
 
 <p>Statically creates a thermal conductivity tensor with a given value expressed in a given thermal conductivity unit. </p>
 
-<p class="definition">Definition at line <a class="el" href="ThermalConductivity_8hpp_source.html#l00124">124</a> of file <a class="el" href="ThermalConductivity_8hpp_source.html">ThermalConductivity.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ThermalConductivity_8hpp_source.html#l00128">128</a> of file <a class="el" href="ThermalConductivity_8hpp_source.html">ThermalConductivity.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00219">PhQ::DimensionalSymmetricDyad&lt; Unit::ThermalConductivity, double &gt;::value</a>.</p>
 
@@ -823,7 +823,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ThermalConductivity_8hpp_source.html#l00185">185</a> of file <a class="el" href="ThermalConductivity_8hpp_source.html">ThermalConductivity.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ThermalConductivity_8hpp_source.html#l00189">189</a> of file <a class="el" href="ThermalConductivity_8hpp_source.html">ThermalConductivity.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00219">PhQ::DimensionalSymmetricDyad&lt; Unit::ThermalConductivity, double &gt;::value</a>.</p>
 
@@ -855,7 +855,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ThermalConductivity_8hpp_source.html#l00201">201</a> of file <a class="el" href="ThermalConductivity_8hpp_source.html">ThermalConductivity.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ThermalConductivity_8hpp_source.html#l00205">205</a> of file <a class="el" href="ThermalConductivity_8hpp_source.html">ThermalConductivity.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00219">PhQ::DimensionalSymmetricDyad&lt; Unit::ThermalConductivity, double &gt;::value</a>.</p>
 
@@ -887,7 +887,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ThermalConductivity_8hpp_source.html#l00175">175</a> of file <a class="el" href="ThermalConductivity_8hpp_source.html">ThermalConductivity.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ThermalConductivity_8hpp_source.html#l00179">179</a> of file <a class="el" href="ThermalConductivity_8hpp_source.html">ThermalConductivity.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00219">PhQ::DimensionalSymmetricDyad&lt; UnitType, Number &gt;::value</a>, and <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00219">PhQ::DimensionalSymmetricDyad&lt; Unit::ThermalConductivity, double &gt;::value</a>.</p>
 
@@ -919,7 +919,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ThermalConductivity_8hpp_source.html#l00193">193</a> of file <a class="el" href="ThermalConductivity_8hpp_source.html">ThermalConductivity.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ThermalConductivity_8hpp_source.html#l00197">197</a> of file <a class="el" href="ThermalConductivity_8hpp_source.html">ThermalConductivity.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00219">PhQ::DimensionalSymmetricDyad&lt; Unit::ThermalConductivity, double &gt;::value</a>.</p>
 
@@ -951,7 +951,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ThermalConductivity_8hpp_source.html#l00180">180</a> of file <a class="el" href="ThermalConductivity_8hpp_source.html">ThermalConductivity.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ThermalConductivity_8hpp_source.html#l00184">184</a> of file <a class="el" href="ThermalConductivity_8hpp_source.html">ThermalConductivity.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00219">PhQ::DimensionalSymmetricDyad&lt; UnitType, Number &gt;::value</a>, and <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00219">PhQ::DimensionalSymmetricDyad&lt; Unit::ThermalConductivity, double &gt;::value</a>.</p>
 
@@ -983,7 +983,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ThermalConductivity_8hpp_source.html#l00197">197</a> of file <a class="el" href="ThermalConductivity_8hpp_source.html">ThermalConductivity.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ThermalConductivity_8hpp_source.html#l00201">201</a> of file <a class="el" href="ThermalConductivity_8hpp_source.html">ThermalConductivity.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00219">PhQ::DimensionalSymmetricDyad&lt; Unit::ThermalConductivity, double &gt;::value</a>.</p>
 
@@ -1015,7 +1015,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ThermalConductivity_8hpp_source.html#l00189">189</a> of file <a class="el" href="ThermalConductivity_8hpp_source.html">ThermalConductivity.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ThermalConductivity_8hpp_source.html#l00193">193</a> of file <a class="el" href="ThermalConductivity_8hpp_source.html">ThermalConductivity.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00219">PhQ::DimensionalSymmetricDyad&lt; Unit::ThermalConductivity, double &gt;::value</a>.</p>
 
@@ -1047,7 +1047,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ThermalConductivity_8hpp_source.html#l00205">205</a> of file <a class="el" href="ThermalConductivity_8hpp_source.html">ThermalConductivity.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ThermalConductivity_8hpp_source.html#l00209">209</a> of file <a class="el" href="ThermalConductivity_8hpp_source.html">ThermalConductivity.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00219">PhQ::DimensionalSymmetricDyad&lt; Unit::ThermalConductivity, double &gt;::value</a>.</p>
 
@@ -1113,7 +1113,7 @@ template&lt;typename OtherNumber &gt; </div>
 
 <p>Copy assignment operator. Assigns this thermal conductivity tensor by copying another one. </p>
 
-<p class="definition">Definition at line <a class="el" href="ThermalConductivity_8hpp_source.html#l00085">85</a> of file <a class="el" href="ThermalConductivity_8hpp_source.html">ThermalConductivity.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ThermalConductivity_8hpp_source.html#l00089">89</a> of file <a class="el" href="ThermalConductivity_8hpp_source.html">ThermalConductivity.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00060">PhQ::DimensionalSymmetricDyad&lt; UnitType, Number &gt;::Value()</a>, and <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00219">PhQ::DimensionalSymmetricDyad&lt; Unit::ThermalConductivity, double &gt;::value</a>.</p>
 
@@ -1441,11 +1441,11 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the xx Cartesian component of this thermal conductivity tensor. </p>
 
-<p class="definition">Definition at line <a class="el" href="ThermalConductivity_8hpp_source.html#l00131">131</a> of file <a class="el" href="ThermalConductivity_8hpp_source.html">ThermalConductivity.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ThermalConductivity_8hpp_source.html#l00135">135</a> of file <a class="el" href="ThermalConductivity_8hpp_source.html">ThermalConductivity.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00219">PhQ::DimensionalSymmetricDyad&lt; Unit::ThermalConductivity, double &gt;::value</a>, and <a class="el" href="SymmetricDyad_8hpp_source.html#l00132">PhQ::SymmetricDyad&lt; Number &gt;::xx()</a>.</p>
+<p class="reference">References <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00219">PhQ::DimensionalSymmetricDyad&lt; Unit::ThermalConductivity, double &gt;::value</a>, and <a class="el" href="SymmetricDyad_8hpp_source.html#l00135">PhQ::SymmetricDyad&lt; Number &gt;::xx()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="ThermalConductivity_8hpp_source.html#l00103">PhQ::ThermalConductivity&lt; Number &gt;::Create()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="ThermalConductivity_8hpp_source.html#l00107">PhQ::ThermalConductivity&lt; Number &gt;::Create()</a>.</p>
 
 </div>
 </div>
@@ -1476,11 +1476,11 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the xy = yx Cartesian component of this thermal conductivity tensor. </p>
 
-<p class="definition">Definition at line <a class="el" href="ThermalConductivity_8hpp_source.html#l00136">136</a> of file <a class="el" href="ThermalConductivity_8hpp_source.html">ThermalConductivity.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ThermalConductivity_8hpp_source.html#l00140">140</a> of file <a class="el" href="ThermalConductivity_8hpp_source.html">ThermalConductivity.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00219">PhQ::DimensionalSymmetricDyad&lt; Unit::ThermalConductivity, double &gt;::value</a>, and <a class="el" href="SymmetricDyad_8hpp_source.html#l00137">PhQ::SymmetricDyad&lt; Number &gt;::xy()</a>.</p>
+<p class="reference">References <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00219">PhQ::DimensionalSymmetricDyad&lt; Unit::ThermalConductivity, double &gt;::value</a>, and <a class="el" href="SymmetricDyad_8hpp_source.html#l00140">PhQ::SymmetricDyad&lt; Number &gt;::xy()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="ThermalConductivity_8hpp_source.html#l00103">PhQ::ThermalConductivity&lt; Number &gt;::Create()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="ThermalConductivity_8hpp_source.html#l00107">PhQ::ThermalConductivity&lt; Number &gt;::Create()</a>.</p>
 
 </div>
 </div>
@@ -1511,11 +1511,11 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the xz = zx Cartesian component of this thermal conductivity tensor. </p>
 
-<p class="definition">Definition at line <a class="el" href="ThermalConductivity_8hpp_source.html#l00141">141</a> of file <a class="el" href="ThermalConductivity_8hpp_source.html">ThermalConductivity.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ThermalConductivity_8hpp_source.html#l00145">145</a> of file <a class="el" href="ThermalConductivity_8hpp_source.html">ThermalConductivity.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00219">PhQ::DimensionalSymmetricDyad&lt; Unit::ThermalConductivity, double &gt;::value</a>, and <a class="el" href="SymmetricDyad_8hpp_source.html#l00142">PhQ::SymmetricDyad&lt; Number &gt;::xz()</a>.</p>
+<p class="reference">References <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00219">PhQ::DimensionalSymmetricDyad&lt; Unit::ThermalConductivity, double &gt;::value</a>, and <a class="el" href="SymmetricDyad_8hpp_source.html#l00145">PhQ::SymmetricDyad&lt; Number &gt;::xz()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="ThermalConductivity_8hpp_source.html#l00103">PhQ::ThermalConductivity&lt; Number &gt;::Create()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="ThermalConductivity_8hpp_source.html#l00107">PhQ::ThermalConductivity&lt; Number &gt;::Create()</a>.</p>
 
 </div>
 </div>
@@ -1605,9 +1605,9 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the yx = xy Cartesian component of this thermal conductivity tensor. </p>
 
-<p class="definition">Definition at line <a class="el" href="ThermalConductivity_8hpp_source.html#l00146">146</a> of file <a class="el" href="ThermalConductivity_8hpp_source.html">ThermalConductivity.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ThermalConductivity_8hpp_source.html#l00150">150</a> of file <a class="el" href="ThermalConductivity_8hpp_source.html">ThermalConductivity.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00219">PhQ::DimensionalSymmetricDyad&lt; Unit::ThermalConductivity, double &gt;::value</a>, and <a class="el" href="SymmetricDyad_8hpp_source.html#l00147">PhQ::SymmetricDyad&lt; Number &gt;::yx()</a>.</p>
+<p class="reference">References <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00219">PhQ::DimensionalSymmetricDyad&lt; Unit::ThermalConductivity, double &gt;::value</a>, and <a class="el" href="SymmetricDyad_8hpp_source.html#l00150">PhQ::SymmetricDyad&lt; Number &gt;::yx()</a>.</p>
 
 </div>
 </div>
@@ -1638,11 +1638,11 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the yy Cartesian component of this thermal conductivity tensor. </p>
 
-<p class="definition">Definition at line <a class="el" href="ThermalConductivity_8hpp_source.html#l00151">151</a> of file <a class="el" href="ThermalConductivity_8hpp_source.html">ThermalConductivity.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ThermalConductivity_8hpp_source.html#l00155">155</a> of file <a class="el" href="ThermalConductivity_8hpp_source.html">ThermalConductivity.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00219">PhQ::DimensionalSymmetricDyad&lt; Unit::ThermalConductivity, double &gt;::value</a>, and <a class="el" href="SymmetricDyad_8hpp_source.html#l00152">PhQ::SymmetricDyad&lt; Number &gt;::yy()</a>.</p>
+<p class="reference">References <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00219">PhQ::DimensionalSymmetricDyad&lt; Unit::ThermalConductivity, double &gt;::value</a>, and <a class="el" href="SymmetricDyad_8hpp_source.html#l00155">PhQ::SymmetricDyad&lt; Number &gt;::yy()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="ThermalConductivity_8hpp_source.html#l00103">PhQ::ThermalConductivity&lt; Number &gt;::Create()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="ThermalConductivity_8hpp_source.html#l00107">PhQ::ThermalConductivity&lt; Number &gt;::Create()</a>.</p>
 
 </div>
 </div>
@@ -1673,11 +1673,11 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the yz = zy Cartesian component of this thermal conductivity tensor. </p>
 
-<p class="definition">Definition at line <a class="el" href="ThermalConductivity_8hpp_source.html#l00156">156</a> of file <a class="el" href="ThermalConductivity_8hpp_source.html">ThermalConductivity.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ThermalConductivity_8hpp_source.html#l00160">160</a> of file <a class="el" href="ThermalConductivity_8hpp_source.html">ThermalConductivity.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00219">PhQ::DimensionalSymmetricDyad&lt; Unit::ThermalConductivity, double &gt;::value</a>, and <a class="el" href="SymmetricDyad_8hpp_source.html#l00157">PhQ::SymmetricDyad&lt; Number &gt;::yz()</a>.</p>
+<p class="reference">References <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00219">PhQ::DimensionalSymmetricDyad&lt; Unit::ThermalConductivity, double &gt;::value</a>, and <a class="el" href="SymmetricDyad_8hpp_source.html#l00160">PhQ::SymmetricDyad&lt; Number &gt;::yz()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="ThermalConductivity_8hpp_source.html#l00103">PhQ::ThermalConductivity&lt; Number &gt;::Create()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="ThermalConductivity_8hpp_source.html#l00107">PhQ::ThermalConductivity&lt; Number &gt;::Create()</a>.</p>
 
 </div>
 </div>
@@ -1708,9 +1708,9 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Statically creates a thermal conductivity tensor of zero. </p>
 
-<p class="definition">Definition at line <a class="el" href="ThermalConductivity_8hpp_source.html#l00096">96</a> of file <a class="el" href="ThermalConductivity_8hpp_source.html">ThermalConductivity.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ThermalConductivity_8hpp_source.html#l00100">100</a> of file <a class="el" href="ThermalConductivity_8hpp_source.html">ThermalConductivity.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="SymmetricDyad_8hpp_source.html#l00117">PhQ::SymmetricDyad&lt; Number &gt;::Zero()</a>.</p>
+<p class="reference">References <a class="el" href="SymmetricDyad_8hpp_source.html#l00120">PhQ::SymmetricDyad&lt; Number &gt;::Zero()</a>.</p>
 
 </div>
 </div>
@@ -1741,9 +1741,9 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the zx = xz Cartesian component of this thermal conductivity tensor. </p>
 
-<p class="definition">Definition at line <a class="el" href="ThermalConductivity_8hpp_source.html#l00161">161</a> of file <a class="el" href="ThermalConductivity_8hpp_source.html">ThermalConductivity.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ThermalConductivity_8hpp_source.html#l00165">165</a> of file <a class="el" href="ThermalConductivity_8hpp_source.html">ThermalConductivity.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00219">PhQ::DimensionalSymmetricDyad&lt; Unit::ThermalConductivity, double &gt;::value</a>, and <a class="el" href="SymmetricDyad_8hpp_source.html#l00162">PhQ::SymmetricDyad&lt; Number &gt;::zx()</a>.</p>
+<p class="reference">References <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00219">PhQ::DimensionalSymmetricDyad&lt; Unit::ThermalConductivity, double &gt;::value</a>, and <a class="el" href="SymmetricDyad_8hpp_source.html#l00165">PhQ::SymmetricDyad&lt; Number &gt;::zx()</a>.</p>
 
 </div>
 </div>
@@ -1774,9 +1774,9 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the zy = yz Cartesian component of this thermal conductivity tensor. </p>
 
-<p class="definition">Definition at line <a class="el" href="ThermalConductivity_8hpp_source.html#l00166">166</a> of file <a class="el" href="ThermalConductivity_8hpp_source.html">ThermalConductivity.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ThermalConductivity_8hpp_source.html#l00170">170</a> of file <a class="el" href="ThermalConductivity_8hpp_source.html">ThermalConductivity.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00219">PhQ::DimensionalSymmetricDyad&lt; Unit::ThermalConductivity, double &gt;::value</a>, and <a class="el" href="SymmetricDyad_8hpp_source.html#l00167">PhQ::SymmetricDyad&lt; Number &gt;::zy()</a>.</p>
+<p class="reference">References <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00219">PhQ::DimensionalSymmetricDyad&lt; Unit::ThermalConductivity, double &gt;::value</a>, and <a class="el" href="SymmetricDyad_8hpp_source.html#l00170">PhQ::SymmetricDyad&lt; Number &gt;::zy()</a>.</p>
 
 </div>
 </div>
@@ -1807,11 +1807,11 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the zz Cartesian component of this thermal conductivity tensor. </p>
 
-<p class="definition">Definition at line <a class="el" href="ThermalConductivity_8hpp_source.html#l00171">171</a> of file <a class="el" href="ThermalConductivity_8hpp_source.html">ThermalConductivity.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ThermalConductivity_8hpp_source.html#l00175">175</a> of file <a class="el" href="ThermalConductivity_8hpp_source.html">ThermalConductivity.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00219">PhQ::DimensionalSymmetricDyad&lt; Unit::ThermalConductivity, double &gt;::value</a>, and <a class="el" href="SymmetricDyad_8hpp_source.html#l00172">PhQ::SymmetricDyad&lt; Number &gt;::zz()</a>.</p>
+<p class="reference">References <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00219">PhQ::DimensionalSymmetricDyad&lt; Unit::ThermalConductivity, double &gt;::value</a>, and <a class="el" href="SymmetricDyad_8hpp_source.html#l00175">PhQ::SymmetricDyad&lt; Number &gt;::zz()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="ThermalConductivity_8hpp_source.html#l00103">PhQ::ThermalConductivity&lt; Number &gt;::Create()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="ThermalConductivity_8hpp_source.html#l00107">PhQ::ThermalConductivity&lt; Number &gt;::Create()</a>.</p>
 
 </div>
 </div>

@@ -113,7 +113,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search','.html');
 </div><!--header-->
 <div class="contents">
 
-<p><a class="el" href="classPhQ_1_1Force.html" title="Force vector. See also PhQ::ScalarForce.">Force</a> vector. See also <a class="el" href="classPhQ_1_1ScalarForce.html" title="Scalar force component or magnitude of a force vector. See also PhQ::Force.">PhQ::ScalarForce</a>.  
+<p>Three-dimensional Euclidean force vector. Contains three components in Cartesian coordinates: x, y, and z. For a two-dimensional Euclidean force vector in the XY plane, see <a class="el" href="classPhQ_1_1PlanarForce.html" title="Two-dimensional Euclidean force vector in the XY plane. Contains two components in Cartesian coordina...">PhQ::PlanarForce</a>. For scalar force components or for the magnitude of a force vector, see <a class="el" href="classPhQ_1_1ScalarForce.html" title="Scalar force component or magnitude of a force vector. For a three-dimensional Euclidean force vector...">PhQ::ScalarForce</a>.  
  <a href="classPhQ_1_1Force.html#details">More...</a></p>
 
 <p><code>#include &quot;<a class="el" href="Force_8hpp_source.html">Force.hpp</a>&quot;</code></p>
@@ -274,9 +274,9 @@ Private Member Functions</h2></td></tr>
 <div class="textblock"><h3>template&lt;typename Number = double&gt;<br />
 class PhQ::Force&lt; Number &gt;</h3>
 
-<p><a class="el" href="classPhQ_1_1Force.html" title="Force vector. See also PhQ::ScalarForce.">Force</a> vector. See also <a class="el" href="classPhQ_1_1ScalarForce.html" title="Scalar force component or magnitude of a force vector. See also PhQ::Force.">PhQ::ScalarForce</a>. </p>
+<p>Three-dimensional Euclidean force vector. Contains three components in Cartesian coordinates: x, y, and z. For a two-dimensional Euclidean force vector in the XY plane, see <a class="el" href="classPhQ_1_1PlanarForce.html" title="Two-dimensional Euclidean force vector in the XY plane. Contains two components in Cartesian coordina...">PhQ::PlanarForce</a>. For scalar force components or for the magnitude of a force vector, see <a class="el" href="classPhQ_1_1ScalarForce.html" title="Scalar force component or magnitude of a force vector. For a three-dimensional Euclidean force vector...">PhQ::ScalarForce</a>. </p>
 
-<p class="definition">Definition at line <a class="el" href="Force_8hpp_source.html#l00051">51</a> of file <a class="el" href="Force_8hpp_source.html">Force.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Force_8hpp_source.html#l00054">54</a> of file <a class="el" href="Force_8hpp_source.html">Force.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a51b190b42c4f5e71fb24b88658d65454"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a51b190b42c4f5e71fb24b88658d65454">&#9670;&nbsp;</a></span>Force() <span class="overload">[1/9]</span></h2>
@@ -345,7 +345,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Constructor. Constructs a force vector with a given value expressed in a given force unit. </p>
 
-<p class="definition">Definition at line <a class="el" href="Force_8hpp_source.html#l00058">58</a> of file <a class="el" href="Force_8hpp_source.html">Force.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Force_8hpp_source.html#l00061">61</a> of file <a class="el" href="Force_8hpp_source.html">Force.hpp</a>.</p>
 
 </div>
 </div>
@@ -387,7 +387,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Constructor. Constructs a force vector from a given scalar force magnitude and direction. </p>
 
-<p class="definition">Definition at line <a class="el" href="Force_8hpp_source.html#l00063">63</a> of file <a class="el" href="Force_8hpp_source.html">Force.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Force_8hpp_source.html#l00066">66</a> of file <a class="el" href="Force_8hpp_source.html">Force.hpp</a>.</p>
 
 </div>
 </div>
@@ -419,7 +419,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Constructor. Constructs a force vector from a given planar force vector in the XY plane. This force vector's z-component is initialized to zero. </p>
 
-<p class="definition">Definition at line <a class="el" href="Force_8hpp_source.html#l00068">68</a> of file <a class="el" href="Force_8hpp_source.html">Force.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Force_8hpp_source.html#l00071">71</a> of file <a class="el" href="Force_8hpp_source.html">Force.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00060">PhQ::DimensionalPlanarVector&lt; UnitType, Number &gt;::Value()</a>.</p>
 
@@ -554,7 +554,7 @@ template&lt;typename OtherNumber &gt; </div>
 
 <p>Copy constructor. Constructs a force vector by copying another one. </p>
 
-<p class="definition">Definition at line <a class="el" href="Force_8hpp_source.html#l00083">83</a> of file <a class="el" href="Force_8hpp_source.html">Force.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Force_8hpp_source.html#l00086">86</a> of file <a class="el" href="Force_8hpp_source.html">Force.hpp</a>.</p>
 
 </div>
 </div>
@@ -616,7 +616,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Constructor. Constructs a force vector with a given value expressed in the standard force unit. </p>
 
-<p class="definition">Definition at line <a class="el" href="Force_8hpp_source.html#l00196">196</a> of file <a class="el" href="Force_8hpp_source.html">Force.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Force_8hpp_source.html#l00199">199</a> of file <a class="el" href="Force_8hpp_source.html">Force.hpp</a>.</p>
 
 </div>
 </div>
@@ -649,7 +649,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the angle between this force vector and another one. </p>
 
-<p class="definition">Definition at line <a class="el" href="Force_8hpp_source.html#l00155">155</a> of file <a class="el" href="Force_8hpp_source.html">Force.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Force_8hpp_source.html#l00158">158</a> of file <a class="el" href="Force_8hpp_source.html">Force.hpp</a>.</p>
 
 </div>
 </div>
@@ -699,9 +699,9 @@ template&lt;Unit::Force Unit&gt; </div>
 
 <p>Statically creates a force vector from the given x, y, and z Cartesian components expressed in a given force unit. </p>
 
-<p class="definition">Definition at line <a class="el" href="Force_8hpp_source.html#l00110">110</a> of file <a class="el" href="Force_8hpp_source.html">Force.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Force_8hpp_source.html#l00113">113</a> of file <a class="el" href="Force_8hpp_source.html">Force.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Force_8hpp_source.html#l00130">PhQ::Force&lt; Number &gt;::x()</a>, <a class="el" href="Force_8hpp_source.html#l00135">PhQ::Force&lt; Number &gt;::y()</a>, and <a class="el" href="Force_8hpp_source.html#l00140">PhQ::Force&lt; Number &gt;::z()</a>.</p>
+<p class="reference">References <a class="el" href="Force_8hpp_source.html#l00133">PhQ::Force&lt; Number &gt;::x()</a>, <a class="el" href="Force_8hpp_source.html#l00138">PhQ::Force&lt; Number &gt;::y()</a>, and <a class="el" href="Force_8hpp_source.html#l00143">PhQ::Force&lt; Number &gt;::z()</a>.</p>
 
 </div>
 </div>
@@ -735,7 +735,7 @@ template&lt;Unit::Force Unit&gt; </div>
 
 <p>Statically creates a force vector from the given x, y, and z Cartesian components expressed in a given force unit. </p>
 
-<p class="definition">Definition at line <a class="el" href="Force_8hpp_source.html#l00118">118</a> of file <a class="el" href="Force_8hpp_source.html">Force.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Force_8hpp_source.html#l00121">121</a> of file <a class="el" href="Force_8hpp_source.html">Force.hpp</a>.</p>
 
 </div>
 </div>
@@ -769,7 +769,7 @@ template&lt;Unit::Force Unit&gt; </div>
 
 <p>Statically creates a force vector with a given value expressed in a given force unit. </p>
 
-<p class="definition">Definition at line <a class="el" href="Force_8hpp_source.html#l00125">125</a> of file <a class="el" href="Force_8hpp_source.html">Force.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Force_8hpp_source.html#l00128">128</a> of file <a class="el" href="Force_8hpp_source.html">Force.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Force, double &gt;::value</a>.</p>
 
@@ -831,9 +831,9 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the direction of this force vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="Force_8hpp_source.html#l00150">150</a> of file <a class="el" href="Force_8hpp_source.html">Force.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Force_8hpp_source.html#l00153">153</a> of file <a class="el" href="Force_8hpp_source.html">Force.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Direction_8hpp_source.html#l00379">PhQ::Vector&lt; Number &gt;::Direction()</a>, and <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Force, double &gt;::value</a>.</p>
+<p class="reference">References <a class="el" href="Direction_8hpp_source.html#l00374">PhQ::Vector&lt; Number &gt;::Direction()</a>, and <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Force, double &gt;::value</a>.</p>
 
 </div>
 </div>
@@ -923,9 +923,9 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the magnitude of this force vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="Force_8hpp_source.html#l00145">145</a> of file <a class="el" href="Force_8hpp_source.html">Force.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Force_8hpp_source.html#l00148">148</a> of file <a class="el" href="Force_8hpp_source.html">Force.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00206">PhQ::Vector&lt; Number &gt;::Magnitude()</a>, and <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Force, double &gt;::value</a>.</p>
+<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00208">PhQ::Vector&lt; Number &gt;::Magnitude()</a>, and <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Force, double &gt;::value</a>.</p>
 
 </div>
 </div>
@@ -984,7 +984,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Force_8hpp_source.html#l00167">167</a> of file <a class="el" href="Force_8hpp_source.html">Force.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Force_8hpp_source.html#l00170">170</a> of file <a class="el" href="Force_8hpp_source.html">Force.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Force, double &gt;::value</a>.</p>
 
@@ -1016,7 +1016,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Force_8hpp_source.html#l00185">185</a> of file <a class="el" href="Force_8hpp_source.html">Force.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Force_8hpp_source.html#l00188">188</a> of file <a class="el" href="Force_8hpp_source.html">Force.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Force, double &gt;::value</a>.</p>
 
@@ -1048,7 +1048,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Force_8hpp_source.html#l00159">159</a> of file <a class="el" href="Force_8hpp_source.html">Force.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Force_8hpp_source.html#l00162">162</a> of file <a class="el" href="Force_8hpp_source.html">Force.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; UnitType, Number &gt;::value</a>, and <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Force, double &gt;::value</a>.</p>
 
@@ -1080,7 +1080,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Force_8hpp_source.html#l00177">177</a> of file <a class="el" href="Force_8hpp_source.html">Force.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Force_8hpp_source.html#l00180">180</a> of file <a class="el" href="Force_8hpp_source.html">Force.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Force, double &gt;::value</a>.</p>
 
@@ -1112,7 +1112,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Force_8hpp_source.html#l00163">163</a> of file <a class="el" href="Force_8hpp_source.html">Force.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Force_8hpp_source.html#l00166">166</a> of file <a class="el" href="Force_8hpp_source.html">Force.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; UnitType, Number &gt;::value</a>, and <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Force, double &gt;::value</a>.</p>
 
@@ -1144,7 +1144,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Force_8hpp_source.html#l00181">181</a> of file <a class="el" href="Force_8hpp_source.html">Force.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Force_8hpp_source.html#l00184">184</a> of file <a class="el" href="Force_8hpp_source.html">Force.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Force, double &gt;::value</a>.</p>
 
@@ -1204,7 +1204,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Force_8hpp_source.html#l00171">171</a> of file <a class="el" href="Force_8hpp_source.html">Force.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Force_8hpp_source.html#l00174">174</a> of file <a class="el" href="Force_8hpp_source.html">Force.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Force, double &gt;::value</a>.</p>
 
@@ -1236,7 +1236,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Force_8hpp_source.html#l00189">189</a> of file <a class="el" href="Force_8hpp_source.html">Force.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Force_8hpp_source.html#l00192">192</a> of file <a class="el" href="Force_8hpp_source.html">Force.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Force, double &gt;::value</a>.</p>
 
@@ -1302,7 +1302,7 @@ template&lt;typename OtherNumber &gt; </div>
 
 <p>Copy assignment operator. Assigns this force vector by copying another one. </p>
 
-<p class="definition">Definition at line <a class="el" href="Force_8hpp_source.html#l00094">94</a> of file <a class="el" href="Force_8hpp_source.html">Force.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Force_8hpp_source.html#l00097">97</a> of file <a class="el" href="Force_8hpp_source.html">Force.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00060">PhQ::DimensionalVector&lt; UnitType, Number &gt;::Value()</a>, and <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Force, double &gt;::value</a>.</p>
 
@@ -1571,11 +1571,11 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the x Cartesian component of this force vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="Force_8hpp_source.html#l00130">130</a> of file <a class="el" href="Force_8hpp_source.html">Force.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Force_8hpp_source.html#l00133">133</a> of file <a class="el" href="Force_8hpp_source.html">Force.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Force, double &gt;::value</a>, and <a class="el" href="Vector_8hpp_source.html#l00136">PhQ::Vector&lt; Number &gt;::x()</a>.</p>
+<p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Force, double &gt;::value</a>, and <a class="el" href="Vector_8hpp_source.html#l00138">PhQ::Vector&lt; Number &gt;::x()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="Force_8hpp_source.html#l00110">PhQ::Force&lt; Number &gt;::Create()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="Force_8hpp_source.html#l00113">PhQ::Force&lt; Number &gt;::Create()</a>.</p>
 
 </div>
 </div>
@@ -1665,11 +1665,11 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the y Cartesian component of this force vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="Force_8hpp_source.html#l00135">135</a> of file <a class="el" href="Force_8hpp_source.html">Force.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Force_8hpp_source.html#l00138">138</a> of file <a class="el" href="Force_8hpp_source.html">Force.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Force, double &gt;::value</a>, and <a class="el" href="Vector_8hpp_source.html#l00141">PhQ::Vector&lt; Number &gt;::y()</a>.</p>
+<p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Force, double &gt;::value</a>, and <a class="el" href="Vector_8hpp_source.html#l00143">PhQ::Vector&lt; Number &gt;::y()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="Force_8hpp_source.html#l00110">PhQ::Force&lt; Number &gt;::Create()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="Force_8hpp_source.html#l00113">PhQ::Force&lt; Number &gt;::Create()</a>.</p>
 
 </div>
 </div>
@@ -1759,11 +1759,11 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the z Cartesian component of this force vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="Force_8hpp_source.html#l00140">140</a> of file <a class="el" href="Force_8hpp_source.html">Force.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Force_8hpp_source.html#l00143">143</a> of file <a class="el" href="Force_8hpp_source.html">Force.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Force, double &gt;::value</a>, and <a class="el" href="Vector_8hpp_source.html#l00146">PhQ::Vector&lt; Number &gt;::z()</a>.</p>
+<p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Force, double &gt;::value</a>, and <a class="el" href="Vector_8hpp_source.html#l00148">PhQ::Vector&lt; Number &gt;::z()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="Force_8hpp_source.html#l00110">PhQ::Force&lt; Number &gt;::Create()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="Force_8hpp_source.html#l00113">PhQ::Force&lt; Number &gt;::Create()</a>.</p>
 
 </div>
 </div>
@@ -1794,9 +1794,9 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Statically creates a force vector of zero. </p>
 
-<p class="definition">Definition at line <a class="el" href="Force_8hpp_source.html#l00103">103</a> of file <a class="el" href="Force_8hpp_source.html">Force.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Force_8hpp_source.html#l00106">106</a> of file <a class="el" href="Force_8hpp_source.html">Force.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00123">PhQ::Vector&lt; Number &gt;::Zero()</a>.</p>
+<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00125">PhQ::Vector&lt; Number &gt;::Zero()</a>.</p>
 
 </div>
 </div>

@@ -112,7 +112,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search','.html');
 </div><!--header-->
 <div class="contents">
 
-<p>Three-dimensional dyadic tensor in Cartesian coordinates. May be non-symmetric. Contains nine components: xx, xy, xz, yx, yy, yz, zx, zy, and zz.  
+<p>Three-dimensional Euclidean dyadic tensor. Contains nine components in Cartesian coordinates: xx, xy, xz, yx, yy, yz, zx, zy, and zz. May be symmetric or asymmetric. For a symmetric three-dimensional Euclidean dyadic tensor, see <a class="el" href="classPhQ_1_1SymmetricDyad.html" title="Symmetric three-dimensional Euclidean dyadic tensor. Contains six components in Cartesian coordinates...">PhQ::SymmetricDyad</a>. For a three-dimensional Euclidean vector, see <a class="el" href="classPhQ_1_1Vector.html" title="Three-dimensional Euclidean vector. Contains three components in Cartesian coordinates: x,...">PhQ::Vector</a>. For a two-dimensional Euclidean vector in the XY plane, see <a class="el" href="classPhQ_1_1PlanarVector.html" title="Two-dimensional Euclidean vector in the XY plane. Contains two components in Cartesian coordinates: x...">PhQ::PlanarVector</a>.  
  <a href="classPhQ_1_1Dyad.html#details">More...</a></p>
 
 <p><code>#include &quot;<a class="el" href="Dyad_8hpp_source.html">Dyad.hpp</a>&quot;</code></p>
@@ -313,9 +313,9 @@ Private Attributes</h2></td></tr>
 <div class="textblock"><h3>template&lt;typename Number = double&gt;<br />
 class PhQ::Dyad&lt; Number &gt;</h3>
 
-<p>Three-dimensional dyadic tensor in Cartesian coordinates. May be non-symmetric. Contains nine components: xx, xy, xz, yx, yy, yz, zx, zy, and zz. </p>
+<p>Three-dimensional Euclidean dyadic tensor. Contains nine components in Cartesian coordinates: xx, xy, xz, yx, yy, yz, zx, zy, and zz. May be symmetric or asymmetric. For a symmetric three-dimensional Euclidean dyadic tensor, see <a class="el" href="classPhQ_1_1SymmetricDyad.html" title="Symmetric three-dimensional Euclidean dyadic tensor. Contains six components in Cartesian coordinates...">PhQ::SymmetricDyad</a>. For a three-dimensional Euclidean vector, see <a class="el" href="classPhQ_1_1Vector.html" title="Three-dimensional Euclidean vector. Contains three components in Cartesian coordinates: x,...">PhQ::Vector</a>. For a two-dimensional Euclidean vector in the XY plane, see <a class="el" href="classPhQ_1_1PlanarVector.html" title="Two-dimensional Euclidean vector in the XY plane. Contains two components in Cartesian coordinates: x...">PhQ::PlanarVector</a>. </p>
 
-<p class="definition">Definition at line <a class="el" href="Dyad_8hpp_source.html#l00048">48</a> of file <a class="el" href="Dyad_8hpp_source.html">Dyad.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Dyad_8hpp_source.html#l00051">51</a> of file <a class="el" href="Dyad_8hpp_source.html">Dyad.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ac7ac4e78b784b617567edf4057150c57"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac7ac4e78b784b617567edf4057150c57">&#9670;&nbsp;</a></span>Dyad() <span class="overload">[1/7]</span></h2>
@@ -426,9 +426,9 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Constructor. Constructs a three-dimensional dyadic tensor from the given xx, xy, xz, yx, yy, yz, zx, zy, and zz Cartesian components. </p>
 
-<p class="definition">Definition at line <a class="el" href="Dyad_8hpp_source.html#l00060">60</a> of file <a class="el" href="Dyad_8hpp_source.html">Dyad.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Dyad_8hpp_source.html#l00063">63</a> of file <a class="el" href="Dyad_8hpp_source.html">Dyad.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Dyad_8hpp_source.html#l00161">PhQ::Dyad&lt; Number &gt;::xx()</a>, <a class="el" href="Dyad_8hpp_source.html#l00166">PhQ::Dyad&lt; Number &gt;::xy()</a>, <a class="el" href="Dyad_8hpp_source.html#l00171">PhQ::Dyad&lt; Number &gt;::xz()</a>, <a class="el" href="Dyad_8hpp_source.html#l00176">PhQ::Dyad&lt; Number &gt;::yx()</a>, <a class="el" href="Dyad_8hpp_source.html#l00181">PhQ::Dyad&lt; Number &gt;::yy()</a>, <a class="el" href="Dyad_8hpp_source.html#l00186">PhQ::Dyad&lt; Number &gt;::yz()</a>, <a class="el" href="Dyad_8hpp_source.html#l00191">PhQ::Dyad&lt; Number &gt;::zx()</a>, <a class="el" href="Dyad_8hpp_source.html#l00196">PhQ::Dyad&lt; Number &gt;::zy()</a>, and <a class="el" href="Dyad_8hpp_source.html#l00201">PhQ::Dyad&lt; Number &gt;::zz()</a>.</p>
+<p class="reference">References <a class="el" href="Dyad_8hpp_source.html#l00164">PhQ::Dyad&lt; Number &gt;::xx()</a>, <a class="el" href="Dyad_8hpp_source.html#l00169">PhQ::Dyad&lt; Number &gt;::xy()</a>, <a class="el" href="Dyad_8hpp_source.html#l00174">PhQ::Dyad&lt; Number &gt;::xz()</a>, <a class="el" href="Dyad_8hpp_source.html#l00179">PhQ::Dyad&lt; Number &gt;::yx()</a>, <a class="el" href="Dyad_8hpp_source.html#l00184">PhQ::Dyad&lt; Number &gt;::yy()</a>, <a class="el" href="Dyad_8hpp_source.html#l00189">PhQ::Dyad&lt; Number &gt;::yz()</a>, <a class="el" href="Dyad_8hpp_source.html#l00194">PhQ::Dyad&lt; Number &gt;::zx()</a>, <a class="el" href="Dyad_8hpp_source.html#l00199">PhQ::Dyad&lt; Number &gt;::zy()</a>, and <a class="el" href="Dyad_8hpp_source.html#l00204">PhQ::Dyad&lt; Number &gt;::zz()</a>.</p>
 
 </div>
 </div>
@@ -460,7 +460,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Constructor. Constructs a three-dimensional dyadic tensor from a given array representing its xx, xy, xz, yx, yy, yz, zx, zy, and zz Cartesian components. </p>
 
-<p class="definition">Definition at line <a class="el" href="Dyad_8hpp_source.html#l00067">67</a> of file <a class="el" href="Dyad_8hpp_source.html">Dyad.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Dyad_8hpp_source.html#l00070">70</a> of file <a class="el" href="Dyad_8hpp_source.html">Dyad.hpp</a>.</p>
 
 </div>
 </div>
@@ -492,9 +492,9 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Constructor. Constructs a three-dimensional dyadic tensor from a given three-dimensional symmetric dyadic tensor. </p>
 
-<p class="definition">Definition at line <a class="el" href="Dyad_8hpp_source.html#l00072">72</a> of file <a class="el" href="Dyad_8hpp_source.html">Dyad.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Dyad_8hpp_source.html#l00075">75</a> of file <a class="el" href="Dyad_8hpp_source.html">Dyad.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="SymmetricDyad_8hpp_source.html#l00132">PhQ::SymmetricDyad&lt; Number &gt;::xx()</a>, <a class="el" href="SymmetricDyad_8hpp_source.html#l00137">PhQ::SymmetricDyad&lt; Number &gt;::xy()</a>, <a class="el" href="SymmetricDyad_8hpp_source.html#l00142">PhQ::SymmetricDyad&lt; Number &gt;::xz()</a>, <a class="el" href="SymmetricDyad_8hpp_source.html#l00147">PhQ::SymmetricDyad&lt; Number &gt;::yx()</a>, <a class="el" href="SymmetricDyad_8hpp_source.html#l00152">PhQ::SymmetricDyad&lt; Number &gt;::yy()</a>, <a class="el" href="SymmetricDyad_8hpp_source.html#l00157">PhQ::SymmetricDyad&lt; Number &gt;::yz()</a>, <a class="el" href="SymmetricDyad_8hpp_source.html#l00162">PhQ::SymmetricDyad&lt; Number &gt;::zx()</a>, <a class="el" href="SymmetricDyad_8hpp_source.html#l00167">PhQ::SymmetricDyad&lt; Number &gt;::zy()</a>, and <a class="el" href="SymmetricDyad_8hpp_source.html#l00172">PhQ::SymmetricDyad&lt; Number &gt;::zz()</a>.</p>
+<p class="reference">References <a class="el" href="SymmetricDyad_8hpp_source.html#l00135">PhQ::SymmetricDyad&lt; Number &gt;::xx()</a>, <a class="el" href="SymmetricDyad_8hpp_source.html#l00140">PhQ::SymmetricDyad&lt; Number &gt;::xy()</a>, <a class="el" href="SymmetricDyad_8hpp_source.html#l00145">PhQ::SymmetricDyad&lt; Number &gt;::xz()</a>, <a class="el" href="SymmetricDyad_8hpp_source.html#l00150">PhQ::SymmetricDyad&lt; Number &gt;::yx()</a>, <a class="el" href="SymmetricDyad_8hpp_source.html#l00155">PhQ::SymmetricDyad&lt; Number &gt;::yy()</a>, <a class="el" href="SymmetricDyad_8hpp_source.html#l00160">PhQ::SymmetricDyad&lt; Number &gt;::yz()</a>, <a class="el" href="SymmetricDyad_8hpp_source.html#l00165">PhQ::SymmetricDyad&lt; Number &gt;::zx()</a>, <a class="el" href="SymmetricDyad_8hpp_source.html#l00170">PhQ::SymmetricDyad&lt; Number &gt;::zy()</a>, and <a class="el" href="SymmetricDyad_8hpp_source.html#l00175">PhQ::SymmetricDyad&lt; Number &gt;::zz()</a>.</p>
 
 </div>
 </div>
@@ -587,7 +587,7 @@ template&lt;typename OtherNumber &gt; </div>
 
 <p>Copy constructor. Constructs a three-dimensional dyadic tensor by copying another one. </p>
 
-<p class="definition">Definition at line <a class="el" href="Dyad_8hpp_source.html#l00086">86</a> of file <a class="el" href="Dyad_8hpp_source.html">Dyad.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Dyad_8hpp_source.html#l00089">89</a> of file <a class="el" href="Dyad_8hpp_source.html">Dyad.hpp</a>.</p>
 
 </div>
 </div>
@@ -649,9 +649,9 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the adjugate of this three-dimensional dyadic tensor. </p>
 
-<p class="definition">Definition at line <a class="el" href="Dyad_8hpp_source.html#l00370">370</a> of file <a class="el" href="Dyad_8hpp_source.html">Dyad.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Dyad_8hpp_source.html#l00373">373</a> of file <a class="el" href="Dyad_8hpp_source.html">Dyad.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Dyad_8hpp_source.html#l00355">PhQ::Dyad&lt; Number &gt;::Cofactors()</a>.</p>
+<p class="reference">References <a class="el" href="Dyad_8hpp_source.html#l00358">PhQ::Dyad&lt; Number &gt;::Cofactors()</a>.</p>
 
 </div>
 </div>
@@ -682,11 +682,11 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the cofactors of this three-dimensional dyadic tensor. </p>
 
-<p class="definition">Definition at line <a class="el" href="Dyad_8hpp_source.html#l00355">355</a> of file <a class="el" href="Dyad_8hpp_source.html">Dyad.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Dyad_8hpp_source.html#l00358">358</a> of file <a class="el" href="Dyad_8hpp_source.html">Dyad.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Dyad_8hpp_source.html#l00161">PhQ::Dyad&lt; Number &gt;::xx()</a>, <a class="el" href="Dyad_8hpp_source.html#l00166">PhQ::Dyad&lt; Number &gt;::xy()</a>, <a class="el" href="Dyad_8hpp_source.html#l00171">PhQ::Dyad&lt; Number &gt;::xz()</a>, <a class="el" href="Dyad_8hpp_source.html#l00176">PhQ::Dyad&lt; Number &gt;::yx()</a>, <a class="el" href="Dyad_8hpp_source.html#l00181">PhQ::Dyad&lt; Number &gt;::yy()</a>, <a class="el" href="Dyad_8hpp_source.html#l00186">PhQ::Dyad&lt; Number &gt;::yz()</a>, <a class="el" href="Dyad_8hpp_source.html#l00191">PhQ::Dyad&lt; Number &gt;::zx()</a>, <a class="el" href="Dyad_8hpp_source.html#l00196">PhQ::Dyad&lt; Number &gt;::zy()</a>, and <a class="el" href="Dyad_8hpp_source.html#l00201">PhQ::Dyad&lt; Number &gt;::zz()</a>.</p>
+<p class="reference">References <a class="el" href="Dyad_8hpp_source.html#l00164">PhQ::Dyad&lt; Number &gt;::xx()</a>, <a class="el" href="Dyad_8hpp_source.html#l00169">PhQ::Dyad&lt; Number &gt;::xy()</a>, <a class="el" href="Dyad_8hpp_source.html#l00174">PhQ::Dyad&lt; Number &gt;::xz()</a>, <a class="el" href="Dyad_8hpp_source.html#l00179">PhQ::Dyad&lt; Number &gt;::yx()</a>, <a class="el" href="Dyad_8hpp_source.html#l00184">PhQ::Dyad&lt; Number &gt;::yy()</a>, <a class="el" href="Dyad_8hpp_source.html#l00189">PhQ::Dyad&lt; Number &gt;::yz()</a>, <a class="el" href="Dyad_8hpp_source.html#l00194">PhQ::Dyad&lt; Number &gt;::zx()</a>, <a class="el" href="Dyad_8hpp_source.html#l00199">PhQ::Dyad&lt; Number &gt;::zy()</a>, and <a class="el" href="Dyad_8hpp_source.html#l00204">PhQ::Dyad&lt; Number &gt;::zz()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="Dyad_8hpp_source.html#l00370">PhQ::Dyad&lt; Number &gt;::Adjugate()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="Dyad_8hpp_source.html#l00373">PhQ::Dyad&lt; Number &gt;::Adjugate()</a>.</p>
 
 </div>
 </div>
@@ -717,9 +717,9 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the determinant of this three-dimensional dyadic tensor. </p>
 
-<p class="definition">Definition at line <a class="el" href="Dyad_8hpp_source.html#l00344">344</a> of file <a class="el" href="Dyad_8hpp_source.html">Dyad.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Dyad_8hpp_source.html#l00347">347</a> of file <a class="el" href="Dyad_8hpp_source.html">Dyad.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Dyad_8hpp_source.html#l00161">PhQ::Dyad&lt; Number &gt;::xx()</a>, <a class="el" href="Dyad_8hpp_source.html#l00166">PhQ::Dyad&lt; Number &gt;::xy()</a>, <a class="el" href="Dyad_8hpp_source.html#l00171">PhQ::Dyad&lt; Number &gt;::xz()</a>, <a class="el" href="Dyad_8hpp_source.html#l00176">PhQ::Dyad&lt; Number &gt;::yx()</a>, <a class="el" href="Dyad_8hpp_source.html#l00181">PhQ::Dyad&lt; Number &gt;::yy()</a>, <a class="el" href="Dyad_8hpp_source.html#l00186">PhQ::Dyad&lt; Number &gt;::yz()</a>, <a class="el" href="Dyad_8hpp_source.html#l00191">PhQ::Dyad&lt; Number &gt;::zx()</a>, <a class="el" href="Dyad_8hpp_source.html#l00196">PhQ::Dyad&lt; Number &gt;::zy()</a>, and <a class="el" href="Dyad_8hpp_source.html#l00201">PhQ::Dyad&lt; Number &gt;::zz()</a>.</p>
+<p class="reference">References <a class="el" href="Dyad_8hpp_source.html#l00164">PhQ::Dyad&lt; Number &gt;::xx()</a>, <a class="el" href="Dyad_8hpp_source.html#l00169">PhQ::Dyad&lt; Number &gt;::xy()</a>, <a class="el" href="Dyad_8hpp_source.html#l00174">PhQ::Dyad&lt; Number &gt;::xz()</a>, <a class="el" href="Dyad_8hpp_source.html#l00179">PhQ::Dyad&lt; Number &gt;::yx()</a>, <a class="el" href="Dyad_8hpp_source.html#l00184">PhQ::Dyad&lt; Number &gt;::yy()</a>, <a class="el" href="Dyad_8hpp_source.html#l00189">PhQ::Dyad&lt; Number &gt;::yz()</a>, <a class="el" href="Dyad_8hpp_source.html#l00194">PhQ::Dyad&lt; Number &gt;::zx()</a>, <a class="el" href="Dyad_8hpp_source.html#l00199">PhQ::Dyad&lt; Number &gt;::zy()</a>, and <a class="el" href="Dyad_8hpp_source.html#l00204">PhQ::Dyad&lt; Number &gt;::zz()</a>.</p>
 
 </div>
 </div>
@@ -747,7 +747,7 @@ template&lt;typename Number &gt; </div>
 
 <p>Returns the inverse of this three-dimensional dyadic tensor if it exists, or std::nullopt otherwise. </p>
 
-<p class="definition">Definition at line <a class="el" href="Dyad_8hpp_source.html#l00684">684</a> of file <a class="el" href="Dyad_8hpp_source.html">Dyad.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Dyad_8hpp_source.html#l00687">687</a> of file <a class="el" href="Dyad_8hpp_source.html">Dyad.hpp</a>.</p>
 
 </div>
 </div>
@@ -778,9 +778,9 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns whether this three-dimensional dyadic tensor is symmetric. </p>
 
-<p class="definition">Definition at line <a class="el" href="Dyad_8hpp_source.html#l00334">334</a> of file <a class="el" href="Dyad_8hpp_source.html">Dyad.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Dyad_8hpp_source.html#l00337">337</a> of file <a class="el" href="Dyad_8hpp_source.html">Dyad.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Dyad_8hpp_source.html#l00166">PhQ::Dyad&lt; Number &gt;::xy()</a>, <a class="el" href="Dyad_8hpp_source.html#l00171">PhQ::Dyad&lt; Number &gt;::xz()</a>, <a class="el" href="Dyad_8hpp_source.html#l00176">PhQ::Dyad&lt; Number &gt;::yx()</a>, <a class="el" href="Dyad_8hpp_source.html#l00186">PhQ::Dyad&lt; Number &gt;::yz()</a>, <a class="el" href="Dyad_8hpp_source.html#l00191">PhQ::Dyad&lt; Number &gt;::zx()</a>, and <a class="el" href="Dyad_8hpp_source.html#l00196">PhQ::Dyad&lt; Number &gt;::zy()</a>.</p>
+<p class="reference">References <a class="el" href="Dyad_8hpp_source.html#l00169">PhQ::Dyad&lt; Number &gt;::xy()</a>, <a class="el" href="Dyad_8hpp_source.html#l00174">PhQ::Dyad&lt; Number &gt;::xz()</a>, <a class="el" href="Dyad_8hpp_source.html#l00179">PhQ::Dyad&lt; Number &gt;::yx()</a>, <a class="el" href="Dyad_8hpp_source.html#l00189">PhQ::Dyad&lt; Number &gt;::yz()</a>, <a class="el" href="Dyad_8hpp_source.html#l00194">PhQ::Dyad&lt; Number &gt;::zx()</a>, and <a class="el" href="Dyad_8hpp_source.html#l00199">PhQ::Dyad&lt; Number &gt;::zy()</a>.</p>
 
 </div>
 </div>
@@ -811,9 +811,9 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Serializes this three-dimensional dyadic tensor as a JSON message. </p>
 
-<p class="definition">Definition at line <a class="el" href="Dyad_8hpp_source.html#l00386">386</a> of file <a class="el" href="Dyad_8hpp_source.html">Dyad.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Dyad_8hpp_source.html#l00389">389</a> of file <a class="el" href="Dyad_8hpp_source.html">Dyad.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Base_8hpp_source.html#l00170">PhQ::Print()</a>, <a class="el" href="Dyad_8hpp_source.html#l00161">PhQ::Dyad&lt; Number &gt;::xx()</a>, <a class="el" href="Dyad_8hpp_source.html#l00166">PhQ::Dyad&lt; Number &gt;::xy()</a>, <a class="el" href="Dyad_8hpp_source.html#l00171">PhQ::Dyad&lt; Number &gt;::xz()</a>, <a class="el" href="Dyad_8hpp_source.html#l00176">PhQ::Dyad&lt; Number &gt;::yx()</a>, <a class="el" href="Dyad_8hpp_source.html#l00181">PhQ::Dyad&lt; Number &gt;::yy()</a>, <a class="el" href="Dyad_8hpp_source.html#l00186">PhQ::Dyad&lt; Number &gt;::yz()</a>, <a class="el" href="Dyad_8hpp_source.html#l00191">PhQ::Dyad&lt; Number &gt;::zx()</a>, <a class="el" href="Dyad_8hpp_source.html#l00196">PhQ::Dyad&lt; Number &gt;::zy()</a>, and <a class="el" href="Dyad_8hpp_source.html#l00201">PhQ::Dyad&lt; Number &gt;::zz()</a>.</p>
+<p class="reference">References <a class="el" href="Base_8hpp_source.html#l00170">PhQ::Print()</a>, <a class="el" href="Dyad_8hpp_source.html#l00164">PhQ::Dyad&lt; Number &gt;::xx()</a>, <a class="el" href="Dyad_8hpp_source.html#l00169">PhQ::Dyad&lt; Number &gt;::xy()</a>, <a class="el" href="Dyad_8hpp_source.html#l00174">PhQ::Dyad&lt; Number &gt;::xz()</a>, <a class="el" href="Dyad_8hpp_source.html#l00179">PhQ::Dyad&lt; Number &gt;::yx()</a>, <a class="el" href="Dyad_8hpp_source.html#l00184">PhQ::Dyad&lt; Number &gt;::yy()</a>, <a class="el" href="Dyad_8hpp_source.html#l00189">PhQ::Dyad&lt; Number &gt;::yz()</a>, <a class="el" href="Dyad_8hpp_source.html#l00194">PhQ::Dyad&lt; Number &gt;::zx()</a>, <a class="el" href="Dyad_8hpp_source.html#l00199">PhQ::Dyad&lt; Number &gt;::zy()</a>, and <a class="el" href="Dyad_8hpp_source.html#l00204">PhQ::Dyad&lt; Number &gt;::zz()</a>.</p>
 
 </div>
 </div>
@@ -844,9 +844,9 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns this three-dimensional dyadic tensor's xx Cartesian component as a mutable value. </p>
 
-<p class="definition">Definition at line <a class="el" href="Dyad_8hpp_source.html#l00213">213</a> of file <a class="el" href="Dyad_8hpp_source.html">Dyad.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Dyad_8hpp_source.html#l00216">216</a> of file <a class="el" href="Dyad_8hpp_source.html">Dyad.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Dyad_8hpp_source.html#l00461">PhQ::Dyad&lt; Number &gt;::xx_xy_xz_yx_yy_yz_zx_zy_zz_</a>.</p>
+<p class="reference">References <a class="el" href="Dyad_8hpp_source.html#l00464">PhQ::Dyad&lt; Number &gt;::xx_xy_xz_yx_yy_yz_zx_zy_zz_</a>.</p>
 
 </div>
 </div>
@@ -877,9 +877,9 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns this three-dimensional symmetric dyadic tensor's xx, xy, xz, yx, yy, yz, zx, zy, and zz Cartesian components as a mutable array. </p>
 
-<p class="definition">Definition at line <a class="el" href="Dyad_8hpp_source.html#l00207">207</a> of file <a class="el" href="Dyad_8hpp_source.html">Dyad.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Dyad_8hpp_source.html#l00210">210</a> of file <a class="el" href="Dyad_8hpp_source.html">Dyad.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Dyad_8hpp_source.html#l00461">PhQ::Dyad&lt; Number &gt;::xx_xy_xz_yx_yy_yz_zx_zy_zz_</a>.</p>
+<p class="reference">References <a class="el" href="Dyad_8hpp_source.html#l00464">PhQ::Dyad&lt; Number &gt;::xx_xy_xz_yx_yy_yz_zx_zy_zz_</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="Unit_8hpp_source.html#l00197">PhQ::Convert()</a>.</p>
 
@@ -912,9 +912,9 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns this three-dimensional dyadic tensor's xy Cartesian component as a mutable value. </p>
 
-<p class="definition">Definition at line <a class="el" href="Dyad_8hpp_source.html#l00219">219</a> of file <a class="el" href="Dyad_8hpp_source.html">Dyad.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Dyad_8hpp_source.html#l00222">222</a> of file <a class="el" href="Dyad_8hpp_source.html">Dyad.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Dyad_8hpp_source.html#l00461">PhQ::Dyad&lt; Number &gt;::xx_xy_xz_yx_yy_yz_zx_zy_zz_</a>.</p>
+<p class="reference">References <a class="el" href="Dyad_8hpp_source.html#l00464">PhQ::Dyad&lt; Number &gt;::xx_xy_xz_yx_yy_yz_zx_zy_zz_</a>.</p>
 
 </div>
 </div>
@@ -945,9 +945,9 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns this three-dimensional dyadic tensor's xz Cartesian component as a mutable value. </p>
 
-<p class="definition">Definition at line <a class="el" href="Dyad_8hpp_source.html#l00225">225</a> of file <a class="el" href="Dyad_8hpp_source.html">Dyad.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Dyad_8hpp_source.html#l00228">228</a> of file <a class="el" href="Dyad_8hpp_source.html">Dyad.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Dyad_8hpp_source.html#l00461">PhQ::Dyad&lt; Number &gt;::xx_xy_xz_yx_yy_yz_zx_zy_zz_</a>.</p>
+<p class="reference">References <a class="el" href="Dyad_8hpp_source.html#l00464">PhQ::Dyad&lt; Number &gt;::xx_xy_xz_yx_yy_yz_zx_zy_zz_</a>.</p>
 
 </div>
 </div>
@@ -978,9 +978,9 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns this three-dimensional dyadic tensor's yx Cartesian component as a mutable value. </p>
 
-<p class="definition">Definition at line <a class="el" href="Dyad_8hpp_source.html#l00231">231</a> of file <a class="el" href="Dyad_8hpp_source.html">Dyad.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Dyad_8hpp_source.html#l00234">234</a> of file <a class="el" href="Dyad_8hpp_source.html">Dyad.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Dyad_8hpp_source.html#l00461">PhQ::Dyad&lt; Number &gt;::xx_xy_xz_yx_yy_yz_zx_zy_zz_</a>.</p>
+<p class="reference">References <a class="el" href="Dyad_8hpp_source.html#l00464">PhQ::Dyad&lt; Number &gt;::xx_xy_xz_yx_yy_yz_zx_zy_zz_</a>.</p>
 
 </div>
 </div>
@@ -1011,7 +1011,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns this three-dimensional dyadic tensor's yy Cartesian component as a mutable value. </p>
 
-<p class="definition">Definition at line <a class="el" href="Dyad_8hpp_source.html#l00237">237</a> of file <a class="el" href="Dyad_8hpp_source.html">Dyad.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Dyad_8hpp_source.html#l00240">240</a> of file <a class="el" href="Dyad_8hpp_source.html">Dyad.hpp</a>.</p>
 
 </div>
 </div>
@@ -1042,9 +1042,9 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns this three-dimensional dyadic tensor's yz Cartesian component as a mutable value. </p>
 
-<p class="definition">Definition at line <a class="el" href="Dyad_8hpp_source.html#l00243">243</a> of file <a class="el" href="Dyad_8hpp_source.html">Dyad.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Dyad_8hpp_source.html#l00246">246</a> of file <a class="el" href="Dyad_8hpp_source.html">Dyad.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Dyad_8hpp_source.html#l00461">PhQ::Dyad&lt; Number &gt;::xx_xy_xz_yx_yy_yz_zx_zy_zz_</a>.</p>
+<p class="reference">References <a class="el" href="Dyad_8hpp_source.html#l00464">PhQ::Dyad&lt; Number &gt;::xx_xy_xz_yx_yy_yz_zx_zy_zz_</a>.</p>
 
 </div>
 </div>
@@ -1075,9 +1075,9 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns this three-dimensional dyadic tensor's zx Cartesian component as a mutable value. </p>
 
-<p class="definition">Definition at line <a class="el" href="Dyad_8hpp_source.html#l00249">249</a> of file <a class="el" href="Dyad_8hpp_source.html">Dyad.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Dyad_8hpp_source.html#l00252">252</a> of file <a class="el" href="Dyad_8hpp_source.html">Dyad.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Dyad_8hpp_source.html#l00461">PhQ::Dyad&lt; Number &gt;::xx_xy_xz_yx_yy_yz_zx_zy_zz_</a>.</p>
+<p class="reference">References <a class="el" href="Dyad_8hpp_source.html#l00464">PhQ::Dyad&lt; Number &gt;::xx_xy_xz_yx_yy_yz_zx_zy_zz_</a>.</p>
 
 </div>
 </div>
@@ -1108,9 +1108,9 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns this three-dimensional dyadic tensor's zy Cartesian component as a mutable value. </p>
 
-<p class="definition">Definition at line <a class="el" href="Dyad_8hpp_source.html#l00255">255</a> of file <a class="el" href="Dyad_8hpp_source.html">Dyad.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Dyad_8hpp_source.html#l00258">258</a> of file <a class="el" href="Dyad_8hpp_source.html">Dyad.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Dyad_8hpp_source.html#l00461">PhQ::Dyad&lt; Number &gt;::xx_xy_xz_yx_yy_yz_zx_zy_zz_</a>.</p>
+<p class="reference">References <a class="el" href="Dyad_8hpp_source.html#l00464">PhQ::Dyad&lt; Number &gt;::xx_xy_xz_yx_yy_yz_zx_zy_zz_</a>.</p>
 
 </div>
 </div>
@@ -1141,9 +1141,9 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns this three-dimensional dyadic tensor's zz Cartesian component as a mutable value. </p>
 
-<p class="definition">Definition at line <a class="el" href="Dyad_8hpp_source.html#l00261">261</a> of file <a class="el" href="Dyad_8hpp_source.html">Dyad.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Dyad_8hpp_source.html#l00264">264</a> of file <a class="el" href="Dyad_8hpp_source.html">Dyad.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Dyad_8hpp_source.html#l00461">PhQ::Dyad&lt; Number &gt;::xx_xy_xz_yx_yy_yz_zx_zy_zz_</a>.</p>
+<p class="reference">References <a class="el" href="Dyad_8hpp_source.html#l00464">PhQ::Dyad&lt; Number &gt;::xx_xy_xz_yx_yy_yz_zx_zy_zz_</a>.</p>
 
 </div>
 </div>
@@ -1175,9 +1175,9 @@ template&lt;typename OtherNumber &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Dyad_8hpp_source.html#l00434">434</a> of file <a class="el" href="Dyad_8hpp_source.html">Dyad.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Dyad_8hpp_source.html#l00437">437</a> of file <a class="el" href="Dyad_8hpp_source.html">Dyad.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Dyad_8hpp_source.html#l00461">PhQ::Dyad&lt; Number &gt;::xx_xy_xz_yx_yy_yz_zx_zy_zz_</a>.</p>
+<p class="reference">References <a class="el" href="Dyad_8hpp_source.html#l00464">PhQ::Dyad&lt; Number &gt;::xx_xy_xz_yx_yy_yz_zx_zy_zz_</a>.</p>
 
 </div>
 </div>
@@ -1207,9 +1207,9 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Dyad_8hpp_source.html#l00409">409</a> of file <a class="el" href="Dyad_8hpp_source.html">Dyad.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Dyad_8hpp_source.html#l00412">412</a> of file <a class="el" href="Dyad_8hpp_source.html">Dyad.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Dyad_8hpp_source.html#l00461">PhQ::Dyad&lt; Number &gt;::xx_xy_xz_yx_yy_yz_zx_zy_zz_</a>.</p>
+<p class="reference">References <a class="el" href="Dyad_8hpp_source.html#l00464">PhQ::Dyad&lt; Number &gt;::xx_xy_xz_yx_yy_yz_zx_zy_zz_</a>.</p>
 
 </div>
 </div>
@@ -1239,9 +1239,9 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Dyad_8hpp_source.html#l00421">421</a> of file <a class="el" href="Dyad_8hpp_source.html">Dyad.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Dyad_8hpp_source.html#l00424">424</a> of file <a class="el" href="Dyad_8hpp_source.html">Dyad.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Dyad_8hpp_source.html#l00461">PhQ::Dyad&lt; Number &gt;::xx_xy_xz_yx_yy_yz_zx_zy_zz_</a>.</p>
+<p class="reference">References <a class="el" href="Dyad_8hpp_source.html#l00464">PhQ::Dyad&lt; Number &gt;::xx_xy_xz_yx_yy_yz_zx_zy_zz_</a>.</p>
 
 </div>
 </div>
@@ -1273,9 +1273,9 @@ template&lt;typename OtherNumber &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Dyad_8hpp_source.html#l00447">447</a> of file <a class="el" href="Dyad_8hpp_source.html">Dyad.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Dyad_8hpp_source.html#l00450">450</a> of file <a class="el" href="Dyad_8hpp_source.html">Dyad.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Dyad_8hpp_source.html#l00461">PhQ::Dyad&lt; Number &gt;::xx_xy_xz_yx_yy_yz_zx_zy_zz_</a>.</p>
+<p class="reference">References <a class="el" href="Dyad_8hpp_source.html#l00464">PhQ::Dyad&lt; Number &gt;::xx_xy_xz_yx_yy_yz_zx_zy_zz_</a>.</p>
 
 </div>
 </div>
@@ -1339,9 +1339,9 @@ template&lt;typename OtherNumber &gt; </div>
 
 <p>Copy assignment operator. Assigns this three-dimensional dyadic tensor by copying another one. </p>
 
-<p class="definition">Definition at line <a class="el" href="Dyad_8hpp_source.html#l00104">104</a> of file <a class="el" href="Dyad_8hpp_source.html">Dyad.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Dyad_8hpp_source.html#l00107">107</a> of file <a class="el" href="Dyad_8hpp_source.html">Dyad.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Dyad_8hpp_source.html#l00161">PhQ::Dyad&lt; Number &gt;::xx()</a>, <a class="el" href="Dyad_8hpp_source.html#l00461">PhQ::Dyad&lt; Number &gt;::xx_xy_xz_yx_yy_yz_zx_zy_zz_</a>, <a class="el" href="Dyad_8hpp_source.html#l00166">PhQ::Dyad&lt; Number &gt;::xy()</a>, <a class="el" href="Dyad_8hpp_source.html#l00171">PhQ::Dyad&lt; Number &gt;::xz()</a>, <a class="el" href="Dyad_8hpp_source.html#l00176">PhQ::Dyad&lt; Number &gt;::yx()</a>, <a class="el" href="Dyad_8hpp_source.html#l00181">PhQ::Dyad&lt; Number &gt;::yy()</a>, <a class="el" href="Dyad_8hpp_source.html#l00186">PhQ::Dyad&lt; Number &gt;::yz()</a>, <a class="el" href="Dyad_8hpp_source.html#l00191">PhQ::Dyad&lt; Number &gt;::zx()</a>, <a class="el" href="Dyad_8hpp_source.html#l00196">PhQ::Dyad&lt; Number &gt;::zy()</a>, and <a class="el" href="Dyad_8hpp_source.html#l00201">PhQ::Dyad&lt; Number &gt;::zz()</a>.</p>
+<p class="reference">References <a class="el" href="Dyad_8hpp_source.html#l00164">PhQ::Dyad&lt; Number &gt;::xx()</a>, <a class="el" href="Dyad_8hpp_source.html#l00464">PhQ::Dyad&lt; Number &gt;::xx_xy_xz_yx_yy_yz_zx_zy_zz_</a>, <a class="el" href="Dyad_8hpp_source.html#l00169">PhQ::Dyad&lt; Number &gt;::xy()</a>, <a class="el" href="Dyad_8hpp_source.html#l00174">PhQ::Dyad&lt; Number &gt;::xz()</a>, <a class="el" href="Dyad_8hpp_source.html#l00179">PhQ::Dyad&lt; Number &gt;::yx()</a>, <a class="el" href="Dyad_8hpp_source.html#l00184">PhQ::Dyad&lt; Number &gt;::yy()</a>, <a class="el" href="Dyad_8hpp_source.html#l00189">PhQ::Dyad&lt; Number &gt;::yz()</a>, <a class="el" href="Dyad_8hpp_source.html#l00194">PhQ::Dyad&lt; Number &gt;::zx()</a>, <a class="el" href="Dyad_8hpp_source.html#l00199">PhQ::Dyad&lt; Number &gt;::zy()</a>, and <a class="el" href="Dyad_8hpp_source.html#l00204">PhQ::Dyad&lt; Number &gt;::zz()</a>.</p>
 
 </div>
 </div>
@@ -1373,9 +1373,9 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Assignment operator. Assigns this three-dimensional dyadic tensor by copying a given array representing its xx, xy, xz, yx, yy, yz, zx, zy, and zz Cartesian components. </p>
 
-<p class="definition">Definition at line <a class="el" href="Dyad_8hpp_source.html#l00138">138</a> of file <a class="el" href="Dyad_8hpp_source.html">Dyad.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Dyad_8hpp_source.html#l00141">141</a> of file <a class="el" href="Dyad_8hpp_source.html">Dyad.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Dyad_8hpp_source.html#l00156">PhQ::Dyad&lt; Number &gt;::xx_xy_xz_yx_yy_yz_zx_zy_zz()</a>, and <a class="el" href="Dyad_8hpp_source.html#l00461">PhQ::Dyad&lt; Number &gt;::xx_xy_xz_yx_yy_yz_zx_zy_zz_</a>.</p>
+<p class="reference">References <a class="el" href="Dyad_8hpp_source.html#l00159">PhQ::Dyad&lt; Number &gt;::xx_xy_xz_yx_yy_yz_zx_zy_zz()</a>, and <a class="el" href="Dyad_8hpp_source.html#l00464">PhQ::Dyad&lt; Number &gt;::xx_xy_xz_yx_yy_yz_zx_zy_zz_</a>.</p>
 
 </div>
 </div>
@@ -1407,9 +1407,9 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Assignment operator. Assigns this three-dimensional dyadic tensor by copying a three-dimensional symmetric dyadic tensor. </p>
 
-<p class="definition">Definition at line <a class="el" href="Dyad_8hpp_source.html#l00123">123</a> of file <a class="el" href="Dyad_8hpp_source.html">Dyad.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Dyad_8hpp_source.html#l00126">126</a> of file <a class="el" href="Dyad_8hpp_source.html">Dyad.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="SymmetricDyad_8hpp_source.html#l00132">PhQ::SymmetricDyad&lt; Number &gt;::xx()</a>, <a class="el" href="Dyad_8hpp_source.html#l00461">PhQ::Dyad&lt; Number &gt;::xx_xy_xz_yx_yy_yz_zx_zy_zz_</a>, <a class="el" href="SymmetricDyad_8hpp_source.html#l00137">PhQ::SymmetricDyad&lt; Number &gt;::xy()</a>, <a class="el" href="SymmetricDyad_8hpp_source.html#l00142">PhQ::SymmetricDyad&lt; Number &gt;::xz()</a>, <a class="el" href="SymmetricDyad_8hpp_source.html#l00147">PhQ::SymmetricDyad&lt; Number &gt;::yx()</a>, <a class="el" href="SymmetricDyad_8hpp_source.html#l00152">PhQ::SymmetricDyad&lt; Number &gt;::yy()</a>, <a class="el" href="SymmetricDyad_8hpp_source.html#l00157">PhQ::SymmetricDyad&lt; Number &gt;::yz()</a>, <a class="el" href="SymmetricDyad_8hpp_source.html#l00162">PhQ::SymmetricDyad&lt; Number &gt;::zx()</a>, <a class="el" href="SymmetricDyad_8hpp_source.html#l00167">PhQ::SymmetricDyad&lt; Number &gt;::zy()</a>, and <a class="el" href="SymmetricDyad_8hpp_source.html#l00172">PhQ::SymmetricDyad&lt; Number &gt;::zz()</a>.</p>
+<p class="reference">References <a class="el" href="SymmetricDyad_8hpp_source.html#l00135">PhQ::SymmetricDyad&lt; Number &gt;::xx()</a>, <a class="el" href="Dyad_8hpp_source.html#l00464">PhQ::Dyad&lt; Number &gt;::xx_xy_xz_yx_yy_yz_zx_zy_zz_</a>, <a class="el" href="SymmetricDyad_8hpp_source.html#l00140">PhQ::SymmetricDyad&lt; Number &gt;::xy()</a>, <a class="el" href="SymmetricDyad_8hpp_source.html#l00145">PhQ::SymmetricDyad&lt; Number &gt;::xz()</a>, <a class="el" href="SymmetricDyad_8hpp_source.html#l00150">PhQ::SymmetricDyad&lt; Number &gt;::yx()</a>, <a class="el" href="SymmetricDyad_8hpp_source.html#l00155">PhQ::SymmetricDyad&lt; Number &gt;::yy()</a>, <a class="el" href="SymmetricDyad_8hpp_source.html#l00160">PhQ::SymmetricDyad&lt; Number &gt;::yz()</a>, <a class="el" href="SymmetricDyad_8hpp_source.html#l00165">PhQ::SymmetricDyad&lt; Number &gt;::zx()</a>, <a class="el" href="SymmetricDyad_8hpp_source.html#l00170">PhQ::SymmetricDyad&lt; Number &gt;::zy()</a>, and <a class="el" href="SymmetricDyad_8hpp_source.html#l00175">PhQ::SymmetricDyad&lt; Number &gt;::zz()</a>.</p>
 
 </div>
 </div>
@@ -1470,11 +1470,11 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Prints this three-dimensional dyadic tensor as a string. </p>
 
-<p class="definition">Definition at line <a class="el" href="Dyad_8hpp_source.html#l00379">379</a> of file <a class="el" href="Dyad_8hpp_source.html">Dyad.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Dyad_8hpp_source.html#l00382">382</a> of file <a class="el" href="Dyad_8hpp_source.html">Dyad.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Base_8hpp_source.html#l00170">PhQ::Print()</a>, <a class="el" href="Dyad_8hpp_source.html#l00161">PhQ::Dyad&lt; Number &gt;::xx()</a>, <a class="el" href="Dyad_8hpp_source.html#l00166">PhQ::Dyad&lt; Number &gt;::xy()</a>, <a class="el" href="Dyad_8hpp_source.html#l00171">PhQ::Dyad&lt; Number &gt;::xz()</a>, <a class="el" href="Dyad_8hpp_source.html#l00176">PhQ::Dyad&lt; Number &gt;::yx()</a>, <a class="el" href="Dyad_8hpp_source.html#l00181">PhQ::Dyad&lt; Number &gt;::yy()</a>, <a class="el" href="Dyad_8hpp_source.html#l00186">PhQ::Dyad&lt; Number &gt;::yz()</a>, <a class="el" href="Dyad_8hpp_source.html#l00191">PhQ::Dyad&lt; Number &gt;::zx()</a>, <a class="el" href="Dyad_8hpp_source.html#l00196">PhQ::Dyad&lt; Number &gt;::zy()</a>, and <a class="el" href="Dyad_8hpp_source.html#l00201">PhQ::Dyad&lt; Number &gt;::zz()</a>.</p>
+<p class="reference">References <a class="el" href="Base_8hpp_source.html#l00170">PhQ::Print()</a>, <a class="el" href="Dyad_8hpp_source.html#l00164">PhQ::Dyad&lt; Number &gt;::xx()</a>, <a class="el" href="Dyad_8hpp_source.html#l00169">PhQ::Dyad&lt; Number &gt;::xy()</a>, <a class="el" href="Dyad_8hpp_source.html#l00174">PhQ::Dyad&lt; Number &gt;::xz()</a>, <a class="el" href="Dyad_8hpp_source.html#l00179">PhQ::Dyad&lt; Number &gt;::yx()</a>, <a class="el" href="Dyad_8hpp_source.html#l00184">PhQ::Dyad&lt; Number &gt;::yy()</a>, <a class="el" href="Dyad_8hpp_source.html#l00189">PhQ::Dyad&lt; Number &gt;::yz()</a>, <a class="el" href="Dyad_8hpp_source.html#l00194">PhQ::Dyad&lt; Number &gt;::zx()</a>, <a class="el" href="Dyad_8hpp_source.html#l00199">PhQ::Dyad&lt; Number &gt;::zy()</a>, and <a class="el" href="Dyad_8hpp_source.html#l00204">PhQ::Dyad&lt; Number &gt;::zz()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="Dyad_8hpp_source.html#l00678">PhQ::operator&lt;&lt;()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="Dyad_8hpp_source.html#l00681">PhQ::operator&lt;&lt;()</a>.</p>
 
 </div>
 </div>
@@ -1506,9 +1506,9 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Sets this three-dimensional dyadic tensor's xx Cartesian component to a given value. </p>
 
-<p class="definition">Definition at line <a class="el" href="Dyad_8hpp_source.html#l00289">289</a> of file <a class="el" href="Dyad_8hpp_source.html">Dyad.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Dyad_8hpp_source.html#l00292">292</a> of file <a class="el" href="Dyad_8hpp_source.html">Dyad.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Dyad_8hpp_source.html#l00161">PhQ::Dyad&lt; Number &gt;::xx()</a>, and <a class="el" href="Dyad_8hpp_source.html#l00461">PhQ::Dyad&lt; Number &gt;::xx_xy_xz_yx_yy_yz_zx_zy_zz_</a>.</p>
+<p class="reference">References <a class="el" href="Dyad_8hpp_source.html#l00164">PhQ::Dyad&lt; Number &gt;::xx()</a>, and <a class="el" href="Dyad_8hpp_source.html#l00464">PhQ::Dyad&lt; Number &gt;::xx_xy_xz_yx_yy_yz_zx_zy_zz_</a>.</p>
 
 </div>
 </div>
@@ -1592,9 +1592,9 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Sets this three-dimensional dyadic tensor's xx, xy, xz, yx, yy, yz, zx, zy, and zz Cartesian components to the given values. </p>
 
-<p class="definition">Definition at line <a class="el" href="Dyad_8hpp_source.html#l00274">274</a> of file <a class="el" href="Dyad_8hpp_source.html">Dyad.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Dyad_8hpp_source.html#l00277">277</a> of file <a class="el" href="Dyad_8hpp_source.html">Dyad.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Dyad_8hpp_source.html#l00161">PhQ::Dyad&lt; Number &gt;::xx()</a>, <a class="el" href="Dyad_8hpp_source.html#l00461">PhQ::Dyad&lt; Number &gt;::xx_xy_xz_yx_yy_yz_zx_zy_zz_</a>, <a class="el" href="Dyad_8hpp_source.html#l00166">PhQ::Dyad&lt; Number &gt;::xy()</a>, <a class="el" href="Dyad_8hpp_source.html#l00171">PhQ::Dyad&lt; Number &gt;::xz()</a>, <a class="el" href="Dyad_8hpp_source.html#l00176">PhQ::Dyad&lt; Number &gt;::yx()</a>, <a class="el" href="Dyad_8hpp_source.html#l00181">PhQ::Dyad&lt; Number &gt;::yy()</a>, <a class="el" href="Dyad_8hpp_source.html#l00186">PhQ::Dyad&lt; Number &gt;::yz()</a>, <a class="el" href="Dyad_8hpp_source.html#l00191">PhQ::Dyad&lt; Number &gt;::zx()</a>, <a class="el" href="Dyad_8hpp_source.html#l00196">PhQ::Dyad&lt; Number &gt;::zy()</a>, and <a class="el" href="Dyad_8hpp_source.html#l00201">PhQ::Dyad&lt; Number &gt;::zz()</a>.</p>
+<p class="reference">References <a class="el" href="Dyad_8hpp_source.html#l00164">PhQ::Dyad&lt; Number &gt;::xx()</a>, <a class="el" href="Dyad_8hpp_source.html#l00464">PhQ::Dyad&lt; Number &gt;::xx_xy_xz_yx_yy_yz_zx_zy_zz_</a>, <a class="el" href="Dyad_8hpp_source.html#l00169">PhQ::Dyad&lt; Number &gt;::xy()</a>, <a class="el" href="Dyad_8hpp_source.html#l00174">PhQ::Dyad&lt; Number &gt;::xz()</a>, <a class="el" href="Dyad_8hpp_source.html#l00179">PhQ::Dyad&lt; Number &gt;::yx()</a>, <a class="el" href="Dyad_8hpp_source.html#l00184">PhQ::Dyad&lt; Number &gt;::yy()</a>, <a class="el" href="Dyad_8hpp_source.html#l00189">PhQ::Dyad&lt; Number &gt;::yz()</a>, <a class="el" href="Dyad_8hpp_source.html#l00194">PhQ::Dyad&lt; Number &gt;::zx()</a>, <a class="el" href="Dyad_8hpp_source.html#l00199">PhQ::Dyad&lt; Number &gt;::zy()</a>, and <a class="el" href="Dyad_8hpp_source.html#l00204">PhQ::Dyad&lt; Number &gt;::zz()</a>.</p>
 
 </div>
 </div>
@@ -1626,9 +1626,9 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Sets this three-dimensional dyadic tensor's xx, xy, xz, yx, yy, yz, zx, zy, and zz Cartesian components to the given values. </p>
 
-<p class="definition">Definition at line <a class="el" href="Dyad_8hpp_source.html#l00267">267</a> of file <a class="el" href="Dyad_8hpp_source.html">Dyad.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Dyad_8hpp_source.html#l00270">270</a> of file <a class="el" href="Dyad_8hpp_source.html">Dyad.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Dyad_8hpp_source.html#l00156">PhQ::Dyad&lt; Number &gt;::xx_xy_xz_yx_yy_yz_zx_zy_zz()</a>, and <a class="el" href="Dyad_8hpp_source.html#l00461">PhQ::Dyad&lt; Number &gt;::xx_xy_xz_yx_yy_yz_zx_zy_zz_</a>.</p>
+<p class="reference">References <a class="el" href="Dyad_8hpp_source.html#l00159">PhQ::Dyad&lt; Number &gt;::xx_xy_xz_yx_yy_yz_zx_zy_zz()</a>, and <a class="el" href="Dyad_8hpp_source.html#l00464">PhQ::Dyad&lt; Number &gt;::xx_xy_xz_yx_yy_yz_zx_zy_zz_</a>.</p>
 
 </div>
 </div>
@@ -1660,9 +1660,9 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Sets this three-dimensional dyadic tensor's xy Cartesian component to a given value. </p>
 
-<p class="definition">Definition at line <a class="el" href="Dyad_8hpp_source.html#l00294">294</a> of file <a class="el" href="Dyad_8hpp_source.html">Dyad.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Dyad_8hpp_source.html#l00297">297</a> of file <a class="el" href="Dyad_8hpp_source.html">Dyad.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Dyad_8hpp_source.html#l00461">PhQ::Dyad&lt; Number &gt;::xx_xy_xz_yx_yy_yz_zx_zy_zz_</a>, and <a class="el" href="Dyad_8hpp_source.html#l00166">PhQ::Dyad&lt; Number &gt;::xy()</a>.</p>
+<p class="reference">References <a class="el" href="Dyad_8hpp_source.html#l00464">PhQ::Dyad&lt; Number &gt;::xx_xy_xz_yx_yy_yz_zx_zy_zz_</a>, and <a class="el" href="Dyad_8hpp_source.html#l00169">PhQ::Dyad&lt; Number &gt;::xy()</a>.</p>
 
 </div>
 </div>
@@ -1694,9 +1694,9 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Sets this three-dimensional dyadic tensor's xz Cartesian component to a given value. </p>
 
-<p class="definition">Definition at line <a class="el" href="Dyad_8hpp_source.html#l00299">299</a> of file <a class="el" href="Dyad_8hpp_source.html">Dyad.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Dyad_8hpp_source.html#l00302">302</a> of file <a class="el" href="Dyad_8hpp_source.html">Dyad.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Dyad_8hpp_source.html#l00461">PhQ::Dyad&lt; Number &gt;::xx_xy_xz_yx_yy_yz_zx_zy_zz_</a>, and <a class="el" href="Dyad_8hpp_source.html#l00171">PhQ::Dyad&lt; Number &gt;::xz()</a>.</p>
+<p class="reference">References <a class="el" href="Dyad_8hpp_source.html#l00464">PhQ::Dyad&lt; Number &gt;::xx_xy_xz_yx_yy_yz_zx_zy_zz_</a>, and <a class="el" href="Dyad_8hpp_source.html#l00174">PhQ::Dyad&lt; Number &gt;::xz()</a>.</p>
 
 </div>
 </div>
@@ -1728,9 +1728,9 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Sets this three-dimensional dyadic tensor's yx Cartesian component to a given value. </p>
 
-<p class="definition">Definition at line <a class="el" href="Dyad_8hpp_source.html#l00304">304</a> of file <a class="el" href="Dyad_8hpp_source.html">Dyad.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Dyad_8hpp_source.html#l00307">307</a> of file <a class="el" href="Dyad_8hpp_source.html">Dyad.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Dyad_8hpp_source.html#l00461">PhQ::Dyad&lt; Number &gt;::xx_xy_xz_yx_yy_yz_zx_zy_zz_</a>, and <a class="el" href="Dyad_8hpp_source.html#l00176">PhQ::Dyad&lt; Number &gt;::yx()</a>.</p>
+<p class="reference">References <a class="el" href="Dyad_8hpp_source.html#l00464">PhQ::Dyad&lt; Number &gt;::xx_xy_xz_yx_yy_yz_zx_zy_zz_</a>, and <a class="el" href="Dyad_8hpp_source.html#l00179">PhQ::Dyad&lt; Number &gt;::yx()</a>.</p>
 
 </div>
 </div>
@@ -1762,9 +1762,9 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Sets this three-dimensional dyadic tensor's yy Cartesian component to a given value. </p>
 
-<p class="definition">Definition at line <a class="el" href="Dyad_8hpp_source.html#l00309">309</a> of file <a class="el" href="Dyad_8hpp_source.html">Dyad.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Dyad_8hpp_source.html#l00312">312</a> of file <a class="el" href="Dyad_8hpp_source.html">Dyad.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Dyad_8hpp_source.html#l00461">PhQ::Dyad&lt; Number &gt;::xx_xy_xz_yx_yy_yz_zx_zy_zz_</a>, and <a class="el" href="Dyad_8hpp_source.html#l00181">PhQ::Dyad&lt; Number &gt;::yy()</a>.</p>
+<p class="reference">References <a class="el" href="Dyad_8hpp_source.html#l00464">PhQ::Dyad&lt; Number &gt;::xx_xy_xz_yx_yy_yz_zx_zy_zz_</a>, and <a class="el" href="Dyad_8hpp_source.html#l00184">PhQ::Dyad&lt; Number &gt;::yy()</a>.</p>
 
 </div>
 </div>
@@ -1796,9 +1796,9 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Sets this three-dimensional dyadic tensor's yz Cartesian component to a given value. </p>
 
-<p class="definition">Definition at line <a class="el" href="Dyad_8hpp_source.html#l00314">314</a> of file <a class="el" href="Dyad_8hpp_source.html">Dyad.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Dyad_8hpp_source.html#l00317">317</a> of file <a class="el" href="Dyad_8hpp_source.html">Dyad.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Dyad_8hpp_source.html#l00461">PhQ::Dyad&lt; Number &gt;::xx_xy_xz_yx_yy_yz_zx_zy_zz_</a>, and <a class="el" href="Dyad_8hpp_source.html#l00186">PhQ::Dyad&lt; Number &gt;::yz()</a>.</p>
+<p class="reference">References <a class="el" href="Dyad_8hpp_source.html#l00464">PhQ::Dyad&lt; Number &gt;::xx_xy_xz_yx_yy_yz_zx_zy_zz_</a>, and <a class="el" href="Dyad_8hpp_source.html#l00189">PhQ::Dyad&lt; Number &gt;::yz()</a>.</p>
 
 </div>
 </div>
@@ -1830,9 +1830,9 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Sets this three-dimensional dyadic tensor's zx Cartesian component to a given value. </p>
 
-<p class="definition">Definition at line <a class="el" href="Dyad_8hpp_source.html#l00319">319</a> of file <a class="el" href="Dyad_8hpp_source.html">Dyad.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Dyad_8hpp_source.html#l00322">322</a> of file <a class="el" href="Dyad_8hpp_source.html">Dyad.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Dyad_8hpp_source.html#l00461">PhQ::Dyad&lt; Number &gt;::xx_xy_xz_yx_yy_yz_zx_zy_zz_</a>, and <a class="el" href="Dyad_8hpp_source.html#l00191">PhQ::Dyad&lt; Number &gt;::zx()</a>.</p>
+<p class="reference">References <a class="el" href="Dyad_8hpp_source.html#l00464">PhQ::Dyad&lt; Number &gt;::xx_xy_xz_yx_yy_yz_zx_zy_zz_</a>, and <a class="el" href="Dyad_8hpp_source.html#l00194">PhQ::Dyad&lt; Number &gt;::zx()</a>.</p>
 
 </div>
 </div>
@@ -1864,9 +1864,9 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Sets this three-dimensional dyadic tensor's zy Cartesian component to a given value. </p>
 
-<p class="definition">Definition at line <a class="el" href="Dyad_8hpp_source.html#l00324">324</a> of file <a class="el" href="Dyad_8hpp_source.html">Dyad.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Dyad_8hpp_source.html#l00327">327</a> of file <a class="el" href="Dyad_8hpp_source.html">Dyad.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Dyad_8hpp_source.html#l00461">PhQ::Dyad&lt; Number &gt;::xx_xy_xz_yx_yy_yz_zx_zy_zz_</a>, and <a class="el" href="Dyad_8hpp_source.html#l00196">PhQ::Dyad&lt; Number &gt;::zy()</a>.</p>
+<p class="reference">References <a class="el" href="Dyad_8hpp_source.html#l00464">PhQ::Dyad&lt; Number &gt;::xx_xy_xz_yx_yy_yz_zx_zy_zz_</a>, and <a class="el" href="Dyad_8hpp_source.html#l00199">PhQ::Dyad&lt; Number &gt;::zy()</a>.</p>
 
 </div>
 </div>
@@ -1898,9 +1898,9 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Sets this three-dimensional dyadic tensor's zz Cartesian component to a given value. </p>
 
-<p class="definition">Definition at line <a class="el" href="Dyad_8hpp_source.html#l00329">329</a> of file <a class="el" href="Dyad_8hpp_source.html">Dyad.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Dyad_8hpp_source.html#l00332">332</a> of file <a class="el" href="Dyad_8hpp_source.html">Dyad.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Dyad_8hpp_source.html#l00461">PhQ::Dyad&lt; Number &gt;::xx_xy_xz_yx_yy_yz_zx_zy_zz_</a>, and <a class="el" href="Dyad_8hpp_source.html#l00201">PhQ::Dyad&lt; Number &gt;::zz()</a>.</p>
+<p class="reference">References <a class="el" href="Dyad_8hpp_source.html#l00464">PhQ::Dyad&lt; Number &gt;::xx_xy_xz_yx_yy_yz_zx_zy_zz_</a>, and <a class="el" href="Dyad_8hpp_source.html#l00204">PhQ::Dyad&lt; Number &gt;::zz()</a>.</p>
 
 </div>
 </div>
@@ -1931,9 +1931,9 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the trace of this three-dimensional dyadic tensor. </p>
 
-<p class="definition">Definition at line <a class="el" href="Dyad_8hpp_source.html#l00339">339</a> of file <a class="el" href="Dyad_8hpp_source.html">Dyad.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Dyad_8hpp_source.html#l00342">342</a> of file <a class="el" href="Dyad_8hpp_source.html">Dyad.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Dyad_8hpp_source.html#l00161">PhQ::Dyad&lt; Number &gt;::xx()</a>, <a class="el" href="Dyad_8hpp_source.html#l00181">PhQ::Dyad&lt; Number &gt;::yy()</a>, and <a class="el" href="Dyad_8hpp_source.html#l00201">PhQ::Dyad&lt; Number &gt;::zz()</a>.</p>
+<p class="reference">References <a class="el" href="Dyad_8hpp_source.html#l00164">PhQ::Dyad&lt; Number &gt;::xx()</a>, <a class="el" href="Dyad_8hpp_source.html#l00184">PhQ::Dyad&lt; Number &gt;::yy()</a>, and <a class="el" href="Dyad_8hpp_source.html#l00204">PhQ::Dyad&lt; Number &gt;::zz()</a>.</p>
 
 </div>
 </div>
@@ -1964,9 +1964,9 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the transpose of this three-dimensional dyadic tensor. </p>
 
-<p class="definition">Definition at line <a class="el" href="Dyad_8hpp_source.html#l00350">350</a> of file <a class="el" href="Dyad_8hpp_source.html">Dyad.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Dyad_8hpp_source.html#l00353">353</a> of file <a class="el" href="Dyad_8hpp_source.html">Dyad.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Dyad_8hpp_source.html#l00161">PhQ::Dyad&lt; Number &gt;::xx()</a>, <a class="el" href="Dyad_8hpp_source.html#l00166">PhQ::Dyad&lt; Number &gt;::xy()</a>, <a class="el" href="Dyad_8hpp_source.html#l00171">PhQ::Dyad&lt; Number &gt;::xz()</a>, <a class="el" href="Dyad_8hpp_source.html#l00176">PhQ::Dyad&lt; Number &gt;::yx()</a>, <a class="el" href="Dyad_8hpp_source.html#l00181">PhQ::Dyad&lt; Number &gt;::yy()</a>, <a class="el" href="Dyad_8hpp_source.html#l00186">PhQ::Dyad&lt; Number &gt;::yz()</a>, <a class="el" href="Dyad_8hpp_source.html#l00191">PhQ::Dyad&lt; Number &gt;::zx()</a>, <a class="el" href="Dyad_8hpp_source.html#l00196">PhQ::Dyad&lt; Number &gt;::zy()</a>, and <a class="el" href="Dyad_8hpp_source.html#l00201">PhQ::Dyad&lt; Number &gt;::zz()</a>.</p>
+<p class="reference">References <a class="el" href="Dyad_8hpp_source.html#l00164">PhQ::Dyad&lt; Number &gt;::xx()</a>, <a class="el" href="Dyad_8hpp_source.html#l00169">PhQ::Dyad&lt; Number &gt;::xy()</a>, <a class="el" href="Dyad_8hpp_source.html#l00174">PhQ::Dyad&lt; Number &gt;::xz()</a>, <a class="el" href="Dyad_8hpp_source.html#l00179">PhQ::Dyad&lt; Number &gt;::yx()</a>, <a class="el" href="Dyad_8hpp_source.html#l00184">PhQ::Dyad&lt; Number &gt;::yy()</a>, <a class="el" href="Dyad_8hpp_source.html#l00189">PhQ::Dyad&lt; Number &gt;::yz()</a>, <a class="el" href="Dyad_8hpp_source.html#l00194">PhQ::Dyad&lt; Number &gt;::zx()</a>, <a class="el" href="Dyad_8hpp_source.html#l00199">PhQ::Dyad&lt; Number &gt;::zy()</a>, and <a class="el" href="Dyad_8hpp_source.html#l00204">PhQ::Dyad&lt; Number &gt;::zz()</a>.</p>
 
 </div>
 </div>
@@ -1997,9 +1997,9 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Serializes this three-dimensional dyadic tensor as an XML message. </p>
 
-<p class="definition">Definition at line <a class="el" href="Dyad_8hpp_source.html#l00394">394</a> of file <a class="el" href="Dyad_8hpp_source.html">Dyad.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Dyad_8hpp_source.html#l00397">397</a> of file <a class="el" href="Dyad_8hpp_source.html">Dyad.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Base_8hpp_source.html#l00170">PhQ::Print()</a>, <a class="el" href="Dyad_8hpp_source.html#l00161">PhQ::Dyad&lt; Number &gt;::xx()</a>, <a class="el" href="Dyad_8hpp_source.html#l00166">PhQ::Dyad&lt; Number &gt;::xy()</a>, <a class="el" href="Dyad_8hpp_source.html#l00171">PhQ::Dyad&lt; Number &gt;::xz()</a>, <a class="el" href="Dyad_8hpp_source.html#l00176">PhQ::Dyad&lt; Number &gt;::yx()</a>, <a class="el" href="Dyad_8hpp_source.html#l00181">PhQ::Dyad&lt; Number &gt;::yy()</a>, <a class="el" href="Dyad_8hpp_source.html#l00186">PhQ::Dyad&lt; Number &gt;::yz()</a>, <a class="el" href="Dyad_8hpp_source.html#l00191">PhQ::Dyad&lt; Number &gt;::zx()</a>, <a class="el" href="Dyad_8hpp_source.html#l00196">PhQ::Dyad&lt; Number &gt;::zy()</a>, and <a class="el" href="Dyad_8hpp_source.html#l00201">PhQ::Dyad&lt; Number &gt;::zz()</a>.</p>
+<p class="reference">References <a class="el" href="Base_8hpp_source.html#l00170">PhQ::Print()</a>, <a class="el" href="Dyad_8hpp_source.html#l00164">PhQ::Dyad&lt; Number &gt;::xx()</a>, <a class="el" href="Dyad_8hpp_source.html#l00169">PhQ::Dyad&lt; Number &gt;::xy()</a>, <a class="el" href="Dyad_8hpp_source.html#l00174">PhQ::Dyad&lt; Number &gt;::xz()</a>, <a class="el" href="Dyad_8hpp_source.html#l00179">PhQ::Dyad&lt; Number &gt;::yx()</a>, <a class="el" href="Dyad_8hpp_source.html#l00184">PhQ::Dyad&lt; Number &gt;::yy()</a>, <a class="el" href="Dyad_8hpp_source.html#l00189">PhQ::Dyad&lt; Number &gt;::yz()</a>, <a class="el" href="Dyad_8hpp_source.html#l00194">PhQ::Dyad&lt; Number &gt;::zx()</a>, <a class="el" href="Dyad_8hpp_source.html#l00199">PhQ::Dyad&lt; Number &gt;::zy()</a>, and <a class="el" href="Dyad_8hpp_source.html#l00204">PhQ::Dyad&lt; Number &gt;::zz()</a>.</p>
 
 </div>
 </div>
@@ -2030,11 +2030,11 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns this three-dimensional dyadic tensor's xx Cartesian component. </p>
 
-<p class="definition">Definition at line <a class="el" href="Dyad_8hpp_source.html#l00161">161</a> of file <a class="el" href="Dyad_8hpp_source.html">Dyad.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Dyad_8hpp_source.html#l00164">164</a> of file <a class="el" href="Dyad_8hpp_source.html">Dyad.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Dyad_8hpp_source.html#l00461">PhQ::Dyad&lt; Number &gt;::xx_xy_xz_yx_yy_yz_zx_zy_zz_</a>.</p>
+<p class="reference">References <a class="el" href="Dyad_8hpp_source.html#l00464">PhQ::Dyad&lt; Number &gt;::xx_xy_xz_yx_yy_yz_zx_zy_zz_</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="Dyad_8hpp_source.html#l00355">PhQ::Dyad&lt; Number &gt;::Cofactors()</a>, <a class="el" href="Dyad_8hpp_source.html#l00344">PhQ::Dyad&lt; Number &gt;::Determinant()</a>, <a class="el" href="Dyad_8hpp_source.html#l00060">PhQ::Dyad&lt; Number &gt;::Dyad()</a>, <a class="el" href="Dyad_8hpp_source.html#l00386">PhQ::Dyad&lt; Number &gt;::JSON()</a>, <a class="el" href="Dyad_8hpp_source.html#l00561">PhQ::operator*()</a>, <a class="el" href="Dyad_8hpp_source.html#l00547">PhQ::operator+()</a>, <a class="el" href="Dyad_8hpp_source.html#l00554">PhQ::operator-()</a>, <a class="el" href="Dyad_8hpp_source.html#l00668">PhQ::operator/()</a>, <a class="el" href="Dyad_8hpp_source.html#l00104">PhQ::Dyad&lt; Number &gt;::operator=()</a>, <a class="el" href="Dyad_8hpp_source.html#l00379">PhQ::Dyad&lt; Number &gt;::Print()</a>, <a class="el" href="Dyad_8hpp_source.html#l00289">PhQ::Dyad&lt; Number &gt;::Set_xx()</a>, <a class="el" href="Dyad_8hpp_source.html#l00274">PhQ::Dyad&lt; Number &gt;::Set_xx_xy_xz_yx_yy_yz_zx_zy_zz()</a>, <a class="el" href="VelocityGradient_8hpp_source.html#l00283">PhQ::StrainRate&lt; Number &gt;::StrainRate()</a>, <a class="el" href="Dyad_8hpp_source.html#l00339">PhQ::Dyad&lt; Number &gt;::Trace()</a>, <a class="el" href="Dyad_8hpp_source.html#l00350">PhQ::Dyad&lt; Number &gt;::Transpose()</a>, <a class="el" href="Dyad_8hpp_source.html#l00394">PhQ::Dyad&lt; Number &gt;::XML()</a>, <a class="el" href="DisplacementGradient_8hpp_source.html#l00120">PhQ::DisplacementGradient&lt; Number &gt;::xx()</a>, <a class="el" href="VelocityGradient_8hpp_source.html#l00134">PhQ::VelocityGradient&lt; Number &gt;::xx()</a>, and <a class="el" href="Dyad_8hpp_source.html#l00402">PhQ::Dyad&lt; Number &gt;::YAML()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="Dyad_8hpp_source.html#l00358">PhQ::Dyad&lt; Number &gt;::Cofactors()</a>, <a class="el" href="Dyad_8hpp_source.html#l00347">PhQ::Dyad&lt; Number &gt;::Determinant()</a>, <a class="el" href="Dyad_8hpp_source.html#l00063">PhQ::Dyad&lt; Number &gt;::Dyad()</a>, <a class="el" href="Dyad_8hpp_source.html#l00389">PhQ::Dyad&lt; Number &gt;::JSON()</a>, <a class="el" href="Dyad_8hpp_source.html#l00564">PhQ::operator*()</a>, <a class="el" href="Dyad_8hpp_source.html#l00550">PhQ::operator+()</a>, <a class="el" href="Dyad_8hpp_source.html#l00557">PhQ::operator-()</a>, <a class="el" href="Dyad_8hpp_source.html#l00671">PhQ::operator/()</a>, <a class="el" href="Dyad_8hpp_source.html#l00107">PhQ::Dyad&lt; Number &gt;::operator=()</a>, <a class="el" href="Dyad_8hpp_source.html#l00382">PhQ::Dyad&lt; Number &gt;::Print()</a>, <a class="el" href="Dyad_8hpp_source.html#l00292">PhQ::Dyad&lt; Number &gt;::Set_xx()</a>, <a class="el" href="Dyad_8hpp_source.html#l00277">PhQ::Dyad&lt; Number &gt;::Set_xx_xy_xz_yx_yy_yz_zx_zy_zz()</a>, <a class="el" href="VelocityGradient_8hpp_source.html#l00286">PhQ::StrainRate&lt; Number &gt;::StrainRate()</a>, <a class="el" href="Dyad_8hpp_source.html#l00342">PhQ::Dyad&lt; Number &gt;::Trace()</a>, <a class="el" href="Dyad_8hpp_source.html#l00353">PhQ::Dyad&lt; Number &gt;::Transpose()</a>, <a class="el" href="Dyad_8hpp_source.html#l00397">PhQ::Dyad&lt; Number &gt;::XML()</a>, <a class="el" href="DisplacementGradient_8hpp_source.html#l00124">PhQ::DisplacementGradient&lt; Number &gt;::xx()</a>, <a class="el" href="VelocityGradient_8hpp_source.html#l00137">PhQ::VelocityGradient&lt; Number &gt;::xx()</a>, and <a class="el" href="Dyad_8hpp_source.html#l00405">PhQ::Dyad&lt; Number &gt;::YAML()</a>.</p>
 
 </div>
 </div>
@@ -2065,11 +2065,11 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns this three-dimensional symmetric dyadic tensor's xx, xy, xz, yx, yy, yz, zx, zy, and zz Cartesian components as an array. </p>
 
-<p class="definition">Definition at line <a class="el" href="Dyad_8hpp_source.html#l00156">156</a> of file <a class="el" href="Dyad_8hpp_source.html">Dyad.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Dyad_8hpp_source.html#l00159">159</a> of file <a class="el" href="Dyad_8hpp_source.html">Dyad.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Dyad_8hpp_source.html#l00461">PhQ::Dyad&lt; Number &gt;::xx_xy_xz_yx_yy_yz_zx_zy_zz_</a>.</p>
+<p class="reference">References <a class="el" href="Dyad_8hpp_source.html#l00464">PhQ::Dyad&lt; Number &gt;::xx_xy_xz_yx_yy_yz_zx_zy_zz_</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="Unit_8hpp_source.html#l00260">PhQ::ConvertCopy()</a>, <a class="el" href="Dyad_8hpp_source.html#l00138">PhQ::Dyad&lt; Number &gt;::operator=()</a>, <a class="el" href="Dyad_8hpp_source.html#l00267">PhQ::Dyad&lt; Number &gt;::Set_xx_xy_xz_yx_yy_yz_zx_zy_zz()</a>, and <a class="el" href="Unit_8hpp_source.html#l00324">PhQ::StaticConvertCopy()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="Unit_8hpp_source.html#l00260">PhQ::ConvertCopy()</a>, <a class="el" href="Dyad_8hpp_source.html#l00141">PhQ::Dyad&lt; Number &gt;::operator=()</a>, <a class="el" href="Dyad_8hpp_source.html#l00270">PhQ::Dyad&lt; Number &gt;::Set_xx_xy_xz_yx_yy_yz_zx_zy_zz()</a>, and <a class="el" href="Unit_8hpp_source.html#l00324">PhQ::StaticConvertCopy()</a>.</p>
 
 </div>
 </div>
@@ -2100,11 +2100,11 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns this three-dimensional dyadic tensor's xy Cartesian component. </p>
 
-<p class="definition">Definition at line <a class="el" href="Dyad_8hpp_source.html#l00166">166</a> of file <a class="el" href="Dyad_8hpp_source.html">Dyad.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Dyad_8hpp_source.html#l00169">169</a> of file <a class="el" href="Dyad_8hpp_source.html">Dyad.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Dyad_8hpp_source.html#l00461">PhQ::Dyad&lt; Number &gt;::xx_xy_xz_yx_yy_yz_zx_zy_zz_</a>.</p>
+<p class="reference">References <a class="el" href="Dyad_8hpp_source.html#l00464">PhQ::Dyad&lt; Number &gt;::xx_xy_xz_yx_yy_yz_zx_zy_zz_</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="Dyad_8hpp_source.html#l00355">PhQ::Dyad&lt; Number &gt;::Cofactors()</a>, <a class="el" href="Dyad_8hpp_source.html#l00344">PhQ::Dyad&lt; Number &gt;::Determinant()</a>, <a class="el" href="Dyad_8hpp_source.html#l00060">PhQ::Dyad&lt; Number &gt;::Dyad()</a>, <a class="el" href="Dyad_8hpp_source.html#l00334">PhQ::Dyad&lt; Number &gt;::IsSymmetric()</a>, <a class="el" href="Dyad_8hpp_source.html#l00386">PhQ::Dyad&lt; Number &gt;::JSON()</a>, <a class="el" href="Dyad_8hpp_source.html#l00561">PhQ::operator*()</a>, <a class="el" href="Dyad_8hpp_source.html#l00547">PhQ::operator+()</a>, <a class="el" href="Dyad_8hpp_source.html#l00554">PhQ::operator-()</a>, <a class="el" href="Dyad_8hpp_source.html#l00668">PhQ::operator/()</a>, <a class="el" href="Dyad_8hpp_source.html#l00104">PhQ::Dyad&lt; Number &gt;::operator=()</a>, <a class="el" href="Dyad_8hpp_source.html#l00379">PhQ::Dyad&lt; Number &gt;::Print()</a>, <a class="el" href="Dyad_8hpp_source.html#l00274">PhQ::Dyad&lt; Number &gt;::Set_xx_xy_xz_yx_yy_yz_zx_zy_zz()</a>, <a class="el" href="Dyad_8hpp_source.html#l00294">PhQ::Dyad&lt; Number &gt;::Set_xy()</a>, <a class="el" href="VelocityGradient_8hpp_source.html#l00283">PhQ::StrainRate&lt; Number &gt;::StrainRate()</a>, <a class="el" href="Dyad_8hpp_source.html#l00350">PhQ::Dyad&lt; Number &gt;::Transpose()</a>, <a class="el" href="Dyad_8hpp_source.html#l00394">PhQ::Dyad&lt; Number &gt;::XML()</a>, <a class="el" href="DisplacementGradient_8hpp_source.html#l00125">PhQ::DisplacementGradient&lt; Number &gt;::xy()</a>, <a class="el" href="VelocityGradient_8hpp_source.html#l00139">PhQ::VelocityGradient&lt; Number &gt;::xy()</a>, and <a class="el" href="Dyad_8hpp_source.html#l00402">PhQ::Dyad&lt; Number &gt;::YAML()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="Dyad_8hpp_source.html#l00358">PhQ::Dyad&lt; Number &gt;::Cofactors()</a>, <a class="el" href="Dyad_8hpp_source.html#l00347">PhQ::Dyad&lt; Number &gt;::Determinant()</a>, <a class="el" href="Dyad_8hpp_source.html#l00063">PhQ::Dyad&lt; Number &gt;::Dyad()</a>, <a class="el" href="Dyad_8hpp_source.html#l00337">PhQ::Dyad&lt; Number &gt;::IsSymmetric()</a>, <a class="el" href="Dyad_8hpp_source.html#l00389">PhQ::Dyad&lt; Number &gt;::JSON()</a>, <a class="el" href="Dyad_8hpp_source.html#l00564">PhQ::operator*()</a>, <a class="el" href="Dyad_8hpp_source.html#l00550">PhQ::operator+()</a>, <a class="el" href="Dyad_8hpp_source.html#l00557">PhQ::operator-()</a>, <a class="el" href="Dyad_8hpp_source.html#l00671">PhQ::operator/()</a>, <a class="el" href="Dyad_8hpp_source.html#l00107">PhQ::Dyad&lt; Number &gt;::operator=()</a>, <a class="el" href="Dyad_8hpp_source.html#l00382">PhQ::Dyad&lt; Number &gt;::Print()</a>, <a class="el" href="Dyad_8hpp_source.html#l00277">PhQ::Dyad&lt; Number &gt;::Set_xx_xy_xz_yx_yy_yz_zx_zy_zz()</a>, <a class="el" href="Dyad_8hpp_source.html#l00297">PhQ::Dyad&lt; Number &gt;::Set_xy()</a>, <a class="el" href="VelocityGradient_8hpp_source.html#l00286">PhQ::StrainRate&lt; Number &gt;::StrainRate()</a>, <a class="el" href="Dyad_8hpp_source.html#l00353">PhQ::Dyad&lt; Number &gt;::Transpose()</a>, <a class="el" href="Dyad_8hpp_source.html#l00397">PhQ::Dyad&lt; Number &gt;::XML()</a>, <a class="el" href="DisplacementGradient_8hpp_source.html#l00129">PhQ::DisplacementGradient&lt; Number &gt;::xy()</a>, <a class="el" href="VelocityGradient_8hpp_source.html#l00142">PhQ::VelocityGradient&lt; Number &gt;::xy()</a>, and <a class="el" href="Dyad_8hpp_source.html#l00405">PhQ::Dyad&lt; Number &gt;::YAML()</a>.</p>
 
 </div>
 </div>
@@ -2135,11 +2135,11 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns this three-dimensional dyadic tensor's xz Cartesian component. </p>
 
-<p class="definition">Definition at line <a class="el" href="Dyad_8hpp_source.html#l00171">171</a> of file <a class="el" href="Dyad_8hpp_source.html">Dyad.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Dyad_8hpp_source.html#l00174">174</a> of file <a class="el" href="Dyad_8hpp_source.html">Dyad.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Dyad_8hpp_source.html#l00461">PhQ::Dyad&lt; Number &gt;::xx_xy_xz_yx_yy_yz_zx_zy_zz_</a>.</p>
+<p class="reference">References <a class="el" href="Dyad_8hpp_source.html#l00464">PhQ::Dyad&lt; Number &gt;::xx_xy_xz_yx_yy_yz_zx_zy_zz_</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="Dyad_8hpp_source.html#l00355">PhQ::Dyad&lt; Number &gt;::Cofactors()</a>, <a class="el" href="Dyad_8hpp_source.html#l00344">PhQ::Dyad&lt; Number &gt;::Determinant()</a>, <a class="el" href="Dyad_8hpp_source.html#l00060">PhQ::Dyad&lt; Number &gt;::Dyad()</a>, <a class="el" href="Dyad_8hpp_source.html#l00334">PhQ::Dyad&lt; Number &gt;::IsSymmetric()</a>, <a class="el" href="Dyad_8hpp_source.html#l00386">PhQ::Dyad&lt; Number &gt;::JSON()</a>, <a class="el" href="Dyad_8hpp_source.html#l00561">PhQ::operator*()</a>, <a class="el" href="Dyad_8hpp_source.html#l00547">PhQ::operator+()</a>, <a class="el" href="Dyad_8hpp_source.html#l00554">PhQ::operator-()</a>, <a class="el" href="Dyad_8hpp_source.html#l00668">PhQ::operator/()</a>, <a class="el" href="Dyad_8hpp_source.html#l00104">PhQ::Dyad&lt; Number &gt;::operator=()</a>, <a class="el" href="Dyad_8hpp_source.html#l00379">PhQ::Dyad&lt; Number &gt;::Print()</a>, <a class="el" href="Dyad_8hpp_source.html#l00274">PhQ::Dyad&lt; Number &gt;::Set_xx_xy_xz_yx_yy_yz_zx_zy_zz()</a>, <a class="el" href="Dyad_8hpp_source.html#l00299">PhQ::Dyad&lt; Number &gt;::Set_xz()</a>, <a class="el" href="VelocityGradient_8hpp_source.html#l00283">PhQ::StrainRate&lt; Number &gt;::StrainRate()</a>, <a class="el" href="Dyad_8hpp_source.html#l00350">PhQ::Dyad&lt; Number &gt;::Transpose()</a>, <a class="el" href="Dyad_8hpp_source.html#l00394">PhQ::Dyad&lt; Number &gt;::XML()</a>, <a class="el" href="DisplacementGradient_8hpp_source.html#l00130">PhQ::DisplacementGradient&lt; Number &gt;::xz()</a>, <a class="el" href="VelocityGradient_8hpp_source.html#l00144">PhQ::VelocityGradient&lt; Number &gt;::xz()</a>, and <a class="el" href="Dyad_8hpp_source.html#l00402">PhQ::Dyad&lt; Number &gt;::YAML()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="Dyad_8hpp_source.html#l00358">PhQ::Dyad&lt; Number &gt;::Cofactors()</a>, <a class="el" href="Dyad_8hpp_source.html#l00347">PhQ::Dyad&lt; Number &gt;::Determinant()</a>, <a class="el" href="Dyad_8hpp_source.html#l00063">PhQ::Dyad&lt; Number &gt;::Dyad()</a>, <a class="el" href="Dyad_8hpp_source.html#l00337">PhQ::Dyad&lt; Number &gt;::IsSymmetric()</a>, <a class="el" href="Dyad_8hpp_source.html#l00389">PhQ::Dyad&lt; Number &gt;::JSON()</a>, <a class="el" href="Dyad_8hpp_source.html#l00564">PhQ::operator*()</a>, <a class="el" href="Dyad_8hpp_source.html#l00550">PhQ::operator+()</a>, <a class="el" href="Dyad_8hpp_source.html#l00557">PhQ::operator-()</a>, <a class="el" href="Dyad_8hpp_source.html#l00671">PhQ::operator/()</a>, <a class="el" href="Dyad_8hpp_source.html#l00107">PhQ::Dyad&lt; Number &gt;::operator=()</a>, <a class="el" href="Dyad_8hpp_source.html#l00382">PhQ::Dyad&lt; Number &gt;::Print()</a>, <a class="el" href="Dyad_8hpp_source.html#l00277">PhQ::Dyad&lt; Number &gt;::Set_xx_xy_xz_yx_yy_yz_zx_zy_zz()</a>, <a class="el" href="Dyad_8hpp_source.html#l00302">PhQ::Dyad&lt; Number &gt;::Set_xz()</a>, <a class="el" href="VelocityGradient_8hpp_source.html#l00286">PhQ::StrainRate&lt; Number &gt;::StrainRate()</a>, <a class="el" href="Dyad_8hpp_source.html#l00353">PhQ::Dyad&lt; Number &gt;::Transpose()</a>, <a class="el" href="Dyad_8hpp_source.html#l00397">PhQ::Dyad&lt; Number &gt;::XML()</a>, <a class="el" href="DisplacementGradient_8hpp_source.html#l00134">PhQ::DisplacementGradient&lt; Number &gt;::xz()</a>, <a class="el" href="VelocityGradient_8hpp_source.html#l00147">PhQ::VelocityGradient&lt; Number &gt;::xz()</a>, and <a class="el" href="Dyad_8hpp_source.html#l00405">PhQ::Dyad&lt; Number &gt;::YAML()</a>.</p>
 
 </div>
 </div>
@@ -2170,9 +2170,9 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Serializes this three-dimensional dyadic tensor as a YAML message. </p>
 
-<p class="definition">Definition at line <a class="el" href="Dyad_8hpp_source.html#l00402">402</a> of file <a class="el" href="Dyad_8hpp_source.html">Dyad.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Dyad_8hpp_source.html#l00405">405</a> of file <a class="el" href="Dyad_8hpp_source.html">Dyad.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Base_8hpp_source.html#l00170">PhQ::Print()</a>, <a class="el" href="Dyad_8hpp_source.html#l00161">PhQ::Dyad&lt; Number &gt;::xx()</a>, <a class="el" href="Dyad_8hpp_source.html#l00166">PhQ::Dyad&lt; Number &gt;::xy()</a>, <a class="el" href="Dyad_8hpp_source.html#l00171">PhQ::Dyad&lt; Number &gt;::xz()</a>, <a class="el" href="Dyad_8hpp_source.html#l00176">PhQ::Dyad&lt; Number &gt;::yx()</a>, <a class="el" href="Dyad_8hpp_source.html#l00181">PhQ::Dyad&lt; Number &gt;::yy()</a>, <a class="el" href="Dyad_8hpp_source.html#l00186">PhQ::Dyad&lt; Number &gt;::yz()</a>, <a class="el" href="Dyad_8hpp_source.html#l00191">PhQ::Dyad&lt; Number &gt;::zx()</a>, <a class="el" href="Dyad_8hpp_source.html#l00196">PhQ::Dyad&lt; Number &gt;::zy()</a>, and <a class="el" href="Dyad_8hpp_source.html#l00201">PhQ::Dyad&lt; Number &gt;::zz()</a>.</p>
+<p class="reference">References <a class="el" href="Base_8hpp_source.html#l00170">PhQ::Print()</a>, <a class="el" href="Dyad_8hpp_source.html#l00164">PhQ::Dyad&lt; Number &gt;::xx()</a>, <a class="el" href="Dyad_8hpp_source.html#l00169">PhQ::Dyad&lt; Number &gt;::xy()</a>, <a class="el" href="Dyad_8hpp_source.html#l00174">PhQ::Dyad&lt; Number &gt;::xz()</a>, <a class="el" href="Dyad_8hpp_source.html#l00179">PhQ::Dyad&lt; Number &gt;::yx()</a>, <a class="el" href="Dyad_8hpp_source.html#l00184">PhQ::Dyad&lt; Number &gt;::yy()</a>, <a class="el" href="Dyad_8hpp_source.html#l00189">PhQ::Dyad&lt; Number &gt;::yz()</a>, <a class="el" href="Dyad_8hpp_source.html#l00194">PhQ::Dyad&lt; Number &gt;::zx()</a>, <a class="el" href="Dyad_8hpp_source.html#l00199">PhQ::Dyad&lt; Number &gt;::zy()</a>, and <a class="el" href="Dyad_8hpp_source.html#l00204">PhQ::Dyad&lt; Number &gt;::zz()</a>.</p>
 
 </div>
 </div>
@@ -2203,11 +2203,11 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns this three-dimensional dyadic tensor's yx Cartesian component. </p>
 
-<p class="definition">Definition at line <a class="el" href="Dyad_8hpp_source.html#l00176">176</a> of file <a class="el" href="Dyad_8hpp_source.html">Dyad.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Dyad_8hpp_source.html#l00179">179</a> of file <a class="el" href="Dyad_8hpp_source.html">Dyad.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Dyad_8hpp_source.html#l00461">PhQ::Dyad&lt; Number &gt;::xx_xy_xz_yx_yy_yz_zx_zy_zz_</a>.</p>
+<p class="reference">References <a class="el" href="Dyad_8hpp_source.html#l00464">PhQ::Dyad&lt; Number &gt;::xx_xy_xz_yx_yy_yz_zx_zy_zz_</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="Dyad_8hpp_source.html#l00355">PhQ::Dyad&lt; Number &gt;::Cofactors()</a>, <a class="el" href="Dyad_8hpp_source.html#l00344">PhQ::Dyad&lt; Number &gt;::Determinant()</a>, <a class="el" href="Dyad_8hpp_source.html#l00060">PhQ::Dyad&lt; Number &gt;::Dyad()</a>, <a class="el" href="Dyad_8hpp_source.html#l00334">PhQ::Dyad&lt; Number &gt;::IsSymmetric()</a>, <a class="el" href="Dyad_8hpp_source.html#l00386">PhQ::Dyad&lt; Number &gt;::JSON()</a>, <a class="el" href="Dyad_8hpp_source.html#l00561">PhQ::operator*()</a>, <a class="el" href="Dyad_8hpp_source.html#l00547">PhQ::operator+()</a>, <a class="el" href="Dyad_8hpp_source.html#l00554">PhQ::operator-()</a>, <a class="el" href="Dyad_8hpp_source.html#l00668">PhQ::operator/()</a>, <a class="el" href="Dyad_8hpp_source.html#l00104">PhQ::Dyad&lt; Number &gt;::operator=()</a>, <a class="el" href="Dyad_8hpp_source.html#l00379">PhQ::Dyad&lt; Number &gt;::Print()</a>, <a class="el" href="Dyad_8hpp_source.html#l00274">PhQ::Dyad&lt; Number &gt;::Set_xx_xy_xz_yx_yy_yz_zx_zy_zz()</a>, <a class="el" href="Dyad_8hpp_source.html#l00304">PhQ::Dyad&lt; Number &gt;::Set_yx()</a>, <a class="el" href="VelocityGradient_8hpp_source.html#l00283">PhQ::StrainRate&lt; Number &gt;::StrainRate()</a>, <a class="el" href="Dyad_8hpp_source.html#l00350">PhQ::Dyad&lt; Number &gt;::Transpose()</a>, <a class="el" href="Dyad_8hpp_source.html#l00394">PhQ::Dyad&lt; Number &gt;::XML()</a>, <a class="el" href="Dyad_8hpp_source.html#l00402">PhQ::Dyad&lt; Number &gt;::YAML()</a>, <a class="el" href="DisplacementGradient_8hpp_source.html#l00135">PhQ::DisplacementGradient&lt; Number &gt;::yx()</a>, and <a class="el" href="VelocityGradient_8hpp_source.html#l00149">PhQ::VelocityGradient&lt; Number &gt;::yx()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="Dyad_8hpp_source.html#l00358">PhQ::Dyad&lt; Number &gt;::Cofactors()</a>, <a class="el" href="Dyad_8hpp_source.html#l00347">PhQ::Dyad&lt; Number &gt;::Determinant()</a>, <a class="el" href="Dyad_8hpp_source.html#l00063">PhQ::Dyad&lt; Number &gt;::Dyad()</a>, <a class="el" href="Dyad_8hpp_source.html#l00337">PhQ::Dyad&lt; Number &gt;::IsSymmetric()</a>, <a class="el" href="Dyad_8hpp_source.html#l00389">PhQ::Dyad&lt; Number &gt;::JSON()</a>, <a class="el" href="Dyad_8hpp_source.html#l00564">PhQ::operator*()</a>, <a class="el" href="Dyad_8hpp_source.html#l00550">PhQ::operator+()</a>, <a class="el" href="Dyad_8hpp_source.html#l00557">PhQ::operator-()</a>, <a class="el" href="Dyad_8hpp_source.html#l00671">PhQ::operator/()</a>, <a class="el" href="Dyad_8hpp_source.html#l00107">PhQ::Dyad&lt; Number &gt;::operator=()</a>, <a class="el" href="Dyad_8hpp_source.html#l00382">PhQ::Dyad&lt; Number &gt;::Print()</a>, <a class="el" href="Dyad_8hpp_source.html#l00277">PhQ::Dyad&lt; Number &gt;::Set_xx_xy_xz_yx_yy_yz_zx_zy_zz()</a>, <a class="el" href="Dyad_8hpp_source.html#l00307">PhQ::Dyad&lt; Number &gt;::Set_yx()</a>, <a class="el" href="VelocityGradient_8hpp_source.html#l00286">PhQ::StrainRate&lt; Number &gt;::StrainRate()</a>, <a class="el" href="Dyad_8hpp_source.html#l00353">PhQ::Dyad&lt; Number &gt;::Transpose()</a>, <a class="el" href="Dyad_8hpp_source.html#l00397">PhQ::Dyad&lt; Number &gt;::XML()</a>, <a class="el" href="Dyad_8hpp_source.html#l00405">PhQ::Dyad&lt; Number &gt;::YAML()</a>, <a class="el" href="DisplacementGradient_8hpp_source.html#l00139">PhQ::DisplacementGradient&lt; Number &gt;::yx()</a>, and <a class="el" href="VelocityGradient_8hpp_source.html#l00152">PhQ::VelocityGradient&lt; Number &gt;::yx()</a>.</p>
 
 </div>
 </div>
@@ -2238,11 +2238,11 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns this three-dimensional dyadic tensor's yy Cartesian component. </p>
 
-<p class="definition">Definition at line <a class="el" href="Dyad_8hpp_source.html#l00181">181</a> of file <a class="el" href="Dyad_8hpp_source.html">Dyad.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Dyad_8hpp_source.html#l00184">184</a> of file <a class="el" href="Dyad_8hpp_source.html">Dyad.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Dyad_8hpp_source.html#l00461">PhQ::Dyad&lt; Number &gt;::xx_xy_xz_yx_yy_yz_zx_zy_zz_</a>.</p>
+<p class="reference">References <a class="el" href="Dyad_8hpp_source.html#l00464">PhQ::Dyad&lt; Number &gt;::xx_xy_xz_yx_yy_yz_zx_zy_zz_</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="Dyad_8hpp_source.html#l00355">PhQ::Dyad&lt; Number &gt;::Cofactors()</a>, <a class="el" href="Dyad_8hpp_source.html#l00344">PhQ::Dyad&lt; Number &gt;::Determinant()</a>, <a class="el" href="Dyad_8hpp_source.html#l00060">PhQ::Dyad&lt; Number &gt;::Dyad()</a>, <a class="el" href="Dyad_8hpp_source.html#l00386">PhQ::Dyad&lt; Number &gt;::JSON()</a>, <a class="el" href="Dyad_8hpp_source.html#l00561">PhQ::operator*()</a>, <a class="el" href="Dyad_8hpp_source.html#l00547">PhQ::operator+()</a>, <a class="el" href="Dyad_8hpp_source.html#l00554">PhQ::operator-()</a>, <a class="el" href="Dyad_8hpp_source.html#l00668">PhQ::operator/()</a>, <a class="el" href="Dyad_8hpp_source.html#l00104">PhQ::Dyad&lt; Number &gt;::operator=()</a>, <a class="el" href="Dyad_8hpp_source.html#l00379">PhQ::Dyad&lt; Number &gt;::Print()</a>, <a class="el" href="Dyad_8hpp_source.html#l00274">PhQ::Dyad&lt; Number &gt;::Set_xx_xy_xz_yx_yy_yz_zx_zy_zz()</a>, <a class="el" href="Dyad_8hpp_source.html#l00309">PhQ::Dyad&lt; Number &gt;::Set_yy()</a>, <a class="el" href="VelocityGradient_8hpp_source.html#l00283">PhQ::StrainRate&lt; Number &gt;::StrainRate()</a>, <a class="el" href="Dyad_8hpp_source.html#l00339">PhQ::Dyad&lt; Number &gt;::Trace()</a>, <a class="el" href="Dyad_8hpp_source.html#l00350">PhQ::Dyad&lt; Number &gt;::Transpose()</a>, <a class="el" href="Dyad_8hpp_source.html#l00394">PhQ::Dyad&lt; Number &gt;::XML()</a>, <a class="el" href="Dyad_8hpp_source.html#l00402">PhQ::Dyad&lt; Number &gt;::YAML()</a>, <a class="el" href="DisplacementGradient_8hpp_source.html#l00140">PhQ::DisplacementGradient&lt; Number &gt;::yy()</a>, and <a class="el" href="VelocityGradient_8hpp_source.html#l00154">PhQ::VelocityGradient&lt; Number &gt;::yy()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="Dyad_8hpp_source.html#l00358">PhQ::Dyad&lt; Number &gt;::Cofactors()</a>, <a class="el" href="Dyad_8hpp_source.html#l00347">PhQ::Dyad&lt; Number &gt;::Determinant()</a>, <a class="el" href="Dyad_8hpp_source.html#l00063">PhQ::Dyad&lt; Number &gt;::Dyad()</a>, <a class="el" href="Dyad_8hpp_source.html#l00389">PhQ::Dyad&lt; Number &gt;::JSON()</a>, <a class="el" href="Dyad_8hpp_source.html#l00564">PhQ::operator*()</a>, <a class="el" href="Dyad_8hpp_source.html#l00550">PhQ::operator+()</a>, <a class="el" href="Dyad_8hpp_source.html#l00557">PhQ::operator-()</a>, <a class="el" href="Dyad_8hpp_source.html#l00671">PhQ::operator/()</a>, <a class="el" href="Dyad_8hpp_source.html#l00107">PhQ::Dyad&lt; Number &gt;::operator=()</a>, <a class="el" href="Dyad_8hpp_source.html#l00382">PhQ::Dyad&lt; Number &gt;::Print()</a>, <a class="el" href="Dyad_8hpp_source.html#l00277">PhQ::Dyad&lt; Number &gt;::Set_xx_xy_xz_yx_yy_yz_zx_zy_zz()</a>, <a class="el" href="Dyad_8hpp_source.html#l00312">PhQ::Dyad&lt; Number &gt;::Set_yy()</a>, <a class="el" href="VelocityGradient_8hpp_source.html#l00286">PhQ::StrainRate&lt; Number &gt;::StrainRate()</a>, <a class="el" href="Dyad_8hpp_source.html#l00342">PhQ::Dyad&lt; Number &gt;::Trace()</a>, <a class="el" href="Dyad_8hpp_source.html#l00353">PhQ::Dyad&lt; Number &gt;::Transpose()</a>, <a class="el" href="Dyad_8hpp_source.html#l00397">PhQ::Dyad&lt; Number &gt;::XML()</a>, <a class="el" href="Dyad_8hpp_source.html#l00405">PhQ::Dyad&lt; Number &gt;::YAML()</a>, <a class="el" href="DisplacementGradient_8hpp_source.html#l00144">PhQ::DisplacementGradient&lt; Number &gt;::yy()</a>, and <a class="el" href="VelocityGradient_8hpp_source.html#l00157">PhQ::VelocityGradient&lt; Number &gt;::yy()</a>.</p>
 
 </div>
 </div>
@@ -2273,11 +2273,11 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns this three-dimensional dyadic tensor's yz Cartesian component. </p>
 
-<p class="definition">Definition at line <a class="el" href="Dyad_8hpp_source.html#l00186">186</a> of file <a class="el" href="Dyad_8hpp_source.html">Dyad.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Dyad_8hpp_source.html#l00189">189</a> of file <a class="el" href="Dyad_8hpp_source.html">Dyad.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Dyad_8hpp_source.html#l00461">PhQ::Dyad&lt; Number &gt;::xx_xy_xz_yx_yy_yz_zx_zy_zz_</a>.</p>
+<p class="reference">References <a class="el" href="Dyad_8hpp_source.html#l00464">PhQ::Dyad&lt; Number &gt;::xx_xy_xz_yx_yy_yz_zx_zy_zz_</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="Dyad_8hpp_source.html#l00355">PhQ::Dyad&lt; Number &gt;::Cofactors()</a>, <a class="el" href="Dyad_8hpp_source.html#l00344">PhQ::Dyad&lt; Number &gt;::Determinant()</a>, <a class="el" href="Dyad_8hpp_source.html#l00060">PhQ::Dyad&lt; Number &gt;::Dyad()</a>, <a class="el" href="Dyad_8hpp_source.html#l00334">PhQ::Dyad&lt; Number &gt;::IsSymmetric()</a>, <a class="el" href="Dyad_8hpp_source.html#l00386">PhQ::Dyad&lt; Number &gt;::JSON()</a>, <a class="el" href="Dyad_8hpp_source.html#l00561">PhQ::operator*()</a>, <a class="el" href="Dyad_8hpp_source.html#l00547">PhQ::operator+()</a>, <a class="el" href="Dyad_8hpp_source.html#l00554">PhQ::operator-()</a>, <a class="el" href="Dyad_8hpp_source.html#l00668">PhQ::operator/()</a>, <a class="el" href="Dyad_8hpp_source.html#l00104">PhQ::Dyad&lt; Number &gt;::operator=()</a>, <a class="el" href="Dyad_8hpp_source.html#l00379">PhQ::Dyad&lt; Number &gt;::Print()</a>, <a class="el" href="Dyad_8hpp_source.html#l00274">PhQ::Dyad&lt; Number &gt;::Set_xx_xy_xz_yx_yy_yz_zx_zy_zz()</a>, <a class="el" href="Dyad_8hpp_source.html#l00314">PhQ::Dyad&lt; Number &gt;::Set_yz()</a>, <a class="el" href="VelocityGradient_8hpp_source.html#l00283">PhQ::StrainRate&lt; Number &gt;::StrainRate()</a>, <a class="el" href="Dyad_8hpp_source.html#l00350">PhQ::Dyad&lt; Number &gt;::Transpose()</a>, <a class="el" href="Dyad_8hpp_source.html#l00394">PhQ::Dyad&lt; Number &gt;::XML()</a>, <a class="el" href="Dyad_8hpp_source.html#l00402">PhQ::Dyad&lt; Number &gt;::YAML()</a>, <a class="el" href="DisplacementGradient_8hpp_source.html#l00145">PhQ::DisplacementGradient&lt; Number &gt;::yz()</a>, and <a class="el" href="VelocityGradient_8hpp_source.html#l00159">PhQ::VelocityGradient&lt; Number &gt;::yz()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="Dyad_8hpp_source.html#l00358">PhQ::Dyad&lt; Number &gt;::Cofactors()</a>, <a class="el" href="Dyad_8hpp_source.html#l00347">PhQ::Dyad&lt; Number &gt;::Determinant()</a>, <a class="el" href="Dyad_8hpp_source.html#l00063">PhQ::Dyad&lt; Number &gt;::Dyad()</a>, <a class="el" href="Dyad_8hpp_source.html#l00337">PhQ::Dyad&lt; Number &gt;::IsSymmetric()</a>, <a class="el" href="Dyad_8hpp_source.html#l00389">PhQ::Dyad&lt; Number &gt;::JSON()</a>, <a class="el" href="Dyad_8hpp_source.html#l00564">PhQ::operator*()</a>, <a class="el" href="Dyad_8hpp_source.html#l00550">PhQ::operator+()</a>, <a class="el" href="Dyad_8hpp_source.html#l00557">PhQ::operator-()</a>, <a class="el" href="Dyad_8hpp_source.html#l00671">PhQ::operator/()</a>, <a class="el" href="Dyad_8hpp_source.html#l00107">PhQ::Dyad&lt; Number &gt;::operator=()</a>, <a class="el" href="Dyad_8hpp_source.html#l00382">PhQ::Dyad&lt; Number &gt;::Print()</a>, <a class="el" href="Dyad_8hpp_source.html#l00277">PhQ::Dyad&lt; Number &gt;::Set_xx_xy_xz_yx_yy_yz_zx_zy_zz()</a>, <a class="el" href="Dyad_8hpp_source.html#l00317">PhQ::Dyad&lt; Number &gt;::Set_yz()</a>, <a class="el" href="VelocityGradient_8hpp_source.html#l00286">PhQ::StrainRate&lt; Number &gt;::StrainRate()</a>, <a class="el" href="Dyad_8hpp_source.html#l00353">PhQ::Dyad&lt; Number &gt;::Transpose()</a>, <a class="el" href="Dyad_8hpp_source.html#l00397">PhQ::Dyad&lt; Number &gt;::XML()</a>, <a class="el" href="Dyad_8hpp_source.html#l00405">PhQ::Dyad&lt; Number &gt;::YAML()</a>, <a class="el" href="DisplacementGradient_8hpp_source.html#l00149">PhQ::DisplacementGradient&lt; Number &gt;::yz()</a>, and <a class="el" href="VelocityGradient_8hpp_source.html#l00162">PhQ::VelocityGradient&lt; Number &gt;::yz()</a>.</p>
 
 </div>
 </div>
@@ -2308,9 +2308,9 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Statically creates a three-dimensional dyadic tensor with its xx, xy, xz, yx, yy, yz, zx, zy, and zz Cartesian components initialized to zero. </p>
 
-<p class="definition">Definition at line <a class="el" href="Dyad_8hpp_source.html#l00145">145</a> of file <a class="el" href="Dyad_8hpp_source.html">Dyad.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Dyad_8hpp_source.html#l00148">148</a> of file <a class="el" href="Dyad_8hpp_source.html">Dyad.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="DisplacementGradient_8hpp_source.html#l00115">PhQ::DisplacementGradient&lt; Number &gt;::Zero()</a>, and <a class="el" href="VelocityGradient_8hpp_source.html#l00100">PhQ::VelocityGradient&lt; Number &gt;::Zero()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="DisplacementGradient_8hpp_source.html#l00119">PhQ::DisplacementGradient&lt; Number &gt;::Zero()</a>, and <a class="el" href="VelocityGradient_8hpp_source.html#l00103">PhQ::VelocityGradient&lt; Number &gt;::Zero()</a>.</p>
 
 </div>
 </div>
@@ -2341,11 +2341,11 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns this three-dimensional dyadic tensor's zx Cartesian component. </p>
 
-<p class="definition">Definition at line <a class="el" href="Dyad_8hpp_source.html#l00191">191</a> of file <a class="el" href="Dyad_8hpp_source.html">Dyad.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Dyad_8hpp_source.html#l00194">194</a> of file <a class="el" href="Dyad_8hpp_source.html">Dyad.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Dyad_8hpp_source.html#l00461">PhQ::Dyad&lt; Number &gt;::xx_xy_xz_yx_yy_yz_zx_zy_zz_</a>.</p>
+<p class="reference">References <a class="el" href="Dyad_8hpp_source.html#l00464">PhQ::Dyad&lt; Number &gt;::xx_xy_xz_yx_yy_yz_zx_zy_zz_</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="Dyad_8hpp_source.html#l00355">PhQ::Dyad&lt; Number &gt;::Cofactors()</a>, <a class="el" href="Dyad_8hpp_source.html#l00344">PhQ::Dyad&lt; Number &gt;::Determinant()</a>, <a class="el" href="Dyad_8hpp_source.html#l00060">PhQ::Dyad&lt; Number &gt;::Dyad()</a>, <a class="el" href="Dyad_8hpp_source.html#l00334">PhQ::Dyad&lt; Number &gt;::IsSymmetric()</a>, <a class="el" href="Dyad_8hpp_source.html#l00386">PhQ::Dyad&lt; Number &gt;::JSON()</a>, <a class="el" href="Dyad_8hpp_source.html#l00561">PhQ::operator*()</a>, <a class="el" href="Dyad_8hpp_source.html#l00547">PhQ::operator+()</a>, <a class="el" href="Dyad_8hpp_source.html#l00554">PhQ::operator-()</a>, <a class="el" href="Dyad_8hpp_source.html#l00668">PhQ::operator/()</a>, <a class="el" href="Dyad_8hpp_source.html#l00104">PhQ::Dyad&lt; Number &gt;::operator=()</a>, <a class="el" href="Dyad_8hpp_source.html#l00379">PhQ::Dyad&lt; Number &gt;::Print()</a>, <a class="el" href="Dyad_8hpp_source.html#l00274">PhQ::Dyad&lt; Number &gt;::Set_xx_xy_xz_yx_yy_yz_zx_zy_zz()</a>, <a class="el" href="Dyad_8hpp_source.html#l00319">PhQ::Dyad&lt; Number &gt;::Set_zx()</a>, <a class="el" href="VelocityGradient_8hpp_source.html#l00283">PhQ::StrainRate&lt; Number &gt;::StrainRate()</a>, <a class="el" href="Dyad_8hpp_source.html#l00350">PhQ::Dyad&lt; Number &gt;::Transpose()</a>, <a class="el" href="Dyad_8hpp_source.html#l00394">PhQ::Dyad&lt; Number &gt;::XML()</a>, <a class="el" href="Dyad_8hpp_source.html#l00402">PhQ::Dyad&lt; Number &gt;::YAML()</a>, <a class="el" href="DisplacementGradient_8hpp_source.html#l00150">PhQ::DisplacementGradient&lt; Number &gt;::zx()</a>, and <a class="el" href="VelocityGradient_8hpp_source.html#l00164">PhQ::VelocityGradient&lt; Number &gt;::zx()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="Dyad_8hpp_source.html#l00358">PhQ::Dyad&lt; Number &gt;::Cofactors()</a>, <a class="el" href="Dyad_8hpp_source.html#l00347">PhQ::Dyad&lt; Number &gt;::Determinant()</a>, <a class="el" href="Dyad_8hpp_source.html#l00063">PhQ::Dyad&lt; Number &gt;::Dyad()</a>, <a class="el" href="Dyad_8hpp_source.html#l00337">PhQ::Dyad&lt; Number &gt;::IsSymmetric()</a>, <a class="el" href="Dyad_8hpp_source.html#l00389">PhQ::Dyad&lt; Number &gt;::JSON()</a>, <a class="el" href="Dyad_8hpp_source.html#l00564">PhQ::operator*()</a>, <a class="el" href="Dyad_8hpp_source.html#l00550">PhQ::operator+()</a>, <a class="el" href="Dyad_8hpp_source.html#l00557">PhQ::operator-()</a>, <a class="el" href="Dyad_8hpp_source.html#l00671">PhQ::operator/()</a>, <a class="el" href="Dyad_8hpp_source.html#l00107">PhQ::Dyad&lt; Number &gt;::operator=()</a>, <a class="el" href="Dyad_8hpp_source.html#l00382">PhQ::Dyad&lt; Number &gt;::Print()</a>, <a class="el" href="Dyad_8hpp_source.html#l00277">PhQ::Dyad&lt; Number &gt;::Set_xx_xy_xz_yx_yy_yz_zx_zy_zz()</a>, <a class="el" href="Dyad_8hpp_source.html#l00322">PhQ::Dyad&lt; Number &gt;::Set_zx()</a>, <a class="el" href="VelocityGradient_8hpp_source.html#l00286">PhQ::StrainRate&lt; Number &gt;::StrainRate()</a>, <a class="el" href="Dyad_8hpp_source.html#l00353">PhQ::Dyad&lt; Number &gt;::Transpose()</a>, <a class="el" href="Dyad_8hpp_source.html#l00397">PhQ::Dyad&lt; Number &gt;::XML()</a>, <a class="el" href="Dyad_8hpp_source.html#l00405">PhQ::Dyad&lt; Number &gt;::YAML()</a>, <a class="el" href="DisplacementGradient_8hpp_source.html#l00154">PhQ::DisplacementGradient&lt; Number &gt;::zx()</a>, and <a class="el" href="VelocityGradient_8hpp_source.html#l00167">PhQ::VelocityGradient&lt; Number &gt;::zx()</a>.</p>
 
 </div>
 </div>
@@ -2376,11 +2376,11 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns this three-dimensional dyadic tensor's zy Cartesian component. </p>
 
-<p class="definition">Definition at line <a class="el" href="Dyad_8hpp_source.html#l00196">196</a> of file <a class="el" href="Dyad_8hpp_source.html">Dyad.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Dyad_8hpp_source.html#l00199">199</a> of file <a class="el" href="Dyad_8hpp_source.html">Dyad.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Dyad_8hpp_source.html#l00461">PhQ::Dyad&lt; Number &gt;::xx_xy_xz_yx_yy_yz_zx_zy_zz_</a>.</p>
+<p class="reference">References <a class="el" href="Dyad_8hpp_source.html#l00464">PhQ::Dyad&lt; Number &gt;::xx_xy_xz_yx_yy_yz_zx_zy_zz_</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="Dyad_8hpp_source.html#l00355">PhQ::Dyad&lt; Number &gt;::Cofactors()</a>, <a class="el" href="Dyad_8hpp_source.html#l00344">PhQ::Dyad&lt; Number &gt;::Determinant()</a>, <a class="el" href="Dyad_8hpp_source.html#l00060">PhQ::Dyad&lt; Number &gt;::Dyad()</a>, <a class="el" href="Dyad_8hpp_source.html#l00334">PhQ::Dyad&lt; Number &gt;::IsSymmetric()</a>, <a class="el" href="Dyad_8hpp_source.html#l00386">PhQ::Dyad&lt; Number &gt;::JSON()</a>, <a class="el" href="Dyad_8hpp_source.html#l00561">PhQ::operator*()</a>, <a class="el" href="Dyad_8hpp_source.html#l00547">PhQ::operator+()</a>, <a class="el" href="Dyad_8hpp_source.html#l00554">PhQ::operator-()</a>, <a class="el" href="Dyad_8hpp_source.html#l00668">PhQ::operator/()</a>, <a class="el" href="Dyad_8hpp_source.html#l00104">PhQ::Dyad&lt; Number &gt;::operator=()</a>, <a class="el" href="Dyad_8hpp_source.html#l00379">PhQ::Dyad&lt; Number &gt;::Print()</a>, <a class="el" href="Dyad_8hpp_source.html#l00274">PhQ::Dyad&lt; Number &gt;::Set_xx_xy_xz_yx_yy_yz_zx_zy_zz()</a>, <a class="el" href="Dyad_8hpp_source.html#l00324">PhQ::Dyad&lt; Number &gt;::Set_zy()</a>, <a class="el" href="VelocityGradient_8hpp_source.html#l00283">PhQ::StrainRate&lt; Number &gt;::StrainRate()</a>, <a class="el" href="Dyad_8hpp_source.html#l00350">PhQ::Dyad&lt; Number &gt;::Transpose()</a>, <a class="el" href="Dyad_8hpp_source.html#l00394">PhQ::Dyad&lt; Number &gt;::XML()</a>, <a class="el" href="Dyad_8hpp_source.html#l00402">PhQ::Dyad&lt; Number &gt;::YAML()</a>, <a class="el" href="DisplacementGradient_8hpp_source.html#l00155">PhQ::DisplacementGradient&lt; Number &gt;::zy()</a>, and <a class="el" href="VelocityGradient_8hpp_source.html#l00169">PhQ::VelocityGradient&lt; Number &gt;::zy()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="Dyad_8hpp_source.html#l00358">PhQ::Dyad&lt; Number &gt;::Cofactors()</a>, <a class="el" href="Dyad_8hpp_source.html#l00347">PhQ::Dyad&lt; Number &gt;::Determinant()</a>, <a class="el" href="Dyad_8hpp_source.html#l00063">PhQ::Dyad&lt; Number &gt;::Dyad()</a>, <a class="el" href="Dyad_8hpp_source.html#l00337">PhQ::Dyad&lt; Number &gt;::IsSymmetric()</a>, <a class="el" href="Dyad_8hpp_source.html#l00389">PhQ::Dyad&lt; Number &gt;::JSON()</a>, <a class="el" href="Dyad_8hpp_source.html#l00564">PhQ::operator*()</a>, <a class="el" href="Dyad_8hpp_source.html#l00550">PhQ::operator+()</a>, <a class="el" href="Dyad_8hpp_source.html#l00557">PhQ::operator-()</a>, <a class="el" href="Dyad_8hpp_source.html#l00671">PhQ::operator/()</a>, <a class="el" href="Dyad_8hpp_source.html#l00107">PhQ::Dyad&lt; Number &gt;::operator=()</a>, <a class="el" href="Dyad_8hpp_source.html#l00382">PhQ::Dyad&lt; Number &gt;::Print()</a>, <a class="el" href="Dyad_8hpp_source.html#l00277">PhQ::Dyad&lt; Number &gt;::Set_xx_xy_xz_yx_yy_yz_zx_zy_zz()</a>, <a class="el" href="Dyad_8hpp_source.html#l00327">PhQ::Dyad&lt; Number &gt;::Set_zy()</a>, <a class="el" href="VelocityGradient_8hpp_source.html#l00286">PhQ::StrainRate&lt; Number &gt;::StrainRate()</a>, <a class="el" href="Dyad_8hpp_source.html#l00353">PhQ::Dyad&lt; Number &gt;::Transpose()</a>, <a class="el" href="Dyad_8hpp_source.html#l00397">PhQ::Dyad&lt; Number &gt;::XML()</a>, <a class="el" href="Dyad_8hpp_source.html#l00405">PhQ::Dyad&lt; Number &gt;::YAML()</a>, <a class="el" href="DisplacementGradient_8hpp_source.html#l00159">PhQ::DisplacementGradient&lt; Number &gt;::zy()</a>, and <a class="el" href="VelocityGradient_8hpp_source.html#l00172">PhQ::VelocityGradient&lt; Number &gt;::zy()</a>.</p>
 
 </div>
 </div>
@@ -2411,11 +2411,11 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns this three-dimensional dyadic tensor's zz Cartesian component. </p>
 
-<p class="definition">Definition at line <a class="el" href="Dyad_8hpp_source.html#l00201">201</a> of file <a class="el" href="Dyad_8hpp_source.html">Dyad.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Dyad_8hpp_source.html#l00204">204</a> of file <a class="el" href="Dyad_8hpp_source.html">Dyad.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Dyad_8hpp_source.html#l00461">PhQ::Dyad&lt; Number &gt;::xx_xy_xz_yx_yy_yz_zx_zy_zz_</a>.</p>
+<p class="reference">References <a class="el" href="Dyad_8hpp_source.html#l00464">PhQ::Dyad&lt; Number &gt;::xx_xy_xz_yx_yy_yz_zx_zy_zz_</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="Dyad_8hpp_source.html#l00355">PhQ::Dyad&lt; Number &gt;::Cofactors()</a>, <a class="el" href="Dyad_8hpp_source.html#l00344">PhQ::Dyad&lt; Number &gt;::Determinant()</a>, <a class="el" href="Dyad_8hpp_source.html#l00060">PhQ::Dyad&lt; Number &gt;::Dyad()</a>, <a class="el" href="Dyad_8hpp_source.html#l00386">PhQ::Dyad&lt; Number &gt;::JSON()</a>, <a class="el" href="Dyad_8hpp_source.html#l00561">PhQ::operator*()</a>, <a class="el" href="Dyad_8hpp_source.html#l00547">PhQ::operator+()</a>, <a class="el" href="Dyad_8hpp_source.html#l00554">PhQ::operator-()</a>, <a class="el" href="Dyad_8hpp_source.html#l00668">PhQ::operator/()</a>, <a class="el" href="Dyad_8hpp_source.html#l00104">PhQ::Dyad&lt; Number &gt;::operator=()</a>, <a class="el" href="Dyad_8hpp_source.html#l00379">PhQ::Dyad&lt; Number &gt;::Print()</a>, <a class="el" href="Dyad_8hpp_source.html#l00274">PhQ::Dyad&lt; Number &gt;::Set_xx_xy_xz_yx_yy_yz_zx_zy_zz()</a>, <a class="el" href="Dyad_8hpp_source.html#l00329">PhQ::Dyad&lt; Number &gt;::Set_zz()</a>, <a class="el" href="VelocityGradient_8hpp_source.html#l00283">PhQ::StrainRate&lt; Number &gt;::StrainRate()</a>, <a class="el" href="Dyad_8hpp_source.html#l00339">PhQ::Dyad&lt; Number &gt;::Trace()</a>, <a class="el" href="Dyad_8hpp_source.html#l00350">PhQ::Dyad&lt; Number &gt;::Transpose()</a>, <a class="el" href="Dyad_8hpp_source.html#l00394">PhQ::Dyad&lt; Number &gt;::XML()</a>, <a class="el" href="Dyad_8hpp_source.html#l00402">PhQ::Dyad&lt; Number &gt;::YAML()</a>, <a class="el" href="DisplacementGradient_8hpp_source.html#l00160">PhQ::DisplacementGradient&lt; Number &gt;::zz()</a>, and <a class="el" href="VelocityGradient_8hpp_source.html#l00174">PhQ::VelocityGradient&lt; Number &gt;::zz()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="Dyad_8hpp_source.html#l00358">PhQ::Dyad&lt; Number &gt;::Cofactors()</a>, <a class="el" href="Dyad_8hpp_source.html#l00347">PhQ::Dyad&lt; Number &gt;::Determinant()</a>, <a class="el" href="Dyad_8hpp_source.html#l00063">PhQ::Dyad&lt; Number &gt;::Dyad()</a>, <a class="el" href="Dyad_8hpp_source.html#l00389">PhQ::Dyad&lt; Number &gt;::JSON()</a>, <a class="el" href="Dyad_8hpp_source.html#l00564">PhQ::operator*()</a>, <a class="el" href="Dyad_8hpp_source.html#l00550">PhQ::operator+()</a>, <a class="el" href="Dyad_8hpp_source.html#l00557">PhQ::operator-()</a>, <a class="el" href="Dyad_8hpp_source.html#l00671">PhQ::operator/()</a>, <a class="el" href="Dyad_8hpp_source.html#l00107">PhQ::Dyad&lt; Number &gt;::operator=()</a>, <a class="el" href="Dyad_8hpp_source.html#l00382">PhQ::Dyad&lt; Number &gt;::Print()</a>, <a class="el" href="Dyad_8hpp_source.html#l00277">PhQ::Dyad&lt; Number &gt;::Set_xx_xy_xz_yx_yy_yz_zx_zy_zz()</a>, <a class="el" href="Dyad_8hpp_source.html#l00332">PhQ::Dyad&lt; Number &gt;::Set_zz()</a>, <a class="el" href="VelocityGradient_8hpp_source.html#l00286">PhQ::StrainRate&lt; Number &gt;::StrainRate()</a>, <a class="el" href="Dyad_8hpp_source.html#l00342">PhQ::Dyad&lt; Number &gt;::Trace()</a>, <a class="el" href="Dyad_8hpp_source.html#l00353">PhQ::Dyad&lt; Number &gt;::Transpose()</a>, <a class="el" href="Dyad_8hpp_source.html#l00397">PhQ::Dyad&lt; Number &gt;::XML()</a>, <a class="el" href="Dyad_8hpp_source.html#l00405">PhQ::Dyad&lt; Number &gt;::YAML()</a>, <a class="el" href="DisplacementGradient_8hpp_source.html#l00164">PhQ::DisplacementGradient&lt; Number &gt;::zz()</a>, and <a class="el" href="VelocityGradient_8hpp_source.html#l00177">PhQ::VelocityGradient&lt; Number &gt;::zz()</a>.</p>
 
 </div>
 </div>
@@ -2444,9 +2444,9 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Cartesian components of this three-dimensional dyadic tensor. </p>
 
-<p class="definition">Definition at line <a class="el" href="Dyad_8hpp_source.html#l00461">461</a> of file <a class="el" href="Dyad_8hpp_source.html">Dyad.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Dyad_8hpp_source.html#l00464">464</a> of file <a class="el" href="Dyad_8hpp_source.html">Dyad.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="Dyad_8hpp_source.html#l00213">PhQ::Dyad&lt; Number &gt;::Mutable_xx()</a>, <a class="el" href="Dyad_8hpp_source.html#l00207">PhQ::Dyad&lt; Number &gt;::Mutable_xx_xy_xz_yx_yy_yz_zx_zy_zz()</a>, <a class="el" href="Dyad_8hpp_source.html#l00219">PhQ::Dyad&lt; Number &gt;::Mutable_xy()</a>, <a class="el" href="Dyad_8hpp_source.html#l00225">PhQ::Dyad&lt; Number &gt;::Mutable_xz()</a>, <a class="el" href="Dyad_8hpp_source.html#l00231">PhQ::Dyad&lt; Number &gt;::Mutable_yx()</a>, <a class="el" href="Dyad_8hpp_source.html#l00243">PhQ::Dyad&lt; Number &gt;::Mutable_yz()</a>, <a class="el" href="Dyad_8hpp_source.html#l00249">PhQ::Dyad&lt; Number &gt;::Mutable_zx()</a>, <a class="el" href="Dyad_8hpp_source.html#l00255">PhQ::Dyad&lt; Number &gt;::Mutable_zy()</a>, <a class="el" href="Dyad_8hpp_source.html#l00261">PhQ::Dyad&lt; Number &gt;::Mutable_zz()</a>, <a class="el" href="Dyad_8hpp_source.html#l00434">PhQ::Dyad&lt; Number &gt;::operator*=()</a>, <a class="el" href="Dyad_8hpp_source.html#l00409">PhQ::Dyad&lt; Number &gt;::operator+=()</a>, <a class="el" href="Dyad_8hpp_source.html#l00421">PhQ::Dyad&lt; Number &gt;::operator-=()</a>, <a class="el" href="Dyad_8hpp_source.html#l00447">PhQ::Dyad&lt; Number &gt;::operator/=()</a>, <a class="el" href="Dyad_8hpp_source.html#l00104">PhQ::Dyad&lt; Number &gt;::operator=()</a>, <a class="el" href="Dyad_8hpp_source.html#l00289">PhQ::Dyad&lt; Number &gt;::Set_xx()</a>, <a class="el" href="Dyad_8hpp_source.html#l00267">PhQ::Dyad&lt; Number &gt;::Set_xx_xy_xz_yx_yy_yz_zx_zy_zz()</a>, <a class="el" href="Dyad_8hpp_source.html#l00294">PhQ::Dyad&lt; Number &gt;::Set_xy()</a>, <a class="el" href="Dyad_8hpp_source.html#l00299">PhQ::Dyad&lt; Number &gt;::Set_xz()</a>, <a class="el" href="Dyad_8hpp_source.html#l00304">PhQ::Dyad&lt; Number &gt;::Set_yx()</a>, <a class="el" href="Dyad_8hpp_source.html#l00309">PhQ::Dyad&lt; Number &gt;::Set_yy()</a>, <a class="el" href="Dyad_8hpp_source.html#l00314">PhQ::Dyad&lt; Number &gt;::Set_yz()</a>, <a class="el" href="Dyad_8hpp_source.html#l00319">PhQ::Dyad&lt; Number &gt;::Set_zx()</a>, <a class="el" href="Dyad_8hpp_source.html#l00324">PhQ::Dyad&lt; Number &gt;::Set_zy()</a>, <a class="el" href="Dyad_8hpp_source.html#l00329">PhQ::Dyad&lt; Number &gt;::Set_zz()</a>, <a class="el" href="Dyad_8hpp_source.html#l00161">PhQ::Dyad&lt; Number &gt;::xx()</a>, <a class="el" href="Dyad_8hpp_source.html#l00156">PhQ::Dyad&lt; Number &gt;::xx_xy_xz_yx_yy_yz_zx_zy_zz()</a>, <a class="el" href="Dyad_8hpp_source.html#l00166">PhQ::Dyad&lt; Number &gt;::xy()</a>, <a class="el" href="Dyad_8hpp_source.html#l00171">PhQ::Dyad&lt; Number &gt;::xz()</a>, <a class="el" href="Dyad_8hpp_source.html#l00176">PhQ::Dyad&lt; Number &gt;::yx()</a>, <a class="el" href="Dyad_8hpp_source.html#l00181">PhQ::Dyad&lt; Number &gt;::yy()</a>, <a class="el" href="Dyad_8hpp_source.html#l00186">PhQ::Dyad&lt; Number &gt;::yz()</a>, <a class="el" href="Dyad_8hpp_source.html#l00191">PhQ::Dyad&lt; Number &gt;::zx()</a>, <a class="el" href="Dyad_8hpp_source.html#l00196">PhQ::Dyad&lt; Number &gt;::zy()</a>, and <a class="el" href="Dyad_8hpp_source.html#l00201">PhQ::Dyad&lt; Number &gt;::zz()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="Dyad_8hpp_source.html#l00705">PhQ::Vector&lt; double &gt;::Dyadic()</a>, <a class="el" href="Dyad_8hpp_source.html#l00216">PhQ::Dyad&lt; Number &gt;::Mutable_xx()</a>, <a class="el" href="Dyad_8hpp_source.html#l00210">PhQ::Dyad&lt; Number &gt;::Mutable_xx_xy_xz_yx_yy_yz_zx_zy_zz()</a>, <a class="el" href="Dyad_8hpp_source.html#l00222">PhQ::Dyad&lt; Number &gt;::Mutable_xy()</a>, <a class="el" href="Dyad_8hpp_source.html#l00228">PhQ::Dyad&lt; Number &gt;::Mutable_xz()</a>, <a class="el" href="Dyad_8hpp_source.html#l00234">PhQ::Dyad&lt; Number &gt;::Mutable_yx()</a>, <a class="el" href="Dyad_8hpp_source.html#l00246">PhQ::Dyad&lt; Number &gt;::Mutable_yz()</a>, <a class="el" href="Dyad_8hpp_source.html#l00252">PhQ::Dyad&lt; Number &gt;::Mutable_zx()</a>, <a class="el" href="Dyad_8hpp_source.html#l00258">PhQ::Dyad&lt; Number &gt;::Mutable_zy()</a>, <a class="el" href="Dyad_8hpp_source.html#l00264">PhQ::Dyad&lt; Number &gt;::Mutable_zz()</a>, <a class="el" href="Dyad_8hpp_source.html#l00437">PhQ::Dyad&lt; Number &gt;::operator*=()</a>, <a class="el" href="Dyad_8hpp_source.html#l00412">PhQ::Dyad&lt; Number &gt;::operator+=()</a>, <a class="el" href="Dyad_8hpp_source.html#l00424">PhQ::Dyad&lt; Number &gt;::operator-=()</a>, <a class="el" href="Dyad_8hpp_source.html#l00450">PhQ::Dyad&lt; Number &gt;::operator/=()</a>, <a class="el" href="Dyad_8hpp_source.html#l00107">PhQ::Dyad&lt; Number &gt;::operator=()</a>, <a class="el" href="Dyad_8hpp_source.html#l00292">PhQ::Dyad&lt; Number &gt;::Set_xx()</a>, <a class="el" href="Dyad_8hpp_source.html#l00270">PhQ::Dyad&lt; Number &gt;::Set_xx_xy_xz_yx_yy_yz_zx_zy_zz()</a>, <a class="el" href="Dyad_8hpp_source.html#l00297">PhQ::Dyad&lt; Number &gt;::Set_xy()</a>, <a class="el" href="Dyad_8hpp_source.html#l00302">PhQ::Dyad&lt; Number &gt;::Set_xz()</a>, <a class="el" href="Dyad_8hpp_source.html#l00307">PhQ::Dyad&lt; Number &gt;::Set_yx()</a>, <a class="el" href="Dyad_8hpp_source.html#l00312">PhQ::Dyad&lt; Number &gt;::Set_yy()</a>, <a class="el" href="Dyad_8hpp_source.html#l00317">PhQ::Dyad&lt; Number &gt;::Set_yz()</a>, <a class="el" href="Dyad_8hpp_source.html#l00322">PhQ::Dyad&lt; Number &gt;::Set_zx()</a>, <a class="el" href="Dyad_8hpp_source.html#l00327">PhQ::Dyad&lt; Number &gt;::Set_zy()</a>, <a class="el" href="Dyad_8hpp_source.html#l00332">PhQ::Dyad&lt; Number &gt;::Set_zz()</a>, <a class="el" href="Dyad_8hpp_source.html#l00164">PhQ::Dyad&lt; Number &gt;::xx()</a>, <a class="el" href="Dyad_8hpp_source.html#l00159">PhQ::Dyad&lt; Number &gt;::xx_xy_xz_yx_yy_yz_zx_zy_zz()</a>, <a class="el" href="Dyad_8hpp_source.html#l00169">PhQ::Dyad&lt; Number &gt;::xy()</a>, <a class="el" href="Dyad_8hpp_source.html#l00174">PhQ::Dyad&lt; Number &gt;::xz()</a>, <a class="el" href="Dyad_8hpp_source.html#l00179">PhQ::Dyad&lt; Number &gt;::yx()</a>, <a class="el" href="Dyad_8hpp_source.html#l00184">PhQ::Dyad&lt; Number &gt;::yy()</a>, <a class="el" href="Dyad_8hpp_source.html#l00189">PhQ::Dyad&lt; Number &gt;::yz()</a>, <a class="el" href="Dyad_8hpp_source.html#l00194">PhQ::Dyad&lt; Number &gt;::zx()</a>, <a class="el" href="Dyad_8hpp_source.html#l00199">PhQ::Dyad&lt; Number &gt;::zy()</a>, and <a class="el" href="Dyad_8hpp_source.html#l00204">PhQ::Dyad&lt; Number &gt;::zz()</a>.</p>
 
 </div>
 </div>

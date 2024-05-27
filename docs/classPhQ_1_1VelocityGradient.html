@@ -113,7 +113,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search','.html');
 </div><!--header-->
 <div class="contents">
 
-<p><a class="el" href="classPhQ_1_1Velocity.html" title="Velocity vector. Not to be confused with speed, which is its scalar analog. See also PhQ::Speed and P...">Velocity</a> gradient dyadic tensor. In general, this dyadic tensor is asymmetric. See also <a class="el" href="classPhQ_1_1ScalarVelocityGradient.html" title="Scalar component or resultant of a velocity gradient tensor. Time rate of change of a scalar displace...">PhQ::ScalarVelocityGradient</a> and <a class="el" href="classPhQ_1_1DisplacementGradient.html" title="Displacement gradient dyadic tensor. Gradient of the displacement vector. In general,...">PhQ::DisplacementGradient</a>.  
+<p>Three-dimensional Euclidean velocity gradient dyadic tensor. Gradient of the velocity vector. May be symmetric or asymmetric. Contains nine components in Cartesian coordinates: xx, xy, xz, yx, yy, yz, zx, zy, and zz. For the scalar components or resultants of a velocity gradient tensor, see <a class="el" href="classPhQ_1_1ScalarVelocityGradient.html" title="Scalar component or resultant of a three-dimensional Euclidean velocity gradient dyadic tensor....">PhQ::ScalarVelocityGradient</a>. Can also represent the time rate of change of a displacement gradient; see <a class="el" href="classPhQ_1_1DisplacementGradient.html" title="Three-dimensional Euclidean displacement gradient dyadic tensor. Gradient of the displacement vector....">PhQ::DisplacementGradient</a>, <a class="el" href="classPhQ_1_1Time.html" title="Time. Can represent either a point in time, a time duration, or a period. For the inverse of time,...">PhQ::Time</a>, and <a class="el" href="classPhQ_1_1Frequency.html" title="Frequency. Inverse of a time duration. See also PhQ::Time.">PhQ::Frequency</a>.  
  <a href="classPhQ_1_1VelocityGradient.html#details">More...</a></p>
 
 <p><code>#include &quot;<a class="el" href="VelocityGradient_8hpp_source.html">VelocityGradient.hpp</a>&quot;</code></p>
@@ -285,9 +285,9 @@ Private Member Functions</h2></td></tr>
 <div class="textblock"><h3>template&lt;typename Number = double&gt;<br />
 class PhQ::VelocityGradient&lt; Number &gt;</h3>
 
-<p><a class="el" href="classPhQ_1_1Velocity.html" title="Velocity vector. Not to be confused with speed, which is its scalar analog. See also PhQ::Speed and P...">Velocity</a> gradient dyadic tensor. In general, this dyadic tensor is asymmetric. See also <a class="el" href="classPhQ_1_1ScalarVelocityGradient.html" title="Scalar component or resultant of a velocity gradient tensor. Time rate of change of a scalar displace...">PhQ::ScalarVelocityGradient</a> and <a class="el" href="classPhQ_1_1DisplacementGradient.html" title="Displacement gradient dyadic tensor. Gradient of the displacement vector. In general,...">PhQ::DisplacementGradient</a>. </p>
+<p>Three-dimensional Euclidean velocity gradient dyadic tensor. Gradient of the velocity vector. May be symmetric or asymmetric. Contains nine components in Cartesian coordinates: xx, xy, xz, yx, yy, yz, zx, zy, and zz. For the scalar components or resultants of a velocity gradient tensor, see <a class="el" href="classPhQ_1_1ScalarVelocityGradient.html" title="Scalar component or resultant of a three-dimensional Euclidean velocity gradient dyadic tensor....">PhQ::ScalarVelocityGradient</a>. Can also represent the time rate of change of a displacement gradient; see <a class="el" href="classPhQ_1_1DisplacementGradient.html" title="Three-dimensional Euclidean displacement gradient dyadic tensor. Gradient of the displacement vector....">PhQ::DisplacementGradient</a>, <a class="el" href="classPhQ_1_1Time.html" title="Time. Can represent either a point in time, a time duration, or a period. For the inverse of time,...">PhQ::Time</a>, and <a class="el" href="classPhQ_1_1Frequency.html" title="Frequency. Inverse of a time duration. See also PhQ::Time.">PhQ::Frequency</a>. </p>
 
-<p class="definition">Definition at line <a class="el" href="VelocityGradient_8hpp_source.html#l00049">49</a> of file <a class="el" href="VelocityGradient_8hpp_source.html">VelocityGradient.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="VelocityGradient_8hpp_source.html#l00052">52</a> of file <a class="el" href="VelocityGradient_8hpp_source.html">VelocityGradient.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a9864091a86b8d4d20eb4477ae7b91b30"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9864091a86b8d4d20eb4477ae7b91b30">&#9670;&nbsp;</a></span>VelocityGradient() <span class="overload">[1/8]</span></h2>
@@ -356,7 +356,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Constructor. Constructs a velocity gradient tensor with a given value expressed in a given frequency unit. </p>
 
-<p class="definition">Definition at line <a class="el" href="VelocityGradient_8hpp_source.html#l00056">56</a> of file <a class="el" href="VelocityGradient_8hpp_source.html">VelocityGradient.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="VelocityGradient_8hpp_source.html#l00059">59</a> of file <a class="el" href="VelocityGradient_8hpp_source.html">VelocityGradient.hpp</a>.</p>
 
 </div>
 </div>
@@ -398,7 +398,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Constructor. Constructs a velocity gradient tensor from a given displacement gradient tensor and time using the definition of speed. </p>
 
-<p class="definition">Definition at line <a class="el" href="VelocityGradient_8hpp_source.html#l00061">61</a> of file <a class="el" href="VelocityGradient_8hpp_source.html">VelocityGradient.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="VelocityGradient_8hpp_source.html#l00064">64</a> of file <a class="el" href="VelocityGradient_8hpp_source.html">VelocityGradient.hpp</a>.</p>
 
 </div>
 </div>
@@ -440,7 +440,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Constructor. Constructs a velocity gradient tensor from a given displacement gradient tensor and frequency using the definition of speed. </p>
 
-<p class="definition">Definition at line <a class="el" href="VelocityGradient_8hpp_source.html#l00067">67</a> of file <a class="el" href="VelocityGradient_8hpp_source.html">VelocityGradient.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="VelocityGradient_8hpp_source.html#l00070">70</a> of file <a class="el" href="VelocityGradient_8hpp_source.html">VelocityGradient.hpp</a>.</p>
 
 </div>
 </div>
@@ -533,7 +533,7 @@ template&lt;typename OtherNumber &gt; </div>
 
 <p>Copy constructor. Constructs a velocity gradient tensor by copying another one. </p>
 
-<p class="definition">Definition at line <a class="el" href="VelocityGradient_8hpp_source.html#l00079">79</a> of file <a class="el" href="VelocityGradient_8hpp_source.html">VelocityGradient.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="VelocityGradient_8hpp_source.html#l00082">82</a> of file <a class="el" href="VelocityGradient_8hpp_source.html">VelocityGradient.hpp</a>.</p>
 
 </div>
 </div>
@@ -595,7 +595,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Constructor. Constructs a velocity gradient tensor with a given value expressed in the standard frequency unit. </p>
 
-<p class="definition">Definition at line <a class="el" href="VelocityGradient_8hpp_source.html#l00229">229</a> of file <a class="el" href="VelocityGradient_8hpp_source.html">VelocityGradient.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="VelocityGradient_8hpp_source.html#l00232">232</a> of file <a class="el" href="VelocityGradient_8hpp_source.html">VelocityGradient.hpp</a>.</p>
 
 </div>
 </div>
@@ -630,7 +630,7 @@ template&lt;Unit::Frequency Unit&gt; </div>
 
 <p>Statically creates a velocity gradient tensor with a given value expressed in a given frequency unit. </p>
 
-<p class="definition">Definition at line <a class="el" href="VelocityGradient_8hpp_source.html#l00128">128</a> of file <a class="el" href="VelocityGradient_8hpp_source.html">VelocityGradient.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="VelocityGradient_8hpp_source.html#l00131">131</a> of file <a class="el" href="VelocityGradient_8hpp_source.html">VelocityGradient.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalDyad_8hpp_source.html#l00214">PhQ::DimensionalDyad&lt; Unit::Frequency, double &gt;::value</a>.</p>
 
@@ -718,9 +718,9 @@ template&lt;Unit::Frequency Unit&gt; </div>
 
 <p>Statically creates a velocity gradient tensor from the given xx, xy, xz, yx, yy, yz, zx,zy, and zz Cartesian components expressed in a given frequency unit. </p>
 
-<p class="definition">Definition at line <a class="el" href="VelocityGradient_8hpp_source.html#l00107">107</a> of file <a class="el" href="VelocityGradient_8hpp_source.html">VelocityGradient.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="VelocityGradient_8hpp_source.html#l00110">110</a> of file <a class="el" href="VelocityGradient_8hpp_source.html">VelocityGradient.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="VelocityGradient_8hpp_source.html#l00134">PhQ::VelocityGradient&lt; Number &gt;::xx()</a>, <a class="el" href="VelocityGradient_8hpp_source.html#l00139">PhQ::VelocityGradient&lt; Number &gt;::xy()</a>, <a class="el" href="VelocityGradient_8hpp_source.html#l00144">PhQ::VelocityGradient&lt; Number &gt;::xz()</a>, <a class="el" href="VelocityGradient_8hpp_source.html#l00149">PhQ::VelocityGradient&lt; Number &gt;::yx()</a>, <a class="el" href="VelocityGradient_8hpp_source.html#l00154">PhQ::VelocityGradient&lt; Number &gt;::yy()</a>, <a class="el" href="VelocityGradient_8hpp_source.html#l00159">PhQ::VelocityGradient&lt; Number &gt;::yz()</a>, <a class="el" href="VelocityGradient_8hpp_source.html#l00164">PhQ::VelocityGradient&lt; Number &gt;::zx()</a>, <a class="el" href="VelocityGradient_8hpp_source.html#l00169">PhQ::VelocityGradient&lt; Number &gt;::zy()</a>, and <a class="el" href="VelocityGradient_8hpp_source.html#l00174">PhQ::VelocityGradient&lt; Number &gt;::zz()</a>.</p>
+<p class="reference">References <a class="el" href="VelocityGradient_8hpp_source.html#l00137">PhQ::VelocityGradient&lt; Number &gt;::xx()</a>, <a class="el" href="VelocityGradient_8hpp_source.html#l00142">PhQ::VelocityGradient&lt; Number &gt;::xy()</a>, <a class="el" href="VelocityGradient_8hpp_source.html#l00147">PhQ::VelocityGradient&lt; Number &gt;::xz()</a>, <a class="el" href="VelocityGradient_8hpp_source.html#l00152">PhQ::VelocityGradient&lt; Number &gt;::yx()</a>, <a class="el" href="VelocityGradient_8hpp_source.html#l00157">PhQ::VelocityGradient&lt; Number &gt;::yy()</a>, <a class="el" href="VelocityGradient_8hpp_source.html#l00162">PhQ::VelocityGradient&lt; Number &gt;::yz()</a>, <a class="el" href="VelocityGradient_8hpp_source.html#l00167">PhQ::VelocityGradient&lt; Number &gt;::zx()</a>, <a class="el" href="VelocityGradient_8hpp_source.html#l00172">PhQ::VelocityGradient&lt; Number &gt;::zy()</a>, and <a class="el" href="VelocityGradient_8hpp_source.html#l00177">PhQ::VelocityGradient&lt; Number &gt;::zz()</a>.</p>
 
 </div>
 </div>
@@ -754,7 +754,7 @@ template&lt;Unit::Frequency Unit&gt; </div>
 
 <p>Statically creates a velocity gradient tensor from the given xx, xy, xz, yx, yy, yz, zx,zy, and zz Cartesian components expressed in a given frequency unit. </p>
 
-<p class="definition">Definition at line <a class="el" href="VelocityGradient_8hpp_source.html#l00118">118</a> of file <a class="el" href="VelocityGradient_8hpp_source.html">VelocityGradient.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="VelocityGradient_8hpp_source.html#l00121">121</a> of file <a class="el" href="VelocityGradient_8hpp_source.html">VelocityGradient.hpp</a>.</p>
 
 </div>
 </div>
@@ -901,7 +901,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="VelocityGradient_8hpp_source.html#l00194">194</a> of file <a class="el" href="VelocityGradient_8hpp_source.html">VelocityGradient.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="VelocityGradient_8hpp_source.html#l00197">197</a> of file <a class="el" href="VelocityGradient_8hpp_source.html">VelocityGradient.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalDyad_8hpp_source.html#l00214">PhQ::DimensionalDyad&lt; Unit::Frequency, double &gt;::value</a>.</p>
 
@@ -933,7 +933,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="VelocityGradient_8hpp_source.html#l00198">198</a> of file <a class="el" href="VelocityGradient_8hpp_source.html">VelocityGradient.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="VelocityGradient_8hpp_source.html#l00201">201</a> of file <a class="el" href="VelocityGradient_8hpp_source.html">VelocityGradient.hpp</a>.</p>
 
 </div>
 </div>
@@ -963,7 +963,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="VelocityGradient_8hpp_source.html#l00218">218</a> of file <a class="el" href="VelocityGradient_8hpp_source.html">VelocityGradient.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="VelocityGradient_8hpp_source.html#l00221">221</a> of file <a class="el" href="VelocityGradient_8hpp_source.html">VelocityGradient.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalDyad_8hpp_source.html#l00214">PhQ::DimensionalDyad&lt; Unit::Frequency, double &gt;::value</a>.</p>
 
@@ -995,7 +995,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="VelocityGradient_8hpp_source.html#l00184">184</a> of file <a class="el" href="VelocityGradient_8hpp_source.html">VelocityGradient.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="VelocityGradient_8hpp_source.html#l00187">187</a> of file <a class="el" href="VelocityGradient_8hpp_source.html">VelocityGradient.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalDyad_8hpp_source.html#l00214">PhQ::DimensionalDyad&lt; UnitType, Number &gt;::value</a>, and <a class="el" href="DimensionalDyad_8hpp_source.html#l00214">PhQ::DimensionalDyad&lt; Unit::Frequency, double &gt;::value</a>.</p>
 
@@ -1027,7 +1027,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="VelocityGradient_8hpp_source.html#l00210">210</a> of file <a class="el" href="VelocityGradient_8hpp_source.html">VelocityGradient.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="VelocityGradient_8hpp_source.html#l00213">213</a> of file <a class="el" href="VelocityGradient_8hpp_source.html">VelocityGradient.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalDyad_8hpp_source.html#l00214">PhQ::DimensionalDyad&lt; Unit::Frequency, double &gt;::value</a>.</p>
 
@@ -1059,7 +1059,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="VelocityGradient_8hpp_source.html#l00189">189</a> of file <a class="el" href="VelocityGradient_8hpp_source.html">VelocityGradient.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="VelocityGradient_8hpp_source.html#l00192">192</a> of file <a class="el" href="VelocityGradient_8hpp_source.html">VelocityGradient.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalDyad_8hpp_source.html#l00214">PhQ::DimensionalDyad&lt; UnitType, Number &gt;::value</a>, and <a class="el" href="DimensionalDyad_8hpp_source.html#l00214">PhQ::DimensionalDyad&lt; Unit::Frequency, double &gt;::value</a>.</p>
 
@@ -1091,7 +1091,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="VelocityGradient_8hpp_source.html#l00214">214</a> of file <a class="el" href="VelocityGradient_8hpp_source.html">VelocityGradient.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="VelocityGradient_8hpp_source.html#l00217">217</a> of file <a class="el" href="VelocityGradient_8hpp_source.html">VelocityGradient.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalDyad_8hpp_source.html#l00214">PhQ::DimensionalDyad&lt; Unit::Frequency, double &gt;::value</a>.</p>
 
@@ -1123,7 +1123,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="VelocityGradient_8hpp_source.html#l00206">206</a> of file <a class="el" href="VelocityGradient_8hpp_source.html">VelocityGradient.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="VelocityGradient_8hpp_source.html#l00209">209</a> of file <a class="el" href="VelocityGradient_8hpp_source.html">VelocityGradient.hpp</a>.</p>
 
 </div>
 </div>
@@ -1153,7 +1153,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="VelocityGradient_8hpp_source.html#l00202">202</a> of file <a class="el" href="VelocityGradient_8hpp_source.html">VelocityGradient.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="VelocityGradient_8hpp_source.html#l00205">205</a> of file <a class="el" href="VelocityGradient_8hpp_source.html">VelocityGradient.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalDyad_8hpp_source.html#l00214">PhQ::DimensionalDyad&lt; Unit::Frequency, double &gt;::value</a>.</p>
 
@@ -1185,7 +1185,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="VelocityGradient_8hpp_source.html#l00222">222</a> of file <a class="el" href="VelocityGradient_8hpp_source.html">VelocityGradient.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="VelocityGradient_8hpp_source.html#l00225">225</a> of file <a class="el" href="VelocityGradient_8hpp_source.html">VelocityGradient.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalDyad_8hpp_source.html#l00214">PhQ::DimensionalDyad&lt; Unit::Frequency, double &gt;::value</a>.</p>
 
@@ -1251,7 +1251,7 @@ template&lt;typename OtherNumber &gt; </div>
 
 <p>Copy assignment operator. Assigns this velocity gradient tensor by copying another one. </p>
 
-<p class="definition">Definition at line <a class="el" href="VelocityGradient_8hpp_source.html#l00090">90</a> of file <a class="el" href="VelocityGradient_8hpp_source.html">VelocityGradient.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="VelocityGradient_8hpp_source.html#l00093">93</a> of file <a class="el" href="VelocityGradient_8hpp_source.html">VelocityGradient.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalDyad_8hpp_source.html#l00060">PhQ::DimensionalDyad&lt; UnitType, Number &gt;::Value()</a>, and <a class="el" href="DimensionalDyad_8hpp_source.html#l00214">PhQ::DimensionalDyad&lt; Unit::Frequency, double &gt;::value</a>.</p>
 
@@ -1432,7 +1432,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Creates a strain rate tensor from this velocity gradient tensor using the definition of the strain rate tensor. </p>
 
-<p class="definition">Definition at line <a class="el" href="VelocityGradient_8hpp_source.html#l00180">180</a> of file <a class="el" href="VelocityGradient_8hpp_source.html">VelocityGradient.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="VelocityGradient_8hpp_source.html#l00183">183</a> of file <a class="el" href="VelocityGradient_8hpp_source.html">VelocityGradient.hpp</a>.</p>
 
 </div>
 </div>
@@ -1610,11 +1610,11 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the xx Cartesian component of this velocity gradient tensor. </p>
 
-<p class="definition">Definition at line <a class="el" href="VelocityGradient_8hpp_source.html#l00134">134</a> of file <a class="el" href="VelocityGradient_8hpp_source.html">VelocityGradient.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="VelocityGradient_8hpp_source.html#l00137">137</a> of file <a class="el" href="VelocityGradient_8hpp_source.html">VelocityGradient.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionalDyad_8hpp_source.html#l00214">PhQ::DimensionalDyad&lt; Unit::Frequency, double &gt;::value</a>, and <a class="el" href="Dyad_8hpp_source.html#l00161">PhQ::Dyad&lt; Number &gt;::xx()</a>.</p>
+<p class="reference">References <a class="el" href="DimensionalDyad_8hpp_source.html#l00214">PhQ::DimensionalDyad&lt; Unit::Frequency, double &gt;::value</a>, and <a class="el" href="Dyad_8hpp_source.html#l00164">PhQ::Dyad&lt; Number &gt;::xx()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="VelocityGradient_8hpp_source.html#l00107">PhQ::VelocityGradient&lt; Number &gt;::Create()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="VelocityGradient_8hpp_source.html#l00110">PhQ::VelocityGradient&lt; Number &gt;::Create()</a>.</p>
 
 </div>
 </div>
@@ -1645,11 +1645,11 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the xy Cartesian component of this velocity gradient tensor. </p>
 
-<p class="definition">Definition at line <a class="el" href="VelocityGradient_8hpp_source.html#l00139">139</a> of file <a class="el" href="VelocityGradient_8hpp_source.html">VelocityGradient.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="VelocityGradient_8hpp_source.html#l00142">142</a> of file <a class="el" href="VelocityGradient_8hpp_source.html">VelocityGradient.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionalDyad_8hpp_source.html#l00214">PhQ::DimensionalDyad&lt; Unit::Frequency, double &gt;::value</a>, and <a class="el" href="Dyad_8hpp_source.html#l00166">PhQ::Dyad&lt; Number &gt;::xy()</a>.</p>
+<p class="reference">References <a class="el" href="DimensionalDyad_8hpp_source.html#l00214">PhQ::DimensionalDyad&lt; Unit::Frequency, double &gt;::value</a>, and <a class="el" href="Dyad_8hpp_source.html#l00169">PhQ::Dyad&lt; Number &gt;::xy()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="VelocityGradient_8hpp_source.html#l00107">PhQ::VelocityGradient&lt; Number &gt;::Create()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="VelocityGradient_8hpp_source.html#l00110">PhQ::VelocityGradient&lt; Number &gt;::Create()</a>.</p>
 
 </div>
 </div>
@@ -1680,11 +1680,11 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the xz Cartesian component of this velocity gradient tensor. </p>
 
-<p class="definition">Definition at line <a class="el" href="VelocityGradient_8hpp_source.html#l00144">144</a> of file <a class="el" href="VelocityGradient_8hpp_source.html">VelocityGradient.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="VelocityGradient_8hpp_source.html#l00147">147</a> of file <a class="el" href="VelocityGradient_8hpp_source.html">VelocityGradient.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionalDyad_8hpp_source.html#l00214">PhQ::DimensionalDyad&lt; Unit::Frequency, double &gt;::value</a>, and <a class="el" href="Dyad_8hpp_source.html#l00171">PhQ::Dyad&lt; Number &gt;::xz()</a>.</p>
+<p class="reference">References <a class="el" href="DimensionalDyad_8hpp_source.html#l00214">PhQ::DimensionalDyad&lt; Unit::Frequency, double &gt;::value</a>, and <a class="el" href="Dyad_8hpp_source.html#l00174">PhQ::Dyad&lt; Number &gt;::xz()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="VelocityGradient_8hpp_source.html#l00107">PhQ::VelocityGradient&lt; Number &gt;::Create()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="VelocityGradient_8hpp_source.html#l00110">PhQ::VelocityGradient&lt; Number &gt;::Create()</a>.</p>
 
 </div>
 </div>
@@ -1774,11 +1774,11 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the yx Cartesian component of this velocity gradient tensor. </p>
 
-<p class="definition">Definition at line <a class="el" href="VelocityGradient_8hpp_source.html#l00149">149</a> of file <a class="el" href="VelocityGradient_8hpp_source.html">VelocityGradient.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="VelocityGradient_8hpp_source.html#l00152">152</a> of file <a class="el" href="VelocityGradient_8hpp_source.html">VelocityGradient.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionalDyad_8hpp_source.html#l00214">PhQ::DimensionalDyad&lt; Unit::Frequency, double &gt;::value</a>, and <a class="el" href="Dyad_8hpp_source.html#l00176">PhQ::Dyad&lt; Number &gt;::yx()</a>.</p>
+<p class="reference">References <a class="el" href="DimensionalDyad_8hpp_source.html#l00214">PhQ::DimensionalDyad&lt; Unit::Frequency, double &gt;::value</a>, and <a class="el" href="Dyad_8hpp_source.html#l00179">PhQ::Dyad&lt; Number &gt;::yx()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="VelocityGradient_8hpp_source.html#l00107">PhQ::VelocityGradient&lt; Number &gt;::Create()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="VelocityGradient_8hpp_source.html#l00110">PhQ::VelocityGradient&lt; Number &gt;::Create()</a>.</p>
 
 </div>
 </div>
@@ -1809,11 +1809,11 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the yy Cartesian component of this velocity gradient tensor. </p>
 
-<p class="definition">Definition at line <a class="el" href="VelocityGradient_8hpp_source.html#l00154">154</a> of file <a class="el" href="VelocityGradient_8hpp_source.html">VelocityGradient.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="VelocityGradient_8hpp_source.html#l00157">157</a> of file <a class="el" href="VelocityGradient_8hpp_source.html">VelocityGradient.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionalDyad_8hpp_source.html#l00214">PhQ::DimensionalDyad&lt; Unit::Frequency, double &gt;::value</a>, and <a class="el" href="Dyad_8hpp_source.html#l00181">PhQ::Dyad&lt; Number &gt;::yy()</a>.</p>
+<p class="reference">References <a class="el" href="DimensionalDyad_8hpp_source.html#l00214">PhQ::DimensionalDyad&lt; Unit::Frequency, double &gt;::value</a>, and <a class="el" href="Dyad_8hpp_source.html#l00184">PhQ::Dyad&lt; Number &gt;::yy()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="VelocityGradient_8hpp_source.html#l00107">PhQ::VelocityGradient&lt; Number &gt;::Create()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="VelocityGradient_8hpp_source.html#l00110">PhQ::VelocityGradient&lt; Number &gt;::Create()</a>.</p>
 
 </div>
 </div>
@@ -1844,11 +1844,11 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the yz Cartesian component of this velocity gradient tensor. </p>
 
-<p class="definition">Definition at line <a class="el" href="VelocityGradient_8hpp_source.html#l00159">159</a> of file <a class="el" href="VelocityGradient_8hpp_source.html">VelocityGradient.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="VelocityGradient_8hpp_source.html#l00162">162</a> of file <a class="el" href="VelocityGradient_8hpp_source.html">VelocityGradient.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionalDyad_8hpp_source.html#l00214">PhQ::DimensionalDyad&lt; Unit::Frequency, double &gt;::value</a>, and <a class="el" href="Dyad_8hpp_source.html#l00186">PhQ::Dyad&lt; Number &gt;::yz()</a>.</p>
+<p class="reference">References <a class="el" href="DimensionalDyad_8hpp_source.html#l00214">PhQ::DimensionalDyad&lt; Unit::Frequency, double &gt;::value</a>, and <a class="el" href="Dyad_8hpp_source.html#l00189">PhQ::Dyad&lt; Number &gt;::yz()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="VelocityGradient_8hpp_source.html#l00107">PhQ::VelocityGradient&lt; Number &gt;::Create()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="VelocityGradient_8hpp_source.html#l00110">PhQ::VelocityGradient&lt; Number &gt;::Create()</a>.</p>
 
 </div>
 </div>
@@ -1879,9 +1879,9 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Statically creates a velocity gradient tensor of zero. </p>
 
-<p class="definition">Definition at line <a class="el" href="VelocityGradient_8hpp_source.html#l00100">100</a> of file <a class="el" href="VelocityGradient_8hpp_source.html">VelocityGradient.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="VelocityGradient_8hpp_source.html#l00103">103</a> of file <a class="el" href="VelocityGradient_8hpp_source.html">VelocityGradient.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Dyad_8hpp_source.html#l00145">PhQ::Dyad&lt; Number &gt;::Zero()</a>.</p>
+<p class="reference">References <a class="el" href="Dyad_8hpp_source.html#l00148">PhQ::Dyad&lt; Number &gt;::Zero()</a>.</p>
 
 </div>
 </div>
@@ -1912,11 +1912,11 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the zx Cartesian component of this velocity gradient tensor. </p>
 
-<p class="definition">Definition at line <a class="el" href="VelocityGradient_8hpp_source.html#l00164">164</a> of file <a class="el" href="VelocityGradient_8hpp_source.html">VelocityGradient.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="VelocityGradient_8hpp_source.html#l00167">167</a> of file <a class="el" href="VelocityGradient_8hpp_source.html">VelocityGradient.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionalDyad_8hpp_source.html#l00214">PhQ::DimensionalDyad&lt; Unit::Frequency, double &gt;::value</a>, and <a class="el" href="Dyad_8hpp_source.html#l00191">PhQ::Dyad&lt; Number &gt;::zx()</a>.</p>
+<p class="reference">References <a class="el" href="DimensionalDyad_8hpp_source.html#l00214">PhQ::DimensionalDyad&lt; Unit::Frequency, double &gt;::value</a>, and <a class="el" href="Dyad_8hpp_source.html#l00194">PhQ::Dyad&lt; Number &gt;::zx()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="VelocityGradient_8hpp_source.html#l00107">PhQ::VelocityGradient&lt; Number &gt;::Create()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="VelocityGradient_8hpp_source.html#l00110">PhQ::VelocityGradient&lt; Number &gt;::Create()</a>.</p>
 
 </div>
 </div>
@@ -1947,11 +1947,11 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the zy Cartesian component of this velocity gradient tensor. </p>
 
-<p class="definition">Definition at line <a class="el" href="VelocityGradient_8hpp_source.html#l00169">169</a> of file <a class="el" href="VelocityGradient_8hpp_source.html">VelocityGradient.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="VelocityGradient_8hpp_source.html#l00172">172</a> of file <a class="el" href="VelocityGradient_8hpp_source.html">VelocityGradient.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionalDyad_8hpp_source.html#l00214">PhQ::DimensionalDyad&lt; Unit::Frequency, double &gt;::value</a>, and <a class="el" href="Dyad_8hpp_source.html#l00196">PhQ::Dyad&lt; Number &gt;::zy()</a>.</p>
+<p class="reference">References <a class="el" href="DimensionalDyad_8hpp_source.html#l00214">PhQ::DimensionalDyad&lt; Unit::Frequency, double &gt;::value</a>, and <a class="el" href="Dyad_8hpp_source.html#l00199">PhQ::Dyad&lt; Number &gt;::zy()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="VelocityGradient_8hpp_source.html#l00107">PhQ::VelocityGradient&lt; Number &gt;::Create()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="VelocityGradient_8hpp_source.html#l00110">PhQ::VelocityGradient&lt; Number &gt;::Create()</a>.</p>
 
 </div>
 </div>
@@ -1982,11 +1982,11 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the zz Cartesian component of this velocity gradient tensor. </p>
 
-<p class="definition">Definition at line <a class="el" href="VelocityGradient_8hpp_source.html#l00174">174</a> of file <a class="el" href="VelocityGradient_8hpp_source.html">VelocityGradient.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="VelocityGradient_8hpp_source.html#l00177">177</a> of file <a class="el" href="VelocityGradient_8hpp_source.html">VelocityGradient.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionalDyad_8hpp_source.html#l00214">PhQ::DimensionalDyad&lt; Unit::Frequency, double &gt;::value</a>, and <a class="el" href="Dyad_8hpp_source.html#l00201">PhQ::Dyad&lt; Number &gt;::zz()</a>.</p>
+<p class="reference">References <a class="el" href="DimensionalDyad_8hpp_source.html#l00214">PhQ::DimensionalDyad&lt; Unit::Frequency, double &gt;::value</a>, and <a class="el" href="Dyad_8hpp_source.html#l00204">PhQ::Dyad&lt; Number &gt;::zz()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="VelocityGradient_8hpp_source.html#l00107">PhQ::VelocityGradient&lt; Number &gt;::Create()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="VelocityGradient_8hpp_source.html#l00110">PhQ::VelocityGradient&lt; Number &gt;::Create()</a>.</p>
 
 </div>
 </div>
