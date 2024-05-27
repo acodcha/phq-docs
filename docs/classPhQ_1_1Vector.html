@@ -112,7 +112,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search','.html');
 </div><!--header-->
 <div class="contents">
 
-<p>Three-dimensional vector in Cartesian coordinates. Contains three components: x, y, and z.  
+<p>Three-dimensional Euclidean vector. Contains three components in Cartesian coordinates: x, y, and z. For a two-dimensional Euclidean vector in the XY plane, see <a class="el" href="classPhQ_1_1PlanarVector.html" title="Two-dimensional Euclidean vector in the XY plane. Contains two components in Cartesian coordinates: x...">PhQ::PlanarVector</a>. For a three-dimensional Euclidean dyadic tensor, see <a class="el" href="classPhQ_1_1Dyad.html" title="Three-dimensional Euclidean dyadic tensor. Contains nine components in Cartesian coordinates: xx,...">PhQ::Dyad</a>. For a three-dimensional symmetric Euclidean dyadic tensor, see <a class="el" href="classPhQ_1_1SymmetricDyad.html" title="Symmetric three-dimensional Euclidean dyadic tensor. Contains six components in Cartesian coordinates...">PhQ::SymmetricDyad</a>.  
  <a href="classPhQ_1_1Vector.html#details">More...</a></p>
 
 <p><code>#include &quot;<a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>&quot;</code></p>
@@ -271,9 +271,9 @@ Private Attributes</h2></td></tr>
 <div class="textblock"><h3>template&lt;typename Number = double&gt;<br />
 class PhQ::Vector&lt; Number &gt;</h3>
 
-<p>Three-dimensional vector in Cartesian coordinates. Contains three components: x, y, and z. </p>
+<p>Three-dimensional Euclidean vector. Contains three components in Cartesian coordinates: x, y, and z. For a two-dimensional Euclidean vector in the XY plane, see <a class="el" href="classPhQ_1_1PlanarVector.html" title="Two-dimensional Euclidean vector in the XY plane. Contains two components in Cartesian coordinates: x...">PhQ::PlanarVector</a>. For a three-dimensional Euclidean dyadic tensor, see <a class="el" href="classPhQ_1_1Dyad.html" title="Three-dimensional Euclidean dyadic tensor. Contains nine components in Cartesian coordinates: xx,...">PhQ::Dyad</a>. For a three-dimensional symmetric Euclidean dyadic tensor, see <a class="el" href="classPhQ_1_1SymmetricDyad.html" title="Symmetric three-dimensional Euclidean dyadic tensor. Contains six components in Cartesian coordinates...">PhQ::SymmetricDyad</a>. </p>
 
-<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00058">58</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00060">60</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a8b20856b78ca3302e91223aa37ffb44b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8b20856b78ca3302e91223aa37ffb44b">&#9670;&nbsp;</a></span>Vector() <span class="overload">[1/8]</span></h2>
@@ -348,9 +348,9 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Constructor. Constructs a three-dimensional vector from the given x, y, and z Cartesian components. </p>
 
-<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00070">70</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00072">72</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00136">PhQ::Vector&lt; Number &gt;::x()</a>, <a class="el" href="Vector_8hpp_source.html#l00141">PhQ::Vector&lt; Number &gt;::y()</a>, and <a class="el" href="Vector_8hpp_source.html#l00146">PhQ::Vector&lt; Number &gt;::z()</a>.</p>
+<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00138">PhQ::Vector&lt; Number &gt;::x()</a>, <a class="el" href="Vector_8hpp_source.html#l00143">PhQ::Vector&lt; Number &gt;::y()</a>, and <a class="el" href="Vector_8hpp_source.html#l00148">PhQ::Vector&lt; Number &gt;::z()</a>.</p>
 
 </div>
 </div>
@@ -382,7 +382,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Constructor. Constructs a three-dimensional vector from a given array representing its x, y, and z Cartesian components. </p>
 
-<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00074">74</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00076">76</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
 
 </div>
 </div>
@@ -414,9 +414,9 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Constructor. Constructs a three-dimensional vector from a given two-dimensional planar vector in the XY plane. This vector's z-component is initialized to zero. </p>
 
-<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00078">78</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00080">80</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="PlanarVector_8hpp_source.html#l00139">PhQ::PlanarVector&lt; Number &gt;::x()</a>, and <a class="el" href="PlanarVector_8hpp_source.html#l00144">PhQ::PlanarVector&lt; Number &gt;::y()</a>.</p>
+<p class="reference">References <a class="el" href="PlanarVector_8hpp_source.html#l00141">PhQ::PlanarVector&lt; Number &gt;::x()</a>, and <a class="el" href="PlanarVector_8hpp_source.html#l00146">PhQ::PlanarVector&lt; Number &gt;::y()</a>.</p>
 
 </div>
 </div>
@@ -458,9 +458,9 @@ template&lt;typename Number &gt; </div>
 
 <p>Constructor. Constructs a three-dimensional vector given a magnitude and a direction. </p>
 
-<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00374">374</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00369">369</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionlessVector_8hpp_source.html#l00060">PhQ::DimensionlessVector&lt; Number &gt;::Value()</a>, and <a class="el" href="Vector_8hpp_source.html#l00302">PhQ::Vector&lt; Number &gt;::x_y_z_</a>.</p>
+<p class="reference">References <a class="el" href="DimensionlessVector_8hpp_source.html#l00060">PhQ::DimensionlessVector&lt; Number &gt;::Value()</a>, and <a class="el" href="Vector_8hpp_source.html#l00304">PhQ::Vector&lt; Number &gt;::x_y_z_</a>.</p>
 
 </div>
 </div>
@@ -553,7 +553,7 @@ template&lt;typename OtherNumber &gt; </div>
 
 <p>Copy constructor. Constructs a three-dimensional vector by copying another one. </p>
 
-<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00092">92</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00094">94</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
 
 </div>
 </div>
@@ -616,7 +616,7 @@ template&lt;typename Number &gt; </div>
 
 <p>Returns the angle between this three-dimensional vector and a given direction. </p>
 
-<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00414">414</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00409">409</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
 
 </div>
 </div>
@@ -648,7 +648,7 @@ template&lt;typename Number &gt; </div>
 
 <p>Returns the angle between this three-dimensional vector and another one. </p>
 
-<p class="definition">Definition at line <a class="el" href="Angle_8hpp_source.html#l00395">395</a> of file <a class="el" href="Angle_8hpp_source.html">Angle.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Angle_8hpp_source.html#l00396">396</a> of file <a class="el" href="Angle_8hpp_source.html">Angle.hpp</a>.</p>
 
 </div>
 </div>
@@ -680,7 +680,7 @@ template&lt;typename Number &gt; </div>
 
 <p>Returns the cross product (also known as the vector product) of this three-dimensional vector and a given direction. </p>
 
-<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00390">390</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00385">385</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionlessVector_8hpp_source.html#l00060">PhQ::DimensionlessVector&lt; Number &gt;::Value()</a>.</p>
 
@@ -714,11 +714,11 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the cross product (also known as the vector product) of this three-dimensional vector and another one. </p>
 
-<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00226">226</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00228">228</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00302">PhQ::Vector&lt; Number &gt;::x_y_z_</a>.</p>
+<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00304">PhQ::Vector&lt; Number &gt;::x_y_z_</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="Direction_8hpp_source.html#l00283">PhQ::Direction&lt; Number &gt;::Cross()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="Direction_8hpp_source.html#l00278">PhQ::Direction&lt; Number &gt;::Cross()</a>.</p>
 
 </div>
 </div>
@@ -746,9 +746,9 @@ template&lt;typename Number &gt; </div>
 
 <p>Returns the direction of this three-dimensional vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00379">379</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00374">374</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="Acceleration_8hpp_source.html#l00160">PhQ::Acceleration&lt; Number &gt;::Direction()</a>, <a class="el" href="Displacement_8hpp_source.html#l00171">PhQ::Displacement&lt; Number &gt;::Direction()</a>, <a class="el" href="Force_8hpp_source.html#l00150">PhQ::Force&lt; Number &gt;::Direction()</a>, <a class="el" href="HeatFlux_8hpp_source.html#l00163">PhQ::HeatFlux&lt; Number &gt;::Direction()</a>, <a class="el" href="Position_8hpp_source.html#l00149">PhQ::Position&lt; Number &gt;::Direction()</a>, <a class="el" href="TemperatureGradient_8hpp_source.html#l00158">PhQ::TemperatureGradient&lt; Number &gt;::Direction()</a>, <a class="el" href="Traction_8hpp_source.html#l00160">PhQ::Traction&lt; Number &gt;::Direction()</a>, <a class="el" href="VectorArea_8hpp_source.html#l00140">PhQ::VectorArea&lt; Number &gt;::Direction()</a>, and <a class="el" href="Velocity_8hpp_source.html#l00168">PhQ::Velocity&lt; Number &gt;::Direction()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="Acceleration_8hpp_source.html#l00163">PhQ::Acceleration&lt; Number &gt;::Direction()</a>, <a class="el" href="Displacement_8hpp_source.html#l00175">PhQ::Displacement&lt; Number &gt;::Direction()</a>, <a class="el" href="Force_8hpp_source.html#l00153">PhQ::Force&lt; Number &gt;::Direction()</a>, <a class="el" href="HeatFlux_8hpp_source.html#l00166">PhQ::HeatFlux&lt; Number &gt;::Direction()</a>, <a class="el" href="Position_8hpp_source.html#l00152">PhQ::Position&lt; Number &gt;::Direction()</a>, <a class="el" href="TemperatureGradient_8hpp_source.html#l00161">PhQ::TemperatureGradient&lt; Number &gt;::Direction()</a>, <a class="el" href="Traction_8hpp_source.html#l00162">PhQ::Traction&lt; Number &gt;::Direction()</a>, <a class="el" href="VectorArea_8hpp_source.html#l00139">PhQ::VectorArea&lt; Number &gt;::Direction()</a>, and <a class="el" href="Velocity_8hpp_source.html#l00170">PhQ::Velocity&lt; Number &gt;::Direction()</a>.</p>
 
 </div>
 </div>
@@ -780,7 +780,7 @@ template&lt;typename Number &gt; </div>
 
 <p>Returns the dot product (also known as the inner product or scalar product) of this three-dimensional vector and a given direction. </p>
 
-<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00384">384</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00379">379</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
 
 </div>
 </div>
@@ -812,11 +812,11 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the dot product (also known as the inner product or scalar product) of this three-dimensional vector and another one. </p>
 
-<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00215">215</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00217">217</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00302">PhQ::Vector&lt; Number &gt;::x_y_z_</a>.</p>
+<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00304">PhQ::Vector&lt; Number &gt;::x_y_z_</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="Direction_8hpp_source.html#l00272">PhQ::Direction&lt; Number &gt;::Dot()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="Direction_8hpp_source.html#l00267">PhQ::Direction&lt; Number &gt;::Dot()</a>.</p>
 
 </div>
 </div>
@@ -848,7 +848,7 @@ template&lt;typename Number &gt; </div>
 
 <p>Returns the dyadic tensor product (also known as the outer product) of this three-dimensional vector and a given direction. </p>
 
-<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00396">396</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00391">391</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionlessVector_8hpp_source.html#l00060">PhQ::DimensionlessVector&lt; Number &gt;::Value()</a>.</p>
 
@@ -882,11 +882,11 @@ template&lt;typename Number &gt; </div>
 
 <p>Returns the dyadic tensor product (also known as the outer product) of this three-dimensional vector and another one. </p>
 
-<p class="definition">Definition at line <a class="el" href="Dyad_8hpp_source.html#l00702">702</a> of file <a class="el" href="Dyad_8hpp_source.html">Dyad.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Dyad_8hpp_source.html#l00705">705</a> of file <a class="el" href="Dyad_8hpp_source.html">Dyad.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00302">PhQ::Vector&lt; Number &gt;::x_y_z_</a>.</p>
+<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00304">PhQ::Vector&lt; Number &gt;::x_y_z_</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="Direction_8hpp_source.html#l00293">PhQ::Direction&lt; Number &gt;::Dyadic()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="Direction_8hpp_source.html#l00288">PhQ::Direction&lt; Number &gt;::Dyadic()</a>.</p>
 
 </div>
 </div>
@@ -917,9 +917,9 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Serializes this three-dimensional vector as a JSON message. </p>
 
-<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00257">257</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00259">259</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Base_8hpp_source.html#l00170">PhQ::Print()</a>, and <a class="el" href="Vector_8hpp_source.html#l00302">PhQ::Vector&lt; Number &gt;::x_y_z_</a>.</p>
+<p class="reference">References <a class="el" href="Base_8hpp_source.html#l00170">PhQ::Print()</a>, and <a class="el" href="Vector_8hpp_source.html#l00304">PhQ::Vector&lt; Number &gt;::x_y_z_</a>.</p>
 
 </div>
 </div>
@@ -950,9 +950,9 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the magnitude (also known as the L2 norm) of this three-dimensional vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00206">206</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00208">208</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="Acceleration_8hpp_source.html#l00155">PhQ::Acceleration&lt; Number &gt;::Magnitude()</a>, <a class="el" href="Displacement_8hpp_source.html#l00166">PhQ::Displacement&lt; Number &gt;::Magnitude()</a>, <a class="el" href="Force_8hpp_source.html#l00145">PhQ::Force&lt; Number &gt;::Magnitude()</a>, <a class="el" href="HeatFlux_8hpp_source.html#l00158">PhQ::HeatFlux&lt; Number &gt;::Magnitude()</a>, <a class="el" href="Position_8hpp_source.html#l00144">PhQ::Position&lt; Number &gt;::Magnitude()</a>, <a class="el" href="TemperatureGradient_8hpp_source.html#l00153">PhQ::TemperatureGradient&lt; Number &gt;::Magnitude()</a>, <a class="el" href="Traction_8hpp_source.html#l00155">PhQ::Traction&lt; Number &gt;::Magnitude()</a>, <a class="el" href="VectorArea_8hpp_source.html#l00135">PhQ::VectorArea&lt; Number &gt;::Magnitude()</a>, <a class="el" href="Velocity_8hpp_source.html#l00163">PhQ::Velocity&lt; Number &gt;::Magnitude()</a>, and <a class="el" href="Direction_8hpp_source.html#l00266">PhQ::Direction&lt; Number &gt;::Magnitude()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="Acceleration_8hpp_source.html#l00158">PhQ::Acceleration&lt; Number &gt;::Magnitude()</a>, <a class="el" href="Displacement_8hpp_source.html#l00170">PhQ::Displacement&lt; Number &gt;::Magnitude()</a>, <a class="el" href="Force_8hpp_source.html#l00148">PhQ::Force&lt; Number &gt;::Magnitude()</a>, <a class="el" href="HeatFlux_8hpp_source.html#l00161">PhQ::HeatFlux&lt; Number &gt;::Magnitude()</a>, <a class="el" href="Position_8hpp_source.html#l00147">PhQ::Position&lt; Number &gt;::Magnitude()</a>, <a class="el" href="TemperatureGradient_8hpp_source.html#l00156">PhQ::TemperatureGradient&lt; Number &gt;::Magnitude()</a>, <a class="el" href="Traction_8hpp_source.html#l00157">PhQ::Traction&lt; Number &gt;::Magnitude()</a>, <a class="el" href="VectorArea_8hpp_source.html#l00134">PhQ::VectorArea&lt; Number &gt;::Magnitude()</a>, <a class="el" href="Velocity_8hpp_source.html#l00165">PhQ::Velocity&lt; Number &gt;::Magnitude()</a>, and <a class="el" href="Direction_8hpp_source.html#l00261">PhQ::Direction&lt; Number &gt;::Magnitude()</a>.</p>
 
 </div>
 </div>
@@ -983,11 +983,11 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the square of the magnitude of this three-dimensional vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00201">201</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00203">203</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00302">PhQ::Vector&lt; Number &gt;::x_y_z_</a>.</p>
+<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00304">PhQ::Vector&lt; Number &gt;::x_y_z_</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="Direction_8hpp_source.html#l00260">PhQ::Direction&lt; Number &gt;::MagnitudeSquared()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="Direction_8hpp_source.html#l00255">PhQ::Direction&lt; Number &gt;::MagnitudeSquared()</a>.</p>
 
 </div>
 </div>
@@ -1018,9 +1018,9 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns this three-dimensional vector's x Cartesian component as a mutable value. </p>
 
-<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00157">157</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00159">159</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00302">PhQ::Vector&lt; Number &gt;::x_y_z_</a>.</p>
+<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00304">PhQ::Vector&lt; Number &gt;::x_y_z_</a>.</p>
 
 </div>
 </div>
@@ -1051,9 +1051,9 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns this three-dimensional vector's x, y, and z Cartesian components as a mutable array. </p>
 
-<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00152">152</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00154">154</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00302">PhQ::Vector&lt; Number &gt;::x_y_z_</a>.</p>
+<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00304">PhQ::Vector&lt; Number &gt;::x_y_z_</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="Unit_8hpp_source.html#l00183">PhQ::Convert()</a>.</p>
 
@@ -1086,9 +1086,9 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns this three-dimensional vector's y Cartesian component as a mutable value. </p>
 
-<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00162">162</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00164">164</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00302">PhQ::Vector&lt; Number &gt;::x_y_z_</a>.</p>
+<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00304">PhQ::Vector&lt; Number &gt;::x_y_z_</a>.</p>
 
 </div>
 </div>
@@ -1119,9 +1119,9 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns this three-dimensional vector's z Cartesian component as a mutable value. </p>
 
-<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00167">167</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00169">169</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00302">PhQ::Vector&lt; Number &gt;::x_y_z_</a>.</p>
+<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00304">PhQ::Vector&lt; Number &gt;::x_y_z_</a>.</p>
 
 </div>
 </div>
@@ -1153,9 +1153,9 @@ template&lt;typename OtherNumber &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00287">287</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00289">289</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00302">PhQ::Vector&lt; Number &gt;::x_y_z_</a>.</p>
+<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00304">PhQ::Vector&lt; Number &gt;::x_y_z_</a>.</p>
 
 </div>
 </div>
@@ -1185,9 +1185,9 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00274">274</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00276">276</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00302">PhQ::Vector&lt; Number &gt;::x_y_z_</a>.</p>
+<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00304">PhQ::Vector&lt; Number &gt;::x_y_z_</a>.</p>
 
 </div>
 </div>
@@ -1217,9 +1217,9 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00280">280</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00282">282</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00302">PhQ::Vector&lt; Number &gt;::x_y_z_</a>.</p>
+<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00304">PhQ::Vector&lt; Number &gt;::x_y_z_</a>.</p>
 
 </div>
 </div>
@@ -1251,9 +1251,9 @@ template&lt;typename OtherNumber &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00294">294</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00296">296</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00302">PhQ::Vector&lt; Number &gt;::x_y_z_</a>.</p>
+<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00304">PhQ::Vector&lt; Number &gt;::x_y_z_</a>.</p>
 
 </div>
 </div>
@@ -1285,9 +1285,9 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Assignment operator. Assigns this three-dimensional vector by copying a given array representing its x, y, and z Cartesian components. </p>
 
-<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00116">116</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00118">118</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00131">PhQ::Vector&lt; Number &gt;::x_y_z()</a>, and <a class="el" href="Vector_8hpp_source.html#l00302">PhQ::Vector&lt; Number &gt;::x_y_z_</a>.</p>
+<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00133">PhQ::Vector&lt; Number &gt;::x_y_z()</a>, and <a class="el" href="Vector_8hpp_source.html#l00304">PhQ::Vector&lt; Number &gt;::x_y_z_</a>.</p>
 
 </div>
 </div>
@@ -1351,9 +1351,9 @@ template&lt;typename OtherNumber &gt; </div>
 
 <p>Copy assignment operator. Assigns this three-dimensional vector by copying another one. </p>
 
-<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00104">104</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00106">106</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00136">PhQ::Vector&lt; Number &gt;::x()</a>, <a class="el" href="Vector_8hpp_source.html#l00302">PhQ::Vector&lt; Number &gt;::x_y_z_</a>, <a class="el" href="Vector_8hpp_source.html#l00141">PhQ::Vector&lt; Number &gt;::y()</a>, and <a class="el" href="Vector_8hpp_source.html#l00146">PhQ::Vector&lt; Number &gt;::z()</a>.</p>
+<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00138">PhQ::Vector&lt; Number &gt;::x()</a>, <a class="el" href="Vector_8hpp_source.html#l00304">PhQ::Vector&lt; Number &gt;::x_y_z_</a>, <a class="el" href="Vector_8hpp_source.html#l00143">PhQ::Vector&lt; Number &gt;::y()</a>, and <a class="el" href="Vector_8hpp_source.html#l00148">PhQ::Vector&lt; Number &gt;::z()</a>.</p>
 
 </div>
 </div>
@@ -1414,11 +1414,11 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Prints this three-dimensional vector as a string. </p>
 
-<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00251">251</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00253">253</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Base_8hpp_source.html#l00170">PhQ::Print()</a>, and <a class="el" href="Vector_8hpp_source.html#l00302">PhQ::Vector&lt; Number &gt;::x_y_z_</a>.</p>
+<p class="reference">References <a class="el" href="Base_8hpp_source.html#l00170">PhQ::Print()</a>, and <a class="el" href="Vector_8hpp_source.html#l00304">PhQ::Vector&lt; Number &gt;::x_y_z_</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="Vector_8hpp_source.html#l00377">PhQ::operator&lt;&lt;()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="Vector_8hpp_source.html#l00379">PhQ::operator&lt;&lt;()</a>.</p>
 
 </div>
 </div>
@@ -1450,9 +1450,9 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Sets this three-dimensional vector's x Cartesian component to a given value. </p>
 
-<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00186">186</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00188">188</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00136">PhQ::Vector&lt; Number &gt;::x()</a>, and <a class="el" href="Vector_8hpp_source.html#l00302">PhQ::Vector&lt; Number &gt;::x_y_z_</a>.</p>
+<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00138">PhQ::Vector&lt; Number &gt;::x()</a>, and <a class="el" href="Vector_8hpp_source.html#l00304">PhQ::Vector&lt; Number &gt;::x_y_z_</a>.</p>
 
 </div>
 </div>
@@ -1500,9 +1500,9 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Sets this three-dimensional vector's x, y, and z Cartesian components to the given values. </p>
 
-<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00179">179</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00181">181</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00136">PhQ::Vector&lt; Number &gt;::x()</a>, <a class="el" href="Vector_8hpp_source.html#l00302">PhQ::Vector&lt; Number &gt;::x_y_z_</a>, <a class="el" href="Vector_8hpp_source.html#l00141">PhQ::Vector&lt; Number &gt;::y()</a>, and <a class="el" href="Vector_8hpp_source.html#l00146">PhQ::Vector&lt; Number &gt;::z()</a>.</p>
+<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00138">PhQ::Vector&lt; Number &gt;::x()</a>, <a class="el" href="Vector_8hpp_source.html#l00304">PhQ::Vector&lt; Number &gt;::x_y_z_</a>, <a class="el" href="Vector_8hpp_source.html#l00143">PhQ::Vector&lt; Number &gt;::y()</a>, and <a class="el" href="Vector_8hpp_source.html#l00148">PhQ::Vector&lt; Number &gt;::z()</a>.</p>
 
 </div>
 </div>
@@ -1534,9 +1534,9 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Sets this three-dimensional vector's x, y, and z Cartesian components to the given values. </p>
 
-<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00173">173</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00175">175</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00131">PhQ::Vector&lt; Number &gt;::x_y_z()</a>, and <a class="el" href="Vector_8hpp_source.html#l00302">PhQ::Vector&lt; Number &gt;::x_y_z_</a>.</p>
+<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00133">PhQ::Vector&lt; Number &gt;::x_y_z()</a>, and <a class="el" href="Vector_8hpp_source.html#l00304">PhQ::Vector&lt; Number &gt;::x_y_z_</a>.</p>
 
 </div>
 </div>
@@ -1568,9 +1568,9 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Sets this three-dimensional vector's y Cartesian component to a given value. </p>
 
-<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00191">191</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00193">193</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00302">PhQ::Vector&lt; Number &gt;::x_y_z_</a>, and <a class="el" href="Vector_8hpp_source.html#l00141">PhQ::Vector&lt; Number &gt;::y()</a>.</p>
+<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00304">PhQ::Vector&lt; Number &gt;::x_y_z_</a>, and <a class="el" href="Vector_8hpp_source.html#l00143">PhQ::Vector&lt; Number &gt;::y()</a>.</p>
 
 </div>
 </div>
@@ -1602,9 +1602,9 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Sets this three-dimensional vector's z Cartesian component to a given value. </p>
 
-<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00196">196</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00198">198</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00302">PhQ::Vector&lt; Number &gt;::x_y_z_</a>, and <a class="el" href="Vector_8hpp_source.html#l00146">PhQ::Vector&lt; Number &gt;::z()</a>.</p>
+<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00304">PhQ::Vector&lt; Number &gt;::x_y_z_</a>, and <a class="el" href="Vector_8hpp_source.html#l00148">PhQ::Vector&lt; Number &gt;::z()</a>.</p>
 
 </div>
 </div>
@@ -1635,11 +1635,11 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns this three-dimensional vector's x Cartesian component. </p>
 
-<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00136">136</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00138">138</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00302">PhQ::Vector&lt; Number &gt;::x_y_z_</a>.</p>
+<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00304">PhQ::Vector&lt; Number &gt;::x_y_z_</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="Direction_8hpp_source.html#l00253">PhQ::Direction&lt; Number &gt;::IsZero()</a>, <a class="el" href="Dyad_8hpp_source.html#l00584">PhQ::operator*()</a>, <a class="el" href="Vector_8hpp_source.html#l00348">PhQ::operator+()</a>, <a class="el" href="Vector_8hpp_source.html#l00353">PhQ::operator-()</a>, <a class="el" href="Vector_8hpp_source.html#l00370">PhQ::operator/()</a>, <a class="el" href="Vector_8hpp_source.html#l00104">PhQ::Vector&lt; Number &gt;::operator=()</a>, <a class="el" href="Vector_8hpp_source.html#l00383">PhQ::PlanarVector&lt; Number &gt;::PlanarVector()</a>, <a class="el" href="Vector_8hpp_source.html#l00186">PhQ::Vector&lt; Number &gt;::Set_x()</a>, <a class="el" href="Vector_8hpp_source.html#l00179">PhQ::Vector&lt; Number &gt;::Set_x_y_z()</a>, <a class="el" href="Vector_8hpp_source.html#l00070">PhQ::Vector&lt; Number &gt;::Vector()</a>, <a class="el" href="Acceleration_8hpp_source.html#l00140">PhQ::Acceleration&lt; Number &gt;::x()</a>, <a class="el" href="Direction_8hpp_source.html#l00206">PhQ::Direction&lt; Number &gt;::x()</a>, <a class="el" href="Displacement_8hpp_source.html#l00151">PhQ::Displacement&lt; Number &gt;::x()</a>, <a class="el" href="Force_8hpp_source.html#l00130">PhQ::Force&lt; Number &gt;::x()</a>, <a class="el" href="HeatFlux_8hpp_source.html#l00143">PhQ::HeatFlux&lt; Number &gt;::x()</a>, <a class="el" href="Position_8hpp_source.html#l00129">PhQ::Position&lt; Number &gt;::x()</a>, <a class="el" href="TemperatureGradient_8hpp_source.html#l00138">PhQ::TemperatureGradient&lt; Number &gt;::x()</a>, <a class="el" href="Traction_8hpp_source.html#l00140">PhQ::Traction&lt; Number &gt;::x()</a>, <a class="el" href="VectorArea_8hpp_source.html#l00120">PhQ::VectorArea&lt; Number &gt;::x()</a>, and <a class="el" href="Velocity_8hpp_source.html#l00148">PhQ::Velocity&lt; Number &gt;::x()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="Dyad_8hpp_source.html#l00587">PhQ::operator*()</a>, <a class="el" href="Vector_8hpp_source.html#l00350">PhQ::operator+()</a>, <a class="el" href="Vector_8hpp_source.html#l00355">PhQ::operator-()</a>, <a class="el" href="Vector_8hpp_source.html#l00372">PhQ::operator/()</a>, <a class="el" href="Vector_8hpp_source.html#l00106">PhQ::Vector&lt; Number &gt;::operator=()</a>, <a class="el" href="Vector_8hpp_source.html#l00385">PhQ::PlanarVector&lt; Number &gt;::PlanarVector()</a>, <a class="el" href="Vector_8hpp_source.html#l00188">PhQ::Vector&lt; Number &gt;::Set_x()</a>, <a class="el" href="Vector_8hpp_source.html#l00181">PhQ::Vector&lt; Number &gt;::Set_x_y_z()</a>, <a class="el" href="Vector_8hpp_source.html#l00072">PhQ::Vector&lt; Number &gt;::Vector()</a>, <a class="el" href="Acceleration_8hpp_source.html#l00143">PhQ::Acceleration&lt; Number &gt;::x()</a>, <a class="el" href="Direction_8hpp_source.html#l00207">PhQ::Direction&lt; Number &gt;::x()</a>, <a class="el" href="Displacement_8hpp_source.html#l00155">PhQ::Displacement&lt; Number &gt;::x()</a>, <a class="el" href="Force_8hpp_source.html#l00133">PhQ::Force&lt; Number &gt;::x()</a>, <a class="el" href="HeatFlux_8hpp_source.html#l00146">PhQ::HeatFlux&lt; Number &gt;::x()</a>, <a class="el" href="Position_8hpp_source.html#l00132">PhQ::Position&lt; Number &gt;::x()</a>, <a class="el" href="TemperatureGradient_8hpp_source.html#l00141">PhQ::TemperatureGradient&lt; Number &gt;::x()</a>, <a class="el" href="Traction_8hpp_source.html#l00142">PhQ::Traction&lt; Number &gt;::x()</a>, <a class="el" href="VectorArea_8hpp_source.html#l00119">PhQ::VectorArea&lt; Number &gt;::x()</a>, and <a class="el" href="Velocity_8hpp_source.html#l00150">PhQ::Velocity&lt; Number &gt;::x()</a>.</p>
 
 </div>
 </div>
@@ -1670,11 +1670,11 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns this three-dimensional vector's x, y, and z Cartesian components as an array. </p>
 
-<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00131">131</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00133">133</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00302">PhQ::Vector&lt; Number &gt;::x_y_z_</a>.</p>
+<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00304">PhQ::Vector&lt; Number &gt;::x_y_z_</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="Direction_8hpp_source.html#l00414">PhQ::Vector&lt; double &gt;::Angle()</a>, <a class="el" href="Unit_8hpp_source.html#l00242">PhQ::ConvertCopy()</a>, <a class="el" href="Vector_8hpp_source.html#l00116">PhQ::Vector&lt; Number &gt;::operator=()</a>, <a class="el" href="Vector_8hpp_source.html#l00173">PhQ::Vector&lt; Number &gt;::Set_x_y_z()</a>, and <a class="el" href="Unit_8hpp_source.html#l00307">PhQ::StaticConvertCopy()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="Unit_8hpp_source.html#l00242">PhQ::ConvertCopy()</a>, <a class="el" href="Vector_8hpp_source.html#l00118">PhQ::Vector&lt; Number &gt;::operator=()</a>, <a class="el" href="Vector_8hpp_source.html#l00175">PhQ::Vector&lt; Number &gt;::Set_x_y_z()</a>, and <a class="el" href="Unit_8hpp_source.html#l00307">PhQ::StaticConvertCopy()</a>.</p>
 
 </div>
 </div>
@@ -1705,9 +1705,9 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Serializes this three-dimensional vector as an XML message. </p>
 
-<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00263">263</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00265">265</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Base_8hpp_source.html#l00170">PhQ::Print()</a>, and <a class="el" href="Vector_8hpp_source.html#l00302">PhQ::Vector&lt; Number &gt;::x_y_z_</a>.</p>
+<p class="reference">References <a class="el" href="Base_8hpp_source.html#l00170">PhQ::Print()</a>, and <a class="el" href="Vector_8hpp_source.html#l00304">PhQ::Vector&lt; Number &gt;::x_y_z_</a>.</p>
 
 </div>
 </div>
@@ -1738,11 +1738,11 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns this three-dimensional vector's y Cartesian component. </p>
 
-<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00141">141</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00143">143</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00302">PhQ::Vector&lt; Number &gt;::x_y_z_</a>.</p>
+<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00304">PhQ::Vector&lt; Number &gt;::x_y_z_</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="Direction_8hpp_source.html#l00379">PhQ::Vector&lt; double &gt;::Direction()</a>, <a class="el" href="Direction_8hpp_source.html#l00253">PhQ::Direction&lt; Number &gt;::IsZero()</a>, <a class="el" href="Dyad_8hpp_source.html#l00584">PhQ::operator*()</a>, <a class="el" href="Vector_8hpp_source.html#l00348">PhQ::operator+()</a>, <a class="el" href="Vector_8hpp_source.html#l00353">PhQ::operator-()</a>, <a class="el" href="Vector_8hpp_source.html#l00370">PhQ::operator/()</a>, <a class="el" href="Vector_8hpp_source.html#l00104">PhQ::Vector&lt; Number &gt;::operator=()</a>, <a class="el" href="Vector_8hpp_source.html#l00383">PhQ::PlanarVector&lt; Number &gt;::PlanarVector()</a>, <a class="el" href="Vector_8hpp_source.html#l00179">PhQ::Vector&lt; Number &gt;::Set_x_y_z()</a>, <a class="el" href="Vector_8hpp_source.html#l00191">PhQ::Vector&lt; Number &gt;::Set_y()</a>, <a class="el" href="Vector_8hpp_source.html#l00070">PhQ::Vector&lt; Number &gt;::Vector()</a>, <a class="el" href="Acceleration_8hpp_source.html#l00145">PhQ::Acceleration&lt; Number &gt;::y()</a>, <a class="el" href="Displacement_8hpp_source.html#l00156">PhQ::Displacement&lt; Number &gt;::y()</a>, <a class="el" href="Force_8hpp_source.html#l00135">PhQ::Force&lt; Number &gt;::y()</a>, <a class="el" href="HeatFlux_8hpp_source.html#l00148">PhQ::HeatFlux&lt; Number &gt;::y()</a>, <a class="el" href="Position_8hpp_source.html#l00134">PhQ::Position&lt; Number &gt;::y()</a>, <a class="el" href="TemperatureGradient_8hpp_source.html#l00143">PhQ::TemperatureGradient&lt; Number &gt;::y()</a>, <a class="el" href="Traction_8hpp_source.html#l00145">PhQ::Traction&lt; Number &gt;::y()</a>, <a class="el" href="VectorArea_8hpp_source.html#l00125">PhQ::VectorArea&lt; Number &gt;::y()</a>, and <a class="el" href="Velocity_8hpp_source.html#l00153">PhQ::Velocity&lt; Number &gt;::y()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="Dyad_8hpp_source.html#l00587">PhQ::operator*()</a>, <a class="el" href="Vector_8hpp_source.html#l00350">PhQ::operator+()</a>, <a class="el" href="Vector_8hpp_source.html#l00355">PhQ::operator-()</a>, <a class="el" href="Vector_8hpp_source.html#l00372">PhQ::operator/()</a>, <a class="el" href="Vector_8hpp_source.html#l00106">PhQ::Vector&lt; Number &gt;::operator=()</a>, <a class="el" href="Vector_8hpp_source.html#l00385">PhQ::PlanarVector&lt; Number &gt;::PlanarVector()</a>, <a class="el" href="Vector_8hpp_source.html#l00181">PhQ::Vector&lt; Number &gt;::Set_x_y_z()</a>, <a class="el" href="Vector_8hpp_source.html#l00193">PhQ::Vector&lt; Number &gt;::Set_y()</a>, <a class="el" href="Vector_8hpp_source.html#l00072">PhQ::Vector&lt; Number &gt;::Vector()</a>, <a class="el" href="Acceleration_8hpp_source.html#l00148">PhQ::Acceleration&lt; Number &gt;::y()</a>, <a class="el" href="Displacement_8hpp_source.html#l00160">PhQ::Displacement&lt; Number &gt;::y()</a>, <a class="el" href="Force_8hpp_source.html#l00138">PhQ::Force&lt; Number &gt;::y()</a>, <a class="el" href="HeatFlux_8hpp_source.html#l00151">PhQ::HeatFlux&lt; Number &gt;::y()</a>, <a class="el" href="Position_8hpp_source.html#l00137">PhQ::Position&lt; Number &gt;::y()</a>, <a class="el" href="TemperatureGradient_8hpp_source.html#l00146">PhQ::TemperatureGradient&lt; Number &gt;::y()</a>, <a class="el" href="Traction_8hpp_source.html#l00147">PhQ::Traction&lt; Number &gt;::y()</a>, <a class="el" href="VectorArea_8hpp_source.html#l00124">PhQ::VectorArea&lt; Number &gt;::y()</a>, and <a class="el" href="Velocity_8hpp_source.html#l00155">PhQ::Velocity&lt; Number &gt;::y()</a>.</p>
 
 </div>
 </div>
@@ -1773,9 +1773,9 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Serializes this three-dimensional vector as a YAML message. </p>
 
-<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00269">269</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00271">271</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Base_8hpp_source.html#l00170">PhQ::Print()</a>, and <a class="el" href="Vector_8hpp_source.html#l00302">PhQ::Vector&lt; Number &gt;::x_y_z_</a>.</p>
+<p class="reference">References <a class="el" href="Base_8hpp_source.html#l00170">PhQ::Print()</a>, and <a class="el" href="Vector_8hpp_source.html#l00304">PhQ::Vector&lt; Number &gt;::x_y_z_</a>.</p>
 
 </div>
 </div>
@@ -1806,11 +1806,11 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns this three-dimensional vector's z Cartesian component. </p>
 
-<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00146">146</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00148">148</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00302">PhQ::Vector&lt; Number &gt;::x_y_z_</a>.</p>
+<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00304">PhQ::Vector&lt; Number &gt;::x_y_z_</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="Direction_8hpp_source.html#l00253">PhQ::Direction&lt; Number &gt;::IsZero()</a>, <a class="el" href="Dyad_8hpp_source.html#l00584">PhQ::operator*()</a>, <a class="el" href="Vector_8hpp_source.html#l00348">PhQ::operator+()</a>, <a class="el" href="Vector_8hpp_source.html#l00353">PhQ::operator-()</a>, <a class="el" href="Vector_8hpp_source.html#l00370">PhQ::operator/()</a>, <a class="el" href="Vector_8hpp_source.html#l00104">PhQ::Vector&lt; Number &gt;::operator=()</a>, <a class="el" href="Vector_8hpp_source.html#l00179">PhQ::Vector&lt; Number &gt;::Set_x_y_z()</a>, <a class="el" href="Vector_8hpp_source.html#l00196">PhQ::Vector&lt; Number &gt;::Set_z()</a>, <a class="el" href="Vector_8hpp_source.html#l00070">PhQ::Vector&lt; Number &gt;::Vector()</a>, <a class="el" href="Acceleration_8hpp_source.html#l00150">PhQ::Acceleration&lt; Number &gt;::z()</a>, <a class="el" href="Direction_8hpp_source.html#l00216">PhQ::Direction&lt; Number &gt;::z()</a>, <a class="el" href="Displacement_8hpp_source.html#l00161">PhQ::Displacement&lt; Number &gt;::z()</a>, <a class="el" href="Force_8hpp_source.html#l00140">PhQ::Force&lt; Number &gt;::z()</a>, <a class="el" href="HeatFlux_8hpp_source.html#l00153">PhQ::HeatFlux&lt; Number &gt;::z()</a>, <a class="el" href="Position_8hpp_source.html#l00139">PhQ::Position&lt; Number &gt;::z()</a>, <a class="el" href="TemperatureGradient_8hpp_source.html#l00148">PhQ::TemperatureGradient&lt; Number &gt;::z()</a>, <a class="el" href="Traction_8hpp_source.html#l00150">PhQ::Traction&lt; Number &gt;::z()</a>, <a class="el" href="VectorArea_8hpp_source.html#l00130">PhQ::VectorArea&lt; Number &gt;::z()</a>, and <a class="el" href="Velocity_8hpp_source.html#l00158">PhQ::Velocity&lt; Number &gt;::z()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="Dyad_8hpp_source.html#l00587">PhQ::operator*()</a>, <a class="el" href="Vector_8hpp_source.html#l00350">PhQ::operator+()</a>, <a class="el" href="Vector_8hpp_source.html#l00355">PhQ::operator-()</a>, <a class="el" href="Vector_8hpp_source.html#l00372">PhQ::operator/()</a>, <a class="el" href="Vector_8hpp_source.html#l00106">PhQ::Vector&lt; Number &gt;::operator=()</a>, <a class="el" href="Vector_8hpp_source.html#l00181">PhQ::Vector&lt; Number &gt;::Set_x_y_z()</a>, <a class="el" href="Vector_8hpp_source.html#l00198">PhQ::Vector&lt; Number &gt;::Set_z()</a>, <a class="el" href="Vector_8hpp_source.html#l00072">PhQ::Vector&lt; Number &gt;::Vector()</a>, <a class="el" href="Acceleration_8hpp_source.html#l00153">PhQ::Acceleration&lt; Number &gt;::z()</a>, <a class="el" href="Direction_8hpp_source.html#l00217">PhQ::Direction&lt; Number &gt;::z()</a>, <a class="el" href="Displacement_8hpp_source.html#l00165">PhQ::Displacement&lt; Number &gt;::z()</a>, <a class="el" href="Force_8hpp_source.html#l00143">PhQ::Force&lt; Number &gt;::z()</a>, <a class="el" href="HeatFlux_8hpp_source.html#l00156">PhQ::HeatFlux&lt; Number &gt;::z()</a>, <a class="el" href="Position_8hpp_source.html#l00142">PhQ::Position&lt; Number &gt;::z()</a>, <a class="el" href="TemperatureGradient_8hpp_source.html#l00151">PhQ::TemperatureGradient&lt; Number &gt;::z()</a>, <a class="el" href="Traction_8hpp_source.html#l00152">PhQ::Traction&lt; Number &gt;::z()</a>, <a class="el" href="VectorArea_8hpp_source.html#l00129">PhQ::VectorArea&lt; Number &gt;::z()</a>, and <a class="el" href="Velocity_8hpp_source.html#l00160">PhQ::Velocity&lt; Number &gt;::z()</a>.</p>
 
 </div>
 </div>
@@ -1841,9 +1841,9 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Statically creates a three-dimensional vector with its x, y, and z Cartesian components initialized to zero. </p>
 
-<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00123">123</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00125">125</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="Acceleration_8hpp_source.html#l00109">PhQ::Acceleration&lt; Number &gt;::Zero()</a>, <a class="el" href="Displacement_8hpp_source.html#l00122">PhQ::Displacement&lt; Number &gt;::Zero()</a>, <a class="el" href="Force_8hpp_source.html#l00103">PhQ::Force&lt; Number &gt;::Zero()</a>, <a class="el" href="HeatFlux_8hpp_source.html#l00114">PhQ::HeatFlux&lt; Number &gt;::Zero()</a>, <a class="el" href="Position_8hpp_source.html#l00101">PhQ::Position&lt; Number &gt;::Zero()</a>, <a class="el" href="TemperatureGradient_8hpp_source.html#l00105">PhQ::TemperatureGradient&lt; Number &gt;::Zero()</a>, <a class="el" href="Traction_8hpp_source.html#l00111">PhQ::Traction&lt; Number &gt;::Zero()</a>, <a class="el" href="VectorArea_8hpp_source.html#l00093">PhQ::VectorArea&lt; Number &gt;::Zero()</a>, and <a class="el" href="Velocity_8hpp_source.html#l00120">PhQ::Velocity&lt; Number &gt;::Zero()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="Acceleration_8hpp_source.html#l00112">PhQ::Acceleration&lt; Number &gt;::Zero()</a>, <a class="el" href="Displacement_8hpp_source.html#l00126">PhQ::Displacement&lt; Number &gt;::Zero()</a>, <a class="el" href="Force_8hpp_source.html#l00106">PhQ::Force&lt; Number &gt;::Zero()</a>, <a class="el" href="HeatFlux_8hpp_source.html#l00117">PhQ::HeatFlux&lt; Number &gt;::Zero()</a>, <a class="el" href="Position_8hpp_source.html#l00104">PhQ::Position&lt; Number &gt;::Zero()</a>, <a class="el" href="TemperatureGradient_8hpp_source.html#l00108">PhQ::TemperatureGradient&lt; Number &gt;::Zero()</a>, <a class="el" href="Traction_8hpp_source.html#l00113">PhQ::Traction&lt; Number &gt;::Zero()</a>, <a class="el" href="VectorArea_8hpp_source.html#l00092">PhQ::VectorArea&lt; Number &gt;::Zero()</a>, and <a class="el" href="Velocity_8hpp_source.html#l00122">PhQ::Velocity&lt; Number &gt;::Zero()</a>.</p>
 
 </div>
 </div>
@@ -1872,9 +1872,9 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Cartesian components of this three-dimensional vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00302">302</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00304">304</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="Vector_8hpp_source.html#l00226">PhQ::Vector&lt; Number &gt;::Cross()</a>, <a class="el" href="Vector_8hpp_source.html#l00215">PhQ::Vector&lt; Number &gt;::Dot()</a>, <a class="el" href="Dyad_8hpp_source.html#l00702">PhQ::Vector&lt; Number &gt;::Dyadic()</a>, <a class="el" href="Vector_8hpp_source.html#l00257">PhQ::Vector&lt; Number &gt;::JSON()</a>, <a class="el" href="Vector_8hpp_source.html#l00201">PhQ::Vector&lt; Number &gt;::MagnitudeSquared()</a>, <a class="el" href="Vector_8hpp_source.html#l00157">PhQ::Vector&lt; Number &gt;::Mutable_x()</a>, <a class="el" href="Vector_8hpp_source.html#l00152">PhQ::Vector&lt; Number &gt;::Mutable_x_y_z()</a>, <a class="el" href="Vector_8hpp_source.html#l00162">PhQ::Vector&lt; Number &gt;::Mutable_y()</a>, <a class="el" href="Vector_8hpp_source.html#l00167">PhQ::Vector&lt; Number &gt;::Mutable_z()</a>, <a class="el" href="Vector_8hpp_source.html#l00287">PhQ::Vector&lt; Number &gt;::operator*=()</a>, <a class="el" href="Vector_8hpp_source.html#l00274">PhQ::Vector&lt; Number &gt;::operator+=()</a>, <a class="el" href="Vector_8hpp_source.html#l00280">PhQ::Vector&lt; Number &gt;::operator-=()</a>, <a class="el" href="Vector_8hpp_source.html#l00294">PhQ::Vector&lt; Number &gt;::operator/=()</a>, <a class="el" href="Vector_8hpp_source.html#l00104">PhQ::Vector&lt; Number &gt;::operator=()</a>, <a class="el" href="Vector_8hpp_source.html#l00251">PhQ::Vector&lt; Number &gt;::Print()</a>, <a class="el" href="Vector_8hpp_source.html#l00186">PhQ::Vector&lt; Number &gt;::Set_x()</a>, <a class="el" href="Vector_8hpp_source.html#l00173">PhQ::Vector&lt; Number &gt;::Set_x_y_z()</a>, <a class="el" href="Vector_8hpp_source.html#l00191">PhQ::Vector&lt; Number &gt;::Set_y()</a>, <a class="el" href="Vector_8hpp_source.html#l00196">PhQ::Vector&lt; Number &gt;::Set_z()</a>, <a class="el" href="Direction_8hpp_source.html#l00374">PhQ::Vector&lt; Number &gt;::Vector()</a>, <a class="el" href="Vector_8hpp_source.html#l00136">PhQ::Vector&lt; Number &gt;::x()</a>, <a class="el" href="Vector_8hpp_source.html#l00131">PhQ::Vector&lt; Number &gt;::x_y_z()</a>, <a class="el" href="Vector_8hpp_source.html#l00263">PhQ::Vector&lt; Number &gt;::XML()</a>, <a class="el" href="Vector_8hpp_source.html#l00141">PhQ::Vector&lt; Number &gt;::y()</a>, <a class="el" href="Vector_8hpp_source.html#l00269">PhQ::Vector&lt; Number &gt;::YAML()</a>, and <a class="el" href="Vector_8hpp_source.html#l00146">PhQ::Vector&lt; Number &gt;::z()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="Vector_8hpp_source.html#l00228">PhQ::Vector&lt; Number &gt;::Cross()</a>, <a class="el" href="Vector_8hpp_source.html#l00217">PhQ::Vector&lt; Number &gt;::Dot()</a>, <a class="el" href="Dyad_8hpp_source.html#l00705">PhQ::Vector&lt; Number &gt;::Dyadic()</a>, <a class="el" href="Vector_8hpp_source.html#l00259">PhQ::Vector&lt; Number &gt;::JSON()</a>, <a class="el" href="Vector_8hpp_source.html#l00203">PhQ::Vector&lt; Number &gt;::MagnitudeSquared()</a>, <a class="el" href="Vector_8hpp_source.html#l00159">PhQ::Vector&lt; Number &gt;::Mutable_x()</a>, <a class="el" href="Vector_8hpp_source.html#l00154">PhQ::Vector&lt; Number &gt;::Mutable_x_y_z()</a>, <a class="el" href="Vector_8hpp_source.html#l00164">PhQ::Vector&lt; Number &gt;::Mutable_y()</a>, <a class="el" href="Vector_8hpp_source.html#l00169">PhQ::Vector&lt; Number &gt;::Mutable_z()</a>, <a class="el" href="Vector_8hpp_source.html#l00289">PhQ::Vector&lt; Number &gt;::operator*=()</a>, <a class="el" href="Vector_8hpp_source.html#l00276">PhQ::Vector&lt; Number &gt;::operator+=()</a>, <a class="el" href="Vector_8hpp_source.html#l00282">PhQ::Vector&lt; Number &gt;::operator-=()</a>, <a class="el" href="Vector_8hpp_source.html#l00296">PhQ::Vector&lt; Number &gt;::operator/=()</a>, <a class="el" href="Vector_8hpp_source.html#l00106">PhQ::Vector&lt; Number &gt;::operator=()</a>, <a class="el" href="Vector_8hpp_source.html#l00253">PhQ::Vector&lt; Number &gt;::Print()</a>, <a class="el" href="Vector_8hpp_source.html#l00188">PhQ::Vector&lt; Number &gt;::Set_x()</a>, <a class="el" href="Vector_8hpp_source.html#l00175">PhQ::Vector&lt; Number &gt;::Set_x_y_z()</a>, <a class="el" href="Vector_8hpp_source.html#l00193">PhQ::Vector&lt; Number &gt;::Set_y()</a>, <a class="el" href="Vector_8hpp_source.html#l00198">PhQ::Vector&lt; Number &gt;::Set_z()</a>, <a class="el" href="Direction_8hpp_source.html#l00369">PhQ::Vector&lt; Number &gt;::Vector()</a>, <a class="el" href="Vector_8hpp_source.html#l00138">PhQ::Vector&lt; Number &gt;::x()</a>, <a class="el" href="Vector_8hpp_source.html#l00133">PhQ::Vector&lt; Number &gt;::x_y_z()</a>, <a class="el" href="Vector_8hpp_source.html#l00265">PhQ::Vector&lt; Number &gt;::XML()</a>, <a class="el" href="Vector_8hpp_source.html#l00143">PhQ::Vector&lt; Number &gt;::y()</a>, <a class="el" href="Vector_8hpp_source.html#l00271">PhQ::Vector&lt; Number &gt;::YAML()</a>, and <a class="el" href="Vector_8hpp_source.html#l00148">PhQ::Vector&lt; Number &gt;::z()</a>.</p>
 
 </div>
 </div>

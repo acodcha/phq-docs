@@ -113,7 +113,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search','.html');
 </div><!--header-->
 <div class="contents">
 
-<p>Planar temperature gradient vector in the XY plane. See also <a class="el" href="classPhQ_1_1TemperatureGradient.html" title="Temperature gradient vector. See also PhQ::ScalarTemperatureGradient.">PhQ::TemperatureGradient</a> and <a class="el" href="classPhQ_1_1ScalarTemperatureGradient.html" title="Scalar temperature gradient component or magnitude of a temperature gradient vector....">PhQ::ScalarTemperatureGradient</a>.  
+<p>Two-dimensional Euclidean temperature gradient vector in the XY plane. Contains two components in Cartesian coordinates: x and y. For a three-dimensional Euclidean temperature gradient vector, see <a class="el" href="classPhQ_1_1TemperatureGradient.html" title="Three-dimensional Euclidean temperature gradient vector. Contains three components in Cartesian coord...">PhQ::TemperatureGradient</a>. For scalar temperature gradient components or for the magnitude of a temperature gradient vector, see <a class="el" href="classPhQ_1_1ScalarTemperatureGradient.html" title="Scalar temperature gradient component or magnitude of a temperature gradient vector....">PhQ::ScalarTemperatureGradient</a>.  
  <a href="classPhQ_1_1PlanarTemperatureGradient.html#details">More...</a></p>
 
 <p><code>#include &quot;<a class="el" href="PlanarTemperatureGradient_8hpp_source.html">PlanarTemperatureGradient.hpp</a>&quot;</code></p>
@@ -266,9 +266,9 @@ Private Member Functions</h2></td></tr>
 <div class="textblock"><h3>template&lt;typename Number = double&gt;<br />
 class PhQ::PlanarTemperatureGradient&lt; Number &gt;</h3>
 
-<p>Planar temperature gradient vector in the XY plane. See also <a class="el" href="classPhQ_1_1TemperatureGradient.html" title="Temperature gradient vector. See also PhQ::ScalarTemperatureGradient.">PhQ::TemperatureGradient</a> and <a class="el" href="classPhQ_1_1ScalarTemperatureGradient.html" title="Scalar temperature gradient component or magnitude of a temperature gradient vector....">PhQ::ScalarTemperatureGradient</a>. </p>
+<p>Two-dimensional Euclidean temperature gradient vector in the XY plane. Contains two components in Cartesian coordinates: x and y. For a three-dimensional Euclidean temperature gradient vector, see <a class="el" href="classPhQ_1_1TemperatureGradient.html" title="Three-dimensional Euclidean temperature gradient vector. Contains three components in Cartesian coord...">PhQ::TemperatureGradient</a>. For scalar temperature gradient components or for the magnitude of a temperature gradient vector, see <a class="el" href="classPhQ_1_1ScalarTemperatureGradient.html" title="Scalar temperature gradient component or magnitude of a temperature gradient vector....">PhQ::ScalarTemperatureGradient</a>. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarTemperatureGradient_8hpp_source.html#l00047">47</a> of file <a class="el" href="PlanarTemperatureGradient_8hpp_source.html">PlanarTemperatureGradient.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarTemperatureGradient_8hpp_source.html#l00049">49</a> of file <a class="el" href="PlanarTemperatureGradient_8hpp_source.html">PlanarTemperatureGradient.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ab2f34d83d0cd696f1d42af37bbd57d8d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab2f34d83d0cd696f1d42af37bbd57d8d">&#9670;&nbsp;</a></span>PlanarTemperatureGradient() <span class="overload">[1/8]</span></h2>
@@ -337,7 +337,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Constructor. Constructs a planar temperature gradient vector with a given value expressed in a given temperature gradient unit. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarTemperatureGradient_8hpp_source.html#l00056">56</a> of file <a class="el" href="PlanarTemperatureGradient_8hpp_source.html">PlanarTemperatureGradient.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarTemperatureGradient_8hpp_source.html#l00058">58</a> of file <a class="el" href="PlanarTemperatureGradient_8hpp_source.html">PlanarTemperatureGradient.hpp</a>.</p>
 
 </div>
 </div>
@@ -379,7 +379,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Constructor. Constructs a planar temperature gradient vector from a given scalar temperature gradient magnitude and planar direction. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarTemperatureGradient_8hpp_source.html#l00061">61</a> of file <a class="el" href="PlanarTemperatureGradient_8hpp_source.html">PlanarTemperatureGradient.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarTemperatureGradient_8hpp_source.html#l00063">63</a> of file <a class="el" href="PlanarTemperatureGradient_8hpp_source.html">PlanarTemperatureGradient.hpp</a>.</p>
 
 </div>
 </div>
@@ -411,7 +411,7 @@ template&lt;typename Number &gt; </div>
 
 <p>Constructor. Constructs a planar temperature gradient vector from a given temperature gradient vector by projecting the temperature gradient vector onto the XY plane. </p>
 
-<p class="definition">Definition at line <a class="el" href="TemperatureGradient_8hpp_source.html#l00280">280</a> of file <a class="el" href="TemperatureGradient_8hpp_source.html">TemperatureGradient.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="TemperatureGradient_8hpp_source.html#l00283">283</a> of file <a class="el" href="TemperatureGradient_8hpp_source.html">TemperatureGradient.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00060">PhQ::DimensionalVector&lt; UnitType, Number &gt;::Value()</a>.</p>
 
@@ -506,7 +506,7 @@ template&lt;typename OtherNumber &gt; </div>
 
 <p>Copy constructor. Constructs a planar temperature gradient vector by copying another one. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarTemperatureGradient_8hpp_source.html#l00082">82</a> of file <a class="el" href="PlanarTemperatureGradient_8hpp_source.html">PlanarTemperatureGradient.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarTemperatureGradient_8hpp_source.html#l00084">84</a> of file <a class="el" href="PlanarTemperatureGradient_8hpp_source.html">PlanarTemperatureGradient.hpp</a>.</p>
 
 </div>
 </div>
@@ -568,7 +568,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Constructor. Constructs a planar temperature gradient vector with a given value expressed in the standard temperature gradient unit. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarTemperatureGradient_8hpp_source.html#l00205">205</a> of file <a class="el" href="PlanarTemperatureGradient_8hpp_source.html">PlanarTemperatureGradient.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarTemperatureGradient_8hpp_source.html#l00207">207</a> of file <a class="el" href="PlanarTemperatureGradient_8hpp_source.html">PlanarTemperatureGradient.hpp</a>.</p>
 
 </div>
 </div>
@@ -601,7 +601,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the angle between this planar temperature gradient vector and another one. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarTemperatureGradient_8hpp_source.html#l00161">161</a> of file <a class="el" href="PlanarTemperatureGradient_8hpp_source.html">PlanarTemperatureGradient.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarTemperatureGradient_8hpp_source.html#l00163">163</a> of file <a class="el" href="PlanarTemperatureGradient_8hpp_source.html">PlanarTemperatureGradient.hpp</a>.</p>
 
 </div>
 </div>
@@ -645,9 +645,9 @@ template&lt;Unit::TemperatureGradient Unit&gt; </div>
 
 <p>Statically creates a planar temperature gradient vector from the given x and y Cartesian components expressed in a given temperature gradient unit. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarTemperatureGradient_8hpp_source.html#l00116">116</a> of file <a class="el" href="PlanarTemperatureGradient_8hpp_source.html">PlanarTemperatureGradient.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarTemperatureGradient_8hpp_source.html#l00118">118</a> of file <a class="el" href="PlanarTemperatureGradient_8hpp_source.html">PlanarTemperatureGradient.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="PlanarTemperatureGradient_8hpp_source.html#l00141">PhQ::PlanarTemperatureGradient&lt; Number &gt;::x()</a>, and <a class="el" href="PlanarTemperatureGradient_8hpp_source.html#l00146">PhQ::PlanarTemperatureGradient&lt; Number &gt;::y()</a>.</p>
+<p class="reference">References <a class="el" href="PlanarTemperatureGradient_8hpp_source.html#l00143">PhQ::PlanarTemperatureGradient&lt; Number &gt;::x()</a>, and <a class="el" href="PlanarTemperatureGradient_8hpp_source.html#l00148">PhQ::PlanarTemperatureGradient&lt; Number &gt;::y()</a>.</p>
 
 </div>
 </div>
@@ -681,7 +681,7 @@ template&lt;Unit::TemperatureGradient Unit&gt; </div>
 
 <p>Statically creates a planar temperature gradient vector with a given value expressed in a given temperature gradient unit. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarTemperatureGradient_8hpp_source.html#l00134">134</a> of file <a class="el" href="PlanarTemperatureGradient_8hpp_source.html">PlanarTemperatureGradient.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarTemperatureGradient_8hpp_source.html#l00136">136</a> of file <a class="el" href="PlanarTemperatureGradient_8hpp_source.html">PlanarTemperatureGradient.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00219">PhQ::DimensionalPlanarVector&lt; Unit::TemperatureGradient, double &gt;::value</a>.</p>
 
@@ -717,7 +717,7 @@ template&lt;Unit::TemperatureGradient Unit&gt; </div>
 
 <p>Statically creates a planar temperature gradient vector from the given x and y Cartesian components expressed in a given temperature gradient unit. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarTemperatureGradient_8hpp_source.html#l00125">125</a> of file <a class="el" href="PlanarTemperatureGradient_8hpp_source.html">PlanarTemperatureGradient.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarTemperatureGradient_8hpp_source.html#l00127">127</a> of file <a class="el" href="PlanarTemperatureGradient_8hpp_source.html">PlanarTemperatureGradient.hpp</a>.</p>
 
 </div>
 </div>
@@ -836,9 +836,9 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the magnitude of this planar temperature gradient vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarTemperatureGradient_8hpp_source.html#l00151">151</a> of file <a class="el" href="PlanarTemperatureGradient_8hpp_source.html">PlanarTemperatureGradient.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarTemperatureGradient_8hpp_source.html#l00153">153</a> of file <a class="el" href="PlanarTemperatureGradient_8hpp_source.html">PlanarTemperatureGradient.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="PlanarVector_8hpp_source.html#l00194">PhQ::PlanarVector&lt; Number &gt;::Magnitude()</a>, and <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00219">PhQ::DimensionalPlanarVector&lt; Unit::TemperatureGradient, double &gt;::value</a>.</p>
+<p class="reference">References <a class="el" href="PlanarVector_8hpp_source.html#l00196">PhQ::PlanarVector&lt; Number &gt;::Magnitude()</a>, and <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00219">PhQ::DimensionalPlanarVector&lt; Unit::TemperatureGradient, double &gt;::value</a>.</p>
 
 </div>
 </div>
@@ -897,7 +897,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="PlanarTemperatureGradient_8hpp_source.html#l00176">176</a> of file <a class="el" href="PlanarTemperatureGradient_8hpp_source.html">PlanarTemperatureGradient.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarTemperatureGradient_8hpp_source.html#l00178">178</a> of file <a class="el" href="PlanarTemperatureGradient_8hpp_source.html">PlanarTemperatureGradient.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00219">PhQ::DimensionalPlanarVector&lt; Unit::TemperatureGradient, double &gt;::value</a>.</p>
 
@@ -929,7 +929,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="PlanarTemperatureGradient_8hpp_source.html#l00194">194</a> of file <a class="el" href="PlanarTemperatureGradient_8hpp_source.html">PlanarTemperatureGradient.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarTemperatureGradient_8hpp_source.html#l00196">196</a> of file <a class="el" href="PlanarTemperatureGradient_8hpp_source.html">PlanarTemperatureGradient.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00219">PhQ::DimensionalPlanarVector&lt; Unit::TemperatureGradient, double &gt;::value</a>.</p>
 
@@ -961,7 +961,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="PlanarTemperatureGradient_8hpp_source.html#l00166">166</a> of file <a class="el" href="PlanarTemperatureGradient_8hpp_source.html">PlanarTemperatureGradient.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarTemperatureGradient_8hpp_source.html#l00168">168</a> of file <a class="el" href="PlanarTemperatureGradient_8hpp_source.html">PlanarTemperatureGradient.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00219">PhQ::DimensionalPlanarVector&lt; UnitType, Number &gt;::value</a>, and <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00219">PhQ::DimensionalPlanarVector&lt; Unit::TemperatureGradient, double &gt;::value</a>.</p>
 
@@ -993,7 +993,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="PlanarTemperatureGradient_8hpp_source.html#l00184">184</a> of file <a class="el" href="PlanarTemperatureGradient_8hpp_source.html">PlanarTemperatureGradient.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarTemperatureGradient_8hpp_source.html#l00186">186</a> of file <a class="el" href="PlanarTemperatureGradient_8hpp_source.html">PlanarTemperatureGradient.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00219">PhQ::DimensionalPlanarVector&lt; Unit::TemperatureGradient, double &gt;::value</a>.</p>
 
@@ -1025,7 +1025,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="PlanarTemperatureGradient_8hpp_source.html#l00171">171</a> of file <a class="el" href="PlanarTemperatureGradient_8hpp_source.html">PlanarTemperatureGradient.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarTemperatureGradient_8hpp_source.html#l00173">173</a> of file <a class="el" href="PlanarTemperatureGradient_8hpp_source.html">PlanarTemperatureGradient.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00219">PhQ::DimensionalPlanarVector&lt; UnitType, Number &gt;::value</a>, and <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00219">PhQ::DimensionalPlanarVector&lt; Unit::TemperatureGradient, double &gt;::value</a>.</p>
 
@@ -1057,7 +1057,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="PlanarTemperatureGradient_8hpp_source.html#l00189">189</a> of file <a class="el" href="PlanarTemperatureGradient_8hpp_source.html">PlanarTemperatureGradient.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarTemperatureGradient_8hpp_source.html#l00191">191</a> of file <a class="el" href="PlanarTemperatureGradient_8hpp_source.html">PlanarTemperatureGradient.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00219">PhQ::DimensionalPlanarVector&lt; Unit::TemperatureGradient, double &gt;::value</a>.</p>
 
@@ -1089,7 +1089,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="PlanarTemperatureGradient_8hpp_source.html#l00180">180</a> of file <a class="el" href="PlanarTemperatureGradient_8hpp_source.html">PlanarTemperatureGradient.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarTemperatureGradient_8hpp_source.html#l00182">182</a> of file <a class="el" href="PlanarTemperatureGradient_8hpp_source.html">PlanarTemperatureGradient.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00219">PhQ::DimensionalPlanarVector&lt; Unit::TemperatureGradient, double &gt;::value</a>.</p>
 
@@ -1121,7 +1121,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="PlanarTemperatureGradient_8hpp_source.html#l00198">198</a> of file <a class="el" href="PlanarTemperatureGradient_8hpp_source.html">PlanarTemperatureGradient.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarTemperatureGradient_8hpp_source.html#l00200">200</a> of file <a class="el" href="PlanarTemperatureGradient_8hpp_source.html">PlanarTemperatureGradient.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00219">PhQ::DimensionalPlanarVector&lt; Unit::TemperatureGradient, double &gt;::value</a>.</p>
 
@@ -1187,7 +1187,7 @@ template&lt;typename OtherNumber &gt; </div>
 
 <p>Copy assignment operator. Assigns this planar temperature gradient vector by copying another one. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarTemperatureGradient_8hpp_source.html#l00097">97</a> of file <a class="el" href="PlanarTemperatureGradient_8hpp_source.html">PlanarTemperatureGradient.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarTemperatureGradient_8hpp_source.html#l00099">99</a> of file <a class="el" href="PlanarTemperatureGradient_8hpp_source.html">PlanarTemperatureGradient.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00060">PhQ::DimensionalPlanarVector&lt; UnitType, Number &gt;::Value()</a>, and <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00219">PhQ::DimensionalPlanarVector&lt; Unit::TemperatureGradient, double &gt;::value</a>.</p>
 
@@ -1250,9 +1250,9 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the direction of this planar temperature gradient vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarTemperatureGradient_8hpp_source.html#l00156">156</a> of file <a class="el" href="PlanarTemperatureGradient_8hpp_source.html">PlanarTemperatureGradient.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarTemperatureGradient_8hpp_source.html#l00158">158</a> of file <a class="el" href="PlanarTemperatureGradient_8hpp_source.html">PlanarTemperatureGradient.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="PlanarDirection_8hpp_source.html#l00383">PhQ::PlanarVector&lt; Number &gt;::PlanarDirection()</a>, and <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00219">PhQ::DimensionalPlanarVector&lt; Unit::TemperatureGradient, double &gt;::value</a>.</p>
+<p class="reference">References <a class="el" href="PlanarDirection_8hpp_source.html#l00377">PhQ::PlanarVector&lt; Number &gt;::PlanarDirection()</a>, and <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00219">PhQ::DimensionalPlanarVector&lt; Unit::TemperatureGradient, double &gt;::value</a>.</p>
 
 </div>
 </div>
@@ -1489,11 +1489,11 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the x Cartesian component of this planar temperature gradient vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarTemperatureGradient_8hpp_source.html#l00141">141</a> of file <a class="el" href="PlanarTemperatureGradient_8hpp_source.html">PlanarTemperatureGradient.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarTemperatureGradient_8hpp_source.html#l00143">143</a> of file <a class="el" href="PlanarTemperatureGradient_8hpp_source.html">PlanarTemperatureGradient.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00219">PhQ::DimensionalPlanarVector&lt; Unit::TemperatureGradient, double &gt;::value</a>, and <a class="el" href="PlanarVector_8hpp_source.html#l00139">PhQ::PlanarVector&lt; Number &gt;::x()</a>.</p>
+<p class="reference">References <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00219">PhQ::DimensionalPlanarVector&lt; Unit::TemperatureGradient, double &gt;::value</a>, and <a class="el" href="PlanarVector_8hpp_source.html#l00141">PhQ::PlanarVector&lt; Number &gt;::x()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="PlanarTemperatureGradient_8hpp_source.html#l00116">PhQ::PlanarTemperatureGradient&lt; Number &gt;::Create()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="PlanarTemperatureGradient_8hpp_source.html#l00118">PhQ::PlanarTemperatureGradient&lt; Number &gt;::Create()</a>.</p>
 
 </div>
 </div>
@@ -1583,11 +1583,11 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the y Cartesian component of this planar temperature gradient vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarTemperatureGradient_8hpp_source.html#l00146">146</a> of file <a class="el" href="PlanarTemperatureGradient_8hpp_source.html">PlanarTemperatureGradient.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarTemperatureGradient_8hpp_source.html#l00148">148</a> of file <a class="el" href="PlanarTemperatureGradient_8hpp_source.html">PlanarTemperatureGradient.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00219">PhQ::DimensionalPlanarVector&lt; Unit::TemperatureGradient, double &gt;::value</a>, and <a class="el" href="PlanarVector_8hpp_source.html#l00144">PhQ::PlanarVector&lt; Number &gt;::y()</a>.</p>
+<p class="reference">References <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00219">PhQ::DimensionalPlanarVector&lt; Unit::TemperatureGradient, double &gt;::value</a>, and <a class="el" href="PlanarVector_8hpp_source.html#l00146">PhQ::PlanarVector&lt; Number &gt;::y()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="PlanarTemperatureGradient_8hpp_source.html#l00116">PhQ::PlanarTemperatureGradient&lt; Number &gt;::Create()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="PlanarTemperatureGradient_8hpp_source.html#l00118">PhQ::PlanarTemperatureGradient&lt; Number &gt;::Create()</a>.</p>
 
 </div>
 </div>
@@ -1677,9 +1677,9 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Statically creates a planar temperature gradient vector of zero. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarTemperatureGradient_8hpp_source.html#l00109">109</a> of file <a class="el" href="PlanarTemperatureGradient_8hpp_source.html">PlanarTemperatureGradient.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarTemperatureGradient_8hpp_source.html#l00111">111</a> of file <a class="el" href="PlanarTemperatureGradient_8hpp_source.html">PlanarTemperatureGradient.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="PlanarVector_8hpp_source.html#l00127">PhQ::PlanarVector&lt; Number &gt;::Zero()</a>.</p>
+<p class="reference">References <a class="el" href="PlanarVector_8hpp_source.html#l00129">PhQ::PlanarVector&lt; Number &gt;::Zero()</a>.</p>
 
 </div>
 </div>

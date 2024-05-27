@@ -112,7 +112,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search','.html');
 </div><!--header-->
 <div class="contents">
 
-<p>Two-dimensional planar vector in the XY plane in Cartesian coordinates. Contains two components: x and y.  
+<p>Two-dimensional Euclidean vector in the XY plane. Contains two components in Cartesian coordinates: x and y. For a three-dimensional Euclidean vector, see <a class="el" href="classPhQ_1_1Vector.html" title="Three-dimensional Euclidean vector. Contains three components in Cartesian coordinates: x,...">PhQ::Vector</a>. For a three-dimensional Euclidean dyadic tensor, see <a class="el" href="classPhQ_1_1Dyad.html" title="Three-dimensional Euclidean dyadic tensor. Contains nine components in Cartesian coordinates: xx,...">PhQ::Dyad</a>. For a three-dimensional symmetric Euclidean dyadic tensor, see <a class="el" href="classPhQ_1_1SymmetricDyad.html" title="Symmetric three-dimensional Euclidean dyadic tensor. Contains six components in Cartesian coordinates...">PhQ::SymmetricDyad</a>.  
  <a href="classPhQ_1_1PlanarVector.html#details">More...</a></p>
 
 <p><code>#include &quot;<a class="el" href="PlanarVector_8hpp_source.html">PlanarVector.hpp</a>&quot;</code></p>
@@ -262,9 +262,9 @@ Private Attributes</h2></td></tr>
 <div class="textblock"><h3>template&lt;typename Number = double&gt;<br />
 class PhQ::PlanarVector&lt; Number &gt;</h3>
 
-<p>Two-dimensional planar vector in the XY plane in Cartesian coordinates. Contains two components: x and y. </p>
+<p>Two-dimensional Euclidean vector in the XY plane. Contains two components in Cartesian coordinates: x and y. For a three-dimensional Euclidean vector, see <a class="el" href="classPhQ_1_1Vector.html" title="Three-dimensional Euclidean vector. Contains three components in Cartesian coordinates: x,...">PhQ::Vector</a>. For a three-dimensional Euclidean dyadic tensor, see <a class="el" href="classPhQ_1_1Dyad.html" title="Three-dimensional Euclidean dyadic tensor. Contains nine components in Cartesian coordinates: xx,...">PhQ::Dyad</a>. For a three-dimensional symmetric Euclidean dyadic tensor, see <a class="el" href="classPhQ_1_1SymmetricDyad.html" title="Symmetric three-dimensional Euclidean dyadic tensor. Contains six components in Cartesian coordinates...">PhQ::SymmetricDyad</a>. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarVector_8hpp_source.html#l00061">61</a> of file <a class="el" href="PlanarVector_8hpp_source.html">PlanarVector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarVector_8hpp_source.html#l00063">63</a> of file <a class="el" href="PlanarVector_8hpp_source.html">PlanarVector.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a11509935d0f94e5045d308c3608ca5f4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a11509935d0f94e5045d308c3608ca5f4">&#9670;&nbsp;</a></span>PlanarVector() <span class="overload">[1/8]</span></h2>
@@ -333,9 +333,9 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Constructor. Constructs a two-dimensional planar vector from the given x and y Cartesian components. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarVector_8hpp_source.html#l00073">73</a> of file <a class="el" href="PlanarVector_8hpp_source.html">PlanarVector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarVector_8hpp_source.html#l00075">75</a> of file <a class="el" href="PlanarVector_8hpp_source.html">PlanarVector.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="PlanarVector_8hpp_source.html#l00139">PhQ::PlanarVector&lt; Number &gt;::x()</a>, and <a class="el" href="PlanarVector_8hpp_source.html#l00144">PhQ::PlanarVector&lt; Number &gt;::y()</a>.</p>
+<p class="reference">References <a class="el" href="PlanarVector_8hpp_source.html#l00141">PhQ::PlanarVector&lt; Number &gt;::x()</a>, and <a class="el" href="PlanarVector_8hpp_source.html#l00146">PhQ::PlanarVector&lt; Number &gt;::y()</a>.</p>
 
 </div>
 </div>
@@ -367,7 +367,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Constructor. Constructs a two-dimensional planar vector from a given array representing its x and y Cartesian components. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarVector_8hpp_source.html#l00077">77</a> of file <a class="el" href="PlanarVector_8hpp_source.html">PlanarVector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarVector_8hpp_source.html#l00079">79</a> of file <a class="el" href="PlanarVector_8hpp_source.html">PlanarVector.hpp</a>.</p>
 
 </div>
 </div>
@@ -399,9 +399,9 @@ template&lt;typename Number &gt; </div>
 
 <p>Constructor. Constructs a two-dimensional planar vector from a given three-dimensional vector. Projects the three-dimensional vector onto the XY plane. </p>
 
-<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00383">383</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00385">385</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00136">PhQ::Vector&lt; Number &gt;::x()</a>, and <a class="el" href="Vector_8hpp_source.html#l00141">PhQ::Vector&lt; Number &gt;::y()</a>.</p>
+<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00138">PhQ::Vector&lt; Number &gt;::x()</a>, and <a class="el" href="Vector_8hpp_source.html#l00143">PhQ::Vector&lt; Number &gt;::y()</a>.</p>
 
 </div>
 </div>
@@ -443,9 +443,9 @@ template&lt;typename Number &gt; </div>
 
 <p>Constructor. Constructs a two-dimensional planar vector given a magnitude and a planar direction. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarDirection_8hpp_source.html#l00378">378</a> of file <a class="el" href="PlanarDirection_8hpp_source.html">PlanarDirection.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarDirection_8hpp_source.html#l00372">372</a> of file <a class="el" href="PlanarDirection_8hpp_source.html">PlanarDirection.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionlessPlanarVector_8hpp_source.html#l00060">PhQ::DimensionlessPlanarVector&lt; Number &gt;::Value()</a>, and <a class="el" href="PlanarVector_8hpp_source.html#l00282">PhQ::PlanarVector&lt; Number &gt;::x_y_</a>.</p>
+<p class="reference">References <a class="el" href="DimensionlessPlanarVector_8hpp_source.html#l00060">PhQ::DimensionlessPlanarVector&lt; Number &gt;::Value()</a>, and <a class="el" href="PlanarVector_8hpp_source.html#l00284">PhQ::PlanarVector&lt; Number &gt;::x_y_</a>.</p>
 
 </div>
 </div>
@@ -538,7 +538,7 @@ template&lt;typename OtherNumber &gt; </div>
 
 <p>Copy constructor. Constructs a two-dimensional planar vector by copying another one. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarVector_8hpp_source.html#l00095">95</a> of file <a class="el" href="PlanarVector_8hpp_source.html">PlanarVector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarVector_8hpp_source.html#l00097">97</a> of file <a class="el" href="PlanarVector_8hpp_source.html">PlanarVector.hpp</a>.</p>
 
 </div>
 </div>
@@ -601,7 +601,7 @@ template&lt;typename Number &gt; </div>
 
 <p>Returns the angle between this two-dimensional planar vector and a given planar direction. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarDirection_8hpp_source.html#l00418">418</a> of file <a class="el" href="PlanarDirection_8hpp_source.html">PlanarDirection.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarDirection_8hpp_source.html#l00412">412</a> of file <a class="el" href="PlanarDirection_8hpp_source.html">PlanarDirection.hpp</a>.</p>
 
 </div>
 </div>
@@ -633,7 +633,7 @@ template&lt;typename Number &gt; </div>
 
 <p>Returns the angle between this two-dimensional planar vector and another one. </p>
 
-<p class="definition">Definition at line <a class="el" href="Angle_8hpp_source.html#l00389">389</a> of file <a class="el" href="Angle_8hpp_source.html">Angle.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Angle_8hpp_source.html#l00390">390</a> of file <a class="el" href="Angle_8hpp_source.html">Angle.hpp</a>.</p>
 
 </div>
 </div>
@@ -665,7 +665,7 @@ template&lt;typename Number &gt; </div>
 
 <p>Returns the cross product (also known as the vector product) of this two-dimensional planar vector and a given planar direction. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarDirection_8hpp_source.html#l00394">394</a> of file <a class="el" href="PlanarDirection_8hpp_source.html">PlanarDirection.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarDirection_8hpp_source.html#l00388">388</a> of file <a class="el" href="PlanarDirection_8hpp_source.html">PlanarDirection.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionlessPlanarVector_8hpp_source.html#l00060">PhQ::DimensionlessPlanarVector&lt; Number &gt;::Value()</a>.</p>
 
@@ -699,11 +699,11 @@ template&lt;typename Number &gt; </div>
 
 <p>Returns the cross product (also known as the vector product) of this two-dimensional planar vector and another one. </p>
 
-<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00387">387</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00389">389</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="PlanarVector_8hpp_source.html#l00282">PhQ::PlanarVector&lt; Number &gt;::x_y_</a>.</p>
+<p class="reference">References <a class="el" href="PlanarVector_8hpp_source.html#l00284">PhQ::PlanarVector&lt; Number &gt;::x_y_</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="PlanarDirection_8hpp_source.html#l00285">PhQ::PlanarDirection&lt; Number &gt;::Cross()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="PlanarDirection_8hpp_source.html#l00279">PhQ::PlanarDirection&lt; Number &gt;::Cross()</a>.</p>
 
 </div>
 </div>
@@ -735,7 +735,7 @@ template&lt;typename Number &gt; </div>
 
 <p>Returns the dot product (also known as the inner product or scalar product) of this two-dimensional planar vector and a given planar direction. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarDirection_8hpp_source.html#l00388">388</a> of file <a class="el" href="PlanarDirection_8hpp_source.html">PlanarDirection.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarDirection_8hpp_source.html#l00382">382</a> of file <a class="el" href="PlanarDirection_8hpp_source.html">PlanarDirection.hpp</a>.</p>
 
 </div>
 </div>
@@ -767,11 +767,11 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the dot product (also known as the inner product or scalar product) of this two-dimensional planar vector and another one. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarVector_8hpp_source.html#l00203">203</a> of file <a class="el" href="PlanarVector_8hpp_source.html">PlanarVector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarVector_8hpp_source.html#l00205">205</a> of file <a class="el" href="PlanarVector_8hpp_source.html">PlanarVector.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="PlanarVector_8hpp_source.html#l00282">PhQ::PlanarVector&lt; Number &gt;::x_y_</a>.</p>
+<p class="reference">References <a class="el" href="PlanarVector_8hpp_source.html#l00284">PhQ::PlanarVector&lt; Number &gt;::x_y_</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="PlanarDirection_8hpp_source.html#l00273">PhQ::PlanarDirection&lt; Number &gt;::Dot()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="PlanarDirection_8hpp_source.html#l00267">PhQ::PlanarDirection&lt; Number &gt;::Dot()</a>.</p>
 
 </div>
 </div>
@@ -803,7 +803,7 @@ template&lt;typename Number &gt; </div>
 
 <p>Returns the dyadic tensor product (also known as the outer product) of this two-dimensional planar vector and a given planar direction. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarDirection_8hpp_source.html#l00400">400</a> of file <a class="el" href="PlanarDirection_8hpp_source.html">PlanarDirection.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarDirection_8hpp_source.html#l00394">394</a> of file <a class="el" href="PlanarDirection_8hpp_source.html">PlanarDirection.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionlessPlanarVector_8hpp_source.html#l00060">PhQ::DimensionlessPlanarVector&lt; Number &gt;::Value()</a>.</p>
 
@@ -837,11 +837,11 @@ template&lt;typename Number &gt; </div>
 
 <p>Returns the dyadic tensor product (also known as the outer product) of this two-dimensional planar vector and another one. </p>
 
-<p class="definition">Definition at line <a class="el" href="Dyad_8hpp_source.html#l00693">693</a> of file <a class="el" href="Dyad_8hpp_source.html">Dyad.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Dyad_8hpp_source.html#l00696">696</a> of file <a class="el" href="Dyad_8hpp_source.html">Dyad.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="PlanarVector_8hpp_source.html#l00282">PhQ::PlanarVector&lt; Number &gt;::x_y_</a>.</p>
+<p class="reference">References <a class="el" href="PlanarVector_8hpp_source.html#l00284">PhQ::PlanarVector&lt; Number &gt;::x_y_</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="PlanarDirection_8hpp_source.html#l00294">PhQ::PlanarDirection&lt; Number &gt;::Dyadic()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="PlanarDirection_8hpp_source.html#l00288">PhQ::PlanarDirection&lt; Number &gt;::Dyadic()</a>.</p>
 
 </div>
 </div>
@@ -872,9 +872,9 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Serializes this two-dimensional planar vector as a JSON message. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarVector_8hpp_source.html#l00244">244</a> of file <a class="el" href="PlanarVector_8hpp_source.html">PlanarVector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarVector_8hpp_source.html#l00246">246</a> of file <a class="el" href="PlanarVector_8hpp_source.html">PlanarVector.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Base_8hpp_source.html#l00170">PhQ::Print()</a>, and <a class="el" href="PlanarVector_8hpp_source.html#l00282">PhQ::PlanarVector&lt; Number &gt;::x_y_</a>.</p>
+<p class="reference">References <a class="el" href="Base_8hpp_source.html#l00170">PhQ::Print()</a>, and <a class="el" href="PlanarVector_8hpp_source.html#l00284">PhQ::PlanarVector&lt; Number &gt;::x_y_</a>.</p>
 
 </div>
 </div>
@@ -905,9 +905,9 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the magnitude (also known as the L2 norm) of this two-dimensional planar vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarVector_8hpp_source.html#l00194">194</a> of file <a class="el" href="PlanarVector_8hpp_source.html">PlanarVector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarVector_8hpp_source.html#l00196">196</a> of file <a class="el" href="PlanarVector_8hpp_source.html">PlanarVector.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="PlanarAcceleration_8hpp_source.html#l00154">PhQ::PlanarAcceleration&lt; Number &gt;::Magnitude()</a>, <a class="el" href="PlanarDisplacement_8hpp_source.html#l00175">PhQ::PlanarDisplacement&lt; Number &gt;::Magnitude()</a>, <a class="el" href="PlanarForce_8hpp_source.html#l00140">PhQ::PlanarForce&lt; Number &gt;::Magnitude()</a>, <a class="el" href="PlanarHeatFlux_8hpp_source.html#l00155">PhQ::PlanarHeatFlux&lt; Number &gt;::Magnitude()</a>, <a class="el" href="PlanarPosition_8hpp_source.html#l00140">PhQ::PlanarPosition&lt; Number &gt;::Magnitude()</a>, <a class="el" href="PlanarTemperatureGradient_8hpp_source.html#l00151">PhQ::PlanarTemperatureGradient&lt; Number &gt;::Magnitude()</a>, <a class="el" href="PlanarTraction_8hpp_source.html#l00148">PhQ::PlanarTraction&lt; Number &gt;::Magnitude()</a>, <a class="el" href="PlanarVectorArea_8hpp_source.html#l00134">PhQ::PlanarVectorArea&lt; Number &gt;::Magnitude()</a>, <a class="el" href="PlanarVelocity_8hpp_source.html#l00162">PhQ::PlanarVelocity&lt; Number &gt;::Magnitude()</a>, and <a class="el" href="PlanarDirection_8hpp_source.html#l00267">PhQ::PlanarDirection&lt; Number &gt;::Magnitude()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="PlanarAcceleration_8hpp_source.html#l00156">PhQ::PlanarAcceleration&lt; Number &gt;::Magnitude()</a>, <a class="el" href="PlanarDisplacement_8hpp_source.html#l00178">PhQ::PlanarDisplacement&lt; Number &gt;::Magnitude()</a>, <a class="el" href="PlanarForce_8hpp_source.html#l00142">PhQ::PlanarForce&lt; Number &gt;::Magnitude()</a>, <a class="el" href="PlanarHeatFlux_8hpp_source.html#l00158">PhQ::PlanarHeatFlux&lt; Number &gt;::Magnitude()</a>, <a class="el" href="PlanarPosition_8hpp_source.html#l00143">PhQ::PlanarPosition&lt; Number &gt;::Magnitude()</a>, <a class="el" href="PlanarTemperatureGradient_8hpp_source.html#l00153">PhQ::PlanarTemperatureGradient&lt; Number &gt;::Magnitude()</a>, <a class="el" href="PlanarTraction_8hpp_source.html#l00152">PhQ::PlanarTraction&lt; Number &gt;::Magnitude()</a>, <a class="el" href="PlanarVelocity_8hpp_source.html#l00165">PhQ::PlanarVelocity&lt; Number &gt;::Magnitude()</a>, and <a class="el" href="PlanarDirection_8hpp_source.html#l00261">PhQ::PlanarDirection&lt; Number &gt;::Magnitude()</a>.</p>
 
 </div>
 </div>
@@ -938,11 +938,11 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the square of the magnitude of this two-dimensional planar vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarVector_8hpp_source.html#l00188">188</a> of file <a class="el" href="PlanarVector_8hpp_source.html">PlanarVector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarVector_8hpp_source.html#l00190">190</a> of file <a class="el" href="PlanarVector_8hpp_source.html">PlanarVector.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="PlanarVector_8hpp_source.html#l00282">PhQ::PlanarVector&lt; Number &gt;::x_y_</a>.</p>
+<p class="reference">References <a class="el" href="PlanarVector_8hpp_source.html#l00284">PhQ::PlanarVector&lt; Number &gt;::x_y_</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="PlanarDirection_8hpp_source.html#l00260">PhQ::PlanarDirection&lt; Number &gt;::MagnitudeSquared()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="PlanarDirection_8hpp_source.html#l00254">PhQ::PlanarDirection&lt; Number &gt;::MagnitudeSquared()</a>.</p>
 
 </div>
 </div>
@@ -973,9 +973,9 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns this two-dimensional planar vector's x Cartesian component as a mutable value. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarVector_8hpp_source.html#l00155">155</a> of file <a class="el" href="PlanarVector_8hpp_source.html">PlanarVector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarVector_8hpp_source.html#l00157">157</a> of file <a class="el" href="PlanarVector_8hpp_source.html">PlanarVector.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="PlanarVector_8hpp_source.html#l00282">PhQ::PlanarVector&lt; Number &gt;::x_y_</a>.</p>
+<p class="reference">References <a class="el" href="PlanarVector_8hpp_source.html#l00284">PhQ::PlanarVector&lt; Number &gt;::x_y_</a>.</p>
 
 </div>
 </div>
@@ -1006,9 +1006,9 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns this two-dimensional planar vector's x and y Cartesian components as a mutable array. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarVector_8hpp_source.html#l00150">150</a> of file <a class="el" href="PlanarVector_8hpp_source.html">PlanarVector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarVector_8hpp_source.html#l00152">152</a> of file <a class="el" href="PlanarVector_8hpp_source.html">PlanarVector.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="PlanarVector_8hpp_source.html#l00282">PhQ::PlanarVector&lt; Number &gt;::x_y_</a>.</p>
+<p class="reference">References <a class="el" href="PlanarVector_8hpp_source.html#l00284">PhQ::PlanarVector&lt; Number &gt;::x_y_</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="Unit_8hpp_source.html#l00176">PhQ::Convert()</a>.</p>
 
@@ -1041,9 +1041,9 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns this two-dimensional planar vector's y Cartesian component as a mutable value. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarVector_8hpp_source.html#l00160">160</a> of file <a class="el" href="PlanarVector_8hpp_source.html">PlanarVector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarVector_8hpp_source.html#l00162">162</a> of file <a class="el" href="PlanarVector_8hpp_source.html">PlanarVector.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="PlanarVector_8hpp_source.html#l00282">PhQ::PlanarVector&lt; Number &gt;::x_y_</a>.</p>
+<p class="reference">References <a class="el" href="PlanarVector_8hpp_source.html#l00284">PhQ::PlanarVector&lt; Number &gt;::x_y_</a>.</p>
 
 </div>
 </div>
@@ -1075,9 +1075,9 @@ template&lt;typename OtherNumber &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="PlanarVector_8hpp_source.html#l00269">269</a> of file <a class="el" href="PlanarVector_8hpp_source.html">PlanarVector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarVector_8hpp_source.html#l00271">271</a> of file <a class="el" href="PlanarVector_8hpp_source.html">PlanarVector.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="PlanarVector_8hpp_source.html#l00282">PhQ::PlanarVector&lt; Number &gt;::x_y_</a>.</p>
+<p class="reference">References <a class="el" href="PlanarVector_8hpp_source.html#l00284">PhQ::PlanarVector&lt; Number &gt;::x_y_</a>.</p>
 
 </div>
 </div>
@@ -1107,9 +1107,9 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="PlanarVector_8hpp_source.html#l00258">258</a> of file <a class="el" href="PlanarVector_8hpp_source.html">PlanarVector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarVector_8hpp_source.html#l00260">260</a> of file <a class="el" href="PlanarVector_8hpp_source.html">PlanarVector.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="PlanarVector_8hpp_source.html#l00282">PhQ::PlanarVector&lt; Number &gt;::x_y_</a>.</p>
+<p class="reference">References <a class="el" href="PlanarVector_8hpp_source.html#l00284">PhQ::PlanarVector&lt; Number &gt;::x_y_</a>.</p>
 
 </div>
 </div>
@@ -1139,9 +1139,9 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="PlanarVector_8hpp_source.html#l00263">263</a> of file <a class="el" href="PlanarVector_8hpp_source.html">PlanarVector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarVector_8hpp_source.html#l00265">265</a> of file <a class="el" href="PlanarVector_8hpp_source.html">PlanarVector.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="PlanarVector_8hpp_source.html#l00282">PhQ::PlanarVector&lt; Number &gt;::x_y_</a>.</p>
+<p class="reference">References <a class="el" href="PlanarVector_8hpp_source.html#l00284">PhQ::PlanarVector&lt; Number &gt;::x_y_</a>.</p>
 
 </div>
 </div>
@@ -1173,9 +1173,9 @@ template&lt;typename OtherNumber &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="PlanarVector_8hpp_source.html#l00275">275</a> of file <a class="el" href="PlanarVector_8hpp_source.html">PlanarVector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarVector_8hpp_source.html#l00277">277</a> of file <a class="el" href="PlanarVector_8hpp_source.html">PlanarVector.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="PlanarVector_8hpp_source.html#l00282">PhQ::PlanarVector&lt; Number &gt;::x_y_</a>.</p>
+<p class="reference">References <a class="el" href="PlanarVector_8hpp_source.html#l00284">PhQ::PlanarVector&lt; Number &gt;::x_y_</a>.</p>
 
 </div>
 </div>
@@ -1239,9 +1239,9 @@ template&lt;typename OtherNumber &gt; </div>
 
 <p>Copy assignment operator. Assigns this two-dimensional planar vector by copying another one. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarVector_8hpp_source.html#l00108">108</a> of file <a class="el" href="PlanarVector_8hpp_source.html">PlanarVector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarVector_8hpp_source.html#l00110">110</a> of file <a class="el" href="PlanarVector_8hpp_source.html">PlanarVector.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="PlanarVector_8hpp_source.html#l00139">PhQ::PlanarVector&lt; Number &gt;::x()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00282">PhQ::PlanarVector&lt; Number &gt;::x_y_</a>, and <a class="el" href="PlanarVector_8hpp_source.html#l00144">PhQ::PlanarVector&lt; Number &gt;::y()</a>.</p>
+<p class="reference">References <a class="el" href="PlanarVector_8hpp_source.html#l00141">PhQ::PlanarVector&lt; Number &gt;::x()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00284">PhQ::PlanarVector&lt; Number &gt;::x_y_</a>, and <a class="el" href="PlanarVector_8hpp_source.html#l00146">PhQ::PlanarVector&lt; Number &gt;::y()</a>.</p>
 
 </div>
 </div>
@@ -1273,9 +1273,9 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Assignment operator. Assigns this two-dimensional planar vector by copying a given array representing its x and y Cartesian components. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarVector_8hpp_source.html#l00120">120</a> of file <a class="el" href="PlanarVector_8hpp_source.html">PlanarVector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarVector_8hpp_source.html#l00122">122</a> of file <a class="el" href="PlanarVector_8hpp_source.html">PlanarVector.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="PlanarVector_8hpp_source.html#l00134">PhQ::PlanarVector&lt; Number &gt;::x_y()</a>, and <a class="el" href="PlanarVector_8hpp_source.html#l00282">PhQ::PlanarVector&lt; Number &gt;::x_y_</a>.</p>
+<p class="reference">References <a class="el" href="PlanarVector_8hpp_source.html#l00136">PhQ::PlanarVector&lt; Number &gt;::x_y()</a>, and <a class="el" href="PlanarVector_8hpp_source.html#l00284">PhQ::PlanarVector&lt; Number &gt;::x_y_</a>.</p>
 
 </div>
 </div>
@@ -1333,9 +1333,9 @@ template&lt;typename Number &gt; </div>
 
 <p>Returns the planar direction of this two-dimensional planar vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarDirection_8hpp_source.html#l00383">383</a> of file <a class="el" href="PlanarDirection_8hpp_source.html">PlanarDirection.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarDirection_8hpp_source.html#l00377">377</a> of file <a class="el" href="PlanarDirection_8hpp_source.html">PlanarDirection.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="PlanarAcceleration_8hpp_source.html#l00159">PhQ::PlanarAcceleration&lt; Number &gt;::PlanarDirection()</a>, <a class="el" href="PlanarDisplacement_8hpp_source.html#l00180">PhQ::PlanarDisplacement&lt; Number &gt;::PlanarDirection()</a>, <a class="el" href="PlanarForce_8hpp_source.html#l00145">PhQ::PlanarForce&lt; Number &gt;::PlanarDirection()</a>, <a class="el" href="PlanarHeatFlux_8hpp_source.html#l00160">PhQ::PlanarHeatFlux&lt; Number &gt;::PlanarDirection()</a>, <a class="el" href="PlanarPosition_8hpp_source.html#l00145">PhQ::PlanarPosition&lt; Number &gt;::PlanarDirection()</a>, <a class="el" href="PlanarTemperatureGradient_8hpp_source.html#l00156">PhQ::PlanarTemperatureGradient&lt; Number &gt;::PlanarDirection()</a>, <a class="el" href="PlanarTraction_8hpp_source.html#l00153">PhQ::PlanarTraction&lt; Number &gt;::PlanarDirection()</a>, <a class="el" href="PlanarVectorArea_8hpp_source.html#l00139">PhQ::PlanarVectorArea&lt; Number &gt;::PlanarDirection()</a>, and <a class="el" href="PlanarVelocity_8hpp_source.html#l00167">PhQ::PlanarVelocity&lt; Number &gt;::PlanarDirection()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="PlanarAcceleration_8hpp_source.html#l00161">PhQ::PlanarAcceleration&lt; Number &gt;::PlanarDirection()</a>, <a class="el" href="PlanarDisplacement_8hpp_source.html#l00183">PhQ::PlanarDisplacement&lt; Number &gt;::PlanarDirection()</a>, <a class="el" href="PlanarForce_8hpp_source.html#l00147">PhQ::PlanarForce&lt; Number &gt;::PlanarDirection()</a>, <a class="el" href="PlanarHeatFlux_8hpp_source.html#l00163">PhQ::PlanarHeatFlux&lt; Number &gt;::PlanarDirection()</a>, <a class="el" href="PlanarPosition_8hpp_source.html#l00148">PhQ::PlanarPosition&lt; Number &gt;::PlanarDirection()</a>, <a class="el" href="PlanarTemperatureGradient_8hpp_source.html#l00158">PhQ::PlanarTemperatureGradient&lt; Number &gt;::PlanarDirection()</a>, <a class="el" href="PlanarTraction_8hpp_source.html#l00157">PhQ::PlanarTraction&lt; Number &gt;::PlanarDirection()</a>, and <a class="el" href="PlanarVelocity_8hpp_source.html#l00170">PhQ::PlanarVelocity&lt; Number &gt;::PlanarDirection()</a>.</p>
 
 </div>
 </div>
@@ -1366,11 +1366,11 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Prints this two-dimensional planar vector as a string. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarVector_8hpp_source.html#l00239">239</a> of file <a class="el" href="PlanarVector_8hpp_source.html">PlanarVector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarVector_8hpp_source.html#l00241">241</a> of file <a class="el" href="PlanarVector_8hpp_source.html">PlanarVector.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Base_8hpp_source.html#l00170">PhQ::Print()</a>, and <a class="el" href="PlanarVector_8hpp_source.html#l00282">PhQ::PlanarVector&lt; Number &gt;::x_y_</a>.</p>
+<p class="reference">References <a class="el" href="Base_8hpp_source.html#l00170">PhQ::Print()</a>, and <a class="el" href="PlanarVector_8hpp_source.html#l00284">PhQ::PlanarVector&lt; Number &gt;::x_y_</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="PlanarVector_8hpp_source.html#l00360">PhQ::operator&lt;&lt;()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="PlanarVector_8hpp_source.html#l00362">PhQ::operator&lt;&lt;()</a>.</p>
 
 </div>
 </div>
@@ -1402,9 +1402,9 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Sets this two-dimensional planar vector's x Cartesian component to a given value. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarVector_8hpp_source.html#l00178">178</a> of file <a class="el" href="PlanarVector_8hpp_source.html">PlanarVector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarVector_8hpp_source.html#l00180">180</a> of file <a class="el" href="PlanarVector_8hpp_source.html">PlanarVector.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="PlanarVector_8hpp_source.html#l00139">PhQ::PlanarVector&lt; Number &gt;::x()</a>, and <a class="el" href="PlanarVector_8hpp_source.html#l00282">PhQ::PlanarVector&lt; Number &gt;::x_y_</a>.</p>
+<p class="reference">References <a class="el" href="PlanarVector_8hpp_source.html#l00141">PhQ::PlanarVector&lt; Number &gt;::x()</a>, and <a class="el" href="PlanarVector_8hpp_source.html#l00284">PhQ::PlanarVector&lt; Number &gt;::x_y_</a>.</p>
 
 </div>
 </div>
@@ -1446,9 +1446,9 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Sets this two-dimensional planar vector's x and y Cartesian components to the given values. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarVector_8hpp_source.html#l00172">172</a> of file <a class="el" href="PlanarVector_8hpp_source.html">PlanarVector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarVector_8hpp_source.html#l00174">174</a> of file <a class="el" href="PlanarVector_8hpp_source.html">PlanarVector.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="PlanarVector_8hpp_source.html#l00139">PhQ::PlanarVector&lt; Number &gt;::x()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00282">PhQ::PlanarVector&lt; Number &gt;::x_y_</a>, and <a class="el" href="PlanarVector_8hpp_source.html#l00144">PhQ::PlanarVector&lt; Number &gt;::y()</a>.</p>
+<p class="reference">References <a class="el" href="PlanarVector_8hpp_source.html#l00141">PhQ::PlanarVector&lt; Number &gt;::x()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00284">PhQ::PlanarVector&lt; Number &gt;::x_y_</a>, and <a class="el" href="PlanarVector_8hpp_source.html#l00146">PhQ::PlanarVector&lt; Number &gt;::y()</a>.</p>
 
 </div>
 </div>
@@ -1480,9 +1480,9 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Sets this two-dimensional planar vector's x and y Cartesian components to the given values. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarVector_8hpp_source.html#l00166">166</a> of file <a class="el" href="PlanarVector_8hpp_source.html">PlanarVector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarVector_8hpp_source.html#l00168">168</a> of file <a class="el" href="PlanarVector_8hpp_source.html">PlanarVector.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="PlanarVector_8hpp_source.html#l00134">PhQ::PlanarVector&lt; Number &gt;::x_y()</a>, and <a class="el" href="PlanarVector_8hpp_source.html#l00282">PhQ::PlanarVector&lt; Number &gt;::x_y_</a>.</p>
+<p class="reference">References <a class="el" href="PlanarVector_8hpp_source.html#l00136">PhQ::PlanarVector&lt; Number &gt;::x_y()</a>, and <a class="el" href="PlanarVector_8hpp_source.html#l00284">PhQ::PlanarVector&lt; Number &gt;::x_y_</a>.</p>
 
 </div>
 </div>
@@ -1514,9 +1514,9 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Sets this two-dimensional planar vector's y Cartesian component to a given value. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarVector_8hpp_source.html#l00183">183</a> of file <a class="el" href="PlanarVector_8hpp_source.html">PlanarVector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarVector_8hpp_source.html#l00185">185</a> of file <a class="el" href="PlanarVector_8hpp_source.html">PlanarVector.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="PlanarVector_8hpp_source.html#l00282">PhQ::PlanarVector&lt; Number &gt;::x_y_</a>, and <a class="el" href="PlanarVector_8hpp_source.html#l00144">PhQ::PlanarVector&lt; Number &gt;::y()</a>.</p>
+<p class="reference">References <a class="el" href="PlanarVector_8hpp_source.html#l00284">PhQ::PlanarVector&lt; Number &gt;::x_y_</a>, and <a class="el" href="PlanarVector_8hpp_source.html#l00146">PhQ::PlanarVector&lt; Number &gt;::y()</a>.</p>
 
 </div>
 </div>
@@ -1547,11 +1547,11 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns this two-dimensional planar vector's x Cartesian component. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarVector_8hpp_source.html#l00139">139</a> of file <a class="el" href="PlanarVector_8hpp_source.html">PlanarVector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarVector_8hpp_source.html#l00141">141</a> of file <a class="el" href="PlanarVector_8hpp_source.html">PlanarVector.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="PlanarVector_8hpp_source.html#l00282">PhQ::PlanarVector&lt; Number &gt;::x_y_</a>.</p>
+<p class="reference">References <a class="el" href="PlanarVector_8hpp_source.html#l00284">PhQ::PlanarVector&lt; Number &gt;::x_y_</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="PlanarDirection_8hpp_source.html#l00388">PhQ::PlanarVector&lt; double &gt;::Dot()</a>, <a class="el" href="PlanarDirection_8hpp_source.html#l00253">PhQ::PlanarDirection&lt; Number &gt;::IsZero()</a>, <a class="el" href="Dyad_8hpp_source.html#l00576">PhQ::operator*()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00328">PhQ::operator+()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00334">PhQ::operator-()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00353">PhQ::operator/()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00108">PhQ::PlanarVector&lt; Number &gt;::operator=()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00073">PhQ::PlanarVector&lt; Number &gt;::PlanarVector()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00178">PhQ::PlanarVector&lt; Number &gt;::Set_x()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00172">PhQ::PlanarVector&lt; Number &gt;::Set_x_y()</a>, <a class="el" href="Vector_8hpp_source.html#l00078">PhQ::Vector&lt; Number &gt;::Vector()</a>, <a class="el" href="PlanarAcceleration_8hpp_source.html#l00144">PhQ::PlanarAcceleration&lt; Number &gt;::x()</a>, <a class="el" href="PlanarDisplacement_8hpp_source.html#l00160">PhQ::PlanarDisplacement&lt; Number &gt;::x()</a>, <a class="el" href="PlanarForce_8hpp_source.html#l00130">PhQ::PlanarForce&lt; Number &gt;::x()</a>, <a class="el" href="PlanarHeatFlux_8hpp_source.html#l00145">PhQ::PlanarHeatFlux&lt; Number &gt;::x()</a>, <a class="el" href="PlanarPosition_8hpp_source.html#l00130">PhQ::PlanarPosition&lt; Number &gt;::x()</a>, <a class="el" href="PlanarTemperatureGradient_8hpp_source.html#l00141">PhQ::PlanarTemperatureGradient&lt; Number &gt;::x()</a>, <a class="el" href="PlanarTraction_8hpp_source.html#l00138">PhQ::PlanarTraction&lt; Number &gt;::x()</a>, <a class="el" href="PlanarVectorArea_8hpp_source.html#l00124">PhQ::PlanarVectorArea&lt; Number &gt;::x()</a>, and <a class="el" href="PlanarVelocity_8hpp_source.html#l00152">PhQ::PlanarVelocity&lt; Number &gt;::x()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="Dyad_8hpp_source.html#l00579">PhQ::operator*()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00330">PhQ::operator+()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00336">PhQ::operator-()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00355">PhQ::operator/()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00110">PhQ::PlanarVector&lt; Number &gt;::operator=()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00075">PhQ::PlanarVector&lt; Number &gt;::PlanarVector()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00180">PhQ::PlanarVector&lt; Number &gt;::Set_x()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00174">PhQ::PlanarVector&lt; Number &gt;::Set_x_y()</a>, <a class="el" href="Vector_8hpp_source.html#l00080">PhQ::Vector&lt; Number &gt;::Vector()</a>, <a class="el" href="PlanarAcceleration_8hpp_source.html#l00146">PhQ::PlanarAcceleration&lt; Number &gt;::x()</a>, <a class="el" href="PlanarDirection_8hpp_source.html#l00209">PhQ::PlanarDirection&lt; Number &gt;::x()</a>, <a class="el" href="PlanarDisplacement_8hpp_source.html#l00163">PhQ::PlanarDisplacement&lt; Number &gt;::x()</a>, <a class="el" href="PlanarForce_8hpp_source.html#l00132">PhQ::PlanarForce&lt; Number &gt;::x()</a>, <a class="el" href="PlanarHeatFlux_8hpp_source.html#l00148">PhQ::PlanarHeatFlux&lt; Number &gt;::x()</a>, <a class="el" href="PlanarPosition_8hpp_source.html#l00133">PhQ::PlanarPosition&lt; Number &gt;::x()</a>, <a class="el" href="PlanarTemperatureGradient_8hpp_source.html#l00143">PhQ::PlanarTemperatureGradient&lt; Number &gt;::x()</a>, <a class="el" href="PlanarTraction_8hpp_source.html#l00142">PhQ::PlanarTraction&lt; Number &gt;::x()</a>, and <a class="el" href="PlanarVelocity_8hpp_source.html#l00155">PhQ::PlanarVelocity&lt; Number &gt;::x()</a>.</p>
 
 </div>
 </div>
@@ -1582,11 +1582,11 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns this two-dimensional planar vector's x and y Cartesian components as an array. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarVector_8hpp_source.html#l00134">134</a> of file <a class="el" href="PlanarVector_8hpp_source.html">PlanarVector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarVector_8hpp_source.html#l00136">136</a> of file <a class="el" href="PlanarVector_8hpp_source.html">PlanarVector.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="PlanarVector_8hpp_source.html#l00282">PhQ::PlanarVector&lt; Number &gt;::x_y_</a>.</p>
+<p class="reference">References <a class="el" href="PlanarVector_8hpp_source.html#l00284">PhQ::PlanarVector&lt; Number &gt;::x_y_</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="Unit_8hpp_source.html#l00234">PhQ::ConvertCopy()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00120">PhQ::PlanarVector&lt; Number &gt;::operator=()</a>, <a class="el" href="PlanarDirection_8hpp_source.html#l00247">PhQ::PlanarDirection&lt; Number &gt;::Set()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00166">PhQ::PlanarVector&lt; Number &gt;::Set_x_y()</a>, and <a class="el" href="Unit_8hpp_source.html#l00299">PhQ::StaticConvertCopy()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="Unit_8hpp_source.html#l00234">PhQ::ConvertCopy()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00122">PhQ::PlanarVector&lt; Number &gt;::operator=()</a>, <a class="el" href="PlanarDirection_8hpp_source.html#l00247">PhQ::PlanarDirection&lt; Number &gt;::Set()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00168">PhQ::PlanarVector&lt; Number &gt;::Set_x_y()</a>, and <a class="el" href="Unit_8hpp_source.html#l00299">PhQ::StaticConvertCopy()</a>.</p>
 
 </div>
 </div>
@@ -1617,9 +1617,9 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Serializes this two-dimensional planar vector as an XML message. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarVector_8hpp_source.html#l00249">249</a> of file <a class="el" href="PlanarVector_8hpp_source.html">PlanarVector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarVector_8hpp_source.html#l00251">251</a> of file <a class="el" href="PlanarVector_8hpp_source.html">PlanarVector.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Base_8hpp_source.html#l00170">PhQ::Print()</a>, and <a class="el" href="PlanarVector_8hpp_source.html#l00282">PhQ::PlanarVector&lt; Number &gt;::x_y_</a>.</p>
+<p class="reference">References <a class="el" href="Base_8hpp_source.html#l00170">PhQ::Print()</a>, and <a class="el" href="PlanarVector_8hpp_source.html#l00284">PhQ::PlanarVector&lt; Number &gt;::x_y_</a>.</p>
 
 </div>
 </div>
@@ -1650,11 +1650,11 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns this two-dimensional planar vector's y Cartesian component. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarVector_8hpp_source.html#l00144">144</a> of file <a class="el" href="PlanarVector_8hpp_source.html">PlanarVector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarVector_8hpp_source.html#l00146">146</a> of file <a class="el" href="PlanarVector_8hpp_source.html">PlanarVector.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="PlanarVector_8hpp_source.html#l00282">PhQ::PlanarVector&lt; Number &gt;::x_y_</a>.</p>
+<p class="reference">References <a class="el" href="PlanarVector_8hpp_source.html#l00284">PhQ::PlanarVector&lt; Number &gt;::x_y_</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="PlanarDirection_8hpp_source.html#l00253">PhQ::PlanarDirection&lt; Number &gt;::IsZero()</a>, <a class="el" href="Dyad_8hpp_source.html#l00576">PhQ::operator*()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00328">PhQ::operator+()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00334">PhQ::operator-()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00353">PhQ::operator/()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00108">PhQ::PlanarVector&lt; Number &gt;::operator=()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00073">PhQ::PlanarVector&lt; Number &gt;::PlanarVector()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00172">PhQ::PlanarVector&lt; Number &gt;::Set_x_y()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00183">PhQ::PlanarVector&lt; Number &gt;::Set_y()</a>, <a class="el" href="Vector_8hpp_source.html#l00078">PhQ::Vector&lt; Number &gt;::Vector()</a>, <a class="el" href="PlanarAcceleration_8hpp_source.html#l00149">PhQ::PlanarAcceleration&lt; Number &gt;::y()</a>, <a class="el" href="PlanarDirection_8hpp_source.html#l00214">PhQ::PlanarDirection&lt; Number &gt;::y()</a>, <a class="el" href="PlanarDisplacement_8hpp_source.html#l00165">PhQ::PlanarDisplacement&lt; Number &gt;::y()</a>, <a class="el" href="PlanarForce_8hpp_source.html#l00135">PhQ::PlanarForce&lt; Number &gt;::y()</a>, <a class="el" href="PlanarHeatFlux_8hpp_source.html#l00150">PhQ::PlanarHeatFlux&lt; Number &gt;::y()</a>, <a class="el" href="PlanarPosition_8hpp_source.html#l00135">PhQ::PlanarPosition&lt; Number &gt;::y()</a>, <a class="el" href="PlanarTemperatureGradient_8hpp_source.html#l00146">PhQ::PlanarTemperatureGradient&lt; Number &gt;::y()</a>, <a class="el" href="PlanarTraction_8hpp_source.html#l00143">PhQ::PlanarTraction&lt; Number &gt;::y()</a>, <a class="el" href="PlanarVectorArea_8hpp_source.html#l00129">PhQ::PlanarVectorArea&lt; Number &gt;::y()</a>, and <a class="el" href="PlanarVelocity_8hpp_source.html#l00157">PhQ::PlanarVelocity&lt; Number &gt;::y()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="Dyad_8hpp_source.html#l00579">PhQ::operator*()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00330">PhQ::operator+()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00336">PhQ::operator-()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00355">PhQ::operator/()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00110">PhQ::PlanarVector&lt; Number &gt;::operator=()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00075">PhQ::PlanarVector&lt; Number &gt;::PlanarVector()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00174">PhQ::PlanarVector&lt; Number &gt;::Set_x_y()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00185">PhQ::PlanarVector&lt; Number &gt;::Set_y()</a>, <a class="el" href="Vector_8hpp_source.html#l00080">PhQ::Vector&lt; Number &gt;::Vector()</a>, <a class="el" href="PlanarAcceleration_8hpp_source.html#l00151">PhQ::PlanarAcceleration&lt; Number &gt;::y()</a>, <a class="el" href="PlanarDirection_8hpp_source.html#l00214">PhQ::PlanarDirection&lt; Number &gt;::y()</a>, <a class="el" href="PlanarDisplacement_8hpp_source.html#l00168">PhQ::PlanarDisplacement&lt; Number &gt;::y()</a>, <a class="el" href="PlanarForce_8hpp_source.html#l00137">PhQ::PlanarForce&lt; Number &gt;::y()</a>, <a class="el" href="PlanarHeatFlux_8hpp_source.html#l00153">PhQ::PlanarHeatFlux&lt; Number &gt;::y()</a>, <a class="el" href="PlanarPosition_8hpp_source.html#l00138">PhQ::PlanarPosition&lt; Number &gt;::y()</a>, <a class="el" href="PlanarTemperatureGradient_8hpp_source.html#l00148">PhQ::PlanarTemperatureGradient&lt; Number &gt;::y()</a>, <a class="el" href="PlanarTraction_8hpp_source.html#l00147">PhQ::PlanarTraction&lt; Number &gt;::y()</a>, and <a class="el" href="PlanarVelocity_8hpp_source.html#l00160">PhQ::PlanarVelocity&lt; Number &gt;::y()</a>.</p>
 
 </div>
 </div>
@@ -1685,9 +1685,9 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Serializes this two-dimensional planar vector as a YAML message. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarVector_8hpp_source.html#l00254">254</a> of file <a class="el" href="PlanarVector_8hpp_source.html">PlanarVector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarVector_8hpp_source.html#l00256">256</a> of file <a class="el" href="PlanarVector_8hpp_source.html">PlanarVector.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Base_8hpp_source.html#l00170">PhQ::Print()</a>, and <a class="el" href="PlanarVector_8hpp_source.html#l00282">PhQ::PlanarVector&lt; Number &gt;::x_y_</a>.</p>
+<p class="reference">References <a class="el" href="Base_8hpp_source.html#l00170">PhQ::Print()</a>, and <a class="el" href="PlanarVector_8hpp_source.html#l00284">PhQ::PlanarVector&lt; Number &gt;::x_y_</a>.</p>
 
 </div>
 </div>
@@ -1718,9 +1718,9 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Statically creates a two-dimensional planar vector with its x and y Cartesian components initialized to zero. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarVector_8hpp_source.html#l00127">127</a> of file <a class="el" href="PlanarVector_8hpp_source.html">PlanarVector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarVector_8hpp_source.html#l00129">129</a> of file <a class="el" href="PlanarVector_8hpp_source.html">PlanarVector.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="PlanarAcceleration_8hpp_source.html#l00113">PhQ::PlanarAcceleration&lt; Number &gt;::Zero()</a>, <a class="el" href="PlanarDisplacement_8hpp_source.html#l00131">PhQ::PlanarDisplacement&lt; Number &gt;::Zero()</a>, <a class="el" href="PlanarForce_8hpp_source.html#l00102">PhQ::PlanarForce&lt; Number &gt;::Zero()</a>, <a class="el" href="PlanarHeatFlux_8hpp_source.html#l00114">PhQ::PlanarHeatFlux&lt; Number &gt;::Zero()</a>, <a class="el" href="PlanarPosition_8hpp_source.html#l00101">PhQ::PlanarPosition&lt; Number &gt;::Zero()</a>, <a class="el" href="PlanarTemperatureGradient_8hpp_source.html#l00109">PhQ::PlanarTemperatureGradient&lt; Number &gt;::Zero()</a>, <a class="el" href="PlanarTraction_8hpp_source.html#l00109">PhQ::PlanarTraction&lt; Number &gt;::Zero()</a>, <a class="el" href="PlanarVectorArea_8hpp_source.html#l00095">PhQ::PlanarVectorArea&lt; Number &gt;::Zero()</a>, and <a class="el" href="PlanarVelocity_8hpp_source.html#l00123">PhQ::PlanarVelocity&lt; Number &gt;::Zero()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="PlanarAcceleration_8hpp_source.html#l00115">PhQ::PlanarAcceleration&lt; Number &gt;::Zero()</a>, <a class="el" href="PlanarDisplacement_8hpp_source.html#l00134">PhQ::PlanarDisplacement&lt; Number &gt;::Zero()</a>, <a class="el" href="PlanarForce_8hpp_source.html#l00104">PhQ::PlanarForce&lt; Number &gt;::Zero()</a>, <a class="el" href="PlanarHeatFlux_8hpp_source.html#l00117">PhQ::PlanarHeatFlux&lt; Number &gt;::Zero()</a>, <a class="el" href="PlanarPosition_8hpp_source.html#l00104">PhQ::PlanarPosition&lt; Number &gt;::Zero()</a>, <a class="el" href="PlanarTemperatureGradient_8hpp_source.html#l00111">PhQ::PlanarTemperatureGradient&lt; Number &gt;::Zero()</a>, <a class="el" href="PlanarTraction_8hpp_source.html#l00113">PhQ::PlanarTraction&lt; Number &gt;::Zero()</a>, and <a class="el" href="PlanarVelocity_8hpp_source.html#l00126">PhQ::PlanarVelocity&lt; Number &gt;::Zero()</a>.</p>
 
 </div>
 </div>
@@ -1749,9 +1749,9 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Cartesian components of this two-dimensional planar vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarVector_8hpp_source.html#l00282">282</a> of file <a class="el" href="PlanarVector_8hpp_source.html">PlanarVector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarVector_8hpp_source.html#l00284">284</a> of file <a class="el" href="PlanarVector_8hpp_source.html">PlanarVector.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="Vector_8hpp_source.html#l00387">PhQ::PlanarVector&lt; Number &gt;::Cross()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00203">PhQ::PlanarVector&lt; Number &gt;::Dot()</a>, <a class="el" href="Dyad_8hpp_source.html#l00693">PhQ::PlanarVector&lt; Number &gt;::Dyadic()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00244">PhQ::PlanarVector&lt; Number &gt;::JSON()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00188">PhQ::PlanarVector&lt; Number &gt;::MagnitudeSquared()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00155">PhQ::PlanarVector&lt; Number &gt;::Mutable_x()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00150">PhQ::PlanarVector&lt; Number &gt;::Mutable_x_y()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00160">PhQ::PlanarVector&lt; Number &gt;::Mutable_y()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00269">PhQ::PlanarVector&lt; Number &gt;::operator*=()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00258">PhQ::PlanarVector&lt; Number &gt;::operator+=()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00263">PhQ::PlanarVector&lt; Number &gt;::operator-=()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00275">PhQ::PlanarVector&lt; Number &gt;::operator/=()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00108">PhQ::PlanarVector&lt; Number &gt;::operator=()</a>, <a class="el" href="PlanarDirection_8hpp_source.html#l00378">PhQ::PlanarVector&lt; Number &gt;::PlanarVector()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00239">PhQ::PlanarVector&lt; Number &gt;::Print()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00178">PhQ::PlanarVector&lt; Number &gt;::Set_x()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00166">PhQ::PlanarVector&lt; Number &gt;::Set_x_y()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00183">PhQ::PlanarVector&lt; Number &gt;::Set_y()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00139">PhQ::PlanarVector&lt; Number &gt;::x()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00134">PhQ::PlanarVector&lt; Number &gt;::x_y()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00249">PhQ::PlanarVector&lt; Number &gt;::XML()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00144">PhQ::PlanarVector&lt; Number &gt;::y()</a>, and <a class="el" href="PlanarVector_8hpp_source.html#l00254">PhQ::PlanarVector&lt; Number &gt;::YAML()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="Vector_8hpp_source.html#l00389">PhQ::PlanarVector&lt; Number &gt;::Cross()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00205">PhQ::PlanarVector&lt; Number &gt;::Dot()</a>, <a class="el" href="Dyad_8hpp_source.html#l00696">PhQ::PlanarVector&lt; Number &gt;::Dyadic()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00246">PhQ::PlanarVector&lt; Number &gt;::JSON()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00190">PhQ::PlanarVector&lt; Number &gt;::MagnitudeSquared()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00157">PhQ::PlanarVector&lt; Number &gt;::Mutable_x()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00152">PhQ::PlanarVector&lt; Number &gt;::Mutable_x_y()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00162">PhQ::PlanarVector&lt; Number &gt;::Mutable_y()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00271">PhQ::PlanarVector&lt; Number &gt;::operator*=()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00260">PhQ::PlanarVector&lt; Number &gt;::operator+=()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00265">PhQ::PlanarVector&lt; Number &gt;::operator-=()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00277">PhQ::PlanarVector&lt; Number &gt;::operator/=()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00110">PhQ::PlanarVector&lt; Number &gt;::operator=()</a>, <a class="el" href="PlanarDirection_8hpp_source.html#l00372">PhQ::PlanarVector&lt; Number &gt;::PlanarVector()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00241">PhQ::PlanarVector&lt; Number &gt;::Print()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00180">PhQ::PlanarVector&lt; Number &gt;::Set_x()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00168">PhQ::PlanarVector&lt; Number &gt;::Set_x_y()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00185">PhQ::PlanarVector&lt; Number &gt;::Set_y()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00141">PhQ::PlanarVector&lt; Number &gt;::x()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00136">PhQ::PlanarVector&lt; Number &gt;::x_y()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00251">PhQ::PlanarVector&lt; Number &gt;::XML()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00146">PhQ::PlanarVector&lt; Number &gt;::y()</a>, and <a class="el" href="PlanarVector_8hpp_source.html#l00256">PhQ::PlanarVector&lt; Number &gt;::YAML()</a>.</p>
 
 </div>
 </div>

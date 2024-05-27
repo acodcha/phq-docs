@@ -112,7 +112,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search','.html');
 </div><!--header-->
 <div class="contents">
 
-<p><a class="el" href="classPhQ_1_1Strain.html" title="Strain symmetric dyadic tensor. See also PhQ::ScalarStrain.">Strain</a> symmetric dyadic tensor. See also <a class="el" href="classPhQ_1_1ScalarStrain.html" title="Scalar component or resultant of a strain tensor. See also PhQ::Strain and PhQ::ScalarStrainRate.">PhQ::ScalarStrain</a>.  
+<p>Three-dimensional Euclidean strain symmetric dyadic tensor. Contains six components in Cartesian coordinates: xx, xy = yx, xz = zx, yy, yz = zy, and zz. For the scalar components or resultants of a strain tensor, see <a class="el" href="classPhQ_1_1ScalarStrain.html" title="Scalar component or resultant of a three-dimensional Euclidean strain symmetric dyadic tensor....">PhQ::ScalarStrain</a>. For the time rate of change of strain, see <a class="el" href="classPhQ_1_1StrainRate.html" title="Three-dimensional Euclidean strain rate symmetric dyadic tensor. Time rate of change of strain....">PhQ::StrainRate</a>, <a class="el" href="classPhQ_1_1Time.html" title="Time. Can represent either a point in time, a time duration, or a period. For the inverse of time,...">PhQ::Time</a>, and <a class="el" href="classPhQ_1_1Frequency.html" title="Frequency. Inverse of a time duration. See also PhQ::Time.">PhQ::Frequency</a>.  
  <a href="classPhQ_1_1Strain.html#details">More...</a></p>
 
 <p><code>#include &quot;<a class="el" href="Strain_8hpp_source.html">Strain.hpp</a>&quot;</code></p>
@@ -254,9 +254,9 @@ Protected Attributes</h2></td></tr>
 <div class="textblock"><h3>template&lt;typename Number = double&gt;<br />
 class PhQ::Strain&lt; Number &gt;</h3>
 
-<p><a class="el" href="classPhQ_1_1Strain.html" title="Strain symmetric dyadic tensor. See also PhQ::ScalarStrain.">Strain</a> symmetric dyadic tensor. See also <a class="el" href="classPhQ_1_1ScalarStrain.html" title="Scalar component or resultant of a strain tensor. See also PhQ::Strain and PhQ::ScalarStrainRate.">PhQ::ScalarStrain</a>. </p>
+<p>Three-dimensional Euclidean strain symmetric dyadic tensor. Contains six components in Cartesian coordinates: xx, xy = yx, xz = zx, yy, yz = zy, and zz. For the scalar components or resultants of a strain tensor, see <a class="el" href="classPhQ_1_1ScalarStrain.html" title="Scalar component or resultant of a three-dimensional Euclidean strain symmetric dyadic tensor....">PhQ::ScalarStrain</a>. For the time rate of change of strain, see <a class="el" href="classPhQ_1_1StrainRate.html" title="Three-dimensional Euclidean strain rate symmetric dyadic tensor. Time rate of change of strain....">PhQ::StrainRate</a>, <a class="el" href="classPhQ_1_1Time.html" title="Time. Can represent either a point in time, a time duration, or a period. For the inverse of time,...">PhQ::Time</a>, and <a class="el" href="classPhQ_1_1Frequency.html" title="Frequency. Inverse of a time duration. See also PhQ::Time.">PhQ::Frequency</a>. </p>
 
-<p class="definition">Definition at line <a class="el" href="Strain_8hpp_source.html#l00067">67</a> of file <a class="el" href="Strain_8hpp_source.html">Strain.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Strain_8hpp_source.html#l00070">70</a> of file <a class="el" href="Strain_8hpp_source.html">Strain.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a0f0a8ce3afaf216f2079e9e9f4823f65"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0f0a8ce3afaf216f2079e9e9f4823f65">&#9670;&nbsp;</a></span>Strain() <span class="overload">[1/11]</span></h2>
@@ -349,7 +349,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Constructor. Constructs a strain tensor whose value has the given xx, xy, xz, yy, yz, and zz Cartesian components. </p>
 
-<p class="definition">Definition at line <a class="el" href="Strain_8hpp_source.html#l00074">74</a> of file <a class="el" href="Strain_8hpp_source.html">Strain.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Strain_8hpp_source.html#l00077">77</a> of file <a class="el" href="Strain_8hpp_source.html">Strain.hpp</a>.</p>
 
 </div>
 </div>
@@ -381,7 +381,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Constructor. Constructs a strain tensor from a given array representing its value's xx, xy, xz, yy, yz, and zz Cartesian components. </p>
 
-<p class="definition">Definition at line <a class="el" href="Strain_8hpp_source.html#l00080">80</a> of file <a class="el" href="Strain_8hpp_source.html">Strain.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Strain_8hpp_source.html#l00083">83</a> of file <a class="el" href="Strain_8hpp_source.html">Strain.hpp</a>.</p>
 
 </div>
 </div>
@@ -413,7 +413,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Constructor. Constructs a strain tensor with a given value. </p>
 
-<p class="definition">Definition at line <a class="el" href="Strain_8hpp_source.html#l00084">84</a> of file <a class="el" href="Strain_8hpp_source.html">Strain.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Strain_8hpp_source.html#l00087">87</a> of file <a class="el" href="Strain_8hpp_source.html">Strain.hpp</a>.</p>
 
 </div>
 </div>
@@ -455,7 +455,7 @@ template&lt;typename Number &gt; </div>
 
 <p>Constructor. Constructs a strain tensor from a given strain rate tensor and time using the definition of the strain rate tensor. </p>
 
-<p class="definition">Definition at line <a class="el" href="StrainRate_8hpp_source.html#l00273">273</a> of file <a class="el" href="StrainRate_8hpp_source.html">StrainRate.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="StrainRate_8hpp_source.html#l00275">275</a> of file <a class="el" href="StrainRate_8hpp_source.html">StrainRate.hpp</a>.</p>
 
 </div>
 </div>
@@ -497,7 +497,7 @@ template&lt;typename Number &gt; </div>
 
 <p>Constructor. Constructs a strain tensor from a given strain rate tensor and frequency using the definition of the strain rate tensor. </p>
 
-<p class="definition">Definition at line <a class="el" href="StrainRate_8hpp_source.html#l00278">278</a> of file <a class="el" href="StrainRate_8hpp_source.html">StrainRate.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="StrainRate_8hpp_source.html#l00280">280</a> of file <a class="el" href="StrainRate_8hpp_source.html">StrainRate.hpp</a>.</p>
 
 </div>
 </div>
@@ -529,7 +529,7 @@ template&lt;typename Number &gt; </div>
 
 <p>Constructor. Constructs a strain tensor from a given displacement gradient using the definition of the strain tensor. </p>
 
-<p class="definition">Definition at line <a class="el" href="DisplacementGradient_8hpp_source.html#l00259">259</a> of file <a class="el" href="DisplacementGradient_8hpp_source.html">DisplacementGradient.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="DisplacementGradient_8hpp_source.html#l00263">263</a> of file <a class="el" href="DisplacementGradient_8hpp_source.html">DisplacementGradient.hpp</a>.</p>
 
 </div>
 </div>
@@ -571,7 +571,7 @@ template&lt;typename Number &gt; </div>
 
 <p>Constructor. Constructs a strain tensor from a given volumetric thermal expansion coefficient and temperature difference using the definition of the volumetric thermal expansion coefficient. </p>
 
-<p class="definition">Definition at line <a class="el" href="VolumetricThermalExpansionCoefficient_8hpp_source.html#l00225">225</a> of file <a class="el" href="VolumetricThermalExpansionCoefficient_8hpp_source.html">VolumetricThermalExpansionCoefficient.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="VolumetricThermalExpansionCoefficient_8hpp_source.html#l00226">226</a> of file <a class="el" href="VolumetricThermalExpansionCoefficient_8hpp_source.html">VolumetricThermalExpansionCoefficient.hpp</a>.</p>
 
 </div>
 </div>
@@ -664,7 +664,7 @@ template&lt;typename OtherNumber &gt; </div>
 
 <p>Copy constructor. Constructs a strain tensor by copying another one. </p>
 
-<p class="definition">Definition at line <a class="el" href="Strain_8hpp_source.html#l00114">114</a> of file <a class="el" href="Strain_8hpp_source.html">Strain.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Strain_8hpp_source.html#l00117">117</a> of file <a class="el" href="Strain_8hpp_source.html">Strain.hpp</a>.</p>
 
 </div>
 </div>
@@ -812,7 +812,7 @@ template&lt;typename Number &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="StrainRate_8hpp_source.html#l00283">283</a> of file <a class="el" href="StrainRate_8hpp_source.html">StrainRate.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="StrainRate_8hpp_source.html#l00285">285</a> of file <a class="el" href="StrainRate_8hpp_source.html">StrainRate.hpp</a>.</p>
 
 </div>
 </div>
@@ -842,7 +842,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Strain_8hpp_source.html#l00191">191</a> of file <a class="el" href="Strain_8hpp_source.html">Strain.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Strain_8hpp_source.html#l00194">194</a> of file <a class="el" href="Strain_8hpp_source.html">Strain.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html#l00155">PhQ::DimensionlessSymmetricDyad&lt; double &gt;::value</a>.</p>
 
@@ -874,7 +874,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Strain_8hpp_source.html#l00211">211</a> of file <a class="el" href="Strain_8hpp_source.html">Strain.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Strain_8hpp_source.html#l00214">214</a> of file <a class="el" href="Strain_8hpp_source.html">Strain.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html#l00155">PhQ::DimensionlessSymmetricDyad&lt; double &gt;::value</a>.</p>
 
@@ -906,7 +906,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Strain_8hpp_source.html#l00183">183</a> of file <a class="el" href="Strain_8hpp_source.html">Strain.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Strain_8hpp_source.html#l00186">186</a> of file <a class="el" href="Strain_8hpp_source.html">Strain.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html#l00155">PhQ::DimensionlessSymmetricDyad&lt; Number &gt;::value</a>, and <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html#l00155">PhQ::DimensionlessSymmetricDyad&lt; double &gt;::value</a>.</p>
 
@@ -938,7 +938,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Strain_8hpp_source.html#l00203">203</a> of file <a class="el" href="Strain_8hpp_source.html">Strain.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Strain_8hpp_source.html#l00206">206</a> of file <a class="el" href="Strain_8hpp_source.html">Strain.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html#l00155">PhQ::DimensionlessSymmetricDyad&lt; double &gt;::value</a>.</p>
 
@@ -970,7 +970,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Strain_8hpp_source.html#l00187">187</a> of file <a class="el" href="Strain_8hpp_source.html">Strain.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Strain_8hpp_source.html#l00190">190</a> of file <a class="el" href="Strain_8hpp_source.html">Strain.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html#l00155">PhQ::DimensionlessSymmetricDyad&lt; Number &gt;::value</a>, and <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html#l00155">PhQ::DimensionlessSymmetricDyad&lt; double &gt;::value</a>.</p>
 
@@ -1002,7 +1002,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Strain_8hpp_source.html#l00207">207</a> of file <a class="el" href="Strain_8hpp_source.html">Strain.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Strain_8hpp_source.html#l00210">210</a> of file <a class="el" href="Strain_8hpp_source.html">Strain.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html#l00155">PhQ::DimensionlessSymmetricDyad&lt; double &gt;::value</a>.</p>
 
@@ -1034,7 +1034,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Strain_8hpp_source.html#l00197">197</a> of file <a class="el" href="Strain_8hpp_source.html">Strain.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Strain_8hpp_source.html#l00200">200</a> of file <a class="el" href="Strain_8hpp_source.html">Strain.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html#l00155">PhQ::DimensionlessSymmetricDyad&lt; double &gt;::value</a>.</p>
 
@@ -1066,7 +1066,7 @@ template&lt;typename Number &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="StrainRate_8hpp_source.html#l00289">289</a> of file <a class="el" href="StrainRate_8hpp_source.html">StrainRate.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="StrainRate_8hpp_source.html#l00291">291</a> of file <a class="el" href="StrainRate_8hpp_source.html">StrainRate.hpp</a>.</p>
 
 </div>
 </div>
@@ -1096,7 +1096,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Strain_8hpp_source.html#l00215">215</a> of file <a class="el" href="Strain_8hpp_source.html">Strain.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Strain_8hpp_source.html#l00218">218</a> of file <a class="el" href="Strain_8hpp_source.html">Strain.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html#l00155">PhQ::DimensionlessSymmetricDyad&lt; double &gt;::value</a>.</p>
 
@@ -1162,7 +1162,7 @@ template&lt;typename OtherNumber &gt; </div>
 
 <p>Copy assignment operator. Assigns this strain tensor by copying another one. </p>
 
-<p class="definition">Definition at line <a class="el" href="Strain_8hpp_source.html#l00125">125</a> of file <a class="el" href="Strain_8hpp_source.html">Strain.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Strain_8hpp_source.html#l00128">128</a> of file <a class="el" href="Strain_8hpp_source.html">Strain.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html#l00061">PhQ::DimensionlessSymmetricDyad&lt; Number &gt;::Value()</a>, and <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html#l00155">PhQ::DimensionlessSymmetricDyad&lt; double &gt;::value</a>.</p>
 
@@ -1342,9 +1342,9 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the xx Cartesian component of this strain tensor. </p>
 
-<p class="definition">Definition at line <a class="el" href="Strain_8hpp_source.html#l00139">139</a> of file <a class="el" href="Strain_8hpp_source.html">Strain.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Strain_8hpp_source.html#l00142">142</a> of file <a class="el" href="Strain_8hpp_source.html">Strain.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html#l00155">PhQ::DimensionlessSymmetricDyad&lt; double &gt;::value</a>, and <a class="el" href="SymmetricDyad_8hpp_source.html#l00132">PhQ::SymmetricDyad&lt; Number &gt;::xx()</a>.</p>
+<p class="reference">References <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html#l00155">PhQ::DimensionlessSymmetricDyad&lt; double &gt;::value</a>, and <a class="el" href="SymmetricDyad_8hpp_source.html#l00135">PhQ::SymmetricDyad&lt; Number &gt;::xx()</a>.</p>
 
 </div>
 </div>
@@ -1375,9 +1375,9 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the xy = yx Cartesian component of this strain tensor. </p>
 
-<p class="definition">Definition at line <a class="el" href="Strain_8hpp_source.html#l00144">144</a> of file <a class="el" href="Strain_8hpp_source.html">Strain.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Strain_8hpp_source.html#l00147">147</a> of file <a class="el" href="Strain_8hpp_source.html">Strain.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html#l00155">PhQ::DimensionlessSymmetricDyad&lt; double &gt;::value</a>, and <a class="el" href="SymmetricDyad_8hpp_source.html#l00137">PhQ::SymmetricDyad&lt; Number &gt;::xy()</a>.</p>
+<p class="reference">References <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html#l00155">PhQ::DimensionlessSymmetricDyad&lt; double &gt;::value</a>, and <a class="el" href="SymmetricDyad_8hpp_source.html#l00140">PhQ::SymmetricDyad&lt; Number &gt;::xy()</a>.</p>
 
 </div>
 </div>
@@ -1408,9 +1408,9 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the xz = zx Cartesian component of this strain tensor. </p>
 
-<p class="definition">Definition at line <a class="el" href="Strain_8hpp_source.html#l00149">149</a> of file <a class="el" href="Strain_8hpp_source.html">Strain.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Strain_8hpp_source.html#l00152">152</a> of file <a class="el" href="Strain_8hpp_source.html">Strain.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html#l00155">PhQ::DimensionlessSymmetricDyad&lt; double &gt;::value</a>, and <a class="el" href="SymmetricDyad_8hpp_source.html#l00142">PhQ::SymmetricDyad&lt; Number &gt;::xz()</a>.</p>
+<p class="reference">References <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html#l00155">PhQ::DimensionlessSymmetricDyad&lt; double &gt;::value</a>, and <a class="el" href="SymmetricDyad_8hpp_source.html#l00145">PhQ::SymmetricDyad&lt; Number &gt;::xz()</a>.</p>
 
 </div>
 </div>
@@ -1470,9 +1470,9 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the yx = xy Cartesian component of this strain tensor. </p>
 
-<p class="definition">Definition at line <a class="el" href="Strain_8hpp_source.html#l00154">154</a> of file <a class="el" href="Strain_8hpp_source.html">Strain.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Strain_8hpp_source.html#l00157">157</a> of file <a class="el" href="Strain_8hpp_source.html">Strain.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html#l00155">PhQ::DimensionlessSymmetricDyad&lt; double &gt;::value</a>, and <a class="el" href="SymmetricDyad_8hpp_source.html#l00147">PhQ::SymmetricDyad&lt; Number &gt;::yx()</a>.</p>
+<p class="reference">References <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html#l00155">PhQ::DimensionlessSymmetricDyad&lt; double &gt;::value</a>, and <a class="el" href="SymmetricDyad_8hpp_source.html#l00150">PhQ::SymmetricDyad&lt; Number &gt;::yx()</a>.</p>
 
 </div>
 </div>
@@ -1503,9 +1503,9 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the yy Cartesian component of this strain tensor. </p>
 
-<p class="definition">Definition at line <a class="el" href="Strain_8hpp_source.html#l00159">159</a> of file <a class="el" href="Strain_8hpp_source.html">Strain.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Strain_8hpp_source.html#l00162">162</a> of file <a class="el" href="Strain_8hpp_source.html">Strain.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html#l00155">PhQ::DimensionlessSymmetricDyad&lt; double &gt;::value</a>, and <a class="el" href="SymmetricDyad_8hpp_source.html#l00152">PhQ::SymmetricDyad&lt; Number &gt;::yy()</a>.</p>
+<p class="reference">References <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html#l00155">PhQ::DimensionlessSymmetricDyad&lt; double &gt;::value</a>, and <a class="el" href="SymmetricDyad_8hpp_source.html#l00155">PhQ::SymmetricDyad&lt; Number &gt;::yy()</a>.</p>
 
 </div>
 </div>
@@ -1536,9 +1536,9 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the yz = zy Cartesian component of this strain tensor. </p>
 
-<p class="definition">Definition at line <a class="el" href="Strain_8hpp_source.html#l00164">164</a> of file <a class="el" href="Strain_8hpp_source.html">Strain.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Strain_8hpp_source.html#l00167">167</a> of file <a class="el" href="Strain_8hpp_source.html">Strain.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html#l00155">PhQ::DimensionlessSymmetricDyad&lt; double &gt;::value</a>, and <a class="el" href="SymmetricDyad_8hpp_source.html#l00157">PhQ::SymmetricDyad&lt; Number &gt;::yz()</a>.</p>
+<p class="reference">References <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html#l00155">PhQ::DimensionlessSymmetricDyad&lt; double &gt;::value</a>, and <a class="el" href="SymmetricDyad_8hpp_source.html#l00160">PhQ::SymmetricDyad&lt; Number &gt;::yz()</a>.</p>
 
 </div>
 </div>
@@ -1569,9 +1569,9 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Statically creates a strain tensor of zero. </p>
 
-<p class="definition">Definition at line <a class="el" href="Strain_8hpp_source.html#l00134">134</a> of file <a class="el" href="Strain_8hpp_source.html">Strain.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Strain_8hpp_source.html#l00137">137</a> of file <a class="el" href="Strain_8hpp_source.html">Strain.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="SymmetricDyad_8hpp_source.html#l00117">PhQ::SymmetricDyad&lt; Number &gt;::Zero()</a>.</p>
+<p class="reference">References <a class="el" href="SymmetricDyad_8hpp_source.html#l00120">PhQ::SymmetricDyad&lt; Number &gt;::Zero()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00216">PhQ::ConstitutiveModel::CompressibleNewtonianFluid&lt; Number &gt;::Strain()</a>, and <a class="el" href="IncompressibleNewtonianFluid_8hpp_source.html#l00175">PhQ::ConstitutiveModel::IncompressibleNewtonianFluid&lt; Number &gt;::Strain()</a>.</p>
 
@@ -1604,9 +1604,9 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the zx = xz Cartesian component of this strain tensor. </p>
 
-<p class="definition">Definition at line <a class="el" href="Strain_8hpp_source.html#l00169">169</a> of file <a class="el" href="Strain_8hpp_source.html">Strain.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Strain_8hpp_source.html#l00172">172</a> of file <a class="el" href="Strain_8hpp_source.html">Strain.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html#l00155">PhQ::DimensionlessSymmetricDyad&lt; double &gt;::value</a>, and <a class="el" href="SymmetricDyad_8hpp_source.html#l00162">PhQ::SymmetricDyad&lt; Number &gt;::zx()</a>.</p>
+<p class="reference">References <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html#l00155">PhQ::DimensionlessSymmetricDyad&lt; double &gt;::value</a>, and <a class="el" href="SymmetricDyad_8hpp_source.html#l00165">PhQ::SymmetricDyad&lt; Number &gt;::zx()</a>.</p>
 
 </div>
 </div>
@@ -1637,9 +1637,9 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the zy = yz Cartesian component of this strain tensor. </p>
 
-<p class="definition">Definition at line <a class="el" href="Strain_8hpp_source.html#l00174">174</a> of file <a class="el" href="Strain_8hpp_source.html">Strain.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Strain_8hpp_source.html#l00177">177</a> of file <a class="el" href="Strain_8hpp_source.html">Strain.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html#l00155">PhQ::DimensionlessSymmetricDyad&lt; double &gt;::value</a>, and <a class="el" href="SymmetricDyad_8hpp_source.html#l00167">PhQ::SymmetricDyad&lt; Number &gt;::zy()</a>.</p>
+<p class="reference">References <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html#l00155">PhQ::DimensionlessSymmetricDyad&lt; double &gt;::value</a>, and <a class="el" href="SymmetricDyad_8hpp_source.html#l00170">PhQ::SymmetricDyad&lt; Number &gt;::zy()</a>.</p>
 
 </div>
 </div>
@@ -1670,9 +1670,9 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the zz Cartesian component of this strain tensor. </p>
 
-<p class="definition">Definition at line <a class="el" href="Strain_8hpp_source.html#l00179">179</a> of file <a class="el" href="Strain_8hpp_source.html">Strain.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Strain_8hpp_source.html#l00182">182</a> of file <a class="el" href="Strain_8hpp_source.html">Strain.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html#l00155">PhQ::DimensionlessSymmetricDyad&lt; double &gt;::value</a>, and <a class="el" href="SymmetricDyad_8hpp_source.html#l00172">PhQ::SymmetricDyad&lt; Number &gt;::zz()</a>.</p>
+<p class="reference">References <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html#l00155">PhQ::DimensionlessSymmetricDyad&lt; double &gt;::value</a>, and <a class="el" href="SymmetricDyad_8hpp_source.html#l00175">PhQ::SymmetricDyad&lt; Number &gt;::zz()</a>.</p>
 
 </div>
 </div>

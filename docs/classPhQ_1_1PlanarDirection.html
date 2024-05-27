@@ -112,7 +112,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search','.html');
 </div><!--header-->
 <div class="contents">
 
-<p>Planar direction in the XY plane. This is guaranteed to be either a unit planar vector or the zero planar vector (0, 0). Use the <a class="el" href="classPhQ_1_1PlanarDirection.html#a66c0a73f20b66682bf3b359b3bf573db" title="Returns true if this planar direction is the zero planar vector, or false if it is a unit planar vect...">IsZero()</a> method to check whether the planar direction is a unit planar vector or the zero planar vector.  
+<p>two-dimensional Euclidean direction vector in the XY plane. Contains two components in Cartesian coordinates: x and y. Guaranteed to be either a unit vector or the zero vector (0, 0). For a three-dimensional Euclidean direction vector, see <a class="el" href="classPhQ_1_1Direction.html" title="Three-dimensional Euclidean direction vector. Contains three components in Cartesian coordinates: x,...">PhQ::Direction</a>.  
  <a href="classPhQ_1_1PlanarDirection.html#details">More...</a></p>
 
 <p><code>#include &quot;<a class="el" href="PlanarDirection_8hpp_source.html">PlanarDirection.hpp</a>&quot;</code></p>
@@ -199,9 +199,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ad6b7e4e58e232f552137c357b07c217f"><td class="memItemLeft" align="right" valign="top">constexpr void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1PlanarDirection.html#ad6b7e4e58e232f552137c357b07c217f">Set</a> (const <a class="el" href="classPhQ_1_1PlanarVector.html">PlanarVector</a>&lt; Number &gt; &amp;<a class="el" href="classPhQ_1_1DimensionlessPlanarVector.html#a77838199b42c6c4f269a5fb8ec469364">value</a>)</td></tr>
 <tr class="memdesc:ad6b7e4e58e232f552137c357b07c217f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the value of this planar direction by normalizing the given planar vector to a unit planar vector. If the given planar vector is the zero planar vector, sets the planar direction to the zero planar vector.  <a href="classPhQ_1_1PlanarDirection.html#ad6b7e4e58e232f552137c357b07c217f">More...</a><br /></td></tr>
 <tr class="separator:ad6b7e4e58e232f552137c357b07c217f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a66c0a73f20b66682bf3b359b3bf573db"><td class="memItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1PlanarDirection.html#a66c0a73f20b66682bf3b359b3bf573db">IsZero</a> () const noexcept</td></tr>
-<tr class="memdesc:a66c0a73f20b66682bf3b359b3bf573db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if this planar direction is the zero planar vector, or false if it is a unit planar vector.  <a href="classPhQ_1_1PlanarDirection.html#a66c0a73f20b66682bf3b359b3bf573db">More...</a><br /></td></tr>
-<tr class="separator:a66c0a73f20b66682bf3b359b3bf573db"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0689dbb0b8a3ff881bc5ae47282726d4"><td class="memItemLeft" align="right" valign="top">constexpr Number&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1PlanarDirection.html#a0689dbb0b8a3ff881bc5ae47282726d4">MagnitudeSquared</a> () const noexcept</td></tr>
 <tr class="memdesc:a0689dbb0b8a3ff881bc5ae47282726d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the square of the magnitude of this planar direction. This is guaranteed to be exactly 1 if the planar direction is not the zero planar vector, or 0 if the planar direction is the zero planar vector.  <a href="classPhQ_1_1PlanarDirection.html#a0689dbb0b8a3ff881bc5ae47282726d4">More...</a><br /></td></tr>
 <tr class="separator:a0689dbb0b8a3ff881bc5ae47282726d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -234,8 +231,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a998df5bcdb140409f38ffcad80587ede"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab903edb51d9606b60a40866f7755081e"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1PlanarAcceleration.html">PlanarAcceleration</a>&lt; Number &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1PlanarDirection.html#ab903edb51d9606b60a40866f7755081e">operator*</a> (const <a class="el" href="classPhQ_1_1ScalarAcceleration.html">ScalarAcceleration</a>&lt; Number &gt; &amp;scalar_acceleration) const</td></tr>
 <tr class="separator:ab903edb51d9606b60a40866f7755081e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaed7ef5974a317195342a5889772818c"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1PlanarVectorArea.html">PlanarVectorArea</a>&lt; Number &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1PlanarDirection.html#aaed7ef5974a317195342a5889772818c">operator*</a> (const <a class="el" href="classPhQ_1_1Area.html">Area</a>&lt; Number &gt; &amp;area) const</td></tr>
-<tr class="separator:aaed7ef5974a317195342a5889772818c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ddc7ba17e091673c8fb20208818ba99"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1PlanarVectorArea.html">PlanarVectorArea</a>&lt; Number &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1PlanarDirection.html#a7ddc7ba17e091673c8fb20208818ba99">operator*</a> (const <a class="el" href="classPhQ_1_1Area.html">Area</a>&lt; Number &gt; &amp;area) const</td></tr>
+<tr class="separator:a7ddc7ba17e091673c8fb20208818ba99"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abd6161d59fb5cc8305f828b8cd69be9f"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1PlanarPosition.html">PlanarPosition</a>&lt; Number &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1PlanarDirection.html#abd6161d59fb5cc8305f828b8cd69be9f">operator*</a> (const <a class="el" href="classPhQ_1_1Length.html">Length</a>&lt; Number &gt; &amp;length) const</td></tr>
 <tr class="separator:abd6161d59fb5cc8305f828b8cd69be9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab0cc0fc7ef1049e0aa9ff232372bc202"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1PlanarForce.html">PlanarForce</a>&lt; Number &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1PlanarDirection.html#ab0cc0fc7ef1049e0aa9ff232372bc202">operator*</a> (const <a class="el" href="classPhQ_1_1ScalarForce.html">ScalarForce</a>&lt; Number &gt; &amp;scalar_force) const</td></tr>
@@ -283,7 +280,7 @@ Protected Attributes</h2></td></tr>
 <div class="textblock"><h3>template&lt;typename Number = double&gt;<br />
 class PhQ::PlanarDirection&lt; Number &gt;</h3>
 
-<p>Planar direction in the XY plane. This is guaranteed to be either a unit planar vector or the zero planar vector (0, 0). Use the <a class="el" href="classPhQ_1_1PlanarDirection.html#a66c0a73f20b66682bf3b359b3bf573db" title="Returns true if this planar direction is the zero planar vector, or false if it is a unit planar vect...">IsZero()</a> method to check whether the planar direction is a unit planar vector or the zero planar vector. </p>
+<p>two-dimensional Euclidean direction vector in the XY plane. Contains two components in Cartesian coordinates: x and y. Guaranteed to be either a unit vector or the zero vector (0, 0). For a three-dimensional Euclidean direction vector, see <a class="el" href="classPhQ_1_1Direction.html" title="Three-dimensional Euclidean direction vector. Contains three components in Cartesian coordinates: x,...">PhQ::Direction</a>. </p>
 
 <p class="definition">Definition at line <a class="el" href="PlanarDirection_8hpp_source.html#l00117">117</a> of file <a class="el" href="PlanarDirection_8hpp_source.html">PlanarDirection.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
@@ -458,7 +455,7 @@ template&lt;typename Number &gt; </div>
 
 <p>Constructor. Constructs a planar direction from a given direction by projecting the direction onto the XY plane. </p>
 
-<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00432">432</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00427">427</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionlessVector_8hpp_source.html#l00060">PhQ::DimensionlessVector&lt; Number &gt;::Value()</a>.</p>
 
@@ -492,7 +489,7 @@ template&lt;typename Number &gt; </div>
 
 <p>Constructor. Constructs a planar direction from a planar acceleration. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarAcceleration_8hpp_source.html#l00265">265</a> of file <a class="el" href="PlanarAcceleration_8hpp_source.html">PlanarAcceleration.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarAcceleration_8hpp_source.html#l00267">267</a> of file <a class="el" href="PlanarAcceleration_8hpp_source.html">PlanarAcceleration.hpp</a>.</p>
 
 </div>
 </div>
@@ -524,7 +521,7 @@ template&lt;typename Number &gt; </div>
 
 <p>Constructor. Constructs a planar direction from a planar displacement. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarDisplacement_8hpp_source.html#l00292">292</a> of file <a class="el" href="PlanarDisplacement_8hpp_source.html">PlanarDisplacement.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarDisplacement_8hpp_source.html#l00295">295</a> of file <a class="el" href="PlanarDisplacement_8hpp_source.html">PlanarDisplacement.hpp</a>.</p>
 
 </div>
 </div>
@@ -556,7 +553,7 @@ template&lt;typename Number &gt; </div>
 
 <p>Constructor. Constructs a planar direction from a planar force. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarForce_8hpp_source.html#l00244">244</a> of file <a class="el" href="PlanarForce_8hpp_source.html">PlanarForce.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarForce_8hpp_source.html#l00246">246</a> of file <a class="el" href="PlanarForce_8hpp_source.html">PlanarForce.hpp</a>.</p>
 
 </div>
 </div>
@@ -588,7 +585,7 @@ template&lt;typename Number &gt; </div>
 
 <p>Constructor. Constructs a planar direction from a planar heat flux. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarHeatFlux_8hpp_source.html#l00258">258</a> of file <a class="el" href="PlanarHeatFlux_8hpp_source.html">PlanarHeatFlux.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarHeatFlux_8hpp_source.html#l00261">261</a> of file <a class="el" href="PlanarHeatFlux_8hpp_source.html">PlanarHeatFlux.hpp</a>.</p>
 
 </div>
 </div>
@@ -620,7 +617,7 @@ template&lt;typename Number &gt; </div>
 
 <p>Constructor. Constructs a planar direction from a planar position. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarPosition_8hpp_source.html#l00265">265</a> of file <a class="el" href="PlanarPosition_8hpp_source.html">PlanarPosition.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarPosition_8hpp_source.html#l00268">268</a> of file <a class="el" href="PlanarPosition_8hpp_source.html">PlanarPosition.hpp</a>.</p>
 
 </div>
 </div>
@@ -652,7 +649,7 @@ template&lt;typename Number &gt; </div>
 
 <p>Constructor. Constructs a planar direction from a planar temperature gradient. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarTemperatureGradient_8hpp_source.html#l00259">259</a> of file <a class="el" href="PlanarTemperatureGradient_8hpp_source.html">PlanarTemperatureGradient.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarTemperatureGradient_8hpp_source.html#l00261">261</a> of file <a class="el" href="PlanarTemperatureGradient_8hpp_source.html">PlanarTemperatureGradient.hpp</a>.</p>
 
 </div>
 </div>
@@ -684,7 +681,7 @@ template&lt;typename Number &gt; </div>
 
 <p>Constructor. Constructs a planar direction from a planar traction. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarTraction_8hpp_source.html#l00255">255</a> of file <a class="el" href="PlanarTraction_8hpp_source.html">PlanarTraction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarTraction_8hpp_source.html#l00259">259</a> of file <a class="el" href="PlanarTraction_8hpp_source.html">PlanarTraction.hpp</a>.</p>
 
 </div>
 </div>
@@ -694,7 +691,7 @@ template&lt;typename Number &gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number &gt; </div>
+template&lt;typename Number  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -709,14 +706,12 @@ template&lt;typename Number &gt; </div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">explicit</span></span>  </td>
+<span class="mlabels"><span class="mlabel">explicit</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 <p>Constructor. Constructs a planar direction from a planar vector area. </p>
-
-<p class="definition">Definition at line <a class="el" href="PlanarVectorArea_8hpp_source.html#l00239">239</a> of file <a class="el" href="PlanarVectorArea_8hpp_source.html">PlanarVectorArea.hpp</a>.</p>
 
 </div>
 </div>
@@ -748,7 +743,7 @@ template&lt;typename Number &gt; </div>
 
 <p>Constructor. Constructs a planar direction from a planar velocity. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarVelocity_8hpp_source.html#l00277">277</a> of file <a class="el" href="PlanarVelocity_8hpp_source.html">PlanarVelocity.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarVelocity_8hpp_source.html#l00280">280</a> of file <a class="el" href="PlanarVelocity_8hpp_source.html">PlanarVelocity.hpp</a>.</p>
 
 </div>
 </div>
@@ -904,7 +899,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the angle between this planar direction and the given other planar direction. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarDirection_8hpp_source.html#l00311">311</a> of file <a class="el" href="PlanarDirection_8hpp_source.html">PlanarDirection.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarDirection_8hpp_source.html#l00305">305</a> of file <a class="el" href="PlanarDirection_8hpp_source.html">PlanarDirection.hpp</a>.</p>
 
 </div>
 </div>
@@ -936,7 +931,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the angle between this planar direction and the given planar vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarDirection_8hpp_source.html#l00306">306</a> of file <a class="el" href="PlanarDirection_8hpp_source.html">PlanarDirection.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarDirection_8hpp_source.html#l00300">300</a> of file <a class="el" href="PlanarDirection_8hpp_source.html">PlanarDirection.hpp</a>.</p>
 
 </div>
 </div>
@@ -960,9 +955,9 @@ template&lt;typename Number &gt; </div>
 
 <p>Returns the cross product of this planar direction with the given other planar direction. </p>
 
-<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00436">436</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00431">431</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Direction_8hpp_source.html#l00283">PhQ::Direction&lt; Number &gt;::Cross()</a>, and <a class="el" href="DimensionlessPlanarVector_8hpp_source.html#l00139">PhQ::DimensionlessPlanarVector&lt; Number &gt;::value</a>.</p>
+<p class="reference">References <a class="el" href="Direction_8hpp_source.html#l00278">PhQ::Direction&lt; Number &gt;::Cross()</a>, and <a class="el" href="DimensionlessPlanarVector_8hpp_source.html#l00139">PhQ::DimensionlessPlanarVector&lt; Number &gt;::value</a>.</p>
 
 </div>
 </div>
@@ -994,9 +989,9 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the cross product of this planar direction with the given planar vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarDirection_8hpp_source.html#l00285">285</a> of file <a class="el" href="PlanarDirection_8hpp_source.html">PlanarDirection.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarDirection_8hpp_source.html#l00279">279</a> of file <a class="el" href="PlanarDirection_8hpp_source.html">PlanarDirection.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00387">PhQ::PlanarVector&lt; Number &gt;::Cross()</a>, and <a class="el" href="DimensionlessPlanarVector_8hpp_source.html#l00139">PhQ::DimensionlessPlanarVector&lt; double &gt;::value</a>.</p>
+<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00389">PhQ::PlanarVector&lt; Number &gt;::Cross()</a>, and <a class="el" href="DimensionlessPlanarVector_8hpp_source.html#l00139">PhQ::DimensionlessPlanarVector&lt; double &gt;::value</a>.</p>
 
 </div>
 </div>
@@ -1057,9 +1052,9 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the dot product (also known as the scalar product or the inner product) of this planar direction with the given other planar direction. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarDirection_8hpp_source.html#l00279">279</a> of file <a class="el" href="PlanarDirection_8hpp_source.html">PlanarDirection.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarDirection_8hpp_source.html#l00273">273</a> of file <a class="el" href="PlanarDirection_8hpp_source.html">PlanarDirection.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="PlanarVector_8hpp_source.html#l00203">PhQ::PlanarVector&lt; Number &gt;::Dot()</a>, and <a class="el" href="DimensionlessPlanarVector_8hpp_source.html#l00139">PhQ::DimensionlessPlanarVector&lt; double &gt;::value</a>.</p>
+<p class="reference">References <a class="el" href="PlanarVector_8hpp_source.html#l00205">PhQ::PlanarVector&lt; Number &gt;::Dot()</a>, and <a class="el" href="DimensionlessPlanarVector_8hpp_source.html#l00139">PhQ::DimensionlessPlanarVector&lt; double &gt;::value</a>.</p>
 
 </div>
 </div>
@@ -1091,9 +1086,9 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the dot product (also known as the scalar product or the inner product) of this planar direction with the given planar vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarDirection_8hpp_source.html#l00273">273</a> of file <a class="el" href="PlanarDirection_8hpp_source.html">PlanarDirection.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarDirection_8hpp_source.html#l00267">267</a> of file <a class="el" href="PlanarDirection_8hpp_source.html">PlanarDirection.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="PlanarVector_8hpp_source.html#l00203">PhQ::PlanarVector&lt; Number &gt;::Dot()</a>, and <a class="el" href="DimensionlessPlanarVector_8hpp_source.html#l00139">PhQ::DimensionlessPlanarVector&lt; double &gt;::value</a>.</p>
+<p class="reference">References <a class="el" href="PlanarVector_8hpp_source.html#l00205">PhQ::PlanarVector&lt; Number &gt;::Dot()</a>, and <a class="el" href="DimensionlessPlanarVector_8hpp_source.html#l00139">PhQ::DimensionlessPlanarVector&lt; double &gt;::value</a>.</p>
 
 </div>
 </div>
@@ -1125,9 +1120,9 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the dyadic product of this planar direction with the given other planar direction. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarDirection_8hpp_source.html#l00300">300</a> of file <a class="el" href="PlanarDirection_8hpp_source.html">PlanarDirection.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarDirection_8hpp_source.html#l00294">294</a> of file <a class="el" href="PlanarDirection_8hpp_source.html">PlanarDirection.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Dyad_8hpp_source.html#l00693">PhQ::PlanarVector&lt; Number &gt;::Dyadic()</a>, <a class="el" href="DimensionlessPlanarVector_8hpp_source.html#l00139">PhQ::DimensionlessPlanarVector&lt; Number &gt;::value</a>, and <a class="el" href="DimensionlessPlanarVector_8hpp_source.html#l00139">PhQ::DimensionlessPlanarVector&lt; double &gt;::value</a>.</p>
+<p class="reference">References <a class="el" href="Dyad_8hpp_source.html#l00696">PhQ::PlanarVector&lt; Number &gt;::Dyadic()</a>, <a class="el" href="DimensionlessPlanarVector_8hpp_source.html#l00139">PhQ::DimensionlessPlanarVector&lt; Number &gt;::value</a>, and <a class="el" href="DimensionlessPlanarVector_8hpp_source.html#l00139">PhQ::DimensionlessPlanarVector&lt; double &gt;::value</a>.</p>
 
 </div>
 </div>
@@ -1159,42 +1154,9 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the dyadic product of this planar direction with the given planar vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarDirection_8hpp_source.html#l00294">294</a> of file <a class="el" href="PlanarDirection_8hpp_source.html">PlanarDirection.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarDirection_8hpp_source.html#l00288">288</a> of file <a class="el" href="PlanarDirection_8hpp_source.html">PlanarDirection.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Dyad_8hpp_source.html#l00693">PhQ::PlanarVector&lt; Number &gt;::Dyadic()</a>, and <a class="el" href="DimensionlessPlanarVector_8hpp_source.html#l00139">PhQ::DimensionlessPlanarVector&lt; double &gt;::value</a>.</p>
-
-</div>
-</div>
-<a id="a66c0a73f20b66682bf3b359b3bf573db"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a66c0a73f20b66682bf3b359b3bf573db">&#9670;&nbsp;</a></span>IsZero()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr bool <a class="el" href="classPhQ_1_1PlanarDirection.html">PhQ::PlanarDirection</a>&lt; Number &gt;::IsZero </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Returns true if this planar direction is the zero planar vector, or false if it is a unit planar vector. </p>
-
-<p class="definition">Definition at line <a class="el" href="PlanarDirection_8hpp_source.html#l00253">253</a> of file <a class="el" href="PlanarDirection_8hpp_source.html">PlanarDirection.hpp</a>.</p>
-
-<p class="reference">References <a class="el" href="DimensionlessPlanarVector_8hpp_source.html#l00139">PhQ::DimensionlessPlanarVector&lt; double &gt;::value</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00139">PhQ::PlanarVector&lt; Number &gt;::x()</a>, and <a class="el" href="PlanarVector_8hpp_source.html#l00144">PhQ::PlanarVector&lt; Number &gt;::y()</a>.</p>
+<p class="reference">References <a class="el" href="Dyad_8hpp_source.html#l00696">PhQ::PlanarVector&lt; Number &gt;::Dyadic()</a>, and <a class="el" href="DimensionlessPlanarVector_8hpp_source.html#l00139">PhQ::DimensionlessPlanarVector&lt; double &gt;::value</a>.</p>
 
 </div>
 </div>
@@ -1254,9 +1216,9 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the magnitude of this planar direction. This is guaranteed to be exactly 1 if the planar direction is not the zero planar vector, or 0 if the planar direction is the zero planar vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarDirection_8hpp_source.html#l00267">267</a> of file <a class="el" href="PlanarDirection_8hpp_source.html">PlanarDirection.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarDirection_8hpp_source.html#l00261">261</a> of file <a class="el" href="PlanarDirection_8hpp_source.html">PlanarDirection.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="PlanarVector_8hpp_source.html#l00194">PhQ::PlanarVector&lt; Number &gt;::Magnitude()</a>, and <a class="el" href="DimensionlessPlanarVector_8hpp_source.html#l00139">PhQ::DimensionlessPlanarVector&lt; double &gt;::value</a>.</p>
+<p class="reference">References <a class="el" href="PlanarVector_8hpp_source.html#l00196">PhQ::PlanarVector&lt; Number &gt;::Magnitude()</a>, and <a class="el" href="DimensionlessPlanarVector_8hpp_source.html#l00139">PhQ::DimensionlessPlanarVector&lt; double &gt;::value</a>.</p>
 
 </div>
 </div>
@@ -1287,25 +1249,25 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the square of the magnitude of this planar direction. This is guaranteed to be exactly 1 if the planar direction is not the zero planar vector, or 0 if the planar direction is the zero planar vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarDirection_8hpp_source.html#l00260">260</a> of file <a class="el" href="PlanarDirection_8hpp_source.html">PlanarDirection.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarDirection_8hpp_source.html#l00254">254</a> of file <a class="el" href="PlanarDirection_8hpp_source.html">PlanarDirection.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="PlanarVector_8hpp_source.html#l00188">PhQ::PlanarVector&lt; Number &gt;::MagnitudeSquared()</a>, and <a class="el" href="DimensionlessPlanarVector_8hpp_source.html#l00139">PhQ::DimensionlessPlanarVector&lt; double &gt;::value</a>.</p>
+<p class="reference">References <a class="el" href="PlanarVector_8hpp_source.html#l00190">PhQ::PlanarVector&lt; Number &gt;::MagnitudeSquared()</a>, and <a class="el" href="DimensionlessPlanarVector_8hpp_source.html#l00139">PhQ::DimensionlessPlanarVector&lt; double &gt;::value</a>.</p>
 
 </div>
 </div>
-<a id="aaed7ef5974a317195342a5889772818c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaed7ef5974a317195342a5889772818c">&#9670;&nbsp;</a></span>operator*() <span class="overload">[1/8]</span></h2>
+<a id="a7ddc7ba17e091673c8fb20208818ba99"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7ddc7ba17e091673c8fb20208818ba99">&#9670;&nbsp;</a></span>operator*() <span class="overload">[1/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number &gt; </div>
+template&lt;typename Number  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1PlanarVectorArea.html">PlanarVectorArea</a>&lt; Number &gt; <a class="el" href="classPhQ_1_1PlanarDirection.html">PhQ::PlanarDirection</a>&lt; Number &gt;::operator* </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1PlanarVectorArea.html">PlanarVectorArea</a>&lt;Number&gt; <a class="el" href="classPhQ_1_1PlanarDirection.html">PhQ::PlanarDirection</a>&lt; Number &gt;::operator* </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classPhQ_1_1Area.html">Area</a>&lt; Number &gt; &amp;&#160;</td>
           <td class="paramname"><em>area</em></td><td>)</td>
@@ -1314,12 +1276,10 @@ template&lt;typename Number &gt; </div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span></span>  </td>
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="PlanarVectorArea_8hpp_source.html#l00248">248</a> of file <a class="el" href="PlanarVectorArea_8hpp_source.html">PlanarVectorArea.hpp</a>.</p>
 
 </div>
 </div>
@@ -1349,7 +1309,7 @@ template&lt;typename Number &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="PlanarPosition_8hpp_source.html#l00291">291</a> of file <a class="el" href="PlanarPosition_8hpp_source.html">PlanarPosition.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarPosition_8hpp_source.html#l00294">294</a> of file <a class="el" href="PlanarPosition_8hpp_source.html">PlanarPosition.hpp</a>.</p>
 
 </div>
 </div>
@@ -1379,7 +1339,7 @@ template&lt;typename Number &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="PlanarAcceleration_8hpp_source.html#l00285">285</a> of file <a class="el" href="PlanarAcceleration_8hpp_source.html">PlanarAcceleration.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarAcceleration_8hpp_source.html#l00287">287</a> of file <a class="el" href="PlanarAcceleration_8hpp_source.html">PlanarAcceleration.hpp</a>.</p>
 
 </div>
 </div>
@@ -1409,7 +1369,7 @@ template&lt;typename Number &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="PlanarForce_8hpp_source.html#l00253">253</a> of file <a class="el" href="PlanarForce_8hpp_source.html">PlanarForce.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarForce_8hpp_source.html#l00255">255</a> of file <a class="el" href="PlanarForce_8hpp_source.html">PlanarForce.hpp</a>.</p>
 
 </div>
 </div>
@@ -1439,7 +1399,7 @@ template&lt;typename Number &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="PlanarHeatFlux_8hpp_source.html#l00267">267</a> of file <a class="el" href="PlanarHeatFlux_8hpp_source.html">PlanarHeatFlux.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarHeatFlux_8hpp_source.html#l00270">270</a> of file <a class="el" href="PlanarHeatFlux_8hpp_source.html">PlanarHeatFlux.hpp</a>.</p>
 
 </div>
 </div>
@@ -1469,7 +1429,7 @@ template&lt;typename Number &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="PlanarTemperatureGradient_8hpp_source.html#l00269">269</a> of file <a class="el" href="PlanarTemperatureGradient_8hpp_source.html">PlanarTemperatureGradient.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarTemperatureGradient_8hpp_source.html#l00271">271</a> of file <a class="el" href="PlanarTemperatureGradient_8hpp_source.html">PlanarTemperatureGradient.hpp</a>.</p>
 
 </div>
 </div>
@@ -1499,7 +1459,7 @@ template&lt;typename Number &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="PlanarTraction_8hpp_source.html#l00269">269</a> of file <a class="el" href="PlanarTraction_8hpp_source.html">PlanarTraction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarTraction_8hpp_source.html#l00273">273</a> of file <a class="el" href="PlanarTraction_8hpp_source.html">PlanarTraction.hpp</a>.</p>
 
 </div>
 </div>
@@ -1529,7 +1489,7 @@ template&lt;typename Number &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="PlanarVelocity_8hpp_source.html#l00296">296</a> of file <a class="el" href="PlanarVelocity_8hpp_source.html">PlanarVelocity.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarVelocity_8hpp_source.html#l00299">299</a> of file <a class="el" href="PlanarVelocity_8hpp_source.html">PlanarVelocity.hpp</a>.</p>
 
 </div>
 </div>
@@ -1734,7 +1694,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="PlanarDirection_8hpp_source.html#l00247">247</a> of file <a class="el" href="PlanarDirection_8hpp_source.html">PlanarDirection.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="PlanarDirection_8hpp_source.html#l00221">PhQ::PlanarDirection&lt; Number &gt;::Set()</a>, <a class="el" href="DimensionlessPlanarVector_8hpp_source.html#l00139">PhQ::DimensionlessPlanarVector&lt; double &gt;::value</a>, and <a class="el" href="PlanarVector_8hpp_source.html#l00134">PhQ::PlanarVector&lt; Number &gt;::x_y()</a>.</p>
+<p class="reference">References <a class="el" href="PlanarDirection_8hpp_source.html#l00221">PhQ::PlanarDirection&lt; Number &gt;::Set()</a>, <a class="el" href="DimensionlessPlanarVector_8hpp_source.html#l00139">PhQ::DimensionlessPlanarVector&lt; double &gt;::value</a>, and <a class="el" href="PlanarVector_8hpp_source.html#l00136">PhQ::PlanarVector&lt; Number &gt;::x_y()</a>.</p>
 
 </div>
 </div>
@@ -1828,6 +1788,8 @@ template&lt;typename Number  = double&gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="PlanarDirection_8hpp_source.html#l00209">209</a> of file <a class="el" href="PlanarDirection_8hpp_source.html">PlanarDirection.hpp</a>.</p>
 
+<p class="reference">References <a class="el" href="DimensionlessPlanarVector_8hpp_source.html#l00139">PhQ::DimensionlessPlanarVector&lt; double &gt;::value</a>, and <a class="el" href="PlanarVector_8hpp_source.html#l00141">PhQ::PlanarVector&lt; Number &gt;::x()</a>.</p>
+
 <p class="reference">Referenced by <a class="el" href="PlanarDirection_8hpp_source.html#l00125">PhQ::PlanarDirection&lt; Number &gt;::PlanarDirection()</a>, and <a class="el" href="PlanarDirection_8hpp_source.html#l00221">PhQ::PlanarDirection&lt; Number &gt;::Set()</a>.</p>
 
 </div>
@@ -1890,7 +1852,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="PlanarDirection_8hpp_source.html#l00214">214</a> of file <a class="el" href="PlanarDirection_8hpp_source.html">PlanarDirection.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionlessPlanarVector_8hpp_source.html#l00139">PhQ::DimensionlessPlanarVector&lt; double &gt;::value</a>, and <a class="el" href="PlanarVector_8hpp_source.html#l00144">PhQ::PlanarVector&lt; Number &gt;::y()</a>.</p>
+<p class="reference">References <a class="el" href="DimensionlessPlanarVector_8hpp_source.html#l00139">PhQ::DimensionlessPlanarVector&lt; double &gt;::value</a>, and <a class="el" href="PlanarVector_8hpp_source.html#l00146">PhQ::PlanarVector&lt; Number &gt;::y()</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="PlanarDirection_8hpp_source.html#l00125">PhQ::PlanarDirection&lt; Number &gt;::PlanarDirection()</a>, and <a class="el" href="PlanarDirection_8hpp_source.html#l00221">PhQ::PlanarDirection&lt; Number &gt;::Set()</a>.</p>
 
@@ -1994,7 +1956,6 @@ template&lt;typename Number  = double&gt; </div>
 <li>PhQ/<a class="el" href="PlanarPosition_8hpp_source.html">PlanarPosition.hpp</a></li>
 <li>PhQ/<a class="el" href="PlanarTemperatureGradient_8hpp_source.html">PlanarTemperatureGradient.hpp</a></li>
 <li>PhQ/<a class="el" href="PlanarTraction_8hpp_source.html">PlanarTraction.hpp</a></li>
-<li>PhQ/<a class="el" href="PlanarVectorArea_8hpp_source.html">PlanarVectorArea.hpp</a></li>
 <li>PhQ/<a class="el" href="PlanarVelocity_8hpp_source.html">PlanarVelocity.hpp</a></li>
 </ul>
 </div><!-- contents -->

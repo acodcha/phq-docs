@@ -114,7 +114,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search','.html');
 </div><!--header-->
 <div class="contents">
 
-<p><a class="el" href="classPhQ_1_1Position.html" title="Position vector. Not to be confused with the displacement vector. See also PhQ::Displacement.">Position</a> vector. Not to be confused with the displacement vector. See also <a class="el" href="classPhQ_1_1Displacement.html" title="Displacement vector. Not to be confused with the position vector. See also PhQ::Position.">PhQ::Displacement</a>.  
+<p>Three-dimensional Euclidean position vector. Contains three components in Cartesian coordinates: x, y, and z. <a class="el" href="classPhQ_1_1Position.html" title="Three-dimensional Euclidean position vector. Contains three components in Cartesian coordinates: x,...">Position</a> is not to be confused with displacement; for a three-dimensional Euclidean displacement vector, see <a class="el" href="classPhQ_1_1Displacement.html" title="Three-dimensional Euclidean displacement vector. Contains three components in Cartesian coordinates: ...">PhQ::Displacement</a>. For a two-dimensional Euclidean position vector in the XY plane, see <a class="el" href="classPhQ_1_1PlanarPosition.html" title="Two-dimensional Euclidean position vector in the XY plane. Contains two components in Cartesian coord...">PhQ::PlanarPosition</a>. For scalar position components or for the magnitude of a position vector, see <a class="el" href="classPhQ_1_1Length.html" title="Length, distance, or physical size. Can also represent a scalar component or magnitude of a position ...">PhQ::Length</a>.  
  <a href="classPhQ_1_1Position.html#details">More...</a></p>
 
 <p><code>#include &quot;<a class="el" href="Position_8hpp_source.html">Position.hpp</a>&quot;</code></p>
@@ -287,9 +287,9 @@ Friends</h2></td></tr>
 <div class="textblock"><h3>template&lt;typename Number = double&gt;<br />
 class PhQ::Position&lt; Number &gt;</h3>
 
-<p><a class="el" href="classPhQ_1_1Position.html" title="Position vector. Not to be confused with the displacement vector. See also PhQ::Displacement.">Position</a> vector. Not to be confused with the displacement vector. See also <a class="el" href="classPhQ_1_1Displacement.html" title="Displacement vector. Not to be confused with the position vector. See also PhQ::Position.">PhQ::Displacement</a>. </p>
+<p>Three-dimensional Euclidean position vector. Contains three components in Cartesian coordinates: x, y, and z. <a class="el" href="classPhQ_1_1Position.html" title="Three-dimensional Euclidean position vector. Contains three components in Cartesian coordinates: x,...">Position</a> is not to be confused with displacement; for a three-dimensional Euclidean displacement vector, see <a class="el" href="classPhQ_1_1Displacement.html" title="Three-dimensional Euclidean displacement vector. Contains three components in Cartesian coordinates: ...">PhQ::Displacement</a>. For a two-dimensional Euclidean position vector in the XY plane, see <a class="el" href="classPhQ_1_1PlanarPosition.html" title="Two-dimensional Euclidean position vector in the XY plane. Contains two components in Cartesian coord...">PhQ::PlanarPosition</a>. For scalar position components or for the magnitude of a position vector, see <a class="el" href="classPhQ_1_1Length.html" title="Length, distance, or physical size. Can also represent a scalar component or magnitude of a position ...">PhQ::Length</a>. </p>
 
-<p class="definition">Definition at line <a class="el" href="Position_8hpp_source.html#l00049">49</a> of file <a class="el" href="Position_8hpp_source.html">Position.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Position_8hpp_source.html#l00052">52</a> of file <a class="el" href="Position_8hpp_source.html">Position.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a8129197eed663cb3e403504baf7bfe8e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8129197eed663cb3e403504baf7bfe8e">&#9670;&nbsp;</a></span>Position() <span class="overload">[1/9]</span></h2>
@@ -358,7 +358,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Constructor. Constructs a position vector with a given value expressed in a given length unit. </p>
 
-<p class="definition">Definition at line <a class="el" href="Position_8hpp_source.html#l00056">56</a> of file <a class="el" href="Position_8hpp_source.html">Position.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Position_8hpp_source.html#l00059">59</a> of file <a class="el" href="Position_8hpp_source.html">Position.hpp</a>.</p>
 
 </div>
 </div>
@@ -400,7 +400,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Constructor. Constructs a position vector from a given length and direction. </p>
 
-<p class="definition">Definition at line <a class="el" href="Position_8hpp_source.html#l00060">60</a> of file <a class="el" href="Position_8hpp_source.html">Position.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Position_8hpp_source.html#l00063">63</a> of file <a class="el" href="Position_8hpp_source.html">Position.hpp</a>.</p>
 
 </div>
 </div>
@@ -432,7 +432,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Constructor. Constructs a position vector from a given planar position vector in the XY plane. This position vector's z-component is initialized to zero. </p>
 
-<p class="definition">Definition at line <a class="el" href="Position_8hpp_source.html#l00065">65</a> of file <a class="el" href="Position_8hpp_source.html">Position.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Position_8hpp_source.html#l00068">68</a> of file <a class="el" href="Position_8hpp_source.html">Position.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00060">PhQ::DimensionalPlanarVector&lt; UnitType, Number &gt;::Value()</a>.</p>
 
@@ -466,7 +466,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Constructor. Constructs a position vector from a given displacement vector from the origin. </p>
 
-<p class="definition">Definition at line <a class="el" href="Position_8hpp_source.html#l00070">70</a> of file <a class="el" href="Position_8hpp_source.html">Position.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Position_8hpp_source.html#l00073">73</a> of file <a class="el" href="Position_8hpp_source.html">Position.hpp</a>.</p>
 
 </div>
 </div>
@@ -559,7 +559,7 @@ template&lt;typename OtherNumber &gt; </div>
 
 <p>Copy constructor. Constructs a position by copying another one. </p>
 
-<p class="definition">Definition at line <a class="el" href="Position_8hpp_source.html#l00081">81</a> of file <a class="el" href="Position_8hpp_source.html">Position.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Position_8hpp_source.html#l00084">84</a> of file <a class="el" href="Position_8hpp_source.html">Position.hpp</a>.</p>
 
 </div>
 </div>
@@ -621,7 +621,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Constructor. Constructs a position vector with a given value expressed in the standard length unit. </p>
 
-<p class="definition">Definition at line <a class="el" href="Position_8hpp_source.html#l00209">209</a> of file <a class="el" href="Position_8hpp_source.html">Position.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Position_8hpp_source.html#l00212">212</a> of file <a class="el" href="Position_8hpp_source.html">Position.hpp</a>.</p>
 
 </div>
 </div>
@@ -654,7 +654,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the angle between this position vector and another one. </p>
 
-<p class="definition">Definition at line <a class="el" href="Position_8hpp_source.html#l00154">154</a> of file <a class="el" href="Position_8hpp_source.html">Position.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Position_8hpp_source.html#l00157">157</a> of file <a class="el" href="Position_8hpp_source.html">Position.hpp</a>.</p>
 
 </div>
 </div>
@@ -704,9 +704,9 @@ template&lt;Unit::Length Unit&gt; </div>
 
 <p>Statically creates a position vector from the given x, y, and z Cartesian components expressed in a given length unit. </p>
 
-<p class="definition">Definition at line <a class="el" href="Position_8hpp_source.html#l00108">108</a> of file <a class="el" href="Position_8hpp_source.html">Position.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Position_8hpp_source.html#l00111">111</a> of file <a class="el" href="Position_8hpp_source.html">Position.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Position_8hpp_source.html#l00129">PhQ::Position&lt; Number &gt;::x()</a>, <a class="el" href="Position_8hpp_source.html#l00134">PhQ::Position&lt; Number &gt;::y()</a>, and <a class="el" href="Position_8hpp_source.html#l00139">PhQ::Position&lt; Number &gt;::z()</a>.</p>
+<p class="reference">References <a class="el" href="Position_8hpp_source.html#l00132">PhQ::Position&lt; Number &gt;::x()</a>, <a class="el" href="Position_8hpp_source.html#l00137">PhQ::Position&lt; Number &gt;::y()</a>, and <a class="el" href="Position_8hpp_source.html#l00142">PhQ::Position&lt; Number &gt;::z()</a>.</p>
 
 </div>
 </div>
@@ -740,7 +740,7 @@ template&lt;Unit::Length Unit&gt; </div>
 
 <p>Statically creates a position vector from the given x, y, and z Cartesian components expressed in a given length unit. </p>
 
-<p class="definition">Definition at line <a class="el" href="Position_8hpp_source.html#l00116">116</a> of file <a class="el" href="Position_8hpp_source.html">Position.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Position_8hpp_source.html#l00119">119</a> of file <a class="el" href="Position_8hpp_source.html">Position.hpp</a>.</p>
 
 </div>
 </div>
@@ -774,7 +774,7 @@ template&lt;Unit::Length Unit&gt; </div>
 
 <p>Statically creates a position vector with a given value expressed in a given length unit. </p>
 
-<p class="definition">Definition at line <a class="el" href="Position_8hpp_source.html#l00124">124</a> of file <a class="el" href="Position_8hpp_source.html">Position.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Position_8hpp_source.html#l00127">127</a> of file <a class="el" href="Position_8hpp_source.html">Position.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Length, double &gt;::value</a>.</p>
 
@@ -836,9 +836,9 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the direction of this position vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="Position_8hpp_source.html#l00149">149</a> of file <a class="el" href="Position_8hpp_source.html">Position.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Position_8hpp_source.html#l00152">152</a> of file <a class="el" href="Position_8hpp_source.html">Position.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Direction_8hpp_source.html#l00379">PhQ::Vector&lt; Number &gt;::Direction()</a>, and <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Length, double &gt;::value</a>.</p>
+<p class="reference">References <a class="el" href="Direction_8hpp_source.html#l00374">PhQ::Vector&lt; Number &gt;::Direction()</a>, and <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Length, double &gt;::value</a>.</p>
 
 </div>
 </div>
@@ -928,9 +928,9 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the magnitude of this position vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="Position_8hpp_source.html#l00144">144</a> of file <a class="el" href="Position_8hpp_source.html">Position.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Position_8hpp_source.html#l00147">147</a> of file <a class="el" href="Position_8hpp_source.html">Position.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00206">PhQ::Vector&lt; Number &gt;::Magnitude()</a>, and <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Length, double &gt;::value</a>.</p>
+<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00208">PhQ::Vector&lt; Number &gt;::Magnitude()</a>, and <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Length, double &gt;::value</a>.</p>
 
 </div>
 </div>
@@ -989,7 +989,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Position_8hpp_source.html#l00174">174</a> of file <a class="el" href="Position_8hpp_source.html">Position.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Position_8hpp_source.html#l00177">177</a> of file <a class="el" href="Position_8hpp_source.html">Position.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Length, double &gt;::value</a>.</p>
 
@@ -1021,7 +1021,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Position_8hpp_source.html#l00198">198</a> of file <a class="el" href="Position_8hpp_source.html">Position.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Position_8hpp_source.html#l00201">201</a> of file <a class="el" href="Position_8hpp_source.html">Position.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Length, double &gt;::value</a>.</p>
 
@@ -1053,7 +1053,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Position_8hpp_source.html#l00162">162</a> of file <a class="el" href="Position_8hpp_source.html">Position.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Position_8hpp_source.html#l00165">165</a> of file <a class="el" href="Position_8hpp_source.html">Position.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00060">PhQ::DimensionalVector&lt; UnitType, Number &gt;::Value()</a>, and <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Length, double &gt;::value</a>.</p>
 
@@ -1085,7 +1085,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Position_8hpp_source.html#l00158">158</a> of file <a class="el" href="Position_8hpp_source.html">Position.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Position_8hpp_source.html#l00161">161</a> of file <a class="el" href="Position_8hpp_source.html">Position.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; UnitType, Number &gt;::value</a>, and <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Length, double &gt;::value</a>.</p>
 
@@ -1117,7 +1117,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Position_8hpp_source.html#l00186">186</a> of file <a class="el" href="Position_8hpp_source.html">Position.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Position_8hpp_source.html#l00189">189</a> of file <a class="el" href="Position_8hpp_source.html">Position.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Length, double &gt;::value</a>.</p>
 
@@ -1149,7 +1149,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Position_8hpp_source.html#l00182">182</a> of file <a class="el" href="Position_8hpp_source.html">Position.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Position_8hpp_source.html#l00185">185</a> of file <a class="el" href="Position_8hpp_source.html">Position.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Length, double &gt;::value</a>.</p>
 
@@ -1181,7 +1181,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Position_8hpp_source.html#l00170">170</a> of file <a class="el" href="Position_8hpp_source.html">Position.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Position_8hpp_source.html#l00173">173</a> of file <a class="el" href="Position_8hpp_source.html">Position.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00060">PhQ::DimensionalVector&lt; UnitType, Number &gt;::Value()</a>, and <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Length, double &gt;::value</a>.</p>
 
@@ -1213,7 +1213,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Position_8hpp_source.html#l00166">166</a> of file <a class="el" href="Position_8hpp_source.html">Position.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Position_8hpp_source.html#l00169">169</a> of file <a class="el" href="Position_8hpp_source.html">Position.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; UnitType, Number &gt;::value</a>, and <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Length, double &gt;::value</a>.</p>
 
@@ -1245,7 +1245,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Position_8hpp_source.html#l00194">194</a> of file <a class="el" href="Position_8hpp_source.html">Position.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Position_8hpp_source.html#l00197">197</a> of file <a class="el" href="Position_8hpp_source.html">Position.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Length, double &gt;::value</a>.</p>
 
@@ -1277,7 +1277,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Position_8hpp_source.html#l00190">190</a> of file <a class="el" href="Position_8hpp_source.html">Position.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Position_8hpp_source.html#l00193">193</a> of file <a class="el" href="Position_8hpp_source.html">Position.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Length, double &gt;::value</a>.</p>
 
@@ -1309,7 +1309,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Position_8hpp_source.html#l00178">178</a> of file <a class="el" href="Position_8hpp_source.html">Position.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Position_8hpp_source.html#l00181">181</a> of file <a class="el" href="Position_8hpp_source.html">Position.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Length, double &gt;::value</a>.</p>
 
@@ -1341,7 +1341,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Position_8hpp_source.html#l00202">202</a> of file <a class="el" href="Position_8hpp_source.html">Position.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Position_8hpp_source.html#l00205">205</a> of file <a class="el" href="Position_8hpp_source.html">Position.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Length, double &gt;::value</a>.</p>
 
@@ -1407,7 +1407,7 @@ template&lt;typename OtherNumber &gt; </div>
 
 <p>Copy assignment operator. Assigns this position by copying another one. </p>
 
-<p class="definition">Definition at line <a class="el" href="Position_8hpp_source.html#l00092">92</a> of file <a class="el" href="Position_8hpp_source.html">Position.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Position_8hpp_source.html#l00095">95</a> of file <a class="el" href="Position_8hpp_source.html">Position.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00060">PhQ::DimensionalVector&lt; UnitType, Number &gt;::Value()</a>, and <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Length, double &gt;::value</a>.</p>
 
@@ -1676,11 +1676,11 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the x Cartesian component of this position vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="Position_8hpp_source.html#l00129">129</a> of file <a class="el" href="Position_8hpp_source.html">Position.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Position_8hpp_source.html#l00132">132</a> of file <a class="el" href="Position_8hpp_source.html">Position.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Length, double &gt;::value</a>, and <a class="el" href="Vector_8hpp_source.html#l00136">PhQ::Vector&lt; Number &gt;::x()</a>.</p>
+<p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Length, double &gt;::value</a>, and <a class="el" href="Vector_8hpp_source.html#l00138">PhQ::Vector&lt; Number &gt;::x()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="Position_8hpp_source.html#l00108">PhQ::Position&lt; Number &gt;::Create()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="Position_8hpp_source.html#l00111">PhQ::Position&lt; Number &gt;::Create()</a>.</p>
 
 </div>
 </div>
@@ -1770,11 +1770,11 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the y Cartesian component of this position vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="Position_8hpp_source.html#l00134">134</a> of file <a class="el" href="Position_8hpp_source.html">Position.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Position_8hpp_source.html#l00137">137</a> of file <a class="el" href="Position_8hpp_source.html">Position.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Length, double &gt;::value</a>, and <a class="el" href="Vector_8hpp_source.html#l00141">PhQ::Vector&lt; Number &gt;::y()</a>.</p>
+<p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Length, double &gt;::value</a>, and <a class="el" href="Vector_8hpp_source.html#l00143">PhQ::Vector&lt; Number &gt;::y()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="Position_8hpp_source.html#l00108">PhQ::Position&lt; Number &gt;::Create()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="Position_8hpp_source.html#l00111">PhQ::Position&lt; Number &gt;::Create()</a>.</p>
 
 </div>
 </div>
@@ -1864,11 +1864,11 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the z Cartesian component of this position vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="Position_8hpp_source.html#l00139">139</a> of file <a class="el" href="Position_8hpp_source.html">Position.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Position_8hpp_source.html#l00142">142</a> of file <a class="el" href="Position_8hpp_source.html">Position.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Length, double &gt;::value</a>, and <a class="el" href="Vector_8hpp_source.html#l00146">PhQ::Vector&lt; Number &gt;::z()</a>.</p>
+<p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Length, double &gt;::value</a>, and <a class="el" href="Vector_8hpp_source.html#l00148">PhQ::Vector&lt; Number &gt;::z()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="Position_8hpp_source.html#l00108">PhQ::Position&lt; Number &gt;::Create()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="Position_8hpp_source.html#l00111">PhQ::Position&lt; Number &gt;::Create()</a>.</p>
 
 </div>
 </div>
@@ -1899,9 +1899,9 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Statically creates a position vector of zero. </p>
 
-<p class="definition">Definition at line <a class="el" href="Position_8hpp_source.html#l00101">101</a> of file <a class="el" href="Position_8hpp_source.html">Position.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Position_8hpp_source.html#l00104">104</a> of file <a class="el" href="Position_8hpp_source.html">Position.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00123">PhQ::Vector&lt; Number &gt;::Zero()</a>.</p>
+<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00125">PhQ::Vector&lt; Number &gt;::Zero()</a>.</p>
 
 </div>
 </div>
@@ -1930,7 +1930,7 @@ template&lt;typename OtherNumber &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Position_8hpp_source.html#l00213">213</a> of file <a class="el" href="Position_8hpp_source.html">Position.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Position_8hpp_source.html#l00216">216</a> of file <a class="el" href="Position_8hpp_source.html">Position.hpp</a>.</p>
 
 </div>
 </div>
