@@ -126,6 +126,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:add23a747591f4f25c6d97c5039159093"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1PlanarTraction.html#add23a747591f4f25c6d97c5039159093">PlanarTraction</a> (const <a class="el" href="classPhQ_1_1PlanarVector.html">PlanarVector</a>&lt; Number &gt; &amp;<a class="el" href="classPhQ_1_1DimensionalPlanarVector.html#a77ab5495d4f12337e64cf2a89fef9a36">value</a>, const <a class="el" href="namespacePhQ_1_1Unit.html#abcbda7b992e98486ca609a164ae78a24">Unit::Pressure</a> unit)</td></tr>
 <tr class="memdesc:add23a747591f4f25c6d97c5039159093"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a planar traction vector with a given value expressed in a given pressure unit.  <a href="classPhQ_1_1PlanarTraction.html#add23a747591f4f25c6d97c5039159093">More...</a><br /></td></tr>
 <tr class="separator:add23a747591f4f25c6d97c5039159093"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a36b7fbe6591b3fc59a033516e971fc1f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1PlanarTraction.html#a36b7fbe6591b3fc59a033516e971fc1f">PlanarTraction</a> (const <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt; Number &gt; &amp;<a class="el" href="classPhQ_1_1PlanarTraction.html#a487b8088f98113012fa4722c492dba7a">x</a>, const <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt; Number &gt; &amp;<a class="el" href="classPhQ_1_1PlanarTraction.html#a839b954c87e8005e034dfe400f0d06fc">y</a>)</td></tr>
+<tr class="memdesc:a36b7fbe6591b3fc59a033516e971fc1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a planar traction vector from a given set of scalar traction components.  <a href="classPhQ_1_1PlanarTraction.html#a36b7fbe6591b3fc59a033516e971fc1f">More...</a><br /></td></tr>
+<tr class="separator:a36b7fbe6591b3fc59a033516e971fc1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afce46cd475ae6c6247e7ea12b1654351"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1PlanarTraction.html#afce46cd475ae6c6247e7ea12b1654351">PlanarTraction</a> (const <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt; Number &gt; &amp;scalar_traction, const <a class="el" href="classPhQ_1_1PlanarDirection.html">PlanarDirection</a>&lt; Number &gt; &amp;planar_direction)</td></tr>
 <tr class="memdesc:afce46cd475ae6c6247e7ea12b1654351"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a planar traction vector from a given scalar traction and planar direction.  <a href="classPhQ_1_1PlanarTraction.html#afce46cd475ae6c6247e7ea12b1654351">More...</a><br /></td></tr>
 <tr class="separator:afce46cd475ae6c6247e7ea12b1654351"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -279,7 +282,7 @@ class PhQ::PlanarTraction&lt; Number &gt;</h3>
 <p class="definition">Definition at line <a class="el" href="PlanarTraction_8hpp_source.html#l00055">55</a> of file <a class="el" href="PlanarTraction_8hpp_source.html">PlanarTraction.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a75367a912522e49f27df77e5bc8903c6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a75367a912522e49f27df77e5bc8903c6">&#9670;&nbsp;</a></span>PlanarTraction() <span class="overload">[1/10]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a75367a912522e49f27df77e5bc8903c6">&#9670;&nbsp;</a></span>PlanarTraction() <span class="overload">[1/11]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -308,7 +311,7 @@ template&lt;typename Number  = double&gt; </div>
 </div>
 </div>
 <a id="add23a747591f4f25c6d97c5039159093"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#add23a747591f4f25c6d97c5039159093">&#9670;&nbsp;</a></span>PlanarTraction() <span class="overload">[2/10]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#add23a747591f4f25c6d97c5039159093">&#9670;&nbsp;</a></span>PlanarTraction() <span class="overload">[2/11]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -349,8 +352,52 @@ template&lt;typename Number  = double&gt; </div>
 
 </div>
 </div>
+<a id="a36b7fbe6591b3fc59a033516e971fc1f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a36b7fbe6591b3fc59a033516e971fc1f">&#9670;&nbsp;</a></span>PlanarTraction() <span class="overload">[3/11]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Number  = double&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classPhQ_1_1PlanarTraction.html">PhQ::PlanarTraction</a>&lt; Number &gt;::<a class="el" href="classPhQ_1_1PlanarTraction.html">PlanarTraction</a> </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramname"><em>y</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Constructor. Constructs a planar traction vector from a given set of scalar traction components. </p>
+
+<p class="definition">Definition at line <a class="el" href="PlanarTraction_8hpp_source.html#l00067">67</a> of file <a class="el" href="PlanarTraction_8hpp_source.html">PlanarTraction.hpp</a>.</p>
+
+<p class="reference">References <a class="el" href="PlanarTraction_8hpp_source.html#l00147">PhQ::PlanarTraction&lt; Number &gt;::x()</a>, and <a class="el" href="PlanarTraction_8hpp_source.html#l00152">PhQ::PlanarTraction&lt; Number &gt;::y()</a>.</p>
+
+</div>
+</div>
 <a id="afce46cd475ae6c6247e7ea12b1654351"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afce46cd475ae6c6247e7ea12b1654351">&#9670;&nbsp;</a></span>PlanarTraction() <span class="overload">[3/10]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#afce46cd475ae6c6247e7ea12b1654351">&#9670;&nbsp;</a></span>PlanarTraction() <span class="overload">[4/11]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -387,12 +434,12 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Constructor. Constructs a planar traction vector from a given scalar traction and planar direction. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarTraction_8hpp_source.html#l00067">67</a> of file <a class="el" href="PlanarTraction_8hpp_source.html">PlanarTraction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarTraction_8hpp_source.html#l00072">72</a> of file <a class="el" href="PlanarTraction_8hpp_source.html">PlanarTraction.hpp</a>.</p>
 
 </div>
 </div>
 <a id="a13dd5acfe2b342121870973e9e4741e7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a13dd5acfe2b342121870973e9e4741e7">&#9670;&nbsp;</a></span>PlanarTraction() <span class="overload">[4/10]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a13dd5acfe2b342121870973e9e4741e7">&#9670;&nbsp;</a></span>PlanarTraction() <span class="overload">[5/11]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -419,14 +466,14 @@ template&lt;typename Number &gt; </div>
 
 <p>Constructor. Constructs a planar traction vector from a given traction vector by projecting the traction vector onto the XY plane. </p>
 
-<p class="definition">Definition at line <a class="el" href="Traction_8hpp_source.html#l00291">291</a> of file <a class="el" href="Traction_8hpp_source.html">Traction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Traction_8hpp_source.html#l00297">297</a> of file <a class="el" href="Traction_8hpp_source.html">Traction.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00060">PhQ::DimensionalVector&lt; UnitType, Number &gt;::Value()</a>.</p>
 
 </div>
 </div>
 <a id="a6e3d8aff17c9feead5a5d57eab2a1b44"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6e3d8aff17c9feead5a5d57eab2a1b44">&#9670;&nbsp;</a></span>PlanarTraction() <span class="overload">[5/10]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a6e3d8aff17c9feead5a5d57eab2a1b44">&#9670;&nbsp;</a></span>PlanarTraction() <span class="overload">[6/11]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -463,12 +510,12 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Constructor. Constructs a planar traction vector from a given planar force and area using the definition of traction. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarTraction_8hpp_source.html#l00077">77</a> of file <a class="el" href="PlanarTraction_8hpp_source.html">PlanarTraction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarTraction_8hpp_source.html#l00082">82</a> of file <a class="el" href="PlanarTraction_8hpp_source.html">PlanarTraction.hpp</a>.</p>
 
 </div>
 </div>
 <a id="ad88df169862699d22959ab19b45c9ebb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad88df169862699d22959ab19b45c9ebb">&#9670;&nbsp;</a></span>PlanarTraction() <span class="overload">[6/10]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ad88df169862699d22959ab19b45c9ebb">&#9670;&nbsp;</a></span>PlanarTraction() <span class="overload">[7/11]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -505,7 +552,7 @@ template&lt;typename Number &gt; </div>
 
 <p>Constructor. Constructs a planar traction vector from a given stress and direction using the definition of traction. </p>
 
-<p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00279">279</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00285">285</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00060">PhQ::DimensionalSymmetricDyad&lt; UnitType, Number &gt;::Value()</a>.</p>
 
@@ -541,7 +588,7 @@ template&lt;typename Number  = double&gt; </div>
 </div>
 </div>
 <a id="ac11a7eaa42dc322a50200a27ab2c5410"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac11a7eaa42dc322a50200a27ab2c5410">&#9670;&nbsp;</a></span>PlanarTraction() <span class="overload">[7/10]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ac11a7eaa42dc322a50200a27ab2c5410">&#9670;&nbsp;</a></span>PlanarTraction() <span class="overload">[8/11]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -571,7 +618,7 @@ template&lt;typename Number  = double&gt; </div>
 </div>
 </div>
 <a id="af4182a0c8f451cb2dab91acace98ea0f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af4182a0c8f451cb2dab91acace98ea0f">&#9670;&nbsp;</a></span>PlanarTraction() <span class="overload">[8/10]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#af4182a0c8f451cb2dab91acace98ea0f">&#9670;&nbsp;</a></span>PlanarTraction() <span class="overload">[9/11]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -600,12 +647,12 @@ template&lt;typename OtherNumber &gt; </div>
 
 <p>Copy constructor. Constructs a planar traction vector by copying another one. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarTraction_8hpp_source.html#l00093">93</a> of file <a class="el" href="PlanarTraction_8hpp_source.html">PlanarTraction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarTraction_8hpp_source.html#l00098">98</a> of file <a class="el" href="PlanarTraction_8hpp_source.html">PlanarTraction.hpp</a>.</p>
 
 </div>
 </div>
 <a id="ae19470b8da99258f9ff860881b30c9f7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae19470b8da99258f9ff860881b30c9f7">&#9670;&nbsp;</a></span>PlanarTraction() <span class="overload">[9/10]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ae19470b8da99258f9ff860881b30c9f7">&#9670;&nbsp;</a></span>PlanarTraction() <span class="overload">[10/11]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -635,7 +682,7 @@ template&lt;typename Number  = double&gt; </div>
 </div>
 </div>
 <a id="a8024747f7ac39ddebdf300bebd377316"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8024747f7ac39ddebdf300bebd377316">&#9670;&nbsp;</a></span>PlanarTraction() <span class="overload">[10/10]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a8024747f7ac39ddebdf300bebd377316">&#9670;&nbsp;</a></span>PlanarTraction() <span class="overload">[11/11]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -662,7 +709,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Constructor. Constructs a planar traction vector with a given value expressed in the standard pressure unit. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarTraction_8hpp_source.html#l00205">205</a> of file <a class="el" href="PlanarTraction_8hpp_source.html">PlanarTraction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarTraction_8hpp_source.html#l00210">210</a> of file <a class="el" href="PlanarTraction_8hpp_source.html">PlanarTraction.hpp</a>.</p>
 
 </div>
 </div>
@@ -695,7 +742,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the angle between this planar traction vector and another one. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarTraction_8hpp_source.html#l00162">162</a> of file <a class="el" href="PlanarTraction_8hpp_source.html">PlanarTraction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarTraction_8hpp_source.html#l00167">167</a> of file <a class="el" href="PlanarTraction_8hpp_source.html">PlanarTraction.hpp</a>.</p>
 
 </div>
 </div>
@@ -739,9 +786,9 @@ template&lt;Unit::Pressure Unit&gt; </div>
 
 <p>Statically creates a planar traction vector from the given x and y Cartesian components expressed in a given pressure unit. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarTraction_8hpp_source.html#l00120">120</a> of file <a class="el" href="PlanarTraction_8hpp_source.html">PlanarTraction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarTraction_8hpp_source.html#l00125">125</a> of file <a class="el" href="PlanarTraction_8hpp_source.html">PlanarTraction.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="PlanarTraction_8hpp_source.html#l00142">PhQ::PlanarTraction&lt; Number &gt;::x()</a>, and <a class="el" href="PlanarTraction_8hpp_source.html#l00147">PhQ::PlanarTraction&lt; Number &gt;::y()</a>.</p>
+<p class="reference">References <a class="el" href="PlanarTraction_8hpp_source.html#l00147">PhQ::PlanarTraction&lt; Number &gt;::x()</a>, and <a class="el" href="PlanarTraction_8hpp_source.html#l00152">PhQ::PlanarTraction&lt; Number &gt;::y()</a>.</p>
 
 </div>
 </div>
@@ -775,7 +822,7 @@ template&lt;Unit::Pressure Unit&gt; </div>
 
 <p>Statically creates a planar traction vector with a given value expressed in a given pressure unit. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarTraction_8hpp_source.html#l00136">136</a> of file <a class="el" href="PlanarTraction_8hpp_source.html">PlanarTraction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarTraction_8hpp_source.html#l00141">141</a> of file <a class="el" href="PlanarTraction_8hpp_source.html">PlanarTraction.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00219">PhQ::DimensionalPlanarVector&lt; Unit::Pressure, double &gt;::value</a>.</p>
 
@@ -811,7 +858,7 @@ template&lt;Unit::Pressure Unit&gt; </div>
 
 <p>Statically creates a planar traction vector from the given x and y Cartesian components expressed in a given pressure unit. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarTraction_8hpp_source.html#l00128">128</a> of file <a class="el" href="PlanarTraction_8hpp_source.html">PlanarTraction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarTraction_8hpp_source.html#l00133">133</a> of file <a class="el" href="PlanarTraction_8hpp_source.html">PlanarTraction.hpp</a>.</p>
 
 </div>
 </div>
@@ -930,7 +977,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the magnitude of this planar traction vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarTraction_8hpp_source.html#l00152">152</a> of file <a class="el" href="PlanarTraction_8hpp_source.html">PlanarTraction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarTraction_8hpp_source.html#l00157">157</a> of file <a class="el" href="PlanarTraction_8hpp_source.html">PlanarTraction.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="PlanarVector_8hpp_source.html#l00196">PhQ::PlanarVector&lt; Number &gt;::Magnitude()</a>, and <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00219">PhQ::DimensionalPlanarVector&lt; Unit::Pressure, double &gt;::value</a>.</p>
 
@@ -991,7 +1038,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="PlanarTraction_8hpp_source.html#l00178">178</a> of file <a class="el" href="PlanarTraction_8hpp_source.html">PlanarTraction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarTraction_8hpp_source.html#l00183">183</a> of file <a class="el" href="PlanarTraction_8hpp_source.html">PlanarTraction.hpp</a>.</p>
 
 </div>
 </div>
@@ -1021,7 +1068,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="PlanarTraction_8hpp_source.html#l00174">174</a> of file <a class="el" href="PlanarTraction_8hpp_source.html">PlanarTraction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarTraction_8hpp_source.html#l00179">179</a> of file <a class="el" href="PlanarTraction_8hpp_source.html">PlanarTraction.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00219">PhQ::DimensionalPlanarVector&lt; Unit::Pressure, double &gt;::value</a>.</p>
 
@@ -1053,7 +1100,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="PlanarTraction_8hpp_source.html#l00194">194</a> of file <a class="el" href="PlanarTraction_8hpp_source.html">PlanarTraction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarTraction_8hpp_source.html#l00199">199</a> of file <a class="el" href="PlanarTraction_8hpp_source.html">PlanarTraction.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00219">PhQ::DimensionalPlanarVector&lt; Unit::Pressure, double &gt;::value</a>.</p>
 
@@ -1085,7 +1132,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="PlanarTraction_8hpp_source.html#l00166">166</a> of file <a class="el" href="PlanarTraction_8hpp_source.html">PlanarTraction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarTraction_8hpp_source.html#l00171">171</a> of file <a class="el" href="PlanarTraction_8hpp_source.html">PlanarTraction.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00219">PhQ::DimensionalPlanarVector&lt; UnitType, Number &gt;::value</a>, and <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00219">PhQ::DimensionalPlanarVector&lt; Unit::Pressure, double &gt;::value</a>.</p>
 
@@ -1117,7 +1164,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="PlanarTraction_8hpp_source.html#l00186">186</a> of file <a class="el" href="PlanarTraction_8hpp_source.html">PlanarTraction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarTraction_8hpp_source.html#l00191">191</a> of file <a class="el" href="PlanarTraction_8hpp_source.html">PlanarTraction.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00219">PhQ::DimensionalPlanarVector&lt; Unit::Pressure, double &gt;::value</a>.</p>
 
@@ -1149,7 +1196,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="PlanarTraction_8hpp_source.html#l00170">170</a> of file <a class="el" href="PlanarTraction_8hpp_source.html">PlanarTraction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarTraction_8hpp_source.html#l00175">175</a> of file <a class="el" href="PlanarTraction_8hpp_source.html">PlanarTraction.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00219">PhQ::DimensionalPlanarVector&lt; UnitType, Number &gt;::value</a>, and <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00219">PhQ::DimensionalPlanarVector&lt; Unit::Pressure, double &gt;::value</a>.</p>
 
@@ -1181,7 +1228,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="PlanarTraction_8hpp_source.html#l00190">190</a> of file <a class="el" href="PlanarTraction_8hpp_source.html">PlanarTraction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarTraction_8hpp_source.html#l00195">195</a> of file <a class="el" href="PlanarTraction_8hpp_source.html">PlanarTraction.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00219">PhQ::DimensionalPlanarVector&lt; Unit::Pressure, double &gt;::value</a>.</p>
 
@@ -1213,7 +1260,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="PlanarTraction_8hpp_source.html#l00182">182</a> of file <a class="el" href="PlanarTraction_8hpp_source.html">PlanarTraction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarTraction_8hpp_source.html#l00187">187</a> of file <a class="el" href="PlanarTraction_8hpp_source.html">PlanarTraction.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00219">PhQ::DimensionalPlanarVector&lt; Unit::Pressure, double &gt;::value</a>.</p>
 
@@ -1245,7 +1292,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="PlanarTraction_8hpp_source.html#l00198">198</a> of file <a class="el" href="PlanarTraction_8hpp_source.html">PlanarTraction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarTraction_8hpp_source.html#l00203">203</a> of file <a class="el" href="PlanarTraction_8hpp_source.html">PlanarTraction.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00219">PhQ::DimensionalPlanarVector&lt; Unit::Pressure, double &gt;::value</a>.</p>
 
@@ -1311,7 +1358,7 @@ template&lt;typename OtherNumber &gt; </div>
 
 <p>Copy assignment operator. Assigns this planar traction vector by copying another one. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarTraction_8hpp_source.html#l00104">104</a> of file <a class="el" href="PlanarTraction_8hpp_source.html">PlanarTraction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarTraction_8hpp_source.html#l00109">109</a> of file <a class="el" href="PlanarTraction_8hpp_source.html">PlanarTraction.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00060">PhQ::DimensionalPlanarVector&lt; UnitType, Number &gt;::Value()</a>, and <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00219">PhQ::DimensionalPlanarVector&lt; Unit::Pressure, double &gt;::value</a>.</p>
 
@@ -1374,7 +1421,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the direction of this planar traction vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarTraction_8hpp_source.html#l00157">157</a> of file <a class="el" href="PlanarTraction_8hpp_source.html">PlanarTraction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarTraction_8hpp_source.html#l00162">162</a> of file <a class="el" href="PlanarTraction_8hpp_source.html">PlanarTraction.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="PlanarDirection_8hpp_source.html#l00377">PhQ::PlanarVector&lt; Number &gt;::PlanarDirection()</a>, and <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00219">PhQ::DimensionalPlanarVector&lt; Unit::Pressure, double &gt;::value</a>.</p>
 
@@ -1613,11 +1660,11 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the x Cartesian component of this planar traction vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarTraction_8hpp_source.html#l00142">142</a> of file <a class="el" href="PlanarTraction_8hpp_source.html">PlanarTraction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarTraction_8hpp_source.html#l00147">147</a> of file <a class="el" href="PlanarTraction_8hpp_source.html">PlanarTraction.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00219">PhQ::DimensionalPlanarVector&lt; Unit::Pressure, double &gt;::value</a>, and <a class="el" href="PlanarVector_8hpp_source.html#l00141">PhQ::PlanarVector&lt; Number &gt;::x()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="PlanarTraction_8hpp_source.html#l00120">PhQ::PlanarTraction&lt; Number &gt;::Create()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="PlanarTraction_8hpp_source.html#l00125">PhQ::PlanarTraction&lt; Number &gt;::Create()</a>, and <a class="el" href="PlanarTraction_8hpp_source.html#l00067">PhQ::PlanarTraction&lt; Number &gt;::PlanarTraction()</a>.</p>
 
 </div>
 </div>
@@ -1707,11 +1754,11 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the y Cartesian component of this planar traction vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarTraction_8hpp_source.html#l00147">147</a> of file <a class="el" href="PlanarTraction_8hpp_source.html">PlanarTraction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarTraction_8hpp_source.html#l00152">152</a> of file <a class="el" href="PlanarTraction_8hpp_source.html">PlanarTraction.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00219">PhQ::DimensionalPlanarVector&lt; Unit::Pressure, double &gt;::value</a>, and <a class="el" href="PlanarVector_8hpp_source.html#l00146">PhQ::PlanarVector&lt; Number &gt;::y()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="PlanarTraction_8hpp_source.html#l00120">PhQ::PlanarTraction&lt; Number &gt;::Create()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="PlanarTraction_8hpp_source.html#l00125">PhQ::PlanarTraction&lt; Number &gt;::Create()</a>, and <a class="el" href="PlanarTraction_8hpp_source.html#l00067">PhQ::PlanarTraction&lt; Number &gt;::PlanarTraction()</a>.</p>
 
 </div>
 </div>
@@ -1801,7 +1848,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Statically creates a planar traction vector of zero. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarTraction_8hpp_source.html#l00113">113</a> of file <a class="el" href="PlanarTraction_8hpp_source.html">PlanarTraction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarTraction_8hpp_source.html#l00118">118</a> of file <a class="el" href="PlanarTraction_8hpp_source.html">PlanarTraction.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="PlanarVector_8hpp_source.html#l00129">PhQ::PlanarVector&lt; Number &gt;::Zero()</a>.</p>
 

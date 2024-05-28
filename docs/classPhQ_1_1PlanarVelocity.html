@@ -126,6 +126,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:af5c82fc02f106ca5caf15ebe2abc4332"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1PlanarVelocity.html#af5c82fc02f106ca5caf15ebe2abc4332">PlanarVelocity</a> (const <a class="el" href="classPhQ_1_1PlanarVector.html">PlanarVector</a>&lt; Number &gt; &amp;<a class="el" href="classPhQ_1_1DimensionalPlanarVector.html#a77ab5495d4f12337e64cf2a89fef9a36">value</a>, const <a class="el" href="namespacePhQ_1_1Unit.html#ade1b15225d4c0137f9572ee61f237d3e">Unit::Speed</a> unit)</td></tr>
 <tr class="memdesc:af5c82fc02f106ca5caf15ebe2abc4332"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a planar velocity vector with a given value expressed in a given speed unit.  <a href="classPhQ_1_1PlanarVelocity.html#af5c82fc02f106ca5caf15ebe2abc4332">More...</a><br /></td></tr>
 <tr class="separator:af5c82fc02f106ca5caf15ebe2abc4332"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b8b979f36cd3cc35c6eab84e250a1a1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1PlanarVelocity.html#a6b8b979f36cd3cc35c6eab84e250a1a1">PlanarVelocity</a> (const <a class="el" href="classPhQ_1_1Speed.html">Speed</a>&lt; Number &gt; &amp;<a class="el" href="classPhQ_1_1PlanarVelocity.html#ab1155497db0095ccb0f629a3cae039bc">x</a>, const <a class="el" href="classPhQ_1_1Speed.html">Speed</a>&lt; Number &gt; &amp;<a class="el" href="classPhQ_1_1PlanarVelocity.html#a214209330e6df1734b98cd342a2d8e9f">y</a>)</td></tr>
+<tr class="memdesc:a6b8b979f36cd3cc35c6eab84e250a1a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a planar velocity vector from a given set of speed components.  <a href="classPhQ_1_1PlanarVelocity.html#a6b8b979f36cd3cc35c6eab84e250a1a1">More...</a><br /></td></tr>
+<tr class="separator:a6b8b979f36cd3cc35c6eab84e250a1a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa0fa8f0c66645e720dffc3040bda88dd"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1PlanarVelocity.html#aa0fa8f0c66645e720dffc3040bda88dd">PlanarVelocity</a> (const <a class="el" href="classPhQ_1_1Speed.html">Speed</a>&lt; Number &gt; &amp;speed, const <a class="el" href="classPhQ_1_1PlanarDirection.html">PlanarDirection</a>&lt; Number &gt; &amp;planar_direction)</td></tr>
 <tr class="memdesc:aa0fa8f0c66645e720dffc3040bda88dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a planar velocity vector from a given speed and planar direction.  <a href="classPhQ_1_1PlanarVelocity.html#aa0fa8f0c66645e720dffc3040bda88dd">More...</a><br /></td></tr>
 <tr class="separator:aa0fa8f0c66645e720dffc3040bda88dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -291,7 +294,7 @@ class PhQ::PlanarVelocity&lt; Number &gt;</h3>
 <p class="definition">Definition at line <a class="el" href="PlanarVelocity_8hpp_source.html#l00056">56</a> of file <a class="el" href="PlanarVelocity_8hpp_source.html">PlanarVelocity.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a0c6224b0163aea5f04f8a7e8ecdb499e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0c6224b0163aea5f04f8a7e8ecdb499e">&#9670;&nbsp;</a></span>PlanarVelocity() <span class="overload">[1/12]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c6224b0163aea5f04f8a7e8ecdb499e">&#9670;&nbsp;</a></span>PlanarVelocity() <span class="overload">[1/13]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -320,7 +323,7 @@ template&lt;typename Number  = double&gt; </div>
 </div>
 </div>
 <a id="af5c82fc02f106ca5caf15ebe2abc4332"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af5c82fc02f106ca5caf15ebe2abc4332">&#9670;&nbsp;</a></span>PlanarVelocity() <span class="overload">[2/12]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#af5c82fc02f106ca5caf15ebe2abc4332">&#9670;&nbsp;</a></span>PlanarVelocity() <span class="overload">[2/13]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -361,8 +364,52 @@ template&lt;typename Number  = double&gt; </div>
 
 </div>
 </div>
+<a id="a6b8b979f36cd3cc35c6eab84e250a1a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6b8b979f36cd3cc35c6eab84e250a1a1">&#9670;&nbsp;</a></span>PlanarVelocity() <span class="overload">[3/13]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Number  = double&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classPhQ_1_1PlanarVelocity.html">PhQ::PlanarVelocity</a>&lt; Number &gt;::<a class="el" href="classPhQ_1_1PlanarVelocity.html">PlanarVelocity</a> </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1Speed.html">Speed</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1Speed.html">Speed</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramname"><em>y</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Constructor. Constructs a planar velocity vector from a given set of speed components. </p>
+
+<p class="definition">Definition at line <a class="el" href="PlanarVelocity_8hpp_source.html#l00067">67</a> of file <a class="el" href="PlanarVelocity_8hpp_source.html">PlanarVelocity.hpp</a>.</p>
+
+<p class="reference">References <a class="el" href="PlanarVelocity_8hpp_source.html#l00159">PhQ::PlanarVelocity&lt; Number &gt;::x()</a>, and <a class="el" href="PlanarVelocity_8hpp_source.html#l00164">PhQ::PlanarVelocity&lt; Number &gt;::y()</a>.</p>
+
+</div>
+</div>
 <a id="aa0fa8f0c66645e720dffc3040bda88dd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa0fa8f0c66645e720dffc3040bda88dd">&#9670;&nbsp;</a></span>PlanarVelocity() <span class="overload">[3/12]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aa0fa8f0c66645e720dffc3040bda88dd">&#9670;&nbsp;</a></span>PlanarVelocity() <span class="overload">[4/13]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -399,12 +446,12 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Constructor. Constructs a planar velocity vector from a given speed and planar direction. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarVelocity_8hpp_source.html#l00068">68</a> of file <a class="el" href="PlanarVelocity_8hpp_source.html">PlanarVelocity.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarVelocity_8hpp_source.html#l00072">72</a> of file <a class="el" href="PlanarVelocity_8hpp_source.html">PlanarVelocity.hpp</a>.</p>
 
 </div>
 </div>
 <a id="abe1387fb1d20dcb7f33e86aa78a065a3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abe1387fb1d20dcb7f33e86aa78a065a3">&#9670;&nbsp;</a></span>PlanarVelocity() <span class="overload">[4/12]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#abe1387fb1d20dcb7f33e86aa78a065a3">&#9670;&nbsp;</a></span>PlanarVelocity() <span class="overload">[5/13]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -431,14 +478,14 @@ template&lt;typename Number &gt; </div>
 
 <p>Constructor. Constructs a planar velocity vector from a given velocity vector by projecting the velocity vector onto the XY plane. </p>
 
-<p class="definition">Definition at line <a class="el" href="Velocity_8hpp_source.html#l00296">296</a> of file <a class="el" href="Velocity_8hpp_source.html">Velocity.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Velocity_8hpp_source.html#l00300">300</a> of file <a class="el" href="Velocity_8hpp_source.html">Velocity.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00060">PhQ::DimensionalVector&lt; UnitType, Number &gt;::Value()</a>.</p>
 
 </div>
 </div>
 <a id="a881b4e28b10858cd63e9d81dc4bab1a9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a881b4e28b10858cd63e9d81dc4bab1a9">&#9670;&nbsp;</a></span>PlanarVelocity() <span class="overload">[5/12]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a881b4e28b10858cd63e9d81dc4bab1a9">&#9670;&nbsp;</a></span>PlanarVelocity() <span class="overload">[6/13]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -475,12 +522,12 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Constructor. Constructs a planar velocity vector from a given planar displacement vector and time using the definition of velocity. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarVelocity_8hpp_source.html#l00078">78</a> of file <a class="el" href="PlanarVelocity_8hpp_source.html">PlanarVelocity.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarVelocity_8hpp_source.html#l00082">82</a> of file <a class="el" href="PlanarVelocity_8hpp_source.html">PlanarVelocity.hpp</a>.</p>
 
 </div>
 </div>
 <a id="a4c9078ed7a6e06cf892bf279beb05033"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4c9078ed7a6e06cf892bf279beb05033">&#9670;&nbsp;</a></span>PlanarVelocity() <span class="overload">[6/12]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c9078ed7a6e06cf892bf279beb05033">&#9670;&nbsp;</a></span>PlanarVelocity() <span class="overload">[7/13]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -517,12 +564,12 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Constructor. Constructs a planar velocity vector from a given planar displacement vector and frequency using the definition of velocity. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarVelocity_8hpp_source.html#l00084">84</a> of file <a class="el" href="PlanarVelocity_8hpp_source.html">PlanarVelocity.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarVelocity_8hpp_source.html#l00088">88</a> of file <a class="el" href="PlanarVelocity_8hpp_source.html">PlanarVelocity.hpp</a>.</p>
 
 </div>
 </div>
 <a id="affbde02bb93124de708ec24e6a9d8515"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#affbde02bb93124de708ec24e6a9d8515">&#9670;&nbsp;</a></span>PlanarVelocity() <span class="overload">[7/12]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#affbde02bb93124de708ec24e6a9d8515">&#9670;&nbsp;</a></span>PlanarVelocity() <span class="overload">[8/13]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -559,12 +606,12 @@ template&lt;typename Number &gt; </div>
 
 <p>Constructor. Constructs a planar velocity vector from a given planar acceleration vector and time using the definition of acceleration. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarAcceleration_8hpp_source.html#l00277">277</a> of file <a class="el" href="PlanarAcceleration_8hpp_source.html">PlanarAcceleration.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarAcceleration_8hpp_source.html#l00282">282</a> of file <a class="el" href="PlanarAcceleration_8hpp_source.html">PlanarAcceleration.hpp</a>.</p>
 
 </div>
 </div>
 <a id="a30cfa989a83cf1968ab39844c35c7209"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a30cfa989a83cf1968ab39844c35c7209">&#9670;&nbsp;</a></span>PlanarVelocity() <span class="overload">[8/12]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a30cfa989a83cf1968ab39844c35c7209">&#9670;&nbsp;</a></span>PlanarVelocity() <span class="overload">[9/13]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -601,7 +648,7 @@ template&lt;typename Number &gt; </div>
 
 <p>Constructor. Constructs a planar velocity vector from a given planar acceleration vector and frequency using the definition of acceleration. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarAcceleration_8hpp_source.html#l00282">282</a> of file <a class="el" href="PlanarAcceleration_8hpp_source.html">PlanarAcceleration.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarAcceleration_8hpp_source.html#l00287">287</a> of file <a class="el" href="PlanarAcceleration_8hpp_source.html">PlanarAcceleration.hpp</a>.</p>
 
 </div>
 </div>
@@ -635,7 +682,7 @@ template&lt;typename Number  = double&gt; </div>
 </div>
 </div>
 <a id="a3c9476605bce11a0f563cfedd191d877"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3c9476605bce11a0f563cfedd191d877">&#9670;&nbsp;</a></span>PlanarVelocity() <span class="overload">[9/12]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c9476605bce11a0f563cfedd191d877">&#9670;&nbsp;</a></span>PlanarVelocity() <span class="overload">[10/13]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -665,7 +712,7 @@ template&lt;typename Number  = double&gt; </div>
 </div>
 </div>
 <a id="a932225b2349377300f87515226051ddd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a932225b2349377300f87515226051ddd">&#9670;&nbsp;</a></span>PlanarVelocity() <span class="overload">[10/12]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a932225b2349377300f87515226051ddd">&#9670;&nbsp;</a></span>PlanarVelocity() <span class="overload">[11/13]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -694,12 +741,12 @@ template&lt;typename OtherNumber &gt; </div>
 
 <p>Copy constructor. Constructs a planar velocity by copying another one. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarVelocity_8hpp_source.html#l00106">106</a> of file <a class="el" href="PlanarVelocity_8hpp_source.html">PlanarVelocity.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarVelocity_8hpp_source.html#l00110">110</a> of file <a class="el" href="PlanarVelocity_8hpp_source.html">PlanarVelocity.hpp</a>.</p>
 
 </div>
 </div>
 <a id="a4a43f2ecfa1231843b0384155f11ecd2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4a43f2ecfa1231843b0384155f11ecd2">&#9670;&nbsp;</a></span>PlanarVelocity() <span class="overload">[11/12]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a43f2ecfa1231843b0384155f11ecd2">&#9670;&nbsp;</a></span>PlanarVelocity() <span class="overload">[12/13]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -729,7 +776,7 @@ template&lt;typename Number  = double&gt; </div>
 </div>
 </div>
 <a id="a4db5bdf3124612b1391bc8ca664f3fde"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4db5bdf3124612b1391bc8ca664f3fde">&#9670;&nbsp;</a></span>PlanarVelocity() <span class="overload">[12/12]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a4db5bdf3124612b1391bc8ca664f3fde">&#9670;&nbsp;</a></span>PlanarVelocity() <span class="overload">[13/13]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -756,7 +803,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Constructor. Constructs a planar velocity vector with a given value expressed in the standard speed unit. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarVelocity_8hpp_source.html#l00226">226</a> of file <a class="el" href="PlanarVelocity_8hpp_source.html">PlanarVelocity.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarVelocity_8hpp_source.html#l00230">230</a> of file <a class="el" href="PlanarVelocity_8hpp_source.html">PlanarVelocity.hpp</a>.</p>
 
 </div>
 </div>
@@ -789,7 +836,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the angle between this planar velocity vector and another one. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarVelocity_8hpp_source.html#l00175">175</a> of file <a class="el" href="PlanarVelocity_8hpp_source.html">PlanarVelocity.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarVelocity_8hpp_source.html#l00179">179</a> of file <a class="el" href="PlanarVelocity_8hpp_source.html">PlanarVelocity.hpp</a>.</p>
 
 </div>
 </div>
@@ -833,9 +880,9 @@ template&lt;Unit::Speed Unit&gt; </div>
 
 <p>Statically creates a planar velocity vector from the given x and y Cartesian components expressed in a given speed unit. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarVelocity_8hpp_source.html#l00133">133</a> of file <a class="el" href="PlanarVelocity_8hpp_source.html">PlanarVelocity.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarVelocity_8hpp_source.html#l00137">137</a> of file <a class="el" href="PlanarVelocity_8hpp_source.html">PlanarVelocity.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="PlanarVelocity_8hpp_source.html#l00155">PhQ::PlanarVelocity&lt; Number &gt;::x()</a>, and <a class="el" href="PlanarVelocity_8hpp_source.html#l00160">PhQ::PlanarVelocity&lt; Number &gt;::y()</a>.</p>
+<p class="reference">References <a class="el" href="PlanarVelocity_8hpp_source.html#l00159">PhQ::PlanarVelocity&lt; Number &gt;::x()</a>, and <a class="el" href="PlanarVelocity_8hpp_source.html#l00164">PhQ::PlanarVelocity&lt; Number &gt;::y()</a>.</p>
 
 </div>
 </div>
@@ -869,7 +916,7 @@ template&lt;Unit::Speed Unit&gt; </div>
 
 <p>Statically creates a planar velocity vector with a given value expressed in a given speed unit. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarVelocity_8hpp_source.html#l00149">149</a> of file <a class="el" href="PlanarVelocity_8hpp_source.html">PlanarVelocity.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarVelocity_8hpp_source.html#l00153">153</a> of file <a class="el" href="PlanarVelocity_8hpp_source.html">PlanarVelocity.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00219">PhQ::DimensionalPlanarVector&lt; Unit::Speed, double &gt;::value</a>.</p>
 
@@ -905,7 +952,7 @@ template&lt;Unit::Speed Unit&gt; </div>
 
 <p>Statically creates a planar velocity vector from the given x and y Cartesian components expressed in a given speed unit. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarVelocity_8hpp_source.html#l00141">141</a> of file <a class="el" href="PlanarVelocity_8hpp_source.html">PlanarVelocity.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarVelocity_8hpp_source.html#l00145">145</a> of file <a class="el" href="PlanarVelocity_8hpp_source.html">PlanarVelocity.hpp</a>.</p>
 
 </div>
 </div>
@@ -1024,7 +1071,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the magnitude of this planar velocity vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarVelocity_8hpp_source.html#l00165">165</a> of file <a class="el" href="PlanarVelocity_8hpp_source.html">PlanarVelocity.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarVelocity_8hpp_source.html#l00169">169</a> of file <a class="el" href="PlanarVelocity_8hpp_source.html">PlanarVelocity.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="PlanarVector_8hpp_source.html#l00196">PhQ::PlanarVector&lt; Number &gt;::Magnitude()</a>, and <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00219">PhQ::DimensionalPlanarVector&lt; Unit::Speed, double &gt;::value</a>.</p>
 
@@ -1085,7 +1132,7 @@ template&lt;typename Number &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="PlanarAcceleration_8hpp_source.html#l00305">305</a> of file <a class="el" href="PlanarAcceleration_8hpp_source.html">PlanarAcceleration.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarAcceleration_8hpp_source.html#l00310">310</a> of file <a class="el" href="PlanarAcceleration_8hpp_source.html">PlanarAcceleration.hpp</a>.</p>
 
 </div>
 </div>
@@ -1115,7 +1162,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="PlanarVelocity_8hpp_source.html#l00187">187</a> of file <a class="el" href="PlanarVelocity_8hpp_source.html">PlanarVelocity.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarVelocity_8hpp_source.html#l00191">191</a> of file <a class="el" href="PlanarVelocity_8hpp_source.html">PlanarVelocity.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00219">PhQ::DimensionalPlanarVector&lt; Unit::Speed, double &gt;::value</a>.</p>
 
@@ -1147,7 +1194,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="PlanarVelocity_8hpp_source.html#l00191">191</a> of file <a class="el" href="PlanarVelocity_8hpp_source.html">PlanarVelocity.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarVelocity_8hpp_source.html#l00195">195</a> of file <a class="el" href="PlanarVelocity_8hpp_source.html">PlanarVelocity.hpp</a>.</p>
 
 </div>
 </div>
@@ -1177,7 +1224,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="PlanarVelocity_8hpp_source.html#l00215">215</a> of file <a class="el" href="PlanarVelocity_8hpp_source.html">PlanarVelocity.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarVelocity_8hpp_source.html#l00219">219</a> of file <a class="el" href="PlanarVelocity_8hpp_source.html">PlanarVelocity.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00219">PhQ::DimensionalPlanarVector&lt; Unit::Speed, double &gt;::value</a>.</p>
 
@@ -1209,7 +1256,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="PlanarVelocity_8hpp_source.html#l00179">179</a> of file <a class="el" href="PlanarVelocity_8hpp_source.html">PlanarVelocity.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarVelocity_8hpp_source.html#l00183">183</a> of file <a class="el" href="PlanarVelocity_8hpp_source.html">PlanarVelocity.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00219">PhQ::DimensionalPlanarVector&lt; UnitType, Number &gt;::value</a>, and <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00219">PhQ::DimensionalPlanarVector&lt; Unit::Speed, double &gt;::value</a>.</p>
 
@@ -1241,7 +1288,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="PlanarVelocity_8hpp_source.html#l00207">207</a> of file <a class="el" href="PlanarVelocity_8hpp_source.html">PlanarVelocity.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarVelocity_8hpp_source.html#l00211">211</a> of file <a class="el" href="PlanarVelocity_8hpp_source.html">PlanarVelocity.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00219">PhQ::DimensionalPlanarVector&lt; Unit::Speed, double &gt;::value</a>.</p>
 
@@ -1273,7 +1320,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="PlanarVelocity_8hpp_source.html#l00183">183</a> of file <a class="el" href="PlanarVelocity_8hpp_source.html">PlanarVelocity.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarVelocity_8hpp_source.html#l00187">187</a> of file <a class="el" href="PlanarVelocity_8hpp_source.html">PlanarVelocity.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00219">PhQ::DimensionalPlanarVector&lt; UnitType, Number &gt;::value</a>, and <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00219">PhQ::DimensionalPlanarVector&lt; Unit::Speed, double &gt;::value</a>.</p>
 
@@ -1305,7 +1352,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="PlanarVelocity_8hpp_source.html#l00211">211</a> of file <a class="el" href="PlanarVelocity_8hpp_source.html">PlanarVelocity.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarVelocity_8hpp_source.html#l00215">215</a> of file <a class="el" href="PlanarVelocity_8hpp_source.html">PlanarVelocity.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00219">PhQ::DimensionalPlanarVector&lt; Unit::Speed, double &gt;::value</a>.</p>
 
@@ -1337,7 +1384,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="PlanarVelocity_8hpp_source.html#l00203">203</a> of file <a class="el" href="PlanarVelocity_8hpp_source.html">PlanarVelocity.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarVelocity_8hpp_source.html#l00207">207</a> of file <a class="el" href="PlanarVelocity_8hpp_source.html">PlanarVelocity.hpp</a>.</p>
 
 </div>
 </div>
@@ -1367,7 +1414,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="PlanarVelocity_8hpp_source.html#l00197">197</a> of file <a class="el" href="PlanarVelocity_8hpp_source.html">PlanarVelocity.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarVelocity_8hpp_source.html#l00201">201</a> of file <a class="el" href="PlanarVelocity_8hpp_source.html">PlanarVelocity.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00219">PhQ::DimensionalPlanarVector&lt; Unit::Speed, double &gt;::value</a>.</p>
 
@@ -1399,7 +1446,7 @@ template&lt;typename Number &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="PlanarAcceleration_8hpp_source.html#l00317">317</a> of file <a class="el" href="PlanarAcceleration_8hpp_source.html">PlanarAcceleration.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarAcceleration_8hpp_source.html#l00322">322</a> of file <a class="el" href="PlanarAcceleration_8hpp_source.html">PlanarAcceleration.hpp</a>.</p>
 
 </div>
 </div>
@@ -1429,7 +1476,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="PlanarVelocity_8hpp_source.html#l00219">219</a> of file <a class="el" href="PlanarVelocity_8hpp_source.html">PlanarVelocity.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarVelocity_8hpp_source.html#l00223">223</a> of file <a class="el" href="PlanarVelocity_8hpp_source.html">PlanarVelocity.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00219">PhQ::DimensionalPlanarVector&lt; Unit::Speed, double &gt;::value</a>.</p>
 
@@ -1495,7 +1542,7 @@ template&lt;typename OtherNumber &gt; </div>
 
 <p>Copy assignment operator. Assigns this planar velocity by copying another one. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarVelocity_8hpp_source.html#l00117">117</a> of file <a class="el" href="PlanarVelocity_8hpp_source.html">PlanarVelocity.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarVelocity_8hpp_source.html#l00121">121</a> of file <a class="el" href="PlanarVelocity_8hpp_source.html">PlanarVelocity.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00060">PhQ::DimensionalPlanarVector&lt; UnitType, Number &gt;::Value()</a>, and <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00219">PhQ::DimensionalPlanarVector&lt; Unit::Speed, double &gt;::value</a>.</p>
 
@@ -1558,7 +1605,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the planar direction of this planar velocity vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarVelocity_8hpp_source.html#l00170">170</a> of file <a class="el" href="PlanarVelocity_8hpp_source.html">PlanarVelocity.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarVelocity_8hpp_source.html#l00174">174</a> of file <a class="el" href="PlanarVelocity_8hpp_source.html">PlanarVelocity.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="PlanarDirection_8hpp_source.html#l00377">PhQ::PlanarVector&lt; Number &gt;::PlanarDirection()</a>, and <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00219">PhQ::DimensionalPlanarVector&lt; Unit::Speed, double &gt;::value</a>.</p>
 
@@ -1797,11 +1844,11 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the x Cartesian component of this planar velocity vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarVelocity_8hpp_source.html#l00155">155</a> of file <a class="el" href="PlanarVelocity_8hpp_source.html">PlanarVelocity.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarVelocity_8hpp_source.html#l00159">159</a> of file <a class="el" href="PlanarVelocity_8hpp_source.html">PlanarVelocity.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00219">PhQ::DimensionalPlanarVector&lt; Unit::Speed, double &gt;::value</a>, and <a class="el" href="PlanarVector_8hpp_source.html#l00141">PhQ::PlanarVector&lt; Number &gt;::x()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="PlanarVelocity_8hpp_source.html#l00133">PhQ::PlanarVelocity&lt; Number &gt;::Create()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="PlanarVelocity_8hpp_source.html#l00137">PhQ::PlanarVelocity&lt; Number &gt;::Create()</a>, and <a class="el" href="PlanarVelocity_8hpp_source.html#l00067">PhQ::PlanarVelocity&lt; Number &gt;::PlanarVelocity()</a>.</p>
 
 </div>
 </div>
@@ -1891,11 +1938,11 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the y Cartesian component of this planar velocity vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarVelocity_8hpp_source.html#l00160">160</a> of file <a class="el" href="PlanarVelocity_8hpp_source.html">PlanarVelocity.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarVelocity_8hpp_source.html#l00164">164</a> of file <a class="el" href="PlanarVelocity_8hpp_source.html">PlanarVelocity.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00219">PhQ::DimensionalPlanarVector&lt; Unit::Speed, double &gt;::value</a>, and <a class="el" href="PlanarVector_8hpp_source.html#l00146">PhQ::PlanarVector&lt; Number &gt;::y()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="PlanarVelocity_8hpp_source.html#l00133">PhQ::PlanarVelocity&lt; Number &gt;::Create()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="PlanarVelocity_8hpp_source.html#l00137">PhQ::PlanarVelocity&lt; Number &gt;::Create()</a>, and <a class="el" href="PlanarVelocity_8hpp_source.html#l00067">PhQ::PlanarVelocity&lt; Number &gt;::PlanarVelocity()</a>.</p>
 
 </div>
 </div>
@@ -1985,7 +2032,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Statically creates a planar velocity vector of zero. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarVelocity_8hpp_source.html#l00126">126</a> of file <a class="el" href="PlanarVelocity_8hpp_source.html">PlanarVelocity.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarVelocity_8hpp_source.html#l00130">130</a> of file <a class="el" href="PlanarVelocity_8hpp_source.html">PlanarVelocity.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="PlanarVector_8hpp_source.html#l00129">PhQ::PlanarVector&lt; Number &gt;::Zero()</a>.</p>
 

@@ -126,6 +126,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a863749c3969951acdfe0439816fe1c7a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1PlanarHeatFlux.html#a863749c3969951acdfe0439816fe1c7a">PlanarHeatFlux</a> (const <a class="el" href="classPhQ_1_1PlanarVector.html">PlanarVector</a>&lt; Number &gt; &amp;<a class="el" href="classPhQ_1_1DimensionalPlanarVector.html#a77ab5495d4f12337e64cf2a89fef9a36">value</a>, const <a class="el" href="namespacePhQ_1_1Unit.html#a3d148d3ea4f67aaf566421387ec35ca2">Unit::EnergyFlux</a> unit)</td></tr>
 <tr class="memdesc:a863749c3969951acdfe0439816fe1c7a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a planar heat flux vector with a given value expressed in a given energy flux unit.  <a href="classPhQ_1_1PlanarHeatFlux.html#a863749c3969951acdfe0439816fe1c7a">More...</a><br /></td></tr>
 <tr class="separator:a863749c3969951acdfe0439816fe1c7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d984990bc491d72e36a55de521918f4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1PlanarHeatFlux.html#a0d984990bc491d72e36a55de521918f4">PlanarHeatFlux</a> (const <a class="el" href="classPhQ_1_1ScalarHeatFlux.html">ScalarHeatFlux</a>&lt; Number &gt; &amp;<a class="el" href="classPhQ_1_1PlanarHeatFlux.html#a1aaf69f13f968786ea60457ab14c3020">x</a>, const <a class="el" href="classPhQ_1_1ScalarHeatFlux.html">ScalarHeatFlux</a>&lt; Number &gt; &amp;<a class="el" href="classPhQ_1_1PlanarHeatFlux.html#a5b2c715f5f265eafdfa6cbb3209be709">y</a>)</td></tr>
+<tr class="memdesc:a0d984990bc491d72e36a55de521918f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a planar heat flux vector from a given set of scalar heat flux components.  <a href="classPhQ_1_1PlanarHeatFlux.html#a0d984990bc491d72e36a55de521918f4">More...</a><br /></td></tr>
+<tr class="separator:a0d984990bc491d72e36a55de521918f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a94d1153215d096508b19dacb369ea131"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1PlanarHeatFlux.html#a94d1153215d096508b19dacb369ea131">PlanarHeatFlux</a> (const <a class="el" href="classPhQ_1_1ScalarHeatFlux.html">ScalarHeatFlux</a>&lt; Number &gt; &amp;scalar_heat_flux, const <a class="el" href="classPhQ_1_1PlanarDirection.html">PlanarDirection</a>&lt; Number &gt; &amp;planar_direction)</td></tr>
 <tr class="memdesc:a94d1153215d096508b19dacb369ea131"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a planar heat flux vector from a given scalar heat flux magnitude and planar direction.  <a href="classPhQ_1_1PlanarHeatFlux.html#a94d1153215d096508b19dacb369ea131">More...</a><br /></td></tr>
 <tr class="separator:a94d1153215d096508b19dacb369ea131"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -277,7 +280,7 @@ class PhQ::PlanarHeatFlux&lt; Number &gt;</h3>
 <p class="definition">Definition at line <a class="el" href="PlanarHeatFlux_8hpp_source.html#l00051">51</a> of file <a class="el" href="PlanarHeatFlux_8hpp_source.html">PlanarHeatFlux.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ae58e9d185c29394b0e3116cc968ec20f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae58e9d185c29394b0e3116cc968ec20f">&#9670;&nbsp;</a></span>PlanarHeatFlux() <span class="overload">[1/10]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ae58e9d185c29394b0e3116cc968ec20f">&#9670;&nbsp;</a></span>PlanarHeatFlux() <span class="overload">[1/11]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -306,7 +309,7 @@ template&lt;typename Number  = double&gt; </div>
 </div>
 </div>
 <a id="a863749c3969951acdfe0439816fe1c7a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a863749c3969951acdfe0439816fe1c7a">&#9670;&nbsp;</a></span>PlanarHeatFlux() <span class="overload">[2/10]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a863749c3969951acdfe0439816fe1c7a">&#9670;&nbsp;</a></span>PlanarHeatFlux() <span class="overload">[2/11]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -347,8 +350,52 @@ template&lt;typename Number  = double&gt; </div>
 
 </div>
 </div>
+<a id="a0d984990bc491d72e36a55de521918f4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d984990bc491d72e36a55de521918f4">&#9670;&nbsp;</a></span>PlanarHeatFlux() <span class="overload">[3/11]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Number  = double&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classPhQ_1_1PlanarHeatFlux.html">PhQ::PlanarHeatFlux</a>&lt; Number &gt;::<a class="el" href="classPhQ_1_1PlanarHeatFlux.html">PlanarHeatFlux</a> </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1ScalarHeatFlux.html">ScalarHeatFlux</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1ScalarHeatFlux.html">ScalarHeatFlux</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramname"><em>y</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Constructor. Constructs a planar heat flux vector from a given set of scalar heat flux components. </p>
+
+<p class="definition">Definition at line <a class="el" href="PlanarHeatFlux_8hpp_source.html#l00063">63</a> of file <a class="el" href="PlanarHeatFlux_8hpp_source.html">PlanarHeatFlux.hpp</a>.</p>
+
+<p class="reference">References <a class="el" href="PlanarHeatFlux_8hpp_source.html#l00153">PhQ::PlanarHeatFlux&lt; Number &gt;::x()</a>, and <a class="el" href="PlanarHeatFlux_8hpp_source.html#l00158">PhQ::PlanarHeatFlux&lt; Number &gt;::y()</a>.</p>
+
+</div>
+</div>
 <a id="a94d1153215d096508b19dacb369ea131"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a94d1153215d096508b19dacb369ea131">&#9670;&nbsp;</a></span>PlanarHeatFlux() <span class="overload">[3/10]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a94d1153215d096508b19dacb369ea131">&#9670;&nbsp;</a></span>PlanarHeatFlux() <span class="overload">[4/11]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -385,12 +432,12 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Constructor. Constructs a planar heat flux vector from a given scalar heat flux magnitude and planar direction. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarHeatFlux_8hpp_source.html#l00063">63</a> of file <a class="el" href="PlanarHeatFlux_8hpp_source.html">PlanarHeatFlux.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarHeatFlux_8hpp_source.html#l00068">68</a> of file <a class="el" href="PlanarHeatFlux_8hpp_source.html">PlanarHeatFlux.hpp</a>.</p>
 
 </div>
 </div>
 <a id="ad6394a741ecfe693fdf6be33ec0cf9aa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad6394a741ecfe693fdf6be33ec0cf9aa">&#9670;&nbsp;</a></span>PlanarHeatFlux() <span class="overload">[4/10]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ad6394a741ecfe693fdf6be33ec0cf9aa">&#9670;&nbsp;</a></span>PlanarHeatFlux() <span class="overload">[5/11]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -417,14 +464,14 @@ template&lt;typename Number &gt; </div>
 
 <p>Constructor. Constructs a planar heat flux vector from a given heat flux vector by projecting the heat flux vector onto the XY plane. </p>
 
-<p class="definition">Definition at line <a class="el" href="HeatFlux_8hpp_source.html#l00284">284</a> of file <a class="el" href="HeatFlux_8hpp_source.html">HeatFlux.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="HeatFlux_8hpp_source.html#l00290">290</a> of file <a class="el" href="HeatFlux_8hpp_source.html">HeatFlux.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00060">PhQ::DimensionalVector&lt; UnitType, Number &gt;::Value()</a>.</p>
 
 </div>
 </div>
 <a id="a606f7c19090ec86b3fd48e1270be1414"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a606f7c19090ec86b3fd48e1270be1414">&#9670;&nbsp;</a></span>PlanarHeatFlux() <span class="overload">[5/10]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a606f7c19090ec86b3fd48e1270be1414">&#9670;&nbsp;</a></span>PlanarHeatFlux() <span class="overload">[6/11]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -461,12 +508,12 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Constructor. Constructs a planar heat flux vector from a given scalar thermal conductivity and planar temperature gradient vector using Fourier's law of heat conduction. Since heat flows opposite the temperature gradient, the resulting heat flux direction is opposite the temperature gradient direction. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarHeatFlux_8hpp_source.html#l00075">75</a> of file <a class="el" href="PlanarHeatFlux_8hpp_source.html">PlanarHeatFlux.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarHeatFlux_8hpp_source.html#l00080">80</a> of file <a class="el" href="PlanarHeatFlux_8hpp_source.html">PlanarHeatFlux.hpp</a>.</p>
 
 </div>
 </div>
 <a id="aba126191f7e93d1925b6a181a9b3c886"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aba126191f7e93d1925b6a181a9b3c886">&#9670;&nbsp;</a></span>PlanarHeatFlux() <span class="overload">[6/10]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aba126191f7e93d1925b6a181a9b3c886">&#9670;&nbsp;</a></span>PlanarHeatFlux() <span class="overload">[7/11]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -503,7 +550,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Constructor. Constructs a planar heat flux vector from a given thermal conductivity tensor and planar temperature gradient vector using Fourier's law of heat conduction. Since heat flows opposite the temperature gradient, the resulting heat flux direction is opposite the temperature gradient direction. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarHeatFlux_8hpp_source.html#l00084">84</a> of file <a class="el" href="PlanarHeatFlux_8hpp_source.html">PlanarHeatFlux.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarHeatFlux_8hpp_source.html#l00089">89</a> of file <a class="el" href="PlanarHeatFlux_8hpp_source.html">PlanarHeatFlux.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00060">PhQ::DimensionalPlanarVector&lt; UnitType, Number &gt;::Value()</a>, and <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00060">PhQ::DimensionalSymmetricDyad&lt; UnitType, Number &gt;::Value()</a>.</p>
 
@@ -539,7 +586,7 @@ template&lt;typename Number  = double&gt; </div>
 </div>
 </div>
 <a id="af2dbff14047836b089e655079d0f697c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af2dbff14047836b089e655079d0f697c">&#9670;&nbsp;</a></span>PlanarHeatFlux() <span class="overload">[7/10]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#af2dbff14047836b089e655079d0f697c">&#9670;&nbsp;</a></span>PlanarHeatFlux() <span class="overload">[8/11]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -569,7 +616,7 @@ template&lt;typename Number  = double&gt; </div>
 </div>
 </div>
 <a id="aaf80b6643d5766e03a8b242a84a0564c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaf80b6643d5766e03a8b242a84a0564c">&#9670;&nbsp;</a></span>PlanarHeatFlux() <span class="overload">[8/10]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf80b6643d5766e03a8b242a84a0564c">&#9670;&nbsp;</a></span>PlanarHeatFlux() <span class="overload">[9/11]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -598,12 +645,12 @@ template&lt;typename OtherNumber &gt; </div>
 
 <p>Copy constructor. Constructs a planar heat flux vector by copying another one. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarHeatFlux_8hpp_source.html#l00097">97</a> of file <a class="el" href="PlanarHeatFlux_8hpp_source.html">PlanarHeatFlux.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarHeatFlux_8hpp_source.html#l00102">102</a> of file <a class="el" href="PlanarHeatFlux_8hpp_source.html">PlanarHeatFlux.hpp</a>.</p>
 
 </div>
 </div>
 <a id="a98aac0a3cb9524e424f627f41288aacc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a98aac0a3cb9524e424f627f41288aacc">&#9670;&nbsp;</a></span>PlanarHeatFlux() <span class="overload">[9/10]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a98aac0a3cb9524e424f627f41288aacc">&#9670;&nbsp;</a></span>PlanarHeatFlux() <span class="overload">[10/11]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -633,7 +680,7 @@ template&lt;typename Number  = double&gt; </div>
 </div>
 </div>
 <a id="ab02720b21133e4ec73570e66a3ba3025"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab02720b21133e4ec73570e66a3ba3025">&#9670;&nbsp;</a></span>PlanarHeatFlux() <span class="overload">[10/10]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ab02720b21133e4ec73570e66a3ba3025">&#9670;&nbsp;</a></span>PlanarHeatFlux() <span class="overload">[11/11]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -660,7 +707,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Constructor. Constructs a planar heat flux vector with a given value expressed in the standard energy flux unit. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarHeatFlux_8hpp_source.html#l00207">207</a> of file <a class="el" href="PlanarHeatFlux_8hpp_source.html">PlanarHeatFlux.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarHeatFlux_8hpp_source.html#l00212">212</a> of file <a class="el" href="PlanarHeatFlux_8hpp_source.html">PlanarHeatFlux.hpp</a>.</p>
 
 </div>
 </div>
@@ -693,7 +740,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the angle between this planar heat flux vector and another one. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarHeatFlux_8hpp_source.html#l00168">168</a> of file <a class="el" href="PlanarHeatFlux_8hpp_source.html">PlanarHeatFlux.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarHeatFlux_8hpp_source.html#l00173">173</a> of file <a class="el" href="PlanarHeatFlux_8hpp_source.html">PlanarHeatFlux.hpp</a>.</p>
 
 </div>
 </div>
@@ -737,9 +784,9 @@ template&lt;Unit::EnergyFlux Unit&gt; </div>
 
 <p>Statically creates a planar heat flux vector from the given x and y Cartesian components expressed in a given energy flux unit. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarHeatFlux_8hpp_source.html#l00124">124</a> of file <a class="el" href="PlanarHeatFlux_8hpp_source.html">PlanarHeatFlux.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarHeatFlux_8hpp_source.html#l00129">129</a> of file <a class="el" href="PlanarHeatFlux_8hpp_source.html">PlanarHeatFlux.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="PlanarHeatFlux_8hpp_source.html#l00148">PhQ::PlanarHeatFlux&lt; Number &gt;::x()</a>, and <a class="el" href="PlanarHeatFlux_8hpp_source.html#l00153">PhQ::PlanarHeatFlux&lt; Number &gt;::y()</a>.</p>
+<p class="reference">References <a class="el" href="PlanarHeatFlux_8hpp_source.html#l00153">PhQ::PlanarHeatFlux&lt; Number &gt;::x()</a>, and <a class="el" href="PlanarHeatFlux_8hpp_source.html#l00158">PhQ::PlanarHeatFlux&lt; Number &gt;::y()</a>.</p>
 
 </div>
 </div>
@@ -773,7 +820,7 @@ template&lt;Unit::EnergyFlux Unit&gt; </div>
 
 <p>Statically creates a planar heat flux vector with a given value expressed in a given energy flux unit. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarHeatFlux_8hpp_source.html#l00142">142</a> of file <a class="el" href="PlanarHeatFlux_8hpp_source.html">PlanarHeatFlux.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarHeatFlux_8hpp_source.html#l00147">147</a> of file <a class="el" href="PlanarHeatFlux_8hpp_source.html">PlanarHeatFlux.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00219">PhQ::DimensionalPlanarVector&lt; Unit::EnergyFlux, double &gt;::value</a>.</p>
 
@@ -809,7 +856,7 @@ template&lt;Unit::EnergyFlux Unit&gt; </div>
 
 <p>Statically creates a planar heat flux vector from the given x and y Cartesian components expressed in a given energy flux unit. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarHeatFlux_8hpp_source.html#l00133">133</a> of file <a class="el" href="PlanarHeatFlux_8hpp_source.html">PlanarHeatFlux.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarHeatFlux_8hpp_source.html#l00138">138</a> of file <a class="el" href="PlanarHeatFlux_8hpp_source.html">PlanarHeatFlux.hpp</a>.</p>
 
 </div>
 </div>
@@ -928,7 +975,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the magnitude of this planar heat flux vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarHeatFlux_8hpp_source.html#l00158">158</a> of file <a class="el" href="PlanarHeatFlux_8hpp_source.html">PlanarHeatFlux.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarHeatFlux_8hpp_source.html#l00163">163</a> of file <a class="el" href="PlanarHeatFlux_8hpp_source.html">PlanarHeatFlux.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="PlanarVector_8hpp_source.html#l00196">PhQ::PlanarVector&lt; Number &gt;::Magnitude()</a>, and <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00219">PhQ::DimensionalPlanarVector&lt; Unit::EnergyFlux, double &gt;::value</a>.</p>
 
@@ -989,7 +1036,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="PlanarHeatFlux_8hpp_source.html#l00180">180</a> of file <a class="el" href="PlanarHeatFlux_8hpp_source.html">PlanarHeatFlux.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarHeatFlux_8hpp_source.html#l00185">185</a> of file <a class="el" href="PlanarHeatFlux_8hpp_source.html">PlanarHeatFlux.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00219">PhQ::DimensionalPlanarVector&lt; Unit::EnergyFlux, double &gt;::value</a>.</p>
 
@@ -1021,7 +1068,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="PlanarHeatFlux_8hpp_source.html#l00196">196</a> of file <a class="el" href="PlanarHeatFlux_8hpp_source.html">PlanarHeatFlux.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarHeatFlux_8hpp_source.html#l00201">201</a> of file <a class="el" href="PlanarHeatFlux_8hpp_source.html">PlanarHeatFlux.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00219">PhQ::DimensionalPlanarVector&lt; Unit::EnergyFlux, double &gt;::value</a>.</p>
 
@@ -1053,7 +1100,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="PlanarHeatFlux_8hpp_source.html#l00172">172</a> of file <a class="el" href="PlanarHeatFlux_8hpp_source.html">PlanarHeatFlux.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarHeatFlux_8hpp_source.html#l00177">177</a> of file <a class="el" href="PlanarHeatFlux_8hpp_source.html">PlanarHeatFlux.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00219">PhQ::DimensionalPlanarVector&lt; UnitType, Number &gt;::value</a>, and <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00219">PhQ::DimensionalPlanarVector&lt; Unit::EnergyFlux, double &gt;::value</a>.</p>
 
@@ -1085,7 +1132,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="PlanarHeatFlux_8hpp_source.html#l00188">188</a> of file <a class="el" href="PlanarHeatFlux_8hpp_source.html">PlanarHeatFlux.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarHeatFlux_8hpp_source.html#l00193">193</a> of file <a class="el" href="PlanarHeatFlux_8hpp_source.html">PlanarHeatFlux.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00219">PhQ::DimensionalPlanarVector&lt; Unit::EnergyFlux, double &gt;::value</a>.</p>
 
@@ -1117,7 +1164,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="PlanarHeatFlux_8hpp_source.html#l00176">176</a> of file <a class="el" href="PlanarHeatFlux_8hpp_source.html">PlanarHeatFlux.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarHeatFlux_8hpp_source.html#l00181">181</a> of file <a class="el" href="PlanarHeatFlux_8hpp_source.html">PlanarHeatFlux.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00219">PhQ::DimensionalPlanarVector&lt; UnitType, Number &gt;::value</a>, and <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00219">PhQ::DimensionalPlanarVector&lt; Unit::EnergyFlux, double &gt;::value</a>.</p>
 
@@ -1149,7 +1196,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="PlanarHeatFlux_8hpp_source.html#l00192">192</a> of file <a class="el" href="PlanarHeatFlux_8hpp_source.html">PlanarHeatFlux.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarHeatFlux_8hpp_source.html#l00197">197</a> of file <a class="el" href="PlanarHeatFlux_8hpp_source.html">PlanarHeatFlux.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00219">PhQ::DimensionalPlanarVector&lt; Unit::EnergyFlux, double &gt;::value</a>.</p>
 
@@ -1181,7 +1228,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="PlanarHeatFlux_8hpp_source.html#l00184">184</a> of file <a class="el" href="PlanarHeatFlux_8hpp_source.html">PlanarHeatFlux.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarHeatFlux_8hpp_source.html#l00189">189</a> of file <a class="el" href="PlanarHeatFlux_8hpp_source.html">PlanarHeatFlux.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00219">PhQ::DimensionalPlanarVector&lt; Unit::EnergyFlux, double &gt;::value</a>.</p>
 
@@ -1213,7 +1260,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="PlanarHeatFlux_8hpp_source.html#l00200">200</a> of file <a class="el" href="PlanarHeatFlux_8hpp_source.html">PlanarHeatFlux.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarHeatFlux_8hpp_source.html#l00205">205</a> of file <a class="el" href="PlanarHeatFlux_8hpp_source.html">PlanarHeatFlux.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00219">PhQ::DimensionalPlanarVector&lt; Unit::EnergyFlux, double &gt;::value</a>.</p>
 
@@ -1279,7 +1326,7 @@ template&lt;typename OtherNumber &gt; </div>
 
 <p>Copy assignment operator. Assigns this planar heat flux vector by copying another one. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarHeatFlux_8hpp_source.html#l00108">108</a> of file <a class="el" href="PlanarHeatFlux_8hpp_source.html">PlanarHeatFlux.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarHeatFlux_8hpp_source.html#l00113">113</a> of file <a class="el" href="PlanarHeatFlux_8hpp_source.html">PlanarHeatFlux.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00060">PhQ::DimensionalPlanarVector&lt; UnitType, Number &gt;::Value()</a>, and <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00219">PhQ::DimensionalPlanarVector&lt; Unit::EnergyFlux, double &gt;::value</a>.</p>
 
@@ -1342,7 +1389,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the direction of this planar heat flux vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarHeatFlux_8hpp_source.html#l00163">163</a> of file <a class="el" href="PlanarHeatFlux_8hpp_source.html">PlanarHeatFlux.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarHeatFlux_8hpp_source.html#l00168">168</a> of file <a class="el" href="PlanarHeatFlux_8hpp_source.html">PlanarHeatFlux.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="PlanarDirection_8hpp_source.html#l00377">PhQ::PlanarVector&lt; Number &gt;::PlanarDirection()</a>, and <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00219">PhQ::DimensionalPlanarVector&lt; Unit::EnergyFlux, double &gt;::value</a>.</p>
 
@@ -1581,11 +1628,11 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the x Cartesian component of this planar heat flux vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarHeatFlux_8hpp_source.html#l00148">148</a> of file <a class="el" href="PlanarHeatFlux_8hpp_source.html">PlanarHeatFlux.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarHeatFlux_8hpp_source.html#l00153">153</a> of file <a class="el" href="PlanarHeatFlux_8hpp_source.html">PlanarHeatFlux.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00219">PhQ::DimensionalPlanarVector&lt; Unit::EnergyFlux, double &gt;::value</a>, and <a class="el" href="PlanarVector_8hpp_source.html#l00141">PhQ::PlanarVector&lt; Number &gt;::x()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="PlanarHeatFlux_8hpp_source.html#l00124">PhQ::PlanarHeatFlux&lt; Number &gt;::Create()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="PlanarHeatFlux_8hpp_source.html#l00129">PhQ::PlanarHeatFlux&lt; Number &gt;::Create()</a>, and <a class="el" href="PlanarHeatFlux_8hpp_source.html#l00063">PhQ::PlanarHeatFlux&lt; Number &gt;::PlanarHeatFlux()</a>.</p>
 
 </div>
 </div>
@@ -1675,11 +1722,11 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the y Cartesian component of this planar heat flux vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarHeatFlux_8hpp_source.html#l00153">153</a> of file <a class="el" href="PlanarHeatFlux_8hpp_source.html">PlanarHeatFlux.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarHeatFlux_8hpp_source.html#l00158">158</a> of file <a class="el" href="PlanarHeatFlux_8hpp_source.html">PlanarHeatFlux.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00219">PhQ::DimensionalPlanarVector&lt; Unit::EnergyFlux, double &gt;::value</a>, and <a class="el" href="PlanarVector_8hpp_source.html#l00146">PhQ::PlanarVector&lt; Number &gt;::y()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="PlanarHeatFlux_8hpp_source.html#l00124">PhQ::PlanarHeatFlux&lt; Number &gt;::Create()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="PlanarHeatFlux_8hpp_source.html#l00129">PhQ::PlanarHeatFlux&lt; Number &gt;::Create()</a>, and <a class="el" href="PlanarHeatFlux_8hpp_source.html#l00063">PhQ::PlanarHeatFlux&lt; Number &gt;::PlanarHeatFlux()</a>.</p>
 
 </div>
 </div>
@@ -1769,7 +1816,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Statically creates a planar heat flux vector of zero. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarHeatFlux_8hpp_source.html#l00117">117</a> of file <a class="el" href="PlanarHeatFlux_8hpp_source.html">PlanarHeatFlux.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarHeatFlux_8hpp_source.html#l00122">122</a> of file <a class="el" href="PlanarHeatFlux_8hpp_source.html">PlanarHeatFlux.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="PlanarVector_8hpp_source.html#l00129">PhQ::PlanarVector&lt; Number &gt;::Zero()</a>.</p>
 
