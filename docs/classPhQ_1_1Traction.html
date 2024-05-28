@@ -126,6 +126,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:adb1e5a4415d04256e1a4c6d53c344f1f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Traction.html#adb1e5a4415d04256e1a4c6d53c344f1f">Traction</a> (const <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt; Number &gt; &amp;<a class="el" href="classPhQ_1_1DimensionalVector.html#a78b67be16ddde9f38cc2b7a5c723b5cc">value</a>, const <a class="el" href="namespacePhQ_1_1Unit.html#abcbda7b992e98486ca609a164ae78a24">Unit::Pressure</a> unit)</td></tr>
 <tr class="memdesc:adb1e5a4415d04256e1a4c6d53c344f1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a traction vector with a given value expressed in a given pressure unit.  <a href="classPhQ_1_1Traction.html#adb1e5a4415d04256e1a4c6d53c344f1f">More...</a><br /></td></tr>
 <tr class="separator:adb1e5a4415d04256e1a4c6d53c344f1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b294b85cfa83b8ccf1a03cc434f96ba"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Traction.html#a6b294b85cfa83b8ccf1a03cc434f96ba">Traction</a> (const <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt; Number &gt; &amp;<a class="el" href="classPhQ_1_1Traction.html#aaeb17a330597d8409d316a3b4e46c183">x</a>, const <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt; Number &gt; &amp;<a class="el" href="classPhQ_1_1Traction.html#a7b1031831ee49b9ebb0352fd6fa8fe80">y</a>, const <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt; Number &gt; &amp;<a class="el" href="classPhQ_1_1Traction.html#a0c4093d9c825181d4f6a2b37c7e32c6e">z</a>)</td></tr>
+<tr class="memdesc:a6b294b85cfa83b8ccf1a03cc434f96ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a traction vector from a given set of scalar traction components.  <a href="classPhQ_1_1Traction.html#a6b294b85cfa83b8ccf1a03cc434f96ba">More...</a><br /></td></tr>
+<tr class="separator:a6b294b85cfa83b8ccf1a03cc434f96ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad9d116c1c4a5c70e5baa7d7f207e20f8"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Traction.html#ad9d116c1c4a5c70e5baa7d7f207e20f8">Traction</a> (const <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt; Number &gt; &amp;scalar_traction, const <a class="el" href="classPhQ_1_1Direction.html">Direction</a>&lt; Number &gt; &amp;direction)</td></tr>
 <tr class="memdesc:ad9d116c1c4a5c70e5baa7d7f207e20f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a traction vector from a given scalar traction and direction.  <a href="classPhQ_1_1Traction.html#ad9d116c1c4a5c70e5baa7d7f207e20f8">More...</a><br /></td></tr>
 <tr class="separator:ad9d116c1c4a5c70e5baa7d7f207e20f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -282,7 +285,7 @@ class PhQ::Traction&lt; Number &gt;</h3>
 <p class="definition">Definition at line <a class="el" href="Traction_8hpp_source.html#l00056">56</a> of file <a class="el" href="Traction_8hpp_source.html">Traction.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aaaa59615b4d068e3b9e17cdf53b320c0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaaa59615b4d068e3b9e17cdf53b320c0">&#9670;&nbsp;</a></span>Traction() <span class="overload">[1/10]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aaaa59615b4d068e3b9e17cdf53b320c0">&#9670;&nbsp;</a></span>Traction() <span class="overload">[1/11]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -311,7 +314,7 @@ template&lt;typename Number  = double&gt; </div>
 </div>
 </div>
 <a id="adb1e5a4415d04256e1a4c6d53c344f1f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adb1e5a4415d04256e1a4c6d53c344f1f">&#9670;&nbsp;</a></span>Traction() <span class="overload">[2/10]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#adb1e5a4415d04256e1a4c6d53c344f1f">&#9670;&nbsp;</a></span>Traction() <span class="overload">[2/11]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -352,8 +355,58 @@ template&lt;typename Number  = double&gt; </div>
 
 </div>
 </div>
+<a id="a6b294b85cfa83b8ccf1a03cc434f96ba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6b294b85cfa83b8ccf1a03cc434f96ba">&#9670;&nbsp;</a></span>Traction() <span class="overload">[3/11]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Number  = double&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classPhQ_1_1Traction.html">PhQ::Traction</a>&lt; Number &gt;::<a class="el" href="classPhQ_1_1Traction.html">Traction</a> </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramname"><em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramname"><em>z</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Constructor. Constructs a traction vector from a given set of scalar traction components. </p>
+
+<p class="definition">Definition at line <a class="el" href="Traction_8hpp_source.html#l00068">68</a> of file <a class="el" href="Traction_8hpp_source.html">Traction.hpp</a>.</p>
+
+<p class="reference">References <a class="el" href="Traction_8hpp_source.html#l00148">PhQ::Traction&lt; Number &gt;::x()</a>, <a class="el" href="Traction_8hpp_source.html#l00153">PhQ::Traction&lt; Number &gt;::y()</a>, and <a class="el" href="Traction_8hpp_source.html#l00158">PhQ::Traction&lt; Number &gt;::z()</a>.</p>
+
+</div>
+</div>
 <a id="ad9d116c1c4a5c70e5baa7d7f207e20f8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad9d116c1c4a5c70e5baa7d7f207e20f8">&#9670;&nbsp;</a></span>Traction() <span class="overload">[3/10]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ad9d116c1c4a5c70e5baa7d7f207e20f8">&#9670;&nbsp;</a></span>Traction() <span class="overload">[4/11]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -390,12 +443,12 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Constructor. Constructs a traction vector from a given scalar traction and direction. </p>
 
-<p class="definition">Definition at line <a class="el" href="Traction_8hpp_source.html#l00067">67</a> of file <a class="el" href="Traction_8hpp_source.html">Traction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Traction_8hpp_source.html#l00073">73</a> of file <a class="el" href="Traction_8hpp_source.html">Traction.hpp</a>.</p>
 
 </div>
 </div>
 <a id="a3267e9b780e1b4d9d10638ffcb73cc6d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3267e9b780e1b4d9d10638ffcb73cc6d">&#9670;&nbsp;</a></span>Traction() <span class="overload">[4/10]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a3267e9b780e1b4d9d10638ffcb73cc6d">&#9670;&nbsp;</a></span>Traction() <span class="overload">[5/11]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -422,14 +475,14 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Constructor. Constructs a traction vector from a given planar traction vector in the XY plane. This traction vector's z-component is initialized to zero. </p>
 
-<p class="definition">Definition at line <a class="el" href="Traction_8hpp_source.html#l00073">73</a> of file <a class="el" href="Traction_8hpp_source.html">Traction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Traction_8hpp_source.html#l00079">79</a> of file <a class="el" href="Traction_8hpp_source.html">Traction.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00060">PhQ::DimensionalPlanarVector&lt; UnitType, Number &gt;::Value()</a>.</p>
 
 </div>
 </div>
 <a id="af62e52058cb97535ec6d7b868728145c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af62e52058cb97535ec6d7b868728145c">&#9670;&nbsp;</a></span>Traction() <span class="overload">[5/10]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#af62e52058cb97535ec6d7b868728145c">&#9670;&nbsp;</a></span>Traction() <span class="overload">[6/11]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -466,12 +519,12 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Constructor. Constructs a traction vector from a given force and area using the definition of traction. </p>
 
-<p class="definition">Definition at line <a class="el" href="Traction_8hpp_source.html#l00078">78</a> of file <a class="el" href="Traction_8hpp_source.html">Traction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Traction_8hpp_source.html#l00084">84</a> of file <a class="el" href="Traction_8hpp_source.html">Traction.hpp</a>.</p>
 
 </div>
 </div>
 <a id="a2b331aea3a3ec51b21be06bc23d2a3bf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2b331aea3a3ec51b21be06bc23d2a3bf">&#9670;&nbsp;</a></span>Traction() <span class="overload">[6/10]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b331aea3a3ec51b21be06bc23d2a3bf">&#9670;&nbsp;</a></span>Traction() <span class="overload">[7/11]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -508,7 +561,7 @@ template&lt;typename Number &gt; </div>
 
 <p>Constructor. Constructs a traction vector from a given stress and direction using the definition of traction. </p>
 
-<p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00284">284</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00290">290</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00060">PhQ::DimensionalSymmetricDyad&lt; UnitType, Number &gt;::Value()</a>.</p>
 
@@ -544,7 +597,7 @@ template&lt;typename Number  = double&gt; </div>
 </div>
 </div>
 <a id="acf425abf7b8e6eb8b342f2b210f65433"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acf425abf7b8e6eb8b342f2b210f65433">&#9670;&nbsp;</a></span>Traction() <span class="overload">[7/10]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#acf425abf7b8e6eb8b342f2b210f65433">&#9670;&nbsp;</a></span>Traction() <span class="overload">[8/11]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -574,7 +627,7 @@ template&lt;typename Number  = double&gt; </div>
 </div>
 </div>
 <a id="a4e41607d15216e0a65744dd3f4eda6a5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4e41607d15216e0a65744dd3f4eda6a5">&#9670;&nbsp;</a></span>Traction() <span class="overload">[8/10]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e41607d15216e0a65744dd3f4eda6a5">&#9670;&nbsp;</a></span>Traction() <span class="overload">[9/11]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -603,12 +656,12 @@ template&lt;typename OtherNumber &gt; </div>
 
 <p>Copy constructor. Constructs a traction vector by copying another one. </p>
 
-<p class="definition">Definition at line <a class="el" href="Traction_8hpp_source.html#l00093">93</a> of file <a class="el" href="Traction_8hpp_source.html">Traction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Traction_8hpp_source.html#l00099">99</a> of file <a class="el" href="Traction_8hpp_source.html">Traction.hpp</a>.</p>
 
 </div>
 </div>
 <a id="a12ffb137aada0d955116ad9f9e65f627"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a12ffb137aada0d955116ad9f9e65f627">&#9670;&nbsp;</a></span>Traction() <span class="overload">[9/10]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a12ffb137aada0d955116ad9f9e65f627">&#9670;&nbsp;</a></span>Traction() <span class="overload">[10/11]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -638,7 +691,7 @@ template&lt;typename Number  = double&gt; </div>
 </div>
 </div>
 <a id="accf82abe5a40074bede6895029161eef"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#accf82abe5a40074bede6895029161eef">&#9670;&nbsp;</a></span>Traction() <span class="overload">[10/10]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#accf82abe5a40074bede6895029161eef">&#9670;&nbsp;</a></span>Traction() <span class="overload">[11/11]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -665,7 +718,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Constructor. Constructs a traction vector with a given value expressed in the standard pressure unit. </p>
 
-<p class="definition">Definition at line <a class="el" href="Traction_8hpp_source.html#l00210">210</a> of file <a class="el" href="Traction_8hpp_source.html">Traction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Traction_8hpp_source.html#l00216">216</a> of file <a class="el" href="Traction_8hpp_source.html">Traction.hpp</a>.</p>
 
 </div>
 </div>
@@ -698,7 +751,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the angle between this traction vector and another one. </p>
 
-<p class="definition">Definition at line <a class="el" href="Traction_8hpp_source.html#l00167">167</a> of file <a class="el" href="Traction_8hpp_source.html">Traction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Traction_8hpp_source.html#l00173">173</a> of file <a class="el" href="Traction_8hpp_source.html">Traction.hpp</a>.</p>
 
 </div>
 </div>
@@ -748,9 +801,9 @@ template&lt;Unit::Pressure Unit&gt; </div>
 
 <p>Statically creates a traction vector from the given x, y, and z Cartesian components expressed in a given pressure unit. </p>
 
-<p class="definition">Definition at line <a class="el" href="Traction_8hpp_source.html#l00120">120</a> of file <a class="el" href="Traction_8hpp_source.html">Traction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Traction_8hpp_source.html#l00126">126</a> of file <a class="el" href="Traction_8hpp_source.html">Traction.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Traction_8hpp_source.html#l00142">PhQ::Traction&lt; Number &gt;::x()</a>, <a class="el" href="Traction_8hpp_source.html#l00147">PhQ::Traction&lt; Number &gt;::y()</a>, and <a class="el" href="Traction_8hpp_source.html#l00152">PhQ::Traction&lt; Number &gt;::z()</a>.</p>
+<p class="reference">References <a class="el" href="Traction_8hpp_source.html#l00148">PhQ::Traction&lt; Number &gt;::x()</a>, <a class="el" href="Traction_8hpp_source.html#l00153">PhQ::Traction&lt; Number &gt;::y()</a>, and <a class="el" href="Traction_8hpp_source.html#l00158">PhQ::Traction&lt; Number &gt;::z()</a>.</p>
 
 </div>
 </div>
@@ -784,7 +837,7 @@ template&lt;Unit::Pressure Unit&gt; </div>
 
 <p>Statically creates a traction vector from the given x, y, and z Cartesian components expressed in a given pressure unit. </p>
 
-<p class="definition">Definition at line <a class="el" href="Traction_8hpp_source.html#l00128">128</a> of file <a class="el" href="Traction_8hpp_source.html">Traction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Traction_8hpp_source.html#l00134">134</a> of file <a class="el" href="Traction_8hpp_source.html">Traction.hpp</a>.</p>
 
 </div>
 </div>
@@ -818,7 +871,7 @@ template&lt;Unit::Pressure Unit&gt; </div>
 
 <p>Statically creates a traction vector with a given value expressed in a given pressure unit. </p>
 
-<p class="definition">Definition at line <a class="el" href="Traction_8hpp_source.html#l00136">136</a> of file <a class="el" href="Traction_8hpp_source.html">Traction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Traction_8hpp_source.html#l00142">142</a> of file <a class="el" href="Traction_8hpp_source.html">Traction.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Pressure, double &gt;::value</a>.</p>
 
@@ -880,7 +933,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the direction of this traction vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="Traction_8hpp_source.html#l00162">162</a> of file <a class="el" href="Traction_8hpp_source.html">Traction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Traction_8hpp_source.html#l00168">168</a> of file <a class="el" href="Traction_8hpp_source.html">Traction.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="Direction_8hpp_source.html#l00374">PhQ::Vector&lt; Number &gt;::Direction()</a>, and <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Pressure, double &gt;::value</a>.</p>
 
@@ -972,7 +1025,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the magnitude of this traction vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="Traction_8hpp_source.html#l00157">157</a> of file <a class="el" href="Traction_8hpp_source.html">Traction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Traction_8hpp_source.html#l00163">163</a> of file <a class="el" href="Traction_8hpp_source.html">Traction.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00208">PhQ::Vector&lt; Number &gt;::Magnitude()</a>, and <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Pressure, double &gt;::value</a>.</p>
 
@@ -1033,7 +1086,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Traction_8hpp_source.html#l00183">183</a> of file <a class="el" href="Traction_8hpp_source.html">Traction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Traction_8hpp_source.html#l00189">189</a> of file <a class="el" href="Traction_8hpp_source.html">Traction.hpp</a>.</p>
 
 </div>
 </div>
@@ -1063,7 +1116,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Traction_8hpp_source.html#l00179">179</a> of file <a class="el" href="Traction_8hpp_source.html">Traction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Traction_8hpp_source.html#l00185">185</a> of file <a class="el" href="Traction_8hpp_source.html">Traction.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Pressure, double &gt;::value</a>.</p>
 
@@ -1095,7 +1148,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Traction_8hpp_source.html#l00199">199</a> of file <a class="el" href="Traction_8hpp_source.html">Traction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Traction_8hpp_source.html#l00205">205</a> of file <a class="el" href="Traction_8hpp_source.html">Traction.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Pressure, double &gt;::value</a>.</p>
 
@@ -1127,7 +1180,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Traction_8hpp_source.html#l00171">171</a> of file <a class="el" href="Traction_8hpp_source.html">Traction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Traction_8hpp_source.html#l00177">177</a> of file <a class="el" href="Traction_8hpp_source.html">Traction.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; UnitType, Number &gt;::value</a>, and <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Pressure, double &gt;::value</a>.</p>
 
@@ -1159,7 +1212,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Traction_8hpp_source.html#l00191">191</a> of file <a class="el" href="Traction_8hpp_source.html">Traction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Traction_8hpp_source.html#l00197">197</a> of file <a class="el" href="Traction_8hpp_source.html">Traction.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Pressure, double &gt;::value</a>.</p>
 
@@ -1191,7 +1244,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Traction_8hpp_source.html#l00175">175</a> of file <a class="el" href="Traction_8hpp_source.html">Traction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Traction_8hpp_source.html#l00181">181</a> of file <a class="el" href="Traction_8hpp_source.html">Traction.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; UnitType, Number &gt;::value</a>, and <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Pressure, double &gt;::value</a>.</p>
 
@@ -1223,7 +1276,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Traction_8hpp_source.html#l00195">195</a> of file <a class="el" href="Traction_8hpp_source.html">Traction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Traction_8hpp_source.html#l00201">201</a> of file <a class="el" href="Traction_8hpp_source.html">Traction.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Pressure, double &gt;::value</a>.</p>
 
@@ -1255,7 +1308,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Traction_8hpp_source.html#l00187">187</a> of file <a class="el" href="Traction_8hpp_source.html">Traction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Traction_8hpp_source.html#l00193">193</a> of file <a class="el" href="Traction_8hpp_source.html">Traction.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Pressure, double &gt;::value</a>.</p>
 
@@ -1287,7 +1340,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Traction_8hpp_source.html#l00203">203</a> of file <a class="el" href="Traction_8hpp_source.html">Traction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Traction_8hpp_source.html#l00209">209</a> of file <a class="el" href="Traction_8hpp_source.html">Traction.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Pressure, double &gt;::value</a>.</p>
 
@@ -1353,7 +1406,7 @@ template&lt;typename OtherNumber &gt; </div>
 
 <p>Copy assignment operator. Assigns this traction vector by copying another one. </p>
 
-<p class="definition">Definition at line <a class="el" href="Traction_8hpp_source.html#l00104">104</a> of file <a class="el" href="Traction_8hpp_source.html">Traction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Traction_8hpp_source.html#l00110">110</a> of file <a class="el" href="Traction_8hpp_source.html">Traction.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00060">PhQ::DimensionalVector&lt; UnitType, Number &gt;::Value()</a>, and <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Pressure, double &gt;::value</a>.</p>
 
@@ -1622,11 +1675,11 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the x Cartesian component of this traction vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="Traction_8hpp_source.html#l00142">142</a> of file <a class="el" href="Traction_8hpp_source.html">Traction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Traction_8hpp_source.html#l00148">148</a> of file <a class="el" href="Traction_8hpp_source.html">Traction.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Pressure, double &gt;::value</a>, and <a class="el" href="Vector_8hpp_source.html#l00138">PhQ::Vector&lt; Number &gt;::x()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="Traction_8hpp_source.html#l00120">PhQ::Traction&lt; Number &gt;::Create()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="Traction_8hpp_source.html#l00126">PhQ::Traction&lt; Number &gt;::Create()</a>, and <a class="el" href="Traction_8hpp_source.html#l00068">PhQ::Traction&lt; Number &gt;::Traction()</a>.</p>
 
 </div>
 </div>
@@ -1716,11 +1769,11 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the y Cartesian component of this traction vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="Traction_8hpp_source.html#l00147">147</a> of file <a class="el" href="Traction_8hpp_source.html">Traction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Traction_8hpp_source.html#l00153">153</a> of file <a class="el" href="Traction_8hpp_source.html">Traction.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Pressure, double &gt;::value</a>, and <a class="el" href="Vector_8hpp_source.html#l00143">PhQ::Vector&lt; Number &gt;::y()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="Traction_8hpp_source.html#l00120">PhQ::Traction&lt; Number &gt;::Create()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="Traction_8hpp_source.html#l00126">PhQ::Traction&lt; Number &gt;::Create()</a>, and <a class="el" href="Traction_8hpp_source.html#l00068">PhQ::Traction&lt; Number &gt;::Traction()</a>.</p>
 
 </div>
 </div>
@@ -1810,11 +1863,11 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the z Cartesian component of this traction vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="Traction_8hpp_source.html#l00152">152</a> of file <a class="el" href="Traction_8hpp_source.html">Traction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Traction_8hpp_source.html#l00158">158</a> of file <a class="el" href="Traction_8hpp_source.html">Traction.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Pressure, double &gt;::value</a>, and <a class="el" href="Vector_8hpp_source.html#l00148">PhQ::Vector&lt; Number &gt;::z()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="Traction_8hpp_source.html#l00120">PhQ::Traction&lt; Number &gt;::Create()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="Traction_8hpp_source.html#l00126">PhQ::Traction&lt; Number &gt;::Create()</a>, and <a class="el" href="Traction_8hpp_source.html#l00068">PhQ::Traction&lt; Number &gt;::Traction()</a>.</p>
 
 </div>
 </div>
@@ -1845,7 +1898,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Statically creates a traction vector of zero. </p>
 
-<p class="definition">Definition at line <a class="el" href="Traction_8hpp_source.html#l00113">113</a> of file <a class="el" href="Traction_8hpp_source.html">Traction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Traction_8hpp_source.html#l00119">119</a> of file <a class="el" href="Traction_8hpp_source.html">Traction.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00125">PhQ::Vector&lt; Number &gt;::Zero()</a>.</p>
 

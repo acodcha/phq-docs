@@ -126,6 +126,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a249c40a745921a21bc992ae95cbbff4f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1VectorArea.html#a249c40a745921a21bc992ae95cbbff4f">VectorArea</a> (const <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt; Number &gt; &amp;<a class="el" href="classPhQ_1_1DimensionalVector.html#a78b67be16ddde9f38cc2b7a5c723b5cc">value</a>, const <a class="el" href="namespacePhQ_1_1Unit.html#ac96e5c00e68a948a801f04655ce2dd95">Unit::Area</a> unit)</td></tr>
 <tr class="memdesc:a249c40a745921a21bc992ae95cbbff4f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a vector area with a given value expressed in a given area unit.  <a href="classPhQ_1_1VectorArea.html#a249c40a745921a21bc992ae95cbbff4f">More...</a><br /></td></tr>
 <tr class="separator:a249c40a745921a21bc992ae95cbbff4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed35fc60ed1dcefdc36b95666496005a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1VectorArea.html#aed35fc60ed1dcefdc36b95666496005a">VectorArea</a> (const <a class="el" href="classPhQ_1_1Area.html">Area</a>&lt; Number &gt; &amp;<a class="el" href="classPhQ_1_1VectorArea.html#add84012ea706fab93dbbc04954c4e105">x</a>, const <a class="el" href="classPhQ_1_1Area.html">Area</a>&lt; Number &gt; &amp;<a class="el" href="classPhQ_1_1VectorArea.html#a457e16aa4f612242572f950f09073437">y</a>, const <a class="el" href="classPhQ_1_1Area.html">Area</a>&lt; Number &gt; &amp;<a class="el" href="classPhQ_1_1VectorArea.html#a04b47b685a6ac3fcc298ae6353eeb809">z</a>)</td></tr>
+<tr class="memdesc:aed35fc60ed1dcefdc36b95666496005a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a vector area from a given set of area components.  <a href="classPhQ_1_1VectorArea.html#aed35fc60ed1dcefdc36b95666496005a">More...</a><br /></td></tr>
+<tr class="separator:aed35fc60ed1dcefdc36b95666496005a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7ffe4442e996954ee2172ac40c0cf561"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1VectorArea.html#a7ffe4442e996954ee2172ac40c0cf561">VectorArea</a> (const <a class="el" href="classPhQ_1_1Area.html">Area</a>&lt; Number &gt; &amp;area, const <a class="el" href="classPhQ_1_1Direction.html">Direction</a>&lt; Number &gt; &amp;direction)</td></tr>
 <tr class="memdesc:a7ffe4442e996954ee2172ac40c0cf561"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a vector area from a given area and direction.  <a href="classPhQ_1_1VectorArea.html#a7ffe4442e996954ee2172ac40c0cf561">More...</a><br /></td></tr>
 <tr class="separator:a7ffe4442e996954ee2172ac40c0cf561"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -271,7 +274,7 @@ class PhQ::VectorArea&lt; Number &gt;</h3>
 <p class="definition">Definition at line <a class="el" href="VectorArea_8hpp_source.html#l00050">50</a> of file <a class="el" href="VectorArea_8hpp_source.html">VectorArea.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a768fb32bbf965fb8f61f64d966f621ea"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a768fb32bbf965fb8f61f64d966f621ea">&#9670;&nbsp;</a></span>VectorArea() <span class="overload">[1/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a768fb32bbf965fb8f61f64d966f621ea">&#9670;&nbsp;</a></span>VectorArea() <span class="overload">[1/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -300,7 +303,7 @@ template&lt;typename Number  = double&gt; </div>
 </div>
 </div>
 <a id="a249c40a745921a21bc992ae95cbbff4f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a249c40a745921a21bc992ae95cbbff4f">&#9670;&nbsp;</a></span>VectorArea() <span class="overload">[2/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a249c40a745921a21bc992ae95cbbff4f">&#9670;&nbsp;</a></span>VectorArea() <span class="overload">[2/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -341,8 +344,58 @@ template&lt;typename Number  = double&gt; </div>
 
 </div>
 </div>
+<a id="aed35fc60ed1dcefdc36b95666496005a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aed35fc60ed1dcefdc36b95666496005a">&#9670;&nbsp;</a></span>VectorArea() <span class="overload">[3/8]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Number  = double&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classPhQ_1_1VectorArea.html">PhQ::VectorArea</a>&lt; Number &gt;::<a class="el" href="classPhQ_1_1VectorArea.html">VectorArea</a> </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1Area.html">Area</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1Area.html">Area</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramname"><em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1Area.html">Area</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramname"><em>z</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Constructor. Constructs a vector area from a given set of area components. </p>
+
+<p class="definition">Definition at line <a class="el" href="VectorArea_8hpp_source.html#l00061">61</a> of file <a class="el" href="VectorArea_8hpp_source.html">VectorArea.hpp</a>.</p>
+
+<p class="reference">References <a class="el" href="VectorArea_8hpp_source.html#l00123">PhQ::VectorArea&lt; Number &gt;::x()</a>, <a class="el" href="VectorArea_8hpp_source.html#l00128">PhQ::VectorArea&lt; Number &gt;::y()</a>, and <a class="el" href="VectorArea_8hpp_source.html#l00133">PhQ::VectorArea&lt; Number &gt;::z()</a>.</p>
+
+</div>
+</div>
 <a id="a7ffe4442e996954ee2172ac40c0cf561"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7ffe4442e996954ee2172ac40c0cf561">&#9670;&nbsp;</a></span>VectorArea() <span class="overload">[3/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a7ffe4442e996954ee2172ac40c0cf561">&#9670;&nbsp;</a></span>VectorArea() <span class="overload">[4/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -379,7 +432,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Constructor. Constructs a vector area from a given area and direction. </p>
 
-<p class="definition">Definition at line <a class="el" href="VectorArea_8hpp_source.html#l00061">61</a> of file <a class="el" href="VectorArea_8hpp_source.html">VectorArea.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="VectorArea_8hpp_source.html#l00065">65</a> of file <a class="el" href="VectorArea_8hpp_source.html">VectorArea.hpp</a>.</p>
 
 </div>
 </div>
@@ -413,7 +466,7 @@ template&lt;typename Number  = double&gt; </div>
 </div>
 </div>
 <a id="ae669388f687766546c0f5fe354b2120e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae669388f687766546c0f5fe354b2120e">&#9670;&nbsp;</a></span>VectorArea() <span class="overload">[4/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ae669388f687766546c0f5fe354b2120e">&#9670;&nbsp;</a></span>VectorArea() <span class="overload">[5/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -443,7 +496,7 @@ template&lt;typename Number  = double&gt; </div>
 </div>
 </div>
 <a id="a7a43e8ea07d22c5c430acc3f6f62067f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7a43e8ea07d22c5c430acc3f6f62067f">&#9670;&nbsp;</a></span>VectorArea() <span class="overload">[5/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a43e8ea07d22c5c430acc3f6f62067f">&#9670;&nbsp;</a></span>VectorArea() <span class="overload">[6/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -472,12 +525,12 @@ template&lt;typename OtherNumber &gt; </div>
 
 <p>Copy constructor. Constructs a vector area by copying another one. </p>
 
-<p class="definition">Definition at line <a class="el" href="VectorArea_8hpp_source.html#l00072">72</a> of file <a class="el" href="VectorArea_8hpp_source.html">VectorArea.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="VectorArea_8hpp_source.html#l00076">76</a> of file <a class="el" href="VectorArea_8hpp_source.html">VectorArea.hpp</a>.</p>
 
 </div>
 </div>
 <a id="a95850867600c24b502047077c61a1509"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a95850867600c24b502047077c61a1509">&#9670;&nbsp;</a></span>VectorArea() <span class="overload">[6/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a95850867600c24b502047077c61a1509">&#9670;&nbsp;</a></span>VectorArea() <span class="overload">[7/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -507,7 +560,7 @@ template&lt;typename Number  = double&gt; </div>
 </div>
 </div>
 <a id="afe7d1934b4a1bc91e82e7d70ef6f6be3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afe7d1934b4a1bc91e82e7d70ef6f6be3">&#9670;&nbsp;</a></span>VectorArea() <span class="overload">[7/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#afe7d1934b4a1bc91e82e7d70ef6f6be3">&#9670;&nbsp;</a></span>VectorArea() <span class="overload">[8/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -534,7 +587,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Constructor. Constructs a vector area with a given value expressed in the standard area unit. </p>
 
-<p class="definition">Definition at line <a class="el" href="VectorArea_8hpp_source.html#l00183">183</a> of file <a class="el" href="VectorArea_8hpp_source.html">VectorArea.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="VectorArea_8hpp_source.html#l00187">187</a> of file <a class="el" href="VectorArea_8hpp_source.html">VectorArea.hpp</a>.</p>
 
 </div>
 </div>
@@ -567,7 +620,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the angle between this vector area and another one. </p>
 
-<p class="definition">Definition at line <a class="el" href="VectorArea_8hpp_source.html#l00144">144</a> of file <a class="el" href="VectorArea_8hpp_source.html">VectorArea.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="VectorArea_8hpp_source.html#l00148">148</a> of file <a class="el" href="VectorArea_8hpp_source.html">VectorArea.hpp</a>.</p>
 
 </div>
 </div>
@@ -617,9 +670,9 @@ template&lt;Unit::Area Unit&gt; </div>
 
 <p>Statically creates a vector area from the given x, y, and z Cartesian components expressed in a given area unit. </p>
 
-<p class="definition">Definition at line <a class="el" href="VectorArea_8hpp_source.html#l00099">99</a> of file <a class="el" href="VectorArea_8hpp_source.html">VectorArea.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="VectorArea_8hpp_source.html#l00103">103</a> of file <a class="el" href="VectorArea_8hpp_source.html">VectorArea.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="VectorArea_8hpp_source.html#l00119">PhQ::VectorArea&lt; Number &gt;::x()</a>, <a class="el" href="VectorArea_8hpp_source.html#l00124">PhQ::VectorArea&lt; Number &gt;::y()</a>, and <a class="el" href="VectorArea_8hpp_source.html#l00129">PhQ::VectorArea&lt; Number &gt;::z()</a>.</p>
+<p class="reference">References <a class="el" href="VectorArea_8hpp_source.html#l00123">PhQ::VectorArea&lt; Number &gt;::x()</a>, <a class="el" href="VectorArea_8hpp_source.html#l00128">PhQ::VectorArea&lt; Number &gt;::y()</a>, and <a class="el" href="VectorArea_8hpp_source.html#l00133">PhQ::VectorArea&lt; Number &gt;::z()</a>.</p>
 
 </div>
 </div>
@@ -653,7 +706,7 @@ template&lt;Unit::Area Unit&gt; </div>
 
 <p>Statically creates a vector area from the given x, y, and z Cartesian components expressed in a given area unit. </p>
 
-<p class="definition">Definition at line <a class="el" href="VectorArea_8hpp_source.html#l00107">107</a> of file <a class="el" href="VectorArea_8hpp_source.html">VectorArea.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="VectorArea_8hpp_source.html#l00111">111</a> of file <a class="el" href="VectorArea_8hpp_source.html">VectorArea.hpp</a>.</p>
 
 </div>
 </div>
@@ -687,7 +740,7 @@ template&lt;Unit::Area Unit&gt; </div>
 
 <p>Statically creates a vector area with a given value expressed in a given area unit. </p>
 
-<p class="definition">Definition at line <a class="el" href="VectorArea_8hpp_source.html#l00114">114</a> of file <a class="el" href="VectorArea_8hpp_source.html">VectorArea.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="VectorArea_8hpp_source.html#l00118">118</a> of file <a class="el" href="VectorArea_8hpp_source.html">VectorArea.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Area, double &gt;::value</a>.</p>
 
@@ -749,7 +802,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the direction of this vector area. </p>
 
-<p class="definition">Definition at line <a class="el" href="VectorArea_8hpp_source.html#l00139">139</a> of file <a class="el" href="VectorArea_8hpp_source.html">VectorArea.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="VectorArea_8hpp_source.html#l00143">143</a> of file <a class="el" href="VectorArea_8hpp_source.html">VectorArea.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="Direction_8hpp_source.html#l00374">PhQ::Vector&lt; Number &gt;::Direction()</a>, and <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Area, double &gt;::value</a>.</p>
 
@@ -841,7 +894,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the magnitude of this vector area. </p>
 
-<p class="definition">Definition at line <a class="el" href="VectorArea_8hpp_source.html#l00134">134</a> of file <a class="el" href="VectorArea_8hpp_source.html">VectorArea.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="VectorArea_8hpp_source.html#l00138">138</a> of file <a class="el" href="VectorArea_8hpp_source.html">VectorArea.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00208">PhQ::Vector&lt; Number &gt;::Magnitude()</a>, and <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Area, double &gt;::value</a>.</p>
 
@@ -902,7 +955,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="VectorArea_8hpp_source.html#l00156">156</a> of file <a class="el" href="VectorArea_8hpp_source.html">VectorArea.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="VectorArea_8hpp_source.html#l00160">160</a> of file <a class="el" href="VectorArea_8hpp_source.html">VectorArea.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Area, double &gt;::value</a>.</p>
 
@@ -934,7 +987,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="VectorArea_8hpp_source.html#l00172">172</a> of file <a class="el" href="VectorArea_8hpp_source.html">VectorArea.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="VectorArea_8hpp_source.html#l00176">176</a> of file <a class="el" href="VectorArea_8hpp_source.html">VectorArea.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Area, double &gt;::value</a>.</p>
 
@@ -966,7 +1019,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="VectorArea_8hpp_source.html#l00148">148</a> of file <a class="el" href="VectorArea_8hpp_source.html">VectorArea.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="VectorArea_8hpp_source.html#l00152">152</a> of file <a class="el" href="VectorArea_8hpp_source.html">VectorArea.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; UnitType, Number &gt;::value</a>, and <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Area, double &gt;::value</a>.</p>
 
@@ -998,7 +1051,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="VectorArea_8hpp_source.html#l00164">164</a> of file <a class="el" href="VectorArea_8hpp_source.html">VectorArea.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="VectorArea_8hpp_source.html#l00168">168</a> of file <a class="el" href="VectorArea_8hpp_source.html">VectorArea.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Area, double &gt;::value</a>.</p>
 
@@ -1030,7 +1083,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="VectorArea_8hpp_source.html#l00152">152</a> of file <a class="el" href="VectorArea_8hpp_source.html">VectorArea.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="VectorArea_8hpp_source.html#l00156">156</a> of file <a class="el" href="VectorArea_8hpp_source.html">VectorArea.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; UnitType, Number &gt;::value</a>, and <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Area, double &gt;::value</a>.</p>
 
@@ -1062,7 +1115,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="VectorArea_8hpp_source.html#l00168">168</a> of file <a class="el" href="VectorArea_8hpp_source.html">VectorArea.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="VectorArea_8hpp_source.html#l00172">172</a> of file <a class="el" href="VectorArea_8hpp_source.html">VectorArea.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Area, double &gt;::value</a>.</p>
 
@@ -1094,7 +1147,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="VectorArea_8hpp_source.html#l00160">160</a> of file <a class="el" href="VectorArea_8hpp_source.html">VectorArea.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="VectorArea_8hpp_source.html#l00164">164</a> of file <a class="el" href="VectorArea_8hpp_source.html">VectorArea.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Area, double &gt;::value</a>.</p>
 
@@ -1126,7 +1179,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="VectorArea_8hpp_source.html#l00176">176</a> of file <a class="el" href="VectorArea_8hpp_source.html">VectorArea.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="VectorArea_8hpp_source.html#l00180">180</a> of file <a class="el" href="VectorArea_8hpp_source.html">VectorArea.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Area, double &gt;::value</a>.</p>
 
@@ -1192,7 +1245,7 @@ template&lt;typename OtherNumber &gt; </div>
 
 <p>Copy assignment operator. Assigns this vector area by copying another one. </p>
 
-<p class="definition">Definition at line <a class="el" href="VectorArea_8hpp_source.html#l00083">83</a> of file <a class="el" href="VectorArea_8hpp_source.html">VectorArea.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="VectorArea_8hpp_source.html#l00087">87</a> of file <a class="el" href="VectorArea_8hpp_source.html">VectorArea.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00060">PhQ::DimensionalVector&lt; UnitType, Number &gt;::Value()</a>, and <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Area, double &gt;::value</a>.</p>
 
@@ -1461,11 +1514,11 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the x Cartesian component of this vector area. </p>
 
-<p class="definition">Definition at line <a class="el" href="VectorArea_8hpp_source.html#l00119">119</a> of file <a class="el" href="VectorArea_8hpp_source.html">VectorArea.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="VectorArea_8hpp_source.html#l00123">123</a> of file <a class="el" href="VectorArea_8hpp_source.html">VectorArea.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Area, double &gt;::value</a>, and <a class="el" href="Vector_8hpp_source.html#l00138">PhQ::Vector&lt; Number &gt;::x()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="VectorArea_8hpp_source.html#l00099">PhQ::VectorArea&lt; Number &gt;::Create()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="VectorArea_8hpp_source.html#l00103">PhQ::VectorArea&lt; Number &gt;::Create()</a>, and <a class="el" href="VectorArea_8hpp_source.html#l00061">PhQ::VectorArea&lt; Number &gt;::VectorArea()</a>.</p>
 
 </div>
 </div>
@@ -1555,11 +1608,11 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the y Cartesian component of this vector area. </p>
 
-<p class="definition">Definition at line <a class="el" href="VectorArea_8hpp_source.html#l00124">124</a> of file <a class="el" href="VectorArea_8hpp_source.html">VectorArea.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="VectorArea_8hpp_source.html#l00128">128</a> of file <a class="el" href="VectorArea_8hpp_source.html">VectorArea.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Area, double &gt;::value</a>, and <a class="el" href="Vector_8hpp_source.html#l00143">PhQ::Vector&lt; Number &gt;::y()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="VectorArea_8hpp_source.html#l00099">PhQ::VectorArea&lt; Number &gt;::Create()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="VectorArea_8hpp_source.html#l00103">PhQ::VectorArea&lt; Number &gt;::Create()</a>, and <a class="el" href="VectorArea_8hpp_source.html#l00061">PhQ::VectorArea&lt; Number &gt;::VectorArea()</a>.</p>
 
 </div>
 </div>
@@ -1649,11 +1702,11 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the z Cartesian component of this vector area. </p>
 
-<p class="definition">Definition at line <a class="el" href="VectorArea_8hpp_source.html#l00129">129</a> of file <a class="el" href="VectorArea_8hpp_source.html">VectorArea.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="VectorArea_8hpp_source.html#l00133">133</a> of file <a class="el" href="VectorArea_8hpp_source.html">VectorArea.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Area, double &gt;::value</a>, and <a class="el" href="Vector_8hpp_source.html#l00148">PhQ::Vector&lt; Number &gt;::z()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="VectorArea_8hpp_source.html#l00099">PhQ::VectorArea&lt; Number &gt;::Create()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="VectorArea_8hpp_source.html#l00103">PhQ::VectorArea&lt; Number &gt;::Create()</a>, and <a class="el" href="VectorArea_8hpp_source.html#l00061">PhQ::VectorArea&lt; Number &gt;::VectorArea()</a>.</p>
 
 </div>
 </div>
@@ -1684,7 +1737,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Statically creates a vector area of zero. </p>
 
-<p class="definition">Definition at line <a class="el" href="VectorArea_8hpp_source.html#l00092">92</a> of file <a class="el" href="VectorArea_8hpp_source.html">VectorArea.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="VectorArea_8hpp_source.html#l00096">96</a> of file <a class="el" href="VectorArea_8hpp_source.html">VectorArea.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00125">PhQ::Vector&lt; Number &gt;::Zero()</a>.</p>
 

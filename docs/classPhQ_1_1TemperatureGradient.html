@@ -126,6 +126,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a540720405ee23a01ef7959bbc9a90096"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1TemperatureGradient.html#a540720405ee23a01ef7959bbc9a90096">TemperatureGradient</a> (const <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt; Number &gt; &amp;<a class="el" href="classPhQ_1_1DimensionalVector.html#a78b67be16ddde9f38cc2b7a5c723b5cc">value</a>, const <a class="el" href="namespacePhQ_1_1Unit.html#a2841a75fd5b008b7213bd428f956505f">Unit::TemperatureGradient</a> unit)</td></tr>
 <tr class="memdesc:a540720405ee23a01ef7959bbc9a90096"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a temperature gradient vector with a given value expressed in a given temperature gradient unit.  <a href="classPhQ_1_1TemperatureGradient.html#a540720405ee23a01ef7959bbc9a90096">More...</a><br /></td></tr>
 <tr class="separator:a540720405ee23a01ef7959bbc9a90096"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8060be95b659e8da9bc227db0184d8d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1TemperatureGradient.html#ac8060be95b659e8da9bc227db0184d8d">TemperatureGradient</a> (const <a class="el" href="classPhQ_1_1ScalarTemperatureGradient.html">ScalarTemperatureGradient</a>&lt; Number &gt; &amp;<a class="el" href="classPhQ_1_1TemperatureGradient.html#ae1a85b3007899d584402b442a151e16a">x</a>, const <a class="el" href="classPhQ_1_1ScalarTemperatureGradient.html">ScalarTemperatureGradient</a>&lt; Number &gt; &amp;<a class="el" href="classPhQ_1_1TemperatureGradient.html#accd08ecf32c94beadc90e6978c63d382">y</a>, const <a class="el" href="classPhQ_1_1ScalarTemperatureGradient.html">ScalarTemperatureGradient</a>&lt; Number &gt; &amp;<a class="el" href="classPhQ_1_1TemperatureGradient.html#a9e6295291446cae7703dc18036d7a3af">z</a>)</td></tr>
+<tr class="memdesc:ac8060be95b659e8da9bc227db0184d8d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a temperature gradient vector from a given set of scalar temperature gradient components.  <a href="classPhQ_1_1TemperatureGradient.html#ac8060be95b659e8da9bc227db0184d8d">More...</a><br /></td></tr>
+<tr class="separator:ac8060be95b659e8da9bc227db0184d8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aea73b7a2e1b4705f9da7c0c79a7c79bd"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1TemperatureGradient.html#aea73b7a2e1b4705f9da7c0c79a7c79bd">TemperatureGradient</a> (const <a class="el" href="classPhQ_1_1ScalarTemperatureGradient.html">ScalarTemperatureGradient</a>&lt; Number &gt; &amp;scalar_temperature_gradient, const <a class="el" href="classPhQ_1_1Direction.html">Direction</a>&lt; Number &gt; &amp;direction)</td></tr>
 <tr class="memdesc:aea73b7a2e1b4705f9da7c0c79a7c79bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a temperature gradient vector from a given scalar temperature gradient magnitude and direction.  <a href="classPhQ_1_1TemperatureGradient.html#aea73b7a2e1b4705f9da7c0c79a7c79bd">More...</a><br /></td></tr>
 <tr class="separator:aea73b7a2e1b4705f9da7c0c79a7c79bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -274,7 +277,7 @@ class PhQ::TemperatureGradient&lt; Number &gt;</h3>
 <p class="definition">Definition at line <a class="el" href="TemperatureGradient_8hpp_source.html#l00050">50</a> of file <a class="el" href="TemperatureGradient_8hpp_source.html">TemperatureGradient.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ac0edf2e86049054f719e1388151c0503"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac0edf2e86049054f719e1388151c0503">&#9670;&nbsp;</a></span>TemperatureGradient() <span class="overload">[1/8]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ac0edf2e86049054f719e1388151c0503">&#9670;&nbsp;</a></span>TemperatureGradient() <span class="overload">[1/9]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -303,7 +306,7 @@ template&lt;typename Number  = double&gt; </div>
 </div>
 </div>
 <a id="a540720405ee23a01ef7959bbc9a90096"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a540720405ee23a01ef7959bbc9a90096">&#9670;&nbsp;</a></span>TemperatureGradient() <span class="overload">[2/8]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a540720405ee23a01ef7959bbc9a90096">&#9670;&nbsp;</a></span>TemperatureGradient() <span class="overload">[2/9]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -344,8 +347,58 @@ template&lt;typename Number  = double&gt; </div>
 
 </div>
 </div>
+<a id="ac8060be95b659e8da9bc227db0184d8d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac8060be95b659e8da9bc227db0184d8d">&#9670;&nbsp;</a></span>TemperatureGradient() <span class="overload">[3/9]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Number  = double&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classPhQ_1_1TemperatureGradient.html">PhQ::TemperatureGradient</a>&lt; Number &gt;::<a class="el" href="classPhQ_1_1TemperatureGradient.html">TemperatureGradient</a> </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1ScalarTemperatureGradient.html">ScalarTemperatureGradient</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1ScalarTemperatureGradient.html">ScalarTemperatureGradient</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramname"><em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1ScalarTemperatureGradient.html">ScalarTemperatureGradient</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramname"><em>z</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Constructor. Constructs a temperature gradient vector from a given set of scalar temperature gradient components. </p>
+
+<p class="definition">Definition at line <a class="el" href="TemperatureGradient_8hpp_source.html#l00063">63</a> of file <a class="el" href="TemperatureGradient_8hpp_source.html">TemperatureGradient.hpp</a>.</p>
+
+<p class="reference">References <a class="el" href="TemperatureGradient_8hpp_source.html#l00148">PhQ::TemperatureGradient&lt; Number &gt;::x()</a>, <a class="el" href="TemperatureGradient_8hpp_source.html#l00153">PhQ::TemperatureGradient&lt; Number &gt;::y()</a>, and <a class="el" href="TemperatureGradient_8hpp_source.html#l00158">PhQ::TemperatureGradient&lt; Number &gt;::z()</a>.</p>
+
+</div>
+</div>
 <a id="aea73b7a2e1b4705f9da7c0c79a7c79bd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aea73b7a2e1b4705f9da7c0c79a7c79bd">&#9670;&nbsp;</a></span>TemperatureGradient() <span class="overload">[3/8]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aea73b7a2e1b4705f9da7c0c79a7c79bd">&#9670;&nbsp;</a></span>TemperatureGradient() <span class="overload">[4/9]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -382,12 +435,12 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Constructor. Constructs a temperature gradient vector from a given scalar temperature gradient magnitude and direction. </p>
 
-<p class="definition">Definition at line <a class="el" href="TemperatureGradient_8hpp_source.html#l00063">63</a> of file <a class="el" href="TemperatureGradient_8hpp_source.html">TemperatureGradient.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="TemperatureGradient_8hpp_source.html#l00070">70</a> of file <a class="el" href="TemperatureGradient_8hpp_source.html">TemperatureGradient.hpp</a>.</p>
 
 </div>
 </div>
 <a id="a019cf37962c572268a6df556830a1148"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a019cf37962c572268a6df556830a1148">&#9670;&nbsp;</a></span>TemperatureGradient() <span class="overload">[4/8]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a019cf37962c572268a6df556830a1148">&#9670;&nbsp;</a></span>TemperatureGradient() <span class="overload">[5/9]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -414,7 +467,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Constructor. Constructs a temperature gradient vector from a given planar temperature gradient vector in the XY plane. This temperature gradient vector's z-component is initialized to zero. </p>
 
-<p class="definition">Definition at line <a class="el" href="TemperatureGradient_8hpp_source.html#l00071">71</a> of file <a class="el" href="TemperatureGradient_8hpp_source.html">TemperatureGradient.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="TemperatureGradient_8hpp_source.html#l00078">78</a> of file <a class="el" href="TemperatureGradient_8hpp_source.html">TemperatureGradient.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00060">PhQ::DimensionalPlanarVector&lt; UnitType, Number &gt;::Value()</a>.</p>
 
@@ -450,7 +503,7 @@ template&lt;typename Number  = double&gt; </div>
 </div>
 </div>
 <a id="a7b410777632920f96d06095928fcc01f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7b410777632920f96d06095928fcc01f">&#9670;&nbsp;</a></span>TemperatureGradient() <span class="overload">[5/8]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a7b410777632920f96d06095928fcc01f">&#9670;&nbsp;</a></span>TemperatureGradient() <span class="overload">[6/9]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -480,7 +533,7 @@ template&lt;typename Number  = double&gt; </div>
 </div>
 </div>
 <a id="aed8eddd18abc46ba011fd86c9531d4a0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aed8eddd18abc46ba011fd86c9531d4a0">&#9670;&nbsp;</a></span>TemperatureGradient() <span class="overload">[6/8]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aed8eddd18abc46ba011fd86c9531d4a0">&#9670;&nbsp;</a></span>TemperatureGradient() <span class="overload">[7/9]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -509,12 +562,12 @@ template&lt;typename OtherNumber &gt; </div>
 
 <p>Copy constructor. Constructs a temperature gradient vector by copying another one. </p>
 
-<p class="definition">Definition at line <a class="el" href="TemperatureGradient_8hpp_source.html#l00083">83</a> of file <a class="el" href="TemperatureGradient_8hpp_source.html">TemperatureGradient.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="TemperatureGradient_8hpp_source.html#l00090">90</a> of file <a class="el" href="TemperatureGradient_8hpp_source.html">TemperatureGradient.hpp</a>.</p>
 
 </div>
 </div>
 <a id="adf7b645456f52bc5ccfd2e600f1263ba"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adf7b645456f52bc5ccfd2e600f1263ba">&#9670;&nbsp;</a></span>TemperatureGradient() <span class="overload">[7/8]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#adf7b645456f52bc5ccfd2e600f1263ba">&#9670;&nbsp;</a></span>TemperatureGradient() <span class="overload">[8/9]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -544,7 +597,7 @@ template&lt;typename Number  = double&gt; </div>
 </div>
 </div>
 <a id="a6131040c439c43856a9435e936465a61"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6131040c439c43856a9435e936465a61">&#9670;&nbsp;</a></span>TemperatureGradient() <span class="overload">[8/8]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a6131040c439c43856a9435e936465a61">&#9670;&nbsp;</a></span>TemperatureGradient() <span class="overload">[9/9]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -571,7 +624,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Constructor. Constructs a temperature gradient vector with a given value expressed in the standard temperature gradient unit. </p>
 
-<p class="definition">Definition at line <a class="el" href="TemperatureGradient_8hpp_source.html#l00208">208</a> of file <a class="el" href="TemperatureGradient_8hpp_source.html">TemperatureGradient.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="TemperatureGradient_8hpp_source.html#l00215">215</a> of file <a class="el" href="TemperatureGradient_8hpp_source.html">TemperatureGradient.hpp</a>.</p>
 
 </div>
 </div>
@@ -604,7 +657,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the angle between this temperature gradient vector and another one. </p>
 
-<p class="definition">Definition at line <a class="el" href="TemperatureGradient_8hpp_source.html#l00166">166</a> of file <a class="el" href="TemperatureGradient_8hpp_source.html">TemperatureGradient.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="TemperatureGradient_8hpp_source.html#l00173">173</a> of file <a class="el" href="TemperatureGradient_8hpp_source.html">TemperatureGradient.hpp</a>.</p>
 
 </div>
 </div>
@@ -654,9 +707,9 @@ template&lt;Unit::TemperatureGradient Unit&gt; </div>
 
 <p>Statically creates a temperature gradient vector from the given x, y, and z Cartesian components expressed in a given temperature gradient unit. </p>
 
-<p class="definition">Definition at line <a class="el" href="TemperatureGradient_8hpp_source.html#l00115">115</a> of file <a class="el" href="TemperatureGradient_8hpp_source.html">TemperatureGradient.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="TemperatureGradient_8hpp_source.html#l00122">122</a> of file <a class="el" href="TemperatureGradient_8hpp_source.html">TemperatureGradient.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="TemperatureGradient_8hpp_source.html#l00141">PhQ::TemperatureGradient&lt; Number &gt;::x()</a>, <a class="el" href="TemperatureGradient_8hpp_source.html#l00146">PhQ::TemperatureGradient&lt; Number &gt;::y()</a>, and <a class="el" href="TemperatureGradient_8hpp_source.html#l00151">PhQ::TemperatureGradient&lt; Number &gt;::z()</a>.</p>
+<p class="reference">References <a class="el" href="TemperatureGradient_8hpp_source.html#l00148">PhQ::TemperatureGradient&lt; Number &gt;::x()</a>, <a class="el" href="TemperatureGradient_8hpp_source.html#l00153">PhQ::TemperatureGradient&lt; Number &gt;::y()</a>, and <a class="el" href="TemperatureGradient_8hpp_source.html#l00158">PhQ::TemperatureGradient&lt; Number &gt;::z()</a>.</p>
 
 </div>
 </div>
@@ -690,7 +743,7 @@ template&lt;Unit::TemperatureGradient Unit&gt; </div>
 
 <p>Statically creates a temperature gradient vector from the given x, y, and z Cartesian components expressed in a given temperature gradient unit. </p>
 
-<p class="definition">Definition at line <a class="el" href="TemperatureGradient_8hpp_source.html#l00125">125</a> of file <a class="el" href="TemperatureGradient_8hpp_source.html">TemperatureGradient.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="TemperatureGradient_8hpp_source.html#l00132">132</a> of file <a class="el" href="TemperatureGradient_8hpp_source.html">TemperatureGradient.hpp</a>.</p>
 
 </div>
 </div>
@@ -724,7 +777,7 @@ template&lt;Unit::TemperatureGradient Unit&gt; </div>
 
 <p>Statically creates a temperature gradient vector with a given value expressed in a given temperature gradient unit. </p>
 
-<p class="definition">Definition at line <a class="el" href="TemperatureGradient_8hpp_source.html#l00134">134</a> of file <a class="el" href="TemperatureGradient_8hpp_source.html">TemperatureGradient.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="TemperatureGradient_8hpp_source.html#l00141">141</a> of file <a class="el" href="TemperatureGradient_8hpp_source.html">TemperatureGradient.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::TemperatureGradient, double &gt;::value</a>.</p>
 
@@ -786,7 +839,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the direction of this temperature gradient vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="TemperatureGradient_8hpp_source.html#l00161">161</a> of file <a class="el" href="TemperatureGradient_8hpp_source.html">TemperatureGradient.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="TemperatureGradient_8hpp_source.html#l00168">168</a> of file <a class="el" href="TemperatureGradient_8hpp_source.html">TemperatureGradient.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="Direction_8hpp_source.html#l00374">PhQ::Vector&lt; Number &gt;::Direction()</a>, and <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::TemperatureGradient, double &gt;::value</a>.</p>
 
@@ -878,7 +931,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the magnitude of this temperature gradient vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="TemperatureGradient_8hpp_source.html#l00156">156</a> of file <a class="el" href="TemperatureGradient_8hpp_source.html">TemperatureGradient.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="TemperatureGradient_8hpp_source.html#l00163">163</a> of file <a class="el" href="TemperatureGradient_8hpp_source.html">TemperatureGradient.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00208">PhQ::Vector&lt; Number &gt;::Magnitude()</a>, and <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::TemperatureGradient, double &gt;::value</a>.</p>
 
@@ -939,7 +992,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="TemperatureGradient_8hpp_source.html#l00181">181</a> of file <a class="el" href="TemperatureGradient_8hpp_source.html">TemperatureGradient.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="TemperatureGradient_8hpp_source.html#l00188">188</a> of file <a class="el" href="TemperatureGradient_8hpp_source.html">TemperatureGradient.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::TemperatureGradient, double &gt;::value</a>.</p>
 
@@ -971,7 +1024,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="TemperatureGradient_8hpp_source.html#l00197">197</a> of file <a class="el" href="TemperatureGradient_8hpp_source.html">TemperatureGradient.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="TemperatureGradient_8hpp_source.html#l00204">204</a> of file <a class="el" href="TemperatureGradient_8hpp_source.html">TemperatureGradient.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::TemperatureGradient, double &gt;::value</a>.</p>
 
@@ -1003,7 +1056,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="TemperatureGradient_8hpp_source.html#l00171">171</a> of file <a class="el" href="TemperatureGradient_8hpp_source.html">TemperatureGradient.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="TemperatureGradient_8hpp_source.html#l00178">178</a> of file <a class="el" href="TemperatureGradient_8hpp_source.html">TemperatureGradient.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; UnitType, Number &gt;::value</a>, and <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::TemperatureGradient, double &gt;::value</a>.</p>
 
@@ -1035,7 +1088,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="TemperatureGradient_8hpp_source.html#l00189">189</a> of file <a class="el" href="TemperatureGradient_8hpp_source.html">TemperatureGradient.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="TemperatureGradient_8hpp_source.html#l00196">196</a> of file <a class="el" href="TemperatureGradient_8hpp_source.html">TemperatureGradient.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::TemperatureGradient, double &gt;::value</a>.</p>
 
@@ -1067,7 +1120,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="TemperatureGradient_8hpp_source.html#l00176">176</a> of file <a class="el" href="TemperatureGradient_8hpp_source.html">TemperatureGradient.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="TemperatureGradient_8hpp_source.html#l00183">183</a> of file <a class="el" href="TemperatureGradient_8hpp_source.html">TemperatureGradient.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; UnitType, Number &gt;::value</a>, and <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::TemperatureGradient, double &gt;::value</a>.</p>
 
@@ -1099,7 +1152,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="TemperatureGradient_8hpp_source.html#l00193">193</a> of file <a class="el" href="TemperatureGradient_8hpp_source.html">TemperatureGradient.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="TemperatureGradient_8hpp_source.html#l00200">200</a> of file <a class="el" href="TemperatureGradient_8hpp_source.html">TemperatureGradient.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::TemperatureGradient, double &gt;::value</a>.</p>
 
@@ -1131,7 +1184,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="TemperatureGradient_8hpp_source.html#l00185">185</a> of file <a class="el" href="TemperatureGradient_8hpp_source.html">TemperatureGradient.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="TemperatureGradient_8hpp_source.html#l00192">192</a> of file <a class="el" href="TemperatureGradient_8hpp_source.html">TemperatureGradient.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::TemperatureGradient, double &gt;::value</a>.</p>
 
@@ -1163,7 +1216,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="TemperatureGradient_8hpp_source.html#l00201">201</a> of file <a class="el" href="TemperatureGradient_8hpp_source.html">TemperatureGradient.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="TemperatureGradient_8hpp_source.html#l00208">208</a> of file <a class="el" href="TemperatureGradient_8hpp_source.html">TemperatureGradient.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::TemperatureGradient, double &gt;::value</a>.</p>
 
@@ -1229,7 +1282,7 @@ template&lt;typename OtherNumber &gt; </div>
 
 <p>Copy assignment operator. Assigns this temperature gradient vector by copying another one. </p>
 
-<p class="definition">Definition at line <a class="el" href="TemperatureGradient_8hpp_source.html#l00097">97</a> of file <a class="el" href="TemperatureGradient_8hpp_source.html">TemperatureGradient.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="TemperatureGradient_8hpp_source.html#l00104">104</a> of file <a class="el" href="TemperatureGradient_8hpp_source.html">TemperatureGradient.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00060">PhQ::DimensionalVector&lt; UnitType, Number &gt;::Value()</a>, and <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::TemperatureGradient, double &gt;::value</a>.</p>
 
@@ -1498,11 +1551,11 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the x Cartesian component of this temperature gradient vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="TemperatureGradient_8hpp_source.html#l00141">141</a> of file <a class="el" href="TemperatureGradient_8hpp_source.html">TemperatureGradient.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="TemperatureGradient_8hpp_source.html#l00148">148</a> of file <a class="el" href="TemperatureGradient_8hpp_source.html">TemperatureGradient.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::TemperatureGradient, double &gt;::value</a>, and <a class="el" href="Vector_8hpp_source.html#l00138">PhQ::Vector&lt; Number &gt;::x()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="TemperatureGradient_8hpp_source.html#l00115">PhQ::TemperatureGradient&lt; Number &gt;::Create()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="TemperatureGradient_8hpp_source.html#l00122">PhQ::TemperatureGradient&lt; Number &gt;::Create()</a>, and <a class="el" href="TemperatureGradient_8hpp_source.html#l00063">PhQ::TemperatureGradient&lt; Number &gt;::TemperatureGradient()</a>.</p>
 
 </div>
 </div>
@@ -1592,11 +1645,11 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the y Cartesian component of this temperature gradient vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="TemperatureGradient_8hpp_source.html#l00146">146</a> of file <a class="el" href="TemperatureGradient_8hpp_source.html">TemperatureGradient.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="TemperatureGradient_8hpp_source.html#l00153">153</a> of file <a class="el" href="TemperatureGradient_8hpp_source.html">TemperatureGradient.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::TemperatureGradient, double &gt;::value</a>, and <a class="el" href="Vector_8hpp_source.html#l00143">PhQ::Vector&lt; Number &gt;::y()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="TemperatureGradient_8hpp_source.html#l00115">PhQ::TemperatureGradient&lt; Number &gt;::Create()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="TemperatureGradient_8hpp_source.html#l00122">PhQ::TemperatureGradient&lt; Number &gt;::Create()</a>, and <a class="el" href="TemperatureGradient_8hpp_source.html#l00063">PhQ::TemperatureGradient&lt; Number &gt;::TemperatureGradient()</a>.</p>
 
 </div>
 </div>
@@ -1686,11 +1739,11 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the z Cartesian component of this temperature gradient vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="TemperatureGradient_8hpp_source.html#l00151">151</a> of file <a class="el" href="TemperatureGradient_8hpp_source.html">TemperatureGradient.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="TemperatureGradient_8hpp_source.html#l00158">158</a> of file <a class="el" href="TemperatureGradient_8hpp_source.html">TemperatureGradient.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::TemperatureGradient, double &gt;::value</a>, and <a class="el" href="Vector_8hpp_source.html#l00148">PhQ::Vector&lt; Number &gt;::z()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="TemperatureGradient_8hpp_source.html#l00115">PhQ::TemperatureGradient&lt; Number &gt;::Create()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="TemperatureGradient_8hpp_source.html#l00122">PhQ::TemperatureGradient&lt; Number &gt;::Create()</a>, and <a class="el" href="TemperatureGradient_8hpp_source.html#l00063">PhQ::TemperatureGradient&lt; Number &gt;::TemperatureGradient()</a>.</p>
 
 </div>
 </div>
@@ -1721,7 +1774,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Statically creates a temperature gradient vector of zero. </p>
 
-<p class="definition">Definition at line <a class="el" href="TemperatureGradient_8hpp_source.html#l00108">108</a> of file <a class="el" href="TemperatureGradient_8hpp_source.html">TemperatureGradient.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="TemperatureGradient_8hpp_source.html#l00115">115</a> of file <a class="el" href="TemperatureGradient_8hpp_source.html">TemperatureGradient.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00125">PhQ::Vector&lt; Number &gt;::Zero()</a>.</p>
 

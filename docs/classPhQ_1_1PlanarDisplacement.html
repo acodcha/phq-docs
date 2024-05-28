@@ -127,6 +127,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aff28608e2fe55fafe98b1f3df7fe8973"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1PlanarDisplacement.html#aff28608e2fe55fafe98b1f3df7fe8973">PlanarDisplacement</a> (const <a class="el" href="classPhQ_1_1PlanarVector.html">PlanarVector</a>&lt; Number &gt; &amp;<a class="el" href="classPhQ_1_1DimensionalPlanarVector.html#a77ab5495d4f12337e64cf2a89fef9a36">value</a>, const <a class="el" href="namespacePhQ_1_1Unit.html#a3c167018d0818cf5b0ce11aafe7dc67c">Unit::Length</a> unit)</td></tr>
 <tr class="memdesc:aff28608e2fe55fafe98b1f3df7fe8973"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a planar displacement vector with a given value expressed in a given length unit.  <a href="classPhQ_1_1PlanarDisplacement.html#aff28608e2fe55fafe98b1f3df7fe8973">More...</a><br /></td></tr>
 <tr class="separator:aff28608e2fe55fafe98b1f3df7fe8973"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff48534371ba55cc9ec317f7bf83629b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1PlanarDisplacement.html#aff48534371ba55cc9ec317f7bf83629b">PlanarDisplacement</a> (const <a class="el" href="classPhQ_1_1Length.html">Length</a>&lt; Number &gt; &amp;<a class="el" href="classPhQ_1_1PlanarDisplacement.html#a7ea49e5a42332c765c829de7c58acf2e">x</a>, const <a class="el" href="classPhQ_1_1Length.html">Length</a>&lt; Number &gt; &amp;<a class="el" href="classPhQ_1_1PlanarDisplacement.html#a2b2a07cf6b55017176e6fe2a4b3e600b">y</a>)</td></tr>
+<tr class="memdesc:aff48534371ba55cc9ec317f7bf83629b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a planar displacement vector from a given set of length components.  <a href="classPhQ_1_1PlanarDisplacement.html#aff48534371ba55cc9ec317f7bf83629b">More...</a><br /></td></tr>
+<tr class="separator:aff48534371ba55cc9ec317f7bf83629b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1e41db9a94532af50a52d9b86a4d2745"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1PlanarDisplacement.html#a1e41db9a94532af50a52d9b86a4d2745">PlanarDisplacement</a> (const <a class="el" href="classPhQ_1_1Length.html">Length</a>&lt; Number &gt; &amp;length, const <a class="el" href="classPhQ_1_1PlanarDirection.html">PlanarDirection</a>&lt; Number &gt; &amp;planar_direction)</td></tr>
 <tr class="memdesc:a1e41db9a94532af50a52d9b86a4d2745"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a planar displacement vector from a given length and planar direction.  <a href="classPhQ_1_1PlanarDisplacement.html#a1e41db9a94532af50a52d9b86a4d2745">More...</a><br /></td></tr>
 <tr class="separator:a1e41db9a94532af50a52d9b86a4d2745"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -298,7 +301,7 @@ class PhQ::PlanarDisplacement&lt; Number &gt;</h3>
 <p class="definition">Definition at line <a class="el" href="PlanarDisplacement_8hpp_source.html#l00066">66</a> of file <a class="el" href="PlanarDisplacement_8hpp_source.html">PlanarDisplacement.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a4845aa765e1c85b11aef9adcabfabc77"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4845aa765e1c85b11aef9adcabfabc77">&#9670;&nbsp;</a></span>PlanarDisplacement() <span class="overload">[1/11]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a4845aa765e1c85b11aef9adcabfabc77">&#9670;&nbsp;</a></span>PlanarDisplacement() <span class="overload">[1/12]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -327,7 +330,7 @@ template&lt;typename Number  = double&gt; </div>
 </div>
 </div>
 <a id="aff28608e2fe55fafe98b1f3df7fe8973"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aff28608e2fe55fafe98b1f3df7fe8973">&#9670;&nbsp;</a></span>PlanarDisplacement() <span class="overload">[2/11]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aff28608e2fe55fafe98b1f3df7fe8973">&#9670;&nbsp;</a></span>PlanarDisplacement() <span class="overload">[2/12]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -368,8 +371,52 @@ template&lt;typename Number  = double&gt; </div>
 
 </div>
 </div>
+<a id="aff48534371ba55cc9ec317f7bf83629b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aff48534371ba55cc9ec317f7bf83629b">&#9670;&nbsp;</a></span>PlanarDisplacement() <span class="overload">[3/12]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Number  = double&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classPhQ_1_1PlanarDisplacement.html">PhQ::PlanarDisplacement</a>&lt; Number &gt;::<a class="el" href="classPhQ_1_1PlanarDisplacement.html">PlanarDisplacement</a> </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1Length.html">Length</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1Length.html">Length</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramname"><em>y</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Constructor. Constructs a planar displacement vector from a given set of length components. </p>
+
+<p class="definition">Definition at line <a class="el" href="PlanarDisplacement_8hpp_source.html#l00079">79</a> of file <a class="el" href="PlanarDisplacement_8hpp_source.html">PlanarDisplacement.hpp</a>.</p>
+
+<p class="reference">References <a class="el" href="PlanarDisplacement_8hpp_source.html#l00168">PhQ::PlanarDisplacement&lt; Number &gt;::x()</a>, and <a class="el" href="PlanarDisplacement_8hpp_source.html#l00173">PhQ::PlanarDisplacement&lt; Number &gt;::y()</a>.</p>
+
+</div>
+</div>
 <a id="a1e41db9a94532af50a52d9b86a4d2745"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1e41db9a94532af50a52d9b86a4d2745">&#9670;&nbsp;</a></span>PlanarDisplacement() <span class="overload">[3/11]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e41db9a94532af50a52d9b86a4d2745">&#9670;&nbsp;</a></span>PlanarDisplacement() <span class="overload">[4/12]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -406,12 +453,12 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Constructor. Constructs a planar displacement vector from a given length and planar direction. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarDisplacement_8hpp_source.html#l00079">79</a> of file <a class="el" href="PlanarDisplacement_8hpp_source.html">PlanarDisplacement.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarDisplacement_8hpp_source.html#l00084">84</a> of file <a class="el" href="PlanarDisplacement_8hpp_source.html">PlanarDisplacement.hpp</a>.</p>
 
 </div>
 </div>
 <a id="a4bd5631019bf08eb46a301e3cc3a6c45"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4bd5631019bf08eb46a301e3cc3a6c45">&#9670;&nbsp;</a></span>PlanarDisplacement() <span class="overload">[4/11]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a4bd5631019bf08eb46a301e3cc3a6c45">&#9670;&nbsp;</a></span>PlanarDisplacement() <span class="overload">[5/12]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -438,14 +485,14 @@ template&lt;typename Number &gt; </div>
 
 <p>Constructor. Constructs a planar displacement vector from a given displacement vector by projecting the displacement vector onto the XY plane. </p>
 
-<p class="definition">Definition at line <a class="el" href="Displacement_8hpp_source.html#l00292">292</a> of file <a class="el" href="Displacement_8hpp_source.html">Displacement.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Displacement_8hpp_source.html#l00296">296</a> of file <a class="el" href="Displacement_8hpp_source.html">Displacement.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00060">PhQ::DimensionalVector&lt; UnitType, Number &gt;::Value()</a>.</p>
 
 </div>
 </div>
 <a id="a36a6d8535dad646e6f469be716210347"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a36a6d8535dad646e6f469be716210347">&#9670;&nbsp;</a></span>PlanarDisplacement() <span class="overload">[5/11]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a36a6d8535dad646e6f469be716210347">&#9670;&nbsp;</a></span>PlanarDisplacement() <span class="overload">[6/12]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -482,12 +529,12 @@ template&lt;typename Number &gt; </div>
 
 <p>Constructor. Constructs a planar displacement vector from a given planar velocity vector and time using the definition of velocity. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarVelocity_8hpp_source.html#l00289">289</a> of file <a class="el" href="PlanarVelocity_8hpp_source.html">PlanarVelocity.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarVelocity_8hpp_source.html#l00293">293</a> of file <a class="el" href="PlanarVelocity_8hpp_source.html">PlanarVelocity.hpp</a>.</p>
 
 </div>
 </div>
 <a id="abf5be24a70874357966b6210e37f9b38"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abf5be24a70874357966b6210e37f9b38">&#9670;&nbsp;</a></span>PlanarDisplacement() <span class="overload">[6/11]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#abf5be24a70874357966b6210e37f9b38">&#9670;&nbsp;</a></span>PlanarDisplacement() <span class="overload">[7/12]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -524,12 +571,12 @@ template&lt;typename Number &gt; </div>
 
 <p>Constructor. Constructs a planar displacement vector from a given planar velocity vector and frequency using the definition of velocity. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarVelocity_8hpp_source.html#l00294">294</a> of file <a class="el" href="PlanarVelocity_8hpp_source.html">PlanarVelocity.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarVelocity_8hpp_source.html#l00298">298</a> of file <a class="el" href="PlanarVelocity_8hpp_source.html">PlanarVelocity.hpp</a>.</p>
 
 </div>
 </div>
 <a id="a889dda585c82f97a001a8018f3e009f0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a889dda585c82f97a001a8018f3e009f0">&#9670;&nbsp;</a></span>PlanarDisplacement() <span class="overload">[7/11]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a889dda585c82f97a001a8018f3e009f0">&#9670;&nbsp;</a></span>PlanarDisplacement() <span class="overload">[8/12]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -556,7 +603,7 @@ template&lt;typename Number &gt; </div>
 
 <p>Constructor. Constructs a planar displacement vector between a given planar position vector and the origin. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarPosition_8hpp_source.html#l00277">277</a> of file <a class="el" href="PlanarPosition_8hpp_source.html">PlanarPosition.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarPosition_8hpp_source.html#l00281">281</a> of file <a class="el" href="PlanarPosition_8hpp_source.html">PlanarPosition.hpp</a>.</p>
 
 </div>
 </div>
@@ -590,7 +637,7 @@ template&lt;typename Number  = double&gt; </div>
 </div>
 </div>
 <a id="a722f673415d3c725760667f7f603a9bb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a722f673415d3c725760667f7f603a9bb">&#9670;&nbsp;</a></span>PlanarDisplacement() <span class="overload">[8/11]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a722f673415d3c725760667f7f603a9bb">&#9670;&nbsp;</a></span>PlanarDisplacement() <span class="overload">[9/12]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -620,7 +667,7 @@ template&lt;typename Number  = double&gt; </div>
 </div>
 </div>
 <a id="a0bcf3489990ddcba798692da225f9014"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0bcf3489990ddcba798692da225f9014">&#9670;&nbsp;</a></span>PlanarDisplacement() <span class="overload">[9/11]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a0bcf3489990ddcba798692da225f9014">&#9670;&nbsp;</a></span>PlanarDisplacement() <span class="overload">[10/12]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -649,12 +696,12 @@ template&lt;typename OtherNumber &gt; </div>
 
 <p>Copy constructor. Constructs a planar displacement by copying another one. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarDisplacement_8hpp_source.html#l00109">109</a> of file <a class="el" href="PlanarDisplacement_8hpp_source.html">PlanarDisplacement.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarDisplacement_8hpp_source.html#l00114">114</a> of file <a class="el" href="PlanarDisplacement_8hpp_source.html">PlanarDisplacement.hpp</a>.</p>
 
 </div>
 </div>
 <a id="ad379f5f7fdd5723a719b96566a5f18a6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad379f5f7fdd5723a719b96566a5f18a6">&#9670;&nbsp;</a></span>PlanarDisplacement() <span class="overload">[10/11]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ad379f5f7fdd5723a719b96566a5f18a6">&#9670;&nbsp;</a></span>PlanarDisplacement() <span class="overload">[11/12]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -684,7 +731,7 @@ template&lt;typename Number  = double&gt; </div>
 </div>
 </div>
 <a id="aad811d95a9a5f2dc3e59a0ffda655c3d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aad811d95a9a5f2dc3e59a0ffda655c3d">&#9670;&nbsp;</a></span>PlanarDisplacement() <span class="overload">[11/11]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aad811d95a9a5f2dc3e59a0ffda655c3d">&#9670;&nbsp;</a></span>PlanarDisplacement() <span class="overload">[12/12]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -711,7 +758,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Constructor. Constructs a planar displacement vector with a given value expressed in the standard length unit. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarDisplacement_8hpp_source.html#l00238">238</a> of file <a class="el" href="PlanarDisplacement_8hpp_source.html">PlanarDisplacement.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarDisplacement_8hpp_source.html#l00243">243</a> of file <a class="el" href="PlanarDisplacement_8hpp_source.html">PlanarDisplacement.hpp</a>.</p>
 
 </div>
 </div>
@@ -744,7 +791,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the angle between this planar displacement vector and another one. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarDisplacement_8hpp_source.html#l00188">188</a> of file <a class="el" href="PlanarDisplacement_8hpp_source.html">PlanarDisplacement.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarDisplacement_8hpp_source.html#l00193">193</a> of file <a class="el" href="PlanarDisplacement_8hpp_source.html">PlanarDisplacement.hpp</a>.</p>
 
 </div>
 </div>
@@ -788,9 +835,9 @@ template&lt;Unit::Length Unit&gt; </div>
 
 <p>Statically creates a planar displacement vector from the given x and y Cartesian components expressed in a given length unit. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarDisplacement_8hpp_source.html#l00141">141</a> of file <a class="el" href="PlanarDisplacement_8hpp_source.html">PlanarDisplacement.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarDisplacement_8hpp_source.html#l00146">146</a> of file <a class="el" href="PlanarDisplacement_8hpp_source.html">PlanarDisplacement.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="PlanarDisplacement_8hpp_source.html#l00163">PhQ::PlanarDisplacement&lt; Number &gt;::x()</a>, and <a class="el" href="PlanarDisplacement_8hpp_source.html#l00168">PhQ::PlanarDisplacement&lt; Number &gt;::y()</a>.</p>
+<p class="reference">References <a class="el" href="PlanarDisplacement_8hpp_source.html#l00168">PhQ::PlanarDisplacement&lt; Number &gt;::x()</a>, and <a class="el" href="PlanarDisplacement_8hpp_source.html#l00173">PhQ::PlanarDisplacement&lt; Number &gt;::y()</a>.</p>
 
 </div>
 </div>
@@ -824,7 +871,7 @@ template&lt;Unit::Length Unit&gt; </div>
 
 <p>Statically creates a planar displacement vector with a given value expressed in a given length unit. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarDisplacement_8hpp_source.html#l00157">157</a> of file <a class="el" href="PlanarDisplacement_8hpp_source.html">PlanarDisplacement.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarDisplacement_8hpp_source.html#l00162">162</a> of file <a class="el" href="PlanarDisplacement_8hpp_source.html">PlanarDisplacement.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00219">PhQ::DimensionalPlanarVector&lt; Unit::Length, double &gt;::value</a>.</p>
 
@@ -860,7 +907,7 @@ template&lt;Unit::Length Unit&gt; </div>
 
 <p>Statically creates a planar displacement vector from the given x and y Cartesian components expressed in a given length unit. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarDisplacement_8hpp_source.html#l00149">149</a> of file <a class="el" href="PlanarDisplacement_8hpp_source.html">PlanarDisplacement.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarDisplacement_8hpp_source.html#l00154">154</a> of file <a class="el" href="PlanarDisplacement_8hpp_source.html">PlanarDisplacement.hpp</a>.</p>
 
 </div>
 </div>
@@ -979,7 +1026,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the magnitude of this planar displacement vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarDisplacement_8hpp_source.html#l00178">178</a> of file <a class="el" href="PlanarDisplacement_8hpp_source.html">PlanarDisplacement.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarDisplacement_8hpp_source.html#l00183">183</a> of file <a class="el" href="PlanarDisplacement_8hpp_source.html">PlanarDisplacement.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="PlanarVector_8hpp_source.html#l00196">PhQ::PlanarVector&lt; Number &gt;::Magnitude()</a>, and <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00219">PhQ::DimensionalPlanarVector&lt; Unit::Length, double &gt;::value</a>.</p>
 
@@ -1040,7 +1087,7 @@ template&lt;typename Number &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="PlanarVelocity_8hpp_source.html#l00323">323</a> of file <a class="el" href="PlanarVelocity_8hpp_source.html">PlanarVelocity.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarVelocity_8hpp_source.html#l00327">327</a> of file <a class="el" href="PlanarVelocity_8hpp_source.html">PlanarVelocity.hpp</a>.</p>
 
 </div>
 </div>
@@ -1070,7 +1117,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="PlanarDisplacement_8hpp_source.html#l00207">207</a> of file <a class="el" href="PlanarDisplacement_8hpp_source.html">PlanarDisplacement.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarDisplacement_8hpp_source.html#l00212">212</a> of file <a class="el" href="PlanarDisplacement_8hpp_source.html">PlanarDisplacement.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00219">PhQ::DimensionalPlanarVector&lt; Unit::Length, double &gt;::value</a>.</p>
 
@@ -1102,7 +1149,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="PlanarDisplacement_8hpp_source.html#l00227">227</a> of file <a class="el" href="PlanarDisplacement_8hpp_source.html">PlanarDisplacement.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarDisplacement_8hpp_source.html#l00232">232</a> of file <a class="el" href="PlanarDisplacement_8hpp_source.html">PlanarDisplacement.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00219">PhQ::DimensionalPlanarVector&lt; Unit::Length, double &gt;::value</a>.</p>
 
@@ -1134,7 +1181,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="PlanarDisplacement_8hpp_source.html#l00195">195</a> of file <a class="el" href="PlanarDisplacement_8hpp_source.html">PlanarDisplacement.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarDisplacement_8hpp_source.html#l00200">200</a> of file <a class="el" href="PlanarDisplacement_8hpp_source.html">PlanarDisplacement.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00219">PhQ::DimensionalPlanarVector&lt; UnitType, Number &gt;::value</a>, and <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00219">PhQ::DimensionalPlanarVector&lt; Unit::Length, double &gt;::value</a>.</p>
 
@@ -1166,7 +1213,7 @@ template&lt;typename Number &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="PlanarPosition_8hpp_source.html#l00282">282</a> of file <a class="el" href="PlanarPosition_8hpp_source.html">PlanarPosition.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarPosition_8hpp_source.html#l00286">286</a> of file <a class="el" href="PlanarPosition_8hpp_source.html">PlanarPosition.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00060">PhQ::DimensionalPlanarVector&lt; UnitType, Number &gt;::Value()</a>.</p>
 
@@ -1198,7 +1245,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="PlanarDisplacement_8hpp_source.html#l00219">219</a> of file <a class="el" href="PlanarDisplacement_8hpp_source.html">PlanarDisplacement.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarDisplacement_8hpp_source.html#l00224">224</a> of file <a class="el" href="PlanarDisplacement_8hpp_source.html">PlanarDisplacement.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00219">PhQ::DimensionalPlanarVector&lt; Unit::Length, double &gt;::value</a>.</p>
 
@@ -1230,7 +1277,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="PlanarDisplacement_8hpp_source.html#l00202">202</a> of file <a class="el" href="PlanarDisplacement_8hpp_source.html">PlanarDisplacement.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarDisplacement_8hpp_source.html#l00207">207</a> of file <a class="el" href="PlanarDisplacement_8hpp_source.html">PlanarDisplacement.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00219">PhQ::DimensionalPlanarVector&lt; UnitType, Number &gt;::value</a>, and <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00219">PhQ::DimensionalPlanarVector&lt; Unit::Length, double &gt;::value</a>.</p>
 
@@ -1262,7 +1309,7 @@ template&lt;typename Number &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="PlanarPosition_8hpp_source.html#l00288">288</a> of file <a class="el" href="PlanarPosition_8hpp_source.html">PlanarPosition.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarPosition_8hpp_source.html#l00292">292</a> of file <a class="el" href="PlanarPosition_8hpp_source.html">PlanarPosition.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00060">PhQ::DimensionalPlanarVector&lt; UnitType, Number &gt;::Value()</a>.</p>
 
@@ -1294,7 +1341,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="PlanarDisplacement_8hpp_source.html#l00223">223</a> of file <a class="el" href="PlanarDisplacement_8hpp_source.html">PlanarDisplacement.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarDisplacement_8hpp_source.html#l00228">228</a> of file <a class="el" href="PlanarDisplacement_8hpp_source.html">PlanarDisplacement.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00219">PhQ::DimensionalPlanarVector&lt; Unit::Length, double &gt;::value</a>.</p>
 
@@ -1326,7 +1373,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="PlanarDisplacement_8hpp_source.html#l00213">213</a> of file <a class="el" href="PlanarDisplacement_8hpp_source.html">PlanarDisplacement.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarDisplacement_8hpp_source.html#l00218">218</a> of file <a class="el" href="PlanarDisplacement_8hpp_source.html">PlanarDisplacement.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00219">PhQ::DimensionalPlanarVector&lt; Unit::Length, double &gt;::value</a>.</p>
 
@@ -1358,7 +1405,7 @@ template&lt;typename Number &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="PlanarVelocity_8hpp_source.html#l00329">329</a> of file <a class="el" href="PlanarVelocity_8hpp_source.html">PlanarVelocity.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarVelocity_8hpp_source.html#l00333">333</a> of file <a class="el" href="PlanarVelocity_8hpp_source.html">PlanarVelocity.hpp</a>.</p>
 
 </div>
 </div>
@@ -1388,7 +1435,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="PlanarDisplacement_8hpp_source.html#l00231">231</a> of file <a class="el" href="PlanarDisplacement_8hpp_source.html">PlanarDisplacement.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarDisplacement_8hpp_source.html#l00236">236</a> of file <a class="el" href="PlanarDisplacement_8hpp_source.html">PlanarDisplacement.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00219">PhQ::DimensionalPlanarVector&lt; Unit::Length, double &gt;::value</a>.</p>
 
@@ -1454,7 +1501,7 @@ template&lt;typename OtherNumber &gt; </div>
 
 <p>Copy assignment operator. Assigns this planar displacement vector by copying another one. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarDisplacement_8hpp_source.html#l00123">123</a> of file <a class="el" href="PlanarDisplacement_8hpp_source.html">PlanarDisplacement.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarDisplacement_8hpp_source.html#l00128">128</a> of file <a class="el" href="PlanarDisplacement_8hpp_source.html">PlanarDisplacement.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00060">PhQ::DimensionalPlanarVector&lt; UnitType, Number &gt;::Value()</a>, and <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00219">PhQ::DimensionalPlanarVector&lt; Unit::Length, double &gt;::value</a>.</p>
 
@@ -1517,7 +1564,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the planar direction of this planar displacement vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarDisplacement_8hpp_source.html#l00183">183</a> of file <a class="el" href="PlanarDisplacement_8hpp_source.html">PlanarDisplacement.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarDisplacement_8hpp_source.html#l00188">188</a> of file <a class="el" href="PlanarDisplacement_8hpp_source.html">PlanarDisplacement.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="PlanarDirection_8hpp_source.html#l00377">PhQ::PlanarVector&lt; Number &gt;::PlanarDirection()</a>, and <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00219">PhQ::DimensionalPlanarVector&lt; Unit::Length, double &gt;::value</a>.</p>
 
@@ -1756,11 +1803,11 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the x Cartesian component of this planar displacement vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarDisplacement_8hpp_source.html#l00163">163</a> of file <a class="el" href="PlanarDisplacement_8hpp_source.html">PlanarDisplacement.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarDisplacement_8hpp_source.html#l00168">168</a> of file <a class="el" href="PlanarDisplacement_8hpp_source.html">PlanarDisplacement.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00219">PhQ::DimensionalPlanarVector&lt; Unit::Length, double &gt;::value</a>, and <a class="el" href="PlanarVector_8hpp_source.html#l00141">PhQ::PlanarVector&lt; Number &gt;::x()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="PlanarDisplacement_8hpp_source.html#l00141">PhQ::PlanarDisplacement&lt; Number &gt;::Create()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="PlanarDisplacement_8hpp_source.html#l00146">PhQ::PlanarDisplacement&lt; Number &gt;::Create()</a>, and <a class="el" href="PlanarDisplacement_8hpp_source.html#l00079">PhQ::PlanarDisplacement&lt; Number &gt;::PlanarDisplacement()</a>.</p>
 
 </div>
 </div>
@@ -1850,11 +1897,11 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the y Cartesian component of this planar displacement vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarDisplacement_8hpp_source.html#l00168">168</a> of file <a class="el" href="PlanarDisplacement_8hpp_source.html">PlanarDisplacement.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarDisplacement_8hpp_source.html#l00173">173</a> of file <a class="el" href="PlanarDisplacement_8hpp_source.html">PlanarDisplacement.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00219">PhQ::DimensionalPlanarVector&lt; Unit::Length, double &gt;::value</a>, and <a class="el" href="PlanarVector_8hpp_source.html#l00146">PhQ::PlanarVector&lt; Number &gt;::y()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="PlanarDisplacement_8hpp_source.html#l00141">PhQ::PlanarDisplacement&lt; Number &gt;::Create()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="PlanarDisplacement_8hpp_source.html#l00146">PhQ::PlanarDisplacement&lt; Number &gt;::Create()</a>, and <a class="el" href="PlanarDisplacement_8hpp_source.html#l00079">PhQ::PlanarDisplacement&lt; Number &gt;::PlanarDisplacement()</a>.</p>
 
 </div>
 </div>
@@ -1944,7 +1991,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the z Cartesian component of this planar displacement vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarDisplacement_8hpp_source.html#l00173">173</a> of file <a class="el" href="PlanarDisplacement_8hpp_source.html">PlanarDisplacement.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarDisplacement_8hpp_source.html#l00178">178</a> of file <a class="el" href="PlanarDisplacement_8hpp_source.html">PlanarDisplacement.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00219">PhQ::DimensionalPlanarVector&lt; Unit::Length, double &gt;::value</a>.</p>
 
@@ -1977,7 +2024,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Statically creates a planar displacement vector of zero. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarDisplacement_8hpp_source.html#l00134">134</a> of file <a class="el" href="PlanarDisplacement_8hpp_source.html">PlanarDisplacement.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarDisplacement_8hpp_source.html#l00139">139</a> of file <a class="el" href="PlanarDisplacement_8hpp_source.html">PlanarDisplacement.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="PlanarVector_8hpp_source.html#l00129">PhQ::PlanarVector&lt; Number &gt;::Zero()</a>.</p>
 
@@ -2008,7 +2055,7 @@ template&lt;typename OtherNumber &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="PlanarDisplacement_8hpp_source.html#l00242">242</a> of file <a class="el" href="PlanarDisplacement_8hpp_source.html">PlanarDisplacement.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarDisplacement_8hpp_source.html#l00247">247</a> of file <a class="el" href="PlanarDisplacement_8hpp_source.html">PlanarDisplacement.hpp</a>.</p>
 
 </div>
 </div>

@@ -126,6 +126,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ae797062bcabe99e896a754d7c2a922f8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1StrainRate.html#ae797062bcabe99e896a754d7c2a922f8">StrainRate</a> (const <a class="el" href="classPhQ_1_1SymmetricDyad.html">SymmetricDyad</a>&lt; Number &gt; &amp;<a class="el" href="classPhQ_1_1DimensionalSymmetricDyad.html#afa7bfb503dbeb7c6e3284e0a39f25d0a">value</a>, <a class="el" href="namespacePhQ_1_1Unit.html#a5690cf24c854447e014932672e591da1">Unit::Frequency</a> unit)</td></tr>
 <tr class="memdesc:ae797062bcabe99e896a754d7c2a922f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a strain rate tensor with a given value expressed in a given frequency unit.  <a href="classPhQ_1_1StrainRate.html#ae797062bcabe99e896a754d7c2a922f8">More...</a><br /></td></tr>
 <tr class="separator:ae797062bcabe99e896a754d7c2a922f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3375bc56c8d5bdf31a3ef192abbf6b2f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1StrainRate.html#a3375bc56c8d5bdf31a3ef192abbf6b2f">StrainRate</a> (const <a class="el" href="classPhQ_1_1ScalarStrainRate.html">ScalarStrainRate</a>&lt; Number &gt; &amp;<a class="el" href="classPhQ_1_1StrainRate.html#ae174472529c679a00e51af9f8cada369">xx</a>, const <a class="el" href="classPhQ_1_1ScalarStrainRate.html">ScalarStrainRate</a>&lt; Number &gt; &amp;<a class="el" href="classPhQ_1_1StrainRate.html#a796ee899bf18ea599017c045169b4603">xy</a>, const <a class="el" href="classPhQ_1_1ScalarStrainRate.html">ScalarStrainRate</a>&lt; Number &gt; &amp;<a class="el" href="classPhQ_1_1StrainRate.html#ad55996837fdd99fb8dccb64ed08b2a2c">xz</a>, const <a class="el" href="classPhQ_1_1ScalarStrainRate.html">ScalarStrainRate</a>&lt; Number &gt; &amp;<a class="el" href="classPhQ_1_1StrainRate.html#af84e05f220c6c0df3379b13601903644">yy</a>, const <a class="el" href="classPhQ_1_1ScalarStrainRate.html">ScalarStrainRate</a>&lt; Number &gt; &amp;<a class="el" href="classPhQ_1_1StrainRate.html#ab6b7b92e8f003e6c1ac9f8da0a0b8dcf">yz</a>, const <a class="el" href="classPhQ_1_1ScalarStrainRate.html">ScalarStrainRate</a>&lt; Number &gt; &amp;<a class="el" href="classPhQ_1_1StrainRate.html#aab65e67b078c1bc9f9401a9623ad1581">zz</a>)</td></tr>
+<tr class="memdesc:a3375bc56c8d5bdf31a3ef192abbf6b2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a strain rate tensor from a given set of scalar strain rate components.  <a href="classPhQ_1_1StrainRate.html#a3375bc56c8d5bdf31a3ef192abbf6b2f">More...</a><br /></td></tr>
+<tr class="separator:a3375bc56c8d5bdf31a3ef192abbf6b2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7e78aaefed9f35acc67e738e8ac3baf4"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1StrainRate.html#a7e78aaefed9f35acc67e738e8ac3baf4">StrainRate</a> (const <a class="el" href="classPhQ_1_1Strain.html">Strain</a>&lt; Number &gt; &amp;strain, const <a class="el" href="classPhQ_1_1Time.html">Time</a>&lt; Number &gt; &amp;time)</td></tr>
 <tr class="memdesc:a7e78aaefed9f35acc67e738e8ac3baf4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a strain rate tensor from a given strain tensor and time using the definition of the strain rate tensor.  <a href="classPhQ_1_1StrainRate.html#a7e78aaefed9f35acc67e738e8ac3baf4">More...</a><br /></td></tr>
 <tr class="separator:a7e78aaefed9f35acc67e738e8ac3baf4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -290,7 +293,7 @@ class PhQ::StrainRate&lt; Number &gt;</h3>
 <p class="definition">Definition at line <a class="el" href="StrainRate_8hpp_source.html#l00053">53</a> of file <a class="el" href="StrainRate_8hpp_source.html">StrainRate.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a28f40babb8770f08691ff64dd79c4d5b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a28f40babb8770f08691ff64dd79c4d5b">&#9670;&nbsp;</a></span>StrainRate() <span class="overload">[1/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a28f40babb8770f08691ff64dd79c4d5b">&#9670;&nbsp;</a></span>StrainRate() <span class="overload">[1/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -319,7 +322,7 @@ template&lt;typename Number  = double&gt; </div>
 </div>
 </div>
 <a id="ae797062bcabe99e896a754d7c2a922f8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae797062bcabe99e896a754d7c2a922f8">&#9670;&nbsp;</a></span>StrainRate() <span class="overload">[2/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ae797062bcabe99e896a754d7c2a922f8">&#9670;&nbsp;</a></span>StrainRate() <span class="overload">[2/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -360,8 +363,76 @@ template&lt;typename Number  = double&gt; </div>
 
 </div>
 </div>
+<a id="a3375bc56c8d5bdf31a3ef192abbf6b2f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3375bc56c8d5bdf31a3ef192abbf6b2f">&#9670;&nbsp;</a></span>StrainRate() <span class="overload">[3/10]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Number  = double&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classPhQ_1_1StrainRate.html">PhQ::StrainRate</a>&lt; Number &gt;::<a class="el" href="classPhQ_1_1StrainRate.html">StrainRate</a> </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1ScalarStrainRate.html">ScalarStrainRate</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramname"><em>xx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1ScalarStrainRate.html">ScalarStrainRate</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramname"><em>xy</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1ScalarStrainRate.html">ScalarStrainRate</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramname"><em>xz</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1ScalarStrainRate.html">ScalarStrainRate</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramname"><em>yy</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1ScalarStrainRate.html">ScalarStrainRate</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramname"><em>yz</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1ScalarStrainRate.html">ScalarStrainRate</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramname"><em>zz</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Constructor. Constructs a strain rate tensor from a given set of scalar strain rate components. </p>
+
+<p class="definition">Definition at line <a class="el" href="StrainRate_8hpp_source.html#l00065">65</a> of file <a class="el" href="StrainRate_8hpp_source.html">StrainRate.hpp</a>.</p>
+
+<p class="reference">References <a class="el" href="StrainRate_8hpp_source.html#l00143">PhQ::StrainRate&lt; Number &gt;::xx()</a>, <a class="el" href="StrainRate_8hpp_source.html#l00148">PhQ::StrainRate&lt; Number &gt;::xy()</a>, <a class="el" href="StrainRate_8hpp_source.html#l00153">PhQ::StrainRate&lt; Number &gt;::xz()</a>, <a class="el" href="StrainRate_8hpp_source.html#l00163">PhQ::StrainRate&lt; Number &gt;::yy()</a>, <a class="el" href="StrainRate_8hpp_source.html#l00168">PhQ::StrainRate&lt; Number &gt;::yz()</a>, and <a class="el" href="StrainRate_8hpp_source.html#l00183">PhQ::StrainRate&lt; Number &gt;::zz()</a>.</p>
+
+</div>
+</div>
 <a id="a7e78aaefed9f35acc67e738e8ac3baf4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7e78aaefed9f35acc67e738e8ac3baf4">&#9670;&nbsp;</a></span>StrainRate() <span class="overload">[3/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a7e78aaefed9f35acc67e738e8ac3baf4">&#9670;&nbsp;</a></span>StrainRate() <span class="overload">[4/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -398,12 +469,12 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Constructor. Constructs a strain rate tensor from a given strain tensor and time using the definition of the strain rate tensor. </p>
 
-<p class="definition">Definition at line <a class="el" href="StrainRate_8hpp_source.html#l00065">65</a> of file <a class="el" href="StrainRate_8hpp_source.html">StrainRate.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="StrainRate_8hpp_source.html#l00073">73</a> of file <a class="el" href="StrainRate_8hpp_source.html">StrainRate.hpp</a>.</p>
 
 </div>
 </div>
 <a id="a34ef129543d2e73dffa0546f581add3e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a34ef129543d2e73dffa0546f581add3e">&#9670;&nbsp;</a></span>StrainRate() <span class="overload">[4/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a34ef129543d2e73dffa0546f581add3e">&#9670;&nbsp;</a></span>StrainRate() <span class="overload">[5/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -440,12 +511,12 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Constructor. Constructs a strain rate tensor from a given strain tensor and frequency using the definition of the strain rate tensor. </p>
 
-<p class="definition">Definition at line <a class="el" href="StrainRate_8hpp_source.html#l00070">70</a> of file <a class="el" href="StrainRate_8hpp_source.html">StrainRate.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="StrainRate_8hpp_source.html#l00078">78</a> of file <a class="el" href="StrainRate_8hpp_source.html">StrainRate.hpp</a>.</p>
 
 </div>
 </div>
 <a id="a106d1d92b3ffa23c1521a919d036bd98"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a106d1d92b3ffa23c1521a919d036bd98">&#9670;&nbsp;</a></span>StrainRate() <span class="overload">[5/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a106d1d92b3ffa23c1521a919d036bd98">&#9670;&nbsp;</a></span>StrainRate() <span class="overload">[6/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -472,7 +543,7 @@ template&lt;typename Number &gt; </div>
 
 <p>Constructor. Constructs a strain rate tensor from a given velocity gradient using the definition of the strain rate tensor. </p>
 
-<p class="definition">Definition at line <a class="el" href="VelocityGradient_8hpp_source.html#l00286">286</a> of file <a class="el" href="VelocityGradient_8hpp_source.html">VelocityGradient.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="VelocityGradient_8hpp_source.html#l00297">297</a> of file <a class="el" href="VelocityGradient_8hpp_source.html">VelocityGradient.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalDyad_8hpp_source.html#l00060">PhQ::DimensionalDyad&lt; UnitType, Number &gt;::Value()</a>, <a class="el" href="Dyad_8hpp_source.html#l00164">PhQ::Dyad&lt; Number &gt;::xx()</a>, <a class="el" href="Dyad_8hpp_source.html#l00169">PhQ::Dyad&lt; Number &gt;::xy()</a>, <a class="el" href="Dyad_8hpp_source.html#l00174">PhQ::Dyad&lt; Number &gt;::xz()</a>, <a class="el" href="Dyad_8hpp_source.html#l00179">PhQ::Dyad&lt; Number &gt;::yx()</a>, <a class="el" href="Dyad_8hpp_source.html#l00184">PhQ::Dyad&lt; Number &gt;::yy()</a>, <a class="el" href="Dyad_8hpp_source.html#l00189">PhQ::Dyad&lt; Number &gt;::yz()</a>, <a class="el" href="Dyad_8hpp_source.html#l00194">PhQ::Dyad&lt; Number &gt;::zx()</a>, <a class="el" href="Dyad_8hpp_source.html#l00199">PhQ::Dyad&lt; Number &gt;::zy()</a>, and <a class="el" href="Dyad_8hpp_source.html#l00204">PhQ::Dyad&lt; Number &gt;::zz()</a>.</p>
 
@@ -508,7 +579,7 @@ template&lt;typename Number  = double&gt; </div>
 </div>
 </div>
 <a id="af24e445ae6c91139407ae9835d5e0b1d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af24e445ae6c91139407ae9835d5e0b1d">&#9670;&nbsp;</a></span>StrainRate() <span class="overload">[6/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#af24e445ae6c91139407ae9835d5e0b1d">&#9670;&nbsp;</a></span>StrainRate() <span class="overload">[7/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -538,7 +609,7 @@ template&lt;typename Number  = double&gt; </div>
 </div>
 </div>
 <a id="a96caf033af81047cd9baee340737966e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a96caf033af81047cd9baee340737966e">&#9670;&nbsp;</a></span>StrainRate() <span class="overload">[7/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a96caf033af81047cd9baee340737966e">&#9670;&nbsp;</a></span>StrainRate() <span class="overload">[8/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -567,12 +638,12 @@ template&lt;typename OtherNumber &gt; </div>
 
 <p>Copy constructor. Constructs a strain rate tensor by copying another one. </p>
 
-<p class="definition">Definition at line <a class="el" href="StrainRate_8hpp_source.html#l00085">85</a> of file <a class="el" href="StrainRate_8hpp_source.html">StrainRate.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="StrainRate_8hpp_source.html#l00093">93</a> of file <a class="el" href="StrainRate_8hpp_source.html">StrainRate.hpp</a>.</p>
 
 </div>
 </div>
 <a id="a92d8a43ac35ba22946939162b42965b8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a92d8a43ac35ba22946939162b42965b8">&#9670;&nbsp;</a></span>StrainRate() <span class="overload">[8/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a92d8a43ac35ba22946939162b42965b8">&#9670;&nbsp;</a></span>StrainRate() <span class="overload">[9/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -602,7 +673,7 @@ template&lt;typename Number  = double&gt; </div>
 </div>
 </div>
 <a id="a179db960ac51ed2db8415e35e367a0b9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a179db960ac51ed2db8415e35e367a0b9">&#9670;&nbsp;</a></span>StrainRate() <span class="overload">[9/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a179db960ac51ed2db8415e35e367a0b9">&#9670;&nbsp;</a></span>StrainRate() <span class="overload">[10/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -629,7 +700,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Constructor. Constructs a strain rate tensor with a given value expressed in the standard frequency unit. </p>
 
-<p class="definition">Definition at line <a class="el" href="StrainRate_8hpp_source.html#l00222">222</a> of file <a class="el" href="StrainRate_8hpp_source.html">StrainRate.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="StrainRate_8hpp_source.html#l00230">230</a> of file <a class="el" href="StrainRate_8hpp_source.html">StrainRate.hpp</a>.</p>
 
 </div>
 </div>
@@ -698,9 +769,9 @@ template&lt;Unit::Frequency Unit&gt; </div>
 
 <p>Statically creates a strain rate tensor from the given xx, xy, xz, yy, yz, and zz Cartesian components expressed in a given frequency unit. </p>
 
-<p class="definition">Definition at line <a class="el" href="StrainRate_8hpp_source.html#l00112">112</a> of file <a class="el" href="StrainRate_8hpp_source.html">StrainRate.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="StrainRate_8hpp_source.html#l00120">120</a> of file <a class="el" href="StrainRate_8hpp_source.html">StrainRate.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="StrainRate_8hpp_source.html#l00135">PhQ::StrainRate&lt; Number &gt;::xx()</a>, <a class="el" href="StrainRate_8hpp_source.html#l00140">PhQ::StrainRate&lt; Number &gt;::xy()</a>, <a class="el" href="StrainRate_8hpp_source.html#l00145">PhQ::StrainRate&lt; Number &gt;::xz()</a>, <a class="el" href="StrainRate_8hpp_source.html#l00155">PhQ::StrainRate&lt; Number &gt;::yy()</a>, <a class="el" href="StrainRate_8hpp_source.html#l00160">PhQ::StrainRate&lt; Number &gt;::yz()</a>, and <a class="el" href="StrainRate_8hpp_source.html#l00175">PhQ::StrainRate&lt; Number &gt;::zz()</a>.</p>
+<p class="reference">References <a class="el" href="StrainRate_8hpp_source.html#l00143">PhQ::StrainRate&lt; Number &gt;::xx()</a>, <a class="el" href="StrainRate_8hpp_source.html#l00148">PhQ::StrainRate&lt; Number &gt;::xy()</a>, <a class="el" href="StrainRate_8hpp_source.html#l00153">PhQ::StrainRate&lt; Number &gt;::xz()</a>, <a class="el" href="StrainRate_8hpp_source.html#l00163">PhQ::StrainRate&lt; Number &gt;::yy()</a>, <a class="el" href="StrainRate_8hpp_source.html#l00168">PhQ::StrainRate&lt; Number &gt;::yz()</a>, and <a class="el" href="StrainRate_8hpp_source.html#l00183">PhQ::StrainRate&lt; Number &gt;::zz()</a>.</p>
 
 </div>
 </div>
@@ -734,7 +805,7 @@ template&lt;Unit::Frequency Unit&gt; </div>
 
 <p>Statically creates a strain rate tensor from the given xx, xy, xz, yy, yz, and zz Cartesian components expressed in a given frequency unit. </p>
 
-<p class="definition">Definition at line <a class="el" href="StrainRate_8hpp_source.html#l00121">121</a> of file <a class="el" href="StrainRate_8hpp_source.html">StrainRate.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="StrainRate_8hpp_source.html#l00129">129</a> of file <a class="el" href="StrainRate_8hpp_source.html">StrainRate.hpp</a>.</p>
 
 </div>
 </div>
@@ -768,7 +839,7 @@ template&lt;Unit::Frequency Unit&gt; </div>
 
 <p>Statically creates a strain rate tensor with a given value expressed in a given frequency unit. </p>
 
-<p class="definition">Definition at line <a class="el" href="StrainRate_8hpp_source.html#l00129">129</a> of file <a class="el" href="StrainRate_8hpp_source.html">StrainRate.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="StrainRate_8hpp_source.html#l00137">137</a> of file <a class="el" href="StrainRate_8hpp_source.html">StrainRate.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00219">PhQ::DimensionalSymmetricDyad&lt; Unit::Frequency, double &gt;::value</a>.</p>
 
@@ -917,7 +988,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="StrainRate_8hpp_source.html#l00187">187</a> of file <a class="el" href="StrainRate_8hpp_source.html">StrainRate.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="StrainRate_8hpp_source.html#l00195">195</a> of file <a class="el" href="StrainRate_8hpp_source.html">StrainRate.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00219">PhQ::DimensionalSymmetricDyad&lt; Unit::Frequency, double &gt;::value</a>.</p>
 
@@ -949,7 +1020,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="StrainRate_8hpp_source.html#l00191">191</a> of file <a class="el" href="StrainRate_8hpp_source.html">StrainRate.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="StrainRate_8hpp_source.html#l00199">199</a> of file <a class="el" href="StrainRate_8hpp_source.html">StrainRate.hpp</a>.</p>
 
 </div>
 </div>
@@ -979,7 +1050,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="StrainRate_8hpp_source.html#l00211">211</a> of file <a class="el" href="StrainRate_8hpp_source.html">StrainRate.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="StrainRate_8hpp_source.html#l00219">219</a> of file <a class="el" href="StrainRate_8hpp_source.html">StrainRate.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00219">PhQ::DimensionalSymmetricDyad&lt; Unit::Frequency, double &gt;::value</a>.</p>
 
@@ -1011,7 +1082,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="StrainRate_8hpp_source.html#l00179">179</a> of file <a class="el" href="StrainRate_8hpp_source.html">StrainRate.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="StrainRate_8hpp_source.html#l00187">187</a> of file <a class="el" href="StrainRate_8hpp_source.html">StrainRate.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00219">PhQ::DimensionalSymmetricDyad&lt; UnitType, Number &gt;::value</a>, and <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00219">PhQ::DimensionalSymmetricDyad&lt; Unit::Frequency, double &gt;::value</a>.</p>
 
@@ -1043,7 +1114,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="StrainRate_8hpp_source.html#l00203">203</a> of file <a class="el" href="StrainRate_8hpp_source.html">StrainRate.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="StrainRate_8hpp_source.html#l00211">211</a> of file <a class="el" href="StrainRate_8hpp_source.html">StrainRate.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00219">PhQ::DimensionalSymmetricDyad&lt; Unit::Frequency, double &gt;::value</a>.</p>
 
@@ -1075,7 +1146,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="StrainRate_8hpp_source.html#l00183">183</a> of file <a class="el" href="StrainRate_8hpp_source.html">StrainRate.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="StrainRate_8hpp_source.html#l00191">191</a> of file <a class="el" href="StrainRate_8hpp_source.html">StrainRate.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00219">PhQ::DimensionalSymmetricDyad&lt; UnitType, Number &gt;::value</a>, and <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00219">PhQ::DimensionalSymmetricDyad&lt; Unit::Frequency, double &gt;::value</a>.</p>
 
@@ -1107,7 +1178,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="StrainRate_8hpp_source.html#l00207">207</a> of file <a class="el" href="StrainRate_8hpp_source.html">StrainRate.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="StrainRate_8hpp_source.html#l00215">215</a> of file <a class="el" href="StrainRate_8hpp_source.html">StrainRate.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00219">PhQ::DimensionalSymmetricDyad&lt; Unit::Frequency, double &gt;::value</a>.</p>
 
@@ -1139,7 +1210,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="StrainRate_8hpp_source.html#l00199">199</a> of file <a class="el" href="StrainRate_8hpp_source.html">StrainRate.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="StrainRate_8hpp_source.html#l00207">207</a> of file <a class="el" href="StrainRate_8hpp_source.html">StrainRate.hpp</a>.</p>
 
 </div>
 </div>
@@ -1169,7 +1240,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="StrainRate_8hpp_source.html#l00195">195</a> of file <a class="el" href="StrainRate_8hpp_source.html">StrainRate.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="StrainRate_8hpp_source.html#l00203">203</a> of file <a class="el" href="StrainRate_8hpp_source.html">StrainRate.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00219">PhQ::DimensionalSymmetricDyad&lt; Unit::Frequency, double &gt;::value</a>.</p>
 
@@ -1201,7 +1272,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="StrainRate_8hpp_source.html#l00215">215</a> of file <a class="el" href="StrainRate_8hpp_source.html">StrainRate.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="StrainRate_8hpp_source.html#l00223">223</a> of file <a class="el" href="StrainRate_8hpp_source.html">StrainRate.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00219">PhQ::DimensionalSymmetricDyad&lt; Unit::Frequency, double &gt;::value</a>.</p>
 
@@ -1267,7 +1338,7 @@ template&lt;typename OtherNumber &gt; </div>
 
 <p>Copy assignment operator. Assigns this strain rate tensor by copying another one. </p>
 
-<p class="definition">Definition at line <a class="el" href="StrainRate_8hpp_source.html#l00096">96</a> of file <a class="el" href="StrainRate_8hpp_source.html">StrainRate.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="StrainRate_8hpp_source.html#l00104">104</a> of file <a class="el" href="StrainRate_8hpp_source.html">StrainRate.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00060">PhQ::DimensionalSymmetricDyad&lt; UnitType, Number &gt;::Value()</a>, and <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00219">PhQ::DimensionalSymmetricDyad&lt; Unit::Frequency, double &gt;::value</a>.</p>
 
@@ -1595,11 +1666,11 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the xx Cartesian component of this strain rate tensor. </p>
 
-<p class="definition">Definition at line <a class="el" href="StrainRate_8hpp_source.html#l00135">135</a> of file <a class="el" href="StrainRate_8hpp_source.html">StrainRate.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="StrainRate_8hpp_source.html#l00143">143</a> of file <a class="el" href="StrainRate_8hpp_source.html">StrainRate.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00219">PhQ::DimensionalSymmetricDyad&lt; Unit::Frequency, double &gt;::value</a>, and <a class="el" href="SymmetricDyad_8hpp_source.html#l00135">PhQ::SymmetricDyad&lt; Number &gt;::xx()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="StrainRate_8hpp_source.html#l00112">PhQ::StrainRate&lt; Number &gt;::Create()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="StrainRate_8hpp_source.html#l00120">PhQ::StrainRate&lt; Number &gt;::Create()</a>, and <a class="el" href="StrainRate_8hpp_source.html#l00065">PhQ::StrainRate&lt; Number &gt;::StrainRate()</a>.</p>
 
 </div>
 </div>
@@ -1630,11 +1701,11 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the xy = yx Cartesian component of this strain rate tensor. </p>
 
-<p class="definition">Definition at line <a class="el" href="StrainRate_8hpp_source.html#l00140">140</a> of file <a class="el" href="StrainRate_8hpp_source.html">StrainRate.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="StrainRate_8hpp_source.html#l00148">148</a> of file <a class="el" href="StrainRate_8hpp_source.html">StrainRate.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00219">PhQ::DimensionalSymmetricDyad&lt; Unit::Frequency, double &gt;::value</a>, and <a class="el" href="SymmetricDyad_8hpp_source.html#l00140">PhQ::SymmetricDyad&lt; Number &gt;::xy()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="StrainRate_8hpp_source.html#l00112">PhQ::StrainRate&lt; Number &gt;::Create()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="StrainRate_8hpp_source.html#l00120">PhQ::StrainRate&lt; Number &gt;::Create()</a>, and <a class="el" href="StrainRate_8hpp_source.html#l00065">PhQ::StrainRate&lt; Number &gt;::StrainRate()</a>.</p>
 
 </div>
 </div>
@@ -1665,11 +1736,11 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the xz = zx Cartesian component of this strain rate tensor. </p>
 
-<p class="definition">Definition at line <a class="el" href="StrainRate_8hpp_source.html#l00145">145</a> of file <a class="el" href="StrainRate_8hpp_source.html">StrainRate.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="StrainRate_8hpp_source.html#l00153">153</a> of file <a class="el" href="StrainRate_8hpp_source.html">StrainRate.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00219">PhQ::DimensionalSymmetricDyad&lt; Unit::Frequency, double &gt;::value</a>, and <a class="el" href="SymmetricDyad_8hpp_source.html#l00145">PhQ::SymmetricDyad&lt; Number &gt;::xz()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="StrainRate_8hpp_source.html#l00112">PhQ::StrainRate&lt; Number &gt;::Create()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="StrainRate_8hpp_source.html#l00120">PhQ::StrainRate&lt; Number &gt;::Create()</a>, and <a class="el" href="StrainRate_8hpp_source.html#l00065">PhQ::StrainRate&lt; Number &gt;::StrainRate()</a>.</p>
 
 </div>
 </div>
@@ -1759,7 +1830,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the yx = xy Cartesian component of this strain rate tensor. </p>
 
-<p class="definition">Definition at line <a class="el" href="StrainRate_8hpp_source.html#l00150">150</a> of file <a class="el" href="StrainRate_8hpp_source.html">StrainRate.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="StrainRate_8hpp_source.html#l00158">158</a> of file <a class="el" href="StrainRate_8hpp_source.html">StrainRate.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00219">PhQ::DimensionalSymmetricDyad&lt; Unit::Frequency, double &gt;::value</a>, and <a class="el" href="SymmetricDyad_8hpp_source.html#l00150">PhQ::SymmetricDyad&lt; Number &gt;::yx()</a>.</p>
 
@@ -1792,11 +1863,11 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the yy Cartesian component of this strain rate tensor. </p>
 
-<p class="definition">Definition at line <a class="el" href="StrainRate_8hpp_source.html#l00155">155</a> of file <a class="el" href="StrainRate_8hpp_source.html">StrainRate.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="StrainRate_8hpp_source.html#l00163">163</a> of file <a class="el" href="StrainRate_8hpp_source.html">StrainRate.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00219">PhQ::DimensionalSymmetricDyad&lt; Unit::Frequency, double &gt;::value</a>, and <a class="el" href="SymmetricDyad_8hpp_source.html#l00155">PhQ::SymmetricDyad&lt; Number &gt;::yy()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="StrainRate_8hpp_source.html#l00112">PhQ::StrainRate&lt; Number &gt;::Create()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="StrainRate_8hpp_source.html#l00120">PhQ::StrainRate&lt; Number &gt;::Create()</a>, and <a class="el" href="StrainRate_8hpp_source.html#l00065">PhQ::StrainRate&lt; Number &gt;::StrainRate()</a>.</p>
 
 </div>
 </div>
@@ -1827,11 +1898,11 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the yz = zy Cartesian component of this strain rate tensor. </p>
 
-<p class="definition">Definition at line <a class="el" href="StrainRate_8hpp_source.html#l00160">160</a> of file <a class="el" href="StrainRate_8hpp_source.html">StrainRate.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="StrainRate_8hpp_source.html#l00168">168</a> of file <a class="el" href="StrainRate_8hpp_source.html">StrainRate.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00219">PhQ::DimensionalSymmetricDyad&lt; Unit::Frequency, double &gt;::value</a>, and <a class="el" href="SymmetricDyad_8hpp_source.html#l00160">PhQ::SymmetricDyad&lt; Number &gt;::yz()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="StrainRate_8hpp_source.html#l00112">PhQ::StrainRate&lt; Number &gt;::Create()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="StrainRate_8hpp_source.html#l00120">PhQ::StrainRate&lt; Number &gt;::Create()</a>, and <a class="el" href="StrainRate_8hpp_source.html#l00065">PhQ::StrainRate&lt; Number &gt;::StrainRate()</a>.</p>
 
 </div>
 </div>
@@ -1862,7 +1933,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Statically creates a strain rate tensor of zero. </p>
 
-<p class="definition">Definition at line <a class="el" href="StrainRate_8hpp_source.html#l00105">105</a> of file <a class="el" href="StrainRate_8hpp_source.html">StrainRate.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="StrainRate_8hpp_source.html#l00113">113</a> of file <a class="el" href="StrainRate_8hpp_source.html">StrainRate.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="SymmetricDyad_8hpp_source.html#l00120">PhQ::SymmetricDyad&lt; Number &gt;::Zero()</a>.</p>
 
@@ -1897,7 +1968,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the zx = xz Cartesian component of this strain rate tensor. </p>
 
-<p class="definition">Definition at line <a class="el" href="StrainRate_8hpp_source.html#l00165">165</a> of file <a class="el" href="StrainRate_8hpp_source.html">StrainRate.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="StrainRate_8hpp_source.html#l00173">173</a> of file <a class="el" href="StrainRate_8hpp_source.html">StrainRate.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00219">PhQ::DimensionalSymmetricDyad&lt; Unit::Frequency, double &gt;::value</a>, and <a class="el" href="SymmetricDyad_8hpp_source.html#l00165">PhQ::SymmetricDyad&lt; Number &gt;::zx()</a>.</p>
 
@@ -1930,7 +2001,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the zy = yz Cartesian component of this strain rate tensor. </p>
 
-<p class="definition">Definition at line <a class="el" href="StrainRate_8hpp_source.html#l00170">170</a> of file <a class="el" href="StrainRate_8hpp_source.html">StrainRate.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="StrainRate_8hpp_source.html#l00178">178</a> of file <a class="el" href="StrainRate_8hpp_source.html">StrainRate.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00219">PhQ::DimensionalSymmetricDyad&lt; Unit::Frequency, double &gt;::value</a>, and <a class="el" href="SymmetricDyad_8hpp_source.html#l00170">PhQ::SymmetricDyad&lt; Number &gt;::zy()</a>.</p>
 
@@ -1963,11 +2034,11 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the zz Cartesian component of this strain rate tensor. </p>
 
-<p class="definition">Definition at line <a class="el" href="StrainRate_8hpp_source.html#l00175">175</a> of file <a class="el" href="StrainRate_8hpp_source.html">StrainRate.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="StrainRate_8hpp_source.html#l00183">183</a> of file <a class="el" href="StrainRate_8hpp_source.html">StrainRate.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00219">PhQ::DimensionalSymmetricDyad&lt; Unit::Frequency, double &gt;::value</a>, and <a class="el" href="SymmetricDyad_8hpp_source.html#l00175">PhQ::SymmetricDyad&lt; Number &gt;::zz()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="StrainRate_8hpp_source.html#l00112">PhQ::StrainRate&lt; Number &gt;::Create()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="StrainRate_8hpp_source.html#l00120">PhQ::StrainRate&lt; Number &gt;::Create()</a>, and <a class="el" href="StrainRate_8hpp_source.html#l00065">PhQ::StrainRate&lt; Number &gt;::StrainRate()</a>.</p>
 
 </div>
 </div>

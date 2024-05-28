@@ -126,6 +126,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a91218f84c53f5dc34c626d2b5fe9a1bd"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Stress.html#a91218f84c53f5dc34c626d2b5fe9a1bd">Stress</a> (const <a class="el" href="classPhQ_1_1SymmetricDyad.html">SymmetricDyad</a>&lt; Number &gt; &amp;<a class="el" href="classPhQ_1_1DimensionalSymmetricDyad.html#afa7bfb503dbeb7c6e3284e0a39f25d0a">value</a>, const <a class="el" href="namespacePhQ_1_1Unit.html#abcbda7b992e98486ca609a164ae78a24">Unit::Pressure</a> unit)</td></tr>
 <tr class="memdesc:a91218f84c53f5dc34c626d2b5fe9a1bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a stress tensor with a given value expressed in a given pressure unit.  <a href="classPhQ_1_1Stress.html#a91218f84c53f5dc34c626d2b5fe9a1bd">More...</a><br /></td></tr>
 <tr class="separator:a91218f84c53f5dc34c626d2b5fe9a1bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a65b1c70685888fa8fda6adf63e40bc88"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Stress.html#a65b1c70685888fa8fda6adf63e40bc88">Stress</a> (const <a class="el" href="classPhQ_1_1ScalarStress.html">ScalarStress</a>&lt; Number &gt; &amp;<a class="el" href="classPhQ_1_1Stress.html#aabb79878953ee541e54bcc47b3138f10">xx</a>, const <a class="el" href="classPhQ_1_1ScalarStress.html">ScalarStress</a>&lt; Number &gt; &amp;<a class="el" href="classPhQ_1_1Stress.html#a1e7678764921694dfbdce62775d74665">xy</a>, const <a class="el" href="classPhQ_1_1ScalarStress.html">ScalarStress</a>&lt; Number &gt; &amp;<a class="el" href="classPhQ_1_1Stress.html#a5f0d0a44432ca4ab67ecb94942ee60f8">xz</a>, const <a class="el" href="classPhQ_1_1ScalarStress.html">ScalarStress</a>&lt; Number &gt; &amp;<a class="el" href="classPhQ_1_1Stress.html#a4aa29bd09a250d954cb421fcc5f12eec">yy</a>, const <a class="el" href="classPhQ_1_1ScalarStress.html">ScalarStress</a>&lt; Number &gt; &amp;<a class="el" href="classPhQ_1_1Stress.html#a314fcc8b8851b21d33f06353545fe095">yz</a>, const <a class="el" href="classPhQ_1_1ScalarStress.html">ScalarStress</a>&lt; Number &gt; &amp;<a class="el" href="classPhQ_1_1Stress.html#a64f2434742e1385619092e7f1e8bd1f0">zz</a>)</td></tr>
+<tr class="memdesc:a65b1c70685888fa8fda6adf63e40bc88"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a stress tensor from a given set of scalar stress components.  <a href="classPhQ_1_1Stress.html#a65b1c70685888fa8fda6adf63e40bc88">More...</a><br /></td></tr>
+<tr class="separator:a65b1c70685888fa8fda6adf63e40bc88"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac56f4e3f5bfe7967420ebabb4e12dd42"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Stress.html#ac56f4e3f5bfe7967420ebabb4e12dd42">Stress</a> (const <a class="el" href="classPhQ_1_1StaticPressure.html">StaticPressure</a>&lt; Number &gt; &amp;static_pressure)</td></tr>
 <tr class="memdesc:ac56f4e3f5bfe7967420ebabb4e12dd42"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a stress tensor from a given static pressure using the definition of stress due to pressure. Since pressure is compressive, the negative of the static pressure contributes to the stress.  <a href="classPhQ_1_1Stress.html#ac56f4e3f5bfe7967420ebabb4e12dd42">More...</a><br /></td></tr>
 <tr class="separator:ac56f4e3f5bfe7967420ebabb4e12dd42"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -289,7 +292,7 @@ class PhQ::Stress&lt; Number &gt;</h3>
 <p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00052">52</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a2a18c6a8fb1c682701c6d7eefbe6dd03"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2a18c6a8fb1c682701c6d7eefbe6dd03">&#9670;&nbsp;</a></span>Stress() <span class="overload">[1/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a2a18c6a8fb1c682701c6d7eefbe6dd03">&#9670;&nbsp;</a></span>Stress() <span class="overload">[1/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -318,7 +321,7 @@ template&lt;typename Number  = double&gt; </div>
 </div>
 </div>
 <a id="a91218f84c53f5dc34c626d2b5fe9a1bd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a91218f84c53f5dc34c626d2b5fe9a1bd">&#9670;&nbsp;</a></span>Stress() <span class="overload">[2/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a91218f84c53f5dc34c626d2b5fe9a1bd">&#9670;&nbsp;</a></span>Stress() <span class="overload">[2/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -359,8 +362,76 @@ template&lt;typename Number  = double&gt; </div>
 
 </div>
 </div>
+<a id="a65b1c70685888fa8fda6adf63e40bc88"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a65b1c70685888fa8fda6adf63e40bc88">&#9670;&nbsp;</a></span>Stress() <span class="overload">[3/8]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Number  = double&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classPhQ_1_1Stress.html">PhQ::Stress</a>&lt; Number &gt;::<a class="el" href="classPhQ_1_1Stress.html">Stress</a> </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1ScalarStress.html">ScalarStress</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramname"><em>xx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1ScalarStress.html">ScalarStress</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramname"><em>xy</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1ScalarStress.html">ScalarStress</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramname"><em>xz</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1ScalarStress.html">ScalarStress</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramname"><em>yy</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1ScalarStress.html">ScalarStress</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramname"><em>yz</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1ScalarStress.html">ScalarStress</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramname"><em>zz</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Constructor. Constructs a stress tensor from a given set of scalar stress components. </p>
+
+<p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00063">63</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
+
+<p class="reference">References <a class="el" href="Stress_8hpp_source.html#l00134">PhQ::Stress&lt; Number &gt;::xx()</a>, <a class="el" href="Stress_8hpp_source.html#l00139">PhQ::Stress&lt; Number &gt;::xy()</a>, <a class="el" href="Stress_8hpp_source.html#l00144">PhQ::Stress&lt; Number &gt;::xz()</a>, <a class="el" href="Stress_8hpp_source.html#l00154">PhQ::Stress&lt; Number &gt;::yy()</a>, <a class="el" href="Stress_8hpp_source.html#l00159">PhQ::Stress&lt; Number &gt;::yz()</a>, and <a class="el" href="Stress_8hpp_source.html#l00174">PhQ::Stress&lt; Number &gt;::zz()</a>.</p>
+
+</div>
+</div>
 <a id="ac56f4e3f5bfe7967420ebabb4e12dd42"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac56f4e3f5bfe7967420ebabb4e12dd42">&#9670;&nbsp;</a></span>Stress() <span class="overload">[3/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ac56f4e3f5bfe7967420ebabb4e12dd42">&#9670;&nbsp;</a></span>Stress() <span class="overload">[4/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -387,7 +458,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Constructor. Constructs a stress tensor from a given static pressure using the definition of stress due to pressure. Since pressure is compressive, the negative of the static pressure contributes to the stress. </p>
 
-<p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00065">65</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00071">71</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00064">PhQ::DimensionalScalar&lt; UnitType, Number &gt;::Value()</a>.</p>
 
@@ -423,7 +494,7 @@ template&lt;typename Number  = double&gt; </div>
 </div>
 </div>
 <a id="adfea6be7d5d183b90da11af8891ea24d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adfea6be7d5d183b90da11af8891ea24d">&#9670;&nbsp;</a></span>Stress() <span class="overload">[4/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#adfea6be7d5d183b90da11af8891ea24d">&#9670;&nbsp;</a></span>Stress() <span class="overload">[5/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -453,7 +524,7 @@ template&lt;typename Number  = double&gt; </div>
 </div>
 </div>
 <a id="a96903119d1f955e55297f35144b003b8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a96903119d1f955e55297f35144b003b8">&#9670;&nbsp;</a></span>Stress() <span class="overload">[5/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a96903119d1f955e55297f35144b003b8">&#9670;&nbsp;</a></span>Stress() <span class="overload">[6/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -482,12 +553,12 @@ template&lt;typename OtherNumber &gt; </div>
 
 <p>Copy constructor. Constructs a stress tensor by copying another one. </p>
 
-<p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00079">79</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00085">85</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
 
 </div>
 </div>
 <a id="ac5393ec64d8b92916d493b7499a751b5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac5393ec64d8b92916d493b7499a751b5">&#9670;&nbsp;</a></span>Stress() <span class="overload">[6/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ac5393ec64d8b92916d493b7499a751b5">&#9670;&nbsp;</a></span>Stress() <span class="overload">[7/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -517,7 +588,7 @@ template&lt;typename Number  = double&gt; </div>
 </div>
 </div>
 <a id="abdfdbfa58b48e84a174addde90b36787"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abdfdbfa58b48e84a174addde90b36787">&#9670;&nbsp;</a></span>Stress() <span class="overload">[7/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#abdfdbfa58b48e84a174addde90b36787">&#9670;&nbsp;</a></span>Stress() <span class="overload">[8/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -544,7 +615,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Constructor. Constructs a stress tensor with a given value expressed in the standard pressure unit. </p>
 
-<p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00233">233</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00239">239</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
 
 </div>
 </div>
@@ -613,9 +684,9 @@ template&lt;Unit::Pressure Unit&gt; </div>
 
 <p>Statically creates a stress tensor from the given xx, xy, xz, yy, yz, and zz Cartesian components expressed in a given pressure unit. </p>
 
-<p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00106">106</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00112">112</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Stress_8hpp_source.html#l00128">PhQ::Stress&lt; Number &gt;::xx()</a>, <a class="el" href="Stress_8hpp_source.html#l00133">PhQ::Stress&lt; Number &gt;::xy()</a>, <a class="el" href="Stress_8hpp_source.html#l00138">PhQ::Stress&lt; Number &gt;::xz()</a>, <a class="el" href="Stress_8hpp_source.html#l00148">PhQ::Stress&lt; Number &gt;::yy()</a>, <a class="el" href="Stress_8hpp_source.html#l00153">PhQ::Stress&lt; Number &gt;::yz()</a>, and <a class="el" href="Stress_8hpp_source.html#l00168">PhQ::Stress&lt; Number &gt;::zz()</a>.</p>
+<p class="reference">References <a class="el" href="Stress_8hpp_source.html#l00134">PhQ::Stress&lt; Number &gt;::xx()</a>, <a class="el" href="Stress_8hpp_source.html#l00139">PhQ::Stress&lt; Number &gt;::xy()</a>, <a class="el" href="Stress_8hpp_source.html#l00144">PhQ::Stress&lt; Number &gt;::xz()</a>, <a class="el" href="Stress_8hpp_source.html#l00154">PhQ::Stress&lt; Number &gt;::yy()</a>, <a class="el" href="Stress_8hpp_source.html#l00159">PhQ::Stress&lt; Number &gt;::yz()</a>, and <a class="el" href="Stress_8hpp_source.html#l00174">PhQ::Stress&lt; Number &gt;::zz()</a>.</p>
 
 </div>
 </div>
@@ -649,7 +720,7 @@ template&lt;Unit::Pressure Unit&gt; </div>
 
 <p>Statically creates a stress tensor from the given xx, xy, xz, yy, yz, and zz Cartesian components expressed in a given pressure unit. </p>
 
-<p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00115">115</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00121">121</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
 
 </div>
 </div>
@@ -683,7 +754,7 @@ template&lt;Unit::Pressure Unit&gt; </div>
 
 <p>Statically creates a stress tensor with a given value expressed in a given pressure unit. </p>
 
-<p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00123">123</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00129">129</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00219">PhQ::DimensionalSymmetricDyad&lt; Unit::Pressure, double &gt;::value</a>.</p>
 
@@ -832,7 +903,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00206">206</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00212">212</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00219">PhQ::DimensionalSymmetricDyad&lt; Unit::Pressure, double &gt;::value</a>.</p>
 
@@ -864,7 +935,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00222">222</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00228">228</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00219">PhQ::DimensionalSymmetricDyad&lt; Unit::Pressure, double &gt;::value</a>.</p>
 
@@ -896,7 +967,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00198">198</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00204">204</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00219">PhQ::DimensionalSymmetricDyad&lt; UnitType, Number &gt;::value</a>, and <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00219">PhQ::DimensionalSymmetricDyad&lt; Unit::Pressure, double &gt;::value</a>.</p>
 
@@ -928,7 +999,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00214">214</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00220">220</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00219">PhQ::DimensionalSymmetricDyad&lt; Unit::Pressure, double &gt;::value</a>.</p>
 
@@ -960,7 +1031,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00202">202</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00208">208</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00219">PhQ::DimensionalSymmetricDyad&lt; UnitType, Number &gt;::value</a>, and <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00219">PhQ::DimensionalSymmetricDyad&lt; Unit::Pressure, double &gt;::value</a>.</p>
 
@@ -992,7 +1063,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00218">218</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00224">224</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00219">PhQ::DimensionalSymmetricDyad&lt; Unit::Pressure, double &gt;::value</a>.</p>
 
@@ -1024,7 +1095,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00210">210</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00216">216</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00219">PhQ::DimensionalSymmetricDyad&lt; Unit::Pressure, double &gt;::value</a>.</p>
 
@@ -1056,7 +1127,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00226">226</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00232">232</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00219">PhQ::DimensionalSymmetricDyad&lt; Unit::Pressure, double &gt;::value</a>.</p>
 
@@ -1122,7 +1193,7 @@ template&lt;typename OtherNumber &gt; </div>
 
 <p>Copy assignment operator. Assigns this stress tensor by copying another one. </p>
 
-<p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00090">90</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00096">96</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00060">PhQ::DimensionalSymmetricDyad&lt; UnitType, Number &gt;::Value()</a>, and <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00219">PhQ::DimensionalSymmetricDyad&lt; Unit::Pressure, double &gt;::value</a>.</p>
 
@@ -1186,7 +1257,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Creates a planar traction vector from this stress tensor and a given planar direction using the definition of traction. </p>
 
-<p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00174">174</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00180">180</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
 
 </div>
 </div>
@@ -1336,7 +1407,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Creates a traction vector from this stress tensor and a given direction using the definition of traction. </p>
 
-<p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00181">181</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00187">187</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
 
 </div>
 </div>
@@ -1455,7 +1526,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Computes the von Mises stress of this stress tensor using the von Mises yield criterion. </p>
 
-<p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00187">187</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00193">193</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
 
 </div>
 </div>
@@ -1545,11 +1616,11 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the xx Cartesian component of this stress tensor. </p>
 
-<p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00128">128</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00134">134</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00219">PhQ::DimensionalSymmetricDyad&lt; Unit::Pressure, double &gt;::value</a>, and <a class="el" href="SymmetricDyad_8hpp_source.html#l00135">PhQ::SymmetricDyad&lt; Number &gt;::xx()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="Stress_8hpp_source.html#l00106">PhQ::Stress&lt; Number &gt;::Create()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="Stress_8hpp_source.html#l00112">PhQ::Stress&lt; Number &gt;::Create()</a>, and <a class="el" href="Stress_8hpp_source.html#l00063">PhQ::Stress&lt; Number &gt;::Stress()</a>.</p>
 
 </div>
 </div>
@@ -1580,11 +1651,11 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the xy = yx Cartesian component of this stress tensor. </p>
 
-<p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00133">133</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00139">139</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00219">PhQ::DimensionalSymmetricDyad&lt; Unit::Pressure, double &gt;::value</a>, and <a class="el" href="SymmetricDyad_8hpp_source.html#l00140">PhQ::SymmetricDyad&lt; Number &gt;::xy()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="Stress_8hpp_source.html#l00106">PhQ::Stress&lt; Number &gt;::Create()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="Stress_8hpp_source.html#l00112">PhQ::Stress&lt; Number &gt;::Create()</a>, and <a class="el" href="Stress_8hpp_source.html#l00063">PhQ::Stress&lt; Number &gt;::Stress()</a>.</p>
 
 </div>
 </div>
@@ -1615,11 +1686,11 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the xz = zx Cartesian component of this stress tensor. </p>
 
-<p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00138">138</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00144">144</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00219">PhQ::DimensionalSymmetricDyad&lt; Unit::Pressure, double &gt;::value</a>, and <a class="el" href="SymmetricDyad_8hpp_source.html#l00145">PhQ::SymmetricDyad&lt; Number &gt;::xz()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="Stress_8hpp_source.html#l00106">PhQ::Stress&lt; Number &gt;::Create()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="Stress_8hpp_source.html#l00112">PhQ::Stress&lt; Number &gt;::Create()</a>, and <a class="el" href="Stress_8hpp_source.html#l00063">PhQ::Stress&lt; Number &gt;::Stress()</a>.</p>
 
 </div>
 </div>
@@ -1709,7 +1780,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the yx = xy Cartesian component of this stress tensor. </p>
 
-<p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00143">143</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00149">149</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00219">PhQ::DimensionalSymmetricDyad&lt; Unit::Pressure, double &gt;::value</a>, and <a class="el" href="SymmetricDyad_8hpp_source.html#l00150">PhQ::SymmetricDyad&lt; Number &gt;::yx()</a>.</p>
 
@@ -1742,11 +1813,11 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the yy Cartesian component of this stress tensor. </p>
 
-<p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00148">148</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00154">154</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00219">PhQ::DimensionalSymmetricDyad&lt; Unit::Pressure, double &gt;::value</a>, and <a class="el" href="SymmetricDyad_8hpp_source.html#l00155">PhQ::SymmetricDyad&lt; Number &gt;::yy()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="Stress_8hpp_source.html#l00106">PhQ::Stress&lt; Number &gt;::Create()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="Stress_8hpp_source.html#l00112">PhQ::Stress&lt; Number &gt;::Create()</a>, and <a class="el" href="Stress_8hpp_source.html#l00063">PhQ::Stress&lt; Number &gt;::Stress()</a>.</p>
 
 </div>
 </div>
@@ -1777,11 +1848,11 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the yz = zy Cartesian component of this stress tensor. </p>
 
-<p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00153">153</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00159">159</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00219">PhQ::DimensionalSymmetricDyad&lt; Unit::Pressure, double &gt;::value</a>, and <a class="el" href="SymmetricDyad_8hpp_source.html#l00160">PhQ::SymmetricDyad&lt; Number &gt;::yz()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="Stress_8hpp_source.html#l00106">PhQ::Stress&lt; Number &gt;::Create()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="Stress_8hpp_source.html#l00112">PhQ::Stress&lt; Number &gt;::Create()</a>, and <a class="el" href="Stress_8hpp_source.html#l00063">PhQ::Stress&lt; Number &gt;::Stress()</a>.</p>
 
 </div>
 </div>
@@ -1812,7 +1883,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Statically creates a stress tensor of zero. </p>
 
-<p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00099">99</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00105">105</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="SymmetricDyad_8hpp_source.html#l00120">PhQ::SymmetricDyad&lt; Number &gt;::Zero()</a>.</p>
 
@@ -1847,7 +1918,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the zx = xz Cartesian component of this stress tensor. </p>
 
-<p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00158">158</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00164">164</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00219">PhQ::DimensionalSymmetricDyad&lt; Unit::Pressure, double &gt;::value</a>, and <a class="el" href="SymmetricDyad_8hpp_source.html#l00165">PhQ::SymmetricDyad&lt; Number &gt;::zx()</a>.</p>
 
@@ -1880,7 +1951,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the zy = yz Cartesian component of this stress tensor. </p>
 
-<p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00163">163</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00169">169</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00219">PhQ::DimensionalSymmetricDyad&lt; Unit::Pressure, double &gt;::value</a>, and <a class="el" href="SymmetricDyad_8hpp_source.html#l00170">PhQ::SymmetricDyad&lt; Number &gt;::zy()</a>.</p>
 
@@ -1913,11 +1984,11 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the zz Cartesian component of this stress tensor. </p>
 
-<p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00168">168</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00174">174</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00219">PhQ::DimensionalSymmetricDyad&lt; Unit::Pressure, double &gt;::value</a>, and <a class="el" href="SymmetricDyad_8hpp_source.html#l00175">PhQ::SymmetricDyad&lt; Number &gt;::zz()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="Stress_8hpp_source.html#l00106">PhQ::Stress&lt; Number &gt;::Create()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="Stress_8hpp_source.html#l00112">PhQ::Stress&lt; Number &gt;::Create()</a>, and <a class="el" href="Stress_8hpp_source.html#l00063">PhQ::Stress&lt; Number &gt;::Stress()</a>.</p>
 
 </div>
 </div>
