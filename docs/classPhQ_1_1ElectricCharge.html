@@ -19,7 +19,7 @@
 /* @license-end */
 </script> 
     <link href="doxygen.css" rel="stylesheet" type="text/css" />
-    <link href="doxygen-awesome.css" rel="stylesheet" type="text/css"/>
+    <link href="style.css" rel="stylesheet" type="text/css"/>
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
   </head>
   <body>
@@ -127,6 +127,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a1f2430a475edbd3be5826225e8508b75"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1ElectricCharge.html#a1f2430a475edbd3be5826225e8508b75">ElectricCharge</a> (const Number <a class="el" href="classPhQ_1_1DimensionalScalar.html#a076d75036473812cf5583dc12b30aac2">value</a>, const <a class="el" href="namespacePhQ_1_1Unit.html#ad707ace41fdc584294ad7c3c3c1bb8f4">Unit::ElectricCharge</a> unit)</td></tr>
 <tr class="memdesc:a1f2430a475edbd3be5826225e8508b75"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs an electric charge with a given value expressed in a given electric charge unit.  <a href="classPhQ_1_1ElectricCharge.html#a1f2430a475edbd3be5826225e8508b75">More...</a><br /></td></tr>
 <tr class="separator:a1f2430a475edbd3be5826225e8508b75"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec90126a99937932c4376c18a73ee485"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1ElectricCharge.html#aec90126a99937932c4376c18a73ee485">ElectricCharge</a> (const <a class="el" href="classPhQ_1_1ElectricCurrent.html">ElectricCurrent</a>&lt; Number &gt; &amp;electric_current, const <a class="el" href="classPhQ_1_1Time.html">Time</a>&lt; Number &gt; &amp;time)</td></tr>
+<tr class="memdesc:aec90126a99937932c4376c18a73ee485"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs an electric charge from a given electric current and time using the definition of electric current.  <a href="classPhQ_1_1ElectricCharge.html#aec90126a99937932c4376c18a73ee485">More...</a><br /></td></tr>
+<tr class="separator:aec90126a99937932c4376c18a73ee485"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0612c931261e0c68c554f873735287a6"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1ElectricCharge.html#a0612c931261e0c68c554f873735287a6">ElectricCharge</a> (const <a class="el" href="classPhQ_1_1ElectricCurrent.html">ElectricCurrent</a>&lt; Number &gt; &amp;electric_current, const <a class="el" href="classPhQ_1_1Frequency.html">Frequency</a>&lt; Number &gt; &amp;frequency)</td></tr>
+<tr class="memdesc:a0612c931261e0c68c554f873735287a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs an electric charge from a given electric current and frequency using the definition of electric current.  <a href="classPhQ_1_1ElectricCharge.html#a0612c931261e0c68c554f873735287a6">More...</a><br /></td></tr>
+<tr class="separator:a0612c931261e0c68c554f873735287a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8203ac358dbb022bff2f7b6b3f2a2b9f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1ElectricCharge.html#a8203ac358dbb022bff2f7b6b3f2a2b9f">~ElectricCharge</a> () noexcept=default</td></tr>
 <tr class="memdesc:a8203ac358dbb022bff2f7b6b3f2a2b9f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor. Destroys this electric charge.  <a href="classPhQ_1_1ElectricCharge.html#a8203ac358dbb022bff2f7b6b3f2a2b9f">More...</a><br /></td></tr>
 <tr class="separator:a8203ac358dbb022bff2f7b6b3f2a2b9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -156,10 +162,16 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a217c37c9894300a20f3764880a2dd30e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa2e5b7cfa6ac2cd276c86f99ccdb9f5d"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1ElectricCharge.html">ElectricCharge</a>&lt; Number &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1ElectricCharge.html#aa2e5b7cfa6ac2cd276c86f99ccdb9f5d">operator*</a> (const Number number) const</td></tr>
 <tr class="separator:aa2e5b7cfa6ac2cd276c86f99ccdb9f5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adbd4c0c09667305de62533a277a8bed2"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1ElectricCurrent.html">ElectricCurrent</a>&lt; Number &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1ElectricCharge.html#adbd4c0c09667305de62533a277a8bed2">operator*</a> (const <a class="el" href="classPhQ_1_1Frequency.html">Frequency</a>&lt; Number &gt; &amp;frequency) const</td></tr>
+<tr class="separator:adbd4c0c09667305de62533a277a8bed2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac704fe205f57bb2e257694fd8ba5b705"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1ElectricCharge.html">ElectricCharge</a>&lt; Number &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1ElectricCharge.html#ac704fe205f57bb2e257694fd8ba5b705">operator/</a> (const Number number) const</td></tr>
 <tr class="separator:ac704fe205f57bb2e257694fd8ba5b705"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a539b4c7f1ba4c76cea0e1c2a8d8aca5e"><td class="memItemLeft" align="right" valign="top">constexpr Number&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1ElectricCharge.html#a539b4c7f1ba4c76cea0e1c2a8d8aca5e">operator/</a> (const <a class="el" href="classPhQ_1_1ElectricCharge.html">ElectricCharge</a>&lt; Number &gt; &amp;electric_charge) const noexcept</td></tr>
 <tr class="separator:a539b4c7f1ba4c76cea0e1c2a8d8aca5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0bc6ce58523edbcf69360aba3208c96c"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1ElectricCurrent.html">ElectricCurrent</a>&lt; Number &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1ElectricCharge.html#a0bc6ce58523edbcf69360aba3208c96c">operator/</a> (const <a class="el" href="classPhQ_1_1Time.html">Time</a>&lt; Number &gt; &amp;time) const</td></tr>
+<tr class="separator:a0bc6ce58523edbcf69360aba3208c96c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af8f4b8429e2e319ef9a65659ef5e61bd"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1Time.html">Time</a>&lt; Number &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1ElectricCharge.html#af8f4b8429e2e319ef9a65659ef5e61bd">operator/</a> (const <a class="el" href="classPhQ_1_1ElectricCurrent.html">ElectricCurrent</a>&lt; Number &gt; &amp;electric_current) const</td></tr>
+<tr class="separator:af8f4b8429e2e319ef9a65659ef5e61bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9631266dd3eb77e858520a5d2a1f0626"><td class="memItemLeft" align="right" valign="top">constexpr void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1ElectricCharge.html#a9631266dd3eb77e858520a5d2a1f0626">operator+=</a> (const <a class="el" href="classPhQ_1_1ElectricCharge.html">ElectricCharge</a>&lt; Number &gt; &amp;electric_charge) noexcept</td></tr>
 <tr class="separator:a9631266dd3eb77e858520a5d2a1f0626"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a938df2c23cf2dce712e1a2c44f464e33"><td class="memItemLeft" align="right" valign="top">constexpr void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1ElectricCharge.html#a938df2c23cf2dce712e1a2c44f464e33">operator-=</a> (const <a class="el" href="classPhQ_1_1ElectricCharge.html">ElectricCharge</a>&lt; Number &gt; &amp;electric_charge) noexcept</td></tr>
@@ -242,10 +254,10 @@ class PhQ::ElectricCharge&lt; Number &gt;</h3>
 
 <p>Electric charge. </p>
 
-<p class="definition">Definition at line <a class="el" href="ElectricCharge_8hpp_source.html#l00041">41</a> of file <a class="el" href="ElectricCharge_8hpp_source.html">ElectricCharge.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ElectricCharge_8hpp_source.html#l00053">53</a> of file <a class="el" href="ElectricCharge_8hpp_source.html">ElectricCharge.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ab352ec1b26400d0ffb77f383f9c5c35a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab352ec1b26400d0ffb77f383f9c5c35a">&#9670;&nbsp;</a></span>ElectricCharge() <span class="overload">[1/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ab352ec1b26400d0ffb77f383f9c5c35a">&#9670;&nbsp;</a></span>ElectricCharge() <span class="overload">[1/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -274,7 +286,7 @@ template&lt;typename Number  = double&gt; </div>
 </div>
 </div>
 <a id="a1f2430a475edbd3be5826225e8508b75"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1f2430a475edbd3be5826225e8508b75">&#9670;&nbsp;</a></span>ElectricCharge() <span class="overload">[2/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f2430a475edbd3be5826225e8508b75">&#9670;&nbsp;</a></span>ElectricCharge() <span class="overload">[2/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -311,7 +323,87 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Constructor. Constructs an electric charge with a given value expressed in a given electric charge unit. </p>
 
-<p class="definition">Definition at line <a class="el" href="ElectricCharge_8hpp_source.html#l00048">48</a> of file <a class="el" href="ElectricCharge_8hpp_source.html">ElectricCharge.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ElectricCharge_8hpp_source.html#l00060">60</a> of file <a class="el" href="ElectricCharge_8hpp_source.html">ElectricCharge.hpp</a>.</p>
+
+</div>
+</div>
+<a id="aec90126a99937932c4376c18a73ee485"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aec90126a99937932c4376c18a73ee485">&#9670;&nbsp;</a></span>ElectricCharge() <span class="overload">[3/8]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Number  = double&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1ElectricCharge.html">PhQ::ElectricCharge</a>&lt; Number &gt;::<a class="el" href="classPhQ_1_1ElectricCharge.html">ElectricCharge</a> </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1ElectricCurrent.html">ElectricCurrent</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramname"><em>electric_current</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1Time.html">Time</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramname"><em>time</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Constructor. Constructs an electric charge from a given electric current and time using the definition of electric current. </p>
+
+</div>
+</div>
+<a id="a0612c931261e0c68c554f873735287a6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0612c931261e0c68c554f873735287a6">&#9670;&nbsp;</a></span>ElectricCharge() <span class="overload">[4/8]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Number  = double&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1ElectricCharge.html">PhQ::ElectricCharge</a>&lt; Number &gt;::<a class="el" href="classPhQ_1_1ElectricCharge.html">ElectricCharge</a> </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1ElectricCurrent.html">ElectricCurrent</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramname"><em>electric_current</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1Frequency.html">Frequency</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramname"><em>frequency</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Constructor. Constructs an electric charge from a given electric current and frequency using the definition of electric current. </p>
 
 </div>
 </div>
@@ -345,7 +437,7 @@ template&lt;typename Number  = double&gt; </div>
 </div>
 </div>
 <a id="a13331e2fbd906a2ed1b446f9fd1ccabb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a13331e2fbd906a2ed1b446f9fd1ccabb">&#9670;&nbsp;</a></span>ElectricCharge() <span class="overload">[3/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a13331e2fbd906a2ed1b446f9fd1ccabb">&#9670;&nbsp;</a></span>ElectricCharge() <span class="overload">[5/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -375,7 +467,7 @@ template&lt;typename Number  = double&gt; </div>
 </div>
 </div>
 <a id="ac1d29767bec89281eb962f4e5acf3de3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac1d29767bec89281eb962f4e5acf3de3">&#9670;&nbsp;</a></span>ElectricCharge() <span class="overload">[4/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ac1d29767bec89281eb962f4e5acf3de3">&#9670;&nbsp;</a></span>ElectricCharge() <span class="overload">[6/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -404,12 +496,12 @@ template&lt;typename OtherNumber &gt; </div>
 
 <p>Copy constructor. Constructs an electric charge by copying another one. </p>
 
-<p class="definition">Definition at line <a class="el" href="ElectricCharge_8hpp_source.html#l00059">59</a> of file <a class="el" href="ElectricCharge_8hpp_source.html">ElectricCharge.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ElectricCharge_8hpp_source.html#l00081">81</a> of file <a class="el" href="ElectricCharge_8hpp_source.html">ElectricCharge.hpp</a>.</p>
 
 </div>
 </div>
 <a id="a66dd91aec76635506a531351c9ef0080"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a66dd91aec76635506a531351c9ef0080">&#9670;&nbsp;</a></span>ElectricCharge() <span class="overload">[5/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a66dd91aec76635506a531351c9ef0080">&#9670;&nbsp;</a></span>ElectricCharge() <span class="overload">[7/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -439,7 +531,7 @@ template&lt;typename Number  = double&gt; </div>
 </div>
 </div>
 <a id="a9e55ff3724215ebe736446fce2d7456f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9e55ff3724215ebe736446fce2d7456f">&#9670;&nbsp;</a></span>ElectricCharge() <span class="overload">[6/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e55ff3724215ebe736446fce2d7456f">&#9670;&nbsp;</a></span>ElectricCharge() <span class="overload">[8/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -466,7 +558,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Constructor. Constructs an electric charge with a given value expressed in the standard electric charge unit. </p>
 
-<p class="definition">Definition at line <a class="el" href="ElectricCharge_8hpp_source.html#l00130">130</a> of file <a class="el" href="ElectricCharge_8hpp_source.html">ElectricCharge.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ElectricCharge_8hpp_source.html#l00158">158</a> of file <a class="el" href="ElectricCharge_8hpp_source.html">ElectricCharge.hpp</a>.</p>
 
 </div>
 </div>
@@ -501,7 +593,7 @@ template&lt;Unit::ElectricCharge Unit&gt; </div>
 
 <p>Statically creates an electric charge with a given value expressed in a given electric charge unit. </p>
 
-<p class="definition">Definition at line <a class="el" href="ElectricCharge_8hpp_source.html#l00086">86</a> of file <a class="el" href="ElectricCharge_8hpp_source.html">ElectricCharge.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ElectricCharge_8hpp_source.html#l00108">108</a> of file <a class="el" href="ElectricCharge_8hpp_source.html">ElectricCharge.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00218">PhQ::DimensionalScalar&lt; Unit::ElectricCharge, double &gt;::value</a>.</p>
 
@@ -624,8 +716,36 @@ template&lt;Unit::ElectricCharge Unit&gt; </div>
 
 </div>
 </div>
+<a id="adbd4c0c09667305de62533a277a8bed2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adbd4c0c09667305de62533a277a8bed2">&#9670;&nbsp;</a></span>operator*() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Number  = double&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1ElectricCurrent.html">ElectricCurrent</a>&lt;Number&gt; <a class="el" href="classPhQ_1_1ElectricCharge.html">PhQ::ElectricCharge</a>&lt; Number &gt;::operator* </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1Frequency.html">Frequency</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramname"><em>frequency</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="aa2e5b7cfa6ac2cd276c86f99ccdb9f5d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa2e5b7cfa6ac2cd276c86f99ccdb9f5d">&#9670;&nbsp;</a></span>operator*()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aa2e5b7cfa6ac2cd276c86f99ccdb9f5d">&#9670;&nbsp;</a></span>operator*() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -650,7 +770,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ElectricCharge_8hpp_source.html#l00099">99</a> of file <a class="el" href="ElectricCharge_8hpp_source.html">ElectricCharge.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ElectricCharge_8hpp_source.html#l00121">121</a> of file <a class="el" href="ElectricCharge_8hpp_source.html">ElectricCharge.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00218">PhQ::DimensionalScalar&lt; Unit::ElectricCharge, double &gt;::value</a>.</p>
 
@@ -682,7 +802,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ElectricCharge_8hpp_source.html#l00119">119</a> of file <a class="el" href="ElectricCharge_8hpp_source.html">ElectricCharge.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ElectricCharge_8hpp_source.html#l00147">147</a> of file <a class="el" href="ElectricCharge_8hpp_source.html">ElectricCharge.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00218">PhQ::DimensionalScalar&lt; Unit::ElectricCharge, double &gt;::value</a>.</p>
 
@@ -714,7 +834,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ElectricCharge_8hpp_source.html#l00091">91</a> of file <a class="el" href="ElectricCharge_8hpp_source.html">ElectricCharge.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ElectricCharge_8hpp_source.html#l00113">113</a> of file <a class="el" href="ElectricCharge_8hpp_source.html">ElectricCharge.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00218">PhQ::DimensionalScalar&lt; UnitType, Number &gt;::value</a>, and <a class="el" href="DimensionalScalar_8hpp_source.html#l00218">PhQ::DimensionalScalar&lt; Unit::ElectricCharge, double &gt;::value</a>.</p>
 
@@ -746,7 +866,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ElectricCharge_8hpp_source.html#l00111">111</a> of file <a class="el" href="ElectricCharge_8hpp_source.html">ElectricCharge.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ElectricCharge_8hpp_source.html#l00139">139</a> of file <a class="el" href="ElectricCharge_8hpp_source.html">ElectricCharge.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00218">PhQ::DimensionalScalar&lt; Unit::ElectricCharge, double &gt;::value</a>.</p>
 
@@ -778,7 +898,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ElectricCharge_8hpp_source.html#l00095">95</a> of file <a class="el" href="ElectricCharge_8hpp_source.html">ElectricCharge.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ElectricCharge_8hpp_source.html#l00117">117</a> of file <a class="el" href="ElectricCharge_8hpp_source.html">ElectricCharge.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00218">PhQ::DimensionalScalar&lt; UnitType, Number &gt;::value</a>, and <a class="el" href="DimensionalScalar_8hpp_source.html#l00218">PhQ::DimensionalScalar&lt; Unit::ElectricCharge, double &gt;::value</a>.</p>
 
@@ -810,14 +930,14 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ElectricCharge_8hpp_source.html#l00115">115</a> of file <a class="el" href="ElectricCharge_8hpp_source.html">ElectricCharge.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ElectricCharge_8hpp_source.html#l00143">143</a> of file <a class="el" href="ElectricCharge_8hpp_source.html">ElectricCharge.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00218">PhQ::DimensionalScalar&lt; Unit::ElectricCharge, double &gt;::value</a>.</p>
 
 </div>
 </div>
 <a id="a539b4c7f1ba4c76cea0e1c2a8d8aca5e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a539b4c7f1ba4c76cea0e1c2a8d8aca5e">&#9670;&nbsp;</a></span>operator/() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a539b4c7f1ba4c76cea0e1c2a8d8aca5e">&#9670;&nbsp;</a></span>operator/() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -842,14 +962,42 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ElectricCharge_8hpp_source.html#l00107">107</a> of file <a class="el" href="ElectricCharge_8hpp_source.html">ElectricCharge.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ElectricCharge_8hpp_source.html#l00131">131</a> of file <a class="el" href="ElectricCharge_8hpp_source.html">ElectricCharge.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00218">PhQ::DimensionalScalar&lt; Unit::ElectricCharge, double &gt;::value</a>.</p>
 
 </div>
 </div>
+<a id="af8f4b8429e2e319ef9a65659ef5e61bd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af8f4b8429e2e319ef9a65659ef5e61bd">&#9670;&nbsp;</a></span>operator/() <span class="overload">[2/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Number  = double&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Time.html">Time</a>&lt;Number&gt; <a class="el" href="classPhQ_1_1ElectricCharge.html">PhQ::ElectricCharge</a>&lt; Number &gt;::operator/ </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1ElectricCurrent.html">ElectricCurrent</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramname"><em>electric_current</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ac704fe205f57bb2e257694fd8ba5b705"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac704fe205f57bb2e257694fd8ba5b705">&#9670;&nbsp;</a></span>operator/() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ac704fe205f57bb2e257694fd8ba5b705">&#9670;&nbsp;</a></span>operator/() <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -874,9 +1022,37 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ElectricCharge_8hpp_source.html#l00103">103</a> of file <a class="el" href="ElectricCharge_8hpp_source.html">ElectricCharge.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ElectricCharge_8hpp_source.html#l00127">127</a> of file <a class="el" href="ElectricCharge_8hpp_source.html">ElectricCharge.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00218">PhQ::DimensionalScalar&lt; Unit::ElectricCharge, double &gt;::value</a>.</p>
+
+</div>
+</div>
+<a id="a0bc6ce58523edbcf69360aba3208c96c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0bc6ce58523edbcf69360aba3208c96c">&#9670;&nbsp;</a></span>operator/() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Number  = double&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1ElectricCurrent.html">ElectricCurrent</a>&lt;Number&gt; <a class="el" href="classPhQ_1_1ElectricCharge.html">PhQ::ElectricCharge</a>&lt; Number &gt;::operator/ </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1Time.html">Time</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramname"><em>time</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -906,7 +1082,7 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ElectricCharge_8hpp_source.html#l00123">123</a> of file <a class="el" href="ElectricCharge_8hpp_source.html">ElectricCharge.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ElectricCharge_8hpp_source.html#l00151">151</a> of file <a class="el" href="ElectricCharge_8hpp_source.html">ElectricCharge.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00218">PhQ::DimensionalScalar&lt; Unit::ElectricCharge, double &gt;::value</a>.</p>
 
@@ -972,7 +1148,7 @@ template&lt;typename OtherNumber &gt; </div>
 
 <p>Copy assignment operator. Assigns this electric charge by copying another one. </p>
 
-<p class="definition">Definition at line <a class="el" href="ElectricCharge_8hpp_source.html#l00070">70</a> of file <a class="el" href="ElectricCharge_8hpp_source.html">ElectricCharge.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ElectricCharge_8hpp_source.html#l00092">92</a> of file <a class="el" href="ElectricCharge_8hpp_source.html">ElectricCharge.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00064">PhQ::DimensionalScalar&lt; UnitType, Number &gt;::Value()</a>, and <a class="el" href="DimensionalScalar_8hpp_source.html#l00218">PhQ::DimensionalScalar&lt; Unit::ElectricCharge, double &gt;::value</a>.</p>
 
@@ -1359,7 +1535,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Statically creates an electric charge of zero. </p>
 
-<p class="definition">Definition at line <a class="el" href="ElectricCharge_8hpp_source.html#l00079">79</a> of file <a class="el" href="ElectricCharge_8hpp_source.html">ElectricCharge.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ElectricCharge_8hpp_source.html#l00101">101</a> of file <a class="el" href="ElectricCharge_8hpp_source.html">ElectricCharge.hpp</a>.</p>
 
 </div>
 </div>
