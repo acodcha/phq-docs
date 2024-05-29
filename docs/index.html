@@ -298,15 +298,15 @@ Usage: Basics</h2>
 <h2><a class="anchor" id="usage_vectors_and_tensors"></a>
 Usage: Vectors and Tensors</h2>
 <p>Physical quantities' values can be scalars, vectors, or dyadic tensors. Vectors and dyadic tensors are defined in three-dimensional Euclidean space and use Cartesian coordinates. For example:</p>
-<div class="fragment"><div class="line"><a class="code" href="classPhQ_1_1PlanarHeatFlux.html">PhQ::PlanarHeatFlux</a> heat_flux{{-200.0,  <span class="comment">// x</span></div>
-<div class="line">                                300.0,  <span class="comment">// y</span></div>
-<div class="line">                               -600.0}, <span class="comment">// z</span></div>
-<div class="line">                              <a class="code" href="namespacePhQ_1_1Unit.html#a3d148d3ea4f67aaf566421387ec35ca2ab27596fb023a0c30b3621f5a29aecd20">PhQ::Unit::EnergyFlux::WattPerSquareMetre</a>};</div>
+<div class="fragment"><div class="line"><a class="code" href="classPhQ_1_1HeatFlux.html">PhQ::HeatFlux</a> heat_flux{{-200.0,  <span class="comment">// x</span></div>
+<div class="line">                          300.0,  <span class="comment">// y</span></div>
+<div class="line">                         -600.0}, <span class="comment">// z</span></div>
+<div class="line">                        <a class="code" href="namespacePhQ_1_1Unit.html#a3d148d3ea4f67aaf566421387ec35ca2ab27596fb023a0c30b3621f5a29aecd20">PhQ::Unit::EnergyFlux::WattPerSquareMetre</a>};</div>
 <div class="line">heat_flux /= 7.0;</div>
 <div class="line"><a class="code" href="classPhQ_1_1ScalarHeatFlux.html">PhQ::ScalarHeatFlux</a> magnitude = heat_flux.Magnitude();</div>
 <div class="line">std::cout &lt;&lt; <span class="stringliteral">&quot;Magnitude: &quot;</span> &lt;&lt; magnitude.<a class="code" href="classPhQ_1_1DimensionalScalar.html#aaa28f5bd02ab3373b12d3500cbc05845">Print</a>(<a class="code" href="namespacePhQ_1_1Unit.html#a3d148d3ea4f67aaf566421387ec35ca2ab27596fb023a0c30b3621f5a29aecd20">PhQ::Unit::EnergyFlux::WattPerSquareMetre</a>) &lt;&lt; std::endl;</div>
 <div class="line"><span class="comment">// Magnitude: 100.000000000000000 W/m^2</span></div>
-<div class="ttc" id="aclassPhQ_1_1PlanarHeatFlux_html"><div class="ttname"><a href="classPhQ_1_1PlanarHeatFlux.html">PhQ::PlanarHeatFlux</a></div><div class="ttdoc">Two-dimensional Euclidean heat flux vector in the XY plane. Contains two components in Cartesian coor...</div><div class="ttdef"><b>Definition:</b> <a href="PlanarHeatFlux_8hpp_source.html#l00051">PlanarHeatFlux.hpp:51</a></div></div>
+<div class="ttc" id="aclassPhQ_1_1HeatFlux_html"><div class="ttname"><a href="classPhQ_1_1HeatFlux.html">PhQ::HeatFlux</a></div><div class="ttdoc">Three-dimensional Euclidean heat flux vector. Contains three components in Cartesian coordinates: x,...</div><div class="ttdef"><b>Definition:</b> <a href="HeatFlux_8hpp_source.html#l00052">HeatFlux.hpp:52</a></div></div>
 <div class="ttc" id="aclassPhQ_1_1ScalarHeatFlux_html"><div class="ttname"><a href="classPhQ_1_1ScalarHeatFlux.html">PhQ::ScalarHeatFlux</a></div><div class="ttdoc">Scalar heat flux component or magnitude of a heat flux vector. For a three-dimensional Euclidean heat...</div><div class="ttdef"><b>Definition:</b> <a href="ScalarHeatFlux_8hpp_source.html#l00053">ScalarHeatFlux.hpp:53</a></div></div>
 <div class="ttc" id="anamespacePhQ_1_1Unit_html_a3d148d3ea4f67aaf566421387ec35ca2ab27596fb023a0c30b3621f5a29aecd20"><div class="ttname"><a href="namespacePhQ_1_1Unit.html#a3d148d3ea4f67aaf566421387ec35ca2ab27596fb023a0c30b3621f5a29aecd20">PhQ::Unit::EnergyFlux::WattPerSquareMetre</a></div><div class="ttdeci">@ WattPerSquareMetre</div><div class="ttdoc">Watt per square metre (W/m^2) energy flux unit.</div></div>
 </div><!-- fragment --><p>The above example creates a heat flux of (-200, 300, -600) W/m^2, divides it by 7, computes its magnitude, and prints the magnitude in pounds, which results in 100 W/m^2.</p>
@@ -614,7 +614,7 @@ License</h1>
 <p>Copyright © 2020-2024 Alexandre Coderre-Chabot</p>
 <p>Physical Quantities (<a class="el" href="namespacePhQ.html" title="Namespace that encompasses all of the Physical Quantities library&#39;s content.">PhQ</a>) is a C++ library of physical quantities, physical models, and units of measure for scientific computation.</p>
 <p>The Physical Quantities library is hosted at <a href="https://github.com/acodcha/phq">https://github.com/acodcha/phq</a> and its documentation is hosted at <a href="https://acodcha.github.io/phq-docs">https://acodcha.github.io/phq-docs</a>.</p>
-<p>Physical Quantities (<a class="el" href="namespacePhQ.html" title="Namespace that encompasses all of the Physical Quantities library&#39;s content.">PhQ</a>) is authored by Alexandre Coderre-Chabot (<a href="https://github.com/acodcha">https://github.com/acodcha</a>) and licensed under the MIT License; see the <a href="https://github.com/acodcha/phq/blob/main/LICENSE">license file</a> or <a href="https://mit-license.org">https://mit-license.org</a>.</p>
+<p>Physical Quantities is authored by Alexandre Coderre-Chabot (<a href="https://github.com/acodcha">https://github.com/acodcha</a>) and licensed under the MIT License; see the <a href="https://github.com/acodcha/phq/blob/main/LICENSE">license file</a> or <a href="https://mit-license.org">https://mit-license.org</a>.</p>
 <p>Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:</p>
 <ul>
 <li>The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.</li>
