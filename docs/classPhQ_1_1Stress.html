@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=9" />
     <meta name="generator" content="Doxygen 1.9.1" />
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=4.0" />
-    <title>Physical Quantities (PhQ): PhQ::Stress&lt; Number &gt; Class Template Reference</title>
+    <title>Physical Quantities (PhQ): PhQ::Stress&lt; NumericType &gt; Class Template Reference</title>
     <link href="tabs.css" rel="stylesheet" type="text/css" />
     <script type="text/javascript" src="jquery.js"></script>
     <script type="text/javascript" src="dynsections.js"></script>
@@ -110,7 +110,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search','.html');
 <a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="classPhQ_1_1Stress-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">PhQ::Stress&lt; Number &gt; Class Template Reference</div>  </div>
+<div class="title">PhQ::Stress&lt; NumericType &gt; Class Template Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
@@ -121,190 +121,190 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search','.html');
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a2a18c6a8fb1c682701c6d7eefbe6dd03"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Stress.html#a2a18c6a8fb1c682701c6d7eefbe6dd03">Stress</a> ()=default</td></tr>
-<tr class="memdesc:a2a18c6a8fb1c682701c6d7eefbe6dd03"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor. Constructs a stress tensor with an uninitialized value.  <a href="classPhQ_1_1Stress.html#a2a18c6a8fb1c682701c6d7eefbe6dd03">More...</a><br /></td></tr>
-<tr class="separator:a2a18c6a8fb1c682701c6d7eefbe6dd03"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a91218f84c53f5dc34c626d2b5fe9a1bd"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Stress.html#a91218f84c53f5dc34c626d2b5fe9a1bd">Stress</a> (const <a class="el" href="classPhQ_1_1SymmetricDyad.html">SymmetricDyad</a>&lt; Number &gt; &amp;<a class="el" href="classPhQ_1_1DimensionalSymmetricDyad.html#afa7bfb503dbeb7c6e3284e0a39f25d0a">value</a>, const <a class="el" href="namespacePhQ_1_1Unit.html#abcbda7b992e98486ca609a164ae78a24">Unit::Pressure</a> unit)</td></tr>
-<tr class="memdesc:a91218f84c53f5dc34c626d2b5fe9a1bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a stress tensor with a given value expressed in a given pressure unit.  <a href="classPhQ_1_1Stress.html#a91218f84c53f5dc34c626d2b5fe9a1bd">More...</a><br /></td></tr>
-<tr class="separator:a91218f84c53f5dc34c626d2b5fe9a1bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a65b1c70685888fa8fda6adf63e40bc88"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Stress.html#a65b1c70685888fa8fda6adf63e40bc88">Stress</a> (const <a class="el" href="classPhQ_1_1ScalarStress.html">ScalarStress</a>&lt; Number &gt; &amp;<a class="el" href="classPhQ_1_1Stress.html#aabb79878953ee541e54bcc47b3138f10">xx</a>, const <a class="el" href="classPhQ_1_1ScalarStress.html">ScalarStress</a>&lt; Number &gt; &amp;<a class="el" href="classPhQ_1_1Stress.html#a1e7678764921694dfbdce62775d74665">xy</a>, const <a class="el" href="classPhQ_1_1ScalarStress.html">ScalarStress</a>&lt; Number &gt; &amp;<a class="el" href="classPhQ_1_1Stress.html#a5f0d0a44432ca4ab67ecb94942ee60f8">xz</a>, const <a class="el" href="classPhQ_1_1ScalarStress.html">ScalarStress</a>&lt; Number &gt; &amp;<a class="el" href="classPhQ_1_1Stress.html#a4aa29bd09a250d954cb421fcc5f12eec">yy</a>, const <a class="el" href="classPhQ_1_1ScalarStress.html">ScalarStress</a>&lt; Number &gt; &amp;<a class="el" href="classPhQ_1_1Stress.html#a314fcc8b8851b21d33f06353545fe095">yz</a>, const <a class="el" href="classPhQ_1_1ScalarStress.html">ScalarStress</a>&lt; Number &gt; &amp;<a class="el" href="classPhQ_1_1Stress.html#a64f2434742e1385619092e7f1e8bd1f0">zz</a>)</td></tr>
-<tr class="memdesc:a65b1c70685888fa8fda6adf63e40bc88"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a stress tensor from a given set of scalar stress components.  <a href="classPhQ_1_1Stress.html#a65b1c70685888fa8fda6adf63e40bc88">More...</a><br /></td></tr>
-<tr class="separator:a65b1c70685888fa8fda6adf63e40bc88"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac56f4e3f5bfe7967420ebabb4e12dd42"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Stress.html#ac56f4e3f5bfe7967420ebabb4e12dd42">Stress</a> (const <a class="el" href="classPhQ_1_1StaticPressure.html">StaticPressure</a>&lt; Number &gt; &amp;static_pressure)</td></tr>
-<tr class="memdesc:ac56f4e3f5bfe7967420ebabb4e12dd42"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a stress tensor from a given static pressure using the definition of stress due to pressure. Since pressure is compressive, the negative of the static pressure contributes to the stress.  <a href="classPhQ_1_1Stress.html#ac56f4e3f5bfe7967420ebabb4e12dd42">More...</a><br /></td></tr>
-<tr class="separator:ac56f4e3f5bfe7967420ebabb4e12dd42"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae7b5a993fb3b4ec5812ee8615bd1038d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Stress.html#ae7b5a993fb3b4ec5812ee8615bd1038d">~Stress</a> () noexcept=default</td></tr>
-<tr class="memdesc:ae7b5a993fb3b4ec5812ee8615bd1038d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor. Destroys this stress tensor.  <a href="classPhQ_1_1Stress.html#ae7b5a993fb3b4ec5812ee8615bd1038d">More...</a><br /></td></tr>
-<tr class="separator:ae7b5a993fb3b4ec5812ee8615bd1038d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adfea6be7d5d183b90da11af8891ea24d"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Stress.html#adfea6be7d5d183b90da11af8891ea24d">Stress</a> (const <a class="el" href="classPhQ_1_1Stress.html">Stress</a>&lt; Number &gt; &amp;other)=default</td></tr>
-<tr class="memdesc:adfea6be7d5d183b90da11af8891ea24d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy constructor. Constructs a stress tensor by copying another one.  <a href="classPhQ_1_1Stress.html#adfea6be7d5d183b90da11af8891ea24d">More...</a><br /></td></tr>
-<tr class="separator:adfea6be7d5d183b90da11af8891ea24d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a96903119d1f955e55297f35144b003b8"><td class="memTemplParams" colspan="2">template&lt;typename OtherNumber &gt; </td></tr>
-<tr class="memitem:a96903119d1f955e55297f35144b003b8"><td class="memTemplItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Stress.html#a96903119d1f955e55297f35144b003b8">Stress</a> (const <a class="el" href="classPhQ_1_1Stress.html">Stress</a>&lt; OtherNumber &gt; &amp;other)</td></tr>
-<tr class="memdesc:a96903119d1f955e55297f35144b003b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy constructor. Constructs a stress tensor by copying another one.  <a href="classPhQ_1_1Stress.html#a96903119d1f955e55297f35144b003b8">More...</a><br /></td></tr>
-<tr class="separator:a96903119d1f955e55297f35144b003b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac5393ec64d8b92916d493b7499a751b5"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Stress.html#ac5393ec64d8b92916d493b7499a751b5">Stress</a> (<a class="el" href="classPhQ_1_1Stress.html">Stress</a>&lt; Number &gt; &amp;&amp;other) noexcept=default</td></tr>
-<tr class="memdesc:ac5393ec64d8b92916d493b7499a751b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move constructor. Constructs a stress tensor by moving another one.  <a href="classPhQ_1_1Stress.html#ac5393ec64d8b92916d493b7499a751b5">More...</a><br /></td></tr>
-<tr class="separator:ac5393ec64d8b92916d493b7499a751b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8483a34661c66c4f14d303b2e97db5eb"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1Stress.html">Stress</a>&lt; Number &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Stress.html#a8483a34661c66c4f14d303b2e97db5eb">operator=</a> (const <a class="el" href="classPhQ_1_1Stress.html">Stress</a>&lt; Number &gt; &amp;other)=default</td></tr>
-<tr class="memdesc:a8483a34661c66c4f14d303b2e97db5eb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy assignment operator. Assigns this stress tensor by copying another one.  <a href="classPhQ_1_1Stress.html#a8483a34661c66c4f14d303b2e97db5eb">More...</a><br /></td></tr>
-<tr class="separator:a8483a34661c66c4f14d303b2e97db5eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a36f61fee21c98d04ad15fabfae7c7360"><td class="memTemplParams" colspan="2">template&lt;typename OtherNumber &gt; </td></tr>
-<tr class="memitem:a36f61fee21c98d04ad15fabfae7c7360"><td class="memTemplItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1Stress.html">Stress</a>&lt; Number &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Stress.html#a36f61fee21c98d04ad15fabfae7c7360">operator=</a> (const <a class="el" href="classPhQ_1_1Stress.html">Stress</a>&lt; OtherNumber &gt; &amp;other)</td></tr>
-<tr class="memdesc:a36f61fee21c98d04ad15fabfae7c7360"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy assignment operator. Assigns this stress tensor by copying another one.  <a href="classPhQ_1_1Stress.html#a36f61fee21c98d04ad15fabfae7c7360">More...</a><br /></td></tr>
-<tr class="separator:a36f61fee21c98d04ad15fabfae7c7360"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeeb739c92f58b79aee3d2bb7e8b3f396"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1Stress.html">Stress</a>&lt; Number &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Stress.html#aeeb739c92f58b79aee3d2bb7e8b3f396">operator=</a> (<a class="el" href="classPhQ_1_1Stress.html">Stress</a>&lt; Number &gt; &amp;&amp;other) noexcept=default</td></tr>
-<tr class="memdesc:aeeb739c92f58b79aee3d2bb7e8b3f396"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move assignment operator. Assigns this stress tensor by moving another one.  <a href="classPhQ_1_1Stress.html#aeeb739c92f58b79aee3d2bb7e8b3f396">More...</a><br /></td></tr>
-<tr class="separator:aeeb739c92f58b79aee3d2bb7e8b3f396"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aabb79878953ee541e54bcc47b3138f10"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1ScalarStress.html">ScalarStress</a>&lt; Number &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Stress.html#aabb79878953ee541e54bcc47b3138f10">xx</a> () const noexcept</td></tr>
-<tr class="memdesc:aabb79878953ee541e54bcc47b3138f10"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the xx Cartesian component of this stress tensor.  <a href="classPhQ_1_1Stress.html#aabb79878953ee541e54bcc47b3138f10">More...</a><br /></td></tr>
-<tr class="separator:aabb79878953ee541e54bcc47b3138f10"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1e7678764921694dfbdce62775d74665"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1ScalarStress.html">ScalarStress</a>&lt; Number &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Stress.html#a1e7678764921694dfbdce62775d74665">xy</a> () const noexcept</td></tr>
-<tr class="memdesc:a1e7678764921694dfbdce62775d74665"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the xy = yx Cartesian component of this stress tensor.  <a href="classPhQ_1_1Stress.html#a1e7678764921694dfbdce62775d74665">More...</a><br /></td></tr>
-<tr class="separator:a1e7678764921694dfbdce62775d74665"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5f0d0a44432ca4ab67ecb94942ee60f8"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1ScalarStress.html">ScalarStress</a>&lt; Number &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Stress.html#a5f0d0a44432ca4ab67ecb94942ee60f8">xz</a> () const noexcept</td></tr>
-<tr class="memdesc:a5f0d0a44432ca4ab67ecb94942ee60f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the xz = zx Cartesian component of this stress tensor.  <a href="classPhQ_1_1Stress.html#a5f0d0a44432ca4ab67ecb94942ee60f8">More...</a><br /></td></tr>
-<tr class="separator:a5f0d0a44432ca4ab67ecb94942ee60f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5694124fb644c35204cbbc74e4273007"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1ScalarStress.html">ScalarStress</a>&lt; Number &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Stress.html#a5694124fb644c35204cbbc74e4273007">yx</a> () const noexcept</td></tr>
-<tr class="memdesc:a5694124fb644c35204cbbc74e4273007"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the yx = xy Cartesian component of this stress tensor.  <a href="classPhQ_1_1Stress.html#a5694124fb644c35204cbbc74e4273007">More...</a><br /></td></tr>
-<tr class="separator:a5694124fb644c35204cbbc74e4273007"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4aa29bd09a250d954cb421fcc5f12eec"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1ScalarStress.html">ScalarStress</a>&lt; Number &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Stress.html#a4aa29bd09a250d954cb421fcc5f12eec">yy</a> () const noexcept</td></tr>
-<tr class="memdesc:a4aa29bd09a250d954cb421fcc5f12eec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the yy Cartesian component of this stress tensor.  <a href="classPhQ_1_1Stress.html#a4aa29bd09a250d954cb421fcc5f12eec">More...</a><br /></td></tr>
-<tr class="separator:a4aa29bd09a250d954cb421fcc5f12eec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a314fcc8b8851b21d33f06353545fe095"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1ScalarStress.html">ScalarStress</a>&lt; Number &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Stress.html#a314fcc8b8851b21d33f06353545fe095">yz</a> () const noexcept</td></tr>
-<tr class="memdesc:a314fcc8b8851b21d33f06353545fe095"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the yz = zy Cartesian component of this stress tensor.  <a href="classPhQ_1_1Stress.html#a314fcc8b8851b21d33f06353545fe095">More...</a><br /></td></tr>
-<tr class="separator:a314fcc8b8851b21d33f06353545fe095"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae05d29c3d3569c5624974e53ec726ac1"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1ScalarStress.html">ScalarStress</a>&lt; Number &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Stress.html#ae05d29c3d3569c5624974e53ec726ac1">zx</a> () const noexcept</td></tr>
-<tr class="memdesc:ae05d29c3d3569c5624974e53ec726ac1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the zx = xz Cartesian component of this stress tensor.  <a href="classPhQ_1_1Stress.html#ae05d29c3d3569c5624974e53ec726ac1">More...</a><br /></td></tr>
-<tr class="separator:ae05d29c3d3569c5624974e53ec726ac1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad023a69cf78372c655329003d367141e"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1ScalarStress.html">ScalarStress</a>&lt; Number &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Stress.html#ad023a69cf78372c655329003d367141e">zy</a> () const noexcept</td></tr>
-<tr class="memdesc:ad023a69cf78372c655329003d367141e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the zy = yz Cartesian component of this stress tensor.  <a href="classPhQ_1_1Stress.html#ad023a69cf78372c655329003d367141e">More...</a><br /></td></tr>
-<tr class="separator:ad023a69cf78372c655329003d367141e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a64f2434742e1385619092e7f1e8bd1f0"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1ScalarStress.html">ScalarStress</a>&lt; Number &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Stress.html#a64f2434742e1385619092e7f1e8bd1f0">zz</a> () const noexcept</td></tr>
-<tr class="memdesc:a64f2434742e1385619092e7f1e8bd1f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the zz Cartesian component of this stress tensor.  <a href="classPhQ_1_1Stress.html#a64f2434742e1385619092e7f1e8bd1f0">More...</a><br /></td></tr>
-<tr class="separator:a64f2434742e1385619092e7f1e8bd1f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1275807a087f474426559e84d2c9c5d2"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1PlanarTraction.html">PhQ::PlanarTraction</a>&lt; Number &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Stress.html#a1275807a087f474426559e84d2c9c5d2">PlanarTraction</a> (const <a class="el" href="classPhQ_1_1PlanarDirection.html">PlanarDirection</a>&lt; Number &gt; &amp;direction) const</td></tr>
-<tr class="memdesc:a1275807a087f474426559e84d2c9c5d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a planar traction vector from this stress tensor and a given planar direction using the definition of traction.  <a href="classPhQ_1_1Stress.html#a1275807a087f474426559e84d2c9c5d2">More...</a><br /></td></tr>
-<tr class="separator:a1275807a087f474426559e84d2c9c5d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4f1057adc9483b2da2e65ef0070f74d9"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1Traction.html">PhQ::Traction</a>&lt; Number &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Stress.html#a4f1057adc9483b2da2e65ef0070f74d9">Traction</a> (const <a class="el" href="classPhQ_1_1Direction.html">Direction</a>&lt; Number &gt; &amp;direction) const</td></tr>
-<tr class="memdesc:a4f1057adc9483b2da2e65ef0070f74d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a traction vector from this stress tensor and a given direction using the definition of traction.  <a href="classPhQ_1_1Stress.html#a4f1057adc9483b2da2e65ef0070f74d9">More...</a><br /></td></tr>
-<tr class="separator:a4f1057adc9483b2da2e65ef0070f74d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a802dbf504896e2e8cb3837141adfa98c"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1ScalarStress.html">ScalarStress</a>&lt; Number &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Stress.html#a802dbf504896e2e8cb3837141adfa98c">VonMises</a> () const</td></tr>
-<tr class="memdesc:a802dbf504896e2e8cb3837141adfa98c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the von Mises stress of this stress tensor using the von Mises yield criterion.  <a href="classPhQ_1_1Stress.html#a802dbf504896e2e8cb3837141adfa98c">More...</a><br /></td></tr>
-<tr class="separator:a802dbf504896e2e8cb3837141adfa98c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2a11d632fe72e1bb492aafe2d521a3a7"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1Stress.html">Stress</a>&lt; Number &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Stress.html#a2a11d632fe72e1bb492aafe2d521a3a7">operator+</a> (const <a class="el" href="classPhQ_1_1Stress.html">Stress</a>&lt; Number &gt; &amp;stress) const</td></tr>
-<tr class="separator:a2a11d632fe72e1bb492aafe2d521a3a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aae6ffcd3b60a8dae5369df93f7e7e8d3"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1Stress.html">Stress</a>&lt; Number &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Stress.html#aae6ffcd3b60a8dae5369df93f7e7e8d3">operator-</a> (const <a class="el" href="classPhQ_1_1Stress.html">Stress</a>&lt; Number &gt; &amp;stress) const</td></tr>
-<tr class="separator:aae6ffcd3b60a8dae5369df93f7e7e8d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae5569940a147ebab08ae580dca6f95c2"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1Stress.html">Stress</a>&lt; Number &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Stress.html#ae5569940a147ebab08ae580dca6f95c2">operator*</a> (const Number number) const</td></tr>
-<tr class="separator:ae5569940a147ebab08ae580dca6f95c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9d8b62843ef5c09c4f9cd36d7535c92b"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1Stress.html">Stress</a>&lt; Number &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Stress.html#a9d8b62843ef5c09c4f9cd36d7535c92b">operator/</a> (const Number number) const</td></tr>
-<tr class="separator:a9d8b62843ef5c09c4f9cd36d7535c92b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a365d60921f76c9bad7ec68c4ab9c1ec4"><td class="memItemLeft" align="right" valign="top">constexpr void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Stress.html#a365d60921f76c9bad7ec68c4ab9c1ec4">operator+=</a> (const <a class="el" href="classPhQ_1_1Stress.html">Stress</a>&lt; Number &gt; &amp;stress) noexcept</td></tr>
-<tr class="separator:a365d60921f76c9bad7ec68c4ab9c1ec4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad9fcd30cee26c4af9d025173b65d5c49"><td class="memItemLeft" align="right" valign="top">constexpr void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Stress.html#ad9fcd30cee26c4af9d025173b65d5c49">operator-=</a> (const <a class="el" href="classPhQ_1_1Stress.html">Stress</a>&lt; Number &gt; &amp;stress) noexcept</td></tr>
-<tr class="separator:ad9fcd30cee26c4af9d025173b65d5c49"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1f48e3ebf046a4badd28dce5694924cf"><td class="memItemLeft" align="right" valign="top">constexpr void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Stress.html#a1f48e3ebf046a4badd28dce5694924cf">operator*=</a> (const Number number) noexcept</td></tr>
-<tr class="separator:a1f48e3ebf046a4badd28dce5694924cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac7c39b8e2aac22fb5ba6d240b02776df"><td class="memItemLeft" align="right" valign="top">constexpr void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Stress.html#ac7c39b8e2aac22fb5ba6d240b02776df">operator/=</a> (const Number number) noexcept</td></tr>
-<tr class="separator:ac7c39b8e2aac22fb5ba6d240b02776df"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a891fdb484c27b62527b29da9dac5f52a"><td class="memItemLeft" align="right" valign="top">constexpr const <a class="el" href="classPhQ_1_1SymmetricDyad.html">PhQ::SymmetricDyad</a>&lt; double &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalSymmetricDyad.html#a891fdb484c27b62527b29da9dac5f52a">Value</a> () const noexcept</td></tr>
-<tr class="memdesc:a891fdb484c27b62527b29da9dac5f52a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Value of this physical quantity expressed in its standard unit of measure.  <a href="classPhQ_1_1DimensionalSymmetricDyad.html#a891fdb484c27b62527b29da9dac5f52a">More...</a><br /></td></tr>
-<tr class="separator:a891fdb484c27b62527b29da9dac5f52a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9db6325ba5d7d18a5e8281b460dcacae"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPhQ_1_1SymmetricDyad.html">PhQ::SymmetricDyad</a>&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalSymmetricDyad.html#a9db6325ba5d7d18a5e8281b460dcacae">Value</a> (const <a class="el" href="namespacePhQ_1_1Unit.html#abcbda7b992e98486ca609a164ae78a24">Unit::Pressure</a> unit) const</td></tr>
-<tr class="memdesc:a9db6325ba5d7d18a5e8281b460dcacae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Value of this physical quantity expressed in a given unit of measure.  <a href="classPhQ_1_1DimensionalSymmetricDyad.html#a9db6325ba5d7d18a5e8281b460dcacae">More...</a><br /></td></tr>
-<tr class="separator:a9db6325ba5d7d18a5e8281b460dcacae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab1b848d5820fbe161e593838b03cb87a"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1SymmetricDyad.html">PhQ::SymmetricDyad</a>&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalSymmetricDyad.html#ab1b848d5820fbe161e593838b03cb87a">StaticValue</a> () const</td></tr>
-<tr class="memdesc:ab1b848d5820fbe161e593838b03cb87a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Value of this physical quantity expressed in a given unit of measure. This method can be evaluated statically at compile-time.  <a href="classPhQ_1_1DimensionalSymmetricDyad.html#ab1b848d5820fbe161e593838b03cb87a">More...</a><br /></td></tr>
-<tr class="separator:ab1b848d5820fbe161e593838b03cb87a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7905fe93a352007a422979e1ddc43c7a"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1SymmetricDyad.html">PhQ::SymmetricDyad</a>&lt; double &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalSymmetricDyad.html#a7905fe93a352007a422979e1ddc43c7a">MutableValue</a> () noexcept</td></tr>
-<tr class="memdesc:a7905fe93a352007a422979e1ddc43c7a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the value of this physical quantity expressed in its standard unit of measure as a mutable value.  <a href="classPhQ_1_1DimensionalSymmetricDyad.html#a7905fe93a352007a422979e1ddc43c7a">More...</a><br /></td></tr>
-<tr class="separator:a7905fe93a352007a422979e1ddc43c7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adae6a7e35dc5faeefd2bd7a8303315e4"><td class="memItemLeft" align="right" valign="top">constexpr void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalSymmetricDyad.html#adae6a7e35dc5faeefd2bd7a8303315e4">SetValue</a> (const <a class="el" href="classPhQ_1_1SymmetricDyad.html">PhQ::SymmetricDyad</a>&lt; double &gt; &amp;<a class="el" href="classPhQ_1_1DimensionalSymmetricDyad.html#afa7bfb503dbeb7c6e3284e0a39f25d0a">value</a>) noexcept</td></tr>
-<tr class="memdesc:adae6a7e35dc5faeefd2bd7a8303315e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the value of this physical quantity expressed in its standard unit of measure to the given value.  <a href="classPhQ_1_1DimensionalSymmetricDyad.html#adae6a7e35dc5faeefd2bd7a8303315e4">More...</a><br /></td></tr>
-<tr class="separator:adae6a7e35dc5faeefd2bd7a8303315e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a578a1ff500b9fc5549e41d299da595be"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalSymmetricDyad.html#a578a1ff500b9fc5549e41d299da595be">Print</a> () const</td></tr>
-<tr class="memdesc:a578a1ff500b9fc5549e41d299da595be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints this physical quantity as a string. This physical quantity's value is expressed in its standard unit of measure.  <a href="classPhQ_1_1DimensionalSymmetricDyad.html#a578a1ff500b9fc5549e41d299da595be">More...</a><br /></td></tr>
-<tr class="separator:a578a1ff500b9fc5549e41d299da595be"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a07bde564bf36c6bd3a709cbeaccdfa62"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalSymmetricDyad.html#a07bde564bf36c6bd3a709cbeaccdfa62">Print</a> (const <a class="el" href="namespacePhQ_1_1Unit.html#abcbda7b992e98486ca609a164ae78a24">Unit::Pressure</a> unit) const</td></tr>
-<tr class="memdesc:a07bde564bf36c6bd3a709cbeaccdfa62"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints this physical quantity as a string. This physical quantity's value is expressed in the given unit of measure.  <a href="classPhQ_1_1DimensionalSymmetricDyad.html#a07bde564bf36c6bd3a709cbeaccdfa62">More...</a><br /></td></tr>
-<tr class="separator:a07bde564bf36c6bd3a709cbeaccdfa62"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a831efa52f2af58ce808c3c11cbfd5443"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalSymmetricDyad.html#a831efa52f2af58ce808c3c11cbfd5443">JSON</a> () const</td></tr>
-<tr class="memdesc:a831efa52f2af58ce808c3c11cbfd5443"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serializes this physical quantity as a JSON message. This physical quantity's value is expressed in its standard unit of measure.  <a href="classPhQ_1_1DimensionalSymmetricDyad.html#a831efa52f2af58ce808c3c11cbfd5443">More...</a><br /></td></tr>
-<tr class="separator:a831efa52f2af58ce808c3c11cbfd5443"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad7340e17ce5f9999376264b44e1c2a00"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalSymmetricDyad.html#ad7340e17ce5f9999376264b44e1c2a00">JSON</a> (const <a class="el" href="namespacePhQ_1_1Unit.html#abcbda7b992e98486ca609a164ae78a24">Unit::Pressure</a> unit) const</td></tr>
-<tr class="memdesc:ad7340e17ce5f9999376264b44e1c2a00"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serializes this physical quantity as a JSON message. This physical quantity's value is expressed in the given unit of measure.  <a href="classPhQ_1_1DimensionalSymmetricDyad.html#ad7340e17ce5f9999376264b44e1c2a00">More...</a><br /></td></tr>
-<tr class="separator:ad7340e17ce5f9999376264b44e1c2a00"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a09e356ff5555f2473b3ca7a5f196781d"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalSymmetricDyad.html#a09e356ff5555f2473b3ca7a5f196781d">XML</a> () const</td></tr>
-<tr class="memdesc:a09e356ff5555f2473b3ca7a5f196781d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serializes this physical quantity as an XML message. This physical quantity's value is expressed in its standard unit of measure.  <a href="classPhQ_1_1DimensionalSymmetricDyad.html#a09e356ff5555f2473b3ca7a5f196781d">More...</a><br /></td></tr>
-<tr class="separator:a09e356ff5555f2473b3ca7a5f196781d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acc4aff076c79ad92c146642b6c7a9de7"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalSymmetricDyad.html#acc4aff076c79ad92c146642b6c7a9de7">XML</a> (const <a class="el" href="namespacePhQ_1_1Unit.html#abcbda7b992e98486ca609a164ae78a24">Unit::Pressure</a> unit) const</td></tr>
-<tr class="memdesc:acc4aff076c79ad92c146642b6c7a9de7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serializes this physical quantity as an XML message. This physical quantity's value is expressed in the given unit of measure.  <a href="classPhQ_1_1DimensionalSymmetricDyad.html#acc4aff076c79ad92c146642b6c7a9de7">More...</a><br /></td></tr>
-<tr class="separator:acc4aff076c79ad92c146642b6c7a9de7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aacf67c8b141c96644035685db07f6d0b"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalSymmetricDyad.html#aacf67c8b141c96644035685db07f6d0b">YAML</a> () const</td></tr>
-<tr class="memdesc:aacf67c8b141c96644035685db07f6d0b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serializes this physical quantity as a YAML message. This physical quantity's value is expressed in its standard unit of measure.  <a href="classPhQ_1_1DimensionalSymmetricDyad.html#aacf67c8b141c96644035685db07f6d0b">More...</a><br /></td></tr>
-<tr class="separator:aacf67c8b141c96644035685db07f6d0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a15b05b600cd46dc9c49396d057ddb7fe"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalSymmetricDyad.html#a15b05b600cd46dc9c49396d057ddb7fe">YAML</a> (const <a class="el" href="namespacePhQ_1_1Unit.html#abcbda7b992e98486ca609a164ae78a24">Unit::Pressure</a> unit) const</td></tr>
-<tr class="memdesc:a15b05b600cd46dc9c49396d057ddb7fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serializes this physical quantity as a YAML message. This physical quantity's value is expressed in the given unit of measure.  <a href="classPhQ_1_1DimensionalSymmetricDyad.html#a15b05b600cd46dc9c49396d057ddb7fe">More...</a><br /></td></tr>
-<tr class="separator:a15b05b600cd46dc9c49396d057ddb7fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32614bebae67f9980ee16d1309bce22c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Stress.html#a32614bebae67f9980ee16d1309bce22c">Stress</a> ()=default</td></tr>
+<tr class="memdesc:a32614bebae67f9980ee16d1309bce22c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor. Constructs a stress tensor with an uninitialized value.  <a href="classPhQ_1_1Stress.html#a32614bebae67f9980ee16d1309bce22c">More...</a><br /></td></tr>
+<tr class="separator:a32614bebae67f9980ee16d1309bce22c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15776b49733c04a9cc902421081f34a0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Stress.html#a15776b49733c04a9cc902421081f34a0">Stress</a> (const <a class="el" href="classPhQ_1_1SymmetricDyad.html">SymmetricDyad</a>&lt; NumericType &gt; &amp;<a class="el" href="classPhQ_1_1DimensionalSymmetricDyad.html#af33f7ea04aef20c862e9b837ce630327">value</a>, const <a class="el" href="namespacePhQ_1_1Unit.html#abcbda7b992e98486ca609a164ae78a24">Unit::Pressure</a> unit)</td></tr>
+<tr class="memdesc:a15776b49733c04a9cc902421081f34a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a stress tensor with a given value expressed in a given pressure unit.  <a href="classPhQ_1_1Stress.html#a15776b49733c04a9cc902421081f34a0">More...</a><br /></td></tr>
+<tr class="separator:a15776b49733c04a9cc902421081f34a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2eecc277f941b1a19bffaa0483b84f80"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Stress.html#a2eecc277f941b1a19bffaa0483b84f80">Stress</a> (const <a class="el" href="classPhQ_1_1ScalarStress.html">ScalarStress</a>&lt; NumericType &gt; &amp;<a class="el" href="classPhQ_1_1Stress.html#a1e5129659aadd35fbc63ba7ae9c2a127">xx</a>, const <a class="el" href="classPhQ_1_1ScalarStress.html">ScalarStress</a>&lt; NumericType &gt; &amp;<a class="el" href="classPhQ_1_1Stress.html#af8820889dea7add9d5c98353298f32cb">xy</a>, const <a class="el" href="classPhQ_1_1ScalarStress.html">ScalarStress</a>&lt; NumericType &gt; &amp;<a class="el" href="classPhQ_1_1Stress.html#a7a0d6c0c512df34e2bb668aba765f396">xz</a>, const <a class="el" href="classPhQ_1_1ScalarStress.html">ScalarStress</a>&lt; NumericType &gt; &amp;<a class="el" href="classPhQ_1_1Stress.html#a8e11ea5a8a00c688401b4de848894469">yy</a>, const <a class="el" href="classPhQ_1_1ScalarStress.html">ScalarStress</a>&lt; NumericType &gt; &amp;<a class="el" href="classPhQ_1_1Stress.html#a747e11cdeb218ed897f85fc31eae9d1d">yz</a>, const <a class="el" href="classPhQ_1_1ScalarStress.html">ScalarStress</a>&lt; NumericType &gt; &amp;<a class="el" href="classPhQ_1_1Stress.html#ad7403d7a8b0274ec8dbb02a3eb58c40b">zz</a>)</td></tr>
+<tr class="memdesc:a2eecc277f941b1a19bffaa0483b84f80"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a stress tensor from a given set of scalar stress components.  <a href="classPhQ_1_1Stress.html#a2eecc277f941b1a19bffaa0483b84f80">More...</a><br /></td></tr>
+<tr class="separator:a2eecc277f941b1a19bffaa0483b84f80"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f0437fcc1e4fa0bde12a8cedb6a8f00"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Stress.html#a7f0437fcc1e4fa0bde12a8cedb6a8f00">Stress</a> (const <a class="el" href="classPhQ_1_1StaticPressure.html">StaticPressure</a>&lt; NumericType &gt; &amp;static_pressure)</td></tr>
+<tr class="memdesc:a7f0437fcc1e4fa0bde12a8cedb6a8f00"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a stress tensor from a given static pressure using the definition of stress due to pressure. Since pressure is compressive, the negative of the static pressure contributes to the stress.  <a href="classPhQ_1_1Stress.html#a7f0437fcc1e4fa0bde12a8cedb6a8f00">More...</a><br /></td></tr>
+<tr class="separator:a7f0437fcc1e4fa0bde12a8cedb6a8f00"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a856263c192cf92c6547dacaa37d4c863"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Stress.html#a856263c192cf92c6547dacaa37d4c863">~Stress</a> () noexcept=default</td></tr>
+<tr class="memdesc:a856263c192cf92c6547dacaa37d4c863"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor. Destroys this stress tensor.  <a href="classPhQ_1_1Stress.html#a856263c192cf92c6547dacaa37d4c863">More...</a><br /></td></tr>
+<tr class="separator:a856263c192cf92c6547dacaa37d4c863"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6639c63a2223944cf09af7f669082d7"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Stress.html#ac6639c63a2223944cf09af7f669082d7">Stress</a> (const <a class="el" href="classPhQ_1_1Stress.html">Stress</a>&lt; NumericType &gt; &amp;other)=default</td></tr>
+<tr class="memdesc:ac6639c63a2223944cf09af7f669082d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy constructor. Constructs a stress tensor by copying another one.  <a href="classPhQ_1_1Stress.html#ac6639c63a2223944cf09af7f669082d7">More...</a><br /></td></tr>
+<tr class="separator:ac6639c63a2223944cf09af7f669082d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a98f3355cdc5040ec9d9975e12daf34e4"><td class="memTemplParams" colspan="2">template&lt;typename OtherNumericType &gt; </td></tr>
+<tr class="memitem:a98f3355cdc5040ec9d9975e12daf34e4"><td class="memTemplItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Stress.html#a98f3355cdc5040ec9d9975e12daf34e4">Stress</a> (const <a class="el" href="classPhQ_1_1Stress.html">Stress</a>&lt; OtherNumericType &gt; &amp;other)</td></tr>
+<tr class="memdesc:a98f3355cdc5040ec9d9975e12daf34e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy constructor. Constructs a stress tensor by copying another one.  <a href="classPhQ_1_1Stress.html#a98f3355cdc5040ec9d9975e12daf34e4">More...</a><br /></td></tr>
+<tr class="separator:a98f3355cdc5040ec9d9975e12daf34e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47a88d3d489ef1e961fd15b54f4b0368"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Stress.html#a47a88d3d489ef1e961fd15b54f4b0368">Stress</a> (<a class="el" href="classPhQ_1_1Stress.html">Stress</a>&lt; NumericType &gt; &amp;&amp;other) noexcept=default</td></tr>
+<tr class="memdesc:a47a88d3d489ef1e961fd15b54f4b0368"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move constructor. Constructs a stress tensor by moving another one.  <a href="classPhQ_1_1Stress.html#a47a88d3d489ef1e961fd15b54f4b0368">More...</a><br /></td></tr>
+<tr class="separator:a47a88d3d489ef1e961fd15b54f4b0368"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a530069134794352a3508023ab24c3698"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1Stress.html">Stress</a>&lt; NumericType &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Stress.html#a530069134794352a3508023ab24c3698">operator=</a> (const <a class="el" href="classPhQ_1_1Stress.html">Stress</a>&lt; NumericType &gt; &amp;other)=default</td></tr>
+<tr class="memdesc:a530069134794352a3508023ab24c3698"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy assignment operator. Assigns this stress tensor by copying another one.  <a href="classPhQ_1_1Stress.html#a530069134794352a3508023ab24c3698">More...</a><br /></td></tr>
+<tr class="separator:a530069134794352a3508023ab24c3698"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7235f42321c9ea06959a80d956d205c0"><td class="memTemplParams" colspan="2">template&lt;typename OtherNumericType &gt; </td></tr>
+<tr class="memitem:a7235f42321c9ea06959a80d956d205c0"><td class="memTemplItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1Stress.html">Stress</a>&lt; NumericType &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Stress.html#a7235f42321c9ea06959a80d956d205c0">operator=</a> (const <a class="el" href="classPhQ_1_1Stress.html">Stress</a>&lt; OtherNumericType &gt; &amp;other)</td></tr>
+<tr class="memdesc:a7235f42321c9ea06959a80d956d205c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy assignment operator. Assigns this stress tensor by copying another one.  <a href="classPhQ_1_1Stress.html#a7235f42321c9ea06959a80d956d205c0">More...</a><br /></td></tr>
+<tr class="separator:a7235f42321c9ea06959a80d956d205c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b90b8816383795ef3d7ec5f93ebf3f2"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1Stress.html">Stress</a>&lt; NumericType &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Stress.html#a0b90b8816383795ef3d7ec5f93ebf3f2">operator=</a> (<a class="el" href="classPhQ_1_1Stress.html">Stress</a>&lt; NumericType &gt; &amp;&amp;other) noexcept=default</td></tr>
+<tr class="memdesc:a0b90b8816383795ef3d7ec5f93ebf3f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move assignment operator. Assigns this stress tensor by moving another one.  <a href="classPhQ_1_1Stress.html#a0b90b8816383795ef3d7ec5f93ebf3f2">More...</a><br /></td></tr>
+<tr class="separator:a0b90b8816383795ef3d7ec5f93ebf3f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e5129659aadd35fbc63ba7ae9c2a127"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1ScalarStress.html">ScalarStress</a>&lt; NumericType &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Stress.html#a1e5129659aadd35fbc63ba7ae9c2a127">xx</a> () const noexcept</td></tr>
+<tr class="memdesc:a1e5129659aadd35fbc63ba7ae9c2a127"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the xx Cartesian component of this stress tensor.  <a href="classPhQ_1_1Stress.html#a1e5129659aadd35fbc63ba7ae9c2a127">More...</a><br /></td></tr>
+<tr class="separator:a1e5129659aadd35fbc63ba7ae9c2a127"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af8820889dea7add9d5c98353298f32cb"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1ScalarStress.html">ScalarStress</a>&lt; NumericType &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Stress.html#af8820889dea7add9d5c98353298f32cb">xy</a> () const noexcept</td></tr>
+<tr class="memdesc:af8820889dea7add9d5c98353298f32cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the xy = yx Cartesian component of this stress tensor.  <a href="classPhQ_1_1Stress.html#af8820889dea7add9d5c98353298f32cb">More...</a><br /></td></tr>
+<tr class="separator:af8820889dea7add9d5c98353298f32cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a0d6c0c512df34e2bb668aba765f396"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1ScalarStress.html">ScalarStress</a>&lt; NumericType &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Stress.html#a7a0d6c0c512df34e2bb668aba765f396">xz</a> () const noexcept</td></tr>
+<tr class="memdesc:a7a0d6c0c512df34e2bb668aba765f396"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the xz = zx Cartesian component of this stress tensor.  <a href="classPhQ_1_1Stress.html#a7a0d6c0c512df34e2bb668aba765f396">More...</a><br /></td></tr>
+<tr class="separator:a7a0d6c0c512df34e2bb668aba765f396"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8034d43c47d4c8dc56d443dce318b18c"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1ScalarStress.html">ScalarStress</a>&lt; NumericType &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Stress.html#a8034d43c47d4c8dc56d443dce318b18c">yx</a> () const noexcept</td></tr>
+<tr class="memdesc:a8034d43c47d4c8dc56d443dce318b18c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the yx = xy Cartesian component of this stress tensor.  <a href="classPhQ_1_1Stress.html#a8034d43c47d4c8dc56d443dce318b18c">More...</a><br /></td></tr>
+<tr class="separator:a8034d43c47d4c8dc56d443dce318b18c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e11ea5a8a00c688401b4de848894469"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1ScalarStress.html">ScalarStress</a>&lt; NumericType &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Stress.html#a8e11ea5a8a00c688401b4de848894469">yy</a> () const noexcept</td></tr>
+<tr class="memdesc:a8e11ea5a8a00c688401b4de848894469"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the yy Cartesian component of this stress tensor.  <a href="classPhQ_1_1Stress.html#a8e11ea5a8a00c688401b4de848894469">More...</a><br /></td></tr>
+<tr class="separator:a8e11ea5a8a00c688401b4de848894469"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a747e11cdeb218ed897f85fc31eae9d1d"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1ScalarStress.html">ScalarStress</a>&lt; NumericType &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Stress.html#a747e11cdeb218ed897f85fc31eae9d1d">yz</a> () const noexcept</td></tr>
+<tr class="memdesc:a747e11cdeb218ed897f85fc31eae9d1d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the yz = zy Cartesian component of this stress tensor.  <a href="classPhQ_1_1Stress.html#a747e11cdeb218ed897f85fc31eae9d1d">More...</a><br /></td></tr>
+<tr class="separator:a747e11cdeb218ed897f85fc31eae9d1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af789f0d20f2995af5553eaabf9f5b06d"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1ScalarStress.html">ScalarStress</a>&lt; NumericType &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Stress.html#af789f0d20f2995af5553eaabf9f5b06d">zx</a> () const noexcept</td></tr>
+<tr class="memdesc:af789f0d20f2995af5553eaabf9f5b06d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the zx = xz Cartesian component of this stress tensor.  <a href="classPhQ_1_1Stress.html#af789f0d20f2995af5553eaabf9f5b06d">More...</a><br /></td></tr>
+<tr class="separator:af789f0d20f2995af5553eaabf9f5b06d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ef5ca52ac5954c97103aeedb6235a12"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1ScalarStress.html">ScalarStress</a>&lt; NumericType &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Stress.html#a1ef5ca52ac5954c97103aeedb6235a12">zy</a> () const noexcept</td></tr>
+<tr class="memdesc:a1ef5ca52ac5954c97103aeedb6235a12"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the zy = yz Cartesian component of this stress tensor.  <a href="classPhQ_1_1Stress.html#a1ef5ca52ac5954c97103aeedb6235a12">More...</a><br /></td></tr>
+<tr class="separator:a1ef5ca52ac5954c97103aeedb6235a12"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad7403d7a8b0274ec8dbb02a3eb58c40b"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1ScalarStress.html">ScalarStress</a>&lt; NumericType &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Stress.html#ad7403d7a8b0274ec8dbb02a3eb58c40b">zz</a> () const noexcept</td></tr>
+<tr class="memdesc:ad7403d7a8b0274ec8dbb02a3eb58c40b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the zz Cartesian component of this stress tensor.  <a href="classPhQ_1_1Stress.html#ad7403d7a8b0274ec8dbb02a3eb58c40b">More...</a><br /></td></tr>
+<tr class="separator:ad7403d7a8b0274ec8dbb02a3eb58c40b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2da2e41a92bd40d1656120def7f0ec53"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1PlanarTraction.html">PhQ::PlanarTraction</a>&lt; NumericType &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Stress.html#a2da2e41a92bd40d1656120def7f0ec53">PlanarTraction</a> (const <a class="el" href="classPhQ_1_1PlanarDirection.html">PlanarDirection</a>&lt; NumericType &gt; &amp;direction) const</td></tr>
+<tr class="memdesc:a2da2e41a92bd40d1656120def7f0ec53"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a planar traction vector from this stress tensor and a given planar direction using the definition of traction.  <a href="classPhQ_1_1Stress.html#a2da2e41a92bd40d1656120def7f0ec53">More...</a><br /></td></tr>
+<tr class="separator:a2da2e41a92bd40d1656120def7f0ec53"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8916787e9977359904f0ddf19e9f0a4d"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1Traction.html">PhQ::Traction</a>&lt; NumericType &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Stress.html#a8916787e9977359904f0ddf19e9f0a4d">Traction</a> (const <a class="el" href="classPhQ_1_1Direction.html">Direction</a>&lt; NumericType &gt; &amp;direction) const</td></tr>
+<tr class="memdesc:a8916787e9977359904f0ddf19e9f0a4d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a traction vector from this stress tensor and a given direction using the definition of traction.  <a href="classPhQ_1_1Stress.html#a8916787e9977359904f0ddf19e9f0a4d">More...</a><br /></td></tr>
+<tr class="separator:a8916787e9977359904f0ddf19e9f0a4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a36a92dd5f645354e2d72fd2931261beb"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1ScalarStress.html">ScalarStress</a>&lt; NumericType &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Stress.html#a36a92dd5f645354e2d72fd2931261beb">VonMises</a> () const</td></tr>
+<tr class="memdesc:a36a92dd5f645354e2d72fd2931261beb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the von Mises stress of this stress tensor using the von Mises yield criterion.  <a href="classPhQ_1_1Stress.html#a36a92dd5f645354e2d72fd2931261beb">More...</a><br /></td></tr>
+<tr class="separator:a36a92dd5f645354e2d72fd2931261beb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1222785d3adf1696f9d29b0552f63051"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1Stress.html">Stress</a>&lt; NumericType &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Stress.html#a1222785d3adf1696f9d29b0552f63051">operator+</a> (const <a class="el" href="classPhQ_1_1Stress.html">Stress</a>&lt; NumericType &gt; &amp;stress) const</td></tr>
+<tr class="separator:a1222785d3adf1696f9d29b0552f63051"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb0ed438c5e7c0943206513503373bd4"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1Stress.html">Stress</a>&lt; NumericType &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Stress.html#afb0ed438c5e7c0943206513503373bd4">operator-</a> (const <a class="el" href="classPhQ_1_1Stress.html">Stress</a>&lt; NumericType &gt; &amp;stress) const</td></tr>
+<tr class="separator:afb0ed438c5e7c0943206513503373bd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f0cb529ed789881212dd3270ba5f466"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1Stress.html">Stress</a>&lt; NumericType &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Stress.html#a2f0cb529ed789881212dd3270ba5f466">operator*</a> (const NumericType number) const</td></tr>
+<tr class="separator:a2f0cb529ed789881212dd3270ba5f466"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1303939417e9de10b61ea97d8dc28ff1"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1Stress.html">Stress</a>&lt; NumericType &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Stress.html#a1303939417e9de10b61ea97d8dc28ff1">operator/</a> (const NumericType number) const</td></tr>
+<tr class="separator:a1303939417e9de10b61ea97d8dc28ff1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a135877a3eee00a5779537c87bedded9b"><td class="memItemLeft" align="right" valign="top">constexpr void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Stress.html#a135877a3eee00a5779537c87bedded9b">operator+=</a> (const <a class="el" href="classPhQ_1_1Stress.html">Stress</a>&lt; NumericType &gt; &amp;stress) noexcept</td></tr>
+<tr class="separator:a135877a3eee00a5779537c87bedded9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4043ddee7da65b7f383e32889fdce64f"><td class="memItemLeft" align="right" valign="top">constexpr void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Stress.html#a4043ddee7da65b7f383e32889fdce64f">operator-=</a> (const <a class="el" href="classPhQ_1_1Stress.html">Stress</a>&lt; NumericType &gt; &amp;stress) noexcept</td></tr>
+<tr class="separator:a4043ddee7da65b7f383e32889fdce64f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a22b8b107a539513a3108cca9364c5680"><td class="memItemLeft" align="right" valign="top">constexpr void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Stress.html#a22b8b107a539513a3108cca9364c5680">operator*=</a> (const NumericType number) noexcept</td></tr>
+<tr class="separator:a22b8b107a539513a3108cca9364c5680"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a26c6c81b79e26e76939aedae49511756"><td class="memItemLeft" align="right" valign="top">constexpr void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Stress.html#a26c6c81b79e26e76939aedae49511756">operator/=</a> (const NumericType number) noexcept</td></tr>
+<tr class="separator:a26c6c81b79e26e76939aedae49511756"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e7ce2620ab349a33d724deae8eac849"><td class="memItemLeft" align="right" valign="top">constexpr const <a class="el" href="classPhQ_1_1SymmetricDyad.html">PhQ::SymmetricDyad</a>&lt; double &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalSymmetricDyad.html#a1e7ce2620ab349a33d724deae8eac849">Value</a> () const noexcept</td></tr>
+<tr class="memdesc:a1e7ce2620ab349a33d724deae8eac849"><td class="mdescLeft">&#160;</td><td class="mdescRight">Value of this physical quantity expressed in its standard unit of measure.  <a href="classPhQ_1_1DimensionalSymmetricDyad.html#a1e7ce2620ab349a33d724deae8eac849">More...</a><br /></td></tr>
+<tr class="separator:a1e7ce2620ab349a33d724deae8eac849"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0317b0bd73c167ed4a22418133834c41"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPhQ_1_1SymmetricDyad.html">PhQ::SymmetricDyad</a>&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalSymmetricDyad.html#a0317b0bd73c167ed4a22418133834c41">Value</a> (const <a class="el" href="namespacePhQ_1_1Unit.html#abcbda7b992e98486ca609a164ae78a24">Unit::Pressure</a> unit) const</td></tr>
+<tr class="memdesc:a0317b0bd73c167ed4a22418133834c41"><td class="mdescLeft">&#160;</td><td class="mdescRight">Value of this physical quantity expressed in a given unit of measure.  <a href="classPhQ_1_1DimensionalSymmetricDyad.html#a0317b0bd73c167ed4a22418133834c41">More...</a><br /></td></tr>
+<tr class="separator:a0317b0bd73c167ed4a22418133834c41"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f1b1c39a52caea2d52c86b04548a466"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1SymmetricDyad.html">PhQ::SymmetricDyad</a>&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalSymmetricDyad.html#a8f1b1c39a52caea2d52c86b04548a466">StaticValue</a> () const</td></tr>
+<tr class="memdesc:a8f1b1c39a52caea2d52c86b04548a466"><td class="mdescLeft">&#160;</td><td class="mdescRight">Value of this physical quantity expressed in a given unit of measure. This method can be evaluated statically at compile-time.  <a href="classPhQ_1_1DimensionalSymmetricDyad.html#a8f1b1c39a52caea2d52c86b04548a466">More...</a><br /></td></tr>
+<tr class="separator:a8f1b1c39a52caea2d52c86b04548a466"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afcd658091dd315dd6430020be3075804"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1SymmetricDyad.html">PhQ::SymmetricDyad</a>&lt; double &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalSymmetricDyad.html#afcd658091dd315dd6430020be3075804">MutableValue</a> () noexcept</td></tr>
+<tr class="memdesc:afcd658091dd315dd6430020be3075804"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the value of this physical quantity expressed in its standard unit of measure as a mutable value.  <a href="classPhQ_1_1DimensionalSymmetricDyad.html#afcd658091dd315dd6430020be3075804">More...</a><br /></td></tr>
+<tr class="separator:afcd658091dd315dd6430020be3075804"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6bcba3e251e6638ad0bc66cd623eb31c"><td class="memItemLeft" align="right" valign="top">constexpr void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalSymmetricDyad.html#a6bcba3e251e6638ad0bc66cd623eb31c">SetValue</a> (const <a class="el" href="classPhQ_1_1SymmetricDyad.html">PhQ::SymmetricDyad</a>&lt; double &gt; &amp;<a class="el" href="classPhQ_1_1DimensionalSymmetricDyad.html#af33f7ea04aef20c862e9b837ce630327">value</a>) noexcept</td></tr>
+<tr class="memdesc:a6bcba3e251e6638ad0bc66cd623eb31c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the value of this physical quantity expressed in its standard unit of measure to the given value.  <a href="classPhQ_1_1DimensionalSymmetricDyad.html#a6bcba3e251e6638ad0bc66cd623eb31c">More...</a><br /></td></tr>
+<tr class="separator:a6bcba3e251e6638ad0bc66cd623eb31c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83650c44abb70644c852f4b327cc006a"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalSymmetricDyad.html#a83650c44abb70644c852f4b327cc006a">Print</a> () const</td></tr>
+<tr class="memdesc:a83650c44abb70644c852f4b327cc006a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints this physical quantity as a string. This physical quantity's value is expressed in its standard unit of measure.  <a href="classPhQ_1_1DimensionalSymmetricDyad.html#a83650c44abb70644c852f4b327cc006a">More...</a><br /></td></tr>
+<tr class="separator:a83650c44abb70644c852f4b327cc006a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae6cd2cae1546b9ff978111628c0ad283"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalSymmetricDyad.html#ae6cd2cae1546b9ff978111628c0ad283">Print</a> (const <a class="el" href="namespacePhQ_1_1Unit.html#abcbda7b992e98486ca609a164ae78a24">Unit::Pressure</a> unit) const</td></tr>
+<tr class="memdesc:ae6cd2cae1546b9ff978111628c0ad283"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints this physical quantity as a string. This physical quantity's value is expressed in the given unit of measure.  <a href="classPhQ_1_1DimensionalSymmetricDyad.html#ae6cd2cae1546b9ff978111628c0ad283">More...</a><br /></td></tr>
+<tr class="separator:ae6cd2cae1546b9ff978111628c0ad283"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c4d80392e9778ebe2147ac792828588"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalSymmetricDyad.html#a2c4d80392e9778ebe2147ac792828588">JSON</a> () const</td></tr>
+<tr class="memdesc:a2c4d80392e9778ebe2147ac792828588"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serializes this physical quantity as a JSON message. This physical quantity's value is expressed in its standard unit of measure.  <a href="classPhQ_1_1DimensionalSymmetricDyad.html#a2c4d80392e9778ebe2147ac792828588">More...</a><br /></td></tr>
+<tr class="separator:a2c4d80392e9778ebe2147ac792828588"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc7fd02ad2db55b93ff4a5ec5b232790"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalSymmetricDyad.html#adc7fd02ad2db55b93ff4a5ec5b232790">JSON</a> (const <a class="el" href="namespacePhQ_1_1Unit.html#abcbda7b992e98486ca609a164ae78a24">Unit::Pressure</a> unit) const</td></tr>
+<tr class="memdesc:adc7fd02ad2db55b93ff4a5ec5b232790"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serializes this physical quantity as a JSON message. This physical quantity's value is expressed in the given unit of measure.  <a href="classPhQ_1_1DimensionalSymmetricDyad.html#adc7fd02ad2db55b93ff4a5ec5b232790">More...</a><br /></td></tr>
+<tr class="separator:adc7fd02ad2db55b93ff4a5ec5b232790"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9839cb618c37146c0a0776579684380e"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalSymmetricDyad.html#a9839cb618c37146c0a0776579684380e">XML</a> () const</td></tr>
+<tr class="memdesc:a9839cb618c37146c0a0776579684380e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serializes this physical quantity as an XML message. This physical quantity's value is expressed in its standard unit of measure.  <a href="classPhQ_1_1DimensionalSymmetricDyad.html#a9839cb618c37146c0a0776579684380e">More...</a><br /></td></tr>
+<tr class="separator:a9839cb618c37146c0a0776579684380e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9042c12268d1086f6ac620d579414a1"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalSymmetricDyad.html#aa9042c12268d1086f6ac620d579414a1">XML</a> (const <a class="el" href="namespacePhQ_1_1Unit.html#abcbda7b992e98486ca609a164ae78a24">Unit::Pressure</a> unit) const</td></tr>
+<tr class="memdesc:aa9042c12268d1086f6ac620d579414a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serializes this physical quantity as an XML message. This physical quantity's value is expressed in the given unit of measure.  <a href="classPhQ_1_1DimensionalSymmetricDyad.html#aa9042c12268d1086f6ac620d579414a1">More...</a><br /></td></tr>
+<tr class="separator:aa9042c12268d1086f6ac620d579414a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ea587c73ced7f77612b58c77c5cc025"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalSymmetricDyad.html#a8ea587c73ced7f77612b58c77c5cc025">YAML</a> () const</td></tr>
+<tr class="memdesc:a8ea587c73ced7f77612b58c77c5cc025"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serializes this physical quantity as a YAML message. This physical quantity's value is expressed in its standard unit of measure.  <a href="classPhQ_1_1DimensionalSymmetricDyad.html#a8ea587c73ced7f77612b58c77c5cc025">More...</a><br /></td></tr>
+<tr class="separator:a8ea587c73ced7f77612b58c77c5cc025"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ed062cfda93fc1387d9008824f39d32"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalSymmetricDyad.html#a1ed062cfda93fc1387d9008824f39d32">YAML</a> (const <a class="el" href="namespacePhQ_1_1Unit.html#abcbda7b992e98486ca609a164ae78a24">Unit::Pressure</a> unit) const</td></tr>
+<tr class="memdesc:a1ed062cfda93fc1387d9008824f39d32"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serializes this physical quantity as a YAML message. This physical quantity's value is expressed in the given unit of measure.  <a href="classPhQ_1_1DimensionalSymmetricDyad.html#a1ed062cfda93fc1387d9008824f39d32">More...</a><br /></td></tr>
+<tr class="separator:a1ed062cfda93fc1387d9008824f39d32"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:aebae861dc8d375ebc0d84ba76721b264"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="classPhQ_1_1Stress.html">Stress</a>&lt; Number &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Stress.html#aebae861dc8d375ebc0d84ba76721b264">Zero</a> ()</td></tr>
-<tr class="memdesc:aebae861dc8d375ebc0d84ba76721b264"><td class="mdescLeft">&#160;</td><td class="mdescRight">Statically creates a stress tensor of zero.  <a href="classPhQ_1_1Stress.html#aebae861dc8d375ebc0d84ba76721b264">More...</a><br /></td></tr>
-<tr class="separator:aebae861dc8d375ebc0d84ba76721b264"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8aa4a459d8bd5dca4b775ab1a85bece2"><td class="memTemplParams" colspan="2">template&lt;Unit::Pressure Unit&gt; </td></tr>
-<tr class="memitem:a8aa4a459d8bd5dca4b775ab1a85bece2"><td class="memTemplItemLeft" align="right" valign="top">static constexpr <a class="el" href="classPhQ_1_1Stress.html">Stress</a>&lt; Number &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Stress.html#a8aa4a459d8bd5dca4b775ab1a85bece2">Create</a> (const Number <a class="el" href="classPhQ_1_1Stress.html#aabb79878953ee541e54bcc47b3138f10">xx</a>, const Number <a class="el" href="classPhQ_1_1Stress.html#a1e7678764921694dfbdce62775d74665">xy</a>, const Number <a class="el" href="classPhQ_1_1Stress.html#a5f0d0a44432ca4ab67ecb94942ee60f8">xz</a>, const Number <a class="el" href="classPhQ_1_1Stress.html#a4aa29bd09a250d954cb421fcc5f12eec">yy</a>, const Number <a class="el" href="classPhQ_1_1Stress.html#a314fcc8b8851b21d33f06353545fe095">yz</a>, const Number <a class="el" href="classPhQ_1_1Stress.html#a64f2434742e1385619092e7f1e8bd1f0">zz</a>)</td></tr>
-<tr class="memdesc:a8aa4a459d8bd5dca4b775ab1a85bece2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Statically creates a stress tensor from the given xx, xy, xz, yy, yz, and zz Cartesian components expressed in a given pressure unit.  <a href="classPhQ_1_1Stress.html#a8aa4a459d8bd5dca4b775ab1a85bece2">More...</a><br /></td></tr>
-<tr class="separator:a8aa4a459d8bd5dca4b775ab1a85bece2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac0bd6ec5ef1e193de66ec9a37371b34c"><td class="memTemplParams" colspan="2">template&lt;Unit::Pressure Unit&gt; </td></tr>
-<tr class="memitem:ac0bd6ec5ef1e193de66ec9a37371b34c"><td class="memTemplItemLeft" align="right" valign="top">static constexpr <a class="el" href="classPhQ_1_1Stress.html">Stress</a>&lt; Number &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Stress.html#ac0bd6ec5ef1e193de66ec9a37371b34c">Create</a> (const std::array&lt; Number, 6 &gt; &amp;xx_xy_xz_yy_yz_zz)</td></tr>
-<tr class="memdesc:ac0bd6ec5ef1e193de66ec9a37371b34c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Statically creates a stress tensor from the given xx, xy, xz, yy, yz, and zz Cartesian components expressed in a given pressure unit.  <a href="classPhQ_1_1Stress.html#ac0bd6ec5ef1e193de66ec9a37371b34c">More...</a><br /></td></tr>
-<tr class="separator:ac0bd6ec5ef1e193de66ec9a37371b34c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7da4171f0ad48cc24b3560f0f9ab9e4c"><td class="memTemplParams" colspan="2">template&lt;Unit::Pressure Unit&gt; </td></tr>
-<tr class="memitem:a7da4171f0ad48cc24b3560f0f9ab9e4c"><td class="memTemplItemLeft" align="right" valign="top">static constexpr <a class="el" href="classPhQ_1_1Stress.html">Stress</a>&lt; Number &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Stress.html#a7da4171f0ad48cc24b3560f0f9ab9e4c">Create</a> (const <a class="el" href="classPhQ_1_1SymmetricDyad.html">SymmetricDyad</a>&lt; Number &gt; &amp;<a class="el" href="classPhQ_1_1DimensionalSymmetricDyad.html#afa7bfb503dbeb7c6e3284e0a39f25d0a">value</a>)</td></tr>
-<tr class="memdesc:a7da4171f0ad48cc24b3560f0f9ab9e4c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Statically creates a stress tensor with a given value expressed in a given pressure unit.  <a href="classPhQ_1_1Stress.html#a7da4171f0ad48cc24b3560f0f9ab9e4c">More...</a><br /></td></tr>
-<tr class="separator:a7da4171f0ad48cc24b3560f0f9ab9e4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a077389485fc89f5009fb2497b66c6a41"><td class="memItemLeft" align="right" valign="top">static constexpr const <a class="el" href="classPhQ_1_1Dimensions.html">PhQ::Dimensions</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalSymmetricDyad.html#a077389485fc89f5009fb2497b66c6a41">Dimensions</a> ()</td></tr>
-<tr class="memdesc:a077389485fc89f5009fb2497b66c6a41"><td class="mdescLeft">&#160;</td><td class="mdescRight">Physical dimension set of this physical quantity.  <a href="classPhQ_1_1DimensionalSymmetricDyad.html#a077389485fc89f5009fb2497b66c6a41">More...</a><br /></td></tr>
-<tr class="separator:a077389485fc89f5009fb2497b66c6a41"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae3f190e0875e88189224090a6d2d1854"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="namespacePhQ_1_1Unit.html#abcbda7b992e98486ca609a164ae78a24">Unit::Pressure</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalSymmetricDyad.html#ae3f190e0875e88189224090a6d2d1854">Unit</a> ()</td></tr>
-<tr class="memdesc:ae3f190e0875e88189224090a6d2d1854"><td class="mdescLeft">&#160;</td><td class="mdescRight">Standard unit of measure for this physical quantity. This physical quantity's value is stored internally in this unit of measure.  <a href="classPhQ_1_1DimensionalSymmetricDyad.html#ae3f190e0875e88189224090a6d2d1854">More...</a><br /></td></tr>
-<tr class="separator:ae3f190e0875e88189224090a6d2d1854"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd5b3010507ec091e51a0e684eadafea"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="classPhQ_1_1Stress.html">Stress</a>&lt; NumericType &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Stress.html#acd5b3010507ec091e51a0e684eadafea">Zero</a> ()</td></tr>
+<tr class="memdesc:acd5b3010507ec091e51a0e684eadafea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Statically creates a stress tensor of zero.  <a href="classPhQ_1_1Stress.html#acd5b3010507ec091e51a0e684eadafea">More...</a><br /></td></tr>
+<tr class="separator:acd5b3010507ec091e51a0e684eadafea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab3d1d07a711582f97b7d0f0e0c407bfd"><td class="memTemplParams" colspan="2">template&lt;Unit::Pressure Unit&gt; </td></tr>
+<tr class="memitem:ab3d1d07a711582f97b7d0f0e0c407bfd"><td class="memTemplItemLeft" align="right" valign="top">static constexpr <a class="el" href="classPhQ_1_1Stress.html">Stress</a>&lt; NumericType &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Stress.html#ab3d1d07a711582f97b7d0f0e0c407bfd">Create</a> (const NumericType <a class="el" href="classPhQ_1_1Stress.html#a1e5129659aadd35fbc63ba7ae9c2a127">xx</a>, const NumericType <a class="el" href="classPhQ_1_1Stress.html#af8820889dea7add9d5c98353298f32cb">xy</a>, const NumericType <a class="el" href="classPhQ_1_1Stress.html#a7a0d6c0c512df34e2bb668aba765f396">xz</a>, const NumericType <a class="el" href="classPhQ_1_1Stress.html#a8e11ea5a8a00c688401b4de848894469">yy</a>, const NumericType <a class="el" href="classPhQ_1_1Stress.html#a747e11cdeb218ed897f85fc31eae9d1d">yz</a>, const NumericType <a class="el" href="classPhQ_1_1Stress.html#ad7403d7a8b0274ec8dbb02a3eb58c40b">zz</a>)</td></tr>
+<tr class="memdesc:ab3d1d07a711582f97b7d0f0e0c407bfd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Statically creates a stress tensor from the given xx, xy, xz, yy, yz, and zz Cartesian components expressed in a given pressure unit.  <a href="classPhQ_1_1Stress.html#ab3d1d07a711582f97b7d0f0e0c407bfd">More...</a><br /></td></tr>
+<tr class="separator:ab3d1d07a711582f97b7d0f0e0c407bfd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad628c3541e4ec7cb27918a9c19246727"><td class="memTemplParams" colspan="2">template&lt;Unit::Pressure Unit&gt; </td></tr>
+<tr class="memitem:ad628c3541e4ec7cb27918a9c19246727"><td class="memTemplItemLeft" align="right" valign="top">static constexpr <a class="el" href="classPhQ_1_1Stress.html">Stress</a>&lt; NumericType &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Stress.html#ad628c3541e4ec7cb27918a9c19246727">Create</a> (const std::array&lt; NumericType, 6 &gt; &amp;xx_xy_xz_yy_yz_zz)</td></tr>
+<tr class="memdesc:ad628c3541e4ec7cb27918a9c19246727"><td class="mdescLeft">&#160;</td><td class="mdescRight">Statically creates a stress tensor from the given xx, xy, xz, yy, yz, and zz Cartesian components expressed in a given pressure unit.  <a href="classPhQ_1_1Stress.html#ad628c3541e4ec7cb27918a9c19246727">More...</a><br /></td></tr>
+<tr class="separator:ad628c3541e4ec7cb27918a9c19246727"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3aae19a8fd04a0750ff04399899da42a"><td class="memTemplParams" colspan="2">template&lt;Unit::Pressure Unit&gt; </td></tr>
+<tr class="memitem:a3aae19a8fd04a0750ff04399899da42a"><td class="memTemplItemLeft" align="right" valign="top">static constexpr <a class="el" href="classPhQ_1_1Stress.html">Stress</a>&lt; NumericType &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Stress.html#a3aae19a8fd04a0750ff04399899da42a">Create</a> (const <a class="el" href="classPhQ_1_1SymmetricDyad.html">SymmetricDyad</a>&lt; NumericType &gt; &amp;<a class="el" href="classPhQ_1_1DimensionalSymmetricDyad.html#af33f7ea04aef20c862e9b837ce630327">value</a>)</td></tr>
+<tr class="memdesc:a3aae19a8fd04a0750ff04399899da42a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Statically creates a stress tensor with a given value expressed in a given pressure unit.  <a href="classPhQ_1_1Stress.html#a3aae19a8fd04a0750ff04399899da42a">More...</a><br /></td></tr>
+<tr class="separator:a3aae19a8fd04a0750ff04399899da42a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb8547a4ff1a96065f09410748032f4b"><td class="memItemLeft" align="right" valign="top">static constexpr const <a class="el" href="classPhQ_1_1Dimensions.html">PhQ::Dimensions</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalSymmetricDyad.html#abb8547a4ff1a96065f09410748032f4b">Dimensions</a> ()</td></tr>
+<tr class="memdesc:abb8547a4ff1a96065f09410748032f4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Physical dimension set of this physical quantity.  <a href="classPhQ_1_1DimensionalSymmetricDyad.html#abb8547a4ff1a96065f09410748032f4b">More...</a><br /></td></tr>
+<tr class="separator:abb8547a4ff1a96065f09410748032f4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a61ffd7bb110e2865e3551a078d1e06e0"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="namespacePhQ_1_1Unit.html#abcbda7b992e98486ca609a164ae78a24">Unit::Pressure</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalSymmetricDyad.html#a61ffd7bb110e2865e3551a078d1e06e0">Unit</a> ()</td></tr>
+<tr class="memdesc:a61ffd7bb110e2865e3551a078d1e06e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Standard unit of measure for this physical quantity. This physical quantity's value is stored internally in this unit of measure.  <a href="classPhQ_1_1DimensionalSymmetricDyad.html#a61ffd7bb110e2865e3551a078d1e06e0">More...</a><br /></td></tr>
+<tr class="separator:a61ffd7bb110e2865e3551a078d1e06e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:afa7bfb503dbeb7c6e3284e0a39f25d0a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPhQ_1_1SymmetricDyad.html">PhQ::SymmetricDyad</a>&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalSymmetricDyad.html#afa7bfb503dbeb7c6e3284e0a39f25d0a">value</a></td></tr>
-<tr class="memdesc:afa7bfb503dbeb7c6e3284e0a39f25d0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Value of this physical quantity expressed in its standard unit of measure.  <a href="classPhQ_1_1DimensionalSymmetricDyad.html#afa7bfb503dbeb7c6e3284e0a39f25d0a">More...</a><br /></td></tr>
-<tr class="separator:afa7bfb503dbeb7c6e3284e0a39f25d0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af33f7ea04aef20c862e9b837ce630327"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPhQ_1_1SymmetricDyad.html">PhQ::SymmetricDyad</a>&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalSymmetricDyad.html#af33f7ea04aef20c862e9b837ce630327">value</a></td></tr>
+<tr class="memdesc:af33f7ea04aef20c862e9b837ce630327"><td class="mdescLeft">&#160;</td><td class="mdescRight">Value of this physical quantity expressed in its standard unit of measure.  <a href="classPhQ_1_1DimensionalSymmetricDyad.html#af33f7ea04aef20c862e9b837ce630327">More...</a><br /></td></tr>
+<tr class="separator:af33f7ea04aef20c862e9b837ce630327"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr class="memitem:abdfdbfa58b48e84a174addde90b36787"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Stress.html#abdfdbfa58b48e84a174addde90b36787">Stress</a> (const <a class="el" href="classPhQ_1_1SymmetricDyad.html">SymmetricDyad</a>&lt; Number &gt; &amp;<a class="el" href="classPhQ_1_1DimensionalSymmetricDyad.html#afa7bfb503dbeb7c6e3284e0a39f25d0a">value</a>)</td></tr>
-<tr class="memdesc:abdfdbfa58b48e84a174addde90b36787"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a stress tensor with a given value expressed in the standard pressure unit.  <a href="classPhQ_1_1Stress.html#abdfdbfa58b48e84a174addde90b36787">More...</a><br /></td></tr>
-<tr class="separator:abdfdbfa58b48e84a174addde90b36787"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73c92841776cf8b3d922b38b499a6007"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Stress.html#a73c92841776cf8b3d922b38b499a6007">Stress</a> (const <a class="el" href="classPhQ_1_1SymmetricDyad.html">SymmetricDyad</a>&lt; NumericType &gt; &amp;<a class="el" href="classPhQ_1_1DimensionalSymmetricDyad.html#af33f7ea04aef20c862e9b837ce630327">value</a>)</td></tr>
+<tr class="memdesc:a73c92841776cf8b3d922b38b499a6007"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a stress tensor with a given value expressed in the standard pressure unit.  <a href="classPhQ_1_1Stress.html#a73c92841776cf8b3d922b38b499a6007">More...</a><br /></td></tr>
+<tr class="separator:a73c92841776cf8b3d922b38b499a6007"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><h3>template&lt;typename Number = double&gt;<br />
-class PhQ::Stress&lt; Number &gt;</h3>
+<div class="textblock"><h3>template&lt;typename NumericType = double&gt;<br />
+class PhQ::Stress&lt; NumericType &gt;</h3>
 
 <p>Three-dimensional Euclidean Cauchy stress symmetric dyadic tensor. Contains six components in Cartesian coordinates: xx, xy = yx, xz = zx, yy, yz = zy, and zz. For the scalar components or resultants of a Cauchy stress tensor, see <a class="el" href="classPhQ_1_1ScalarStress.html" title="Scalar component or resultant of a three-dimensional Euclidean Cauchy stress symmetric dyadic tensor....">PhQ::ScalarStress</a>. </p>
 
 <p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00052">52</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a2a18c6a8fb1c682701c6d7eefbe6dd03"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2a18c6a8fb1c682701c6d7eefbe6dd03">&#9670;&nbsp;</a></span>Stress() <span class="overload">[1/8]</span></h2>
+<a id="a32614bebae67f9980ee16d1309bce22c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a32614bebae67f9980ee16d1309bce22c">&#9670;&nbsp;</a></span>Stress() <span class="overload">[1/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classPhQ_1_1Stress.html">PhQ::Stress</a>&lt; Number &gt;::<a class="el" href="classPhQ_1_1Stress.html">Stress</a> </td>
+          <td class="memname"><a class="el" href="classPhQ_1_1Stress.html">PhQ::Stress</a>&lt; NumericType &gt;::<a class="el" href="classPhQ_1_1Stress.html">Stress</a> </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -321,21 +321,21 @@ template&lt;typename Number  = double&gt; </div>
 
 </div>
 </div>
-<a id="a91218f84c53f5dc34c626d2b5fe9a1bd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a91218f84c53f5dc34c626d2b5fe9a1bd">&#9670;&nbsp;</a></span>Stress() <span class="overload">[2/8]</span></h2>
+<a id="a15776b49733c04a9cc902421081f34a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a15776b49733c04a9cc902421081f34a0">&#9670;&nbsp;</a></span>Stress() <span class="overload">[2/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classPhQ_1_1Stress.html">PhQ::Stress</a>&lt; Number &gt;::<a class="el" href="classPhQ_1_1Stress.html">Stress</a> </td>
+          <td class="memname"><a class="el" href="classPhQ_1_1Stress.html">PhQ::Stress</a>&lt; NumericType &gt;::<a class="el" href="classPhQ_1_1Stress.html">Stress</a> </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1SymmetricDyad.html">SymmetricDyad</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1SymmetricDyad.html">SymmetricDyad</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>value</em>, </td>
         </tr>
         <tr>
@@ -363,51 +363,51 @@ template&lt;typename Number  = double&gt; </div>
 
 </div>
 </div>
-<a id="a65b1c70685888fa8fda6adf63e40bc88"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a65b1c70685888fa8fda6adf63e40bc88">&#9670;&nbsp;</a></span>Stress() <span class="overload">[3/8]</span></h2>
+<a id="a2eecc277f941b1a19bffaa0483b84f80"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2eecc277f941b1a19bffaa0483b84f80">&#9670;&nbsp;</a></span>Stress() <span class="overload">[3/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classPhQ_1_1Stress.html">PhQ::Stress</a>&lt; Number &gt;::<a class="el" href="classPhQ_1_1Stress.html">Stress</a> </td>
+          <td class="memname"><a class="el" href="classPhQ_1_1Stress.html">PhQ::Stress</a>&lt; NumericType &gt;::<a class="el" href="classPhQ_1_1Stress.html">Stress</a> </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1ScalarStress.html">ScalarStress</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1ScalarStress.html">ScalarStress</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>xx</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1ScalarStress.html">ScalarStress</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1ScalarStress.html">ScalarStress</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>xy</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1ScalarStress.html">ScalarStress</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1ScalarStress.html">ScalarStress</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>xz</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1ScalarStress.html">ScalarStress</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1ScalarStress.html">ScalarStress</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>yy</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1ScalarStress.html">ScalarStress</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1ScalarStress.html">ScalarStress</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>yz</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1ScalarStress.html">ScalarStress</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1ScalarStress.html">ScalarStress</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>zz</em>&#160;</td>
         </tr>
         <tr>
@@ -427,25 +427,25 @@ template&lt;typename Number  = double&gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00063">63</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Stress_8hpp_source.html#l00134">PhQ::Stress&lt; Number &gt;::xx()</a>, <a class="el" href="Stress_8hpp_source.html#l00139">PhQ::Stress&lt; Number &gt;::xy()</a>, <a class="el" href="Stress_8hpp_source.html#l00144">PhQ::Stress&lt; Number &gt;::xz()</a>, <a class="el" href="Stress_8hpp_source.html#l00154">PhQ::Stress&lt; Number &gt;::yy()</a>, <a class="el" href="Stress_8hpp_source.html#l00159">PhQ::Stress&lt; Number &gt;::yz()</a>, and <a class="el" href="Stress_8hpp_source.html#l00174">PhQ::Stress&lt; Number &gt;::zz()</a>.</p>
+<p class="reference">References <a class="el" href="Stress_8hpp_source.html#l00138">PhQ::Stress&lt; NumericType &gt;::xx()</a>, <a class="el" href="Stress_8hpp_source.html#l00143">PhQ::Stress&lt; NumericType &gt;::xy()</a>, <a class="el" href="Stress_8hpp_source.html#l00148">PhQ::Stress&lt; NumericType &gt;::xz()</a>, <a class="el" href="Stress_8hpp_source.html#l00158">PhQ::Stress&lt; NumericType &gt;::yy()</a>, <a class="el" href="Stress_8hpp_source.html#l00163">PhQ::Stress&lt; NumericType &gt;::yz()</a>, and <a class="el" href="Stress_8hpp_source.html#l00178">PhQ::Stress&lt; NumericType &gt;::zz()</a>.</p>
 
 </div>
 </div>
-<a id="ac56f4e3f5bfe7967420ebabb4e12dd42"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac56f4e3f5bfe7967420ebabb4e12dd42">&#9670;&nbsp;</a></span>Stress() <span class="overload">[4/8]</span></h2>
+<a id="a7f0437fcc1e4fa0bde12a8cedb6a8f00"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7f0437fcc1e4fa0bde12a8cedb6a8f00">&#9670;&nbsp;</a></span>Stress() <span class="overload">[4/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Stress.html">PhQ::Stress</a>&lt; Number &gt;::<a class="el" href="classPhQ_1_1Stress.html">Stress</a> </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Stress.html">PhQ::Stress</a>&lt; NumericType &gt;::<a class="el" href="classPhQ_1_1Stress.html">Stress</a> </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1StaticPressure.html">StaticPressure</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1StaticPressure.html">StaticPressure</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>static_pressure</em></td><td>)</td>
           <td></td>
         </tr>
@@ -459,25 +459,25 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Constructor. Constructs a stress tensor from a given static pressure using the definition of stress due to pressure. Since pressure is compressive, the negative of the static pressure contributes to the stress. </p>
 
-<p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00071">71</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00072">72</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00064">PhQ::DimensionalScalar&lt; UnitType, Number &gt;::Value()</a>.</p>
+<p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00064">PhQ::DimensionalScalar&lt; UnitType, NumericType &gt;::Value()</a>.</p>
 
 </div>
 </div>
-<a id="ae7b5a993fb3b4ec5812ee8615bd1038d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae7b5a993fb3b4ec5812ee8615bd1038d">&#9670;&nbsp;</a></span>~Stress()</h2>
+<a id="a856263c192cf92c6547dacaa37d4c863"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a856263c192cf92c6547dacaa37d4c863">&#9670;&nbsp;</a></span>~Stress()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classPhQ_1_1Stress.html">PhQ::Stress</a>&lt; Number &gt;::~<a class="el" href="classPhQ_1_1Stress.html">Stress</a> </td>
+          <td class="memname"><a class="el" href="classPhQ_1_1Stress.html">PhQ::Stress</a>&lt; NumericType &gt;::~<a class="el" href="classPhQ_1_1Stress.html">Stress</a> </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -494,21 +494,21 @@ template&lt;typename Number  = double&gt; </div>
 
 </div>
 </div>
-<a id="adfea6be7d5d183b90da11af8891ea24d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adfea6be7d5d183b90da11af8891ea24d">&#9670;&nbsp;</a></span>Stress() <span class="overload">[5/8]</span></h2>
+<a id="ac6639c63a2223944cf09af7f669082d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac6639c63a2223944cf09af7f669082d7">&#9670;&nbsp;</a></span>Stress() <span class="overload">[5/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Stress.html">PhQ::Stress</a>&lt; Number &gt;::<a class="el" href="classPhQ_1_1Stress.html">Stress</a> </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Stress.html">PhQ::Stress</a>&lt; NumericType &gt;::<a class="el" href="classPhQ_1_1Stress.html">Stress</a> </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1Stress.html">Stress</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1Stress.html">Stress</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>other</em></td><td>)</td>
           <td></td>
         </tr>
@@ -524,23 +524,23 @@ template&lt;typename Number  = double&gt; </div>
 
 </div>
 </div>
-<a id="a96903119d1f955e55297f35144b003b8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a96903119d1f955e55297f35144b003b8">&#9670;&nbsp;</a></span>Stress() <span class="overload">[6/8]</span></h2>
+<a id="a98f3355cdc5040ec9d9975e12daf34e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a98f3355cdc5040ec9d9975e12daf34e4">&#9670;&nbsp;</a></span>Stress() <span class="overload">[6/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <div class="memtemplate">
-template&lt;typename OtherNumber &gt; </div>
+template&lt;typename OtherNumericType &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Stress.html">PhQ::Stress</a>&lt; Number &gt;::<a class="el" href="classPhQ_1_1Stress.html">Stress</a> </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Stress.html">PhQ::Stress</a>&lt; NumericType &gt;::<a class="el" href="classPhQ_1_1Stress.html">Stress</a> </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1Stress.html">Stress</a>&lt; OtherNumber &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1Stress.html">Stress</a>&lt; OtherNumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>other</em></td><td>)</td>
           <td></td>
         </tr>
@@ -554,25 +554,25 @@ template&lt;typename OtherNumber &gt; </div>
 
 <p>Copy constructor. Constructs a stress tensor by copying another one. </p>
 
-<p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00085">85</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00087">87</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
 
 </div>
 </div>
-<a id="ac5393ec64d8b92916d493b7499a751b5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac5393ec64d8b92916d493b7499a751b5">&#9670;&nbsp;</a></span>Stress() <span class="overload">[7/8]</span></h2>
+<a id="a47a88d3d489ef1e961fd15b54f4b0368"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a47a88d3d489ef1e961fd15b54f4b0368">&#9670;&nbsp;</a></span>Stress() <span class="overload">[7/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Stress.html">PhQ::Stress</a>&lt; Number &gt;::<a class="el" href="classPhQ_1_1Stress.html">Stress</a> </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Stress.html">PhQ::Stress</a>&lt; NumericType &gt;::<a class="el" href="classPhQ_1_1Stress.html">Stress</a> </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classPhQ_1_1Stress.html">Stress</a>&lt; Number &gt; &amp;&amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="classPhQ_1_1Stress.html">Stress</a>&lt; NumericType &gt; &amp;&amp;&#160;</td>
           <td class="paramname"><em>other</em></td><td>)</td>
           <td></td>
         </tr>
@@ -588,21 +588,21 @@ template&lt;typename Number  = double&gt; </div>
 
 </div>
 </div>
-<a id="abdfdbfa58b48e84a174addde90b36787"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abdfdbfa58b48e84a174addde90b36787">&#9670;&nbsp;</a></span>Stress() <span class="overload">[8/8]</span></h2>
+<a id="a73c92841776cf8b3d922b38b499a6007"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a73c92841776cf8b3d922b38b499a6007">&#9670;&nbsp;</a></span>Stress() <span class="overload">[8/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Stress.html">PhQ::Stress</a>&lt; Number &gt;::<a class="el" href="classPhQ_1_1Stress.html">Stress</a> </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Stress.html">PhQ::Stress</a>&lt; NumericType &gt;::<a class="el" href="classPhQ_1_1Stress.html">Stress</a> </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1SymmetricDyad.html">SymmetricDyad</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1SymmetricDyad.html">SymmetricDyad</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>value</em></td><td>)</td>
           <td></td>
         </tr>
@@ -616,18 +616,18 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Constructor. Constructs a stress tensor with a given value expressed in the standard pressure unit. </p>
 
-<p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00239">239</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00244">244</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a8aa4a459d8bd5dca4b775ab1a85bece2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8aa4a459d8bd5dca4b775ab1a85bece2">&#9670;&nbsp;</a></span>Create() <span class="overload">[1/3]</span></h2>
+<a id="ab3d1d07a711582f97b7d0f0e0c407bfd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab3d1d07a711582f97b7d0f0e0c407bfd">&#9670;&nbsp;</a></span>Create() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <div class="memtemplate">
 template&lt;Unit::Pressure Unit&gt; </div>
 <table class="mlabels">
@@ -635,39 +635,39 @@ template&lt;Unit::Pressure Unit&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static constexpr <a class="el" href="classPhQ_1_1Stress.html">Stress</a>&lt;Number&gt; <a class="el" href="classPhQ_1_1Stress.html">PhQ::Stress</a>&lt; Number &gt;::Create </td>
+          <td class="memname">static constexpr <a class="el" href="classPhQ_1_1Stress.html">Stress</a>&lt;NumericType&gt; <a class="el" href="classPhQ_1_1Stress.html">PhQ::Stress</a>&lt; NumericType &gt;::Create </td>
           <td>(</td>
-          <td class="paramtype">const Number&#160;</td>
+          <td class="paramtype">const NumericType&#160;</td>
           <td class="paramname"><em>xx</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const Number&#160;</td>
+          <td class="paramtype">const NumericType&#160;</td>
           <td class="paramname"><em>xy</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const Number&#160;</td>
+          <td class="paramtype">const NumericType&#160;</td>
           <td class="paramname"><em>xz</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const Number&#160;</td>
+          <td class="paramtype">const NumericType&#160;</td>
           <td class="paramname"><em>yy</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const Number&#160;</td>
+          <td class="paramtype">const NumericType&#160;</td>
           <td class="paramname"><em>yz</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const Number&#160;</td>
+          <td class="paramtype">const NumericType&#160;</td>
           <td class="paramname"><em>zz</em>&#160;</td>
         </tr>
         <tr>
@@ -685,19 +685,19 @@ template&lt;Unit::Pressure Unit&gt; </div>
 
 <p>Statically creates a stress tensor from the given xx, xy, xz, yy, yz, and zz Cartesian components expressed in a given pressure unit. </p>
 
-<p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00112">112</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00114">114</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Stress_8hpp_source.html#l00134">PhQ::Stress&lt; Number &gt;::xx()</a>, <a class="el" href="Stress_8hpp_source.html#l00139">PhQ::Stress&lt; Number &gt;::xy()</a>, <a class="el" href="Stress_8hpp_source.html#l00144">PhQ::Stress&lt; Number &gt;::xz()</a>, <a class="el" href="Stress_8hpp_source.html#l00154">PhQ::Stress&lt; Number &gt;::yy()</a>, <a class="el" href="Stress_8hpp_source.html#l00159">PhQ::Stress&lt; Number &gt;::yz()</a>, and <a class="el" href="Stress_8hpp_source.html#l00174">PhQ::Stress&lt; Number &gt;::zz()</a>.</p>
+<p class="reference">References <a class="el" href="Stress_8hpp_source.html#l00138">PhQ::Stress&lt; NumericType &gt;::xx()</a>, <a class="el" href="Stress_8hpp_source.html#l00143">PhQ::Stress&lt; NumericType &gt;::xy()</a>, <a class="el" href="Stress_8hpp_source.html#l00148">PhQ::Stress&lt; NumericType &gt;::xz()</a>, <a class="el" href="Stress_8hpp_source.html#l00158">PhQ::Stress&lt; NumericType &gt;::yy()</a>, <a class="el" href="Stress_8hpp_source.html#l00163">PhQ::Stress&lt; NumericType &gt;::yz()</a>, and <a class="el" href="Stress_8hpp_source.html#l00178">PhQ::Stress&lt; NumericType &gt;::zz()</a>.</p>
 
 </div>
 </div>
-<a id="ac0bd6ec5ef1e193de66ec9a37371b34c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac0bd6ec5ef1e193de66ec9a37371b34c">&#9670;&nbsp;</a></span>Create() <span class="overload">[2/3]</span></h2>
+<a id="ad628c3541e4ec7cb27918a9c19246727"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad628c3541e4ec7cb27918a9c19246727">&#9670;&nbsp;</a></span>Create() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <div class="memtemplate">
 template&lt;Unit::Pressure Unit&gt; </div>
 <table class="mlabels">
@@ -705,9 +705,9 @@ template&lt;Unit::Pressure Unit&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static constexpr <a class="el" href="classPhQ_1_1Stress.html">Stress</a>&lt;Number&gt; <a class="el" href="classPhQ_1_1Stress.html">PhQ::Stress</a>&lt; Number &gt;::Create </td>
+          <td class="memname">static constexpr <a class="el" href="classPhQ_1_1Stress.html">Stress</a>&lt;NumericType&gt; <a class="el" href="classPhQ_1_1Stress.html">PhQ::Stress</a>&lt; NumericType &gt;::Create </td>
           <td>(</td>
-          <td class="paramtype">const std::array&lt; Number, 6 &gt; &amp;&#160;</td>
+          <td class="paramtype">const std::array&lt; NumericType, 6 &gt; &amp;&#160;</td>
           <td class="paramname"><em>xx_xy_xz_yy_yz_zz</em></td><td>)</td>
           <td></td>
         </tr>
@@ -721,17 +721,17 @@ template&lt;Unit::Pressure Unit&gt; </div>
 
 <p>Statically creates a stress tensor from the given xx, xy, xz, yy, yz, and zz Cartesian components expressed in a given pressure unit. </p>
 
-<p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00121">121</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00124">124</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
 
 </div>
 </div>
-<a id="a7da4171f0ad48cc24b3560f0f9ab9e4c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7da4171f0ad48cc24b3560f0f9ab9e4c">&#9670;&nbsp;</a></span>Create() <span class="overload">[3/3]</span></h2>
+<a id="a3aae19a8fd04a0750ff04399899da42a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3aae19a8fd04a0750ff04399899da42a">&#9670;&nbsp;</a></span>Create() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <div class="memtemplate">
 template&lt;Unit::Pressure Unit&gt; </div>
 <table class="mlabels">
@@ -739,9 +739,9 @@ template&lt;Unit::Pressure Unit&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static constexpr <a class="el" href="classPhQ_1_1Stress.html">Stress</a>&lt;Number&gt; <a class="el" href="classPhQ_1_1Stress.html">PhQ::Stress</a>&lt; Number &gt;::Create </td>
+          <td class="memname">static constexpr <a class="el" href="classPhQ_1_1Stress.html">Stress</a>&lt;NumericType&gt; <a class="el" href="classPhQ_1_1Stress.html">PhQ::Stress</a>&lt; NumericType &gt;::Create </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1SymmetricDyad.html">SymmetricDyad</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1SymmetricDyad.html">SymmetricDyad</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>value</em></td><td>)</td>
           <td></td>
         </tr>
@@ -755,14 +755,14 @@ template&lt;Unit::Pressure Unit&gt; </div>
 
 <p>Statically creates a stress tensor with a given value expressed in a given pressure unit. </p>
 
-<p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00129">129</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00132">132</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00219">PhQ::DimensionalSymmetricDyad&lt; Unit::Pressure, double &gt;::value</a>.</p>
+<p class="reference">References <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00217">PhQ::DimensionalSymmetricDyad&lt; Unit::Pressure, double &gt;::value</a>.</p>
 
 </div>
 </div>
-<a id="a077389485fc89f5009fb2497b66c6a41"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a077389485fc89f5009fb2497b66c6a41">&#9670;&nbsp;</a></span>Dimensions()</h2>
+<a id="abb8547a4ff1a96065f09410748032f4b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abb8547a4ff1a96065f09410748032f4b">&#9670;&nbsp;</a></span>Dimensions()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -790,8 +790,8 @@ template&lt;Unit::Pressure Unit&gt; </div>
 
 </div>
 </div>
-<a id="a831efa52f2af58ce808c3c11cbfd5443"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a831efa52f2af58ce808c3c11cbfd5443">&#9670;&nbsp;</a></span>JSON() <span class="overload">[1/2]</span></h2>
+<a id="a2c4d80392e9778ebe2147ac792828588"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c4d80392e9778ebe2147ac792828588">&#9670;&nbsp;</a></span>JSON() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -815,12 +815,12 @@ template&lt;Unit::Pressure Unit&gt; </div>
 
 <p>Serializes this physical quantity as a JSON message. This physical quantity's value is expressed in its standard unit of measure. </p>
 
-<p class="definition">Definition at line <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00104">104</a> of file <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html">DimensionalSymmetricDyad.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00102">102</a> of file <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html">DimensionalSymmetricDyad.hpp</a>.</p>
 
 </div>
 </div>
-<a id="ad7340e17ce5f9999376264b44e1c2a00"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad7340e17ce5f9999376264b44e1c2a00">&#9670;&nbsp;</a></span>JSON() <span class="overload">[2/2]</span></h2>
+<a id="adc7fd02ad2db55b93ff4a5ec5b232790"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc7fd02ad2db55b93ff4a5ec5b232790">&#9670;&nbsp;</a></span>JSON() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -845,12 +845,12 @@ template&lt;Unit::Pressure Unit&gt; </div>
 
 <p>Serializes this physical quantity as a JSON message. This physical quantity's value is expressed in the given unit of measure. </p>
 
-<p class="definition">Definition at line <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00114">114</a> of file <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html">DimensionalSymmetricDyad.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00112">112</a> of file <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html">DimensionalSymmetricDyad.hpp</a>.</p>
 
 </div>
 </div>
-<a id="a7905fe93a352007a422979e1ddc43c7a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7905fe93a352007a422979e1ddc43c7a">&#9670;&nbsp;</a></span>MutableValue()</h2>
+<a id="afcd658091dd315dd6430020be3075804"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afcd658091dd315dd6430020be3075804">&#9670;&nbsp;</a></span>MutableValue()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -874,25 +874,25 @@ template&lt;Unit::Pressure Unit&gt; </div>
 
 <p>Returns the value of this physical quantity expressed in its standard unit of measure as a mutable value. </p>
 
-<p class="definition">Definition at line <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00080">80</a> of file <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html">DimensionalSymmetricDyad.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00078">78</a> of file <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html">DimensionalSymmetricDyad.hpp</a>.</p>
 
 </div>
 </div>
-<a id="ae5569940a147ebab08ae580dca6f95c2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae5569940a147ebab08ae580dca6f95c2">&#9670;&nbsp;</a></span>operator*()</h2>
+<a id="a2f0cb529ed789881212dd3270ba5f466"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2f0cb529ed789881212dd3270ba5f466">&#9670;&nbsp;</a></span>operator*()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Stress.html">Stress</a>&lt;Number&gt; <a class="el" href="classPhQ_1_1Stress.html">PhQ::Stress</a>&lt; Number &gt;::operator* </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Stress.html">Stress</a>&lt;NumericType&gt; <a class="el" href="classPhQ_1_1Stress.html">PhQ::Stress</a>&lt; NumericType &gt;::operator* </td>
           <td>(</td>
-          <td class="paramtype">const Number&#160;</td>
+          <td class="paramtype">const NumericType&#160;</td>
           <td class="paramname"><em>number</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -904,27 +904,27 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00212">212</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00217">217</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00219">PhQ::DimensionalSymmetricDyad&lt; Unit::Pressure, double &gt;::value</a>.</p>
+<p class="reference">References <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00217">PhQ::DimensionalSymmetricDyad&lt; Unit::Pressure, double &gt;::value</a>.</p>
 
 </div>
 </div>
-<a id="a1f48e3ebf046a4badd28dce5694924cf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1f48e3ebf046a4badd28dce5694924cf">&#9670;&nbsp;</a></span>operator*=()</h2>
+<a id="a22b8b107a539513a3108cca9364c5680"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a22b8b107a539513a3108cca9364c5680">&#9670;&nbsp;</a></span>operator*=()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr void <a class="el" href="classPhQ_1_1Stress.html">PhQ::Stress</a>&lt; Number &gt;::operator*= </td>
+          <td class="memname">constexpr void <a class="el" href="classPhQ_1_1Stress.html">PhQ::Stress</a>&lt; NumericType &gt;::operator*= </td>
           <td>(</td>
-          <td class="paramtype">const Number&#160;</td>
+          <td class="paramtype">const NumericType&#160;</td>
           <td class="paramname"><em>number</em></td><td>)</td>
           <td></td>
         </tr>
@@ -936,27 +936,27 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00228">228</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00233">233</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00219">PhQ::DimensionalSymmetricDyad&lt; Unit::Pressure, double &gt;::value</a>.</p>
+<p class="reference">References <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00217">PhQ::DimensionalSymmetricDyad&lt; Unit::Pressure, double &gt;::value</a>.</p>
 
 </div>
 </div>
-<a id="a2a11d632fe72e1bb492aafe2d521a3a7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2a11d632fe72e1bb492aafe2d521a3a7">&#9670;&nbsp;</a></span>operator+()</h2>
+<a id="a1222785d3adf1696f9d29b0552f63051"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1222785d3adf1696f9d29b0552f63051">&#9670;&nbsp;</a></span>operator+()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Stress.html">Stress</a>&lt;Number&gt; <a class="el" href="classPhQ_1_1Stress.html">PhQ::Stress</a>&lt; Number &gt;::operator+ </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Stress.html">Stress</a>&lt;NumericType&gt; <a class="el" href="classPhQ_1_1Stress.html">PhQ::Stress</a>&lt; NumericType &gt;::operator+ </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1Stress.html">Stress</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1Stress.html">Stress</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>stress</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -968,27 +968,27 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00204">204</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00209">209</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00219">PhQ::DimensionalSymmetricDyad&lt; UnitType, Number &gt;::value</a>, and <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00219">PhQ::DimensionalSymmetricDyad&lt; Unit::Pressure, double &gt;::value</a>.</p>
+<p class="reference">References <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00217">PhQ::DimensionalSymmetricDyad&lt; UnitType, NumericType &gt;::value</a>, and <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00217">PhQ::DimensionalSymmetricDyad&lt; Unit::Pressure, double &gt;::value</a>.</p>
 
 </div>
 </div>
-<a id="a365d60921f76c9bad7ec68c4ab9c1ec4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a365d60921f76c9bad7ec68c4ab9c1ec4">&#9670;&nbsp;</a></span>operator+=()</h2>
+<a id="a135877a3eee00a5779537c87bedded9b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a135877a3eee00a5779537c87bedded9b">&#9670;&nbsp;</a></span>operator+=()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr void <a class="el" href="classPhQ_1_1Stress.html">PhQ::Stress</a>&lt; Number &gt;::operator+= </td>
+          <td class="memname">constexpr void <a class="el" href="classPhQ_1_1Stress.html">PhQ::Stress</a>&lt; NumericType &gt;::operator+= </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1Stress.html">Stress</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1Stress.html">Stress</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>stress</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1000,27 +1000,27 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00220">220</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00225">225</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00219">PhQ::DimensionalSymmetricDyad&lt; Unit::Pressure, double &gt;::value</a>.</p>
+<p class="reference">References <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00217">PhQ::DimensionalSymmetricDyad&lt; Unit::Pressure, double &gt;::value</a>.</p>
 
 </div>
 </div>
-<a id="aae6ffcd3b60a8dae5369df93f7e7e8d3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aae6ffcd3b60a8dae5369df93f7e7e8d3">&#9670;&nbsp;</a></span>operator-()</h2>
+<a id="afb0ed438c5e7c0943206513503373bd4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb0ed438c5e7c0943206513503373bd4">&#9670;&nbsp;</a></span>operator-()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Stress.html">Stress</a>&lt;Number&gt; <a class="el" href="classPhQ_1_1Stress.html">PhQ::Stress</a>&lt; Number &gt;::operator- </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Stress.html">Stress</a>&lt;NumericType&gt; <a class="el" href="classPhQ_1_1Stress.html">PhQ::Stress</a>&lt; NumericType &gt;::operator- </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1Stress.html">Stress</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1Stress.html">Stress</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>stress</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -1032,27 +1032,27 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00208">208</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00213">213</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00219">PhQ::DimensionalSymmetricDyad&lt; UnitType, Number &gt;::value</a>, and <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00219">PhQ::DimensionalSymmetricDyad&lt; Unit::Pressure, double &gt;::value</a>.</p>
+<p class="reference">References <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00217">PhQ::DimensionalSymmetricDyad&lt; UnitType, NumericType &gt;::value</a>, and <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00217">PhQ::DimensionalSymmetricDyad&lt; Unit::Pressure, double &gt;::value</a>.</p>
 
 </div>
 </div>
-<a id="ad9fcd30cee26c4af9d025173b65d5c49"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad9fcd30cee26c4af9d025173b65d5c49">&#9670;&nbsp;</a></span>operator-=()</h2>
+<a id="a4043ddee7da65b7f383e32889fdce64f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4043ddee7da65b7f383e32889fdce64f">&#9670;&nbsp;</a></span>operator-=()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr void <a class="el" href="classPhQ_1_1Stress.html">PhQ::Stress</a>&lt; Number &gt;::operator-= </td>
+          <td class="memname">constexpr void <a class="el" href="classPhQ_1_1Stress.html">PhQ::Stress</a>&lt; NumericType &gt;::operator-= </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1Stress.html">Stress</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1Stress.html">Stress</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>stress</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1064,27 +1064,27 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00224">224</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00229">229</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00219">PhQ::DimensionalSymmetricDyad&lt; Unit::Pressure, double &gt;::value</a>.</p>
+<p class="reference">References <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00217">PhQ::DimensionalSymmetricDyad&lt; Unit::Pressure, double &gt;::value</a>.</p>
 
 </div>
 </div>
-<a id="a9d8b62843ef5c09c4f9cd36d7535c92b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9d8b62843ef5c09c4f9cd36d7535c92b">&#9670;&nbsp;</a></span>operator/()</h2>
+<a id="a1303939417e9de10b61ea97d8dc28ff1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1303939417e9de10b61ea97d8dc28ff1">&#9670;&nbsp;</a></span>operator/()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Stress.html">Stress</a>&lt;Number&gt; <a class="el" href="classPhQ_1_1Stress.html">PhQ::Stress</a>&lt; Number &gt;::operator/ </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Stress.html">Stress</a>&lt;NumericType&gt; <a class="el" href="classPhQ_1_1Stress.html">PhQ::Stress</a>&lt; NumericType &gt;::operator/ </td>
           <td>(</td>
-          <td class="paramtype">const Number&#160;</td>
+          <td class="paramtype">const NumericType&#160;</td>
           <td class="paramname"><em>number</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -1096,27 +1096,27 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00216">216</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00221">221</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00219">PhQ::DimensionalSymmetricDyad&lt; Unit::Pressure, double &gt;::value</a>.</p>
+<p class="reference">References <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00217">PhQ::DimensionalSymmetricDyad&lt; Unit::Pressure, double &gt;::value</a>.</p>
 
 </div>
 </div>
-<a id="ac7c39b8e2aac22fb5ba6d240b02776df"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac7c39b8e2aac22fb5ba6d240b02776df">&#9670;&nbsp;</a></span>operator/=()</h2>
+<a id="a26c6c81b79e26e76939aedae49511756"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a26c6c81b79e26e76939aedae49511756">&#9670;&nbsp;</a></span>operator/=()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr void <a class="el" href="classPhQ_1_1Stress.html">PhQ::Stress</a>&lt; Number &gt;::operator/= </td>
+          <td class="memname">constexpr void <a class="el" href="classPhQ_1_1Stress.html">PhQ::Stress</a>&lt; NumericType &gt;::operator/= </td>
           <td>(</td>
-          <td class="paramtype">const Number&#160;</td>
+          <td class="paramtype">const NumericType&#160;</td>
           <td class="paramname"><em>number</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1128,27 +1128,27 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00232">232</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00237">237</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00219">PhQ::DimensionalSymmetricDyad&lt; Unit::Pressure, double &gt;::value</a>.</p>
+<p class="reference">References <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00217">PhQ::DimensionalSymmetricDyad&lt; Unit::Pressure, double &gt;::value</a>.</p>
 
 </div>
 </div>
-<a id="a8483a34661c66c4f14d303b2e97db5eb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8483a34661c66c4f14d303b2e97db5eb">&#9670;&nbsp;</a></span>operator=() <span class="overload">[1/3]</span></h2>
+<a id="a530069134794352a3508023ab24c3698"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a530069134794352a3508023ab24c3698">&#9670;&nbsp;</a></span>operator=() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Stress.html">Stress</a>&lt;Number&gt;&amp; <a class="el" href="classPhQ_1_1Stress.html">PhQ::Stress</a>&lt; Number &gt;::operator= </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Stress.html">Stress</a>&lt;NumericType&gt;&amp; <a class="el" href="classPhQ_1_1Stress.html">PhQ::Stress</a>&lt; NumericType &gt;::operator= </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1Stress.html">Stress</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1Stress.html">Stress</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>other</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1164,23 +1164,23 @@ template&lt;typename Number  = double&gt; </div>
 
 </div>
 </div>
-<a id="a36f61fee21c98d04ad15fabfae7c7360"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a36f61fee21c98d04ad15fabfae7c7360">&#9670;&nbsp;</a></span>operator=() <span class="overload">[2/3]</span></h2>
+<a id="a7235f42321c9ea06959a80d956d205c0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7235f42321c9ea06959a80d956d205c0">&#9670;&nbsp;</a></span>operator=() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <div class="memtemplate">
-template&lt;typename OtherNumber &gt; </div>
+template&lt;typename OtherNumericType &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Stress.html">Stress</a>&lt;Number&gt;&amp; <a class="el" href="classPhQ_1_1Stress.html">PhQ::Stress</a>&lt; Number &gt;::operator= </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Stress.html">Stress</a>&lt;NumericType&gt;&amp; <a class="el" href="classPhQ_1_1Stress.html">PhQ::Stress</a>&lt; NumericType &gt;::operator= </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1Stress.html">Stress</a>&lt; OtherNumber &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1Stress.html">Stress</a>&lt; OtherNumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>other</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1194,27 +1194,27 @@ template&lt;typename OtherNumber &gt; </div>
 
 <p>Copy assignment operator. Assigns this stress tensor by copying another one. </p>
 
-<p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00096">96</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00098">98</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00060">PhQ::DimensionalSymmetricDyad&lt; UnitType, Number &gt;::Value()</a>, and <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00219">PhQ::DimensionalSymmetricDyad&lt; Unit::Pressure, double &gt;::value</a>.</p>
+<p class="reference">References <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00060">PhQ::DimensionalSymmetricDyad&lt; UnitType, NumericType &gt;::Value()</a>, and <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00217">PhQ::DimensionalSymmetricDyad&lt; Unit::Pressure, double &gt;::value</a>.</p>
 
 </div>
 </div>
-<a id="aeeb739c92f58b79aee3d2bb7e8b3f396"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aeeb739c92f58b79aee3d2bb7e8b3f396">&#9670;&nbsp;</a></span>operator=() <span class="overload">[3/3]</span></h2>
+<a id="a0b90b8816383795ef3d7ec5f93ebf3f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0b90b8816383795ef3d7ec5f93ebf3f2">&#9670;&nbsp;</a></span>operator=() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Stress.html">Stress</a>&lt;Number&gt;&amp; <a class="el" href="classPhQ_1_1Stress.html">PhQ::Stress</a>&lt; Number &gt;::operator= </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Stress.html">Stress</a>&lt;NumericType&gt;&amp; <a class="el" href="classPhQ_1_1Stress.html">PhQ::Stress</a>&lt; NumericType &gt;::operator= </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classPhQ_1_1Stress.html">Stress</a>&lt; Number &gt; &amp;&amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="classPhQ_1_1Stress.html">Stress</a>&lt; NumericType &gt; &amp;&amp;&#160;</td>
           <td class="paramname"><em>other</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1230,21 +1230,21 @@ template&lt;typename Number  = double&gt; </div>
 
 </div>
 </div>
-<a id="a1275807a087f474426559e84d2c9c5d2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1275807a087f474426559e84d2c9c5d2">&#9670;&nbsp;</a></span>PlanarTraction()</h2>
+<a id="a2da2e41a92bd40d1656120def7f0ec53"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2da2e41a92bd40d1656120def7f0ec53">&#9670;&nbsp;</a></span>PlanarTraction()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1PlanarTraction.html">PhQ::PlanarTraction</a>&lt;Number&gt; <a class="el" href="classPhQ_1_1Stress.html">PhQ::Stress</a>&lt; Number &gt;::<a class="el" href="classPhQ_1_1PlanarTraction.html">PlanarTraction</a> </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1PlanarTraction.html">PhQ::PlanarTraction</a>&lt;NumericType&gt; <a class="el" href="classPhQ_1_1Stress.html">PhQ::Stress</a>&lt; NumericType &gt;::<a class="el" href="classPhQ_1_1PlanarTraction.html">PlanarTraction</a> </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1PlanarDirection.html">PlanarDirection</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1PlanarDirection.html">PlanarDirection</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>direction</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -1258,12 +1258,12 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Creates a planar traction vector from this stress tensor and a given planar direction using the definition of traction. </p>
 
-<p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00180">180</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00184">184</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
 
 </div>
 </div>
-<a id="a578a1ff500b9fc5549e41d299da595be"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a578a1ff500b9fc5549e41d299da595be">&#9670;&nbsp;</a></span>Print() <span class="overload">[1/2]</span></h2>
+<a id="a83650c44abb70644c852f4b327cc006a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a83650c44abb70644c852f4b327cc006a">&#9670;&nbsp;</a></span>Print() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1287,12 +1287,12 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Prints this physical quantity as a string. This physical quantity's value is expressed in its standard unit of measure. </p>
 
-<p class="definition">Definition at line <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00092">92</a> of file <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html">DimensionalSymmetricDyad.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00090">90</a> of file <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html">DimensionalSymmetricDyad.hpp</a>.</p>
 
 </div>
 </div>
-<a id="a07bde564bf36c6bd3a709cbeaccdfa62"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a07bde564bf36c6bd3a709cbeaccdfa62">&#9670;&nbsp;</a></span>Print() <span class="overload">[2/2]</span></h2>
+<a id="ae6cd2cae1546b9ff978111628c0ad283"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae6cd2cae1546b9ff978111628c0ad283">&#9670;&nbsp;</a></span>Print() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1317,12 +1317,12 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Prints this physical quantity as a string. This physical quantity's value is expressed in the given unit of measure. </p>
 
-<p class="definition">Definition at line <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00098">98</a> of file <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html">DimensionalSymmetricDyad.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00096">96</a> of file <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html">DimensionalSymmetricDyad.hpp</a>.</p>
 
 </div>
 </div>
-<a id="adae6a7e35dc5faeefd2bd7a8303315e4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adae6a7e35dc5faeefd2bd7a8303315e4">&#9670;&nbsp;</a></span>SetValue()</h2>
+<a id="a6bcba3e251e6638ad0bc66cd623eb31c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6bcba3e251e6638ad0bc66cd623eb31c">&#9670;&nbsp;</a></span>SetValue()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1347,12 +1347,12 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Sets the value of this physical quantity expressed in its standard unit of measure to the given value. </p>
 
-<p class="definition">Definition at line <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00086">86</a> of file <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html">DimensionalSymmetricDyad.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00084">84</a> of file <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html">DimensionalSymmetricDyad.hpp</a>.</p>
 
 </div>
 </div>
-<a id="ab1b848d5820fbe161e593838b03cb87a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab1b848d5820fbe161e593838b03cb87a">&#9670;&nbsp;</a></span>StaticValue()</h2>
+<a id="a8f1b1c39a52caea2d52c86b04548a466"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8f1b1c39a52caea2d52c86b04548a466">&#9670;&nbsp;</a></span>StaticValue()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1376,25 +1376,25 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Value of this physical quantity expressed in a given unit of measure. This method can be evaluated statically at compile-time. </p>
 
-<p class="definition">Definition at line <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00074">74</a> of file <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html">DimensionalSymmetricDyad.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00072">72</a> of file <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html">DimensionalSymmetricDyad.hpp</a>.</p>
 
 </div>
 </div>
-<a id="a4f1057adc9483b2da2e65ef0070f74d9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4f1057adc9483b2da2e65ef0070f74d9">&#9670;&nbsp;</a></span>Traction()</h2>
+<a id="a8916787e9977359904f0ddf19e9f0a4d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8916787e9977359904f0ddf19e9f0a4d">&#9670;&nbsp;</a></span>Traction()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Traction.html">PhQ::Traction</a>&lt;Number&gt; <a class="el" href="classPhQ_1_1Stress.html">PhQ::Stress</a>&lt; Number &gt;::<a class="el" href="classPhQ_1_1Traction.html">Traction</a> </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Traction.html">PhQ::Traction</a>&lt;NumericType&gt; <a class="el" href="classPhQ_1_1Stress.html">PhQ::Stress</a>&lt; NumericType &gt;::<a class="el" href="classPhQ_1_1Traction.html">Traction</a> </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1Direction.html">Direction</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1Direction.html">Direction</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>direction</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -1408,12 +1408,12 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Creates a traction vector from this stress tensor and a given direction using the definition of traction. </p>
 
-<p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00187">187</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00191">191</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
 
 </div>
 </div>
-<a id="ae3f190e0875e88189224090a6d2d1854"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae3f190e0875e88189224090a6d2d1854">&#9670;&nbsp;</a></span>Unit()</h2>
+<a id="a61ffd7bb110e2865e3551a078d1e06e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a61ffd7bb110e2865e3551a078d1e06e0">&#9670;&nbsp;</a></span>Unit()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1441,8 +1441,8 @@ template&lt;typename Number  = double&gt; </div>
 
 </div>
 </div>
-<a id="a891fdb484c27b62527b29da9dac5f52a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a891fdb484c27b62527b29da9dac5f52a">&#9670;&nbsp;</a></span>Value() <span class="overload">[1/2]</span></h2>
+<a id="a1e7ce2620ab349a33d724deae8eac849"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e7ce2620ab349a33d724deae8eac849">&#9670;&nbsp;</a></span>Value() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1470,8 +1470,8 @@ template&lt;typename Number  = double&gt; </div>
 
 </div>
 </div>
-<a id="a9db6325ba5d7d18a5e8281b460dcacae"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9db6325ba5d7d18a5e8281b460dcacae">&#9670;&nbsp;</a></span>Value() <span class="overload">[2/2]</span></h2>
+<a id="a0317b0bd73c167ed4a22418133834c41"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0317b0bd73c167ed4a22418133834c41">&#9670;&nbsp;</a></span>Value() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1500,19 +1500,19 @@ template&lt;typename Number  = double&gt; </div>
 
 </div>
 </div>
-<a id="a802dbf504896e2e8cb3837141adfa98c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a802dbf504896e2e8cb3837141adfa98c">&#9670;&nbsp;</a></span>VonMises()</h2>
+<a id="a36a92dd5f645354e2d72fd2931261beb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a36a92dd5f645354e2d72fd2931261beb">&#9670;&nbsp;</a></span>VonMises()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1ScalarStress.html">ScalarStress</a>&lt;Number&gt; <a class="el" href="classPhQ_1_1Stress.html">PhQ::Stress</a>&lt; Number &gt;::VonMises </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1ScalarStress.html">ScalarStress</a>&lt;NumericType&gt; <a class="el" href="classPhQ_1_1Stress.html">PhQ::Stress</a>&lt; NumericType &gt;::VonMises </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -1527,12 +1527,12 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Computes the von Mises stress of this stress tensor using the von Mises yield criterion. </p>
 
-<p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00193">193</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00198">198</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
 
 </div>
 </div>
-<a id="a09e356ff5555f2473b3ca7a5f196781d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a09e356ff5555f2473b3ca7a5f196781d">&#9670;&nbsp;</a></span>XML() <span class="overload">[1/2]</span></h2>
+<a id="a9839cb618c37146c0a0776579684380e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9839cb618c37146c0a0776579684380e">&#9670;&nbsp;</a></span>XML() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1556,12 +1556,12 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Serializes this physical quantity as an XML message. This physical quantity's value is expressed in its standard unit of measure. </p>
 
-<p class="definition">Definition at line <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00124">124</a> of file <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html">DimensionalSymmetricDyad.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00122">122</a> of file <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html">DimensionalSymmetricDyad.hpp</a>.</p>
 
 </div>
 </div>
-<a id="acc4aff076c79ad92c146642b6c7a9de7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acc4aff076c79ad92c146642b6c7a9de7">&#9670;&nbsp;</a></span>XML() <span class="overload">[2/2]</span></h2>
+<a id="aa9042c12268d1086f6ac620d579414a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa9042c12268d1086f6ac620d579414a1">&#9670;&nbsp;</a></span>XML() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1586,23 +1586,23 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Serializes this physical quantity as an XML message. This physical quantity's value is expressed in the given unit of measure. </p>
 
-<p class="definition">Definition at line <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00134">134</a> of file <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html">DimensionalSymmetricDyad.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00132">132</a> of file <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html">DimensionalSymmetricDyad.hpp</a>.</p>
 
 </div>
 </div>
-<a id="aabb79878953ee541e54bcc47b3138f10"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aabb79878953ee541e54bcc47b3138f10">&#9670;&nbsp;</a></span>xx()</h2>
+<a id="a1e5129659aadd35fbc63ba7ae9c2a127"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e5129659aadd35fbc63ba7ae9c2a127">&#9670;&nbsp;</a></span>xx()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1ScalarStress.html">ScalarStress</a>&lt;Number&gt; <a class="el" href="classPhQ_1_1Stress.html">PhQ::Stress</a>&lt; Number &gt;::xx </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1ScalarStress.html">ScalarStress</a>&lt;NumericType&gt; <a class="el" href="classPhQ_1_1Stress.html">PhQ::Stress</a>&lt; NumericType &gt;::xx </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -1617,27 +1617,27 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the xx Cartesian component of this stress tensor. </p>
 
-<p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00134">134</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00138">138</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00219">PhQ::DimensionalSymmetricDyad&lt; Unit::Pressure, double &gt;::value</a>, and <a class="el" href="SymmetricDyad_8hpp_source.html#l00135">PhQ::SymmetricDyad&lt; Number &gt;::xx()</a>.</p>
+<p class="reference">References <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00217">PhQ::DimensionalSymmetricDyad&lt; Unit::Pressure, double &gt;::value</a>, and <a class="el" href="SymmetricDyad_8hpp_source.html#l00139">PhQ::SymmetricDyad&lt; NumericType &gt;::xx()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="Stress_8hpp_source.html#l00112">PhQ::Stress&lt; Number &gt;::Create()</a>, and <a class="el" href="Stress_8hpp_source.html#l00063">PhQ::Stress&lt; Number &gt;::Stress()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="Stress_8hpp_source.html#l00114">PhQ::Stress&lt; NumericType &gt;::Create()</a>, and <a class="el" href="Stress_8hpp_source.html#l00063">PhQ::Stress&lt; NumericType &gt;::Stress()</a>.</p>
 
 </div>
 </div>
-<a id="a1e7678764921694dfbdce62775d74665"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1e7678764921694dfbdce62775d74665">&#9670;&nbsp;</a></span>xy()</h2>
+<a id="af8820889dea7add9d5c98353298f32cb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af8820889dea7add9d5c98353298f32cb">&#9670;&nbsp;</a></span>xy()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1ScalarStress.html">ScalarStress</a>&lt;Number&gt; <a class="el" href="classPhQ_1_1Stress.html">PhQ::Stress</a>&lt; Number &gt;::xy </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1ScalarStress.html">ScalarStress</a>&lt;NumericType&gt; <a class="el" href="classPhQ_1_1Stress.html">PhQ::Stress</a>&lt; NumericType &gt;::xy </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -1652,27 +1652,27 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the xy = yx Cartesian component of this stress tensor. </p>
 
-<p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00139">139</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00143">143</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00219">PhQ::DimensionalSymmetricDyad&lt; Unit::Pressure, double &gt;::value</a>, and <a class="el" href="SymmetricDyad_8hpp_source.html#l00140">PhQ::SymmetricDyad&lt; Number &gt;::xy()</a>.</p>
+<p class="reference">References <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00217">PhQ::DimensionalSymmetricDyad&lt; Unit::Pressure, double &gt;::value</a>, and <a class="el" href="SymmetricDyad_8hpp_source.html#l00144">PhQ::SymmetricDyad&lt; NumericType &gt;::xy()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="Stress_8hpp_source.html#l00112">PhQ::Stress&lt; Number &gt;::Create()</a>, and <a class="el" href="Stress_8hpp_source.html#l00063">PhQ::Stress&lt; Number &gt;::Stress()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="Stress_8hpp_source.html#l00114">PhQ::Stress&lt; NumericType &gt;::Create()</a>, and <a class="el" href="Stress_8hpp_source.html#l00063">PhQ::Stress&lt; NumericType &gt;::Stress()</a>.</p>
 
 </div>
 </div>
-<a id="a5f0d0a44432ca4ab67ecb94942ee60f8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5f0d0a44432ca4ab67ecb94942ee60f8">&#9670;&nbsp;</a></span>xz()</h2>
+<a id="a7a0d6c0c512df34e2bb668aba765f396"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a0d6c0c512df34e2bb668aba765f396">&#9670;&nbsp;</a></span>xz()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1ScalarStress.html">ScalarStress</a>&lt;Number&gt; <a class="el" href="classPhQ_1_1Stress.html">PhQ::Stress</a>&lt; Number &gt;::xz </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1ScalarStress.html">ScalarStress</a>&lt;NumericType&gt; <a class="el" href="classPhQ_1_1Stress.html">PhQ::Stress</a>&lt; NumericType &gt;::xz </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -1687,16 +1687,16 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the xz = zx Cartesian component of this stress tensor. </p>
 
-<p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00144">144</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00148">148</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00219">PhQ::DimensionalSymmetricDyad&lt; Unit::Pressure, double &gt;::value</a>, and <a class="el" href="SymmetricDyad_8hpp_source.html#l00145">PhQ::SymmetricDyad&lt; Number &gt;::xz()</a>.</p>
+<p class="reference">References <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00217">PhQ::DimensionalSymmetricDyad&lt; Unit::Pressure, double &gt;::value</a>, and <a class="el" href="SymmetricDyad_8hpp_source.html#l00149">PhQ::SymmetricDyad&lt; NumericType &gt;::xz()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="Stress_8hpp_source.html#l00112">PhQ::Stress&lt; Number &gt;::Create()</a>, and <a class="el" href="Stress_8hpp_source.html#l00063">PhQ::Stress&lt; Number &gt;::Stress()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="Stress_8hpp_source.html#l00114">PhQ::Stress&lt; NumericType &gt;::Create()</a>, and <a class="el" href="Stress_8hpp_source.html#l00063">PhQ::Stress&lt; NumericType &gt;::Stress()</a>.</p>
 
 </div>
 </div>
-<a id="aacf67c8b141c96644035685db07f6d0b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aacf67c8b141c96644035685db07f6d0b">&#9670;&nbsp;</a></span>YAML() <span class="overload">[1/2]</span></h2>
+<a id="a8ea587c73ced7f77612b58c77c5cc025"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8ea587c73ced7f77612b58c77c5cc025">&#9670;&nbsp;</a></span>YAML() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1720,12 +1720,12 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Serializes this physical quantity as a YAML message. This physical quantity's value is expressed in its standard unit of measure. </p>
 
-<p class="definition">Definition at line <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00144">144</a> of file <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html">DimensionalSymmetricDyad.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00142">142</a> of file <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html">DimensionalSymmetricDyad.hpp</a>.</p>
 
 </div>
 </div>
-<a id="a15b05b600cd46dc9c49396d057ddb7fe"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a15b05b600cd46dc9c49396d057ddb7fe">&#9670;&nbsp;</a></span>YAML() <span class="overload">[2/2]</span></h2>
+<a id="a1ed062cfda93fc1387d9008824f39d32"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ed062cfda93fc1387d9008824f39d32">&#9670;&nbsp;</a></span>YAML() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1750,23 +1750,23 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Serializes this physical quantity as a YAML message. This physical quantity's value is expressed in the given unit of measure. </p>
 
-<p class="definition">Definition at line <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00154">154</a> of file <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html">DimensionalSymmetricDyad.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00152">152</a> of file <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html">DimensionalSymmetricDyad.hpp</a>.</p>
 
 </div>
 </div>
-<a id="a5694124fb644c35204cbbc74e4273007"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5694124fb644c35204cbbc74e4273007">&#9670;&nbsp;</a></span>yx()</h2>
+<a id="a8034d43c47d4c8dc56d443dce318b18c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8034d43c47d4c8dc56d443dce318b18c">&#9670;&nbsp;</a></span>yx()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1ScalarStress.html">ScalarStress</a>&lt;Number&gt; <a class="el" href="classPhQ_1_1Stress.html">PhQ::Stress</a>&lt; Number &gt;::yx </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1ScalarStress.html">ScalarStress</a>&lt;NumericType&gt; <a class="el" href="classPhQ_1_1Stress.html">PhQ::Stress</a>&lt; NumericType &gt;::yx </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -1781,25 +1781,25 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the yx = xy Cartesian component of this stress tensor. </p>
 
-<p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00149">149</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00153">153</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00219">PhQ::DimensionalSymmetricDyad&lt; Unit::Pressure, double &gt;::value</a>, and <a class="el" href="SymmetricDyad_8hpp_source.html#l00150">PhQ::SymmetricDyad&lt; Number &gt;::yx()</a>.</p>
+<p class="reference">References <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00217">PhQ::DimensionalSymmetricDyad&lt; Unit::Pressure, double &gt;::value</a>, and <a class="el" href="SymmetricDyad_8hpp_source.html#l00154">PhQ::SymmetricDyad&lt; NumericType &gt;::yx()</a>.</p>
 
 </div>
 </div>
-<a id="a4aa29bd09a250d954cb421fcc5f12eec"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4aa29bd09a250d954cb421fcc5f12eec">&#9670;&nbsp;</a></span>yy()</h2>
+<a id="a8e11ea5a8a00c688401b4de848894469"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e11ea5a8a00c688401b4de848894469">&#9670;&nbsp;</a></span>yy()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1ScalarStress.html">ScalarStress</a>&lt;Number&gt; <a class="el" href="classPhQ_1_1Stress.html">PhQ::Stress</a>&lt; Number &gt;::yy </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1ScalarStress.html">ScalarStress</a>&lt;NumericType&gt; <a class="el" href="classPhQ_1_1Stress.html">PhQ::Stress</a>&lt; NumericType &gt;::yy </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -1814,27 +1814,27 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the yy Cartesian component of this stress tensor. </p>
 
-<p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00154">154</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00158">158</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00219">PhQ::DimensionalSymmetricDyad&lt; Unit::Pressure, double &gt;::value</a>, and <a class="el" href="SymmetricDyad_8hpp_source.html#l00155">PhQ::SymmetricDyad&lt; Number &gt;::yy()</a>.</p>
+<p class="reference">References <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00217">PhQ::DimensionalSymmetricDyad&lt; Unit::Pressure, double &gt;::value</a>, and <a class="el" href="SymmetricDyad_8hpp_source.html#l00159">PhQ::SymmetricDyad&lt; NumericType &gt;::yy()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="Stress_8hpp_source.html#l00112">PhQ::Stress&lt; Number &gt;::Create()</a>, and <a class="el" href="Stress_8hpp_source.html#l00063">PhQ::Stress&lt; Number &gt;::Stress()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="Stress_8hpp_source.html#l00114">PhQ::Stress&lt; NumericType &gt;::Create()</a>, and <a class="el" href="Stress_8hpp_source.html#l00063">PhQ::Stress&lt; NumericType &gt;::Stress()</a>.</p>
 
 </div>
 </div>
-<a id="a314fcc8b8851b21d33f06353545fe095"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a314fcc8b8851b21d33f06353545fe095">&#9670;&nbsp;</a></span>yz()</h2>
+<a id="a747e11cdeb218ed897f85fc31eae9d1d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a747e11cdeb218ed897f85fc31eae9d1d">&#9670;&nbsp;</a></span>yz()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1ScalarStress.html">ScalarStress</a>&lt;Number&gt; <a class="el" href="classPhQ_1_1Stress.html">PhQ::Stress</a>&lt; Number &gt;::yz </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1ScalarStress.html">ScalarStress</a>&lt;NumericType&gt; <a class="el" href="classPhQ_1_1Stress.html">PhQ::Stress</a>&lt; NumericType &gt;::yz </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -1849,27 +1849,27 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the yz = zy Cartesian component of this stress tensor. </p>
 
-<p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00159">159</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00163">163</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00219">PhQ::DimensionalSymmetricDyad&lt; Unit::Pressure, double &gt;::value</a>, and <a class="el" href="SymmetricDyad_8hpp_source.html#l00160">PhQ::SymmetricDyad&lt; Number &gt;::yz()</a>.</p>
+<p class="reference">References <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00217">PhQ::DimensionalSymmetricDyad&lt; Unit::Pressure, double &gt;::value</a>, and <a class="el" href="SymmetricDyad_8hpp_source.html#l00164">PhQ::SymmetricDyad&lt; NumericType &gt;::yz()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="Stress_8hpp_source.html#l00112">PhQ::Stress&lt; Number &gt;::Create()</a>, and <a class="el" href="Stress_8hpp_source.html#l00063">PhQ::Stress&lt; Number &gt;::Stress()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="Stress_8hpp_source.html#l00114">PhQ::Stress&lt; NumericType &gt;::Create()</a>, and <a class="el" href="Stress_8hpp_source.html#l00063">PhQ::Stress&lt; NumericType &gt;::Stress()</a>.</p>
 
 </div>
 </div>
-<a id="aebae861dc8d375ebc0d84ba76721b264"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aebae861dc8d375ebc0d84ba76721b264">&#9670;&nbsp;</a></span>Zero()</h2>
+<a id="acd5b3010507ec091e51a0e684eadafea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acd5b3010507ec091e51a0e684eadafea">&#9670;&nbsp;</a></span>Zero()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static constexpr <a class="el" href="classPhQ_1_1Stress.html">Stress</a>&lt;Number&gt; <a class="el" href="classPhQ_1_1Stress.html">PhQ::Stress</a>&lt; Number &gt;::Zero </td>
+          <td class="memname">static constexpr <a class="el" href="classPhQ_1_1Stress.html">Stress</a>&lt;NumericType&gt; <a class="el" href="classPhQ_1_1Stress.html">PhQ::Stress</a>&lt; NumericType &gt;::Zero </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -1884,27 +1884,27 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Statically creates a stress tensor of zero. </p>
 
-<p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00105">105</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00107">107</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="SymmetricDyad_8hpp_source.html#l00120">PhQ::SymmetricDyad&lt; Number &gt;::Zero()</a>.</p>
+<p class="reference">References <a class="el" href="SymmetricDyad_8hpp_source.html#l00124">PhQ::SymmetricDyad&lt; NumericType &gt;::Zero()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00139">PhQ::ConstitutiveModel::CompressibleNewtonianFluid&lt; Number &gt;::Stress()</a>, <a class="el" href="IncompressibleNewtonianFluid_8hpp_source.html#l00122">PhQ::ConstitutiveModel::IncompressibleNewtonianFluid&lt; Number &gt;::Stress()</a>, and <a class="el" href="ElasticIsotropicSolid_8hpp_source.html#l00433">PhQ::ConstitutiveModel::ElasticIsotropicSolid&lt; Number &gt;::Stress()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00141">PhQ::ConstitutiveModel::CompressibleNewtonianFluid&lt; NumericType &gt;::Stress()</a>, <a class="el" href="IncompressibleNewtonianFluid_8hpp_source.html#l00123">PhQ::ConstitutiveModel::IncompressibleNewtonianFluid&lt; NumericType &gt;::Stress()</a>, and <a class="el" href="ElasticIsotropicSolid_8hpp_source.html#l00444">PhQ::ConstitutiveModel::ElasticIsotropicSolid&lt; NumericType &gt;::Stress()</a>.</p>
 
 </div>
 </div>
-<a id="ae05d29c3d3569c5624974e53ec726ac1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae05d29c3d3569c5624974e53ec726ac1">&#9670;&nbsp;</a></span>zx()</h2>
+<a id="af789f0d20f2995af5553eaabf9f5b06d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af789f0d20f2995af5553eaabf9f5b06d">&#9670;&nbsp;</a></span>zx()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1ScalarStress.html">ScalarStress</a>&lt;Number&gt; <a class="el" href="classPhQ_1_1Stress.html">PhQ::Stress</a>&lt; Number &gt;::zx </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1ScalarStress.html">ScalarStress</a>&lt;NumericType&gt; <a class="el" href="classPhQ_1_1Stress.html">PhQ::Stress</a>&lt; NumericType &gt;::zx </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -1919,25 +1919,25 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the zx = xz Cartesian component of this stress tensor. </p>
 
-<p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00164">164</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00168">168</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00219">PhQ::DimensionalSymmetricDyad&lt; Unit::Pressure, double &gt;::value</a>, and <a class="el" href="SymmetricDyad_8hpp_source.html#l00165">PhQ::SymmetricDyad&lt; Number &gt;::zx()</a>.</p>
+<p class="reference">References <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00217">PhQ::DimensionalSymmetricDyad&lt; Unit::Pressure, double &gt;::value</a>, and <a class="el" href="SymmetricDyad_8hpp_source.html#l00169">PhQ::SymmetricDyad&lt; NumericType &gt;::zx()</a>.</p>
 
 </div>
 </div>
-<a id="ad023a69cf78372c655329003d367141e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad023a69cf78372c655329003d367141e">&#9670;&nbsp;</a></span>zy()</h2>
+<a id="a1ef5ca52ac5954c97103aeedb6235a12"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ef5ca52ac5954c97103aeedb6235a12">&#9670;&nbsp;</a></span>zy()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1ScalarStress.html">ScalarStress</a>&lt;Number&gt; <a class="el" href="classPhQ_1_1Stress.html">PhQ::Stress</a>&lt; Number &gt;::zy </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1ScalarStress.html">ScalarStress</a>&lt;NumericType&gt; <a class="el" href="classPhQ_1_1Stress.html">PhQ::Stress</a>&lt; NumericType &gt;::zy </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -1952,25 +1952,25 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the zy = yz Cartesian component of this stress tensor. </p>
 
-<p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00169">169</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00173">173</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00219">PhQ::DimensionalSymmetricDyad&lt; Unit::Pressure, double &gt;::value</a>, and <a class="el" href="SymmetricDyad_8hpp_source.html#l00170">PhQ::SymmetricDyad&lt; Number &gt;::zy()</a>.</p>
+<p class="reference">References <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00217">PhQ::DimensionalSymmetricDyad&lt; Unit::Pressure, double &gt;::value</a>, and <a class="el" href="SymmetricDyad_8hpp_source.html#l00174">PhQ::SymmetricDyad&lt; NumericType &gt;::zy()</a>.</p>
 
 </div>
 </div>
-<a id="a64f2434742e1385619092e7f1e8bd1f0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a64f2434742e1385619092e7f1e8bd1f0">&#9670;&nbsp;</a></span>zz()</h2>
+<a id="ad7403d7a8b0274ec8dbb02a3eb58c40b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad7403d7a8b0274ec8dbb02a3eb58c40b">&#9670;&nbsp;</a></span>zz()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1ScalarStress.html">ScalarStress</a>&lt;Number&gt; <a class="el" href="classPhQ_1_1Stress.html">PhQ::Stress</a>&lt; Number &gt;::zz </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1ScalarStress.html">ScalarStress</a>&lt;NumericType&gt; <a class="el" href="classPhQ_1_1Stress.html">PhQ::Stress</a>&lt; NumericType &gt;::zz </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -1985,17 +1985,17 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the zz Cartesian component of this stress tensor. </p>
 
-<p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00174">174</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00178">178</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00219">PhQ::DimensionalSymmetricDyad&lt; Unit::Pressure, double &gt;::value</a>, and <a class="el" href="SymmetricDyad_8hpp_source.html#l00175">PhQ::SymmetricDyad&lt; Number &gt;::zz()</a>.</p>
+<p class="reference">References <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00217">PhQ::DimensionalSymmetricDyad&lt; Unit::Pressure, double &gt;::value</a>, and <a class="el" href="SymmetricDyad_8hpp_source.html#l00179">PhQ::SymmetricDyad&lt; NumericType &gt;::zz()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="Stress_8hpp_source.html#l00112">PhQ::Stress&lt; Number &gt;::Create()</a>, and <a class="el" href="Stress_8hpp_source.html#l00063">PhQ::Stress&lt; Number &gt;::Stress()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="Stress_8hpp_source.html#l00114">PhQ::Stress&lt; NumericType &gt;::Create()</a>, and <a class="el" href="Stress_8hpp_source.html#l00063">PhQ::Stress&lt; NumericType &gt;::Stress()</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="afa7bfb503dbeb7c6e3284e0a39f25d0a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afa7bfb503dbeb7c6e3284e0a39f25d0a">&#9670;&nbsp;</a></span>value</h2>
+<a id="af33f7ea04aef20c862e9b837ce630327"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af33f7ea04aef20c862e9b837ce630327">&#9670;&nbsp;</a></span>value</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2016,7 +2016,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Value of this physical quantity expressed in its standard unit of measure. </p>
 
-<p class="definition">Definition at line <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00219">219</a> of file <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html">DimensionalSymmetricDyad.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00217">217</a> of file <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html">DimensionalSymmetricDyad.hpp</a>.</p>
 
 </div>
 </div>

@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=9" />
     <meta name="generator" content="Doxygen 1.9.1" />
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=4.0" />
-    <title>Physical Quantities (PhQ): PhQ::MassDensity&lt; Number &gt; Class Template Reference</title>
+    <title>Physical Quantities (PhQ): PhQ::MassDensity&lt; NumericType &gt; Class Template Reference</title>
     <link href="tabs.css" rel="stylesheet" type="text/css" />
     <script type="text/javascript" src="jquery.js"></script>
     <script type="text/javascript" src="dynsections.js"></script>
@@ -110,7 +110,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search','.html');
 <a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="classPhQ_1_1MassDensity-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">PhQ::MassDensity&lt; Number &gt; Class Template Reference</div>  </div>
+<div class="title">PhQ::MassDensity&lt; NumericType &gt; Class Template Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
@@ -121,169 +121,169 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search','.html');
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a2ca39fe52bf3aaca011522f231f34776"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1MassDensity.html#a2ca39fe52bf3aaca011522f231f34776">MassDensity</a> ()=default</td></tr>
-<tr class="memdesc:a2ca39fe52bf3aaca011522f231f34776"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor. Constructs a mass density with an uninitialized value.  <a href="classPhQ_1_1MassDensity.html#a2ca39fe52bf3aaca011522f231f34776">More...</a><br /></td></tr>
-<tr class="separator:a2ca39fe52bf3aaca011522f231f34776"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a93480d53f408bd5bd640d2a714ca9289"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1MassDensity.html#a93480d53f408bd5bd640d2a714ca9289">MassDensity</a> (const Number <a class="el" href="classPhQ_1_1DimensionalScalar.html#a076d75036473812cf5583dc12b30aac2">value</a>, const <a class="el" href="namespacePhQ_1_1Unit.html#a2cfc5b9d935144540fcd9649b479f559">Unit::MassDensity</a> unit)</td></tr>
-<tr class="memdesc:a93480d53f408bd5bd640d2a714ca9289"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a mass density with a given value expressed in a given mass density unit.  <a href="classPhQ_1_1MassDensity.html#a93480d53f408bd5bd640d2a714ca9289">More...</a><br /></td></tr>
-<tr class="separator:a93480d53f408bd5bd640d2a714ca9289"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a949517a57707e6930462cd0401f8b341"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1MassDensity.html#a949517a57707e6930462cd0401f8b341">MassDensity</a> (const <a class="el" href="classPhQ_1_1Mass.html">Mass</a>&lt; Number &gt; &amp;mass, const <a class="el" href="classPhQ_1_1Volume.html">Volume</a>&lt; Number &gt; &amp;volume)</td></tr>
-<tr class="memdesc:a949517a57707e6930462cd0401f8b341"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a mass density from a given mass and volume using the definition of mass density.  <a href="classPhQ_1_1MassDensity.html#a949517a57707e6930462cd0401f8b341">More...</a><br /></td></tr>
-<tr class="separator:a949517a57707e6930462cd0401f8b341"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab9623b16e7c02a1e75df52581192be21"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1MassDensity.html#ab9623b16e7c02a1e75df52581192be21">MassDensity</a> (const <a class="el" href="classPhQ_1_1MassRate.html">MassRate</a>&lt; Number &gt; &amp;mass_rate, const <a class="el" href="classPhQ_1_1VolumeRate.html">VolumeRate</a>&lt; Number &gt; &amp;volume_rate)</td></tr>
-<tr class="memdesc:ab9623b16e7c02a1e75df52581192be21"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a mass density from a given mass rate and volume rate using the definition of mass density.  <a href="classPhQ_1_1MassDensity.html#ab9623b16e7c02a1e75df52581192be21">More...</a><br /></td></tr>
-<tr class="separator:ab9623b16e7c02a1e75df52581192be21"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3fa469055ddbe4d9db64bea8145b9b53"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1MassDensity.html#a3fa469055ddbe4d9db64bea8145b9b53">MassDensity</a> (const <a class="el" href="classPhQ_1_1DynamicViscosity.html">DynamicViscosity</a>&lt; Number &gt; &amp;dynamic_viscosity, const <a class="el" href="classPhQ_1_1KinematicViscosity.html">KinematicViscosity</a>&lt; Number &gt; &amp;kinematic_viscosity)</td></tr>
-<tr class="memdesc:a3fa469055ddbe4d9db64bea8145b9b53"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a mass density from a given dynamic viscosity and kinematic viscosity using the definition of kinematic viscosity.  <a href="classPhQ_1_1MassDensity.html#a3fa469055ddbe4d9db64bea8145b9b53">More...</a><br /></td></tr>
-<tr class="separator:a3fa469055ddbe4d9db64bea8145b9b53"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a981f6c4b249f9b57294a6ec5aa4c6888"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1MassDensity.html#a981f6c4b249f9b57294a6ec5aa4c6888">MassDensity</a> (const <a class="el" href="classPhQ_1_1ScalarThermalConductivity.html">ScalarThermalConductivity</a>&lt; Number &gt; &amp;scalar_thermal_conductivity, const <a class="el" href="classPhQ_1_1ThermalDiffusivity.html">ThermalDiffusivity</a>&lt; Number &gt; &amp;thermal_diffusivity, const <a class="el" href="classPhQ_1_1SpecificIsobaricHeatCapacity.html">SpecificIsobaricHeatCapacity</a>&lt; Number &gt; &amp;specific_isobaric_heat_capacity)</td></tr>
-<tr class="memdesc:a981f6c4b249f9b57294a6ec5aa4c6888"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a mass density from a given scalar thermal conductivity, thermal diffusivity, and specific isobaric heat capacity using the definition of thermal diffusivity.  <a href="classPhQ_1_1MassDensity.html#a981f6c4b249f9b57294a6ec5aa4c6888">More...</a><br /></td></tr>
-<tr class="separator:a981f6c4b249f9b57294a6ec5aa4c6888"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af2634cfc115a802ccefb10f8b3d66801"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1MassDensity.html#af2634cfc115a802ccefb10f8b3d66801">MassDensity</a> (const <a class="el" href="classPhQ_1_1DynamicPressure.html">DynamicPressure</a>&lt; Number &gt; &amp;dynamic_pressure, const <a class="el" href="classPhQ_1_1Speed.html">Speed</a>&lt; Number &gt; &amp;speed)</td></tr>
-<tr class="memdesc:af2634cfc115a802ccefb10f8b3d66801"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a mass density from a given dynamic pressure and speed using the definition of dynamic pressure.  <a href="classPhQ_1_1MassDensity.html#af2634cfc115a802ccefb10f8b3d66801">More...</a><br /></td></tr>
-<tr class="separator:af2634cfc115a802ccefb10f8b3d66801"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac02bac1e841c3835e9e5efcc5482b272"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1MassDensity.html#ac02bac1e841c3835e9e5efcc5482b272">MassDensity</a> (const <a class="el" href="classPhQ_1_1ReynoldsNumber.html">ReynoldsNumber</a>&lt; Number &gt; &amp;reynolds_number, const <a class="el" href="classPhQ_1_1DynamicViscosity.html">DynamicViscosity</a>&lt; Number &gt; &amp;dynamic_viscosity, const <a class="el" href="classPhQ_1_1Speed.html">Speed</a>&lt; Number &gt; &amp;speed, const <a class="el" href="classPhQ_1_1Length.html">Length</a>&lt; Number &gt; &amp;length)</td></tr>
-<tr class="memdesc:ac02bac1e841c3835e9e5efcc5482b272"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a mass density from a given Reynolds number, dynamic viscosity, speed, and length using the definition of the Reynolds number.  <a href="classPhQ_1_1MassDensity.html#ac02bac1e841c3835e9e5efcc5482b272">More...</a><br /></td></tr>
-<tr class="separator:ac02bac1e841c3835e9e5efcc5482b272"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af796daead9530701907c021b749ce63b"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1MassDensity.html#af796daead9530701907c021b749ce63b">MassDensity</a> (const <a class="el" href="classPhQ_1_1IsentropicBulkModulus.html">IsentropicBulkModulus</a>&lt; Number &gt; &amp;isentropic_bulk_modulus, const <a class="el" href="classPhQ_1_1SoundSpeed.html">SoundSpeed</a>&lt; Number &gt; &amp;sound_speed)</td></tr>
-<tr class="memdesc:af796daead9530701907c021b749ce63b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a mass density from a given isentropic bulk modulus and sound speed using the definition of the isentropic bulk modulus.  <a href="classPhQ_1_1MassDensity.html#af796daead9530701907c021b749ce63b">More...</a><br /></td></tr>
-<tr class="separator:af796daead9530701907c021b749ce63b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afb3db9de411053037f8592ad30ae647a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1MassDensity.html#afb3db9de411053037f8592ad30ae647a">~MassDensity</a> () noexcept=default</td></tr>
-<tr class="memdesc:afb3db9de411053037f8592ad30ae647a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor. Destroys this mass density.  <a href="classPhQ_1_1MassDensity.html#afb3db9de411053037f8592ad30ae647a">More...</a><br /></td></tr>
-<tr class="separator:afb3db9de411053037f8592ad30ae647a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a92e9d3b1ed59b13f509be13c8962761a"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1MassDensity.html#a92e9d3b1ed59b13f509be13c8962761a">MassDensity</a> (const <a class="el" href="classPhQ_1_1MassDensity.html">MassDensity</a>&lt; Number &gt; &amp;other)=default</td></tr>
-<tr class="memdesc:a92e9d3b1ed59b13f509be13c8962761a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy constructor. Constructs a mass density by copying another one.  <a href="classPhQ_1_1MassDensity.html#a92e9d3b1ed59b13f509be13c8962761a">More...</a><br /></td></tr>
-<tr class="separator:a92e9d3b1ed59b13f509be13c8962761a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a780ed56ca1909a13114cf6c39978d507"><td class="memTemplParams" colspan="2">template&lt;typename OtherNumber &gt; </td></tr>
-<tr class="memitem:a780ed56ca1909a13114cf6c39978d507"><td class="memTemplItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classPhQ_1_1MassDensity.html#a780ed56ca1909a13114cf6c39978d507">MassDensity</a> (const <a class="el" href="classPhQ_1_1MassDensity.html">MassDensity</a>&lt; OtherNumber &gt; &amp;other)</td></tr>
-<tr class="memdesc:a780ed56ca1909a13114cf6c39978d507"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy constructor. Constructs a mass density by copying another one.  <a href="classPhQ_1_1MassDensity.html#a780ed56ca1909a13114cf6c39978d507">More...</a><br /></td></tr>
-<tr class="separator:a780ed56ca1909a13114cf6c39978d507"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ada99bf3d0edf79cb328cbd8da7f09728"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1MassDensity.html#ada99bf3d0edf79cb328cbd8da7f09728">MassDensity</a> (<a class="el" href="classPhQ_1_1MassDensity.html">MassDensity</a>&lt; Number &gt; &amp;&amp;other) noexcept=default</td></tr>
-<tr class="memdesc:ada99bf3d0edf79cb328cbd8da7f09728"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move constructor. Constructs a mass density by moving another one.  <a href="classPhQ_1_1MassDensity.html#ada99bf3d0edf79cb328cbd8da7f09728">More...</a><br /></td></tr>
-<tr class="separator:ada99bf3d0edf79cb328cbd8da7f09728"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae94c83a0f78d898ce9b0f35e2e577136"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1MassDensity.html">MassDensity</a>&lt; Number &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1MassDensity.html#ae94c83a0f78d898ce9b0f35e2e577136">operator=</a> (const <a class="el" href="classPhQ_1_1MassDensity.html">MassDensity</a>&lt; Number &gt; &amp;other)=default</td></tr>
-<tr class="memdesc:ae94c83a0f78d898ce9b0f35e2e577136"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy assignment operator. Assigns this mass density by copying another one.  <a href="classPhQ_1_1MassDensity.html#ae94c83a0f78d898ce9b0f35e2e577136">More...</a><br /></td></tr>
-<tr class="separator:ae94c83a0f78d898ce9b0f35e2e577136"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa424d5d4524e25cb3409bc3b083bc9f1"><td class="memTemplParams" colspan="2">template&lt;typename OtherNumber &gt; </td></tr>
-<tr class="memitem:aa424d5d4524e25cb3409bc3b083bc9f1"><td class="memTemplItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1MassDensity.html">MassDensity</a>&lt; Number &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classPhQ_1_1MassDensity.html#aa424d5d4524e25cb3409bc3b083bc9f1">operator=</a> (const <a class="el" href="classPhQ_1_1MassDensity.html">MassDensity</a>&lt; OtherNumber &gt; &amp;other)</td></tr>
-<tr class="memdesc:aa424d5d4524e25cb3409bc3b083bc9f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy assignment operator. Assigns this mass density by copying another one.  <a href="classPhQ_1_1MassDensity.html#aa424d5d4524e25cb3409bc3b083bc9f1">More...</a><br /></td></tr>
-<tr class="separator:aa424d5d4524e25cb3409bc3b083bc9f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3fb95b1dcc86c6a9dca0d478f3cc7825"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1MassDensity.html">MassDensity</a>&lt; Number &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1MassDensity.html#a3fb95b1dcc86c6a9dca0d478f3cc7825">operator=</a> (<a class="el" href="classPhQ_1_1MassDensity.html">MassDensity</a>&lt; Number &gt; &amp;&amp;other) noexcept=default</td></tr>
-<tr class="memdesc:a3fb95b1dcc86c6a9dca0d478f3cc7825"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move assignment operator. Assigns this mass density by moving another one.  <a href="classPhQ_1_1MassDensity.html#a3fb95b1dcc86c6a9dca0d478f3cc7825">More...</a><br /></td></tr>
-<tr class="separator:a3fb95b1dcc86c6a9dca0d478f3cc7825"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2aa9675ae3f58c7665b29671b3b007df"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1MassDensity.html">MassDensity</a>&lt; Number &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1MassDensity.html#a2aa9675ae3f58c7665b29671b3b007df">operator+</a> (const <a class="el" href="classPhQ_1_1MassDensity.html">MassDensity</a>&lt; Number &gt; &amp;mass_density) const</td></tr>
-<tr class="separator:a2aa9675ae3f58c7665b29671b3b007df"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2807d1061bfad8c88f0222cd7b0093cb"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1MassDensity.html">MassDensity</a>&lt; Number &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1MassDensity.html#a2807d1061bfad8c88f0222cd7b0093cb">operator-</a> (const <a class="el" href="classPhQ_1_1MassDensity.html">MassDensity</a>&lt; Number &gt; &amp;mass_density) const</td></tr>
-<tr class="separator:a2807d1061bfad8c88f0222cd7b0093cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8113726ff2585343511755b650481fce"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1MassDensity.html">MassDensity</a>&lt; Number &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1MassDensity.html#a8113726ff2585343511755b650481fce">operator*</a> (const Number number) const</td></tr>
-<tr class="separator:a8113726ff2585343511755b650481fce"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab5cedebe0c008a12c48cf7107c8df613"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1Mass.html">Mass</a>&lt; Number &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1MassDensity.html#ab5cedebe0c008a12c48cf7107c8df613">operator*</a> (const <a class="el" href="classPhQ_1_1Volume.html">Volume</a>&lt; Number &gt; &amp;volume) const</td></tr>
-<tr class="separator:ab5cedebe0c008a12c48cf7107c8df613"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad13438804401e13d19ff978d515d0331"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1MassRate.html">MassRate</a>&lt; Number &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1MassDensity.html#ad13438804401e13d19ff978d515d0331">operator*</a> (const <a class="el" href="classPhQ_1_1VolumeRate.html">VolumeRate</a>&lt; Number &gt; &amp;volume_rate) const</td></tr>
-<tr class="separator:ad13438804401e13d19ff978d515d0331"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abd4611888a11d6b06abbd0cc6abe7b2c"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1DynamicViscosity.html">DynamicViscosity</a>&lt; Number &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1MassDensity.html#abd4611888a11d6b06abbd0cc6abe7b2c">operator*</a> (const <a class="el" href="classPhQ_1_1KinematicViscosity.html">KinematicViscosity</a>&lt; Number &gt; &amp;kinematic_viscosity) const</td></tr>
-<tr class="separator:abd4611888a11d6b06abbd0cc6abe7b2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa44c626b501ad2ba54f069383b220728"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1MassDensity.html">MassDensity</a>&lt; Number &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1MassDensity.html#aa44c626b501ad2ba54f069383b220728">operator/</a> (const Number number) const</td></tr>
-<tr class="separator:aa44c626b501ad2ba54f069383b220728"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a957cb4a0a3cade1a5c530b19cd35b709"><td class="memItemLeft" align="right" valign="top">constexpr Number&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1MassDensity.html#a957cb4a0a3cade1a5c530b19cd35b709">operator/</a> (const <a class="el" href="classPhQ_1_1MassDensity.html">MassDensity</a>&lt; Number &gt; &amp;mass_density) const noexcept</td></tr>
-<tr class="separator:a957cb4a0a3cade1a5c530b19cd35b709"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1c57139fcdc59ab59525af15fcac5f82"><td class="memItemLeft" align="right" valign="top">constexpr void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1MassDensity.html#a1c57139fcdc59ab59525af15fcac5f82">operator+=</a> (const <a class="el" href="classPhQ_1_1MassDensity.html">MassDensity</a>&lt; Number &gt; &amp;mass_density) noexcept</td></tr>
-<tr class="separator:a1c57139fcdc59ab59525af15fcac5f82"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0edade1254fb6e0db35790e065825925"><td class="memItemLeft" align="right" valign="top">constexpr void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1MassDensity.html#a0edade1254fb6e0db35790e065825925">operator-=</a> (const <a class="el" href="classPhQ_1_1MassDensity.html">MassDensity</a>&lt; Number &gt; &amp;mass_density) noexcept</td></tr>
-<tr class="separator:a0edade1254fb6e0db35790e065825925"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a30044e79b3f81d9a17069b8263a9f2f2"><td class="memItemLeft" align="right" valign="top">constexpr void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1MassDensity.html#a30044e79b3f81d9a17069b8263a9f2f2">operator*=</a> (const Number number) noexcept</td></tr>
-<tr class="separator:a30044e79b3f81d9a17069b8263a9f2f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a88dfa750d92dfe9a4468f2bf0a881369"><td class="memItemLeft" align="right" valign="top">constexpr void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1MassDensity.html#a88dfa750d92dfe9a4468f2bf0a881369">operator/=</a> (const Number number) noexcept</td></tr>
-<tr class="separator:a88dfa750d92dfe9a4468f2bf0a881369"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8068bf6cddee8d6cb3f8aa1dc9216170"><td class="memItemLeft" align="right" valign="top">constexpr double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalScalar.html#a8068bf6cddee8d6cb3f8aa1dc9216170">Value</a> () const noexcept</td></tr>
-<tr class="memdesc:a8068bf6cddee8d6cb3f8aa1dc9216170"><td class="mdescLeft">&#160;</td><td class="mdescRight">Value of this physical quantity expressed in its standard unit of measure.  <a href="classPhQ_1_1DimensionalScalar.html#a8068bf6cddee8d6cb3f8aa1dc9216170">More...</a><br /></td></tr>
-<tr class="separator:a8068bf6cddee8d6cb3f8aa1dc9216170"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4ee07be63b44992cae508b16df54c004"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalScalar.html#a4ee07be63b44992cae508b16df54c004">Value</a> (const <a class="el" href="namespacePhQ_1_1Unit.html#a2cfc5b9d935144540fcd9649b479f559">Unit::MassDensity</a> unit) const</td></tr>
-<tr class="memdesc:a4ee07be63b44992cae508b16df54c004"><td class="mdescLeft">&#160;</td><td class="mdescRight">Value of this physical quantity expressed in a given unit of measure.  <a href="classPhQ_1_1DimensionalScalar.html#a4ee07be63b44992cae508b16df54c004">More...</a><br /></td></tr>
-<tr class="separator:a4ee07be63b44992cae508b16df54c004"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aad095a483424ef55a6ec8031bc285282"><td class="memItemLeft" align="right" valign="top">constexpr double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalScalar.html#aad095a483424ef55a6ec8031bc285282">StaticValue</a> () const</td></tr>
-<tr class="memdesc:aad095a483424ef55a6ec8031bc285282"><td class="mdescLeft">&#160;</td><td class="mdescRight">Value of this physical quantity expressed in a given unit of measure. This method can be evaluated statically at compile-time.  <a href="classPhQ_1_1DimensionalScalar.html#aad095a483424ef55a6ec8031bc285282">More...</a><br /></td></tr>
-<tr class="separator:aad095a483424ef55a6ec8031bc285282"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab23e71494593d494de7e970896c6e8be"><td class="memItemLeft" align="right" valign="top">constexpr double &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalScalar.html#ab23e71494593d494de7e970896c6e8be">MutableValue</a> () noexcept</td></tr>
-<tr class="memdesc:ab23e71494593d494de7e970896c6e8be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the value of this physical quantity expressed in its standard unit of measure as a mutable value.  <a href="classPhQ_1_1DimensionalScalar.html#ab23e71494593d494de7e970896c6e8be">More...</a><br /></td></tr>
-<tr class="separator:ab23e71494593d494de7e970896c6e8be"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0e3a68ee9c8b42e8fe942349e588a4ac"><td class="memItemLeft" align="right" valign="top">constexpr void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalScalar.html#a0e3a68ee9c8b42e8fe942349e588a4ac">SetValue</a> (const double <a class="el" href="classPhQ_1_1DimensionalScalar.html#a076d75036473812cf5583dc12b30aac2">value</a>) noexcept</td></tr>
-<tr class="memdesc:a0e3a68ee9c8b42e8fe942349e588a4ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the value of this physical quantity expressed in its standard unit of measure to the given value.  <a href="classPhQ_1_1DimensionalScalar.html#a0e3a68ee9c8b42e8fe942349e588a4ac">More...</a><br /></td></tr>
-<tr class="separator:a0e3a68ee9c8b42e8fe942349e588a4ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaa28f5bd02ab3373b12d3500cbc05845"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalScalar.html#aaa28f5bd02ab3373b12d3500cbc05845">Print</a> () const</td></tr>
-<tr class="memdesc:aaa28f5bd02ab3373b12d3500cbc05845"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints this physical quantity as a string. This physical quantity's value is expressed in its standard unit of measure.  <a href="classPhQ_1_1DimensionalScalar.html#aaa28f5bd02ab3373b12d3500cbc05845">More...</a><br /></td></tr>
-<tr class="separator:aaa28f5bd02ab3373b12d3500cbc05845"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae58f817c7cfadb04c5c7c821a94df0b7"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalScalar.html#ae58f817c7cfadb04c5c7c821a94df0b7">Print</a> (const <a class="el" href="namespacePhQ_1_1Unit.html#a2cfc5b9d935144540fcd9649b479f559">Unit::MassDensity</a> unit) const</td></tr>
-<tr class="memdesc:ae58f817c7cfadb04c5c7c821a94df0b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints this physical quantity as a string. This physical quantity's value is expressed in the given unit of measure.  <a href="classPhQ_1_1DimensionalScalar.html#ae58f817c7cfadb04c5c7c821a94df0b7">More...</a><br /></td></tr>
-<tr class="separator:ae58f817c7cfadb04c5c7c821a94df0b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a05cd733dcabe35166c4ec6ce476f46ab"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalScalar.html#a05cd733dcabe35166c4ec6ce476f46ab">JSON</a> () const</td></tr>
-<tr class="memdesc:a05cd733dcabe35166c4ec6ce476f46ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serializes this physical quantity as a JSON message. This physical quantity's value is expressed in its standard unit of measure.  <a href="classPhQ_1_1DimensionalScalar.html#a05cd733dcabe35166c4ec6ce476f46ab">More...</a><br /></td></tr>
-<tr class="separator:a05cd733dcabe35166c4ec6ce476f46ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab0b9a823fbcc260db150dc1454e595ad"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalScalar.html#ab0b9a823fbcc260db150dc1454e595ad">JSON</a> (const <a class="el" href="namespacePhQ_1_1Unit.html#a2cfc5b9d935144540fcd9649b479f559">Unit::MassDensity</a> unit) const</td></tr>
-<tr class="memdesc:ab0b9a823fbcc260db150dc1454e595ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serializes this physical quantity as a JSON message. This physical quantity's value is expressed in the given unit of measure.  <a href="classPhQ_1_1DimensionalScalar.html#ab0b9a823fbcc260db150dc1454e595ad">More...</a><br /></td></tr>
-<tr class="separator:ab0b9a823fbcc260db150dc1454e595ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae7e0d5f7bd52789b77ff20842cba38d8"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalScalar.html#ae7e0d5f7bd52789b77ff20842cba38d8">XML</a> () const</td></tr>
-<tr class="memdesc:ae7e0d5f7bd52789b77ff20842cba38d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serializes this physical quantity as an XML message. This physical quantity's value is expressed in its standard unit of measure.  <a href="classPhQ_1_1DimensionalScalar.html#ae7e0d5f7bd52789b77ff20842cba38d8">More...</a><br /></td></tr>
-<tr class="separator:ae7e0d5f7bd52789b77ff20842cba38d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abfe5f218e10bca3eb3f52e114beee2c1"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalScalar.html#abfe5f218e10bca3eb3f52e114beee2c1">XML</a> (const <a class="el" href="namespacePhQ_1_1Unit.html#a2cfc5b9d935144540fcd9649b479f559">Unit::MassDensity</a> unit) const</td></tr>
-<tr class="memdesc:abfe5f218e10bca3eb3f52e114beee2c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serializes this physical quantity as an XML message. This physical quantity's value is expressed in the given unit of measure.  <a href="classPhQ_1_1DimensionalScalar.html#abfe5f218e10bca3eb3f52e114beee2c1">More...</a><br /></td></tr>
-<tr class="separator:abfe5f218e10bca3eb3f52e114beee2c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2082ac17d425476688192460d79803cb"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalScalar.html#a2082ac17d425476688192460d79803cb">YAML</a> () const</td></tr>
-<tr class="memdesc:a2082ac17d425476688192460d79803cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serializes this physical quantity as a YAML message. This physical quantity's value is expressed in its standard unit of measure.  <a href="classPhQ_1_1DimensionalScalar.html#a2082ac17d425476688192460d79803cb">More...</a><br /></td></tr>
-<tr class="separator:a2082ac17d425476688192460d79803cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aacdcb91b676e4fdb5aa562e5ba58ca1d"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalScalar.html#aacdcb91b676e4fdb5aa562e5ba58ca1d">YAML</a> (const <a class="el" href="namespacePhQ_1_1Unit.html#a2cfc5b9d935144540fcd9649b479f559">Unit::MassDensity</a> unit) const</td></tr>
-<tr class="memdesc:aacdcb91b676e4fdb5aa562e5ba58ca1d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serializes this physical quantity as a YAML message. This physical quantity's value is expressed in the given unit of measure.  <a href="classPhQ_1_1DimensionalScalar.html#aacdcb91b676e4fdb5aa562e5ba58ca1d">More...</a><br /></td></tr>
-<tr class="separator:aacdcb91b676e4fdb5aa562e5ba58ca1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57733bab501e19256f37b5d62fceda01"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1MassDensity.html#a57733bab501e19256f37b5d62fceda01">MassDensity</a> ()=default</td></tr>
+<tr class="memdesc:a57733bab501e19256f37b5d62fceda01"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor. Constructs a mass density with an uninitialized value.  <a href="classPhQ_1_1MassDensity.html#a57733bab501e19256f37b5d62fceda01">More...</a><br /></td></tr>
+<tr class="separator:a57733bab501e19256f37b5d62fceda01"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8718e9bdd91af94b90c32ad8692038ea"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1MassDensity.html#a8718e9bdd91af94b90c32ad8692038ea">MassDensity</a> (const NumericType <a class="el" href="classPhQ_1_1DimensionalScalar.html#a34ca46c6f38afa3d34cba2eda00092fe">value</a>, const <a class="el" href="namespacePhQ_1_1Unit.html#a2cfc5b9d935144540fcd9649b479f559">Unit::MassDensity</a> unit)</td></tr>
+<tr class="memdesc:a8718e9bdd91af94b90c32ad8692038ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a mass density with a given value expressed in a given mass density unit.  <a href="classPhQ_1_1MassDensity.html#a8718e9bdd91af94b90c32ad8692038ea">More...</a><br /></td></tr>
+<tr class="separator:a8718e9bdd91af94b90c32ad8692038ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b277eb1040144110df68ebbd613c206"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1MassDensity.html#a5b277eb1040144110df68ebbd613c206">MassDensity</a> (const <a class="el" href="classPhQ_1_1Mass.html">Mass</a>&lt; NumericType &gt; &amp;mass, const <a class="el" href="classPhQ_1_1Volume.html">Volume</a>&lt; NumericType &gt; &amp;volume)</td></tr>
+<tr class="memdesc:a5b277eb1040144110df68ebbd613c206"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a mass density from a given mass and volume using the definition of mass density.  <a href="classPhQ_1_1MassDensity.html#a5b277eb1040144110df68ebbd613c206">More...</a><br /></td></tr>
+<tr class="separator:a5b277eb1040144110df68ebbd613c206"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a322a47d807077d4ec3ba721d98256018"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1MassDensity.html#a322a47d807077d4ec3ba721d98256018">MassDensity</a> (const <a class="el" href="classPhQ_1_1MassRate.html">MassRate</a>&lt; NumericType &gt; &amp;mass_rate, const <a class="el" href="classPhQ_1_1VolumeRate.html">VolumeRate</a>&lt; NumericType &gt; &amp;volume_rate)</td></tr>
+<tr class="memdesc:a322a47d807077d4ec3ba721d98256018"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a mass density from a given mass rate and volume rate using the definition of mass density.  <a href="classPhQ_1_1MassDensity.html#a322a47d807077d4ec3ba721d98256018">More...</a><br /></td></tr>
+<tr class="separator:a322a47d807077d4ec3ba721d98256018"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c720189d8c8169ab5d09c1ad2afe946"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1MassDensity.html#a2c720189d8c8169ab5d09c1ad2afe946">MassDensity</a> (const <a class="el" href="classPhQ_1_1DynamicViscosity.html">DynamicViscosity</a>&lt; NumericType &gt; &amp;dynamic_viscosity, const <a class="el" href="classPhQ_1_1KinematicViscosity.html">KinematicViscosity</a>&lt; NumericType &gt; &amp;kinematic_viscosity)</td></tr>
+<tr class="memdesc:a2c720189d8c8169ab5d09c1ad2afe946"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a mass density from a given dynamic viscosity and kinematic viscosity using the definition of kinematic viscosity.  <a href="classPhQ_1_1MassDensity.html#a2c720189d8c8169ab5d09c1ad2afe946">More...</a><br /></td></tr>
+<tr class="separator:a2c720189d8c8169ab5d09c1ad2afe946"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad107cd9fd44e7f897e8ed968ddbcaa77"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1MassDensity.html#ad107cd9fd44e7f897e8ed968ddbcaa77">MassDensity</a> (const <a class="el" href="classPhQ_1_1ScalarThermalConductivity.html">ScalarThermalConductivity</a>&lt; NumericType &gt; &amp;scalar_thermal_conductivity, const <a class="el" href="classPhQ_1_1ThermalDiffusivity.html">ThermalDiffusivity</a>&lt; NumericType &gt; &amp;thermal_diffusivity, const <a class="el" href="classPhQ_1_1SpecificIsobaricHeatCapacity.html">SpecificIsobaricHeatCapacity</a>&lt; NumericType &gt; &amp;specific_isobaric_heat_capacity)</td></tr>
+<tr class="memdesc:ad107cd9fd44e7f897e8ed968ddbcaa77"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a mass density from a given scalar thermal conductivity, thermal diffusivity, and specific isobaric heat capacity using the definition of thermal diffusivity.  <a href="classPhQ_1_1MassDensity.html#ad107cd9fd44e7f897e8ed968ddbcaa77">More...</a><br /></td></tr>
+<tr class="separator:ad107cd9fd44e7f897e8ed968ddbcaa77"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3dffa4b08dca4003e1c0742db0f65b90"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1MassDensity.html#a3dffa4b08dca4003e1c0742db0f65b90">MassDensity</a> (const <a class="el" href="classPhQ_1_1DynamicPressure.html">DynamicPressure</a>&lt; NumericType &gt; &amp;dynamic_pressure, const <a class="el" href="classPhQ_1_1Speed.html">Speed</a>&lt; NumericType &gt; &amp;speed)</td></tr>
+<tr class="memdesc:a3dffa4b08dca4003e1c0742db0f65b90"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a mass density from a given dynamic pressure and speed using the definition of dynamic pressure.  <a href="classPhQ_1_1MassDensity.html#a3dffa4b08dca4003e1c0742db0f65b90">More...</a><br /></td></tr>
+<tr class="separator:a3dffa4b08dca4003e1c0742db0f65b90"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeae64d20b4e0dcff14cf2ceb19007785"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1MassDensity.html#aeae64d20b4e0dcff14cf2ceb19007785">MassDensity</a> (const <a class="el" href="classPhQ_1_1ReynoldsNumber.html">ReynoldsNumber</a>&lt; NumericType &gt; &amp;reynolds_number, const <a class="el" href="classPhQ_1_1DynamicViscosity.html">DynamicViscosity</a>&lt; NumericType &gt; &amp;dynamic_viscosity, const <a class="el" href="classPhQ_1_1Speed.html">Speed</a>&lt; NumericType &gt; &amp;speed, const <a class="el" href="classPhQ_1_1Length.html">Length</a>&lt; NumericType &gt; &amp;length)</td></tr>
+<tr class="memdesc:aeae64d20b4e0dcff14cf2ceb19007785"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a mass density from a given Reynolds number, dynamic viscosity, speed, and length using the definition of the Reynolds number.  <a href="classPhQ_1_1MassDensity.html#aeae64d20b4e0dcff14cf2ceb19007785">More...</a><br /></td></tr>
+<tr class="separator:aeae64d20b4e0dcff14cf2ceb19007785"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e232712f4fe012362e0f3b56f5cdf18"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1MassDensity.html#a1e232712f4fe012362e0f3b56f5cdf18">MassDensity</a> (const <a class="el" href="classPhQ_1_1IsentropicBulkModulus.html">IsentropicBulkModulus</a>&lt; NumericType &gt; &amp;isentropic_bulk_modulus, const <a class="el" href="classPhQ_1_1SoundSpeed.html">SoundSpeed</a>&lt; NumericType &gt; &amp;sound_speed)</td></tr>
+<tr class="memdesc:a1e232712f4fe012362e0f3b56f5cdf18"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a mass density from a given isentropic bulk modulus and sound speed using the definition of the isentropic bulk modulus.  <a href="classPhQ_1_1MassDensity.html#a1e232712f4fe012362e0f3b56f5cdf18">More...</a><br /></td></tr>
+<tr class="separator:a1e232712f4fe012362e0f3b56f5cdf18"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68c2789569b29f395c9910afb02fa14f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1MassDensity.html#a68c2789569b29f395c9910afb02fa14f">~MassDensity</a> () noexcept=default</td></tr>
+<tr class="memdesc:a68c2789569b29f395c9910afb02fa14f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor. Destroys this mass density.  <a href="classPhQ_1_1MassDensity.html#a68c2789569b29f395c9910afb02fa14f">More...</a><br /></td></tr>
+<tr class="separator:a68c2789569b29f395c9910afb02fa14f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb7ac803a180d7b742fc0e4edde23969"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1MassDensity.html#aeb7ac803a180d7b742fc0e4edde23969">MassDensity</a> (const <a class="el" href="classPhQ_1_1MassDensity.html">MassDensity</a>&lt; NumericType &gt; &amp;other)=default</td></tr>
+<tr class="memdesc:aeb7ac803a180d7b742fc0e4edde23969"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy constructor. Constructs a mass density by copying another one.  <a href="classPhQ_1_1MassDensity.html#aeb7ac803a180d7b742fc0e4edde23969">More...</a><br /></td></tr>
+<tr class="separator:aeb7ac803a180d7b742fc0e4edde23969"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe5ebc99158b8e2ac5f517687b225344"><td class="memTemplParams" colspan="2">template&lt;typename OtherNumericType &gt; </td></tr>
+<tr class="memitem:afe5ebc99158b8e2ac5f517687b225344"><td class="memTemplItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classPhQ_1_1MassDensity.html#afe5ebc99158b8e2ac5f517687b225344">MassDensity</a> (const <a class="el" href="classPhQ_1_1MassDensity.html">MassDensity</a>&lt; OtherNumericType &gt; &amp;other)</td></tr>
+<tr class="memdesc:afe5ebc99158b8e2ac5f517687b225344"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy constructor. Constructs a mass density by copying another one.  <a href="classPhQ_1_1MassDensity.html#afe5ebc99158b8e2ac5f517687b225344">More...</a><br /></td></tr>
+<tr class="separator:afe5ebc99158b8e2ac5f517687b225344"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88d4d07cb28e4b6982b7b9c06425bd0f"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1MassDensity.html#a88d4d07cb28e4b6982b7b9c06425bd0f">MassDensity</a> (<a class="el" href="classPhQ_1_1MassDensity.html">MassDensity</a>&lt; NumericType &gt; &amp;&amp;other) noexcept=default</td></tr>
+<tr class="memdesc:a88d4d07cb28e4b6982b7b9c06425bd0f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move constructor. Constructs a mass density by moving another one.  <a href="classPhQ_1_1MassDensity.html#a88d4d07cb28e4b6982b7b9c06425bd0f">More...</a><br /></td></tr>
+<tr class="separator:a88d4d07cb28e4b6982b7b9c06425bd0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad76db3b137a544b663b23ab1fc8a95f6"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1MassDensity.html">MassDensity</a>&lt; NumericType &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1MassDensity.html#ad76db3b137a544b663b23ab1fc8a95f6">operator=</a> (const <a class="el" href="classPhQ_1_1MassDensity.html">MassDensity</a>&lt; NumericType &gt; &amp;other)=default</td></tr>
+<tr class="memdesc:ad76db3b137a544b663b23ab1fc8a95f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy assignment operator. Assigns this mass density by copying another one.  <a href="classPhQ_1_1MassDensity.html#ad76db3b137a544b663b23ab1fc8a95f6">More...</a><br /></td></tr>
+<tr class="separator:ad76db3b137a544b663b23ab1fc8a95f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5187aae9e03ee4425bd0b3ec0439fb7"><td class="memTemplParams" colspan="2">template&lt;typename OtherNumericType &gt; </td></tr>
+<tr class="memitem:ae5187aae9e03ee4425bd0b3ec0439fb7"><td class="memTemplItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1MassDensity.html">MassDensity</a>&lt; NumericType &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classPhQ_1_1MassDensity.html#ae5187aae9e03ee4425bd0b3ec0439fb7">operator=</a> (const <a class="el" href="classPhQ_1_1MassDensity.html">MassDensity</a>&lt; OtherNumericType &gt; &amp;other)</td></tr>
+<tr class="memdesc:ae5187aae9e03ee4425bd0b3ec0439fb7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy assignment operator. Assigns this mass density by copying another one.  <a href="classPhQ_1_1MassDensity.html#ae5187aae9e03ee4425bd0b3ec0439fb7">More...</a><br /></td></tr>
+<tr class="separator:ae5187aae9e03ee4425bd0b3ec0439fb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f40774d38624b64f9f7852c4cf132c7"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1MassDensity.html">MassDensity</a>&lt; NumericType &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1MassDensity.html#a2f40774d38624b64f9f7852c4cf132c7">operator=</a> (<a class="el" href="classPhQ_1_1MassDensity.html">MassDensity</a>&lt; NumericType &gt; &amp;&amp;other) noexcept=default</td></tr>
+<tr class="memdesc:a2f40774d38624b64f9f7852c4cf132c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move assignment operator. Assigns this mass density by moving another one.  <a href="classPhQ_1_1MassDensity.html#a2f40774d38624b64f9f7852c4cf132c7">More...</a><br /></td></tr>
+<tr class="separator:a2f40774d38624b64f9f7852c4cf132c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5861667f928d6f07bf03ae47205ebd28"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1MassDensity.html">MassDensity</a>&lt; NumericType &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1MassDensity.html#a5861667f928d6f07bf03ae47205ebd28">operator+</a> (const <a class="el" href="classPhQ_1_1MassDensity.html">MassDensity</a>&lt; NumericType &gt; &amp;mass_density) const</td></tr>
+<tr class="separator:a5861667f928d6f07bf03ae47205ebd28"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef81104f7fcfa3308c39446bacd9ef9f"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1MassDensity.html">MassDensity</a>&lt; NumericType &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1MassDensity.html#aef81104f7fcfa3308c39446bacd9ef9f">operator-</a> (const <a class="el" href="classPhQ_1_1MassDensity.html">MassDensity</a>&lt; NumericType &gt; &amp;mass_density) const</td></tr>
+<tr class="separator:aef81104f7fcfa3308c39446bacd9ef9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3dcf1adaabd800790b7836f02993252e"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1MassDensity.html">MassDensity</a>&lt; NumericType &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1MassDensity.html#a3dcf1adaabd800790b7836f02993252e">operator*</a> (const NumericType number) const</td></tr>
+<tr class="separator:a3dcf1adaabd800790b7836f02993252e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a67c8925e9ff62a141bf73a2e8d6251fc"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1Mass.html">Mass</a>&lt; NumericType &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1MassDensity.html#a67c8925e9ff62a141bf73a2e8d6251fc">operator*</a> (const <a class="el" href="classPhQ_1_1Volume.html">Volume</a>&lt; NumericType &gt; &amp;volume) const</td></tr>
+<tr class="separator:a67c8925e9ff62a141bf73a2e8d6251fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3ae5767ee74f58497dd1c7b3d225864"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1MassRate.html">MassRate</a>&lt; NumericType &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1MassDensity.html#ad3ae5767ee74f58497dd1c7b3d225864">operator*</a> (const <a class="el" href="classPhQ_1_1VolumeRate.html">VolumeRate</a>&lt; NumericType &gt; &amp;volume_rate) const</td></tr>
+<tr class="separator:ad3ae5767ee74f58497dd1c7b3d225864"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81a1edd6400f4c3030b8399220805ea6"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1DynamicViscosity.html">DynamicViscosity</a>&lt; NumericType &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1MassDensity.html#a81a1edd6400f4c3030b8399220805ea6">operator*</a> (const <a class="el" href="classPhQ_1_1KinematicViscosity.html">KinematicViscosity</a>&lt; NumericType &gt; &amp;kinematic_viscosity) const</td></tr>
+<tr class="separator:a81a1edd6400f4c3030b8399220805ea6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae06654e6cf1cdebe5c0762f2b37768d6"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1MassDensity.html">MassDensity</a>&lt; NumericType &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1MassDensity.html#ae06654e6cf1cdebe5c0762f2b37768d6">operator/</a> (const NumericType number) const</td></tr>
+<tr class="separator:ae06654e6cf1cdebe5c0762f2b37768d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1af05e7c02d4337460b2cc2b3a07ac6f"><td class="memItemLeft" align="right" valign="top">constexpr NumericType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1MassDensity.html#a1af05e7c02d4337460b2cc2b3a07ac6f">operator/</a> (const <a class="el" href="classPhQ_1_1MassDensity.html">MassDensity</a>&lt; NumericType &gt; &amp;mass_density) const noexcept</td></tr>
+<tr class="separator:a1af05e7c02d4337460b2cc2b3a07ac6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85d9a6206e238172eca1afa0a2b716f9"><td class="memItemLeft" align="right" valign="top">constexpr void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1MassDensity.html#a85d9a6206e238172eca1afa0a2b716f9">operator+=</a> (const <a class="el" href="classPhQ_1_1MassDensity.html">MassDensity</a>&lt; NumericType &gt; &amp;mass_density) noexcept</td></tr>
+<tr class="separator:a85d9a6206e238172eca1afa0a2b716f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a618af4633be592bcd98a00d86a3d41ba"><td class="memItemLeft" align="right" valign="top">constexpr void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1MassDensity.html#a618af4633be592bcd98a00d86a3d41ba">operator-=</a> (const <a class="el" href="classPhQ_1_1MassDensity.html">MassDensity</a>&lt; NumericType &gt; &amp;mass_density) noexcept</td></tr>
+<tr class="separator:a618af4633be592bcd98a00d86a3d41ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3dc5f6dafbdf3007dd82092e3129089"><td class="memItemLeft" align="right" valign="top">constexpr void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1MassDensity.html#ad3dc5f6dafbdf3007dd82092e3129089">operator*=</a> (const NumericType number) noexcept</td></tr>
+<tr class="separator:ad3dc5f6dafbdf3007dd82092e3129089"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a25681ff799958d315031993451e95c71"><td class="memItemLeft" align="right" valign="top">constexpr void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1MassDensity.html#a25681ff799958d315031993451e95c71">operator/=</a> (const NumericType number) noexcept</td></tr>
+<tr class="separator:a25681ff799958d315031993451e95c71"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa89c594ce9a870e7d509c39dfa1f996c"><td class="memItemLeft" align="right" valign="top">constexpr double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalScalar.html#aa89c594ce9a870e7d509c39dfa1f996c">Value</a> () const noexcept</td></tr>
+<tr class="memdesc:aa89c594ce9a870e7d509c39dfa1f996c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Value of this physical quantity expressed in its standard unit of measure.  <a href="classPhQ_1_1DimensionalScalar.html#aa89c594ce9a870e7d509c39dfa1f996c">More...</a><br /></td></tr>
+<tr class="separator:aa89c594ce9a870e7d509c39dfa1f996c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7295e6cce3097405dcaaba0c3c7ebc55"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalScalar.html#a7295e6cce3097405dcaaba0c3c7ebc55">Value</a> (const <a class="el" href="namespacePhQ_1_1Unit.html#a2cfc5b9d935144540fcd9649b479f559">Unit::MassDensity</a> unit) const</td></tr>
+<tr class="memdesc:a7295e6cce3097405dcaaba0c3c7ebc55"><td class="mdescLeft">&#160;</td><td class="mdescRight">Value of this physical quantity expressed in a given unit of measure.  <a href="classPhQ_1_1DimensionalScalar.html#a7295e6cce3097405dcaaba0c3c7ebc55">More...</a><br /></td></tr>
+<tr class="separator:a7295e6cce3097405dcaaba0c3c7ebc55"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa401781659dfda7d74e644ceaf68ff8d"><td class="memItemLeft" align="right" valign="top">constexpr double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalScalar.html#aa401781659dfda7d74e644ceaf68ff8d">StaticValue</a> () const</td></tr>
+<tr class="memdesc:aa401781659dfda7d74e644ceaf68ff8d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Value of this physical quantity expressed in a given unit of measure. This method can be evaluated statically at compile-time.  <a href="classPhQ_1_1DimensionalScalar.html#aa401781659dfda7d74e644ceaf68ff8d">More...</a><br /></td></tr>
+<tr class="separator:aa401781659dfda7d74e644ceaf68ff8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afae0bdf529936a6cd8d9bdcfd3ee4e6d"><td class="memItemLeft" align="right" valign="top">constexpr double &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalScalar.html#afae0bdf529936a6cd8d9bdcfd3ee4e6d">MutableValue</a> () noexcept</td></tr>
+<tr class="memdesc:afae0bdf529936a6cd8d9bdcfd3ee4e6d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the value of this physical quantity expressed in its standard unit of measure as a mutable value.  <a href="classPhQ_1_1DimensionalScalar.html#afae0bdf529936a6cd8d9bdcfd3ee4e6d">More...</a><br /></td></tr>
+<tr class="separator:afae0bdf529936a6cd8d9bdcfd3ee4e6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16891d80e526226d81481faecb0331ae"><td class="memItemLeft" align="right" valign="top">constexpr void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalScalar.html#a16891d80e526226d81481faecb0331ae">SetValue</a> (const double <a class="el" href="classPhQ_1_1DimensionalScalar.html#a34ca46c6f38afa3d34cba2eda00092fe">value</a>) noexcept</td></tr>
+<tr class="memdesc:a16891d80e526226d81481faecb0331ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the value of this physical quantity expressed in its standard unit of measure to the given value.  <a href="classPhQ_1_1DimensionalScalar.html#a16891d80e526226d81481faecb0331ae">More...</a><br /></td></tr>
+<tr class="separator:a16891d80e526226d81481faecb0331ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afce0b73bca1442f2ad975e4b6fb169e0"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalScalar.html#afce0b73bca1442f2ad975e4b6fb169e0">Print</a> () const</td></tr>
+<tr class="memdesc:afce0b73bca1442f2ad975e4b6fb169e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints this physical quantity as a string. This physical quantity's value is expressed in its standard unit of measure.  <a href="classPhQ_1_1DimensionalScalar.html#afce0b73bca1442f2ad975e4b6fb169e0">More...</a><br /></td></tr>
+<tr class="separator:afce0b73bca1442f2ad975e4b6fb169e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e98124436bc2dda3fb08f8fe24921f4"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalScalar.html#a3e98124436bc2dda3fb08f8fe24921f4">Print</a> (const <a class="el" href="namespacePhQ_1_1Unit.html#a2cfc5b9d935144540fcd9649b479f559">Unit::MassDensity</a> unit) const</td></tr>
+<tr class="memdesc:a3e98124436bc2dda3fb08f8fe24921f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints this physical quantity as a string. This physical quantity's value is expressed in the given unit of measure.  <a href="classPhQ_1_1DimensionalScalar.html#a3e98124436bc2dda3fb08f8fe24921f4">More...</a><br /></td></tr>
+<tr class="separator:a3e98124436bc2dda3fb08f8fe24921f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a955c0cd8487dc1332feb49dff22fd43d"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalScalar.html#a955c0cd8487dc1332feb49dff22fd43d">JSON</a> () const</td></tr>
+<tr class="memdesc:a955c0cd8487dc1332feb49dff22fd43d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serializes this physical quantity as a JSON message. This physical quantity's value is expressed in its standard unit of measure.  <a href="classPhQ_1_1DimensionalScalar.html#a955c0cd8487dc1332feb49dff22fd43d">More...</a><br /></td></tr>
+<tr class="separator:a955c0cd8487dc1332feb49dff22fd43d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8ba6d43f120369610d116d506b77a92"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalScalar.html#ae8ba6d43f120369610d116d506b77a92">JSON</a> (const <a class="el" href="namespacePhQ_1_1Unit.html#a2cfc5b9d935144540fcd9649b479f559">Unit::MassDensity</a> unit) const</td></tr>
+<tr class="memdesc:ae8ba6d43f120369610d116d506b77a92"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serializes this physical quantity as a JSON message. This physical quantity's value is expressed in the given unit of measure.  <a href="classPhQ_1_1DimensionalScalar.html#ae8ba6d43f120369610d116d506b77a92">More...</a><br /></td></tr>
+<tr class="separator:ae8ba6d43f120369610d116d506b77a92"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9c476851d0b711cf6d616483bba9594"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalScalar.html#ae9c476851d0b711cf6d616483bba9594">XML</a> () const</td></tr>
+<tr class="memdesc:ae9c476851d0b711cf6d616483bba9594"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serializes this physical quantity as an XML message. This physical quantity's value is expressed in its standard unit of measure.  <a href="classPhQ_1_1DimensionalScalar.html#ae9c476851d0b711cf6d616483bba9594">More...</a><br /></td></tr>
+<tr class="separator:ae9c476851d0b711cf6d616483bba9594"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0bcfcd2b36949dbfbe4e407d0523d749"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalScalar.html#a0bcfcd2b36949dbfbe4e407d0523d749">XML</a> (const <a class="el" href="namespacePhQ_1_1Unit.html#a2cfc5b9d935144540fcd9649b479f559">Unit::MassDensity</a> unit) const</td></tr>
+<tr class="memdesc:a0bcfcd2b36949dbfbe4e407d0523d749"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serializes this physical quantity as an XML message. This physical quantity's value is expressed in the given unit of measure.  <a href="classPhQ_1_1DimensionalScalar.html#a0bcfcd2b36949dbfbe4e407d0523d749">More...</a><br /></td></tr>
+<tr class="separator:a0bcfcd2b36949dbfbe4e407d0523d749"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac55005e5bec47b0f01de69e71ede218a"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalScalar.html#ac55005e5bec47b0f01de69e71ede218a">YAML</a> () const</td></tr>
+<tr class="memdesc:ac55005e5bec47b0f01de69e71ede218a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serializes this physical quantity as a YAML message. This physical quantity's value is expressed in its standard unit of measure.  <a href="classPhQ_1_1DimensionalScalar.html#ac55005e5bec47b0f01de69e71ede218a">More...</a><br /></td></tr>
+<tr class="separator:ac55005e5bec47b0f01de69e71ede218a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14579dd93adade7f7908d3a77b5967e7"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalScalar.html#a14579dd93adade7f7908d3a77b5967e7">YAML</a> (const <a class="el" href="namespacePhQ_1_1Unit.html#a2cfc5b9d935144540fcd9649b479f559">Unit::MassDensity</a> unit) const</td></tr>
+<tr class="memdesc:a14579dd93adade7f7908d3a77b5967e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serializes this physical quantity as a YAML message. This physical quantity's value is expressed in the given unit of measure.  <a href="classPhQ_1_1DimensionalScalar.html#a14579dd93adade7f7908d3a77b5967e7">More...</a><br /></td></tr>
+<tr class="separator:a14579dd93adade7f7908d3a77b5967e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a4d305732ed5feb5fafdb33d135ad9fe3"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="classPhQ_1_1MassDensity.html">MassDensity</a>&lt; Number &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1MassDensity.html#a4d305732ed5feb5fafdb33d135ad9fe3">Zero</a> ()</td></tr>
-<tr class="memdesc:a4d305732ed5feb5fafdb33d135ad9fe3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Statically creates a mass density of zero.  <a href="classPhQ_1_1MassDensity.html#a4d305732ed5feb5fafdb33d135ad9fe3">More...</a><br /></td></tr>
-<tr class="separator:a4d305732ed5feb5fafdb33d135ad9fe3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a33041bb3a089b8e1d8903601f4c22e7f"><td class="memTemplParams" colspan="2">template&lt;Unit::MassDensity Unit&gt; </td></tr>
-<tr class="memitem:a33041bb3a089b8e1d8903601f4c22e7f"><td class="memTemplItemLeft" align="right" valign="top">static constexpr <a class="el" href="classPhQ_1_1MassDensity.html">MassDensity</a>&lt; Number &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classPhQ_1_1MassDensity.html#a33041bb3a089b8e1d8903601f4c22e7f">Create</a> (const Number <a class="el" href="classPhQ_1_1DimensionalScalar.html#a076d75036473812cf5583dc12b30aac2">value</a>)</td></tr>
-<tr class="memdesc:a33041bb3a089b8e1d8903601f4c22e7f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Statically creates a mass density with a given value expressed in a given mass density unit.  <a href="classPhQ_1_1MassDensity.html#a33041bb3a089b8e1d8903601f4c22e7f">More...</a><br /></td></tr>
-<tr class="separator:a33041bb3a089b8e1d8903601f4c22e7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a49230866296c449b998578cbb78bae38"><td class="memItemLeft" align="right" valign="top">static constexpr const <a class="el" href="classPhQ_1_1Dimensions.html">PhQ::Dimensions</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalScalar.html#a49230866296c449b998578cbb78bae38">Dimensions</a> ()</td></tr>
-<tr class="memdesc:a49230866296c449b998578cbb78bae38"><td class="mdescLeft">&#160;</td><td class="mdescRight">Physical dimension set of this physical quantity.  <a href="classPhQ_1_1DimensionalScalar.html#a49230866296c449b998578cbb78bae38">More...</a><br /></td></tr>
-<tr class="separator:a49230866296c449b998578cbb78bae38"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a75b344fe52822caa65e4918e1d1fcbd6"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="namespacePhQ_1_1Unit.html#a2cfc5b9d935144540fcd9649b479f559">Unit::MassDensity</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalScalar.html#a75b344fe52822caa65e4918e1d1fcbd6">Unit</a> ()</td></tr>
-<tr class="memdesc:a75b344fe52822caa65e4918e1d1fcbd6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Standard unit of measure for this physical quantity. This physical quantity's value is stored internally in this unit of measure.  <a href="classPhQ_1_1DimensionalScalar.html#a75b344fe52822caa65e4918e1d1fcbd6">More...</a><br /></td></tr>
-<tr class="separator:a75b344fe52822caa65e4918e1d1fcbd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5616fef4374a12d32e27a2a55186660a"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="classPhQ_1_1MassDensity.html">MassDensity</a>&lt; NumericType &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1MassDensity.html#a5616fef4374a12d32e27a2a55186660a">Zero</a> ()</td></tr>
+<tr class="memdesc:a5616fef4374a12d32e27a2a55186660a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Statically creates a mass density of zero.  <a href="classPhQ_1_1MassDensity.html#a5616fef4374a12d32e27a2a55186660a">More...</a><br /></td></tr>
+<tr class="separator:a5616fef4374a12d32e27a2a55186660a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b8433424613bab5a177bfbdfb3cf681"><td class="memTemplParams" colspan="2">template&lt;Unit::MassDensity Unit&gt; </td></tr>
+<tr class="memitem:a7b8433424613bab5a177bfbdfb3cf681"><td class="memTemplItemLeft" align="right" valign="top">static constexpr <a class="el" href="classPhQ_1_1MassDensity.html">MassDensity</a>&lt; NumericType &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classPhQ_1_1MassDensity.html#a7b8433424613bab5a177bfbdfb3cf681">Create</a> (const NumericType <a class="el" href="classPhQ_1_1DimensionalScalar.html#a34ca46c6f38afa3d34cba2eda00092fe">value</a>)</td></tr>
+<tr class="memdesc:a7b8433424613bab5a177bfbdfb3cf681"><td class="mdescLeft">&#160;</td><td class="mdescRight">Statically creates a mass density with a given value expressed in a given mass density unit.  <a href="classPhQ_1_1MassDensity.html#a7b8433424613bab5a177bfbdfb3cf681">More...</a><br /></td></tr>
+<tr class="separator:a7b8433424613bab5a177bfbdfb3cf681"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb6ee843bf9ff8888de5a9dea1c00a94"><td class="memItemLeft" align="right" valign="top">static constexpr const <a class="el" href="classPhQ_1_1Dimensions.html">PhQ::Dimensions</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalScalar.html#afb6ee843bf9ff8888de5a9dea1c00a94">Dimensions</a> ()</td></tr>
+<tr class="memdesc:afb6ee843bf9ff8888de5a9dea1c00a94"><td class="mdescLeft">&#160;</td><td class="mdescRight">Physical dimension set of this physical quantity.  <a href="classPhQ_1_1DimensionalScalar.html#afb6ee843bf9ff8888de5a9dea1c00a94">More...</a><br /></td></tr>
+<tr class="separator:afb6ee843bf9ff8888de5a9dea1c00a94"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac50d4adb6c3f11c180714b6aa39534cd"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="namespacePhQ_1_1Unit.html#a2cfc5b9d935144540fcd9649b479f559">Unit::MassDensity</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalScalar.html#ac50d4adb6c3f11c180714b6aa39534cd">Unit</a> ()</td></tr>
+<tr class="memdesc:ac50d4adb6c3f11c180714b6aa39534cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Standard unit of measure for this physical quantity. This physical quantity's value is stored internally in this unit of measure.  <a href="classPhQ_1_1DimensionalScalar.html#ac50d4adb6c3f11c180714b6aa39534cd">More...</a><br /></td></tr>
+<tr class="separator:ac50d4adb6c3f11c180714b6aa39534cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:a076d75036473812cf5583dc12b30aac2"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalScalar.html#a076d75036473812cf5583dc12b30aac2">value</a></td></tr>
-<tr class="memdesc:a076d75036473812cf5583dc12b30aac2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Value of this physical quantity expressed in its standard unit of measure.  <a href="classPhQ_1_1DimensionalScalar.html#a076d75036473812cf5583dc12b30aac2">More...</a><br /></td></tr>
-<tr class="separator:a076d75036473812cf5583dc12b30aac2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34ca46c6f38afa3d34cba2eda00092fe"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalScalar.html#a34ca46c6f38afa3d34cba2eda00092fe">value</a></td></tr>
+<tr class="memdesc:a34ca46c6f38afa3d34cba2eda00092fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Value of this physical quantity expressed in its standard unit of measure.  <a href="classPhQ_1_1DimensionalScalar.html#a34ca46c6f38afa3d34cba2eda00092fe">More...</a><br /></td></tr>
+<tr class="separator:a34ca46c6f38afa3d34cba2eda00092fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr class="memitem:a0be094a5e9d7a829005540cab564836b"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1MassDensity.html#a0be094a5e9d7a829005540cab564836b">MassDensity</a> (const Number <a class="el" href="classPhQ_1_1DimensionalScalar.html#a076d75036473812cf5583dc12b30aac2">value</a>)</td></tr>
-<tr class="memdesc:a0be094a5e9d7a829005540cab564836b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a mass density with a given value expressed in the standard mass density unit.  <a href="classPhQ_1_1MassDensity.html#a0be094a5e9d7a829005540cab564836b">More...</a><br /></td></tr>
-<tr class="separator:a0be094a5e9d7a829005540cab564836b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6b50b1c82665947de355bce615894b9"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1MassDensity.html#ad6b50b1c82665947de355bce615894b9">MassDensity</a> (const NumericType <a class="el" href="classPhQ_1_1DimensionalScalar.html#a34ca46c6f38afa3d34cba2eda00092fe">value</a>)</td></tr>
+<tr class="memdesc:ad6b50b1c82665947de355bce615894b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a mass density with a given value expressed in the standard mass density unit.  <a href="classPhQ_1_1MassDensity.html#ad6b50b1c82665947de355bce615894b9">More...</a><br /></td></tr>
+<tr class="separator:ad6b50b1c82665947de355bce615894b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><h3>template&lt;typename Number = double&gt;<br />
-class PhQ::MassDensity&lt; Number &gt;</h3>
+<div class="textblock"><h3>template&lt;typename NumericType = double&gt;<br />
+class PhQ::MassDensity&lt; NumericType &gt;</h3>
 
 <p><a class="el" href="classPhQ_1_1Mass.html" title="Mass. For the time rate of change of mass, see PhQ::MassRate; see also PhQ::Time and PhQ::Frequency.">Mass</a> density. <a class="el" href="classPhQ_1_1Mass.html" title="Mass. For the time rate of change of mass, see PhQ::MassRate; see also PhQ::Time and PhQ::Frequency.">Mass</a> per unit volume; see <a class="el" href="classPhQ_1_1Mass.html" title="Mass. For the time rate of change of mass, see PhQ::MassRate; see also PhQ::Time and PhQ::Frequency.">PhQ::Mass</a> and <a class="el" href="classPhQ_1_1Volume.html" title="Volume. For the time rate of change of volume, see PhQ::VolumeRate; see also PhQ::Time and PhQ::Frequ...">PhQ::Volume</a>. </p>
 
 <p class="definition">Definition at line <a class="el" href="MassDensity_8hpp_source.html#l00085">85</a> of file <a class="el" href="MassDensity_8hpp_source.html">MassDensity.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a2ca39fe52bf3aaca011522f231f34776"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2ca39fe52bf3aaca011522f231f34776">&#9670;&nbsp;</a></span>MassDensity() <span class="overload">[1/13]</span></h2>
+<a id="a57733bab501e19256f37b5d62fceda01"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a57733bab501e19256f37b5d62fceda01">&#9670;&nbsp;</a></span>MassDensity() <span class="overload">[1/13]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classPhQ_1_1MassDensity.html">PhQ::MassDensity</a>&lt; Number &gt;::<a class="el" href="classPhQ_1_1MassDensity.html">MassDensity</a> </td>
+          <td class="memname"><a class="el" href="classPhQ_1_1MassDensity.html">PhQ::MassDensity</a>&lt; NumericType &gt;::<a class="el" href="classPhQ_1_1MassDensity.html">MassDensity</a> </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -300,27 +300,27 @@ template&lt;typename Number  = double&gt; </div>
 
 </div>
 </div>
-<a id="a93480d53f408bd5bd640d2a714ca9289"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a93480d53f408bd5bd640d2a714ca9289">&#9670;&nbsp;</a></span>MassDensity() <span class="overload">[2/13]</span></h2>
+<a id="a8718e9bdd91af94b90c32ad8692038ea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8718e9bdd91af94b90c32ad8692038ea">&#9670;&nbsp;</a></span>MassDensity() <span class="overload">[2/13]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classPhQ_1_1MassDensity.html">PhQ::MassDensity</a>&lt; Number &gt;::<a class="el" href="classPhQ_1_1MassDensity.html">MassDensity</a> </td>
+          <td class="memname"><a class="el" href="classPhQ_1_1MassDensity.html">PhQ::MassDensity</a>&lt; NumericType &gt;::<a class="el" href="classPhQ_1_1MassDensity.html">MassDensity</a> </td>
           <td>(</td>
-          <td class="paramtype">const Number&#160;</td>
+          <td class="paramtype">const NumericType&#160;</td>
           <td class="paramname"><em>value</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="namespacePhQ_1_1Unit.html#a2cfc5b9d935144540fcd9649b479f559">Unit::MassDensity</a>&lt; Number &gt;&#160;</td>
+          <td class="paramtype">const <a class="el" href="namespacePhQ_1_1Unit.html#a2cfc5b9d935144540fcd9649b479f559">Unit::MassDensity</a>&lt; NumericType &gt;&#160;</td>
           <td class="paramname"><em>unit</em>&#160;</td>
         </tr>
         <tr>
@@ -342,27 +342,27 @@ template&lt;typename Number  = double&gt; </div>
 
 </div>
 </div>
-<a id="a949517a57707e6930462cd0401f8b341"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a949517a57707e6930462cd0401f8b341">&#9670;&nbsp;</a></span>MassDensity() <span class="overload">[3/13]</span></h2>
+<a id="a5b277eb1040144110df68ebbd613c206"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b277eb1040144110df68ebbd613c206">&#9670;&nbsp;</a></span>MassDensity() <span class="overload">[3/13]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1MassDensity.html">PhQ::MassDensity</a>&lt; Number &gt;::<a class="el" href="classPhQ_1_1MassDensity.html">MassDensity</a> </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1MassDensity.html">PhQ::MassDensity</a>&lt; NumericType &gt;::<a class="el" href="classPhQ_1_1MassDensity.html">MassDensity</a> </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1Mass.html">Mass</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1Mass.html">Mass</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>mass</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1Volume.html">Volume</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1Volume.html">Volume</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>volume</em>&#160;</td>
         </tr>
         <tr>
@@ -384,27 +384,27 @@ template&lt;typename Number  = double&gt; </div>
 
 </div>
 </div>
-<a id="ab9623b16e7c02a1e75df52581192be21"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab9623b16e7c02a1e75df52581192be21">&#9670;&nbsp;</a></span>MassDensity() <span class="overload">[4/13]</span></h2>
+<a id="a322a47d807077d4ec3ba721d98256018"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a322a47d807077d4ec3ba721d98256018">&#9670;&nbsp;</a></span>MassDensity() <span class="overload">[4/13]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1MassDensity.html">PhQ::MassDensity</a>&lt; Number &gt;::<a class="el" href="classPhQ_1_1MassDensity.html">MassDensity</a> </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1MassDensity.html">PhQ::MassDensity</a>&lt; NumericType &gt;::<a class="el" href="classPhQ_1_1MassDensity.html">MassDensity</a> </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1MassRate.html">MassRate</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1MassRate.html">MassRate</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>mass_rate</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1VolumeRate.html">VolumeRate</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1VolumeRate.html">VolumeRate</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>volume_rate</em>&#160;</td>
         </tr>
         <tr>
@@ -426,27 +426,27 @@ template&lt;typename Number  = double&gt; </div>
 
 </div>
 </div>
-<a id="a3fa469055ddbe4d9db64bea8145b9b53"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3fa469055ddbe4d9db64bea8145b9b53">&#9670;&nbsp;</a></span>MassDensity() <span class="overload">[5/13]</span></h2>
+<a id="a2c720189d8c8169ab5d09c1ad2afe946"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c720189d8c8169ab5d09c1ad2afe946">&#9670;&nbsp;</a></span>MassDensity() <span class="overload">[5/13]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1MassDensity.html">PhQ::MassDensity</a>&lt; Number &gt;::<a class="el" href="classPhQ_1_1MassDensity.html">MassDensity</a> </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1MassDensity.html">PhQ::MassDensity</a>&lt; NumericType &gt;::<a class="el" href="classPhQ_1_1MassDensity.html">MassDensity</a> </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1DynamicViscosity.html">DynamicViscosity</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1DynamicViscosity.html">DynamicViscosity</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>dynamic_viscosity</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1KinematicViscosity.html">KinematicViscosity</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1KinematicViscosity.html">KinematicViscosity</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>kinematic_viscosity</em>&#160;</td>
         </tr>
         <tr>
@@ -466,33 +466,33 @@ template&lt;typename Number  = double&gt; </div>
 
 </div>
 </div>
-<a id="a981f6c4b249f9b57294a6ec5aa4c6888"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a981f6c4b249f9b57294a6ec5aa4c6888">&#9670;&nbsp;</a></span>MassDensity() <span class="overload">[6/13]</span></h2>
+<a id="ad107cd9fd44e7f897e8ed968ddbcaa77"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad107cd9fd44e7f897e8ed968ddbcaa77">&#9670;&nbsp;</a></span>MassDensity() <span class="overload">[6/13]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1MassDensity.html">PhQ::MassDensity</a>&lt; Number &gt;::<a class="el" href="classPhQ_1_1MassDensity.html">MassDensity</a> </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1MassDensity.html">PhQ::MassDensity</a>&lt; NumericType &gt;::<a class="el" href="classPhQ_1_1MassDensity.html">MassDensity</a> </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1ScalarThermalConductivity.html">ScalarThermalConductivity</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1ScalarThermalConductivity.html">ScalarThermalConductivity</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>scalar_thermal_conductivity</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1ThermalDiffusivity.html">ThermalDiffusivity</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1ThermalDiffusivity.html">ThermalDiffusivity</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>thermal_diffusivity</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1SpecificIsobaricHeatCapacity.html">SpecificIsobaricHeatCapacity</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1SpecificIsobaricHeatCapacity.html">SpecificIsobaricHeatCapacity</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>specific_isobaric_heat_capacity</em>&#160;</td>
         </tr>
         <tr>
@@ -512,27 +512,27 @@ template&lt;typename Number  = double&gt; </div>
 
 </div>
 </div>
-<a id="af2634cfc115a802ccefb10f8b3d66801"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af2634cfc115a802ccefb10f8b3d66801">&#9670;&nbsp;</a></span>MassDensity() <span class="overload">[7/13]</span></h2>
+<a id="a3dffa4b08dca4003e1c0742db0f65b90"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3dffa4b08dca4003e1c0742db0f65b90">&#9670;&nbsp;</a></span>MassDensity() <span class="overload">[7/13]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1MassDensity.html">PhQ::MassDensity</a>&lt; Number &gt;::<a class="el" href="classPhQ_1_1MassDensity.html">MassDensity</a> </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1MassDensity.html">PhQ::MassDensity</a>&lt; NumericType &gt;::<a class="el" href="classPhQ_1_1MassDensity.html">MassDensity</a> </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1DynamicPressure.html">DynamicPressure</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1DynamicPressure.html">DynamicPressure</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>dynamic_pressure</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1Speed.html">Speed</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1Speed.html">Speed</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>speed</em>&#160;</td>
         </tr>
         <tr>
@@ -552,39 +552,39 @@ template&lt;typename Number  = double&gt; </div>
 
 </div>
 </div>
-<a id="ac02bac1e841c3835e9e5efcc5482b272"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac02bac1e841c3835e9e5efcc5482b272">&#9670;&nbsp;</a></span>MassDensity() <span class="overload">[8/13]</span></h2>
+<a id="aeae64d20b4e0dcff14cf2ceb19007785"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeae64d20b4e0dcff14cf2ceb19007785">&#9670;&nbsp;</a></span>MassDensity() <span class="overload">[8/13]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1MassDensity.html">PhQ::MassDensity</a>&lt; Number &gt;::<a class="el" href="classPhQ_1_1MassDensity.html">MassDensity</a> </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1MassDensity.html">PhQ::MassDensity</a>&lt; NumericType &gt;::<a class="el" href="classPhQ_1_1MassDensity.html">MassDensity</a> </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1ReynoldsNumber.html">ReynoldsNumber</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1ReynoldsNumber.html">ReynoldsNumber</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>reynolds_number</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1DynamicViscosity.html">DynamicViscosity</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1DynamicViscosity.html">DynamicViscosity</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>dynamic_viscosity</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1Speed.html">Speed</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1Speed.html">Speed</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>speed</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1Length.html">Length</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1Length.html">Length</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>length</em>&#160;</td>
         </tr>
         <tr>
@@ -604,27 +604,27 @@ template&lt;typename Number  = double&gt; </div>
 
 </div>
 </div>
-<a id="af796daead9530701907c021b749ce63b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af796daead9530701907c021b749ce63b">&#9670;&nbsp;</a></span>MassDensity() <span class="overload">[9/13]</span></h2>
+<a id="a1e232712f4fe012362e0f3b56f5cdf18"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e232712f4fe012362e0f3b56f5cdf18">&#9670;&nbsp;</a></span>MassDensity() <span class="overload">[9/13]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1MassDensity.html">PhQ::MassDensity</a>&lt; Number &gt;::<a class="el" href="classPhQ_1_1MassDensity.html">MassDensity</a> </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1MassDensity.html">PhQ::MassDensity</a>&lt; NumericType &gt;::<a class="el" href="classPhQ_1_1MassDensity.html">MassDensity</a> </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1IsentropicBulkModulus.html">IsentropicBulkModulus</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1IsentropicBulkModulus.html">IsentropicBulkModulus</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>isentropic_bulk_modulus</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1SoundSpeed.html">SoundSpeed</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1SoundSpeed.html">SoundSpeed</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>sound_speed</em>&#160;</td>
         </tr>
         <tr>
@@ -644,19 +644,19 @@ template&lt;typename Number  = double&gt; </div>
 
 </div>
 </div>
-<a id="afb3db9de411053037f8592ad30ae647a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afb3db9de411053037f8592ad30ae647a">&#9670;&nbsp;</a></span>~MassDensity()</h2>
+<a id="a68c2789569b29f395c9910afb02fa14f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a68c2789569b29f395c9910afb02fa14f">&#9670;&nbsp;</a></span>~MassDensity()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classPhQ_1_1MassDensity.html">PhQ::MassDensity</a>&lt; Number &gt;::~<a class="el" href="classPhQ_1_1MassDensity.html">MassDensity</a> </td>
+          <td class="memname"><a class="el" href="classPhQ_1_1MassDensity.html">PhQ::MassDensity</a>&lt; NumericType &gt;::~<a class="el" href="classPhQ_1_1MassDensity.html">MassDensity</a> </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -673,21 +673,21 @@ template&lt;typename Number  = double&gt; </div>
 
 </div>
 </div>
-<a id="a92e9d3b1ed59b13f509be13c8962761a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a92e9d3b1ed59b13f509be13c8962761a">&#9670;&nbsp;</a></span>MassDensity() <span class="overload">[10/13]</span></h2>
+<a id="aeb7ac803a180d7b742fc0e4edde23969"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb7ac803a180d7b742fc0e4edde23969">&#9670;&nbsp;</a></span>MassDensity() <span class="overload">[10/13]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1MassDensity.html">PhQ::MassDensity</a>&lt; Number &gt;::<a class="el" href="classPhQ_1_1MassDensity.html">MassDensity</a> </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1MassDensity.html">PhQ::MassDensity</a>&lt; NumericType &gt;::<a class="el" href="classPhQ_1_1MassDensity.html">MassDensity</a> </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1MassDensity.html">MassDensity</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1MassDensity.html">MassDensity</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>other</em></td><td>)</td>
           <td></td>
         </tr>
@@ -703,23 +703,23 @@ template&lt;typename Number  = double&gt; </div>
 
 </div>
 </div>
-<a id="a780ed56ca1909a13114cf6c39978d507"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a780ed56ca1909a13114cf6c39978d507">&#9670;&nbsp;</a></span>MassDensity() <span class="overload">[11/13]</span></h2>
+<a id="afe5ebc99158b8e2ac5f517687b225344"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afe5ebc99158b8e2ac5f517687b225344">&#9670;&nbsp;</a></span>MassDensity() <span class="overload">[11/13]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <div class="memtemplate">
-template&lt;typename OtherNumber &gt; </div>
+template&lt;typename OtherNumericType &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1MassDensity.html">PhQ::MassDensity</a>&lt; Number &gt;::<a class="el" href="classPhQ_1_1MassDensity.html">MassDensity</a> </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1MassDensity.html">PhQ::MassDensity</a>&lt; NumericType &gt;::<a class="el" href="classPhQ_1_1MassDensity.html">MassDensity</a> </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1MassDensity.html">MassDensity</a>&lt; OtherNumber &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1MassDensity.html">MassDensity</a>&lt; OtherNumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>other</em></td><td>)</td>
           <td></td>
         </tr>
@@ -733,25 +733,25 @@ template&lt;typename OtherNumber &gt; </div>
 
 <p>Copy constructor. Constructs a mass density by copying another one. </p>
 
-<p class="definition">Definition at line <a class="el" href="MassDensity_8hpp_source.html#l00142">142</a> of file <a class="el" href="MassDensity_8hpp_source.html">MassDensity.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="MassDensity_8hpp_source.html#l00143">143</a> of file <a class="el" href="MassDensity_8hpp_source.html">MassDensity.hpp</a>.</p>
 
 </div>
 </div>
-<a id="ada99bf3d0edf79cb328cbd8da7f09728"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ada99bf3d0edf79cb328cbd8da7f09728">&#9670;&nbsp;</a></span>MassDensity() <span class="overload">[12/13]</span></h2>
+<a id="a88d4d07cb28e4b6982b7b9c06425bd0f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a88d4d07cb28e4b6982b7b9c06425bd0f">&#9670;&nbsp;</a></span>MassDensity() <span class="overload">[12/13]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1MassDensity.html">PhQ::MassDensity</a>&lt; Number &gt;::<a class="el" href="classPhQ_1_1MassDensity.html">MassDensity</a> </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1MassDensity.html">PhQ::MassDensity</a>&lt; NumericType &gt;::<a class="el" href="classPhQ_1_1MassDensity.html">MassDensity</a> </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classPhQ_1_1MassDensity.html">MassDensity</a>&lt; Number &gt; &amp;&amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="classPhQ_1_1MassDensity.html">MassDensity</a>&lt; NumericType &gt; &amp;&amp;&#160;</td>
           <td class="paramname"><em>other</em></td><td>)</td>
           <td></td>
         </tr>
@@ -767,21 +767,21 @@ template&lt;typename Number  = double&gt; </div>
 
 </div>
 </div>
-<a id="a0be094a5e9d7a829005540cab564836b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0be094a5e9d7a829005540cab564836b">&#9670;&nbsp;</a></span>MassDensity() <span class="overload">[13/13]</span></h2>
+<a id="ad6b50b1c82665947de355bce615894b9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad6b50b1c82665947de355bce615894b9">&#9670;&nbsp;</a></span>MassDensity() <span class="overload">[13/13]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1MassDensity.html">PhQ::MassDensity</a>&lt; Number &gt;::<a class="el" href="classPhQ_1_1MassDensity.html">MassDensity</a> </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1MassDensity.html">PhQ::MassDensity</a>&lt; NumericType &gt;::<a class="el" href="classPhQ_1_1MassDensity.html">MassDensity</a> </td>
           <td>(</td>
-          <td class="paramtype">const Number&#160;</td>
+          <td class="paramtype">const NumericType&#160;</td>
           <td class="paramname"><em>value</em></td><td>)</td>
           <td></td>
         </tr>
@@ -795,18 +795,18 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Constructor. Constructs a mass density with a given value expressed in the standard mass density unit. </p>
 
-<p class="definition">Definition at line <a class="el" href="MassDensity_8hpp_source.html#l00224">224</a> of file <a class="el" href="MassDensity_8hpp_source.html">MassDensity.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="MassDensity_8hpp_source.html#l00226">226</a> of file <a class="el" href="MassDensity_8hpp_source.html">MassDensity.hpp</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a33041bb3a089b8e1d8903601f4c22e7f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a33041bb3a089b8e1d8903601f4c22e7f">&#9670;&nbsp;</a></span>Create()</h2>
+<a id="a7b8433424613bab5a177bfbdfb3cf681"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7b8433424613bab5a177bfbdfb3cf681">&#9670;&nbsp;</a></span>Create()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <div class="memtemplate">
 template&lt;Unit::MassDensity Unit&gt; </div>
 <table class="mlabels">
@@ -814,9 +814,9 @@ template&lt;Unit::MassDensity Unit&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static constexpr <a class="el" href="classPhQ_1_1MassDensity.html">MassDensity</a>&lt;Number&gt; <a class="el" href="classPhQ_1_1MassDensity.html">PhQ::MassDensity</a>&lt; Number &gt;::Create </td>
+          <td class="memname">static constexpr <a class="el" href="classPhQ_1_1MassDensity.html">MassDensity</a>&lt;NumericType&gt; <a class="el" href="classPhQ_1_1MassDensity.html">PhQ::MassDensity</a>&lt; NumericType &gt;::Create </td>
           <td>(</td>
-          <td class="paramtype">const Number&#160;</td>
+          <td class="paramtype">const NumericType&#160;</td>
           <td class="paramname"><em>value</em></td><td>)</td>
           <td></td>
         </tr>
@@ -830,14 +830,14 @@ template&lt;Unit::MassDensity Unit&gt; </div>
 
 <p>Statically creates a mass density with a given value expressed in a given mass density unit. </p>
 
-<p class="definition">Definition at line <a class="el" href="MassDensity_8hpp_source.html#l00169">169</a> of file <a class="el" href="MassDensity_8hpp_source.html">MassDensity.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="MassDensity_8hpp_source.html#l00171">171</a> of file <a class="el" href="MassDensity_8hpp_source.html">MassDensity.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00218">PhQ::DimensionalScalar&lt; Unit::MassDensity, double &gt;::value</a>.</p>
+<p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00216">PhQ::DimensionalScalar&lt; Unit::MassDensity, double &gt;::value</a>.</p>
 
 </div>
 </div>
-<a id="a49230866296c449b998578cbb78bae38"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a49230866296c449b998578cbb78bae38">&#9670;&nbsp;</a></span>Dimensions()</h2>
+<a id="afb6ee843bf9ff8888de5a9dea1c00a94"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb6ee843bf9ff8888de5a9dea1c00a94">&#9670;&nbsp;</a></span>Dimensions()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -865,8 +865,8 @@ template&lt;Unit::MassDensity Unit&gt; </div>
 
 </div>
 </div>
-<a id="a05cd733dcabe35166c4ec6ce476f46ab"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a05cd733dcabe35166c4ec6ce476f46ab">&#9670;&nbsp;</a></span>JSON() <span class="overload">[1/2]</span></h2>
+<a id="a955c0cd8487dc1332feb49dff22fd43d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a955c0cd8487dc1332feb49dff22fd43d">&#9670;&nbsp;</a></span>JSON() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -890,12 +890,12 @@ template&lt;Unit::MassDensity Unit&gt; </div>
 
 <p>Serializes this physical quantity as a JSON message. This physical quantity's value is expressed in its standard unit of measure. </p>
 
-<p class="definition">Definition at line <a class="el" href="DimensionalScalar_8hpp_source.html#l00108">108</a> of file <a class="el" href="DimensionalScalar_8hpp_source.html">DimensionalScalar.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="DimensionalScalar_8hpp_source.html#l00106">106</a> of file <a class="el" href="DimensionalScalar_8hpp_source.html">DimensionalScalar.hpp</a>.</p>
 
 </div>
 </div>
-<a id="ab0b9a823fbcc260db150dc1454e595ad"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab0b9a823fbcc260db150dc1454e595ad">&#9670;&nbsp;</a></span>JSON() <span class="overload">[2/2]</span></h2>
+<a id="ae8ba6d43f120369610d116d506b77a92"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae8ba6d43f120369610d116d506b77a92">&#9670;&nbsp;</a></span>JSON() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -920,12 +920,12 @@ template&lt;Unit::MassDensity Unit&gt; </div>
 
 <p>Serializes this physical quantity as a JSON message. This physical quantity's value is expressed in the given unit of measure. </p>
 
-<p class="definition">Definition at line <a class="el" href="DimensionalScalar_8hpp_source.html#l00118">118</a> of file <a class="el" href="DimensionalScalar_8hpp_source.html">DimensionalScalar.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="DimensionalScalar_8hpp_source.html#l00116">116</a> of file <a class="el" href="DimensionalScalar_8hpp_source.html">DimensionalScalar.hpp</a>.</p>
 
 </div>
 </div>
-<a id="ab23e71494593d494de7e970896c6e8be"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab23e71494593d494de7e970896c6e8be">&#9670;&nbsp;</a></span>MutableValue()</h2>
+<a id="afae0bdf529936a6cd8d9bdcfd3ee4e6d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afae0bdf529936a6cd8d9bdcfd3ee4e6d">&#9670;&nbsp;</a></span>MutableValue()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -949,25 +949,25 @@ template&lt;Unit::MassDensity Unit&gt; </div>
 
 <p>Returns the value of this physical quantity expressed in its standard unit of measure as a mutable value. </p>
 
-<p class="definition">Definition at line <a class="el" href="DimensionalScalar_8hpp_source.html#l00084">84</a> of file <a class="el" href="DimensionalScalar_8hpp_source.html">DimensionalScalar.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="DimensionalScalar_8hpp_source.html#l00082">82</a> of file <a class="el" href="DimensionalScalar_8hpp_source.html">DimensionalScalar.hpp</a>.</p>
 
 </div>
 </div>
-<a id="abd4611888a11d6b06abbd0cc6abe7b2c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abd4611888a11d6b06abbd0cc6abe7b2c">&#9670;&nbsp;</a></span>operator*() <span class="overload">[1/4]</span></h2>
+<a id="a81a1edd6400f4c3030b8399220805ea6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a81a1edd6400f4c3030b8399220805ea6">&#9670;&nbsp;</a></span>operator*() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1DynamicViscosity.html">DynamicViscosity</a>&lt;Number&gt; <a class="el" href="classPhQ_1_1MassDensity.html">PhQ::MassDensity</a>&lt; Number &gt;::operator* </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1DynamicViscosity.html">DynamicViscosity</a>&lt;NumericType&gt; <a class="el" href="classPhQ_1_1MassDensity.html">PhQ::MassDensity</a>&lt; NumericType &gt;::operator* </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1KinematicViscosity.html">KinematicViscosity</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1KinematicViscosity.html">KinematicViscosity</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>kinematic_viscosity</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -981,21 +981,21 @@ template&lt;typename Number  = double&gt; </div>
 
 </div>
 </div>
-<a id="a8113726ff2585343511755b650481fce"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8113726ff2585343511755b650481fce">&#9670;&nbsp;</a></span>operator*() <span class="overload">[2/4]</span></h2>
+<a id="a3dcf1adaabd800790b7836f02993252e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3dcf1adaabd800790b7836f02993252e">&#9670;&nbsp;</a></span>operator*() <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1MassDensity.html">MassDensity</a>&lt;Number&gt; <a class="el" href="classPhQ_1_1MassDensity.html">PhQ::MassDensity</a>&lt; Number &gt;::operator* </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1MassDensity.html">MassDensity</a>&lt;NumericType&gt; <a class="el" href="classPhQ_1_1MassDensity.html">PhQ::MassDensity</a>&lt; NumericType &gt;::operator* </td>
           <td>(</td>
-          <td class="paramtype">const Number&#160;</td>
+          <td class="paramtype">const NumericType&#160;</td>
           <td class="paramname"><em>number</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -1007,27 +1007,27 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="MassDensity_8hpp_source.html#l00182">182</a> of file <a class="el" href="MassDensity_8hpp_source.html">MassDensity.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="MassDensity_8hpp_source.html#l00184">184</a> of file <a class="el" href="MassDensity_8hpp_source.html">MassDensity.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00218">PhQ::DimensionalScalar&lt; Unit::MassDensity, double &gt;::value</a>.</p>
+<p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00216">PhQ::DimensionalScalar&lt; Unit::MassDensity, double &gt;::value</a>.</p>
 
 </div>
 </div>
-<a id="ab5cedebe0c008a12c48cf7107c8df613"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab5cedebe0c008a12c48cf7107c8df613">&#9670;&nbsp;</a></span>operator*() <span class="overload">[3/4]</span></h2>
+<a id="a67c8925e9ff62a141bf73a2e8d6251fc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a67c8925e9ff62a141bf73a2e8d6251fc">&#9670;&nbsp;</a></span>operator*() <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Mass.html">Mass</a>&lt;Number&gt; <a class="el" href="classPhQ_1_1MassDensity.html">PhQ::MassDensity</a>&lt; Number &gt;::operator* </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Mass.html">Mass</a>&lt;NumericType&gt; <a class="el" href="classPhQ_1_1MassDensity.html">PhQ::MassDensity</a>&lt; NumericType &gt;::operator* </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1Volume.html">Volume</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1Volume.html">Volume</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>volume</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -1039,25 +1039,25 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="MassDensity_8hpp_source.html#l00186">186</a> of file <a class="el" href="MassDensity_8hpp_source.html">MassDensity.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="MassDensity_8hpp_source.html#l00188">188</a> of file <a class="el" href="MassDensity_8hpp_source.html">MassDensity.hpp</a>.</p>
 
 </div>
 </div>
-<a id="ad13438804401e13d19ff978d515d0331"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad13438804401e13d19ff978d515d0331">&#9670;&nbsp;</a></span>operator*() <span class="overload">[4/4]</span></h2>
+<a id="ad3ae5767ee74f58497dd1c7b3d225864"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad3ae5767ee74f58497dd1c7b3d225864">&#9670;&nbsp;</a></span>operator*() <span class="overload">[4/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1MassRate.html">MassRate</a>&lt;Number&gt; <a class="el" href="classPhQ_1_1MassDensity.html">PhQ::MassDensity</a>&lt; Number &gt;::operator* </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1MassRate.html">MassRate</a>&lt;NumericType&gt; <a class="el" href="classPhQ_1_1MassDensity.html">PhQ::MassDensity</a>&lt; NumericType &gt;::operator* </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1VolumeRate.html">VolumeRate</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1VolumeRate.html">VolumeRate</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>volume_rate</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -1069,25 +1069,25 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="MassDensity_8hpp_source.html#l00190">190</a> of file <a class="el" href="MassDensity_8hpp_source.html">MassDensity.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="MassDensity_8hpp_source.html#l00192">192</a> of file <a class="el" href="MassDensity_8hpp_source.html">MassDensity.hpp</a>.</p>
 
 </div>
 </div>
-<a id="a30044e79b3f81d9a17069b8263a9f2f2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a30044e79b3f81d9a17069b8263a9f2f2">&#9670;&nbsp;</a></span>operator*=()</h2>
+<a id="ad3dc5f6dafbdf3007dd82092e3129089"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad3dc5f6dafbdf3007dd82092e3129089">&#9670;&nbsp;</a></span>operator*=()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr void <a class="el" href="classPhQ_1_1MassDensity.html">PhQ::MassDensity</a>&lt; Number &gt;::operator*= </td>
+          <td class="memname">constexpr void <a class="el" href="classPhQ_1_1MassDensity.html">PhQ::MassDensity</a>&lt; NumericType &gt;::operator*= </td>
           <td>(</td>
-          <td class="paramtype">const Number&#160;</td>
+          <td class="paramtype">const NumericType&#160;</td>
           <td class="paramname"><em>number</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1099,27 +1099,27 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="MassDensity_8hpp_source.html#l00213">213</a> of file <a class="el" href="MassDensity_8hpp_source.html">MassDensity.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="MassDensity_8hpp_source.html#l00215">215</a> of file <a class="el" href="MassDensity_8hpp_source.html">MassDensity.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00218">PhQ::DimensionalScalar&lt; Unit::MassDensity, double &gt;::value</a>.</p>
+<p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00216">PhQ::DimensionalScalar&lt; Unit::MassDensity, double &gt;::value</a>.</p>
 
 </div>
 </div>
-<a id="a2aa9675ae3f58c7665b29671b3b007df"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2aa9675ae3f58c7665b29671b3b007df">&#9670;&nbsp;</a></span>operator+()</h2>
+<a id="a5861667f928d6f07bf03ae47205ebd28"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5861667f928d6f07bf03ae47205ebd28">&#9670;&nbsp;</a></span>operator+()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1MassDensity.html">MassDensity</a>&lt;Number&gt; <a class="el" href="classPhQ_1_1MassDensity.html">PhQ::MassDensity</a>&lt; Number &gt;::operator+ </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1MassDensity.html">MassDensity</a>&lt;NumericType&gt; <a class="el" href="classPhQ_1_1MassDensity.html">PhQ::MassDensity</a>&lt; NumericType &gt;::operator+ </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1MassDensity.html">MassDensity</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1MassDensity.html">MassDensity</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>mass_density</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -1131,27 +1131,27 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="MassDensity_8hpp_source.html#l00174">174</a> of file <a class="el" href="MassDensity_8hpp_source.html">MassDensity.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="MassDensity_8hpp_source.html#l00176">176</a> of file <a class="el" href="MassDensity_8hpp_source.html">MassDensity.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00218">PhQ::DimensionalScalar&lt; UnitType, Number &gt;::value</a>, and <a class="el" href="DimensionalScalar_8hpp_source.html#l00218">PhQ::DimensionalScalar&lt; Unit::MassDensity, double &gt;::value</a>.</p>
+<p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00216">PhQ::DimensionalScalar&lt; UnitType, NumericType &gt;::value</a>, and <a class="el" href="DimensionalScalar_8hpp_source.html#l00216">PhQ::DimensionalScalar&lt; Unit::MassDensity, double &gt;::value</a>.</p>
 
 </div>
 </div>
-<a id="a1c57139fcdc59ab59525af15fcac5f82"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1c57139fcdc59ab59525af15fcac5f82">&#9670;&nbsp;</a></span>operator+=()</h2>
+<a id="a85d9a6206e238172eca1afa0a2b716f9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a85d9a6206e238172eca1afa0a2b716f9">&#9670;&nbsp;</a></span>operator+=()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr void <a class="el" href="classPhQ_1_1MassDensity.html">PhQ::MassDensity</a>&lt; Number &gt;::operator+= </td>
+          <td class="memname">constexpr void <a class="el" href="classPhQ_1_1MassDensity.html">PhQ::MassDensity</a>&lt; NumericType &gt;::operator+= </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1MassDensity.html">MassDensity</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1MassDensity.html">MassDensity</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>mass_density</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1163,27 +1163,27 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="MassDensity_8hpp_source.html#l00205">205</a> of file <a class="el" href="MassDensity_8hpp_source.html">MassDensity.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="MassDensity_8hpp_source.html#l00207">207</a> of file <a class="el" href="MassDensity_8hpp_source.html">MassDensity.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00218">PhQ::DimensionalScalar&lt; Unit::MassDensity, double &gt;::value</a>.</p>
+<p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00216">PhQ::DimensionalScalar&lt; Unit::MassDensity, double &gt;::value</a>.</p>
 
 </div>
 </div>
-<a id="a2807d1061bfad8c88f0222cd7b0093cb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2807d1061bfad8c88f0222cd7b0093cb">&#9670;&nbsp;</a></span>operator-()</h2>
+<a id="aef81104f7fcfa3308c39446bacd9ef9f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef81104f7fcfa3308c39446bacd9ef9f">&#9670;&nbsp;</a></span>operator-()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1MassDensity.html">MassDensity</a>&lt;Number&gt; <a class="el" href="classPhQ_1_1MassDensity.html">PhQ::MassDensity</a>&lt; Number &gt;::operator- </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1MassDensity.html">MassDensity</a>&lt;NumericType&gt; <a class="el" href="classPhQ_1_1MassDensity.html">PhQ::MassDensity</a>&lt; NumericType &gt;::operator- </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1MassDensity.html">MassDensity</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1MassDensity.html">MassDensity</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>mass_density</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -1195,27 +1195,27 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="MassDensity_8hpp_source.html#l00178">178</a> of file <a class="el" href="MassDensity_8hpp_source.html">MassDensity.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="MassDensity_8hpp_source.html#l00180">180</a> of file <a class="el" href="MassDensity_8hpp_source.html">MassDensity.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00218">PhQ::DimensionalScalar&lt; UnitType, Number &gt;::value</a>, and <a class="el" href="DimensionalScalar_8hpp_source.html#l00218">PhQ::DimensionalScalar&lt; Unit::MassDensity, double &gt;::value</a>.</p>
+<p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00216">PhQ::DimensionalScalar&lt; UnitType, NumericType &gt;::value</a>, and <a class="el" href="DimensionalScalar_8hpp_source.html#l00216">PhQ::DimensionalScalar&lt; Unit::MassDensity, double &gt;::value</a>.</p>
 
 </div>
 </div>
-<a id="a0edade1254fb6e0db35790e065825925"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0edade1254fb6e0db35790e065825925">&#9670;&nbsp;</a></span>operator-=()</h2>
+<a id="a618af4633be592bcd98a00d86a3d41ba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a618af4633be592bcd98a00d86a3d41ba">&#9670;&nbsp;</a></span>operator-=()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr void <a class="el" href="classPhQ_1_1MassDensity.html">PhQ::MassDensity</a>&lt; Number &gt;::operator-= </td>
+          <td class="memname">constexpr void <a class="el" href="classPhQ_1_1MassDensity.html">PhQ::MassDensity</a>&lt; NumericType &gt;::operator-= </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1MassDensity.html">MassDensity</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1MassDensity.html">MassDensity</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>mass_density</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1227,27 +1227,27 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="MassDensity_8hpp_source.html#l00209">209</a> of file <a class="el" href="MassDensity_8hpp_source.html">MassDensity.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="MassDensity_8hpp_source.html#l00211">211</a> of file <a class="el" href="MassDensity_8hpp_source.html">MassDensity.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00218">PhQ::DimensionalScalar&lt; Unit::MassDensity, double &gt;::value</a>.</p>
+<p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00216">PhQ::DimensionalScalar&lt; Unit::MassDensity, double &gt;::value</a>.</p>
 
 </div>
 </div>
-<a id="a957cb4a0a3cade1a5c530b19cd35b709"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a957cb4a0a3cade1a5c530b19cd35b709">&#9670;&nbsp;</a></span>operator/() <span class="overload">[1/2]</span></h2>
+<a id="a1af05e7c02d4337460b2cc2b3a07ac6f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1af05e7c02d4337460b2cc2b3a07ac6f">&#9670;&nbsp;</a></span>operator/() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr Number <a class="el" href="classPhQ_1_1MassDensity.html">PhQ::MassDensity</a>&lt; Number &gt;::operator/ </td>
+          <td class="memname">constexpr NumericType <a class="el" href="classPhQ_1_1MassDensity.html">PhQ::MassDensity</a>&lt; NumericType &gt;::operator/ </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1MassDensity.html">MassDensity</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1MassDensity.html">MassDensity</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>mass_density</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -1259,27 +1259,27 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="MassDensity_8hpp_source.html#l00201">201</a> of file <a class="el" href="MassDensity_8hpp_source.html">MassDensity.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="MassDensity_8hpp_source.html#l00203">203</a> of file <a class="el" href="MassDensity_8hpp_source.html">MassDensity.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00218">PhQ::DimensionalScalar&lt; Unit::MassDensity, double &gt;::value</a>.</p>
+<p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00216">PhQ::DimensionalScalar&lt; Unit::MassDensity, double &gt;::value</a>.</p>
 
 </div>
 </div>
-<a id="aa44c626b501ad2ba54f069383b220728"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa44c626b501ad2ba54f069383b220728">&#9670;&nbsp;</a></span>operator/() <span class="overload">[2/2]</span></h2>
+<a id="ae06654e6cf1cdebe5c0762f2b37768d6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae06654e6cf1cdebe5c0762f2b37768d6">&#9670;&nbsp;</a></span>operator/() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1MassDensity.html">MassDensity</a>&lt;Number&gt; <a class="el" href="classPhQ_1_1MassDensity.html">PhQ::MassDensity</a>&lt; Number &gt;::operator/ </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1MassDensity.html">MassDensity</a>&lt;NumericType&gt; <a class="el" href="classPhQ_1_1MassDensity.html">PhQ::MassDensity</a>&lt; NumericType &gt;::operator/ </td>
           <td>(</td>
-          <td class="paramtype">const Number&#160;</td>
+          <td class="paramtype">const NumericType&#160;</td>
           <td class="paramname"><em>number</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -1291,27 +1291,27 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="MassDensity_8hpp_source.html#l00197">197</a> of file <a class="el" href="MassDensity_8hpp_source.html">MassDensity.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="MassDensity_8hpp_source.html#l00199">199</a> of file <a class="el" href="MassDensity_8hpp_source.html">MassDensity.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00218">PhQ::DimensionalScalar&lt; Unit::MassDensity, double &gt;::value</a>.</p>
+<p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00216">PhQ::DimensionalScalar&lt; Unit::MassDensity, double &gt;::value</a>.</p>
 
 </div>
 </div>
-<a id="a88dfa750d92dfe9a4468f2bf0a881369"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a88dfa750d92dfe9a4468f2bf0a881369">&#9670;&nbsp;</a></span>operator/=()</h2>
+<a id="a25681ff799958d315031993451e95c71"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a25681ff799958d315031993451e95c71">&#9670;&nbsp;</a></span>operator/=()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr void <a class="el" href="classPhQ_1_1MassDensity.html">PhQ::MassDensity</a>&lt; Number &gt;::operator/= </td>
+          <td class="memname">constexpr void <a class="el" href="classPhQ_1_1MassDensity.html">PhQ::MassDensity</a>&lt; NumericType &gt;::operator/= </td>
           <td>(</td>
-          <td class="paramtype">const Number&#160;</td>
+          <td class="paramtype">const NumericType&#160;</td>
           <td class="paramname"><em>number</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1323,27 +1323,27 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="MassDensity_8hpp_source.html#l00217">217</a> of file <a class="el" href="MassDensity_8hpp_source.html">MassDensity.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="MassDensity_8hpp_source.html#l00219">219</a> of file <a class="el" href="MassDensity_8hpp_source.html">MassDensity.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00218">PhQ::DimensionalScalar&lt; Unit::MassDensity, double &gt;::value</a>.</p>
+<p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00216">PhQ::DimensionalScalar&lt; Unit::MassDensity, double &gt;::value</a>.</p>
 
 </div>
 </div>
-<a id="ae94c83a0f78d898ce9b0f35e2e577136"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae94c83a0f78d898ce9b0f35e2e577136">&#9670;&nbsp;</a></span>operator=() <span class="overload">[1/3]</span></h2>
+<a id="ad76db3b137a544b663b23ab1fc8a95f6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad76db3b137a544b663b23ab1fc8a95f6">&#9670;&nbsp;</a></span>operator=() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1MassDensity.html">MassDensity</a>&lt;Number&gt;&amp; <a class="el" href="classPhQ_1_1MassDensity.html">PhQ::MassDensity</a>&lt; Number &gt;::operator= </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1MassDensity.html">MassDensity</a>&lt;NumericType&gt;&amp; <a class="el" href="classPhQ_1_1MassDensity.html">PhQ::MassDensity</a>&lt; NumericType &gt;::operator= </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1MassDensity.html">MassDensity</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1MassDensity.html">MassDensity</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>other</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1359,23 +1359,23 @@ template&lt;typename Number  = double&gt; </div>
 
 </div>
 </div>
-<a id="aa424d5d4524e25cb3409bc3b083bc9f1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa424d5d4524e25cb3409bc3b083bc9f1">&#9670;&nbsp;</a></span>operator=() <span class="overload">[2/3]</span></h2>
+<a id="ae5187aae9e03ee4425bd0b3ec0439fb7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae5187aae9e03ee4425bd0b3ec0439fb7">&#9670;&nbsp;</a></span>operator=() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <div class="memtemplate">
-template&lt;typename OtherNumber &gt; </div>
+template&lt;typename OtherNumericType &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1MassDensity.html">MassDensity</a>&lt;Number&gt;&amp; <a class="el" href="classPhQ_1_1MassDensity.html">PhQ::MassDensity</a>&lt; Number &gt;::operator= </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1MassDensity.html">MassDensity</a>&lt;NumericType&gt;&amp; <a class="el" href="classPhQ_1_1MassDensity.html">PhQ::MassDensity</a>&lt; NumericType &gt;::operator= </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1MassDensity.html">MassDensity</a>&lt; OtherNumber &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1MassDensity.html">MassDensity</a>&lt; OtherNumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>other</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1389,27 +1389,27 @@ template&lt;typename OtherNumber &gt; </div>
 
 <p>Copy assignment operator. Assigns this mass density by copying another one. </p>
 
-<p class="definition">Definition at line <a class="el" href="MassDensity_8hpp_source.html#l00153">153</a> of file <a class="el" href="MassDensity_8hpp_source.html">MassDensity.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="MassDensity_8hpp_source.html#l00154">154</a> of file <a class="el" href="MassDensity_8hpp_source.html">MassDensity.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00064">PhQ::DimensionalScalar&lt; UnitType, Number &gt;::Value()</a>, and <a class="el" href="DimensionalScalar_8hpp_source.html#l00218">PhQ::DimensionalScalar&lt; Unit::MassDensity, double &gt;::value</a>.</p>
+<p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00064">PhQ::DimensionalScalar&lt; UnitType, NumericType &gt;::Value()</a>, and <a class="el" href="DimensionalScalar_8hpp_source.html#l00216">PhQ::DimensionalScalar&lt; Unit::MassDensity, double &gt;::value</a>.</p>
 
 </div>
 </div>
-<a id="a3fb95b1dcc86c6a9dca0d478f3cc7825"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3fb95b1dcc86c6a9dca0d478f3cc7825">&#9670;&nbsp;</a></span>operator=() <span class="overload">[3/3]</span></h2>
+<a id="a2f40774d38624b64f9f7852c4cf132c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2f40774d38624b64f9f7852c4cf132c7">&#9670;&nbsp;</a></span>operator=() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1MassDensity.html">MassDensity</a>&lt;Number&gt;&amp; <a class="el" href="classPhQ_1_1MassDensity.html">PhQ::MassDensity</a>&lt; Number &gt;::operator= </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1MassDensity.html">MassDensity</a>&lt;NumericType&gt;&amp; <a class="el" href="classPhQ_1_1MassDensity.html">PhQ::MassDensity</a>&lt; NumericType &gt;::operator= </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classPhQ_1_1MassDensity.html">MassDensity</a>&lt; Number &gt; &amp;&amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="classPhQ_1_1MassDensity.html">MassDensity</a>&lt; NumericType &gt; &amp;&amp;&#160;</td>
           <td class="paramname"><em>other</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1425,8 +1425,8 @@ template&lt;typename Number  = double&gt; </div>
 
 </div>
 </div>
-<a id="aaa28f5bd02ab3373b12d3500cbc05845"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaa28f5bd02ab3373b12d3500cbc05845">&#9670;&nbsp;</a></span>Print() <span class="overload">[1/2]</span></h2>
+<a id="afce0b73bca1442f2ad975e4b6fb169e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afce0b73bca1442f2ad975e4b6fb169e0">&#9670;&nbsp;</a></span>Print() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1450,12 +1450,12 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Prints this physical quantity as a string. This physical quantity's value is expressed in its standard unit of measure. </p>
 
-<p class="definition">Definition at line <a class="el" href="DimensionalScalar_8hpp_source.html#l00096">96</a> of file <a class="el" href="DimensionalScalar_8hpp_source.html">DimensionalScalar.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="DimensionalScalar_8hpp_source.html#l00094">94</a> of file <a class="el" href="DimensionalScalar_8hpp_source.html">DimensionalScalar.hpp</a>.</p>
 
 </div>
 </div>
-<a id="ae58f817c7cfadb04c5c7c821a94df0b7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae58f817c7cfadb04c5c7c821a94df0b7">&#9670;&nbsp;</a></span>Print() <span class="overload">[2/2]</span></h2>
+<a id="a3e98124436bc2dda3fb08f8fe24921f4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e98124436bc2dda3fb08f8fe24921f4">&#9670;&nbsp;</a></span>Print() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1480,12 +1480,12 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Prints this physical quantity as a string. This physical quantity's value is expressed in the given unit of measure. </p>
 
-<p class="definition">Definition at line <a class="el" href="DimensionalScalar_8hpp_source.html#l00102">102</a> of file <a class="el" href="DimensionalScalar_8hpp_source.html">DimensionalScalar.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="DimensionalScalar_8hpp_source.html#l00100">100</a> of file <a class="el" href="DimensionalScalar_8hpp_source.html">DimensionalScalar.hpp</a>.</p>
 
 </div>
 </div>
-<a id="a0e3a68ee9c8b42e8fe942349e588a4ac"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0e3a68ee9c8b42e8fe942349e588a4ac">&#9670;&nbsp;</a></span>SetValue()</h2>
+<a id="a16891d80e526226d81481faecb0331ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a16891d80e526226d81481faecb0331ae">&#9670;&nbsp;</a></span>SetValue()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1510,12 +1510,12 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Sets the value of this physical quantity expressed in its standard unit of measure to the given value. </p>
 
-<p class="definition">Definition at line <a class="el" href="DimensionalScalar_8hpp_source.html#l00090">90</a> of file <a class="el" href="DimensionalScalar_8hpp_source.html">DimensionalScalar.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="DimensionalScalar_8hpp_source.html#l00088">88</a> of file <a class="el" href="DimensionalScalar_8hpp_source.html">DimensionalScalar.hpp</a>.</p>
 
 </div>
 </div>
-<a id="aad095a483424ef55a6ec8031bc285282"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aad095a483424ef55a6ec8031bc285282">&#9670;&nbsp;</a></span>StaticValue()</h2>
+<a id="aa401781659dfda7d74e644ceaf68ff8d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa401781659dfda7d74e644ceaf68ff8d">&#9670;&nbsp;</a></span>StaticValue()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1539,12 +1539,12 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Value of this physical quantity expressed in a given unit of measure. This method can be evaluated statically at compile-time. </p>
 
-<p class="definition">Definition at line <a class="el" href="DimensionalScalar_8hpp_source.html#l00078">78</a> of file <a class="el" href="DimensionalScalar_8hpp_source.html">DimensionalScalar.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="DimensionalScalar_8hpp_source.html#l00076">76</a> of file <a class="el" href="DimensionalScalar_8hpp_source.html">DimensionalScalar.hpp</a>.</p>
 
 </div>
 </div>
-<a id="a75b344fe52822caa65e4918e1d1fcbd6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a75b344fe52822caa65e4918e1d1fcbd6">&#9670;&nbsp;</a></span>Unit()</h2>
+<a id="ac50d4adb6c3f11c180714b6aa39534cd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac50d4adb6c3f11c180714b6aa39534cd">&#9670;&nbsp;</a></span>Unit()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1572,8 +1572,8 @@ template&lt;typename Number  = double&gt; </div>
 
 </div>
 </div>
-<a id="a8068bf6cddee8d6cb3f8aa1dc9216170"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8068bf6cddee8d6cb3f8aa1dc9216170">&#9670;&nbsp;</a></span>Value() <span class="overload">[1/2]</span></h2>
+<a id="aa89c594ce9a870e7d509c39dfa1f996c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa89c594ce9a870e7d509c39dfa1f996c">&#9670;&nbsp;</a></span>Value() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1601,8 +1601,8 @@ template&lt;typename Number  = double&gt; </div>
 
 </div>
 </div>
-<a id="a4ee07be63b44992cae508b16df54c004"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4ee07be63b44992cae508b16df54c004">&#9670;&nbsp;</a></span>Value() <span class="overload">[2/2]</span></h2>
+<a id="a7295e6cce3097405dcaaba0c3c7ebc55"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7295e6cce3097405dcaaba0c3c7ebc55">&#9670;&nbsp;</a></span>Value() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1631,8 +1631,8 @@ template&lt;typename Number  = double&gt; </div>
 
 </div>
 </div>
-<a id="ae7e0d5f7bd52789b77ff20842cba38d8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae7e0d5f7bd52789b77ff20842cba38d8">&#9670;&nbsp;</a></span>XML() <span class="overload">[1/2]</span></h2>
+<a id="ae9c476851d0b711cf6d616483bba9594"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae9c476851d0b711cf6d616483bba9594">&#9670;&nbsp;</a></span>XML() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1656,12 +1656,12 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Serializes this physical quantity as an XML message. This physical quantity's value is expressed in its standard unit of measure. </p>
 
-<p class="definition">Definition at line <a class="el" href="DimensionalScalar_8hpp_source.html#l00128">128</a> of file <a class="el" href="DimensionalScalar_8hpp_source.html">DimensionalScalar.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="DimensionalScalar_8hpp_source.html#l00126">126</a> of file <a class="el" href="DimensionalScalar_8hpp_source.html">DimensionalScalar.hpp</a>.</p>
 
 </div>
 </div>
-<a id="abfe5f218e10bca3eb3f52e114beee2c1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abfe5f218e10bca3eb3f52e114beee2c1">&#9670;&nbsp;</a></span>XML() <span class="overload">[2/2]</span></h2>
+<a id="a0bcfcd2b36949dbfbe4e407d0523d749"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0bcfcd2b36949dbfbe4e407d0523d749">&#9670;&nbsp;</a></span>XML() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1686,12 +1686,12 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Serializes this physical quantity as an XML message. This physical quantity's value is expressed in the given unit of measure. </p>
 
-<p class="definition">Definition at line <a class="el" href="DimensionalScalar_8hpp_source.html#l00138">138</a> of file <a class="el" href="DimensionalScalar_8hpp_source.html">DimensionalScalar.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="DimensionalScalar_8hpp_source.html#l00136">136</a> of file <a class="el" href="DimensionalScalar_8hpp_source.html">DimensionalScalar.hpp</a>.</p>
 
 </div>
 </div>
-<a id="a2082ac17d425476688192460d79803cb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2082ac17d425476688192460d79803cb">&#9670;&nbsp;</a></span>YAML() <span class="overload">[1/2]</span></h2>
+<a id="ac55005e5bec47b0f01de69e71ede218a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac55005e5bec47b0f01de69e71ede218a">&#9670;&nbsp;</a></span>YAML() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1715,12 +1715,12 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Serializes this physical quantity as a YAML message. This physical quantity's value is expressed in its standard unit of measure. </p>
 
-<p class="definition">Definition at line <a class="el" href="DimensionalScalar_8hpp_source.html#l00148">148</a> of file <a class="el" href="DimensionalScalar_8hpp_source.html">DimensionalScalar.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="DimensionalScalar_8hpp_source.html#l00146">146</a> of file <a class="el" href="DimensionalScalar_8hpp_source.html">DimensionalScalar.hpp</a>.</p>
 
 </div>
 </div>
-<a id="aacdcb91b676e4fdb5aa562e5ba58ca1d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aacdcb91b676e4fdb5aa562e5ba58ca1d">&#9670;&nbsp;</a></span>YAML() <span class="overload">[2/2]</span></h2>
+<a id="a14579dd93adade7f7908d3a77b5967e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a14579dd93adade7f7908d3a77b5967e7">&#9670;&nbsp;</a></span>YAML() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1745,23 +1745,23 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Serializes this physical quantity as a YAML message. This physical quantity's value is expressed in the given unit of measure. </p>
 
-<p class="definition">Definition at line <a class="el" href="DimensionalScalar_8hpp_source.html#l00158">158</a> of file <a class="el" href="DimensionalScalar_8hpp_source.html">DimensionalScalar.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="DimensionalScalar_8hpp_source.html#l00156">156</a> of file <a class="el" href="DimensionalScalar_8hpp_source.html">DimensionalScalar.hpp</a>.</p>
 
 </div>
 </div>
-<a id="a4d305732ed5feb5fafdb33d135ad9fe3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4d305732ed5feb5fafdb33d135ad9fe3">&#9670;&nbsp;</a></span>Zero()</h2>
+<a id="a5616fef4374a12d32e27a2a55186660a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5616fef4374a12d32e27a2a55186660a">&#9670;&nbsp;</a></span>Zero()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static constexpr <a class="el" href="classPhQ_1_1MassDensity.html">MassDensity</a>&lt;Number&gt; <a class="el" href="classPhQ_1_1MassDensity.html">PhQ::MassDensity</a>&lt; Number &gt;::Zero </td>
+          <td class="memname">static constexpr <a class="el" href="classPhQ_1_1MassDensity.html">MassDensity</a>&lt;NumericType&gt; <a class="el" href="classPhQ_1_1MassDensity.html">PhQ::MassDensity</a>&lt; NumericType &gt;::Zero </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -1776,13 +1776,13 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Statically creates a mass density of zero. </p>
 
-<p class="definition">Definition at line <a class="el" href="MassDensity_8hpp_source.html#l00162">162</a> of file <a class="el" href="MassDensity_8hpp_source.html">MassDensity.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="MassDensity_8hpp_source.html#l00164">164</a> of file <a class="el" href="MassDensity_8hpp_source.html">MassDensity.hpp</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a076d75036473812cf5583dc12b30aac2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a076d75036473812cf5583dc12b30aac2">&#9670;&nbsp;</a></span>value</h2>
+<a id="a34ca46c6f38afa3d34cba2eda00092fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a34ca46c6f38afa3d34cba2eda00092fe">&#9670;&nbsp;</a></span>value</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1803,7 +1803,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Value of this physical quantity expressed in its standard unit of measure. </p>
 
-<p class="definition">Definition at line <a class="el" href="DimensionalScalar_8hpp_source.html#l00218">218</a> of file <a class="el" href="DimensionalScalar_8hpp_source.html">DimensionalScalar.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="DimensionalScalar_8hpp_source.html#l00216">216</a> of file <a class="el" href="DimensionalScalar_8hpp_source.html">DimensionalScalar.hpp</a>.</p>
 
 </div>
 </div>

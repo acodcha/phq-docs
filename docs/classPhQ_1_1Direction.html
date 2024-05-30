@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=9" />
     <meta name="generator" content="Doxygen 1.9.1" />
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=4.0" />
-    <title>Physical Quantities (PhQ): PhQ::Direction&lt; Number &gt; Class Template Reference</title>
+    <title>Physical Quantities (PhQ): PhQ::Direction&lt; NumericType &gt; Class Template Reference</title>
     <link href="tabs.css" rel="stylesheet" type="text/css" />
     <script type="text/javascript" src="jquery.js"></script>
     <script type="text/javascript" src="dynsections.js"></script>
@@ -109,7 +109,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search','.html');
 <a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="classPhQ_1_1Direction-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">PhQ::Direction&lt; Number &gt; Class Template Reference</div>  </div>
+<div class="title">PhQ::Direction&lt; NumericType &gt; Class Template Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
@@ -120,187 +120,187 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search','.html');
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a7232270e56940abaaf027bab20271710"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Direction.html#a7232270e56940abaaf027bab20271710">Direction</a> ()</td></tr>
-<tr class="memdesc:a7232270e56940abaaf027bab20271710"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor. Initializes a direction to the zero vector.  <a href="classPhQ_1_1Direction.html#a7232270e56940abaaf027bab20271710">More...</a><br /></td></tr>
-<tr class="separator:a7232270e56940abaaf027bab20271710"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a76fca2b02fc09d3f81e5d045fff3e77c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Direction.html#a76fca2b02fc09d3f81e5d045fff3e77c">Direction</a> (const Number <a class="el" href="classPhQ_1_1Direction.html#a710f0648c31a9d661a73781019b011d4">x</a>, const Number <a class="el" href="classPhQ_1_1Direction.html#a1b8a55423d259a3c3048b9ea49bbfe07">y</a>, const Number <a class="el" href="classPhQ_1_1Direction.html#a2e9ce387d4b48aaf9e7842167e602d43">z</a>)</td></tr>
-<tr class="memdesc:a76fca2b02fc09d3f81e5d045fff3e77c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a direction by normalizing the given x, y, and z Cartesian components to a unit vector. If x = 0, y = 0, and z = 0, initializes the direction to the zero vector.  <a href="classPhQ_1_1Direction.html#a76fca2b02fc09d3f81e5d045fff3e77c">More...</a><br /></td></tr>
-<tr class="separator:a76fca2b02fc09d3f81e5d045fff3e77c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa7a026d01ad4847938b1b03d8d7d58a5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Direction.html#aa7a026d01ad4847938b1b03d8d7d58a5">Direction</a> (const std::array&lt; Number, 3 &gt; &amp;x_y_z)</td></tr>
-<tr class="memdesc:aa7a026d01ad4847938b1b03d8d7d58a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a direction by normalizing a given array representing x, y, and z Cartesian components to a unit vector. If x = 0, y = 0, and z = 0, initializes the direction to the zero vector.  <a href="classPhQ_1_1Direction.html#aa7a026d01ad4847938b1b03d8d7d58a5">More...</a><br /></td></tr>
-<tr class="separator:aa7a026d01ad4847938b1b03d8d7d58a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3fbae016d9c1e1a32bfd72d4682617f0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Direction.html#a3fbae016d9c1e1a32bfd72d4682617f0">Direction</a> (const <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt; Number &gt; &amp;<a class="el" href="classPhQ_1_1DimensionlessVector.html#a34f486f32e6f515e991a1923441c2b15">value</a>)</td></tr>
-<tr class="memdesc:a3fbae016d9c1e1a32bfd72d4682617f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a direction by normalizing the given vector to a unit vector. If the given vector is the zero vector, initializes the direction to the zero vector.  <a href="classPhQ_1_1Direction.html#a3fbae016d9c1e1a32bfd72d4682617f0">More...</a><br /></td></tr>
-<tr class="separator:a3fbae016d9c1e1a32bfd72d4682617f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9387cbde3ca70a2f4d54f5423a95e885"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Direction.html#a9387cbde3ca70a2f4d54f5423a95e885">Direction</a> (const <a class="el" href="classPhQ_1_1PlanarDirection.html">PlanarDirection</a>&lt; Number &gt; &amp;planar_direction)</td></tr>
-<tr class="memdesc:a9387cbde3ca70a2f4d54f5423a95e885"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a direction from a given planar direction in the XY plane. This direction's z-component is initialized to zero.  <a href="classPhQ_1_1Direction.html#a9387cbde3ca70a2f4d54f5423a95e885">More...</a><br /></td></tr>
-<tr class="separator:a9387cbde3ca70a2f4d54f5423a95e885"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab68ff4f3b7296e6d7f97bf6aa30c0c63"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Direction.html#ab68ff4f3b7296e6d7f97bf6aa30c0c63">Direction</a> (const <a class="el" href="classPhQ_1_1Acceleration.html">Acceleration</a>&lt; Number &gt; &amp;acceleration)</td></tr>
-<tr class="memdesc:ab68ff4f3b7296e6d7f97bf6aa30c0c63"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a direction from an acceleration.  <a href="classPhQ_1_1Direction.html#ab68ff4f3b7296e6d7f97bf6aa30c0c63">More...</a><br /></td></tr>
-<tr class="separator:ab68ff4f3b7296e6d7f97bf6aa30c0c63"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a96d2b6a53f72a48c89d4a12164b0bfe5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Direction.html#a96d2b6a53f72a48c89d4a12164b0bfe5">Direction</a> (const <a class="el" href="classPhQ_1_1Displacement.html">Displacement</a>&lt; Number &gt; &amp;displacement)</td></tr>
-<tr class="memdesc:a96d2b6a53f72a48c89d4a12164b0bfe5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a direction from a displacement.  <a href="classPhQ_1_1Direction.html#a96d2b6a53f72a48c89d4a12164b0bfe5">More...</a><br /></td></tr>
-<tr class="separator:a96d2b6a53f72a48c89d4a12164b0bfe5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a83600a8e3cbfa09c9ea33b8265ac9f6c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Direction.html#a83600a8e3cbfa09c9ea33b8265ac9f6c">Direction</a> (const <a class="el" href="classPhQ_1_1Force.html">Force</a>&lt; Number &gt; &amp;force)</td></tr>
-<tr class="memdesc:a83600a8e3cbfa09c9ea33b8265ac9f6c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a direction from a force.  <a href="classPhQ_1_1Direction.html#a83600a8e3cbfa09c9ea33b8265ac9f6c">More...</a><br /></td></tr>
-<tr class="separator:a83600a8e3cbfa09c9ea33b8265ac9f6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a47c12240091e752b0cc7624c59823c59"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Direction.html#a47c12240091e752b0cc7624c59823c59">Direction</a> (const <a class="el" href="classPhQ_1_1HeatFlux.html">HeatFlux</a>&lt; Number &gt; &amp;heat_flux)</td></tr>
-<tr class="memdesc:a47c12240091e752b0cc7624c59823c59"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a direction from a heat flux.  <a href="classPhQ_1_1Direction.html#a47c12240091e752b0cc7624c59823c59">More...</a><br /></td></tr>
-<tr class="separator:a47c12240091e752b0cc7624c59823c59"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1146324bf735e378198edaf74959d527"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Direction.html#a1146324bf735e378198edaf74959d527">Direction</a> (const <a class="el" href="classPhQ_1_1Position.html">Position</a>&lt; Number &gt; &amp;position)</td></tr>
-<tr class="memdesc:a1146324bf735e378198edaf74959d527"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a direction from a position.  <a href="classPhQ_1_1Direction.html#a1146324bf735e378198edaf74959d527">More...</a><br /></td></tr>
-<tr class="separator:a1146324bf735e378198edaf74959d527"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9c1a5823fa54975bcef96ddf96d1b4b3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Direction.html#a9c1a5823fa54975bcef96ddf96d1b4b3">Direction</a> (const <a class="el" href="classPhQ_1_1TemperatureGradient.html">TemperatureGradient</a>&lt; Number &gt; &amp;temperature_gradient)</td></tr>
-<tr class="memdesc:a9c1a5823fa54975bcef96ddf96d1b4b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a direction from a temperature gradient.  <a href="classPhQ_1_1Direction.html#a9c1a5823fa54975bcef96ddf96d1b4b3">More...</a><br /></td></tr>
-<tr class="separator:a9c1a5823fa54975bcef96ddf96d1b4b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a52b9cef85e96d7bb18e915e3310eead3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Direction.html#a52b9cef85e96d7bb18e915e3310eead3">Direction</a> (const <a class="el" href="classPhQ_1_1Traction.html">Traction</a>&lt; Number &gt; &amp;traction)</td></tr>
-<tr class="memdesc:a52b9cef85e96d7bb18e915e3310eead3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a direction from a traction.  <a href="classPhQ_1_1Direction.html#a52b9cef85e96d7bb18e915e3310eead3">More...</a><br /></td></tr>
-<tr class="separator:a52b9cef85e96d7bb18e915e3310eead3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad9c3b5ecebdf10356bf86b72eaf762bb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Direction.html#ad9c3b5ecebdf10356bf86b72eaf762bb">Direction</a> (const <a class="el" href="classPhQ_1_1VectorArea.html">VectorArea</a>&lt; Number &gt; &amp;vector_area)</td></tr>
-<tr class="memdesc:ad9c3b5ecebdf10356bf86b72eaf762bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a direction from a vector area.  <a href="classPhQ_1_1Direction.html#ad9c3b5ecebdf10356bf86b72eaf762bb">More...</a><br /></td></tr>
-<tr class="separator:ad9c3b5ecebdf10356bf86b72eaf762bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3561eb7ca663d371b9c2493d0cadc2bc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Direction.html#a3561eb7ca663d371b9c2493d0cadc2bc">Direction</a> (const <a class="el" href="classPhQ_1_1Velocity.html">Velocity</a>&lt; Number &gt; &amp;velocity)</td></tr>
-<tr class="memdesc:a3561eb7ca663d371b9c2493d0cadc2bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a direction from a velocity.  <a href="classPhQ_1_1Direction.html#a3561eb7ca663d371b9c2493d0cadc2bc">More...</a><br /></td></tr>
-<tr class="separator:a3561eb7ca663d371b9c2493d0cadc2bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afb8618fcd4141a616370a5b316b0b39f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Direction.html#afb8618fcd4141a616370a5b316b0b39f">~Direction</a> () noexcept=default</td></tr>
-<tr class="memdesc:afb8618fcd4141a616370a5b316b0b39f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor. Destroys this direction.  <a href="classPhQ_1_1Direction.html#afb8618fcd4141a616370a5b316b0b39f">More...</a><br /></td></tr>
-<tr class="separator:afb8618fcd4141a616370a5b316b0b39f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab81ef00fb9a244288654f956d8656699"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Direction.html#ab81ef00fb9a244288654f956d8656699">Direction</a> (const <a class="el" href="classPhQ_1_1Direction.html">Direction</a>&lt; Number &gt; &amp;other)=default</td></tr>
-<tr class="memdesc:ab81ef00fb9a244288654f956d8656699"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy constructor. Constructs a direction by copying another one.  <a href="classPhQ_1_1Direction.html#ab81ef00fb9a244288654f956d8656699">More...</a><br /></td></tr>
-<tr class="separator:ab81ef00fb9a244288654f956d8656699"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a600472586855d6c35900f229c6b01dbe"><td class="memTemplParams" colspan="2">template&lt;typename OtherNumber &gt; </td></tr>
-<tr class="memitem:a600472586855d6c35900f229c6b01dbe"><td class="memTemplItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Direction.html#a600472586855d6c35900f229c6b01dbe">Direction</a> (const <a class="el" href="classPhQ_1_1Direction.html">Direction</a>&lt; OtherNumber &gt; &amp;other)</td></tr>
-<tr class="memdesc:a600472586855d6c35900f229c6b01dbe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy constructor. Constructs a direction by copying another one.  <a href="classPhQ_1_1Direction.html#a600472586855d6c35900f229c6b01dbe">More...</a><br /></td></tr>
-<tr class="separator:a600472586855d6c35900f229c6b01dbe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af946a78bb096306346d771326e722020"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Direction.html#af946a78bb096306346d771326e722020">Direction</a> (<a class="el" href="classPhQ_1_1Direction.html">Direction</a>&lt; Number &gt; &amp;&amp;other) noexcept=default</td></tr>
-<tr class="memdesc:af946a78bb096306346d771326e722020"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move constructor. Constructs a direction by moving another one.  <a href="classPhQ_1_1Direction.html#af946a78bb096306346d771326e722020">More...</a><br /></td></tr>
-<tr class="separator:af946a78bb096306346d771326e722020"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aba72a3e6fd0f7f3ede6de9a53890bdc4"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1Direction.html">Direction</a>&lt; Number &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Direction.html#aba72a3e6fd0f7f3ede6de9a53890bdc4">operator=</a> (const <a class="el" href="classPhQ_1_1Direction.html">Direction</a>&lt; Number &gt; &amp;other)=default</td></tr>
-<tr class="memdesc:aba72a3e6fd0f7f3ede6de9a53890bdc4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy assignment operator. Assigns this direction by copying another one.  <a href="classPhQ_1_1Direction.html#aba72a3e6fd0f7f3ede6de9a53890bdc4">More...</a><br /></td></tr>
-<tr class="separator:aba72a3e6fd0f7f3ede6de9a53890bdc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a66d3cc93697b0c643e99ce7b2eb30a49"><td class="memTemplParams" colspan="2">template&lt;typename OtherNumber &gt; </td></tr>
-<tr class="memitem:a66d3cc93697b0c643e99ce7b2eb30a49"><td class="memTemplItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1Direction.html">Direction</a>&lt; Number &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Direction.html#a66d3cc93697b0c643e99ce7b2eb30a49">operator=</a> (const <a class="el" href="classPhQ_1_1Direction.html">Direction</a>&lt; OtherNumber &gt; &amp;other)</td></tr>
-<tr class="memdesc:a66d3cc93697b0c643e99ce7b2eb30a49"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy assignment operator. Assigns this direction by copying another one.  <a href="classPhQ_1_1Direction.html#a66d3cc93697b0c643e99ce7b2eb30a49">More...</a><br /></td></tr>
-<tr class="separator:a66d3cc93697b0c643e99ce7b2eb30a49"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad95a1249a4ab35780a9d0323f5736c9f"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1Direction.html">Direction</a>&lt; Number &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Direction.html#ad95a1249a4ab35780a9d0323f5736c9f">operator=</a> (<a class="el" href="classPhQ_1_1Direction.html">Direction</a>&lt; Number &gt; &amp;&amp;other) noexcept=default</td></tr>
-<tr class="memdesc:ad95a1249a4ab35780a9d0323f5736c9f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move assignment operator. Assigns the value of this direction by moving another one.  <a href="classPhQ_1_1Direction.html#ad95a1249a4ab35780a9d0323f5736c9f">More...</a><br /></td></tr>
-<tr class="separator:ad95a1249a4ab35780a9d0323f5736c9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a710f0648c31a9d661a73781019b011d4"><td class="memItemLeft" align="right" valign="top">constexpr Number&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Direction.html#a710f0648c31a9d661a73781019b011d4">x</a> () const noexcept</td></tr>
-<tr class="memdesc:a710f0648c31a9d661a73781019b011d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the x Cartesian component of this direction.  <a href="classPhQ_1_1Direction.html#a710f0648c31a9d661a73781019b011d4">More...</a><br /></td></tr>
-<tr class="separator:a710f0648c31a9d661a73781019b011d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1b8a55423d259a3c3048b9ea49bbfe07"><td class="memItemLeft" align="right" valign="top">constexpr Number&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Direction.html#a1b8a55423d259a3c3048b9ea49bbfe07">y</a> () const noexcept</td></tr>
-<tr class="memdesc:a1b8a55423d259a3c3048b9ea49bbfe07"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the y Cartesian component of this direction.  <a href="classPhQ_1_1Direction.html#a1b8a55423d259a3c3048b9ea49bbfe07">More...</a><br /></td></tr>
-<tr class="separator:a1b8a55423d259a3c3048b9ea49bbfe07"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2e9ce387d4b48aaf9e7842167e602d43"><td class="memItemLeft" align="right" valign="top">constexpr Number&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Direction.html#a2e9ce387d4b48aaf9e7842167e602d43">z</a> () const noexcept</td></tr>
-<tr class="memdesc:a2e9ce387d4b48aaf9e7842167e602d43"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the z Cartesian component of this direction.  <a href="classPhQ_1_1Direction.html#a2e9ce387d4b48aaf9e7842167e602d43">More...</a><br /></td></tr>
-<tr class="separator:a2e9ce387d4b48aaf9e7842167e602d43"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af1e2d86553912f7706ecc33daf3745cb"><td class="memItemLeft" align="right" valign="top">constexpr void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Direction.html#af1e2d86553912f7706ecc33daf3745cb">Set</a> (const Number <a class="el" href="classPhQ_1_1Direction.html#a710f0648c31a9d661a73781019b011d4">x</a>, const Number <a class="el" href="classPhQ_1_1Direction.html#a1b8a55423d259a3c3048b9ea49bbfe07">y</a>, const Number <a class="el" href="classPhQ_1_1Direction.html#a2e9ce387d4b48aaf9e7842167e602d43">z</a>)</td></tr>
-<tr class="memdesc:af1e2d86553912f7706ecc33daf3745cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the value of this direction by normalizing the given x, y, and z Cartesian components to a unit vector. If x = 0, y = 0, and z = 0, sets the direction to the zero vector.  <a href="classPhQ_1_1Direction.html#af1e2d86553912f7706ecc33daf3745cb">More...</a><br /></td></tr>
-<tr class="separator:af1e2d86553912f7706ecc33daf3745cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0d79b327d55ae32c4703857b8015c32f"><td class="memItemLeft" align="right" valign="top">constexpr void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Direction.html#a0d79b327d55ae32c4703857b8015c32f">Set</a> (const std::array&lt; Number, 3 &gt; &amp;x_y_z)</td></tr>
-<tr class="memdesc:a0d79b327d55ae32c4703857b8015c32f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the value of this direction by normalizing the given x, y, and z Cartesian components to a unit vector. If x = 0, y = 0, and z = 0, sets the direction to the zero vector.  <a href="classPhQ_1_1Direction.html#a0d79b327d55ae32c4703857b8015c32f">More...</a><br /></td></tr>
-<tr class="separator:a0d79b327d55ae32c4703857b8015c32f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac42857647d2bbc0b5fcd0daf98c83480"><td class="memItemLeft" align="right" valign="top">constexpr void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Direction.html#ac42857647d2bbc0b5fcd0daf98c83480">Set</a> (const <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt; Number &gt; &amp;<a class="el" href="classPhQ_1_1DimensionlessVector.html#a34f486f32e6f515e991a1923441c2b15">value</a>)</td></tr>
-<tr class="memdesc:ac42857647d2bbc0b5fcd0daf98c83480"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the value of this direction by normalizing the given vector to a unit vector. If the given vector is a zero vector, sets the direction to the zero vector.  <a href="classPhQ_1_1Direction.html#ac42857647d2bbc0b5fcd0daf98c83480">More...</a><br /></td></tr>
-<tr class="separator:ac42857647d2bbc0b5fcd0daf98c83480"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab8b0972b438b9a9529307acef669c280"><td class="memItemLeft" align="right" valign="top">constexpr Number&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Direction.html#ab8b0972b438b9a9529307acef669c280">MagnitudeSquared</a> () const noexcept</td></tr>
-<tr class="memdesc:ab8b0972b438b9a9529307acef669c280"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the square of the magnitude of this direction. This is guaranteed to be exactly 1 if the direction is not the zero vector, or 0 if the direction is the zero vector.  <a href="classPhQ_1_1Direction.html#ab8b0972b438b9a9529307acef669c280">More...</a><br /></td></tr>
-<tr class="separator:ab8b0972b438b9a9529307acef669c280"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9a49d162aef8eaaad4077b56383fdd0e"><td class="memItemLeft" align="right" valign="top">Number&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Direction.html#a9a49d162aef8eaaad4077b56383fdd0e">Magnitude</a> () const noexcept</td></tr>
-<tr class="memdesc:a9a49d162aef8eaaad4077b56383fdd0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the magnitude of this direction. This is guaranteed to be exactly 1 if the direction is not the zero vector, or 0 if the direction is the zero vector.  <a href="classPhQ_1_1Direction.html#a9a49d162aef8eaaad4077b56383fdd0e">More...</a><br /></td></tr>
-<tr class="separator:a9a49d162aef8eaaad4077b56383fdd0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a348c44dd7c37d2085ffd5f657a261bfa"><td class="memItemLeft" align="right" valign="top">constexpr Number&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Direction.html#a348c44dd7c37d2085ffd5f657a261bfa">Dot</a> (const <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt; Number &gt; &amp;vector) const noexcept</td></tr>
-<tr class="memdesc:a348c44dd7c37d2085ffd5f657a261bfa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the dot product (also known as the scalar product or the inner product) of this direction with the given vector.  <a href="classPhQ_1_1Direction.html#a348c44dd7c37d2085ffd5f657a261bfa">More...</a><br /></td></tr>
-<tr class="separator:a348c44dd7c37d2085ffd5f657a261bfa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7b0fccbb1e0fd4797d2ac7cee3efcb8e"><td class="memItemLeft" align="right" valign="top">constexpr Number&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Direction.html#a7b0fccbb1e0fd4797d2ac7cee3efcb8e">Dot</a> (const <a class="el" href="classPhQ_1_1Direction.html">Direction</a>&lt; Number &gt; &amp;direction) const noexcept</td></tr>
-<tr class="memdesc:a7b0fccbb1e0fd4797d2ac7cee3efcb8e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the dot product (also known as the scalar product or the inner product) of this direction with the given other direction.  <a href="classPhQ_1_1Direction.html#a7b0fccbb1e0fd4797d2ac7cee3efcb8e">More...</a><br /></td></tr>
-<tr class="separator:a7b0fccbb1e0fd4797d2ac7cee3efcb8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab27d5b93975615593bae1acf732bc5e0"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt; Number &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Direction.html#ab27d5b93975615593bae1acf732bc5e0">Cross</a> (const <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt; Number &gt; &amp;vector) const</td></tr>
-<tr class="memdesc:ab27d5b93975615593bae1acf732bc5e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the cross product of this direction with the given vector.  <a href="classPhQ_1_1Direction.html#ab27d5b93975615593bae1acf732bc5e0">More...</a><br /></td></tr>
-<tr class="separator:ab27d5b93975615593bae1acf732bc5e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7f3b246a9cf9a6213bf92ddfc2a65969"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPhQ_1_1Direction.html">Direction</a>&lt; Number &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Direction.html#a7f3b246a9cf9a6213bf92ddfc2a65969">Cross</a> (const <a class="el" href="classPhQ_1_1Direction.html">Direction</a>&lt; Number &gt; &amp;direction) const</td></tr>
-<tr class="memdesc:a7f3b246a9cf9a6213bf92ddfc2a65969"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the cross product of this direction with the given other direction.  <a href="classPhQ_1_1Direction.html#a7f3b246a9cf9a6213bf92ddfc2a65969">More...</a><br /></td></tr>
-<tr class="separator:a7f3b246a9cf9a6213bf92ddfc2a65969"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a759a5704755ebe6e1734fb5f3319d2b2"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1Dyad.html">Dyad</a>&lt; Number &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Direction.html#a759a5704755ebe6e1734fb5f3319d2b2">Dyadic</a> (const <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt; Number &gt; &amp;vector) const</td></tr>
-<tr class="memdesc:a759a5704755ebe6e1734fb5f3319d2b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the dyadic product of this direction with the given vector.  <a href="classPhQ_1_1Direction.html#a759a5704755ebe6e1734fb5f3319d2b2">More...</a><br /></td></tr>
-<tr class="separator:a759a5704755ebe6e1734fb5f3319d2b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac1205c86b96d7f51611f2864462f99fd"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1Dyad.html">Dyad</a>&lt; Number &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Direction.html#ac1205c86b96d7f51611f2864462f99fd">Dyadic</a> (const <a class="el" href="classPhQ_1_1Direction.html">Direction</a>&lt; Number &gt; &amp;direction) const</td></tr>
-<tr class="memdesc:ac1205c86b96d7f51611f2864462f99fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the dyadic product of this direction with the given other direction.  <a href="classPhQ_1_1Direction.html#ac1205c86b96d7f51611f2864462f99fd">More...</a><br /></td></tr>
-<tr class="separator:ac1205c86b96d7f51611f2864462f99fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a004dca467a8bb5cb58d60e9bfd30a2a5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPhQ_1_1Angle.html">PhQ::Angle</a>&lt; Number &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Direction.html#a004dca467a8bb5cb58d60e9bfd30a2a5">Angle</a> (const <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt; Number &gt; &amp;vector) const</td></tr>
-<tr class="memdesc:a004dca467a8bb5cb58d60e9bfd30a2a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the angle between this direction and the given vector.  <a href="classPhQ_1_1Direction.html#a004dca467a8bb5cb58d60e9bfd30a2a5">More...</a><br /></td></tr>
-<tr class="separator:a004dca467a8bb5cb58d60e9bfd30a2a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2f4f4002dc7993c762d6c7b7b7b80d04"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPhQ_1_1Angle.html">PhQ::Angle</a>&lt; Number &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Direction.html#a2f4f4002dc7993c762d6c7b7b7b80d04">Angle</a> (const <a class="el" href="classPhQ_1_1Direction.html">Direction</a>&lt; Number &gt; &amp;direction) const</td></tr>
-<tr class="memdesc:a2f4f4002dc7993c762d6c7b7b7b80d04"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the angle between this direction and the given other direction.  <a href="classPhQ_1_1Direction.html#a2f4f4002dc7993c762d6c7b7b7b80d04">More...</a><br /></td></tr>
-<tr class="separator:a2f4f4002dc7993c762d6c7b7b7b80d04"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a36940e4c6f156dbf5c27ea9370ffdc50"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1Acceleration.html">Acceleration</a>&lt; Number &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Direction.html#a36940e4c6f156dbf5c27ea9370ffdc50">operator*</a> (const <a class="el" href="classPhQ_1_1ScalarAcceleration.html">ScalarAcceleration</a>&lt; Number &gt; &amp;scalar_acceleration) const</td></tr>
-<tr class="separator:a36940e4c6f156dbf5c27ea9370ffdc50"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a249ce44a399bed6d455747d9cd12e5b0"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1VectorArea.html">VectorArea</a>&lt; Number &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Direction.html#a249ce44a399bed6d455747d9cd12e5b0">operator*</a> (const <a class="el" href="classPhQ_1_1Area.html">Area</a>&lt; Number &gt; &amp;area) const</td></tr>
-<tr class="separator:a249ce44a399bed6d455747d9cd12e5b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa0bdf35fd5224e2175772d39a49cc009"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1Position.html">Position</a>&lt; Number &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Direction.html#aa0bdf35fd5224e2175772d39a49cc009">operator*</a> (const <a class="el" href="classPhQ_1_1Length.html">Length</a>&lt; Number &gt; &amp;length) const</td></tr>
-<tr class="separator:aa0bdf35fd5224e2175772d39a49cc009"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab664736b06e2a47d03dc3fb09bb0709b"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1Force.html">Force</a>&lt; Number &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Direction.html#ab664736b06e2a47d03dc3fb09bb0709b">operator*</a> (const <a class="el" href="classPhQ_1_1ScalarForce.html">ScalarForce</a>&lt; Number &gt; &amp;scalar_force) const</td></tr>
-<tr class="separator:ab664736b06e2a47d03dc3fb09bb0709b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1b598224a97c3cf5c41c4ffdea7c3529"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1HeatFlux.html">HeatFlux</a>&lt; Number &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Direction.html#a1b598224a97c3cf5c41c4ffdea7c3529">operator*</a> (const <a class="el" href="classPhQ_1_1ScalarHeatFlux.html">ScalarHeatFlux</a>&lt; Number &gt; &amp;scalar_heat_flux) const</td></tr>
-<tr class="separator:a1b598224a97c3cf5c41c4ffdea7c3529"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acccd3afe9ca1b76994c55eb2d86c995f"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1TemperatureGradient.html">TemperatureGradient</a>&lt; Number &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Direction.html#acccd3afe9ca1b76994c55eb2d86c995f">operator*</a> (const <a class="el" href="classPhQ_1_1ScalarTemperatureGradient.html">ScalarTemperatureGradient</a>&lt; Number &gt; &amp;scalar_temperature_gradient) const</td></tr>
-<tr class="separator:acccd3afe9ca1b76994c55eb2d86c995f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a28fc44d8af9786038867f984ab620131"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1Traction.html">Traction</a>&lt; Number &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Direction.html#a28fc44d8af9786038867f984ab620131">operator*</a> (const <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt; Number &gt; &amp;scalar_traction) const</td></tr>
-<tr class="separator:a28fc44d8af9786038867f984ab620131"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1c27bf826e422abcd5ac3b18a0d43e06"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1Velocity.html">Velocity</a>&lt; Number &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Direction.html#a1c27bf826e422abcd5ac3b18a0d43e06">operator*</a> (const <a class="el" href="classPhQ_1_1Speed.html">Speed</a>&lt; Number &gt; &amp;speed) const</td></tr>
-<tr class="separator:a1c27bf826e422abcd5ac3b18a0d43e06"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac1bdae22b6995ced84e7a38b26b181e0"><td class="memItemLeft" align="right" valign="top">constexpr const <a class="el" href="classPhQ_1_1Vector.html">PhQ::Vector</a>&lt; double &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionlessVector.html#ac1bdae22b6995ced84e7a38b26b181e0">Value</a> () const noexcept</td></tr>
-<tr class="memdesc:ac1bdae22b6995ced84e7a38b26b181e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Value of this physical quantity.  <a href="classPhQ_1_1DimensionlessVector.html#ac1bdae22b6995ced84e7a38b26b181e0">More...</a><br /></td></tr>
-<tr class="separator:ac1bdae22b6995ced84e7a38b26b181e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af4e0f21b8e88d8f66da25dbe50064515"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionlessVector.html#af4e0f21b8e88d8f66da25dbe50064515">Print</a> () const</td></tr>
-<tr class="memdesc:af4e0f21b8e88d8f66da25dbe50064515"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints this physical quantity as a string.  <a href="classPhQ_1_1DimensionlessVector.html#af4e0f21b8e88d8f66da25dbe50064515">More...</a><br /></td></tr>
-<tr class="separator:af4e0f21b8e88d8f66da25dbe50064515"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a76ee3dc1b677da023412a874f2a6bba2"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionlessVector.html#a76ee3dc1b677da023412a874f2a6bba2">JSON</a> () const</td></tr>
-<tr class="memdesc:a76ee3dc1b677da023412a874f2a6bba2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serializes this physical quantity as a JSON message.  <a href="classPhQ_1_1DimensionlessVector.html#a76ee3dc1b677da023412a874f2a6bba2">More...</a><br /></td></tr>
-<tr class="separator:a76ee3dc1b677da023412a874f2a6bba2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afebb20a21db2382002913bf1078ad276"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionlessVector.html#afebb20a21db2382002913bf1078ad276">XML</a> () const</td></tr>
-<tr class="memdesc:afebb20a21db2382002913bf1078ad276"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serializes this physical quantity as an XML message.  <a href="classPhQ_1_1DimensionlessVector.html#afebb20a21db2382002913bf1078ad276">More...</a><br /></td></tr>
-<tr class="separator:afebb20a21db2382002913bf1078ad276"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad2b8a853ba9bd89f8650eec3eda5955d"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionlessVector.html#ad2b8a853ba9bd89f8650eec3eda5955d">YAML</a> () const</td></tr>
-<tr class="memdesc:ad2b8a853ba9bd89f8650eec3eda5955d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serializes this physical quantity as a YAML message.  <a href="classPhQ_1_1DimensionlessVector.html#ad2b8a853ba9bd89f8650eec3eda5955d">More...</a><br /></td></tr>
-<tr class="separator:ad2b8a853ba9bd89f8650eec3eda5955d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa31b7d6334e23fc9f482b6bd0b743d05"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Direction.html#aa31b7d6334e23fc9f482b6bd0b743d05">Direction</a> ()</td></tr>
+<tr class="memdesc:aa31b7d6334e23fc9f482b6bd0b743d05"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor. Initializes a direction to the zero vector.  <a href="classPhQ_1_1Direction.html#aa31b7d6334e23fc9f482b6bd0b743d05">More...</a><br /></td></tr>
+<tr class="separator:aa31b7d6334e23fc9f482b6bd0b743d05"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7c8fe0bcf683d6f4ded0f795a94cceb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Direction.html#aa7c8fe0bcf683d6f4ded0f795a94cceb">Direction</a> (const NumericType <a class="el" href="classPhQ_1_1Direction.html#abeeeafa7f8de042f5d488147b4546177">x</a>, const NumericType <a class="el" href="classPhQ_1_1Direction.html#a0f4d723239f2f251b595098c2e76387b">y</a>, const NumericType <a class="el" href="classPhQ_1_1Direction.html#a3a2c20a355c2fb3abadc940ca31c1829">z</a>)</td></tr>
+<tr class="memdesc:aa7c8fe0bcf683d6f4ded0f795a94cceb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a direction by normalizing the given x, y, and z Cartesian components to a unit vector. If x = 0, y = 0, and z = 0, initializes the direction to the zero vector.  <a href="classPhQ_1_1Direction.html#aa7c8fe0bcf683d6f4ded0f795a94cceb">More...</a><br /></td></tr>
+<tr class="separator:aa7c8fe0bcf683d6f4ded0f795a94cceb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3bfcdfff8b60c297ef0120e656df611b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Direction.html#a3bfcdfff8b60c297ef0120e656df611b">Direction</a> (const std::array&lt; NumericType, 3 &gt; &amp;x_y_z)</td></tr>
+<tr class="memdesc:a3bfcdfff8b60c297ef0120e656df611b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a direction by normalizing a given array representing x, y, and z Cartesian components to a unit vector. If x = 0, y = 0, and z = 0, initializes the direction to the zero vector.  <a href="classPhQ_1_1Direction.html#a3bfcdfff8b60c297ef0120e656df611b">More...</a><br /></td></tr>
+<tr class="separator:a3bfcdfff8b60c297ef0120e656df611b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a94895def3aa3ce08a485dc799d34d658"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Direction.html#a94895def3aa3ce08a485dc799d34d658">Direction</a> (const <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt; NumericType &gt; &amp;<a class="el" href="classPhQ_1_1DimensionlessVector.html#a9a2d42bd55a4feb57bfe87fc0887d8c3">value</a>)</td></tr>
+<tr class="memdesc:a94895def3aa3ce08a485dc799d34d658"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a direction by normalizing the given vector to a unit vector. If the given vector is the zero vector, initializes the direction to the zero vector.  <a href="classPhQ_1_1Direction.html#a94895def3aa3ce08a485dc799d34d658">More...</a><br /></td></tr>
+<tr class="separator:a94895def3aa3ce08a485dc799d34d658"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a06a8ff7ae94569d31e221a5e49f7eb6d"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Direction.html#a06a8ff7ae94569d31e221a5e49f7eb6d">Direction</a> (const <a class="el" href="classPhQ_1_1PlanarDirection.html">PlanarDirection</a>&lt; NumericType &gt; &amp;planar_direction)</td></tr>
+<tr class="memdesc:a06a8ff7ae94569d31e221a5e49f7eb6d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a direction from a given planar direction in the XY plane. This direction's z-component is initialized to zero.  <a href="classPhQ_1_1Direction.html#a06a8ff7ae94569d31e221a5e49f7eb6d">More...</a><br /></td></tr>
+<tr class="separator:a06a8ff7ae94569d31e221a5e49f7eb6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a814d6d67768905a4698988e298840aa7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Direction.html#a814d6d67768905a4698988e298840aa7">Direction</a> (const <a class="el" href="classPhQ_1_1Acceleration.html">Acceleration</a>&lt; NumericType &gt; &amp;acceleration)</td></tr>
+<tr class="memdesc:a814d6d67768905a4698988e298840aa7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a direction from an acceleration.  <a href="classPhQ_1_1Direction.html#a814d6d67768905a4698988e298840aa7">More...</a><br /></td></tr>
+<tr class="separator:a814d6d67768905a4698988e298840aa7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad8fec3a36539a6c75175cd9601d4e02"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Direction.html#aad8fec3a36539a6c75175cd9601d4e02">Direction</a> (const <a class="el" href="classPhQ_1_1Displacement.html">Displacement</a>&lt; NumericType &gt; &amp;displacement)</td></tr>
+<tr class="memdesc:aad8fec3a36539a6c75175cd9601d4e02"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a direction from a displacement.  <a href="classPhQ_1_1Direction.html#aad8fec3a36539a6c75175cd9601d4e02">More...</a><br /></td></tr>
+<tr class="separator:aad8fec3a36539a6c75175cd9601d4e02"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a715c64948e6a03c2c4d508ac4dd8675e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Direction.html#a715c64948e6a03c2c4d508ac4dd8675e">Direction</a> (const <a class="el" href="classPhQ_1_1Force.html">Force</a>&lt; NumericType &gt; &amp;force)</td></tr>
+<tr class="memdesc:a715c64948e6a03c2c4d508ac4dd8675e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a direction from a force.  <a href="classPhQ_1_1Direction.html#a715c64948e6a03c2c4d508ac4dd8675e">More...</a><br /></td></tr>
+<tr class="separator:a715c64948e6a03c2c4d508ac4dd8675e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a70837345cf08231bd823acf6e7ee5683"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Direction.html#a70837345cf08231bd823acf6e7ee5683">Direction</a> (const <a class="el" href="classPhQ_1_1HeatFlux.html">HeatFlux</a>&lt; NumericType &gt; &amp;heat_flux)</td></tr>
+<tr class="memdesc:a70837345cf08231bd823acf6e7ee5683"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a direction from a heat flux.  <a href="classPhQ_1_1Direction.html#a70837345cf08231bd823acf6e7ee5683">More...</a><br /></td></tr>
+<tr class="separator:a70837345cf08231bd823acf6e7ee5683"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd73bf06948e8ac02be36329524e503f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Direction.html#afd73bf06948e8ac02be36329524e503f">Direction</a> (const <a class="el" href="classPhQ_1_1Position.html">Position</a>&lt; NumericType &gt; &amp;position)</td></tr>
+<tr class="memdesc:afd73bf06948e8ac02be36329524e503f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a direction from a position.  <a href="classPhQ_1_1Direction.html#afd73bf06948e8ac02be36329524e503f">More...</a><br /></td></tr>
+<tr class="separator:afd73bf06948e8ac02be36329524e503f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab83efb7d3114a109b843a5a60c931497"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Direction.html#ab83efb7d3114a109b843a5a60c931497">Direction</a> (const <a class="el" href="classPhQ_1_1TemperatureGradient.html">TemperatureGradient</a>&lt; NumericType &gt; &amp;temperature_gradient)</td></tr>
+<tr class="memdesc:ab83efb7d3114a109b843a5a60c931497"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a direction from a temperature gradient.  <a href="classPhQ_1_1Direction.html#ab83efb7d3114a109b843a5a60c931497">More...</a><br /></td></tr>
+<tr class="separator:ab83efb7d3114a109b843a5a60c931497"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe4cd5e9230bec32175065ec65f7b72f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Direction.html#afe4cd5e9230bec32175065ec65f7b72f">Direction</a> (const <a class="el" href="classPhQ_1_1Traction.html">Traction</a>&lt; NumericType &gt; &amp;traction)</td></tr>
+<tr class="memdesc:afe4cd5e9230bec32175065ec65f7b72f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a direction from a traction.  <a href="classPhQ_1_1Direction.html#afe4cd5e9230bec32175065ec65f7b72f">More...</a><br /></td></tr>
+<tr class="separator:afe4cd5e9230bec32175065ec65f7b72f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a06af7e84e7c137cddea4607d61d79b82"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Direction.html#a06af7e84e7c137cddea4607d61d79b82">Direction</a> (const <a class="el" href="classPhQ_1_1VectorArea.html">VectorArea</a>&lt; NumericType &gt; &amp;vector_area)</td></tr>
+<tr class="memdesc:a06af7e84e7c137cddea4607d61d79b82"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a direction from a vector area.  <a href="classPhQ_1_1Direction.html#a06af7e84e7c137cddea4607d61d79b82">More...</a><br /></td></tr>
+<tr class="separator:a06af7e84e7c137cddea4607d61d79b82"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86e11ccc57fd7b90e29eebba3a383394"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Direction.html#a86e11ccc57fd7b90e29eebba3a383394">Direction</a> (const <a class="el" href="classPhQ_1_1Velocity.html">Velocity</a>&lt; NumericType &gt; &amp;velocity)</td></tr>
+<tr class="memdesc:a86e11ccc57fd7b90e29eebba3a383394"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a direction from a velocity.  <a href="classPhQ_1_1Direction.html#a86e11ccc57fd7b90e29eebba3a383394">More...</a><br /></td></tr>
+<tr class="separator:a86e11ccc57fd7b90e29eebba3a383394"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2eae1ecf2ec60325d358ddce129b1e98"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Direction.html#a2eae1ecf2ec60325d358ddce129b1e98">~Direction</a> () noexcept=default</td></tr>
+<tr class="memdesc:a2eae1ecf2ec60325d358ddce129b1e98"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor. Destroys this direction.  <a href="classPhQ_1_1Direction.html#a2eae1ecf2ec60325d358ddce129b1e98">More...</a><br /></td></tr>
+<tr class="separator:a2eae1ecf2ec60325d358ddce129b1e98"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa14b0ed8c7cab639e1d74e6912740d31"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Direction.html#aa14b0ed8c7cab639e1d74e6912740d31">Direction</a> (const <a class="el" href="classPhQ_1_1Direction.html">Direction</a>&lt; NumericType &gt; &amp;other)=default</td></tr>
+<tr class="memdesc:aa14b0ed8c7cab639e1d74e6912740d31"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy constructor. Constructs a direction by copying another one.  <a href="classPhQ_1_1Direction.html#aa14b0ed8c7cab639e1d74e6912740d31">More...</a><br /></td></tr>
+<tr class="separator:aa14b0ed8c7cab639e1d74e6912740d31"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a08ced056e4fced0dbcca63ab60696491"><td class="memTemplParams" colspan="2">template&lt;typename OtherNumericType &gt; </td></tr>
+<tr class="memitem:a08ced056e4fced0dbcca63ab60696491"><td class="memTemplItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Direction.html#a08ced056e4fced0dbcca63ab60696491">Direction</a> (const <a class="el" href="classPhQ_1_1Direction.html">Direction</a>&lt; OtherNumericType &gt; &amp;other)</td></tr>
+<tr class="memdesc:a08ced056e4fced0dbcca63ab60696491"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy constructor. Constructs a direction by copying another one.  <a href="classPhQ_1_1Direction.html#a08ced056e4fced0dbcca63ab60696491">More...</a><br /></td></tr>
+<tr class="separator:a08ced056e4fced0dbcca63ab60696491"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51094a75b9ab68cdfc520a7d71f207aa"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Direction.html#a51094a75b9ab68cdfc520a7d71f207aa">Direction</a> (<a class="el" href="classPhQ_1_1Direction.html">Direction</a>&lt; NumericType &gt; &amp;&amp;other) noexcept=default</td></tr>
+<tr class="memdesc:a51094a75b9ab68cdfc520a7d71f207aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move constructor. Constructs a direction by moving another one.  <a href="classPhQ_1_1Direction.html#a51094a75b9ab68cdfc520a7d71f207aa">More...</a><br /></td></tr>
+<tr class="separator:a51094a75b9ab68cdfc520a7d71f207aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd9db573b0e9a5e97926da2bc2213d4c"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1Direction.html">Direction</a>&lt; NumericType &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Direction.html#afd9db573b0e9a5e97926da2bc2213d4c">operator=</a> (const <a class="el" href="classPhQ_1_1Direction.html">Direction</a>&lt; NumericType &gt; &amp;other)=default</td></tr>
+<tr class="memdesc:afd9db573b0e9a5e97926da2bc2213d4c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy assignment operator. Assigns this direction by copying another one.  <a href="classPhQ_1_1Direction.html#afd9db573b0e9a5e97926da2bc2213d4c">More...</a><br /></td></tr>
+<tr class="separator:afd9db573b0e9a5e97926da2bc2213d4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8198c84ddcf59425eb72e01b9adeac46"><td class="memTemplParams" colspan="2">template&lt;typename OtherNumericType &gt; </td></tr>
+<tr class="memitem:a8198c84ddcf59425eb72e01b9adeac46"><td class="memTemplItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1Direction.html">Direction</a>&lt; NumericType &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Direction.html#a8198c84ddcf59425eb72e01b9adeac46">operator=</a> (const <a class="el" href="classPhQ_1_1Direction.html">Direction</a>&lt; OtherNumericType &gt; &amp;other)</td></tr>
+<tr class="memdesc:a8198c84ddcf59425eb72e01b9adeac46"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy assignment operator. Assigns this direction by copying another one.  <a href="classPhQ_1_1Direction.html#a8198c84ddcf59425eb72e01b9adeac46">More...</a><br /></td></tr>
+<tr class="separator:a8198c84ddcf59425eb72e01b9adeac46"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe41c67ada31cfa6bc34792e4f491b29"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1Direction.html">Direction</a>&lt; NumericType &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Direction.html#afe41c67ada31cfa6bc34792e4f491b29">operator=</a> (<a class="el" href="classPhQ_1_1Direction.html">Direction</a>&lt; NumericType &gt; &amp;&amp;other) noexcept=default</td></tr>
+<tr class="memdesc:afe41c67ada31cfa6bc34792e4f491b29"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move assignment operator. Assigns the value of this direction by moving another one.  <a href="classPhQ_1_1Direction.html#afe41c67ada31cfa6bc34792e4f491b29">More...</a><br /></td></tr>
+<tr class="separator:afe41c67ada31cfa6bc34792e4f491b29"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abeeeafa7f8de042f5d488147b4546177"><td class="memItemLeft" align="right" valign="top">constexpr NumericType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Direction.html#abeeeafa7f8de042f5d488147b4546177">x</a> () const noexcept</td></tr>
+<tr class="memdesc:abeeeafa7f8de042f5d488147b4546177"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the x Cartesian component of this direction.  <a href="classPhQ_1_1Direction.html#abeeeafa7f8de042f5d488147b4546177">More...</a><br /></td></tr>
+<tr class="separator:abeeeafa7f8de042f5d488147b4546177"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f4d723239f2f251b595098c2e76387b"><td class="memItemLeft" align="right" valign="top">constexpr NumericType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Direction.html#a0f4d723239f2f251b595098c2e76387b">y</a> () const noexcept</td></tr>
+<tr class="memdesc:a0f4d723239f2f251b595098c2e76387b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the y Cartesian component of this direction.  <a href="classPhQ_1_1Direction.html#a0f4d723239f2f251b595098c2e76387b">More...</a><br /></td></tr>
+<tr class="separator:a0f4d723239f2f251b595098c2e76387b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a2c20a355c2fb3abadc940ca31c1829"><td class="memItemLeft" align="right" valign="top">constexpr NumericType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Direction.html#a3a2c20a355c2fb3abadc940ca31c1829">z</a> () const noexcept</td></tr>
+<tr class="memdesc:a3a2c20a355c2fb3abadc940ca31c1829"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the z Cartesian component of this direction.  <a href="classPhQ_1_1Direction.html#a3a2c20a355c2fb3abadc940ca31c1829">More...</a><br /></td></tr>
+<tr class="separator:a3a2c20a355c2fb3abadc940ca31c1829"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad30794aac730965a5e933510574a6a13"><td class="memItemLeft" align="right" valign="top">constexpr void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Direction.html#ad30794aac730965a5e933510574a6a13">Set</a> (const NumericType <a class="el" href="classPhQ_1_1Direction.html#abeeeafa7f8de042f5d488147b4546177">x</a>, const NumericType <a class="el" href="classPhQ_1_1Direction.html#a0f4d723239f2f251b595098c2e76387b">y</a>, const NumericType <a class="el" href="classPhQ_1_1Direction.html#a3a2c20a355c2fb3abadc940ca31c1829">z</a>)</td></tr>
+<tr class="memdesc:ad30794aac730965a5e933510574a6a13"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the value of this direction by normalizing the given x, y, and z Cartesian components to a unit vector. If x = 0, y = 0, and z = 0, sets the direction to the zero vector.  <a href="classPhQ_1_1Direction.html#ad30794aac730965a5e933510574a6a13">More...</a><br /></td></tr>
+<tr class="separator:ad30794aac730965a5e933510574a6a13"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb322356fb4d0baacc14c43196de698f"><td class="memItemLeft" align="right" valign="top">constexpr void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Direction.html#adb322356fb4d0baacc14c43196de698f">Set</a> (const std::array&lt; NumericType, 3 &gt; &amp;x_y_z)</td></tr>
+<tr class="memdesc:adb322356fb4d0baacc14c43196de698f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the value of this direction by normalizing the given x, y, and z Cartesian components to a unit vector. If x = 0, y = 0, and z = 0, sets the direction to the zero vector.  <a href="classPhQ_1_1Direction.html#adb322356fb4d0baacc14c43196de698f">More...</a><br /></td></tr>
+<tr class="separator:adb322356fb4d0baacc14c43196de698f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c44c4966aff8a1d17184d5611f8778f"><td class="memItemLeft" align="right" valign="top">constexpr void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Direction.html#a6c44c4966aff8a1d17184d5611f8778f">Set</a> (const <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt; NumericType &gt; &amp;<a class="el" href="classPhQ_1_1DimensionlessVector.html#a9a2d42bd55a4feb57bfe87fc0887d8c3">value</a>)</td></tr>
+<tr class="memdesc:a6c44c4966aff8a1d17184d5611f8778f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the value of this direction by normalizing the given vector to a unit vector. If the given vector is a zero vector, sets the direction to the zero vector.  <a href="classPhQ_1_1Direction.html#a6c44c4966aff8a1d17184d5611f8778f">More...</a><br /></td></tr>
+<tr class="separator:a6c44c4966aff8a1d17184d5611f8778f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7306ddb79593e550a101377bd0bc64c"><td class="memItemLeft" align="right" valign="top">constexpr NumericType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Direction.html#af7306ddb79593e550a101377bd0bc64c">MagnitudeSquared</a> () const noexcept</td></tr>
+<tr class="memdesc:af7306ddb79593e550a101377bd0bc64c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the square of the magnitude of this direction. This is guaranteed to be exactly 1 if the direction is not the zero vector, or 0 if the direction is the zero vector.  <a href="classPhQ_1_1Direction.html#af7306ddb79593e550a101377bd0bc64c">More...</a><br /></td></tr>
+<tr class="separator:af7306ddb79593e550a101377bd0bc64c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aede61422e71e11d72a89b4177a6eb1f6"><td class="memItemLeft" align="right" valign="top">NumericType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Direction.html#aede61422e71e11d72a89b4177a6eb1f6">Magnitude</a> () const noexcept</td></tr>
+<tr class="memdesc:aede61422e71e11d72a89b4177a6eb1f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the magnitude of this direction. This is guaranteed to be exactly 1 if the direction is not the zero vector, or 0 if the direction is the zero vector.  <a href="classPhQ_1_1Direction.html#aede61422e71e11d72a89b4177a6eb1f6">More...</a><br /></td></tr>
+<tr class="separator:aede61422e71e11d72a89b4177a6eb1f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad94f31a5fdac2a24c629ffa2690ed28e"><td class="memItemLeft" align="right" valign="top">constexpr NumericType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Direction.html#ad94f31a5fdac2a24c629ffa2690ed28e">Dot</a> (const <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt; NumericType &gt; &amp;vector) const noexcept</td></tr>
+<tr class="memdesc:ad94f31a5fdac2a24c629ffa2690ed28e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the dot product (also known as the scalar product or the inner product) of this direction with the given vector.  <a href="classPhQ_1_1Direction.html#ad94f31a5fdac2a24c629ffa2690ed28e">More...</a><br /></td></tr>
+<tr class="separator:ad94f31a5fdac2a24c629ffa2690ed28e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa58aded258ec167739c536495b56837"><td class="memItemLeft" align="right" valign="top">constexpr NumericType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Direction.html#aaa58aded258ec167739c536495b56837">Dot</a> (const <a class="el" href="classPhQ_1_1Direction.html">Direction</a>&lt; NumericType &gt; &amp;direction) const noexcept</td></tr>
+<tr class="memdesc:aaa58aded258ec167739c536495b56837"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the dot product (also known as the scalar product or the inner product) of this direction with the given other direction.  <a href="classPhQ_1_1Direction.html#aaa58aded258ec167739c536495b56837">More...</a><br /></td></tr>
+<tr class="separator:aaa58aded258ec167739c536495b56837"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad579416d08128e14364bdd31ffbb2faa"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt; NumericType &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Direction.html#ad579416d08128e14364bdd31ffbb2faa">Cross</a> (const <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt; NumericType &gt; &amp;vector) const</td></tr>
+<tr class="memdesc:ad579416d08128e14364bdd31ffbb2faa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the cross product of this direction with the given vector.  <a href="classPhQ_1_1Direction.html#ad579416d08128e14364bdd31ffbb2faa">More...</a><br /></td></tr>
+<tr class="separator:ad579416d08128e14364bdd31ffbb2faa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7fbb4c10d7a30fc014c29bece1c92613"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPhQ_1_1Direction.html">Direction</a>&lt; NumericType &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Direction.html#a7fbb4c10d7a30fc014c29bece1c92613">Cross</a> (const <a class="el" href="classPhQ_1_1Direction.html">Direction</a>&lt; NumericType &gt; &amp;direction) const</td></tr>
+<tr class="memdesc:a7fbb4c10d7a30fc014c29bece1c92613"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the cross product of this direction with the given other direction.  <a href="classPhQ_1_1Direction.html#a7fbb4c10d7a30fc014c29bece1c92613">More...</a><br /></td></tr>
+<tr class="separator:a7fbb4c10d7a30fc014c29bece1c92613"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c067ca880809b43d4881afdb9747bbc"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1Dyad.html">Dyad</a>&lt; NumericType &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Direction.html#a4c067ca880809b43d4881afdb9747bbc">Dyadic</a> (const <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt; NumericType &gt; &amp;vector) const</td></tr>
+<tr class="memdesc:a4c067ca880809b43d4881afdb9747bbc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the dyadic product of this direction with the given vector.  <a href="classPhQ_1_1Direction.html#a4c067ca880809b43d4881afdb9747bbc">More...</a><br /></td></tr>
+<tr class="separator:a4c067ca880809b43d4881afdb9747bbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1236a5796cad0820f6eed57aea94105a"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1Dyad.html">Dyad</a>&lt; NumericType &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Direction.html#a1236a5796cad0820f6eed57aea94105a">Dyadic</a> (const <a class="el" href="classPhQ_1_1Direction.html">Direction</a>&lt; NumericType &gt; &amp;direction) const</td></tr>
+<tr class="memdesc:a1236a5796cad0820f6eed57aea94105a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the dyadic product of this direction with the given other direction.  <a href="classPhQ_1_1Direction.html#a1236a5796cad0820f6eed57aea94105a">More...</a><br /></td></tr>
+<tr class="separator:a1236a5796cad0820f6eed57aea94105a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a650f6385b19c78da4c02f0504c79a949"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPhQ_1_1Angle.html">PhQ::Angle</a>&lt; NumericType &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Direction.html#a650f6385b19c78da4c02f0504c79a949">Angle</a> (const <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt; NumericType &gt; &amp;vector) const</td></tr>
+<tr class="memdesc:a650f6385b19c78da4c02f0504c79a949"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the angle between this direction and the given vector.  <a href="classPhQ_1_1Direction.html#a650f6385b19c78da4c02f0504c79a949">More...</a><br /></td></tr>
+<tr class="separator:a650f6385b19c78da4c02f0504c79a949"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a98f1e4dd1fc241a5eee22f3eecb4165b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPhQ_1_1Angle.html">PhQ::Angle</a>&lt; NumericType &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Direction.html#a98f1e4dd1fc241a5eee22f3eecb4165b">Angle</a> (const <a class="el" href="classPhQ_1_1Direction.html">Direction</a>&lt; NumericType &gt; &amp;direction) const</td></tr>
+<tr class="memdesc:a98f1e4dd1fc241a5eee22f3eecb4165b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the angle between this direction and the given other direction.  <a href="classPhQ_1_1Direction.html#a98f1e4dd1fc241a5eee22f3eecb4165b">More...</a><br /></td></tr>
+<tr class="separator:a98f1e4dd1fc241a5eee22f3eecb4165b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af73d7dc5d5581258169364ad16e4e1ce"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1Acceleration.html">Acceleration</a>&lt; NumericType &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Direction.html#af73d7dc5d5581258169364ad16e4e1ce">operator*</a> (const <a class="el" href="classPhQ_1_1ScalarAcceleration.html">ScalarAcceleration</a>&lt; NumericType &gt; &amp;scalar_acceleration) const</td></tr>
+<tr class="separator:af73d7dc5d5581258169364ad16e4e1ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae604f4c6315d5da9a4e5cce4f93303f9"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1VectorArea.html">VectorArea</a>&lt; NumericType &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Direction.html#ae604f4c6315d5da9a4e5cce4f93303f9">operator*</a> (const <a class="el" href="classPhQ_1_1Area.html">Area</a>&lt; NumericType &gt; &amp;area) const</td></tr>
+<tr class="separator:ae604f4c6315d5da9a4e5cce4f93303f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa40aeb5041e9df932016e9eb69bc37ff"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1Position.html">Position</a>&lt; NumericType &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Direction.html#aa40aeb5041e9df932016e9eb69bc37ff">operator*</a> (const <a class="el" href="classPhQ_1_1Length.html">Length</a>&lt; NumericType &gt; &amp;length) const</td></tr>
+<tr class="separator:aa40aeb5041e9df932016e9eb69bc37ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3dc649b0a23a3629df1927994fb3cf37"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1Force.html">Force</a>&lt; NumericType &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Direction.html#a3dc649b0a23a3629df1927994fb3cf37">operator*</a> (const <a class="el" href="classPhQ_1_1ScalarForce.html">ScalarForce</a>&lt; NumericType &gt; &amp;scalar_force) const</td></tr>
+<tr class="separator:a3dc649b0a23a3629df1927994fb3cf37"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaccfaacf883141b89893b72f0d88c53b"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1HeatFlux.html">HeatFlux</a>&lt; NumericType &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Direction.html#aaccfaacf883141b89893b72f0d88c53b">operator*</a> (const <a class="el" href="classPhQ_1_1ScalarHeatFlux.html">ScalarHeatFlux</a>&lt; NumericType &gt; &amp;scalar_heat_flux) const</td></tr>
+<tr class="separator:aaccfaacf883141b89893b72f0d88c53b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0495938de145b3d1326efd7821fc44be"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1TemperatureGradient.html">TemperatureGradient</a>&lt; NumericType &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Direction.html#a0495938de145b3d1326efd7821fc44be">operator*</a> (const <a class="el" href="classPhQ_1_1ScalarTemperatureGradient.html">ScalarTemperatureGradient</a>&lt; NumericType &gt; &amp;scalar_temperature_gradient) const</td></tr>
+<tr class="separator:a0495938de145b3d1326efd7821fc44be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d2fd3cba55bddcc6675c50cb273b4ab"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1Traction.html">Traction</a>&lt; NumericType &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Direction.html#a8d2fd3cba55bddcc6675c50cb273b4ab">operator*</a> (const <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt; NumericType &gt; &amp;scalar_traction) const</td></tr>
+<tr class="separator:a8d2fd3cba55bddcc6675c50cb273b4ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa616f9bec0b2a8f784d0b71ca3f3c383"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1Velocity.html">Velocity</a>&lt; NumericType &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Direction.html#aa616f9bec0b2a8f784d0b71ca3f3c383">operator*</a> (const <a class="el" href="classPhQ_1_1Speed.html">Speed</a>&lt; NumericType &gt; &amp;speed) const</td></tr>
+<tr class="separator:aa616f9bec0b2a8f784d0b71ca3f3c383"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af830cd27c98a7ced73ec337acf86bc91"><td class="memItemLeft" align="right" valign="top">constexpr const <a class="el" href="classPhQ_1_1Vector.html">PhQ::Vector</a>&lt; double &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionlessVector.html#af830cd27c98a7ced73ec337acf86bc91">Value</a> () const noexcept</td></tr>
+<tr class="memdesc:af830cd27c98a7ced73ec337acf86bc91"><td class="mdescLeft">&#160;</td><td class="mdescRight">Value of this physical quantity.  <a href="classPhQ_1_1DimensionlessVector.html#af830cd27c98a7ced73ec337acf86bc91">More...</a><br /></td></tr>
+<tr class="separator:af830cd27c98a7ced73ec337acf86bc91"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8438483e41be4720bba28505ec3ac9be"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionlessVector.html#a8438483e41be4720bba28505ec3ac9be">Print</a> () const</td></tr>
+<tr class="memdesc:a8438483e41be4720bba28505ec3ac9be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints this physical quantity as a string.  <a href="classPhQ_1_1DimensionlessVector.html#a8438483e41be4720bba28505ec3ac9be">More...</a><br /></td></tr>
+<tr class="separator:a8438483e41be4720bba28505ec3ac9be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88efbb2d8b8cbbb8e154a5e5e7987a7f"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionlessVector.html#a88efbb2d8b8cbbb8e154a5e5e7987a7f">JSON</a> () const</td></tr>
+<tr class="memdesc:a88efbb2d8b8cbbb8e154a5e5e7987a7f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serializes this physical quantity as a JSON message.  <a href="classPhQ_1_1DimensionlessVector.html#a88efbb2d8b8cbbb8e154a5e5e7987a7f">More...</a><br /></td></tr>
+<tr class="separator:a88efbb2d8b8cbbb8e154a5e5e7987a7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa888483c6635c58a22c9040269562d77"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionlessVector.html#aa888483c6635c58a22c9040269562d77">XML</a> () const</td></tr>
+<tr class="memdesc:aa888483c6635c58a22c9040269562d77"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serializes this physical quantity as an XML message.  <a href="classPhQ_1_1DimensionlessVector.html#aa888483c6635c58a22c9040269562d77">More...</a><br /></td></tr>
+<tr class="separator:aa888483c6635c58a22c9040269562d77"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9fab1f77920ec75a7b35986b5fa93b6f"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionlessVector.html#a9fab1f77920ec75a7b35986b5fa93b6f">YAML</a> () const</td></tr>
+<tr class="memdesc:a9fab1f77920ec75a7b35986b5fa93b6f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serializes this physical quantity as a YAML message.  <a href="classPhQ_1_1DimensionlessVector.html#a9fab1f77920ec75a7b35986b5fa93b6f">More...</a><br /></td></tr>
+<tr class="separator:a9fab1f77920ec75a7b35986b5fa93b6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:afe3d16bf4d40609d8e86fb840e57c7b7"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="classPhQ_1_1Direction.html">Direction</a>&lt; Number &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Direction.html#afe3d16bf4d40609d8e86fb840e57c7b7">Zero</a> ()</td></tr>
-<tr class="memdesc:afe3d16bf4d40609d8e86fb840e57c7b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Statically creates a direction whose value is the zero vector.  <a href="classPhQ_1_1Direction.html#afe3d16bf4d40609d8e86fb840e57c7b7">More...</a><br /></td></tr>
-<tr class="separator:afe3d16bf4d40609d8e86fb840e57c7b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa4613e097f1a0bd922b07316a9226668"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="classPhQ_1_1Dimensions.html">PhQ::Dimensions</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionlessVector.html#aa4613e097f1a0bd922b07316a9226668">Dimensions</a> ()</td></tr>
-<tr class="memdesc:aa4613e097f1a0bd922b07316a9226668"><td class="mdescLeft">&#160;</td><td class="mdescRight">Physical dimension set of this physical quantity. Since this physical quantity is dimensionless, its physical dimension set is simply the null set.  <a href="classPhQ_1_1DimensionlessVector.html#aa4613e097f1a0bd922b07316a9226668">More...</a><br /></td></tr>
-<tr class="separator:aa4613e097f1a0bd922b07316a9226668"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aadc87ad12ce37b1d36b8a2e2f32b08de"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="classPhQ_1_1Direction.html">Direction</a>&lt; NumericType &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Direction.html#aadc87ad12ce37b1d36b8a2e2f32b08de">Zero</a> ()</td></tr>
+<tr class="memdesc:aadc87ad12ce37b1d36b8a2e2f32b08de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Statically creates a direction whose value is the zero vector.  <a href="classPhQ_1_1Direction.html#aadc87ad12ce37b1d36b8a2e2f32b08de">More...</a><br /></td></tr>
+<tr class="separator:aadc87ad12ce37b1d36b8a2e2f32b08de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae432aafd7c86a1c4660153cd79e5c76a"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="classPhQ_1_1Dimensions.html">PhQ::Dimensions</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionlessVector.html#ae432aafd7c86a1c4660153cd79e5c76a">Dimensions</a> ()</td></tr>
+<tr class="memdesc:ae432aafd7c86a1c4660153cd79e5c76a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Physical dimension set of this physical quantity. Since this physical quantity is dimensionless, its physical dimension set is simply the null set.  <a href="classPhQ_1_1DimensionlessVector.html#ae432aafd7c86a1c4660153cd79e5c76a">More...</a><br /></td></tr>
+<tr class="separator:ae432aafd7c86a1c4660153cd79e5c76a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:a34f486f32e6f515e991a1923441c2b15"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPhQ_1_1Vector.html">PhQ::Vector</a>&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionlessVector.html#a34f486f32e6f515e991a1923441c2b15">value</a></td></tr>
-<tr class="memdesc:a34f486f32e6f515e991a1923441c2b15"><td class="mdescLeft">&#160;</td><td class="mdescRight">Value of this physical quantity.  <a href="classPhQ_1_1DimensionlessVector.html#a34f486f32e6f515e991a1923441c2b15">More...</a><br /></td></tr>
-<tr class="separator:a34f486f32e6f515e991a1923441c2b15"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a2d42bd55a4feb57bfe87fc0887d8c3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPhQ_1_1Vector.html">PhQ::Vector</a>&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionlessVector.html#a9a2d42bd55a4feb57bfe87fc0887d8c3">value</a></td></tr>
+<tr class="memdesc:a9a2d42bd55a4feb57bfe87fc0887d8c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Value of this physical quantity.  <a href="classPhQ_1_1DimensionlessVector.html#a9a2d42bd55a4feb57bfe87fc0887d8c3">More...</a><br /></td></tr>
+<tr class="separator:a9a2d42bd55a4feb57bfe87fc0887d8c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><h3>template&lt;typename Number = double&gt;<br />
-class PhQ::Direction&lt; Number &gt;</h3>
+<div class="textblock"><h3>template&lt;typename NumericType = double&gt;<br />
+class PhQ::Direction&lt; NumericType &gt;</h3>
 
 <p>Three-dimensional Euclidean direction vector. Contains three components in Cartesian coordinates: x, y, and z. Guaranteed to be either a unit vector or the zero vector (0, 0, 0). For a two-dimensional Euclidean direction vector in the XY plane, see <a class="el" href="classPhQ_1_1PlanarDirection.html" title="two-dimensional Euclidean direction vector in the XY plane. Contains two components in Cartesian coor...">PhQ::PlanarDirection</a>. </p>
 
 <p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00117">117</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a7232270e56940abaaf027bab20271710"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7232270e56940abaaf027bab20271710">&#9670;&nbsp;</a></span>Direction() <span class="overload">[1/17]</span></h2>
+<a id="aa31b7d6334e23fc9f482b6bd0b743d05"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa31b7d6334e23fc9f482b6bd0b743d05">&#9670;&nbsp;</a></span>Direction() <span class="overload">[1/17]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Direction.html">PhQ::Direction</a>&lt; Number &gt;::<a class="el" href="classPhQ_1_1Direction.html">Direction</a> </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Direction.html">PhQ::Direction</a>&lt; NumericType &gt;::<a class="el" href="classPhQ_1_1Direction.html">Direction</a> </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -319,33 +319,33 @@ template&lt;typename Number  = double&gt; </div>
 
 </div>
 </div>
-<a id="a76fca2b02fc09d3f81e5d045fff3e77c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a76fca2b02fc09d3f81e5d045fff3e77c">&#9670;&nbsp;</a></span>Direction() <span class="overload">[2/17]</span></h2>
+<a id="aa7c8fe0bcf683d6f4ded0f795a94cceb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa7c8fe0bcf683d6f4ded0f795a94cceb">&#9670;&nbsp;</a></span>Direction() <span class="overload">[2/17]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classPhQ_1_1Direction.html">PhQ::Direction</a>&lt; Number &gt;::<a class="el" href="classPhQ_1_1Direction.html">Direction</a> </td>
+          <td class="memname"><a class="el" href="classPhQ_1_1Direction.html">PhQ::Direction</a>&lt; NumericType &gt;::<a class="el" href="classPhQ_1_1Direction.html">Direction</a> </td>
           <td>(</td>
-          <td class="paramtype">const Number&#160;</td>
+          <td class="paramtype">const NumericType&#160;</td>
           <td class="paramname"><em>x</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const Number&#160;</td>
+          <td class="paramtype">const NumericType&#160;</td>
           <td class="paramname"><em>y</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const Number&#160;</td>
+          <td class="paramtype">const NumericType&#160;</td>
           <td class="paramname"><em>z</em>&#160;</td>
         </tr>
         <tr>
@@ -365,25 +365,25 @@ template&lt;typename Number  = double&gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00125">125</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Direction_8hpp_source.html#l00224">PhQ::Direction&lt; Number &gt;::Set()</a>, <a class="el" href="Direction_8hpp_source.html#l00207">PhQ::Direction&lt; Number &gt;::x()</a>, <a class="el" href="Direction_8hpp_source.html#l00212">PhQ::Direction&lt; Number &gt;::y()</a>, and <a class="el" href="Direction_8hpp_source.html#l00217">PhQ::Direction&lt; Number &gt;::z()</a>.</p>
+<p class="reference">References <a class="el" href="Direction_8hpp_source.html#l00225">PhQ::Direction&lt; NumericType &gt;::Set()</a>, <a class="el" href="Direction_8hpp_source.html#l00208">PhQ::Direction&lt; NumericType &gt;::x()</a>, <a class="el" href="Direction_8hpp_source.html#l00213">PhQ::Direction&lt; NumericType &gt;::y()</a>, and <a class="el" href="Direction_8hpp_source.html#l00218">PhQ::Direction&lt; NumericType &gt;::z()</a>.</p>
 
 </div>
 </div>
-<a id="aa7a026d01ad4847938b1b03d8d7d58a5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa7a026d01ad4847938b1b03d8d7d58a5">&#9670;&nbsp;</a></span>Direction() <span class="overload">[3/17]</span></h2>
+<a id="a3bfcdfff8b60c297ef0120e656df611b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3bfcdfff8b60c297ef0120e656df611b">&#9670;&nbsp;</a></span>Direction() <span class="overload">[3/17]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classPhQ_1_1Direction.html">PhQ::Direction</a>&lt; Number &gt;::<a class="el" href="classPhQ_1_1Direction.html">Direction</a> </td>
+          <td class="memname"><a class="el" href="classPhQ_1_1Direction.html">PhQ::Direction</a>&lt; NumericType &gt;::<a class="el" href="classPhQ_1_1Direction.html">Direction</a> </td>
           <td>(</td>
-          <td class="paramtype">const std::array&lt; Number, 3 &gt; &amp;&#160;</td>
+          <td class="paramtype">const std::array&lt; NumericType, 3 &gt; &amp;&#160;</td>
           <td class="paramname"><em>x_y_z</em></td><td>)</td>
           <td></td>
         </tr>
@@ -397,27 +397,27 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Constructor. Constructs a direction by normalizing a given array representing x, y, and z Cartesian components to a unit vector. If x = 0, y = 0, and z = 0, initializes the direction to the zero vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00132">132</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00133">133</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Direction_8hpp_source.html#l00224">PhQ::Direction&lt; Number &gt;::Set()</a>.</p>
+<p class="reference">References <a class="el" href="Direction_8hpp_source.html#l00225">PhQ::Direction&lt; NumericType &gt;::Set()</a>.</p>
 
 </div>
 </div>
-<a id="a3fbae016d9c1e1a32bfd72d4682617f0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3fbae016d9c1e1a32bfd72d4682617f0">&#9670;&nbsp;</a></span>Direction() <span class="overload">[4/17]</span></h2>
+<a id="a94895def3aa3ce08a485dc799d34d658"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a94895def3aa3ce08a485dc799d34d658">&#9670;&nbsp;</a></span>Direction() <span class="overload">[4/17]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classPhQ_1_1Direction.html">PhQ::Direction</a>&lt; Number &gt;::<a class="el" href="classPhQ_1_1Direction.html">Direction</a> </td>
+          <td class="memname"><a class="el" href="classPhQ_1_1Direction.html">PhQ::Direction</a>&lt; NumericType &gt;::<a class="el" href="classPhQ_1_1Direction.html">Direction</a> </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>value</em></td><td>)</td>
           <td></td>
         </tr>
@@ -431,27 +431,27 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Constructor. Constructs a direction by normalizing the given vector to a unit vector. If the given vector is the zero vector, initializes the direction to the zero vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00138">138</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00139">139</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Direction_8hpp_source.html#l00224">PhQ::Direction&lt; Number &gt;::Set()</a>, and <a class="el" href="DimensionlessVector_8hpp_source.html#l00136">PhQ::DimensionlessVector&lt; double &gt;::value</a>.</p>
+<p class="reference">References <a class="el" href="Direction_8hpp_source.html#l00225">PhQ::Direction&lt; NumericType &gt;::Set()</a>, and <a class="el" href="DimensionlessVector_8hpp_source.html#l00138">PhQ::DimensionlessVector&lt; double &gt;::value</a>.</p>
 
 </div>
 </div>
-<a id="a9387cbde3ca70a2f4d54f5423a95e885"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9387cbde3ca70a2f4d54f5423a95e885">&#9670;&nbsp;</a></span>Direction() <span class="overload">[5/17]</span></h2>
+<a id="a06a8ff7ae94569d31e221a5e49f7eb6d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a06a8ff7ae94569d31e221a5e49f7eb6d">&#9670;&nbsp;</a></span>Direction() <span class="overload">[5/17]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Direction.html">PhQ::Direction</a>&lt; Number &gt;::<a class="el" href="classPhQ_1_1Direction.html">Direction</a> </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Direction.html">PhQ::Direction</a>&lt; NumericType &gt;::<a class="el" href="classPhQ_1_1Direction.html">Direction</a> </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1PlanarDirection.html">PlanarDirection</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1PlanarDirection.html">PlanarDirection</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>planar_direction</em></td><td>)</td>
           <td></td>
         </tr>
@@ -465,27 +465,27 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Constructor. Constructs a direction from a given planar direction in the XY plane. This direction's z-component is initialized to zero. </p>
 
-<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00144">144</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00145">145</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionlessPlanarVector_8hpp_source.html#l00060">PhQ::DimensionlessPlanarVector&lt; Number &gt;::Value()</a>.</p>
+<p class="reference">References <a class="el" href="DimensionlessPlanarVector_8hpp_source.html#l00060">PhQ::DimensionlessPlanarVector&lt; NumericType &gt;::Value()</a>.</p>
 
 </div>
 </div>
-<a id="ab68ff4f3b7296e6d7f97bf6aa30c0c63"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab68ff4f3b7296e6d7f97bf6aa30c0c63">&#9670;&nbsp;</a></span>Direction() <span class="overload">[6/17]</span></h2>
+<a id="a814d6d67768905a4698988e298840aa7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a814d6d67768905a4698988e298840aa7">&#9670;&nbsp;</a></span>Direction() <span class="overload">[6/17]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number &gt; </div>
+template&lt;typename NumericType &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classPhQ_1_1Direction.html">PhQ::Direction</a>&lt; Number &gt;::<a class="el" href="classPhQ_1_1Direction.html">Direction</a> </td>
+          <td class="memname"><a class="el" href="classPhQ_1_1Direction.html">PhQ::Direction</a>&lt; NumericType &gt;::<a class="el" href="classPhQ_1_1Direction.html">Direction</a> </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1Acceleration.html">Acceleration</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1Acceleration.html">Acceleration</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>acceleration</em></td><td>)</td>
           <td></td>
         </tr>
@@ -499,25 +499,25 @@ template&lt;typename Number &gt; </div>
 
 <p>Constructor. Constructs a direction from an acceleration. </p>
 
-<p class="definition">Definition at line <a class="el" href="Acceleration_8hpp_source.html#l00274">274</a> of file <a class="el" href="Acceleration_8hpp_source.html">Acceleration.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Acceleration_8hpp_source.html#l00278">278</a> of file <a class="el" href="Acceleration_8hpp_source.html">Acceleration.hpp</a>.</p>
 
 </div>
 </div>
-<a id="a96d2b6a53f72a48c89d4a12164b0bfe5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a96d2b6a53f72a48c89d4a12164b0bfe5">&#9670;&nbsp;</a></span>Direction() <span class="overload">[7/17]</span></h2>
+<a id="aad8fec3a36539a6c75175cd9601d4e02"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aad8fec3a36539a6c75175cd9601d4e02">&#9670;&nbsp;</a></span>Direction() <span class="overload">[7/17]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number &gt; </div>
+template&lt;typename NumericType &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classPhQ_1_1Direction.html">PhQ::Direction</a>&lt; Number &gt;::<a class="el" href="classPhQ_1_1Direction.html">Direction</a> </td>
+          <td class="memname"><a class="el" href="classPhQ_1_1Direction.html">PhQ::Direction</a>&lt; NumericType &gt;::<a class="el" href="classPhQ_1_1Direction.html">Direction</a> </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1Displacement.html">Displacement</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1Displacement.html">Displacement</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>displacement</em></td><td>)</td>
           <td></td>
         </tr>
@@ -531,25 +531,25 @@ template&lt;typename Number &gt; </div>
 
 <p>Constructor. Constructs a direction from a displacement. </p>
 
-<p class="definition">Definition at line <a class="el" href="Displacement_8hpp_source.html#l00287">287</a> of file <a class="el" href="Displacement_8hpp_source.html">Displacement.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Displacement_8hpp_source.html#l00294">294</a> of file <a class="el" href="Displacement_8hpp_source.html">Displacement.hpp</a>.</p>
 
 </div>
 </div>
-<a id="a83600a8e3cbfa09c9ea33b8265ac9f6c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a83600a8e3cbfa09c9ea33b8265ac9f6c">&#9670;&nbsp;</a></span>Direction() <span class="overload">[8/17]</span></h2>
+<a id="a715c64948e6a03c2c4d508ac4dd8675e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a715c64948e6a03c2c4d508ac4dd8675e">&#9670;&nbsp;</a></span>Direction() <span class="overload">[8/17]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number &gt; </div>
+template&lt;typename NumericType &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classPhQ_1_1Direction.html">PhQ::Direction</a>&lt; Number &gt;::<a class="el" href="classPhQ_1_1Direction.html">Direction</a> </td>
+          <td class="memname"><a class="el" href="classPhQ_1_1Direction.html">PhQ::Direction</a>&lt; NumericType &gt;::<a class="el" href="classPhQ_1_1Direction.html">Direction</a> </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1Force.html">Force</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1Force.html">Force</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>force</em></td><td>)</td>
           <td></td>
         </tr>
@@ -563,25 +563,25 @@ template&lt;typename Number &gt; </div>
 
 <p>Constructor. Constructs a direction from a force. </p>
 
-<p class="definition">Definition at line <a class="el" href="Force_8hpp_source.html#l00249">249</a> of file <a class="el" href="Force_8hpp_source.html">Force.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Force_8hpp_source.html#l00259">259</a> of file <a class="el" href="Force_8hpp_source.html">Force.hpp</a>.</p>
 
 </div>
 </div>
-<a id="a47c12240091e752b0cc7624c59823c59"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a47c12240091e752b0cc7624c59823c59">&#9670;&nbsp;</a></span>Direction() <span class="overload">[9/17]</span></h2>
+<a id="a70837345cf08231bd823acf6e7ee5683"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a70837345cf08231bd823acf6e7ee5683">&#9670;&nbsp;</a></span>Direction() <span class="overload">[9/17]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number &gt; </div>
+template&lt;typename NumericType &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classPhQ_1_1Direction.html">PhQ::Direction</a>&lt; Number &gt;::<a class="el" href="classPhQ_1_1Direction.html">Direction</a> </td>
+          <td class="memname"><a class="el" href="classPhQ_1_1Direction.html">PhQ::Direction</a>&lt; NumericType &gt;::<a class="el" href="classPhQ_1_1Direction.html">Direction</a> </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1HeatFlux.html">HeatFlux</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1HeatFlux.html">HeatFlux</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>heat_flux</em></td><td>)</td>
           <td></td>
         </tr>
@@ -595,25 +595,25 @@ template&lt;typename Number &gt; </div>
 
 <p>Constructor. Constructs a direction from a heat flux. </p>
 
-<p class="definition">Definition at line <a class="el" href="HeatFlux_8hpp_source.html#l00269">269</a> of file <a class="el" href="HeatFlux_8hpp_source.html">HeatFlux.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="HeatFlux_8hpp_source.html#l00272">272</a> of file <a class="el" href="HeatFlux_8hpp_source.html">HeatFlux.hpp</a>.</p>
 
 </div>
 </div>
-<a id="a1146324bf735e378198edaf74959d527"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1146324bf735e378198edaf74959d527">&#9670;&nbsp;</a></span>Direction() <span class="overload">[10/17]</span></h2>
+<a id="afd73bf06948e8ac02be36329524e503f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afd73bf06948e8ac02be36329524e503f">&#9670;&nbsp;</a></span>Direction() <span class="overload">[10/17]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number &gt; </div>
+template&lt;typename NumericType &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classPhQ_1_1Direction.html">PhQ::Direction</a>&lt; Number &gt;::<a class="el" href="classPhQ_1_1Direction.html">Direction</a> </td>
+          <td class="memname"><a class="el" href="classPhQ_1_1Direction.html">PhQ::Direction</a>&lt; NumericType &gt;::<a class="el" href="classPhQ_1_1Direction.html">Direction</a> </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1Position.html">Position</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1Position.html">Position</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>position</em></td><td>)</td>
           <td></td>
         </tr>
@@ -627,25 +627,25 @@ template&lt;typename Number &gt; </div>
 
 <p>Constructor. Constructs a direction from a position. </p>
 
-<p class="definition">Definition at line <a class="el" href="Position_8hpp_source.html#l00271">271</a> of file <a class="el" href="Position_8hpp_source.html">Position.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Position_8hpp_source.html#l00274">274</a> of file <a class="el" href="Position_8hpp_source.html">Position.hpp</a>.</p>
 
 </div>
 </div>
-<a id="a9c1a5823fa54975bcef96ddf96d1b4b3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9c1a5823fa54975bcef96ddf96d1b4b3">&#9670;&nbsp;</a></span>Direction() <span class="overload">[11/17]</span></h2>
+<a id="ab83efb7d3114a109b843a5a60c931497"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab83efb7d3114a109b843a5a60c931497">&#9670;&nbsp;</a></span>Direction() <span class="overload">[11/17]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number &gt; </div>
+template&lt;typename NumericType &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classPhQ_1_1Direction.html">PhQ::Direction</a>&lt; Number &gt;::<a class="el" href="classPhQ_1_1Direction.html">Direction</a> </td>
+          <td class="memname"><a class="el" href="classPhQ_1_1Direction.html">PhQ::Direction</a>&lt; NumericType &gt;::<a class="el" href="classPhQ_1_1Direction.html">Direction</a> </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1TemperatureGradient.html">TemperatureGradient</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1TemperatureGradient.html">TemperatureGradient</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>temperature_gradient</em></td><td>)</td>
           <td></td>
         </tr>
@@ -659,25 +659,25 @@ template&lt;typename Number &gt; </div>
 
 <p>Constructor. Constructs a direction from a temperature gradient. </p>
 
-<p class="definition">Definition at line <a class="el" href="TemperatureGradient_8hpp_source.html#l00269">269</a> of file <a class="el" href="TemperatureGradient_8hpp_source.html">TemperatureGradient.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="TemperatureGradient_8hpp_source.html#l00271">271</a> of file <a class="el" href="TemperatureGradient_8hpp_source.html">TemperatureGradient.hpp</a>.</p>
 
 </div>
 </div>
-<a id="a52b9cef85e96d7bb18e915e3310eead3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a52b9cef85e96d7bb18e915e3310eead3">&#9670;&nbsp;</a></span>Direction() <span class="overload">[12/17]</span></h2>
+<a id="afe4cd5e9230bec32175065ec65f7b72f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afe4cd5e9230bec32175065ec65f7b72f">&#9670;&nbsp;</a></span>Direction() <span class="overload">[12/17]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number &gt; </div>
+template&lt;typename NumericType &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classPhQ_1_1Direction.html">PhQ::Direction</a>&lt; Number &gt;::<a class="el" href="classPhQ_1_1Direction.html">Direction</a> </td>
+          <td class="memname"><a class="el" href="classPhQ_1_1Direction.html">PhQ::Direction</a>&lt; NumericType &gt;::<a class="el" href="classPhQ_1_1Direction.html">Direction</a> </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1Traction.html">Traction</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1Traction.html">Traction</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>traction</em></td><td>)</td>
           <td></td>
         </tr>
@@ -691,25 +691,25 @@ template&lt;typename Number &gt; </div>
 
 <p>Constructor. Constructs a direction from a traction. </p>
 
-<p class="definition">Definition at line <a class="el" href="Traction_8hpp_source.html#l00268">268</a> of file <a class="el" href="Traction_8hpp_source.html">Traction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Traction_8hpp_source.html#l00270">270</a> of file <a class="el" href="Traction_8hpp_source.html">Traction.hpp</a>.</p>
 
 </div>
 </div>
-<a id="ad9c3b5ecebdf10356bf86b72eaf762bb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad9c3b5ecebdf10356bf86b72eaf762bb">&#9670;&nbsp;</a></span>Direction() <span class="overload">[13/17]</span></h2>
+<a id="a06af7e84e7c137cddea4607d61d79b82"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a06af7e84e7c137cddea4607d61d79b82">&#9670;&nbsp;</a></span>Direction() <span class="overload">[13/17]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number &gt; </div>
+template&lt;typename NumericType &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classPhQ_1_1Direction.html">PhQ::Direction</a>&lt; Number &gt;::<a class="el" href="classPhQ_1_1Direction.html">Direction</a> </td>
+          <td class="memname"><a class="el" href="classPhQ_1_1Direction.html">PhQ::Direction</a>&lt; NumericType &gt;::<a class="el" href="classPhQ_1_1Direction.html">Direction</a> </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1VectorArea.html">VectorArea</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1VectorArea.html">VectorArea</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>vector_area</em></td><td>)</td>
           <td></td>
         </tr>
@@ -723,25 +723,25 @@ template&lt;typename Number &gt; </div>
 
 <p>Constructor. Constructs a direction from a vector area. </p>
 
-<p class="definition">Definition at line <a class="el" href="VectorArea_8hpp_source.html#l00240">240</a> of file <a class="el" href="VectorArea_8hpp_source.html">VectorArea.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="VectorArea_8hpp_source.html#l00242">242</a> of file <a class="el" href="VectorArea_8hpp_source.html">VectorArea.hpp</a>.</p>
 
 </div>
 </div>
-<a id="a3561eb7ca663d371b9c2493d0cadc2bc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3561eb7ca663d371b9c2493d0cadc2bc">&#9670;&nbsp;</a></span>Direction() <span class="overload">[14/17]</span></h2>
+<a id="a86e11ccc57fd7b90e29eebba3a383394"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a86e11ccc57fd7b90e29eebba3a383394">&#9670;&nbsp;</a></span>Direction() <span class="overload">[14/17]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number &gt; </div>
+template&lt;typename NumericType &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classPhQ_1_1Direction.html">PhQ::Direction</a>&lt; Number &gt;::<a class="el" href="classPhQ_1_1Direction.html">Direction</a> </td>
+          <td class="memname"><a class="el" href="classPhQ_1_1Direction.html">PhQ::Direction</a>&lt; NumericType &gt;::<a class="el" href="classPhQ_1_1Direction.html">Direction</a> </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1Velocity.html">Velocity</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1Velocity.html">Velocity</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>velocity</em></td><td>)</td>
           <td></td>
         </tr>
@@ -755,23 +755,23 @@ template&lt;typename Number &gt; </div>
 
 <p>Constructor. Constructs a direction from a velocity. </p>
 
-<p class="definition">Definition at line <a class="el" href="Velocity_8hpp_source.html#l00282">282</a> of file <a class="el" href="Velocity_8hpp_source.html">Velocity.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Velocity_8hpp_source.html#l00287">287</a> of file <a class="el" href="Velocity_8hpp_source.html">Velocity.hpp</a>.</p>
 
 </div>
 </div>
-<a id="afb8618fcd4141a616370a5b316b0b39f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afb8618fcd4141a616370a5b316b0b39f">&#9670;&nbsp;</a></span>~Direction()</h2>
+<a id="a2eae1ecf2ec60325d358ddce129b1e98"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2eae1ecf2ec60325d358ddce129b1e98">&#9670;&nbsp;</a></span>~Direction()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classPhQ_1_1Direction.html">PhQ::Direction</a>&lt; Number &gt;::~<a class="el" href="classPhQ_1_1Direction.html">Direction</a> </td>
+          <td class="memname"><a class="el" href="classPhQ_1_1Direction.html">PhQ::Direction</a>&lt; NumericType &gt;::~<a class="el" href="classPhQ_1_1Direction.html">Direction</a> </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -788,21 +788,21 @@ template&lt;typename Number  = double&gt; </div>
 
 </div>
 </div>
-<a id="ab81ef00fb9a244288654f956d8656699"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab81ef00fb9a244288654f956d8656699">&#9670;&nbsp;</a></span>Direction() <span class="overload">[15/17]</span></h2>
+<a id="aa14b0ed8c7cab639e1d74e6912740d31"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa14b0ed8c7cab639e1d74e6912740d31">&#9670;&nbsp;</a></span>Direction() <span class="overload">[15/17]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Direction.html">PhQ::Direction</a>&lt; Number &gt;::<a class="el" href="classPhQ_1_1Direction.html">Direction</a> </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Direction.html">PhQ::Direction</a>&lt; NumericType &gt;::<a class="el" href="classPhQ_1_1Direction.html">Direction</a> </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1Direction.html">Direction</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1Direction.html">Direction</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>other</em></td><td>)</td>
           <td></td>
         </tr>
@@ -818,23 +818,23 @@ template&lt;typename Number  = double&gt; </div>
 
 </div>
 </div>
-<a id="a600472586855d6c35900f229c6b01dbe"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a600472586855d6c35900f229c6b01dbe">&#9670;&nbsp;</a></span>Direction() <span class="overload">[16/17]</span></h2>
+<a id="a08ced056e4fced0dbcca63ab60696491"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a08ced056e4fced0dbcca63ab60696491">&#9670;&nbsp;</a></span>Direction() <span class="overload">[16/17]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <div class="memtemplate">
-template&lt;typename OtherNumber &gt; </div>
+template&lt;typename OtherNumericType &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Direction.html">PhQ::Direction</a>&lt; Number &gt;::<a class="el" href="classPhQ_1_1Direction.html">Direction</a> </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Direction.html">PhQ::Direction</a>&lt; NumericType &gt;::<a class="el" href="classPhQ_1_1Direction.html">Direction</a> </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1Direction.html">Direction</a>&lt; OtherNumber &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1Direction.html">Direction</a>&lt; OtherNumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>other</em></td><td>)</td>
           <td></td>
         </tr>
@@ -848,25 +848,25 @@ template&lt;typename OtherNumber &gt; </div>
 
 <p>Copy constructor. Constructs a direction by copying another one. </p>
 
-<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00182">182</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00183">183</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
 
 </div>
 </div>
-<a id="af946a78bb096306346d771326e722020"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af946a78bb096306346d771326e722020">&#9670;&nbsp;</a></span>Direction() <span class="overload">[17/17]</span></h2>
+<a id="a51094a75b9ab68cdfc520a7d71f207aa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a51094a75b9ab68cdfc520a7d71f207aa">&#9670;&nbsp;</a></span>Direction() <span class="overload">[17/17]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Direction.html">PhQ::Direction</a>&lt; Number &gt;::<a class="el" href="classPhQ_1_1Direction.html">Direction</a> </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Direction.html">PhQ::Direction</a>&lt; NumericType &gt;::<a class="el" href="classPhQ_1_1Direction.html">Direction</a> </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classPhQ_1_1Direction.html">Direction</a>&lt; Number &gt; &amp;&amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="classPhQ_1_1Direction.html">Direction</a>&lt; NumericType &gt; &amp;&amp;&#160;</td>
           <td class="paramname"><em>other</em></td><td>)</td>
           <td></td>
         </tr>
@@ -883,21 +883,21 @@ template&lt;typename Number  = double&gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a2f4f4002dc7993c762d6c7b7b7b80d04"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2f4f4002dc7993c762d6c7b7b7b80d04">&#9670;&nbsp;</a></span>Angle() <span class="overload">[1/2]</span></h2>
+<a id="a98f1e4dd1fc241a5eee22f3eecb4165b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a98f1e4dd1fc241a5eee22f3eecb4165b">&#9670;&nbsp;</a></span>Angle() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classPhQ_1_1Angle.html">PhQ::Angle</a>&lt;Number&gt; <a class="el" href="classPhQ_1_1Direction.html">PhQ::Direction</a>&lt; Number &gt;::<a class="el" href="classPhQ_1_1Angle.html">Angle</a> </td>
+          <td class="memname"><a class="el" href="classPhQ_1_1Angle.html">PhQ::Angle</a>&lt;NumericType&gt; <a class="el" href="classPhQ_1_1Direction.html">PhQ::Direction</a>&lt; NumericType &gt;::<a class="el" href="classPhQ_1_1Angle.html">Angle</a> </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1Direction.html">Direction</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1Direction.html">Direction</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>direction</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -911,25 +911,25 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the angle between this direction and the given other direction. </p>
 
-<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00303">303</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00305">305</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
 
 </div>
 </div>
-<a id="a004dca467a8bb5cb58d60e9bfd30a2a5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a004dca467a8bb5cb58d60e9bfd30a2a5">&#9670;&nbsp;</a></span>Angle() <span class="overload">[2/2]</span></h2>
+<a id="a650f6385b19c78da4c02f0504c79a949"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a650f6385b19c78da4c02f0504c79a949">&#9670;&nbsp;</a></span>Angle() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classPhQ_1_1Angle.html">PhQ::Angle</a>&lt;Number&gt; <a class="el" href="classPhQ_1_1Direction.html">PhQ::Direction</a>&lt; Number &gt;::<a class="el" href="classPhQ_1_1Angle.html">Angle</a> </td>
+          <td class="memname"><a class="el" href="classPhQ_1_1Angle.html">PhQ::Angle</a>&lt;NumericType&gt; <a class="el" href="classPhQ_1_1Direction.html">PhQ::Direction</a>&lt; NumericType &gt;::<a class="el" href="classPhQ_1_1Angle.html">Angle</a> </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>vector</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -943,25 +943,25 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the angle between this direction and the given vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00298">298</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00300">300</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
 
 </div>
 </div>
-<a id="a7f3b246a9cf9a6213bf92ddfc2a65969"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7f3b246a9cf9a6213bf92ddfc2a65969">&#9670;&nbsp;</a></span>Cross() <span class="overload">[1/2]</span></h2>
+<a id="a7fbb4c10d7a30fc014c29bece1c92613"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7fbb4c10d7a30fc014c29bece1c92613">&#9670;&nbsp;</a></span>Cross() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classPhQ_1_1Direction.html">Direction</a>&lt;Number&gt; <a class="el" href="classPhQ_1_1Direction.html">PhQ::Direction</a>&lt; Number &gt;::Cross </td>
+          <td class="memname"><a class="el" href="classPhQ_1_1Direction.html">Direction</a>&lt;NumericType&gt; <a class="el" href="classPhQ_1_1Direction.html">PhQ::Direction</a>&lt; NumericType &gt;::Cross </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1Direction.html">Direction</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1Direction.html">Direction</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>direction</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -975,27 +975,27 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the cross product of this direction with the given other direction. </p>
 
-<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00283">283</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00285">285</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00228">PhQ::Vector&lt; Number &gt;::Cross()</a>, <a class="el" href="DimensionlessVector_8hpp_source.html#l00136">PhQ::DimensionlessVector&lt; Number &gt;::value</a>, and <a class="el" href="DimensionlessVector_8hpp_source.html#l00136">PhQ::DimensionlessVector&lt; double &gt;::value</a>.</p>
+<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00230">PhQ::Vector&lt; NumericType &gt;::Cross()</a>, <a class="el" href="DimensionlessVector_8hpp_source.html#l00138">PhQ::DimensionlessVector&lt; NumericType &gt;::value</a>, and <a class="el" href="DimensionlessVector_8hpp_source.html#l00138">PhQ::DimensionlessVector&lt; double &gt;::value</a>.</p>
 
 </div>
 </div>
-<a id="ab27d5b93975615593bae1acf732bc5e0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab27d5b93975615593bae1acf732bc5e0">&#9670;&nbsp;</a></span>Cross() <span class="overload">[2/2]</span></h2>
+<a id="ad579416d08128e14364bdd31ffbb2faa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad579416d08128e14364bdd31ffbb2faa">&#9670;&nbsp;</a></span>Cross() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt;Number&gt; <a class="el" href="classPhQ_1_1Direction.html">PhQ::Direction</a>&lt; Number &gt;::Cross </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt;NumericType&gt; <a class="el" href="classPhQ_1_1Direction.html">PhQ::Direction</a>&lt; NumericType &gt;::Cross </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>vector</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -1009,16 +1009,16 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the cross product of this direction with the given vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00278">278</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00280">280</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00228">PhQ::Vector&lt; Number &gt;::Cross()</a>, and <a class="el" href="DimensionlessVector_8hpp_source.html#l00136">PhQ::DimensionlessVector&lt; double &gt;::value</a>.</p>
+<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00230">PhQ::Vector&lt; NumericType &gt;::Cross()</a>, and <a class="el" href="DimensionlessVector_8hpp_source.html#l00138">PhQ::DimensionlessVector&lt; double &gt;::value</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="Direction_8hpp_source.html#l00431">PhQ::PlanarDirection&lt; Number &gt;::Cross()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="Direction_8hpp_source.html#l00440">PhQ::PlanarDirection&lt; NumericType &gt;::Cross()</a>.</p>
 
 </div>
 </div>
-<a id="aa4613e097f1a0bd922b07316a9226668"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa4613e097f1a0bd922b07316a9226668">&#9670;&nbsp;</a></span>Dimensions()</h2>
+<a id="ae432aafd7c86a1c4660153cd79e5c76a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae432aafd7c86a1c4660153cd79e5c76a">&#9670;&nbsp;</a></span>Dimensions()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1046,21 +1046,21 @@ template&lt;typename Number  = double&gt; </div>
 
 </div>
 </div>
-<a id="a7b0fccbb1e0fd4797d2ac7cee3efcb8e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7b0fccbb1e0fd4797d2ac7cee3efcb8e">&#9670;&nbsp;</a></span>Dot() <span class="overload">[1/2]</span></h2>
+<a id="aaa58aded258ec167739c536495b56837"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaa58aded258ec167739c536495b56837">&#9670;&nbsp;</a></span>Dot() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr Number <a class="el" href="classPhQ_1_1Direction.html">PhQ::Direction</a>&lt; Number &gt;::Dot </td>
+          <td class="memname">constexpr NumericType <a class="el" href="classPhQ_1_1Direction.html">PhQ::Direction</a>&lt; NumericType &gt;::Dot </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1Direction.html">Direction</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1Direction.html">Direction</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>direction</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -1074,27 +1074,27 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the dot product (also known as the scalar product or the inner product) of this direction with the given other direction. </p>
 
-<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00273">273</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00275">275</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00217">PhQ::Vector&lt; Number &gt;::Dot()</a>, and <a class="el" href="DimensionlessVector_8hpp_source.html#l00136">PhQ::DimensionlessVector&lt; double &gt;::value</a>.</p>
+<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00218">PhQ::Vector&lt; NumericType &gt;::Dot()</a>, and <a class="el" href="DimensionlessVector_8hpp_source.html#l00138">PhQ::DimensionlessVector&lt; double &gt;::value</a>.</p>
 
 </div>
 </div>
-<a id="a348c44dd7c37d2085ffd5f657a261bfa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a348c44dd7c37d2085ffd5f657a261bfa">&#9670;&nbsp;</a></span>Dot() <span class="overload">[2/2]</span></h2>
+<a id="ad94f31a5fdac2a24c629ffa2690ed28e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad94f31a5fdac2a24c629ffa2690ed28e">&#9670;&nbsp;</a></span>Dot() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr Number <a class="el" href="classPhQ_1_1Direction.html">PhQ::Direction</a>&lt; Number &gt;::Dot </td>
+          <td class="memname">constexpr NumericType <a class="el" href="classPhQ_1_1Direction.html">PhQ::Direction</a>&lt; NumericType &gt;::Dot </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>vector</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -1108,27 +1108,27 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the dot product (also known as the scalar product or the inner product) of this direction with the given vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00267">267</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00269">269</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00217">PhQ::Vector&lt; Number &gt;::Dot()</a>, and <a class="el" href="DimensionlessVector_8hpp_source.html#l00136">PhQ::DimensionlessVector&lt; double &gt;::value</a>.</p>
+<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00218">PhQ::Vector&lt; NumericType &gt;::Dot()</a>, and <a class="el" href="DimensionlessVector_8hpp_source.html#l00138">PhQ::DimensionlessVector&lt; double &gt;::value</a>.</p>
 
 </div>
 </div>
-<a id="ac1205c86b96d7f51611f2864462f99fd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac1205c86b96d7f51611f2864462f99fd">&#9670;&nbsp;</a></span>Dyadic() <span class="overload">[1/2]</span></h2>
+<a id="a1236a5796cad0820f6eed57aea94105a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1236a5796cad0820f6eed57aea94105a">&#9670;&nbsp;</a></span>Dyadic() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Dyad.html">Dyad</a>&lt;Number&gt; <a class="el" href="classPhQ_1_1Direction.html">PhQ::Direction</a>&lt; Number &gt;::Dyadic </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Dyad.html">Dyad</a>&lt;NumericType&gt; <a class="el" href="classPhQ_1_1Direction.html">PhQ::Direction</a>&lt; NumericType &gt;::Dyadic </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1Direction.html">Direction</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1Direction.html">Direction</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>direction</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -1142,27 +1142,27 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the dyadic product of this direction with the given other direction. </p>
 
-<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00293">293</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00295">295</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Dyad_8hpp_source.html#l00705">PhQ::Vector&lt; Number &gt;::Dyadic()</a>, <a class="el" href="DimensionlessVector_8hpp_source.html#l00136">PhQ::DimensionlessVector&lt; Number &gt;::value</a>, and <a class="el" href="DimensionlessVector_8hpp_source.html#l00136">PhQ::DimensionlessVector&lt; double &gt;::value</a>.</p>
+<p class="reference">References <a class="el" href="Dyad_8hpp_source.html#l00724">PhQ::Vector&lt; NumericType &gt;::Dyadic()</a>, <a class="el" href="DimensionlessVector_8hpp_source.html#l00138">PhQ::DimensionlessVector&lt; NumericType &gt;::value</a>, and <a class="el" href="DimensionlessVector_8hpp_source.html#l00138">PhQ::DimensionlessVector&lt; double &gt;::value</a>.</p>
 
 </div>
 </div>
-<a id="a759a5704755ebe6e1734fb5f3319d2b2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a759a5704755ebe6e1734fb5f3319d2b2">&#9670;&nbsp;</a></span>Dyadic() <span class="overload">[2/2]</span></h2>
+<a id="a4c067ca880809b43d4881afdb9747bbc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c067ca880809b43d4881afdb9747bbc">&#9670;&nbsp;</a></span>Dyadic() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Dyad.html">Dyad</a>&lt;Number&gt; <a class="el" href="classPhQ_1_1Direction.html">PhQ::Direction</a>&lt; Number &gt;::Dyadic </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Dyad.html">Dyad</a>&lt;NumericType&gt; <a class="el" href="classPhQ_1_1Direction.html">PhQ::Direction</a>&lt; NumericType &gt;::Dyadic </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>vector</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -1176,14 +1176,14 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the dyadic product of this direction with the given vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00288">288</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00290">290</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Dyad_8hpp_source.html#l00705">PhQ::Vector&lt; Number &gt;::Dyadic()</a>, and <a class="el" href="DimensionlessVector_8hpp_source.html#l00136">PhQ::DimensionlessVector&lt; double &gt;::value</a>.</p>
+<p class="reference">References <a class="el" href="Dyad_8hpp_source.html#l00724">PhQ::Vector&lt; NumericType &gt;::Dyadic()</a>, and <a class="el" href="DimensionlessVector_8hpp_source.html#l00138">PhQ::DimensionlessVector&lt; double &gt;::value</a>.</p>
 
 </div>
 </div>
-<a id="a76ee3dc1b677da023412a874f2a6bba2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a76ee3dc1b677da023412a874f2a6bba2">&#9670;&nbsp;</a></span>JSON()</h2>
+<a id="a88efbb2d8b8cbbb8e154a5e5e7987a7f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a88efbb2d8b8cbbb8e154a5e5e7987a7f">&#9670;&nbsp;</a></span>JSON()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1211,19 +1211,19 @@ template&lt;typename Number  = double&gt; </div>
 
 </div>
 </div>
-<a id="a9a49d162aef8eaaad4077b56383fdd0e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9a49d162aef8eaaad4077b56383fdd0e">&#9670;&nbsp;</a></span>Magnitude()</h2>
+<a id="aede61422e71e11d72a89b4177a6eb1f6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aede61422e71e11d72a89b4177a6eb1f6">&#9670;&nbsp;</a></span>Magnitude()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Number <a class="el" href="classPhQ_1_1Direction.html">PhQ::Direction</a>&lt; Number &gt;::Magnitude </td>
+          <td class="memname">NumericType <a class="el" href="classPhQ_1_1Direction.html">PhQ::Direction</a>&lt; NumericType &gt;::Magnitude </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -1238,25 +1238,25 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the magnitude of this direction. This is guaranteed to be exactly 1 if the direction is not the zero vector, or 0 if the direction is the zero vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00261">261</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00263">263</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00208">PhQ::Vector&lt; Number &gt;::Magnitude()</a>, and <a class="el" href="DimensionlessVector_8hpp_source.html#l00136">PhQ::DimensionlessVector&lt; double &gt;::value</a>.</p>
+<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00209">PhQ::Vector&lt; NumericType &gt;::Magnitude()</a>, and <a class="el" href="DimensionlessVector_8hpp_source.html#l00138">PhQ::DimensionlessVector&lt; double &gt;::value</a>.</p>
 
 </div>
 </div>
-<a id="ab8b0972b438b9a9529307acef669c280"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab8b0972b438b9a9529307acef669c280">&#9670;&nbsp;</a></span>MagnitudeSquared()</h2>
+<a id="af7306ddb79593e550a101377bd0bc64c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af7306ddb79593e550a101377bd0bc64c">&#9670;&nbsp;</a></span>MagnitudeSquared()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr Number <a class="el" href="classPhQ_1_1Direction.html">PhQ::Direction</a>&lt; Number &gt;::MagnitudeSquared </td>
+          <td class="memname">constexpr NumericType <a class="el" href="classPhQ_1_1Direction.html">PhQ::Direction</a>&lt; NumericType &gt;::MagnitudeSquared </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -1271,27 +1271,27 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the square of the magnitude of this direction. This is guaranteed to be exactly 1 if the direction is not the zero vector, or 0 if the direction is the zero vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00255">255</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00257">257</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00203">PhQ::Vector&lt; Number &gt;::MagnitudeSquared()</a>, and <a class="el" href="DimensionlessVector_8hpp_source.html#l00136">PhQ::DimensionlessVector&lt; double &gt;::value</a>.</p>
+<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00204">PhQ::Vector&lt; NumericType &gt;::MagnitudeSquared()</a>, and <a class="el" href="DimensionlessVector_8hpp_source.html#l00138">PhQ::DimensionlessVector&lt; double &gt;::value</a>.</p>
 
 </div>
 </div>
-<a id="a249ce44a399bed6d455747d9cd12e5b0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a249ce44a399bed6d455747d9cd12e5b0">&#9670;&nbsp;</a></span>operator*() <span class="overload">[1/8]</span></h2>
+<a id="ae604f4c6315d5da9a4e5cce4f93303f9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae604f4c6315d5da9a4e5cce4f93303f9">&#9670;&nbsp;</a></span>operator*() <span class="overload">[1/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number &gt; </div>
+template&lt;typename NumericType &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1VectorArea.html">VectorArea</a>&lt; Number &gt; <a class="el" href="classPhQ_1_1Direction.html">PhQ::Direction</a>&lt; Number &gt;::operator* </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1VectorArea.html">VectorArea</a>&lt; NumericType &gt; <a class="el" href="classPhQ_1_1Direction.html">PhQ::Direction</a>&lt; NumericType &gt;::operator* </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1Area.html">Area</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1Area.html">Area</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>area</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -1303,25 +1303,25 @@ template&lt;typename Number &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="VectorArea_8hpp_source.html#l00249">249</a> of file <a class="el" href="VectorArea_8hpp_source.html">VectorArea.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="VectorArea_8hpp_source.html#l00251">251</a> of file <a class="el" href="VectorArea_8hpp_source.html">VectorArea.hpp</a>.</p>
 
 </div>
 </div>
-<a id="aa0bdf35fd5224e2175772d39a49cc009"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa0bdf35fd5224e2175772d39a49cc009">&#9670;&nbsp;</a></span>operator*() <span class="overload">[2/8]</span></h2>
+<a id="aa40aeb5041e9df932016e9eb69bc37ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa40aeb5041e9df932016e9eb69bc37ff">&#9670;&nbsp;</a></span>operator*() <span class="overload">[2/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number &gt; </div>
+template&lt;typename NumericType &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Position.html">Position</a>&lt; Number &gt; <a class="el" href="classPhQ_1_1Direction.html">PhQ::Direction</a>&lt; Number &gt;::operator* </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Position.html">Position</a>&lt; NumericType &gt; <a class="el" href="classPhQ_1_1Direction.html">PhQ::Direction</a>&lt; NumericType &gt;::operator* </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1Length.html">Length</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1Length.html">Length</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>length</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -1333,25 +1333,25 @@ template&lt;typename Number &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Position_8hpp_source.html#l00295">295</a> of file <a class="el" href="Position_8hpp_source.html">Position.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Position_8hpp_source.html#l00299">299</a> of file <a class="el" href="Position_8hpp_source.html">Position.hpp</a>.</p>
 
 </div>
 </div>
-<a id="a36940e4c6f156dbf5c27ea9370ffdc50"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a36940e4c6f156dbf5c27ea9370ffdc50">&#9670;&nbsp;</a></span>operator*() <span class="overload">[3/8]</span></h2>
+<a id="af73d7dc5d5581258169364ad16e4e1ce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af73d7dc5d5581258169364ad16e4e1ce">&#9670;&nbsp;</a></span>operator*() <span class="overload">[3/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number &gt; </div>
+template&lt;typename NumericType &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Acceleration.html">Acceleration</a>&lt; Number &gt; <a class="el" href="classPhQ_1_1Direction.html">PhQ::Direction</a>&lt; Number &gt;::operator* </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Acceleration.html">Acceleration</a>&lt; NumericType &gt; <a class="el" href="classPhQ_1_1Direction.html">PhQ::Direction</a>&lt; NumericType &gt;::operator* </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1ScalarAcceleration.html">ScalarAcceleration</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1ScalarAcceleration.html">ScalarAcceleration</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>scalar_acceleration</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -1363,25 +1363,25 @@ template&lt;typename Number &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Acceleration_8hpp_source.html#l00298">298</a> of file <a class="el" href="Acceleration_8hpp_source.html">Acceleration.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Acceleration_8hpp_source.html#l00302">302</a> of file <a class="el" href="Acceleration_8hpp_source.html">Acceleration.hpp</a>.</p>
 
 </div>
 </div>
-<a id="ab664736b06e2a47d03dc3fb09bb0709b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab664736b06e2a47d03dc3fb09bb0709b">&#9670;&nbsp;</a></span>operator*() <span class="overload">[4/8]</span></h2>
+<a id="a3dc649b0a23a3629df1927994fb3cf37"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3dc649b0a23a3629df1927994fb3cf37">&#9670;&nbsp;</a></span>operator*() <span class="overload">[4/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number &gt; </div>
+template&lt;typename NumericType &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Force.html">Force</a>&lt; Number &gt; <a class="el" href="classPhQ_1_1Direction.html">PhQ::Direction</a>&lt; Number &gt;::operator* </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Force.html">Force</a>&lt; NumericType &gt; <a class="el" href="classPhQ_1_1Direction.html">PhQ::Direction</a>&lt; NumericType &gt;::operator* </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1ScalarForce.html">ScalarForce</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1ScalarForce.html">ScalarForce</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>scalar_force</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -1393,25 +1393,25 @@ template&lt;typename Number &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Force_8hpp_source.html#l00257">257</a> of file <a class="el" href="Force_8hpp_source.html">Force.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Force_8hpp_source.html#l00267">267</a> of file <a class="el" href="Force_8hpp_source.html">Force.hpp</a>.</p>
 
 </div>
 </div>
-<a id="a1b598224a97c3cf5c41c4ffdea7c3529"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1b598224a97c3cf5c41c4ffdea7c3529">&#9670;&nbsp;</a></span>operator*() <span class="overload">[5/8]</span></h2>
+<a id="aaccfaacf883141b89893b72f0d88c53b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaccfaacf883141b89893b72f0d88c53b">&#9670;&nbsp;</a></span>operator*() <span class="overload">[5/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number &gt; </div>
+template&lt;typename NumericType &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1HeatFlux.html">HeatFlux</a>&lt; Number &gt; <a class="el" href="classPhQ_1_1Direction.html">PhQ::Direction</a>&lt; Number &gt;::operator* </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1HeatFlux.html">HeatFlux</a>&lt; NumericType &gt; <a class="el" href="classPhQ_1_1Direction.html">PhQ::Direction</a>&lt; NumericType &gt;::operator* </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1ScalarHeatFlux.html">ScalarHeatFlux</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1ScalarHeatFlux.html">ScalarHeatFlux</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>scalar_heat_flux</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -1423,25 +1423,25 @@ template&lt;typename Number &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="HeatFlux_8hpp_source.html#l00278">278</a> of file <a class="el" href="HeatFlux_8hpp_source.html">HeatFlux.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="HeatFlux_8hpp_source.html#l00281">281</a> of file <a class="el" href="HeatFlux_8hpp_source.html">HeatFlux.hpp</a>.</p>
 
 </div>
 </div>
-<a id="acccd3afe9ca1b76994c55eb2d86c995f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acccd3afe9ca1b76994c55eb2d86c995f">&#9670;&nbsp;</a></span>operator*() <span class="overload">[6/8]</span></h2>
+<a id="a0495938de145b3d1326efd7821fc44be"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0495938de145b3d1326efd7821fc44be">&#9670;&nbsp;</a></span>operator*() <span class="overload">[6/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number &gt; </div>
+template&lt;typename NumericType &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1TemperatureGradient.html">TemperatureGradient</a>&lt; Number &gt; <a class="el" href="classPhQ_1_1Direction.html">PhQ::Direction</a>&lt; Number &gt;::operator* </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1TemperatureGradient.html">TemperatureGradient</a>&lt; NumericType &gt; <a class="el" href="classPhQ_1_1Direction.html">PhQ::Direction</a>&lt; NumericType &gt;::operator* </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1ScalarTemperatureGradient.html">ScalarTemperatureGradient</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1ScalarTemperatureGradient.html">ScalarTemperatureGradient</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>scalar_temperature_gradient</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -1453,25 +1453,25 @@ template&lt;typename Number &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="TemperatureGradient_8hpp_source.html#l00278">278</a> of file <a class="el" href="TemperatureGradient_8hpp_source.html">TemperatureGradient.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="TemperatureGradient_8hpp_source.html#l00281">281</a> of file <a class="el" href="TemperatureGradient_8hpp_source.html">TemperatureGradient.hpp</a>.</p>
 
 </div>
 </div>
-<a id="a28fc44d8af9786038867f984ab620131"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a28fc44d8af9786038867f984ab620131">&#9670;&nbsp;</a></span>operator*() <span class="overload">[7/8]</span></h2>
+<a id="a8d2fd3cba55bddcc6675c50cb273b4ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d2fd3cba55bddcc6675c50cb273b4ab">&#9670;&nbsp;</a></span>operator*() <span class="overload">[7/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number &gt; </div>
+template&lt;typename NumericType &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Traction.html">Traction</a>&lt; Number &gt; <a class="el" href="classPhQ_1_1Direction.html">PhQ::Direction</a>&lt; Number &gt;::operator* </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Traction.html">Traction</a>&lt; NumericType &gt; <a class="el" href="classPhQ_1_1Direction.html">PhQ::Direction</a>&lt; NumericType &gt;::operator* </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>scalar_traction</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -1483,25 +1483,25 @@ template&lt;typename Number &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Traction_8hpp_source.html#l00280">280</a> of file <a class="el" href="Traction_8hpp_source.html">Traction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Traction_8hpp_source.html#l00284">284</a> of file <a class="el" href="Traction_8hpp_source.html">Traction.hpp</a>.</p>
 
 </div>
 </div>
-<a id="a1c27bf826e422abcd5ac3b18a0d43e06"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1c27bf826e422abcd5ac3b18a0d43e06">&#9670;&nbsp;</a></span>operator*() <span class="overload">[8/8]</span></h2>
+<a id="aa616f9bec0b2a8f784d0b71ca3f3c383"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa616f9bec0b2a8f784d0b71ca3f3c383">&#9670;&nbsp;</a></span>operator*() <span class="overload">[8/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number &gt; </div>
+template&lt;typename NumericType &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Velocity.html">Velocity</a>&lt; Number &gt; <a class="el" href="classPhQ_1_1Direction.html">PhQ::Direction</a>&lt; Number &gt;::operator* </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Velocity.html">Velocity</a>&lt; NumericType &gt; <a class="el" href="classPhQ_1_1Direction.html">PhQ::Direction</a>&lt; NumericType &gt;::operator* </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1Speed.html">Speed</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1Speed.html">Speed</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>speed</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -1513,25 +1513,25 @@ template&lt;typename Number &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Velocity_8hpp_source.html#l00304">304</a> of file <a class="el" href="Velocity_8hpp_source.html">Velocity.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Velocity_8hpp_source.html#l00310">310</a> of file <a class="el" href="Velocity_8hpp_source.html">Velocity.hpp</a>.</p>
 
 </div>
 </div>
-<a id="aba72a3e6fd0f7f3ede6de9a53890bdc4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aba72a3e6fd0f7f3ede6de9a53890bdc4">&#9670;&nbsp;</a></span>operator=() <span class="overload">[1/3]</span></h2>
+<a id="afd9db573b0e9a5e97926da2bc2213d4c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afd9db573b0e9a5e97926da2bc2213d4c">&#9670;&nbsp;</a></span>operator=() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Direction.html">Direction</a>&lt;Number&gt;&amp; <a class="el" href="classPhQ_1_1Direction.html">PhQ::Direction</a>&lt; Number &gt;::operator= </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Direction.html">Direction</a>&lt;NumericType&gt;&amp; <a class="el" href="classPhQ_1_1Direction.html">PhQ::Direction</a>&lt; NumericType &gt;::operator= </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1Direction.html">Direction</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1Direction.html">Direction</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>other</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1547,23 +1547,23 @@ template&lt;typename Number  = double&gt; </div>
 
 </div>
 </div>
-<a id="a66d3cc93697b0c643e99ce7b2eb30a49"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a66d3cc93697b0c643e99ce7b2eb30a49">&#9670;&nbsp;</a></span>operator=() <span class="overload">[2/3]</span></h2>
+<a id="a8198c84ddcf59425eb72e01b9adeac46"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8198c84ddcf59425eb72e01b9adeac46">&#9670;&nbsp;</a></span>operator=() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <div class="memtemplate">
-template&lt;typename OtherNumber &gt; </div>
+template&lt;typename OtherNumericType &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Direction.html">Direction</a>&lt;Number&gt;&amp; <a class="el" href="classPhQ_1_1Direction.html">PhQ::Direction</a>&lt; Number &gt;::operator= </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Direction.html">Direction</a>&lt;NumericType&gt;&amp; <a class="el" href="classPhQ_1_1Direction.html">PhQ::Direction</a>&lt; NumericType &gt;::operator= </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1Direction.html">Direction</a>&lt; OtherNumber &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1Direction.html">Direction</a>&lt; OtherNumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>other</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1577,27 +1577,27 @@ template&lt;typename OtherNumber &gt; </div>
 
 <p>Copy assignment operator. Assigns this direction by copying another one. </p>
 
-<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00193">193</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00194">194</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionlessVector_8hpp_source.html#l00060">PhQ::DimensionlessVector&lt; Number &gt;::Value()</a>, and <a class="el" href="DimensionlessVector_8hpp_source.html#l00136">PhQ::DimensionlessVector&lt; double &gt;::value</a>.</p>
+<p class="reference">References <a class="el" href="DimensionlessVector_8hpp_source.html#l00060">PhQ::DimensionlessVector&lt; NumericType &gt;::Value()</a>, and <a class="el" href="DimensionlessVector_8hpp_source.html#l00138">PhQ::DimensionlessVector&lt; double &gt;::value</a>.</p>
 
 </div>
 </div>
-<a id="ad95a1249a4ab35780a9d0323f5736c9f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad95a1249a4ab35780a9d0323f5736c9f">&#9670;&nbsp;</a></span>operator=() <span class="overload">[3/3]</span></h2>
+<a id="afe41c67ada31cfa6bc34792e4f491b29"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afe41c67ada31cfa6bc34792e4f491b29">&#9670;&nbsp;</a></span>operator=() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Direction.html">Direction</a>&lt;Number&gt;&amp; <a class="el" href="classPhQ_1_1Direction.html">PhQ::Direction</a>&lt; Number &gt;::operator= </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Direction.html">Direction</a>&lt;NumericType&gt;&amp; <a class="el" href="classPhQ_1_1Direction.html">PhQ::Direction</a>&lt; NumericType &gt;::operator= </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classPhQ_1_1Direction.html">Direction</a>&lt; Number &gt; &amp;&amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="classPhQ_1_1Direction.html">Direction</a>&lt; NumericType &gt; &amp;&amp;&#160;</td>
           <td class="paramname"><em>other</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1613,8 +1613,8 @@ template&lt;typename Number  = double&gt; </div>
 
 </div>
 </div>
-<a id="af4e0f21b8e88d8f66da25dbe50064515"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af4e0f21b8e88d8f66da25dbe50064515">&#9670;&nbsp;</a></span>Print()</h2>
+<a id="a8438483e41be4720bba28505ec3ac9be"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8438483e41be4720bba28505ec3ac9be">&#9670;&nbsp;</a></span>Print()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1642,33 +1642,33 @@ template&lt;typename Number  = double&gt; </div>
 
 </div>
 </div>
-<a id="af1e2d86553912f7706ecc33daf3745cb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af1e2d86553912f7706ecc33daf3745cb">&#9670;&nbsp;</a></span>Set() <span class="overload">[1/3]</span></h2>
+<a id="ad30794aac730965a5e933510574a6a13"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad30794aac730965a5e933510574a6a13">&#9670;&nbsp;</a></span>Set() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr void <a class="el" href="classPhQ_1_1Direction.html">PhQ::Direction</a>&lt; Number &gt;::Set </td>
+          <td class="memname">constexpr void <a class="el" href="classPhQ_1_1Direction.html">PhQ::Direction</a>&lt; NumericType &gt;::Set </td>
           <td>(</td>
-          <td class="paramtype">const Number&#160;</td>
+          <td class="paramtype">const NumericType&#160;</td>
           <td class="paramname"><em>x</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const Number&#160;</td>
+          <td class="paramtype">const NumericType&#160;</td>
           <td class="paramname"><em>y</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const Number&#160;</td>
+          <td class="paramtype">const NumericType&#160;</td>
           <td class="paramname"><em>z</em>&#160;</td>
         </tr>
         <tr>
@@ -1686,27 +1686,27 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Sets the value of this direction by normalizing the given x, y, and z Cartesian components to a unit vector. If x = 0, y = 0, and z = 0, sets the direction to the zero vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00224">224</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00225">225</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="Direction_8hpp_source.html#l00125">PhQ::Direction&lt; Number &gt;::Direction()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="Direction_8hpp_source.html#l00125">PhQ::Direction&lt; NumericType &gt;::Direction()</a>, and <a class="el" href="Direction_8hpp_source.html#l00251">PhQ::Direction&lt; NumericType &gt;::Set()</a>.</p>
 
 </div>
 </div>
-<a id="a0d79b327d55ae32c4703857b8015c32f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0d79b327d55ae32c4703857b8015c32f">&#9670;&nbsp;</a></span>Set() <span class="overload">[2/3]</span></h2>
+<a id="adb322356fb4d0baacc14c43196de698f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb322356fb4d0baacc14c43196de698f">&#9670;&nbsp;</a></span>Set() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr void <a class="el" href="classPhQ_1_1Direction.html">PhQ::Direction</a>&lt; Number &gt;::Set </td>
+          <td class="memname">constexpr void <a class="el" href="classPhQ_1_1Direction.html">PhQ::Direction</a>&lt; NumericType &gt;::Set </td>
           <td>(</td>
-          <td class="paramtype">const std::array&lt; Number, 3 &gt; &amp;&#160;</td>
+          <td class="paramtype">const std::array&lt; NumericType, 3 &gt; &amp;&#160;</td>
           <td class="paramname"><em>x_y_z</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1720,25 +1720,25 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Sets the value of this direction by normalizing the given x, y, and z Cartesian components to a unit vector. If x = 0, y = 0, and z = 0, sets the direction to the zero vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00237">237</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00238">238</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
 
 </div>
 </div>
-<a id="ac42857647d2bbc0b5fcd0daf98c83480"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac42857647d2bbc0b5fcd0daf98c83480">&#9670;&nbsp;</a></span>Set() <span class="overload">[3/3]</span></h2>
+<a id="a6c44c4966aff8a1d17184d5611f8778f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6c44c4966aff8a1d17184d5611f8778f">&#9670;&nbsp;</a></span>Set() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr void <a class="el" href="classPhQ_1_1Direction.html">PhQ::Direction</a>&lt; Number &gt;::Set </td>
+          <td class="memname">constexpr void <a class="el" href="classPhQ_1_1Direction.html">PhQ::Direction</a>&lt; NumericType &gt;::Set </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>value</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1752,12 +1752,14 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Sets the value of this direction by normalizing the given vector to a unit vector. If the given vector is a zero vector, sets the direction to the zero vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00249">249</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00251">251</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
+
+<p class="reference">References <a class="el" href="Direction_8hpp_source.html#l00225">PhQ::Direction&lt; NumericType &gt;::Set()</a>, <a class="el" href="DimensionlessVector_8hpp_source.html#l00138">PhQ::DimensionlessVector&lt; double &gt;::value</a>, and <a class="el" href="Vector_8hpp_source.html#l00134">PhQ::Vector&lt; NumericType &gt;::x_y_z()</a>.</p>
 
 </div>
 </div>
-<a id="ac1bdae22b6995ced84e7a38b26b181e0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac1bdae22b6995ced84e7a38b26b181e0">&#9670;&nbsp;</a></span>Value()</h2>
+<a id="af830cd27c98a7ced73ec337acf86bc91"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af830cd27c98a7ced73ec337acf86bc91">&#9670;&nbsp;</a></span>Value()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1785,19 +1787,19 @@ template&lt;typename Number  = double&gt; </div>
 
 </div>
 </div>
-<a id="a710f0648c31a9d661a73781019b011d4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a710f0648c31a9d661a73781019b011d4">&#9670;&nbsp;</a></span>x()</h2>
+<a id="abeeeafa7f8de042f5d488147b4546177"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abeeeafa7f8de042f5d488147b4546177">&#9670;&nbsp;</a></span>x()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr Number <a class="el" href="classPhQ_1_1Direction.html">PhQ::Direction</a>&lt; Number &gt;::x </td>
+          <td class="memname">constexpr NumericType <a class="el" href="classPhQ_1_1Direction.html">PhQ::Direction</a>&lt; NumericType &gt;::x </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -1812,16 +1814,16 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the x Cartesian component of this direction. </p>
 
-<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00207">207</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00208">208</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionlessVector_8hpp_source.html#l00136">PhQ::DimensionlessVector&lt; double &gt;::value</a>, and <a class="el" href="Vector_8hpp_source.html#l00138">PhQ::Vector&lt; Number &gt;::x()</a>.</p>
+<p class="reference">References <a class="el" href="DimensionlessVector_8hpp_source.html#l00138">PhQ::DimensionlessVector&lt; double &gt;::value</a>, and <a class="el" href="Vector_8hpp_source.html#l00139">PhQ::Vector&lt; NumericType &gt;::x()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="Direction_8hpp_source.html#l00125">PhQ::Direction&lt; Number &gt;::Direction()</a>, and <a class="el" href="Direction_8hpp_source.html#l00379">PhQ::Vector&lt; double &gt;::Dot()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="Direction_8hpp_source.html#l00125">PhQ::Direction&lt; NumericType &gt;::Direction()</a>, and <a class="el" href="Direction_8hpp_source.html#l00384">PhQ::Vector&lt; double &gt;::Dot()</a>.</p>
 
 </div>
 </div>
-<a id="afebb20a21db2382002913bf1078ad276"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afebb20a21db2382002913bf1078ad276">&#9670;&nbsp;</a></span>XML()</h2>
+<a id="aa888483c6635c58a22c9040269562d77"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa888483c6635c58a22c9040269562d77">&#9670;&nbsp;</a></span>XML()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1849,19 +1851,19 @@ template&lt;typename Number  = double&gt; </div>
 
 </div>
 </div>
-<a id="a1b8a55423d259a3c3048b9ea49bbfe07"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1b8a55423d259a3c3048b9ea49bbfe07">&#9670;&nbsp;</a></span>y()</h2>
+<a id="a0f4d723239f2f251b595098c2e76387b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0f4d723239f2f251b595098c2e76387b">&#9670;&nbsp;</a></span>y()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr Number <a class="el" href="classPhQ_1_1Direction.html">PhQ::Direction</a>&lt; Number &gt;::y </td>
+          <td class="memname">constexpr NumericType <a class="el" href="classPhQ_1_1Direction.html">PhQ::Direction</a>&lt; NumericType &gt;::y </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -1876,14 +1878,14 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the y Cartesian component of this direction. </p>
 
-<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00212">212</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00213">213</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="Direction_8hpp_source.html#l00125">PhQ::Direction&lt; Number &gt;::Direction()</a>, and <a class="el" href="Direction_8hpp_source.html#l00379">PhQ::Vector&lt; double &gt;::Dot()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="Direction_8hpp_source.html#l00125">PhQ::Direction&lt; NumericType &gt;::Direction()</a>, and <a class="el" href="Direction_8hpp_source.html#l00384">PhQ::Vector&lt; double &gt;::Dot()</a>.</p>
 
 </div>
 </div>
-<a id="ad2b8a853ba9bd89f8650eec3eda5955d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad2b8a853ba9bd89f8650eec3eda5955d">&#9670;&nbsp;</a></span>YAML()</h2>
+<a id="a9fab1f77920ec75a7b35986b5fa93b6f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9fab1f77920ec75a7b35986b5fa93b6f">&#9670;&nbsp;</a></span>YAML()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1911,19 +1913,19 @@ template&lt;typename Number  = double&gt; </div>
 
 </div>
 </div>
-<a id="a2e9ce387d4b48aaf9e7842167e602d43"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2e9ce387d4b48aaf9e7842167e602d43">&#9670;&nbsp;</a></span>z()</h2>
+<a id="a3a2c20a355c2fb3abadc940ca31c1829"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a2c20a355c2fb3abadc940ca31c1829">&#9670;&nbsp;</a></span>z()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr Number <a class="el" href="classPhQ_1_1Direction.html">PhQ::Direction</a>&lt; Number &gt;::z </td>
+          <td class="memname">constexpr NumericType <a class="el" href="classPhQ_1_1Direction.html">PhQ::Direction</a>&lt; NumericType &gt;::z </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -1938,27 +1940,27 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the z Cartesian component of this direction. </p>
 
-<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00217">217</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00218">218</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionlessVector_8hpp_source.html#l00136">PhQ::DimensionlessVector&lt; double &gt;::value</a>, and <a class="el" href="Vector_8hpp_source.html#l00148">PhQ::Vector&lt; Number &gt;::z()</a>.</p>
+<p class="reference">References <a class="el" href="DimensionlessVector_8hpp_source.html#l00138">PhQ::DimensionlessVector&lt; double &gt;::value</a>, and <a class="el" href="Vector_8hpp_source.html#l00149">PhQ::Vector&lt; NumericType &gt;::z()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="Direction_8hpp_source.html#l00125">PhQ::Direction&lt; Number &gt;::Direction()</a>, and <a class="el" href="Direction_8hpp_source.html#l00379">PhQ::Vector&lt; double &gt;::Dot()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="Direction_8hpp_source.html#l00125">PhQ::Direction&lt; NumericType &gt;::Direction()</a>, and <a class="el" href="Direction_8hpp_source.html#l00384">PhQ::Vector&lt; double &gt;::Dot()</a>.</p>
 
 </div>
 </div>
-<a id="afe3d16bf4d40609d8e86fb840e57c7b7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afe3d16bf4d40609d8e86fb840e57c7b7">&#9670;&nbsp;</a></span>Zero()</h2>
+<a id="aadc87ad12ce37b1d36b8a2e2f32b08de"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aadc87ad12ce37b1d36b8a2e2f32b08de">&#9670;&nbsp;</a></span>Zero()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static constexpr <a class="el" href="classPhQ_1_1Direction.html">Direction</a>&lt;Number&gt; <a class="el" href="classPhQ_1_1Direction.html">PhQ::Direction</a>&lt; Number &gt;::Zero </td>
+          <td class="memname">static constexpr <a class="el" href="classPhQ_1_1Direction.html">Direction</a>&lt;NumericType&gt; <a class="el" href="classPhQ_1_1Direction.html">PhQ::Direction</a>&lt; NumericType &gt;::Zero </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -1973,13 +1975,13 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Statically creates a direction whose value is the zero vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00202">202</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00203">203</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a34f486f32e6f515e991a1923441c2b15"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a34f486f32e6f515e991a1923441c2b15">&#9670;&nbsp;</a></span>value</h2>
+<a id="a9a2d42bd55a4feb57bfe87fc0887d8c3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a2d42bd55a4feb57bfe87fc0887d8c3">&#9670;&nbsp;</a></span>value</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2000,7 +2002,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Value of this physical quantity. </p>
 
-<p class="definition">Definition at line <a class="el" href="DimensionlessVector_8hpp_source.html#l00136">136</a> of file <a class="el" href="DimensionlessVector_8hpp_source.html">DimensionlessVector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="DimensionlessVector_8hpp_source.html#l00138">138</a> of file <a class="el" href="DimensionlessVector_8hpp_source.html">DimensionlessVector.hpp</a>.</p>
 
 </div>
 </div>

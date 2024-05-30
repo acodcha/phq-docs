@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=9" />
     <meta name="generator" content="Doxygen 1.9.1" />
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=4.0" />
-    <title>Physical Quantities (PhQ): PhQ::Energy&lt; Number &gt; Class Template Reference</title>
+    <title>Physical Quantities (PhQ): PhQ::Energy&lt; NumericType &gt; Class Template Reference</title>
     <link href="tabs.css" rel="stylesheet" type="text/css" />
     <script type="text/javascript" src="jquery.js"></script>
     <script type="text/javascript" src="dynsections.js"></script>
@@ -110,7 +110,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search','.html');
 <a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="classPhQ_1_1Energy-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">PhQ::Energy&lt; Number &gt; Class Template Reference</div>  </div>
+<div class="title">PhQ::Energy&lt; NumericType &gt; Class Template Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
@@ -121,168 +121,168 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search','.html');
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a55acb07ee7f478d25bab2b0412965d6b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Energy.html#a55acb07ee7f478d25bab2b0412965d6b">Energy</a> ()=default</td></tr>
-<tr class="memdesc:a55acb07ee7f478d25bab2b0412965d6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor. Constructs an energy quantity with an uninitialized value.  <a href="classPhQ_1_1Energy.html#a55acb07ee7f478d25bab2b0412965d6b">More...</a><br /></td></tr>
-<tr class="separator:a55acb07ee7f478d25bab2b0412965d6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a77270007c0731cbab70105e25e33bbb8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Energy.html#a77270007c0731cbab70105e25e33bbb8">Energy</a> (const Number <a class="el" href="classPhQ_1_1DimensionalScalar.html#a076d75036473812cf5583dc12b30aac2">value</a>, const <a class="el" href="namespacePhQ_1_1Unit.html#a5fd3823ba60b168b5550a29b088facb6">Unit::Energy</a> unit)</td></tr>
-<tr class="memdesc:a77270007c0731cbab70105e25e33bbb8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs an energy quantity with a given value expressed in a given energy unit.  <a href="classPhQ_1_1Energy.html#a77270007c0731cbab70105e25e33bbb8">More...</a><br /></td></tr>
-<tr class="separator:a77270007c0731cbab70105e25e33bbb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a890377781df780558c326059c008f346"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Energy.html#a890377781df780558c326059c008f346">Energy</a> (const <a class="el" href="classPhQ_1_1Power.html">Power</a>&lt; Number &gt; &amp;power, const <a class="el" href="classPhQ_1_1Time.html">Time</a>&lt; Number &gt; &amp;time)</td></tr>
-<tr class="memdesc:a890377781df780558c326059c008f346"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs an energy quantity from a given power and time using the definition of power.  <a href="classPhQ_1_1Energy.html#a890377781df780558c326059c008f346">More...</a><br /></td></tr>
-<tr class="separator:a890377781df780558c326059c008f346"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4a128f5357a5ab2703aeb5bb956773bb"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Energy.html#a4a128f5357a5ab2703aeb5bb956773bb">Energy</a> (const <a class="el" href="classPhQ_1_1Power.html">Power</a>&lt; Number &gt; &amp;power, const <a class="el" href="classPhQ_1_1Frequency.html">Frequency</a>&lt; Number &gt; &amp;frequency)</td></tr>
-<tr class="memdesc:a4a128f5357a5ab2703aeb5bb956773bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs an energy quantity from a given power and frequency using the definition of power.  <a href="classPhQ_1_1Energy.html#a4a128f5357a5ab2703aeb5bb956773bb">More...</a><br /></td></tr>
-<tr class="separator:a4a128f5357a5ab2703aeb5bb956773bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5361c456ff0eea6dac186d8e18450aec"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Energy.html#a5361c456ff0eea6dac186d8e18450aec">Energy</a> (const <a class="el" href="classPhQ_1_1SpecificEnergy.html">SpecificEnergy</a>&lt; Number &gt; &amp;specific_energy, const <a class="el" href="classPhQ_1_1Mass.html">Mass</a>&lt; Number &gt; &amp;mass)</td></tr>
-<tr class="memdesc:a5361c456ff0eea6dac186d8e18450aec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs an energy quantity from a given specific energy quantity and mass using the definition of specific energy.  <a href="classPhQ_1_1Energy.html#a5361c456ff0eea6dac186d8e18450aec">More...</a><br /></td></tr>
-<tr class="separator:a5361c456ff0eea6dac186d8e18450aec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8e3d9beeb79189785eef45a6a49bfdc3"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Energy.html#a8e3d9beeb79189785eef45a6a49bfdc3">Energy</a> (const <a class="el" href="classPhQ_1_1TransportEnergyConsumption.html">TransportEnergyConsumption</a>&lt; Number &gt; &amp;transport_energy_consumption, const <a class="el" href="classPhQ_1_1Length.html">Length</a>&lt; Number &gt; &amp;length)</td></tr>
-<tr class="memdesc:a8e3d9beeb79189785eef45a6a49bfdc3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs an energy quantity from a given transport energy consumption and length using the definition of transport energy consumption.  <a href="classPhQ_1_1Energy.html#a8e3d9beeb79189785eef45a6a49bfdc3">More...</a><br /></td></tr>
-<tr class="separator:a8e3d9beeb79189785eef45a6a49bfdc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a80a8cbd0869e9d9327b65cc11d493e66"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Energy.html#a80a8cbd0869e9d9327b65cc11d493e66">~Energy</a> () noexcept=default</td></tr>
-<tr class="memdesc:a80a8cbd0869e9d9327b65cc11d493e66"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor. Destroys this energy quantity.  <a href="classPhQ_1_1Energy.html#a80a8cbd0869e9d9327b65cc11d493e66">More...</a><br /></td></tr>
-<tr class="separator:a80a8cbd0869e9d9327b65cc11d493e66"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6f1bb14bf38880b9db4a64198f532656"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Energy.html#a6f1bb14bf38880b9db4a64198f532656">Energy</a> (const <a class="el" href="classPhQ_1_1Energy.html">Energy</a>&lt; Number &gt; &amp;other)=default</td></tr>
-<tr class="memdesc:a6f1bb14bf38880b9db4a64198f532656"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy constructor. Constructs an energy quantity by copying another one.  <a href="classPhQ_1_1Energy.html#a6f1bb14bf38880b9db4a64198f532656">More...</a><br /></td></tr>
-<tr class="separator:a6f1bb14bf38880b9db4a64198f532656"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0314452bb98bf115f07f438d13336c52"><td class="memTemplParams" colspan="2">template&lt;typename OtherNumber &gt; </td></tr>
-<tr class="memitem:a0314452bb98bf115f07f438d13336c52"><td class="memTemplItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Energy.html#a0314452bb98bf115f07f438d13336c52">Energy</a> (const <a class="el" href="classPhQ_1_1Energy.html">Energy</a>&lt; OtherNumber &gt; &amp;other)</td></tr>
-<tr class="memdesc:a0314452bb98bf115f07f438d13336c52"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy constructor. Constructs an energy quantity by copying another one.  <a href="classPhQ_1_1Energy.html#a0314452bb98bf115f07f438d13336c52">More...</a><br /></td></tr>
-<tr class="separator:a0314452bb98bf115f07f438d13336c52"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a26fa71e1c4294c2dd6b362b18527e3dd"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Energy.html#a26fa71e1c4294c2dd6b362b18527e3dd">Energy</a> (<a class="el" href="classPhQ_1_1Energy.html">Energy</a>&lt; Number &gt; &amp;&amp;other) noexcept=default</td></tr>
-<tr class="memdesc:a26fa71e1c4294c2dd6b362b18527e3dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move constructor. Constructs an energy quantity by moving another one.  <a href="classPhQ_1_1Energy.html#a26fa71e1c4294c2dd6b362b18527e3dd">More...</a><br /></td></tr>
-<tr class="separator:a26fa71e1c4294c2dd6b362b18527e3dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a66e34066455ad00a2583dada896fa193"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1Energy.html">Energy</a>&lt; Number &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Energy.html#a66e34066455ad00a2583dada896fa193">operator=</a> (const <a class="el" href="classPhQ_1_1Energy.html">Energy</a>&lt; Number &gt; &amp;other)=default</td></tr>
-<tr class="memdesc:a66e34066455ad00a2583dada896fa193"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy assignment operator. Assigns this energy quantity by copying another one.  <a href="classPhQ_1_1Energy.html#a66e34066455ad00a2583dada896fa193">More...</a><br /></td></tr>
-<tr class="separator:a66e34066455ad00a2583dada896fa193"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4a483f87bbdead0d0e55cd79b93b38c0"><td class="memTemplParams" colspan="2">template&lt;typename OtherNumber &gt; </td></tr>
-<tr class="memitem:a4a483f87bbdead0d0e55cd79b93b38c0"><td class="memTemplItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1Energy.html">Energy</a>&lt; Number &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Energy.html#a4a483f87bbdead0d0e55cd79b93b38c0">operator=</a> (const <a class="el" href="classPhQ_1_1Energy.html">Energy</a>&lt; OtherNumber &gt; &amp;other)</td></tr>
-<tr class="memdesc:a4a483f87bbdead0d0e55cd79b93b38c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy assignment operator. Assigns this energy quantity by copying another one.  <a href="classPhQ_1_1Energy.html#a4a483f87bbdead0d0e55cd79b93b38c0">More...</a><br /></td></tr>
-<tr class="separator:a4a483f87bbdead0d0e55cd79b93b38c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af3264628b322c5338cf1159ec4a8bb2e"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1Energy.html">Energy</a>&lt; Number &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Energy.html#af3264628b322c5338cf1159ec4a8bb2e">operator=</a> (<a class="el" href="classPhQ_1_1Energy.html">Energy</a>&lt; Number &gt; &amp;&amp;other) noexcept=default</td></tr>
-<tr class="memdesc:af3264628b322c5338cf1159ec4a8bb2e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move assignment operator. Assigns this energy quantity by moving another one.  <a href="classPhQ_1_1Energy.html#af3264628b322c5338cf1159ec4a8bb2e">More...</a><br /></td></tr>
-<tr class="separator:af3264628b322c5338cf1159ec4a8bb2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a680d1376dd65ecee15a91d7618df6ca8"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1Energy.html">Energy</a>&lt; Number &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Energy.html#a680d1376dd65ecee15a91d7618df6ca8">operator+</a> (const <a class="el" href="classPhQ_1_1Energy.html">Energy</a>&lt; Number &gt; &amp;energy) const</td></tr>
-<tr class="separator:a680d1376dd65ecee15a91d7618df6ca8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adfa0808c52c94ee0b0f0438de994fa71"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1Energy.html">Energy</a>&lt; Number &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Energy.html#adfa0808c52c94ee0b0f0438de994fa71">operator-</a> (const <a class="el" href="classPhQ_1_1Energy.html">Energy</a>&lt; Number &gt; &amp;energy) const</td></tr>
-<tr class="separator:adfa0808c52c94ee0b0f0438de994fa71"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a281cdfd6db415836a4f355a8a82f1740"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1Energy.html">Energy</a>&lt; Number &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Energy.html#a281cdfd6db415836a4f355a8a82f1740">operator*</a> (const Number number) const</td></tr>
-<tr class="separator:a281cdfd6db415836a4f355a8a82f1740"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a47fe19a24db4702199651ea2359374fa"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1Power.html">Power</a>&lt; Number &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Energy.html#a47fe19a24db4702199651ea2359374fa">operator*</a> (const <a class="el" href="classPhQ_1_1Frequency.html">Frequency</a>&lt; Number &gt; &amp;frequency) const</td></tr>
-<tr class="separator:a47fe19a24db4702199651ea2359374fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2c4e3bf40fd6a3a6590c41dfaf56ecde"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1Energy.html">Energy</a>&lt; Number &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Energy.html#a2c4e3bf40fd6a3a6590c41dfaf56ecde">operator/</a> (const Number number) const</td></tr>
-<tr class="separator:a2c4e3bf40fd6a3a6590c41dfaf56ecde"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac7d80bcd21c5dfda57d7897956d916e8"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1Power.html">Power</a>&lt; Number &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Energy.html#ac7d80bcd21c5dfda57d7897956d916e8">operator/</a> (const <a class="el" href="classPhQ_1_1Time.html">Time</a>&lt; Number &gt; &amp;time) const</td></tr>
-<tr class="separator:ac7d80bcd21c5dfda57d7897956d916e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab2e25a9bb663fac66507c5456d2d490d"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1Time.html">Time</a>&lt; Number &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Energy.html#ab2e25a9bb663fac66507c5456d2d490d">operator/</a> (const <a class="el" href="classPhQ_1_1Power.html">Power</a>&lt; Number &gt; &amp;power) const</td></tr>
-<tr class="separator:ab2e25a9bb663fac66507c5456d2d490d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7511212eedef7c874358839e7ce0b0d6"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1SpecificEnergy.html">SpecificEnergy</a>&lt; Number &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Energy.html#a7511212eedef7c874358839e7ce0b0d6">operator/</a> (const <a class="el" href="classPhQ_1_1Mass.html">Mass</a>&lt; Number &gt; &amp;mass) const</td></tr>
-<tr class="separator:a7511212eedef7c874358839e7ce0b0d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7b6b23fb2f9dbb9a898bba7d8c8dc9ba"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1Mass.html">Mass</a>&lt; Number &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Energy.html#a7b6b23fb2f9dbb9a898bba7d8c8dc9ba">operator/</a> (const <a class="el" href="classPhQ_1_1SpecificEnergy.html">SpecificEnergy</a>&lt; Number &gt; &amp;specific_energy) const</td></tr>
-<tr class="separator:a7b6b23fb2f9dbb9a898bba7d8c8dc9ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2f23a4a89fc7209433de9c4493b34f3c"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1TransportEnergyConsumption.html">TransportEnergyConsumption</a>&lt; Number &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Energy.html#a2f23a4a89fc7209433de9c4493b34f3c">operator/</a> (const <a class="el" href="classPhQ_1_1Length.html">Length</a>&lt; Number &gt; &amp;length) const</td></tr>
-<tr class="separator:a2f23a4a89fc7209433de9c4493b34f3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5055609319a73327e285832fc35cc5f1"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1Length.html">Length</a>&lt; Number &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Energy.html#a5055609319a73327e285832fc35cc5f1">operator/</a> (const <a class="el" href="classPhQ_1_1TransportEnergyConsumption.html">TransportEnergyConsumption</a>&lt; Number &gt; &amp;transport_energy_consumption) const</td></tr>
-<tr class="separator:a5055609319a73327e285832fc35cc5f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2aff8f41f480a19fdadf8aad6a985820"><td class="memItemLeft" align="right" valign="top">constexpr Number&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Energy.html#a2aff8f41f480a19fdadf8aad6a985820">operator/</a> (const <a class="el" href="classPhQ_1_1Energy.html">Energy</a>&lt; Number &gt; &amp;energy) const noexcept</td></tr>
-<tr class="separator:a2aff8f41f480a19fdadf8aad6a985820"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a924943ece7e96ff968a15ab30d889d34"><td class="memItemLeft" align="right" valign="top">constexpr void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Energy.html#a924943ece7e96ff968a15ab30d889d34">operator+=</a> (const <a class="el" href="classPhQ_1_1Energy.html">Energy</a>&lt; Number &gt; &amp;energy) noexcept</td></tr>
-<tr class="separator:a924943ece7e96ff968a15ab30d889d34"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a916b8570171fd0e21d40bd5ad15c5b19"><td class="memItemLeft" align="right" valign="top">constexpr void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Energy.html#a916b8570171fd0e21d40bd5ad15c5b19">operator-=</a> (const <a class="el" href="classPhQ_1_1Energy.html">Energy</a>&lt; Number &gt; &amp;energy) noexcept</td></tr>
-<tr class="separator:a916b8570171fd0e21d40bd5ad15c5b19"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a610d708627b888296df3dea52be0dca5"><td class="memItemLeft" align="right" valign="top">constexpr void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Energy.html#a610d708627b888296df3dea52be0dca5">operator*=</a> (const Number number) noexcept</td></tr>
-<tr class="separator:a610d708627b888296df3dea52be0dca5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3df4a440301e0cb31e0f87c4f1131c13"><td class="memItemLeft" align="right" valign="top">constexpr void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Energy.html#a3df4a440301e0cb31e0f87c4f1131c13">operator/=</a> (const Number number) noexcept</td></tr>
-<tr class="separator:a3df4a440301e0cb31e0f87c4f1131c13"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8068bf6cddee8d6cb3f8aa1dc9216170"><td class="memItemLeft" align="right" valign="top">constexpr double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalScalar.html#a8068bf6cddee8d6cb3f8aa1dc9216170">Value</a> () const noexcept</td></tr>
-<tr class="memdesc:a8068bf6cddee8d6cb3f8aa1dc9216170"><td class="mdescLeft">&#160;</td><td class="mdescRight">Value of this physical quantity expressed in its standard unit of measure.  <a href="classPhQ_1_1DimensionalScalar.html#a8068bf6cddee8d6cb3f8aa1dc9216170">More...</a><br /></td></tr>
-<tr class="separator:a8068bf6cddee8d6cb3f8aa1dc9216170"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4ee07be63b44992cae508b16df54c004"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalScalar.html#a4ee07be63b44992cae508b16df54c004">Value</a> (const <a class="el" href="namespacePhQ_1_1Unit.html#a5fd3823ba60b168b5550a29b088facb6">Unit::Energy</a> unit) const</td></tr>
-<tr class="memdesc:a4ee07be63b44992cae508b16df54c004"><td class="mdescLeft">&#160;</td><td class="mdescRight">Value of this physical quantity expressed in a given unit of measure.  <a href="classPhQ_1_1DimensionalScalar.html#a4ee07be63b44992cae508b16df54c004">More...</a><br /></td></tr>
-<tr class="separator:a4ee07be63b44992cae508b16df54c004"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aad095a483424ef55a6ec8031bc285282"><td class="memItemLeft" align="right" valign="top">constexpr double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalScalar.html#aad095a483424ef55a6ec8031bc285282">StaticValue</a> () const</td></tr>
-<tr class="memdesc:aad095a483424ef55a6ec8031bc285282"><td class="mdescLeft">&#160;</td><td class="mdescRight">Value of this physical quantity expressed in a given unit of measure. This method can be evaluated statically at compile-time.  <a href="classPhQ_1_1DimensionalScalar.html#aad095a483424ef55a6ec8031bc285282">More...</a><br /></td></tr>
-<tr class="separator:aad095a483424ef55a6ec8031bc285282"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab23e71494593d494de7e970896c6e8be"><td class="memItemLeft" align="right" valign="top">constexpr double &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalScalar.html#ab23e71494593d494de7e970896c6e8be">MutableValue</a> () noexcept</td></tr>
-<tr class="memdesc:ab23e71494593d494de7e970896c6e8be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the value of this physical quantity expressed in its standard unit of measure as a mutable value.  <a href="classPhQ_1_1DimensionalScalar.html#ab23e71494593d494de7e970896c6e8be">More...</a><br /></td></tr>
-<tr class="separator:ab23e71494593d494de7e970896c6e8be"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0e3a68ee9c8b42e8fe942349e588a4ac"><td class="memItemLeft" align="right" valign="top">constexpr void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalScalar.html#a0e3a68ee9c8b42e8fe942349e588a4ac">SetValue</a> (const double <a class="el" href="classPhQ_1_1DimensionalScalar.html#a076d75036473812cf5583dc12b30aac2">value</a>) noexcept</td></tr>
-<tr class="memdesc:a0e3a68ee9c8b42e8fe942349e588a4ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the value of this physical quantity expressed in its standard unit of measure to the given value.  <a href="classPhQ_1_1DimensionalScalar.html#a0e3a68ee9c8b42e8fe942349e588a4ac">More...</a><br /></td></tr>
-<tr class="separator:a0e3a68ee9c8b42e8fe942349e588a4ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaa28f5bd02ab3373b12d3500cbc05845"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalScalar.html#aaa28f5bd02ab3373b12d3500cbc05845">Print</a> () const</td></tr>
-<tr class="memdesc:aaa28f5bd02ab3373b12d3500cbc05845"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints this physical quantity as a string. This physical quantity's value is expressed in its standard unit of measure.  <a href="classPhQ_1_1DimensionalScalar.html#aaa28f5bd02ab3373b12d3500cbc05845">More...</a><br /></td></tr>
-<tr class="separator:aaa28f5bd02ab3373b12d3500cbc05845"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae58f817c7cfadb04c5c7c821a94df0b7"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalScalar.html#ae58f817c7cfadb04c5c7c821a94df0b7">Print</a> (const <a class="el" href="namespacePhQ_1_1Unit.html#a5fd3823ba60b168b5550a29b088facb6">Unit::Energy</a> unit) const</td></tr>
-<tr class="memdesc:ae58f817c7cfadb04c5c7c821a94df0b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints this physical quantity as a string. This physical quantity's value is expressed in the given unit of measure.  <a href="classPhQ_1_1DimensionalScalar.html#ae58f817c7cfadb04c5c7c821a94df0b7">More...</a><br /></td></tr>
-<tr class="separator:ae58f817c7cfadb04c5c7c821a94df0b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a05cd733dcabe35166c4ec6ce476f46ab"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalScalar.html#a05cd733dcabe35166c4ec6ce476f46ab">JSON</a> () const</td></tr>
-<tr class="memdesc:a05cd733dcabe35166c4ec6ce476f46ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serializes this physical quantity as a JSON message. This physical quantity's value is expressed in its standard unit of measure.  <a href="classPhQ_1_1DimensionalScalar.html#a05cd733dcabe35166c4ec6ce476f46ab">More...</a><br /></td></tr>
-<tr class="separator:a05cd733dcabe35166c4ec6ce476f46ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab0b9a823fbcc260db150dc1454e595ad"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalScalar.html#ab0b9a823fbcc260db150dc1454e595ad">JSON</a> (const <a class="el" href="namespacePhQ_1_1Unit.html#a5fd3823ba60b168b5550a29b088facb6">Unit::Energy</a> unit) const</td></tr>
-<tr class="memdesc:ab0b9a823fbcc260db150dc1454e595ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serializes this physical quantity as a JSON message. This physical quantity's value is expressed in the given unit of measure.  <a href="classPhQ_1_1DimensionalScalar.html#ab0b9a823fbcc260db150dc1454e595ad">More...</a><br /></td></tr>
-<tr class="separator:ab0b9a823fbcc260db150dc1454e595ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae7e0d5f7bd52789b77ff20842cba38d8"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalScalar.html#ae7e0d5f7bd52789b77ff20842cba38d8">XML</a> () const</td></tr>
-<tr class="memdesc:ae7e0d5f7bd52789b77ff20842cba38d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serializes this physical quantity as an XML message. This physical quantity's value is expressed in its standard unit of measure.  <a href="classPhQ_1_1DimensionalScalar.html#ae7e0d5f7bd52789b77ff20842cba38d8">More...</a><br /></td></tr>
-<tr class="separator:ae7e0d5f7bd52789b77ff20842cba38d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abfe5f218e10bca3eb3f52e114beee2c1"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalScalar.html#abfe5f218e10bca3eb3f52e114beee2c1">XML</a> (const <a class="el" href="namespacePhQ_1_1Unit.html#a5fd3823ba60b168b5550a29b088facb6">Unit::Energy</a> unit) const</td></tr>
-<tr class="memdesc:abfe5f218e10bca3eb3f52e114beee2c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serializes this physical quantity as an XML message. This physical quantity's value is expressed in the given unit of measure.  <a href="classPhQ_1_1DimensionalScalar.html#abfe5f218e10bca3eb3f52e114beee2c1">More...</a><br /></td></tr>
-<tr class="separator:abfe5f218e10bca3eb3f52e114beee2c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2082ac17d425476688192460d79803cb"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalScalar.html#a2082ac17d425476688192460d79803cb">YAML</a> () const</td></tr>
-<tr class="memdesc:a2082ac17d425476688192460d79803cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serializes this physical quantity as a YAML message. This physical quantity's value is expressed in its standard unit of measure.  <a href="classPhQ_1_1DimensionalScalar.html#a2082ac17d425476688192460d79803cb">More...</a><br /></td></tr>
-<tr class="separator:a2082ac17d425476688192460d79803cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aacdcb91b676e4fdb5aa562e5ba58ca1d"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalScalar.html#aacdcb91b676e4fdb5aa562e5ba58ca1d">YAML</a> (const <a class="el" href="namespacePhQ_1_1Unit.html#a5fd3823ba60b168b5550a29b088facb6">Unit::Energy</a> unit) const</td></tr>
-<tr class="memdesc:aacdcb91b676e4fdb5aa562e5ba58ca1d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serializes this physical quantity as a YAML message. This physical quantity's value is expressed in the given unit of measure.  <a href="classPhQ_1_1DimensionalScalar.html#aacdcb91b676e4fdb5aa562e5ba58ca1d">More...</a><br /></td></tr>
-<tr class="separator:aacdcb91b676e4fdb5aa562e5ba58ca1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a518040b722d530112a8264428598ae39"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Energy.html#a518040b722d530112a8264428598ae39">Energy</a> ()=default</td></tr>
+<tr class="memdesc:a518040b722d530112a8264428598ae39"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor. Constructs an energy quantity with an uninitialized value.  <a href="classPhQ_1_1Energy.html#a518040b722d530112a8264428598ae39">More...</a><br /></td></tr>
+<tr class="separator:a518040b722d530112a8264428598ae39"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8efd3fb7254c14d497446c0f98372038"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Energy.html#a8efd3fb7254c14d497446c0f98372038">Energy</a> (const NumericType <a class="el" href="classPhQ_1_1DimensionalScalar.html#a34ca46c6f38afa3d34cba2eda00092fe">value</a>, const <a class="el" href="namespacePhQ_1_1Unit.html#a5fd3823ba60b168b5550a29b088facb6">Unit::Energy</a> unit)</td></tr>
+<tr class="memdesc:a8efd3fb7254c14d497446c0f98372038"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs an energy quantity with a given value expressed in a given energy unit.  <a href="classPhQ_1_1Energy.html#a8efd3fb7254c14d497446c0f98372038">More...</a><br /></td></tr>
+<tr class="separator:a8efd3fb7254c14d497446c0f98372038"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d9dba16a9de1a61d02b6307679d569c"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Energy.html#a5d9dba16a9de1a61d02b6307679d569c">Energy</a> (const <a class="el" href="classPhQ_1_1Power.html">Power</a>&lt; NumericType &gt; &amp;power, const <a class="el" href="classPhQ_1_1Time.html">Time</a>&lt; NumericType &gt; &amp;time)</td></tr>
+<tr class="memdesc:a5d9dba16a9de1a61d02b6307679d569c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs an energy quantity from a given power and time using the definition of power.  <a href="classPhQ_1_1Energy.html#a5d9dba16a9de1a61d02b6307679d569c">More...</a><br /></td></tr>
+<tr class="separator:a5d9dba16a9de1a61d02b6307679d569c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d0a2e5dfb246e52a5a91fa01b67270e"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Energy.html#a2d0a2e5dfb246e52a5a91fa01b67270e">Energy</a> (const <a class="el" href="classPhQ_1_1Power.html">Power</a>&lt; NumericType &gt; &amp;power, const <a class="el" href="classPhQ_1_1Frequency.html">Frequency</a>&lt; NumericType &gt; &amp;frequency)</td></tr>
+<tr class="memdesc:a2d0a2e5dfb246e52a5a91fa01b67270e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs an energy quantity from a given power and frequency using the definition of power.  <a href="classPhQ_1_1Energy.html#a2d0a2e5dfb246e52a5a91fa01b67270e">More...</a><br /></td></tr>
+<tr class="separator:a2d0a2e5dfb246e52a5a91fa01b67270e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa483f759aac13db146153d11e45ebe66"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Energy.html#aa483f759aac13db146153d11e45ebe66">Energy</a> (const <a class="el" href="classPhQ_1_1SpecificEnergy.html">SpecificEnergy</a>&lt; NumericType &gt; &amp;specific_energy, const <a class="el" href="classPhQ_1_1Mass.html">Mass</a>&lt; NumericType &gt; &amp;mass)</td></tr>
+<tr class="memdesc:aa483f759aac13db146153d11e45ebe66"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs an energy quantity from a given specific energy quantity and mass using the definition of specific energy.  <a href="classPhQ_1_1Energy.html#aa483f759aac13db146153d11e45ebe66">More...</a><br /></td></tr>
+<tr class="separator:aa483f759aac13db146153d11e45ebe66"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6f79f9f06e4b64490da10404db66730"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Energy.html#ab6f79f9f06e4b64490da10404db66730">Energy</a> (const <a class="el" href="classPhQ_1_1TransportEnergyConsumption.html">TransportEnergyConsumption</a>&lt; NumericType &gt; &amp;transport_energy_consumption, const <a class="el" href="classPhQ_1_1Length.html">Length</a>&lt; NumericType &gt; &amp;length)</td></tr>
+<tr class="memdesc:ab6f79f9f06e4b64490da10404db66730"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs an energy quantity from a given transport energy consumption and length using the definition of transport energy consumption.  <a href="classPhQ_1_1Energy.html#ab6f79f9f06e4b64490da10404db66730">More...</a><br /></td></tr>
+<tr class="separator:ab6f79f9f06e4b64490da10404db66730"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa734162cf0e5ba30636dad77b2a31373"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Energy.html#aa734162cf0e5ba30636dad77b2a31373">~Energy</a> () noexcept=default</td></tr>
+<tr class="memdesc:aa734162cf0e5ba30636dad77b2a31373"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor. Destroys this energy quantity.  <a href="classPhQ_1_1Energy.html#aa734162cf0e5ba30636dad77b2a31373">More...</a><br /></td></tr>
+<tr class="separator:aa734162cf0e5ba30636dad77b2a31373"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7e8f55d00ee3f4414fc29ae68b6efdb"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Energy.html#ac7e8f55d00ee3f4414fc29ae68b6efdb">Energy</a> (const <a class="el" href="classPhQ_1_1Energy.html">Energy</a>&lt; NumericType &gt; &amp;other)=default</td></tr>
+<tr class="memdesc:ac7e8f55d00ee3f4414fc29ae68b6efdb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy constructor. Constructs an energy quantity by copying another one.  <a href="classPhQ_1_1Energy.html#ac7e8f55d00ee3f4414fc29ae68b6efdb">More...</a><br /></td></tr>
+<tr class="separator:ac7e8f55d00ee3f4414fc29ae68b6efdb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1fbcaa479c7604867598b47674a224d"><td class="memTemplParams" colspan="2">template&lt;typename OtherNumericType &gt; </td></tr>
+<tr class="memitem:ac1fbcaa479c7604867598b47674a224d"><td class="memTemplItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Energy.html#ac1fbcaa479c7604867598b47674a224d">Energy</a> (const <a class="el" href="classPhQ_1_1Energy.html">Energy</a>&lt; OtherNumericType &gt; &amp;other)</td></tr>
+<tr class="memdesc:ac1fbcaa479c7604867598b47674a224d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy constructor. Constructs an energy quantity by copying another one.  <a href="classPhQ_1_1Energy.html#ac1fbcaa479c7604867598b47674a224d">More...</a><br /></td></tr>
+<tr class="separator:ac1fbcaa479c7604867598b47674a224d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c4fef72de151d2be718c6dd892cc9d6"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Energy.html#a6c4fef72de151d2be718c6dd892cc9d6">Energy</a> (<a class="el" href="classPhQ_1_1Energy.html">Energy</a>&lt; NumericType &gt; &amp;&amp;other) noexcept=default</td></tr>
+<tr class="memdesc:a6c4fef72de151d2be718c6dd892cc9d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move constructor. Constructs an energy quantity by moving another one.  <a href="classPhQ_1_1Energy.html#a6c4fef72de151d2be718c6dd892cc9d6">More...</a><br /></td></tr>
+<tr class="separator:a6c4fef72de151d2be718c6dd892cc9d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0dc2d0e31ed59860393d3b568db74608"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1Energy.html">Energy</a>&lt; NumericType &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Energy.html#a0dc2d0e31ed59860393d3b568db74608">operator=</a> (const <a class="el" href="classPhQ_1_1Energy.html">Energy</a>&lt; NumericType &gt; &amp;other)=default</td></tr>
+<tr class="memdesc:a0dc2d0e31ed59860393d3b568db74608"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy assignment operator. Assigns this energy quantity by copying another one.  <a href="classPhQ_1_1Energy.html#a0dc2d0e31ed59860393d3b568db74608">More...</a><br /></td></tr>
+<tr class="separator:a0dc2d0e31ed59860393d3b568db74608"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add5f11ad94f3b20161eae8e7994592ca"><td class="memTemplParams" colspan="2">template&lt;typename OtherNumericType &gt; </td></tr>
+<tr class="memitem:add5f11ad94f3b20161eae8e7994592ca"><td class="memTemplItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1Energy.html">Energy</a>&lt; NumericType &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Energy.html#add5f11ad94f3b20161eae8e7994592ca">operator=</a> (const <a class="el" href="classPhQ_1_1Energy.html">Energy</a>&lt; OtherNumericType &gt; &amp;other)</td></tr>
+<tr class="memdesc:add5f11ad94f3b20161eae8e7994592ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy assignment operator. Assigns this energy quantity by copying another one.  <a href="classPhQ_1_1Energy.html#add5f11ad94f3b20161eae8e7994592ca">More...</a><br /></td></tr>
+<tr class="separator:add5f11ad94f3b20161eae8e7994592ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a638bb9b5b5454e02928f60b0f23acd05"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1Energy.html">Energy</a>&lt; NumericType &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Energy.html#a638bb9b5b5454e02928f60b0f23acd05">operator=</a> (<a class="el" href="classPhQ_1_1Energy.html">Energy</a>&lt; NumericType &gt; &amp;&amp;other) noexcept=default</td></tr>
+<tr class="memdesc:a638bb9b5b5454e02928f60b0f23acd05"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move assignment operator. Assigns this energy quantity by moving another one.  <a href="classPhQ_1_1Energy.html#a638bb9b5b5454e02928f60b0f23acd05">More...</a><br /></td></tr>
+<tr class="separator:a638bb9b5b5454e02928f60b0f23acd05"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c931e9dda4a69281219dd63a7b3ece9"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1Energy.html">Energy</a>&lt; NumericType &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Energy.html#a9c931e9dda4a69281219dd63a7b3ece9">operator+</a> (const <a class="el" href="classPhQ_1_1Energy.html">Energy</a>&lt; NumericType &gt; &amp;energy) const</td></tr>
+<tr class="separator:a9c931e9dda4a69281219dd63a7b3ece9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa89e4b43b62221f610f14d4b2a2979e8"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1Energy.html">Energy</a>&lt; NumericType &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Energy.html#aa89e4b43b62221f610f14d4b2a2979e8">operator-</a> (const <a class="el" href="classPhQ_1_1Energy.html">Energy</a>&lt; NumericType &gt; &amp;energy) const</td></tr>
+<tr class="separator:aa89e4b43b62221f610f14d4b2a2979e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e21d98945153652a92ecdada2be2543"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1Energy.html">Energy</a>&lt; NumericType &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Energy.html#a1e21d98945153652a92ecdada2be2543">operator*</a> (const NumericType number) const</td></tr>
+<tr class="separator:a1e21d98945153652a92ecdada2be2543"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1042141ee8686290e09d8f67c87bef2a"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1Power.html">Power</a>&lt; NumericType &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Energy.html#a1042141ee8686290e09d8f67c87bef2a">operator*</a> (const <a class="el" href="classPhQ_1_1Frequency.html">Frequency</a>&lt; NumericType &gt; &amp;frequency) const</td></tr>
+<tr class="separator:a1042141ee8686290e09d8f67c87bef2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa2f007243a208e60fbf800d283bc6952"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1Energy.html">Energy</a>&lt; NumericType &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Energy.html#aa2f007243a208e60fbf800d283bc6952">operator/</a> (const NumericType number) const</td></tr>
+<tr class="separator:aa2f007243a208e60fbf800d283bc6952"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a746999896c8541af4b60031290d5db6c"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1Power.html">Power</a>&lt; NumericType &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Energy.html#a746999896c8541af4b60031290d5db6c">operator/</a> (const <a class="el" href="classPhQ_1_1Time.html">Time</a>&lt; NumericType &gt; &amp;time) const</td></tr>
+<tr class="separator:a746999896c8541af4b60031290d5db6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f496e774554373ba794e0638857a927"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1Time.html">Time</a>&lt; NumericType &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Energy.html#a0f496e774554373ba794e0638857a927">operator/</a> (const <a class="el" href="classPhQ_1_1Power.html">Power</a>&lt; NumericType &gt; &amp;power) const</td></tr>
+<tr class="separator:a0f496e774554373ba794e0638857a927"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a19f7b91ed70b778600db89d98a8874"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1SpecificEnergy.html">SpecificEnergy</a>&lt; NumericType &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Energy.html#a6a19f7b91ed70b778600db89d98a8874">operator/</a> (const <a class="el" href="classPhQ_1_1Mass.html">Mass</a>&lt; NumericType &gt; &amp;mass) const</td></tr>
+<tr class="separator:a6a19f7b91ed70b778600db89d98a8874"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa0f4b290239eea0286cff85a532213b3"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1Mass.html">Mass</a>&lt; NumericType &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Energy.html#aa0f4b290239eea0286cff85a532213b3">operator/</a> (const <a class="el" href="classPhQ_1_1SpecificEnergy.html">SpecificEnergy</a>&lt; NumericType &gt; &amp;specific_energy) const</td></tr>
+<tr class="separator:aa0f4b290239eea0286cff85a532213b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2eeacae517bb508064eb15655fa14514"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1TransportEnergyConsumption.html">TransportEnergyConsumption</a>&lt; NumericType &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Energy.html#a2eeacae517bb508064eb15655fa14514">operator/</a> (const <a class="el" href="classPhQ_1_1Length.html">Length</a>&lt; NumericType &gt; &amp;length) const</td></tr>
+<tr class="separator:a2eeacae517bb508064eb15655fa14514"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd33a3ad83f4ab25f9b155b534f9bf8c"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1Length.html">Length</a>&lt; NumericType &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Energy.html#abd33a3ad83f4ab25f9b155b534f9bf8c">operator/</a> (const <a class="el" href="classPhQ_1_1TransportEnergyConsumption.html">TransportEnergyConsumption</a>&lt; NumericType &gt; &amp;transport_energy_consumption) const</td></tr>
+<tr class="separator:abd33a3ad83f4ab25f9b155b534f9bf8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f7ac1402c99798c7f4e4bdc071fa283"><td class="memItemLeft" align="right" valign="top">constexpr NumericType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Energy.html#a7f7ac1402c99798c7f4e4bdc071fa283">operator/</a> (const <a class="el" href="classPhQ_1_1Energy.html">Energy</a>&lt; NumericType &gt; &amp;energy) const noexcept</td></tr>
+<tr class="separator:a7f7ac1402c99798c7f4e4bdc071fa283"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86d0b168b20bceb341b3f30c4f393089"><td class="memItemLeft" align="right" valign="top">constexpr void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Energy.html#a86d0b168b20bceb341b3f30c4f393089">operator+=</a> (const <a class="el" href="classPhQ_1_1Energy.html">Energy</a>&lt; NumericType &gt; &amp;energy) noexcept</td></tr>
+<tr class="separator:a86d0b168b20bceb341b3f30c4f393089"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a499e6680d1b392eec7b27a84f123e6a7"><td class="memItemLeft" align="right" valign="top">constexpr void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Energy.html#a499e6680d1b392eec7b27a84f123e6a7">operator-=</a> (const <a class="el" href="classPhQ_1_1Energy.html">Energy</a>&lt; NumericType &gt; &amp;energy) noexcept</td></tr>
+<tr class="separator:a499e6680d1b392eec7b27a84f123e6a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acbb1bd269a40f0c170f551f9a3fed5f3"><td class="memItemLeft" align="right" valign="top">constexpr void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Energy.html#acbb1bd269a40f0c170f551f9a3fed5f3">operator*=</a> (const NumericType number) noexcept</td></tr>
+<tr class="separator:acbb1bd269a40f0c170f551f9a3fed5f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a826bf588954fe4fefb345496996f933a"><td class="memItemLeft" align="right" valign="top">constexpr void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Energy.html#a826bf588954fe4fefb345496996f933a">operator/=</a> (const NumericType number) noexcept</td></tr>
+<tr class="separator:a826bf588954fe4fefb345496996f933a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa89c594ce9a870e7d509c39dfa1f996c"><td class="memItemLeft" align="right" valign="top">constexpr double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalScalar.html#aa89c594ce9a870e7d509c39dfa1f996c">Value</a> () const noexcept</td></tr>
+<tr class="memdesc:aa89c594ce9a870e7d509c39dfa1f996c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Value of this physical quantity expressed in its standard unit of measure.  <a href="classPhQ_1_1DimensionalScalar.html#aa89c594ce9a870e7d509c39dfa1f996c">More...</a><br /></td></tr>
+<tr class="separator:aa89c594ce9a870e7d509c39dfa1f996c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7295e6cce3097405dcaaba0c3c7ebc55"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalScalar.html#a7295e6cce3097405dcaaba0c3c7ebc55">Value</a> (const <a class="el" href="namespacePhQ_1_1Unit.html#a5fd3823ba60b168b5550a29b088facb6">Unit::Energy</a> unit) const</td></tr>
+<tr class="memdesc:a7295e6cce3097405dcaaba0c3c7ebc55"><td class="mdescLeft">&#160;</td><td class="mdescRight">Value of this physical quantity expressed in a given unit of measure.  <a href="classPhQ_1_1DimensionalScalar.html#a7295e6cce3097405dcaaba0c3c7ebc55">More...</a><br /></td></tr>
+<tr class="separator:a7295e6cce3097405dcaaba0c3c7ebc55"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa401781659dfda7d74e644ceaf68ff8d"><td class="memItemLeft" align="right" valign="top">constexpr double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalScalar.html#aa401781659dfda7d74e644ceaf68ff8d">StaticValue</a> () const</td></tr>
+<tr class="memdesc:aa401781659dfda7d74e644ceaf68ff8d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Value of this physical quantity expressed in a given unit of measure. This method can be evaluated statically at compile-time.  <a href="classPhQ_1_1DimensionalScalar.html#aa401781659dfda7d74e644ceaf68ff8d">More...</a><br /></td></tr>
+<tr class="separator:aa401781659dfda7d74e644ceaf68ff8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afae0bdf529936a6cd8d9bdcfd3ee4e6d"><td class="memItemLeft" align="right" valign="top">constexpr double &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalScalar.html#afae0bdf529936a6cd8d9bdcfd3ee4e6d">MutableValue</a> () noexcept</td></tr>
+<tr class="memdesc:afae0bdf529936a6cd8d9bdcfd3ee4e6d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the value of this physical quantity expressed in its standard unit of measure as a mutable value.  <a href="classPhQ_1_1DimensionalScalar.html#afae0bdf529936a6cd8d9bdcfd3ee4e6d">More...</a><br /></td></tr>
+<tr class="separator:afae0bdf529936a6cd8d9bdcfd3ee4e6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16891d80e526226d81481faecb0331ae"><td class="memItemLeft" align="right" valign="top">constexpr void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalScalar.html#a16891d80e526226d81481faecb0331ae">SetValue</a> (const double <a class="el" href="classPhQ_1_1DimensionalScalar.html#a34ca46c6f38afa3d34cba2eda00092fe">value</a>) noexcept</td></tr>
+<tr class="memdesc:a16891d80e526226d81481faecb0331ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the value of this physical quantity expressed in its standard unit of measure to the given value.  <a href="classPhQ_1_1DimensionalScalar.html#a16891d80e526226d81481faecb0331ae">More...</a><br /></td></tr>
+<tr class="separator:a16891d80e526226d81481faecb0331ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afce0b73bca1442f2ad975e4b6fb169e0"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalScalar.html#afce0b73bca1442f2ad975e4b6fb169e0">Print</a> () const</td></tr>
+<tr class="memdesc:afce0b73bca1442f2ad975e4b6fb169e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints this physical quantity as a string. This physical quantity's value is expressed in its standard unit of measure.  <a href="classPhQ_1_1DimensionalScalar.html#afce0b73bca1442f2ad975e4b6fb169e0">More...</a><br /></td></tr>
+<tr class="separator:afce0b73bca1442f2ad975e4b6fb169e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e98124436bc2dda3fb08f8fe24921f4"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalScalar.html#a3e98124436bc2dda3fb08f8fe24921f4">Print</a> (const <a class="el" href="namespacePhQ_1_1Unit.html#a5fd3823ba60b168b5550a29b088facb6">Unit::Energy</a> unit) const</td></tr>
+<tr class="memdesc:a3e98124436bc2dda3fb08f8fe24921f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints this physical quantity as a string. This physical quantity's value is expressed in the given unit of measure.  <a href="classPhQ_1_1DimensionalScalar.html#a3e98124436bc2dda3fb08f8fe24921f4">More...</a><br /></td></tr>
+<tr class="separator:a3e98124436bc2dda3fb08f8fe24921f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a955c0cd8487dc1332feb49dff22fd43d"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalScalar.html#a955c0cd8487dc1332feb49dff22fd43d">JSON</a> () const</td></tr>
+<tr class="memdesc:a955c0cd8487dc1332feb49dff22fd43d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serializes this physical quantity as a JSON message. This physical quantity's value is expressed in its standard unit of measure.  <a href="classPhQ_1_1DimensionalScalar.html#a955c0cd8487dc1332feb49dff22fd43d">More...</a><br /></td></tr>
+<tr class="separator:a955c0cd8487dc1332feb49dff22fd43d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8ba6d43f120369610d116d506b77a92"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalScalar.html#ae8ba6d43f120369610d116d506b77a92">JSON</a> (const <a class="el" href="namespacePhQ_1_1Unit.html#a5fd3823ba60b168b5550a29b088facb6">Unit::Energy</a> unit) const</td></tr>
+<tr class="memdesc:ae8ba6d43f120369610d116d506b77a92"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serializes this physical quantity as a JSON message. This physical quantity's value is expressed in the given unit of measure.  <a href="classPhQ_1_1DimensionalScalar.html#ae8ba6d43f120369610d116d506b77a92">More...</a><br /></td></tr>
+<tr class="separator:ae8ba6d43f120369610d116d506b77a92"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9c476851d0b711cf6d616483bba9594"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalScalar.html#ae9c476851d0b711cf6d616483bba9594">XML</a> () const</td></tr>
+<tr class="memdesc:ae9c476851d0b711cf6d616483bba9594"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serializes this physical quantity as an XML message. This physical quantity's value is expressed in its standard unit of measure.  <a href="classPhQ_1_1DimensionalScalar.html#ae9c476851d0b711cf6d616483bba9594">More...</a><br /></td></tr>
+<tr class="separator:ae9c476851d0b711cf6d616483bba9594"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0bcfcd2b36949dbfbe4e407d0523d749"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalScalar.html#a0bcfcd2b36949dbfbe4e407d0523d749">XML</a> (const <a class="el" href="namespacePhQ_1_1Unit.html#a5fd3823ba60b168b5550a29b088facb6">Unit::Energy</a> unit) const</td></tr>
+<tr class="memdesc:a0bcfcd2b36949dbfbe4e407d0523d749"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serializes this physical quantity as an XML message. This physical quantity's value is expressed in the given unit of measure.  <a href="classPhQ_1_1DimensionalScalar.html#a0bcfcd2b36949dbfbe4e407d0523d749">More...</a><br /></td></tr>
+<tr class="separator:a0bcfcd2b36949dbfbe4e407d0523d749"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac55005e5bec47b0f01de69e71ede218a"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalScalar.html#ac55005e5bec47b0f01de69e71ede218a">YAML</a> () const</td></tr>
+<tr class="memdesc:ac55005e5bec47b0f01de69e71ede218a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serializes this physical quantity as a YAML message. This physical quantity's value is expressed in its standard unit of measure.  <a href="classPhQ_1_1DimensionalScalar.html#ac55005e5bec47b0f01de69e71ede218a">More...</a><br /></td></tr>
+<tr class="separator:ac55005e5bec47b0f01de69e71ede218a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14579dd93adade7f7908d3a77b5967e7"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalScalar.html#a14579dd93adade7f7908d3a77b5967e7">YAML</a> (const <a class="el" href="namespacePhQ_1_1Unit.html#a5fd3823ba60b168b5550a29b088facb6">Unit::Energy</a> unit) const</td></tr>
+<tr class="memdesc:a14579dd93adade7f7908d3a77b5967e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serializes this physical quantity as a YAML message. This physical quantity's value is expressed in the given unit of measure.  <a href="classPhQ_1_1DimensionalScalar.html#a14579dd93adade7f7908d3a77b5967e7">More...</a><br /></td></tr>
+<tr class="separator:a14579dd93adade7f7908d3a77b5967e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a625dcad17b8bc6e5641645856c5fc571"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="classPhQ_1_1Energy.html">Energy</a>&lt; Number &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Energy.html#a625dcad17b8bc6e5641645856c5fc571">Zero</a> ()</td></tr>
-<tr class="memdesc:a625dcad17b8bc6e5641645856c5fc571"><td class="mdescLeft">&#160;</td><td class="mdescRight">Statically creates an energy quantity of zero.  <a href="classPhQ_1_1Energy.html#a625dcad17b8bc6e5641645856c5fc571">More...</a><br /></td></tr>
-<tr class="separator:a625dcad17b8bc6e5641645856c5fc571"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a715065882763efba5eef5306b29b8c96"><td class="memTemplParams" colspan="2">template&lt;Unit::Energy Unit&gt; </td></tr>
-<tr class="memitem:a715065882763efba5eef5306b29b8c96"><td class="memTemplItemLeft" align="right" valign="top">static constexpr <a class="el" href="classPhQ_1_1Energy.html">Energy</a>&lt; Number &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Energy.html#a715065882763efba5eef5306b29b8c96">Create</a> (const Number <a class="el" href="classPhQ_1_1DimensionalScalar.html#a076d75036473812cf5583dc12b30aac2">value</a>)</td></tr>
-<tr class="memdesc:a715065882763efba5eef5306b29b8c96"><td class="mdescLeft">&#160;</td><td class="mdescRight">Statically creates an energy quantity with a given value expressed in a given energy unit.  <a href="classPhQ_1_1Energy.html#a715065882763efba5eef5306b29b8c96">More...</a><br /></td></tr>
-<tr class="separator:a715065882763efba5eef5306b29b8c96"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a49230866296c449b998578cbb78bae38"><td class="memItemLeft" align="right" valign="top">static constexpr const <a class="el" href="classPhQ_1_1Dimensions.html">PhQ::Dimensions</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalScalar.html#a49230866296c449b998578cbb78bae38">Dimensions</a> ()</td></tr>
-<tr class="memdesc:a49230866296c449b998578cbb78bae38"><td class="mdescLeft">&#160;</td><td class="mdescRight">Physical dimension set of this physical quantity.  <a href="classPhQ_1_1DimensionalScalar.html#a49230866296c449b998578cbb78bae38">More...</a><br /></td></tr>
-<tr class="separator:a49230866296c449b998578cbb78bae38"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a75b344fe52822caa65e4918e1d1fcbd6"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="namespacePhQ_1_1Unit.html#a5fd3823ba60b168b5550a29b088facb6">Unit::Energy</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalScalar.html#a75b344fe52822caa65e4918e1d1fcbd6">Unit</a> ()</td></tr>
-<tr class="memdesc:a75b344fe52822caa65e4918e1d1fcbd6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Standard unit of measure for this physical quantity. This physical quantity's value is stored internally in this unit of measure.  <a href="classPhQ_1_1DimensionalScalar.html#a75b344fe52822caa65e4918e1d1fcbd6">More...</a><br /></td></tr>
-<tr class="separator:a75b344fe52822caa65e4918e1d1fcbd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a199a95a37ebe2d085167f997a7460509"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="classPhQ_1_1Energy.html">Energy</a>&lt; NumericType &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Energy.html#a199a95a37ebe2d085167f997a7460509">Zero</a> ()</td></tr>
+<tr class="memdesc:a199a95a37ebe2d085167f997a7460509"><td class="mdescLeft">&#160;</td><td class="mdescRight">Statically creates an energy quantity of zero.  <a href="classPhQ_1_1Energy.html#a199a95a37ebe2d085167f997a7460509">More...</a><br /></td></tr>
+<tr class="separator:a199a95a37ebe2d085167f997a7460509"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79de97b676dbaf8e21a4e2f537ee9af0"><td class="memTemplParams" colspan="2">template&lt;Unit::Energy Unit&gt; </td></tr>
+<tr class="memitem:a79de97b676dbaf8e21a4e2f537ee9af0"><td class="memTemplItemLeft" align="right" valign="top">static constexpr <a class="el" href="classPhQ_1_1Energy.html">Energy</a>&lt; NumericType &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Energy.html#a79de97b676dbaf8e21a4e2f537ee9af0">Create</a> (const NumericType <a class="el" href="classPhQ_1_1DimensionalScalar.html#a34ca46c6f38afa3d34cba2eda00092fe">value</a>)</td></tr>
+<tr class="memdesc:a79de97b676dbaf8e21a4e2f537ee9af0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Statically creates an energy quantity with a given value expressed in a given energy unit.  <a href="classPhQ_1_1Energy.html#a79de97b676dbaf8e21a4e2f537ee9af0">More...</a><br /></td></tr>
+<tr class="separator:a79de97b676dbaf8e21a4e2f537ee9af0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb6ee843bf9ff8888de5a9dea1c00a94"><td class="memItemLeft" align="right" valign="top">static constexpr const <a class="el" href="classPhQ_1_1Dimensions.html">PhQ::Dimensions</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalScalar.html#afb6ee843bf9ff8888de5a9dea1c00a94">Dimensions</a> ()</td></tr>
+<tr class="memdesc:afb6ee843bf9ff8888de5a9dea1c00a94"><td class="mdescLeft">&#160;</td><td class="mdescRight">Physical dimension set of this physical quantity.  <a href="classPhQ_1_1DimensionalScalar.html#afb6ee843bf9ff8888de5a9dea1c00a94">More...</a><br /></td></tr>
+<tr class="separator:afb6ee843bf9ff8888de5a9dea1c00a94"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac50d4adb6c3f11c180714b6aa39534cd"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="namespacePhQ_1_1Unit.html#a5fd3823ba60b168b5550a29b088facb6">Unit::Energy</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalScalar.html#ac50d4adb6c3f11c180714b6aa39534cd">Unit</a> ()</td></tr>
+<tr class="memdesc:ac50d4adb6c3f11c180714b6aa39534cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Standard unit of measure for this physical quantity. This physical quantity's value is stored internally in this unit of measure.  <a href="classPhQ_1_1DimensionalScalar.html#ac50d4adb6c3f11c180714b6aa39534cd">More...</a><br /></td></tr>
+<tr class="separator:ac50d4adb6c3f11c180714b6aa39534cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:a076d75036473812cf5583dc12b30aac2"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalScalar.html#a076d75036473812cf5583dc12b30aac2">value</a></td></tr>
-<tr class="memdesc:a076d75036473812cf5583dc12b30aac2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Value of this physical quantity expressed in its standard unit of measure.  <a href="classPhQ_1_1DimensionalScalar.html#a076d75036473812cf5583dc12b30aac2">More...</a><br /></td></tr>
-<tr class="separator:a076d75036473812cf5583dc12b30aac2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34ca46c6f38afa3d34cba2eda00092fe"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalScalar.html#a34ca46c6f38afa3d34cba2eda00092fe">value</a></td></tr>
+<tr class="memdesc:a34ca46c6f38afa3d34cba2eda00092fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Value of this physical quantity expressed in its standard unit of measure.  <a href="classPhQ_1_1DimensionalScalar.html#a34ca46c6f38afa3d34cba2eda00092fe">More...</a><br /></td></tr>
+<tr class="separator:a34ca46c6f38afa3d34cba2eda00092fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr class="memitem:a0ecc174fc20bfa1c330d24d75dd78c26"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Energy.html#a0ecc174fc20bfa1c330d24d75dd78c26">Energy</a> (const Number <a class="el" href="classPhQ_1_1DimensionalScalar.html#a076d75036473812cf5583dc12b30aac2">value</a>)</td></tr>
-<tr class="memdesc:a0ecc174fc20bfa1c330d24d75dd78c26"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs an energy quantity with a given value expressed in the standard energy unit.  <a href="classPhQ_1_1Energy.html#a0ecc174fc20bfa1c330d24d75dd78c26">More...</a><br /></td></tr>
-<tr class="separator:a0ecc174fc20bfa1c330d24d75dd78c26"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a08d3133131c187cce45fab221d409450"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Energy.html#a08d3133131c187cce45fab221d409450">Energy</a> (const NumericType <a class="el" href="classPhQ_1_1DimensionalScalar.html#a34ca46c6f38afa3d34cba2eda00092fe">value</a>)</td></tr>
+<tr class="memdesc:a08d3133131c187cce45fab221d409450"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs an energy quantity with a given value expressed in the standard energy unit.  <a href="classPhQ_1_1Energy.html#a08d3133131c187cce45fab221d409450">More...</a><br /></td></tr>
+<tr class="separator:a08d3133131c187cce45fab221d409450"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><h3>template&lt;typename Number = double&gt;<br />
-class PhQ::Energy&lt; Number &gt;</h3>
+<div class="textblock"><h3>template&lt;typename NumericType = double&gt;<br />
+class PhQ::Energy&lt; NumericType &gt;</h3>
 
 <p><a class="el" href="classPhQ_1_1Energy.html" title="Energy physical quantity. Can represent any kind of energy, such as kinetic energy,...">Energy</a> physical quantity. Can represent any kind of energy, such as kinetic energy, potential energy, internal energy, and so on. The time rate of change of energy is power; see <a class="el" href="classPhQ_1_1Power.html" title="Power. Time rate of change of energy or energy transfer rate; see PhQ::Energy, PhQ::Time,...">PhQ::Power</a>, <a class="el" href="classPhQ_1_1Time.html" title="Time. Can represent either a point in time, a time duration, or a period. For the inverse of time,...">PhQ::Time</a>, and <a class="el" href="classPhQ_1_1Frequency.html" title="Frequency. Inverse of a time duration. See also PhQ::Time.">PhQ::Frequency</a>. </p>
 
 <p class="definition">Definition at line <a class="el" href="Energy_8hpp_source.html#l00075">75</a> of file <a class="el" href="Energy_8hpp_source.html">Energy.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a55acb07ee7f478d25bab2b0412965d6b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a55acb07ee7f478d25bab2b0412965d6b">&#9670;&nbsp;</a></span>Energy() <span class="overload">[1/10]</span></h2>
+<a id="a518040b722d530112a8264428598ae39"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a518040b722d530112a8264428598ae39">&#9670;&nbsp;</a></span>Energy() <span class="overload">[1/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classPhQ_1_1Energy.html">PhQ::Energy</a>&lt; Number &gt;::<a class="el" href="classPhQ_1_1Energy.html">Energy</a> </td>
+          <td class="memname"><a class="el" href="classPhQ_1_1Energy.html">PhQ::Energy</a>&lt; NumericType &gt;::<a class="el" href="classPhQ_1_1Energy.html">Energy</a> </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -299,27 +299,27 @@ template&lt;typename Number  = double&gt; </div>
 
 </div>
 </div>
-<a id="a77270007c0731cbab70105e25e33bbb8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a77270007c0731cbab70105e25e33bbb8">&#9670;&nbsp;</a></span>Energy() <span class="overload">[2/10]</span></h2>
+<a id="a8efd3fb7254c14d497446c0f98372038"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8efd3fb7254c14d497446c0f98372038">&#9670;&nbsp;</a></span>Energy() <span class="overload">[2/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classPhQ_1_1Energy.html">PhQ::Energy</a>&lt; Number &gt;::<a class="el" href="classPhQ_1_1Energy.html">Energy</a> </td>
+          <td class="memname"><a class="el" href="classPhQ_1_1Energy.html">PhQ::Energy</a>&lt; NumericType &gt;::<a class="el" href="classPhQ_1_1Energy.html">Energy</a> </td>
           <td>(</td>
-          <td class="paramtype">const Number&#160;</td>
+          <td class="paramtype">const NumericType&#160;</td>
           <td class="paramname"><em>value</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="namespacePhQ_1_1Unit.html#a5fd3823ba60b168b5550a29b088facb6">Unit::Energy</a>&lt; Number &gt;&#160;</td>
+          <td class="paramtype">const <a class="el" href="namespacePhQ_1_1Unit.html#a5fd3823ba60b168b5550a29b088facb6">Unit::Energy</a>&lt; NumericType &gt;&#160;</td>
           <td class="paramname"><em>unit</em>&#160;</td>
         </tr>
         <tr>
@@ -341,27 +341,27 @@ template&lt;typename Number  = double&gt; </div>
 
 </div>
 </div>
-<a id="a890377781df780558c326059c008f346"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a890377781df780558c326059c008f346">&#9670;&nbsp;</a></span>Energy() <span class="overload">[3/10]</span></h2>
+<a id="a5d9dba16a9de1a61d02b6307679d569c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5d9dba16a9de1a61d02b6307679d569c">&#9670;&nbsp;</a></span>Energy() <span class="overload">[3/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Energy.html">PhQ::Energy</a>&lt; Number &gt;::<a class="el" href="classPhQ_1_1Energy.html">Energy</a> </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Energy.html">PhQ::Energy</a>&lt; NumericType &gt;::<a class="el" href="classPhQ_1_1Energy.html">Energy</a> </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1Power.html">Power</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1Power.html">Power</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>power</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1Time.html">Time</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1Time.html">Time</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>time</em>&#160;</td>
         </tr>
         <tr>
@@ -381,27 +381,27 @@ template&lt;typename Number  = double&gt; </div>
 
 </div>
 </div>
-<a id="a4a128f5357a5ab2703aeb5bb956773bb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4a128f5357a5ab2703aeb5bb956773bb">&#9670;&nbsp;</a></span>Energy() <span class="overload">[4/10]</span></h2>
+<a id="a2d0a2e5dfb246e52a5a91fa01b67270e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d0a2e5dfb246e52a5a91fa01b67270e">&#9670;&nbsp;</a></span>Energy() <span class="overload">[4/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Energy.html">PhQ::Energy</a>&lt; Number &gt;::<a class="el" href="classPhQ_1_1Energy.html">Energy</a> </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Energy.html">PhQ::Energy</a>&lt; NumericType &gt;::<a class="el" href="classPhQ_1_1Energy.html">Energy</a> </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1Power.html">Power</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1Power.html">Power</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>power</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1Frequency.html">Frequency</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1Frequency.html">Frequency</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>frequency</em>&#160;</td>
         </tr>
         <tr>
@@ -421,27 +421,27 @@ template&lt;typename Number  = double&gt; </div>
 
 </div>
 </div>
-<a id="a5361c456ff0eea6dac186d8e18450aec"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5361c456ff0eea6dac186d8e18450aec">&#9670;&nbsp;</a></span>Energy() <span class="overload">[5/10]</span></h2>
+<a id="aa483f759aac13db146153d11e45ebe66"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa483f759aac13db146153d11e45ebe66">&#9670;&nbsp;</a></span>Energy() <span class="overload">[5/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Energy.html">PhQ::Energy</a>&lt; Number &gt;::<a class="el" href="classPhQ_1_1Energy.html">Energy</a> </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Energy.html">PhQ::Energy</a>&lt; NumericType &gt;::<a class="el" href="classPhQ_1_1Energy.html">Energy</a> </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1SpecificEnergy.html">SpecificEnergy</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1SpecificEnergy.html">SpecificEnergy</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>specific_energy</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1Mass.html">Mass</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1Mass.html">Mass</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>mass</em>&#160;</td>
         </tr>
         <tr>
@@ -461,27 +461,27 @@ template&lt;typename Number  = double&gt; </div>
 
 </div>
 </div>
-<a id="a8e3d9beeb79189785eef45a6a49bfdc3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8e3d9beeb79189785eef45a6a49bfdc3">&#9670;&nbsp;</a></span>Energy() <span class="overload">[6/10]</span></h2>
+<a id="ab6f79f9f06e4b64490da10404db66730"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab6f79f9f06e4b64490da10404db66730">&#9670;&nbsp;</a></span>Energy() <span class="overload">[6/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Energy.html">PhQ::Energy</a>&lt; Number &gt;::<a class="el" href="classPhQ_1_1Energy.html">Energy</a> </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Energy.html">PhQ::Energy</a>&lt; NumericType &gt;::<a class="el" href="classPhQ_1_1Energy.html">Energy</a> </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1TransportEnergyConsumption.html">TransportEnergyConsumption</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1TransportEnergyConsumption.html">TransportEnergyConsumption</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>transport_energy_consumption</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1Length.html">Length</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1Length.html">Length</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>length</em>&#160;</td>
         </tr>
         <tr>
@@ -501,19 +501,19 @@ template&lt;typename Number  = double&gt; </div>
 
 </div>
 </div>
-<a id="a80a8cbd0869e9d9327b65cc11d493e66"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a80a8cbd0869e9d9327b65cc11d493e66">&#9670;&nbsp;</a></span>~Energy()</h2>
+<a id="aa734162cf0e5ba30636dad77b2a31373"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa734162cf0e5ba30636dad77b2a31373">&#9670;&nbsp;</a></span>~Energy()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classPhQ_1_1Energy.html">PhQ::Energy</a>&lt; Number &gt;::~<a class="el" href="classPhQ_1_1Energy.html">Energy</a> </td>
+          <td class="memname"><a class="el" href="classPhQ_1_1Energy.html">PhQ::Energy</a>&lt; NumericType &gt;::~<a class="el" href="classPhQ_1_1Energy.html">Energy</a> </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -530,21 +530,21 @@ template&lt;typename Number  = double&gt; </div>
 
 </div>
 </div>
-<a id="a6f1bb14bf38880b9db4a64198f532656"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6f1bb14bf38880b9db4a64198f532656">&#9670;&nbsp;</a></span>Energy() <span class="overload">[7/10]</span></h2>
+<a id="ac7e8f55d00ee3f4414fc29ae68b6efdb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac7e8f55d00ee3f4414fc29ae68b6efdb">&#9670;&nbsp;</a></span>Energy() <span class="overload">[7/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Energy.html">PhQ::Energy</a>&lt; Number &gt;::<a class="el" href="classPhQ_1_1Energy.html">Energy</a> </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Energy.html">PhQ::Energy</a>&lt; NumericType &gt;::<a class="el" href="classPhQ_1_1Energy.html">Energy</a> </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1Energy.html">Energy</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1Energy.html">Energy</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>other</em></td><td>)</td>
           <td></td>
         </tr>
@@ -560,23 +560,23 @@ template&lt;typename Number  = double&gt; </div>
 
 </div>
 </div>
-<a id="a0314452bb98bf115f07f438d13336c52"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0314452bb98bf115f07f438d13336c52">&#9670;&nbsp;</a></span>Energy() <span class="overload">[8/10]</span></h2>
+<a id="ac1fbcaa479c7604867598b47674a224d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac1fbcaa479c7604867598b47674a224d">&#9670;&nbsp;</a></span>Energy() <span class="overload">[8/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <div class="memtemplate">
-template&lt;typename OtherNumber &gt; </div>
+template&lt;typename OtherNumericType &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Energy.html">PhQ::Energy</a>&lt; Number &gt;::<a class="el" href="classPhQ_1_1Energy.html">Energy</a> </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Energy.html">PhQ::Energy</a>&lt; NumericType &gt;::<a class="el" href="classPhQ_1_1Energy.html">Energy</a> </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1Energy.html">Energy</a>&lt; OtherNumber &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1Energy.html">Energy</a>&lt; OtherNumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>other</em></td><td>)</td>
           <td></td>
         </tr>
@@ -590,25 +590,25 @@ template&lt;typename OtherNumber &gt; </div>
 
 <p>Copy constructor. Constructs an energy quantity by copying another one. </p>
 
-<p class="definition">Definition at line <a class="el" href="Energy_8hpp_source.html#l00110">110</a> of file <a class="el" href="Energy_8hpp_source.html">Energy.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Energy_8hpp_source.html#l00111">111</a> of file <a class="el" href="Energy_8hpp_source.html">Energy.hpp</a>.</p>
 
 </div>
 </div>
-<a id="a26fa71e1c4294c2dd6b362b18527e3dd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a26fa71e1c4294c2dd6b362b18527e3dd">&#9670;&nbsp;</a></span>Energy() <span class="overload">[9/10]</span></h2>
+<a id="a6c4fef72de151d2be718c6dd892cc9d6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6c4fef72de151d2be718c6dd892cc9d6">&#9670;&nbsp;</a></span>Energy() <span class="overload">[9/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Energy.html">PhQ::Energy</a>&lt; Number &gt;::<a class="el" href="classPhQ_1_1Energy.html">Energy</a> </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Energy.html">PhQ::Energy</a>&lt; NumericType &gt;::<a class="el" href="classPhQ_1_1Energy.html">Energy</a> </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classPhQ_1_1Energy.html">Energy</a>&lt; Number &gt; &amp;&amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="classPhQ_1_1Energy.html">Energy</a>&lt; NumericType &gt; &amp;&amp;&#160;</td>
           <td class="paramname"><em>other</em></td><td>)</td>
           <td></td>
         </tr>
@@ -624,21 +624,21 @@ template&lt;typename Number  = double&gt; </div>
 
 </div>
 </div>
-<a id="a0ecc174fc20bfa1c330d24d75dd78c26"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0ecc174fc20bfa1c330d24d75dd78c26">&#9670;&nbsp;</a></span>Energy() <span class="overload">[10/10]</span></h2>
+<a id="a08d3133131c187cce45fab221d409450"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a08d3133131c187cce45fab221d409450">&#9670;&nbsp;</a></span>Energy() <span class="overload">[10/10]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Energy.html">PhQ::Energy</a>&lt; Number &gt;::<a class="el" href="classPhQ_1_1Energy.html">Energy</a> </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Energy.html">PhQ::Energy</a>&lt; NumericType &gt;::<a class="el" href="classPhQ_1_1Energy.html">Energy</a> </td>
           <td>(</td>
-          <td class="paramtype">const Number&#160;</td>
+          <td class="paramtype">const NumericType&#160;</td>
           <td class="paramname"><em>value</em></td><td>)</td>
           <td></td>
         </tr>
@@ -652,18 +652,18 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Constructor. Constructs an energy quantity with a given value expressed in the standard energy unit. </p>
 
-<p class="definition">Definition at line <a class="el" href="Energy_8hpp_source.html#l00195">195</a> of file <a class="el" href="Energy_8hpp_source.html">Energy.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Energy_8hpp_source.html#l00198">198</a> of file <a class="el" href="Energy_8hpp_source.html">Energy.hpp</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a715065882763efba5eef5306b29b8c96"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a715065882763efba5eef5306b29b8c96">&#9670;&nbsp;</a></span>Create()</h2>
+<a id="a79de97b676dbaf8e21a4e2f537ee9af0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a79de97b676dbaf8e21a4e2f537ee9af0">&#9670;&nbsp;</a></span>Create()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <div class="memtemplate">
 template&lt;Unit::Energy Unit&gt; </div>
 <table class="mlabels">
@@ -671,9 +671,9 @@ template&lt;Unit::Energy Unit&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static constexpr <a class="el" href="classPhQ_1_1Energy.html">Energy</a>&lt;Number&gt; <a class="el" href="classPhQ_1_1Energy.html">PhQ::Energy</a>&lt; Number &gt;::Create </td>
+          <td class="memname">static constexpr <a class="el" href="classPhQ_1_1Energy.html">Energy</a>&lt;NumericType&gt; <a class="el" href="classPhQ_1_1Energy.html">PhQ::Energy</a>&lt; NumericType &gt;::Create </td>
           <td>(</td>
-          <td class="paramtype">const Number&#160;</td>
+          <td class="paramtype">const NumericType&#160;</td>
           <td class="paramname"><em>value</em></td><td>)</td>
           <td></td>
         </tr>
@@ -687,14 +687,14 @@ template&lt;Unit::Energy Unit&gt; </div>
 
 <p>Statically creates an energy quantity with a given value expressed in a given energy unit. </p>
 
-<p class="definition">Definition at line <a class="el" href="Energy_8hpp_source.html#l00137">137</a> of file <a class="el" href="Energy_8hpp_source.html">Energy.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Energy_8hpp_source.html#l00138">138</a> of file <a class="el" href="Energy_8hpp_source.html">Energy.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00218">PhQ::DimensionalScalar&lt; Unit::Energy, double &gt;::value</a>.</p>
+<p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00216">PhQ::DimensionalScalar&lt; Unit::Energy, double &gt;::value</a>.</p>
 
 </div>
 </div>
-<a id="a49230866296c449b998578cbb78bae38"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a49230866296c449b998578cbb78bae38">&#9670;&nbsp;</a></span>Dimensions()</h2>
+<a id="afb6ee843bf9ff8888de5a9dea1c00a94"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb6ee843bf9ff8888de5a9dea1c00a94">&#9670;&nbsp;</a></span>Dimensions()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -722,8 +722,8 @@ template&lt;Unit::Energy Unit&gt; </div>
 
 </div>
 </div>
-<a id="a05cd733dcabe35166c4ec6ce476f46ab"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a05cd733dcabe35166c4ec6ce476f46ab">&#9670;&nbsp;</a></span>JSON() <span class="overload">[1/2]</span></h2>
+<a id="a955c0cd8487dc1332feb49dff22fd43d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a955c0cd8487dc1332feb49dff22fd43d">&#9670;&nbsp;</a></span>JSON() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -747,12 +747,12 @@ template&lt;Unit::Energy Unit&gt; </div>
 
 <p>Serializes this physical quantity as a JSON message. This physical quantity's value is expressed in its standard unit of measure. </p>
 
-<p class="definition">Definition at line <a class="el" href="DimensionalScalar_8hpp_source.html#l00108">108</a> of file <a class="el" href="DimensionalScalar_8hpp_source.html">DimensionalScalar.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="DimensionalScalar_8hpp_source.html#l00106">106</a> of file <a class="el" href="DimensionalScalar_8hpp_source.html">DimensionalScalar.hpp</a>.</p>
 
 </div>
 </div>
-<a id="ab0b9a823fbcc260db150dc1454e595ad"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab0b9a823fbcc260db150dc1454e595ad">&#9670;&nbsp;</a></span>JSON() <span class="overload">[2/2]</span></h2>
+<a id="ae8ba6d43f120369610d116d506b77a92"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae8ba6d43f120369610d116d506b77a92">&#9670;&nbsp;</a></span>JSON() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -777,12 +777,12 @@ template&lt;Unit::Energy Unit&gt; </div>
 
 <p>Serializes this physical quantity as a JSON message. This physical quantity's value is expressed in the given unit of measure. </p>
 
-<p class="definition">Definition at line <a class="el" href="DimensionalScalar_8hpp_source.html#l00118">118</a> of file <a class="el" href="DimensionalScalar_8hpp_source.html">DimensionalScalar.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="DimensionalScalar_8hpp_source.html#l00116">116</a> of file <a class="el" href="DimensionalScalar_8hpp_source.html">DimensionalScalar.hpp</a>.</p>
 
 </div>
 </div>
-<a id="ab23e71494593d494de7e970896c6e8be"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab23e71494593d494de7e970896c6e8be">&#9670;&nbsp;</a></span>MutableValue()</h2>
+<a id="afae0bdf529936a6cd8d9bdcfd3ee4e6d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afae0bdf529936a6cd8d9bdcfd3ee4e6d">&#9670;&nbsp;</a></span>MutableValue()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -806,25 +806,25 @@ template&lt;Unit::Energy Unit&gt; </div>
 
 <p>Returns the value of this physical quantity expressed in its standard unit of measure as a mutable value. </p>
 
-<p class="definition">Definition at line <a class="el" href="DimensionalScalar_8hpp_source.html#l00084">84</a> of file <a class="el" href="DimensionalScalar_8hpp_source.html">DimensionalScalar.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="DimensionalScalar_8hpp_source.html#l00082">82</a> of file <a class="el" href="DimensionalScalar_8hpp_source.html">DimensionalScalar.hpp</a>.</p>
 
 </div>
 </div>
-<a id="a47fe19a24db4702199651ea2359374fa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a47fe19a24db4702199651ea2359374fa">&#9670;&nbsp;</a></span>operator*() <span class="overload">[1/2]</span></h2>
+<a id="a1042141ee8686290e09d8f67c87bef2a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1042141ee8686290e09d8f67c87bef2a">&#9670;&nbsp;</a></span>operator*() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Power.html">Power</a>&lt;Number&gt; <a class="el" href="classPhQ_1_1Energy.html">PhQ::Energy</a>&lt; Number &gt;::operator* </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Power.html">Power</a>&lt;NumericType&gt; <a class="el" href="classPhQ_1_1Energy.html">PhQ::Energy</a>&lt; NumericType &gt;::operator* </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1Frequency.html">Frequency</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1Frequency.html">Frequency</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>frequency</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -838,21 +838,21 @@ template&lt;typename Number  = double&gt; </div>
 
 </div>
 </div>
-<a id="a281cdfd6db415836a4f355a8a82f1740"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a281cdfd6db415836a4f355a8a82f1740">&#9670;&nbsp;</a></span>operator*() <span class="overload">[2/2]</span></h2>
+<a id="a1e21d98945153652a92ecdada2be2543"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e21d98945153652a92ecdada2be2543">&#9670;&nbsp;</a></span>operator*() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Energy.html">Energy</a>&lt;Number&gt; <a class="el" href="classPhQ_1_1Energy.html">PhQ::Energy</a>&lt; Number &gt;::operator* </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Energy.html">Energy</a>&lt;NumericType&gt; <a class="el" href="classPhQ_1_1Energy.html">PhQ::Energy</a>&lt; NumericType &gt;::operator* </td>
           <td>(</td>
-          <td class="paramtype">const Number&#160;</td>
+          <td class="paramtype">const NumericType&#160;</td>
           <td class="paramname"><em>number</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -864,27 +864,27 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Energy_8hpp_source.html#l00149">149</a> of file <a class="el" href="Energy_8hpp_source.html">Energy.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Energy_8hpp_source.html#l00151">151</a> of file <a class="el" href="Energy_8hpp_source.html">Energy.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00218">PhQ::DimensionalScalar&lt; Unit::Energy, double &gt;::value</a>.</p>
+<p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00216">PhQ::DimensionalScalar&lt; Unit::Energy, double &gt;::value</a>.</p>
 
 </div>
 </div>
-<a id="a610d708627b888296df3dea52be0dca5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a610d708627b888296df3dea52be0dca5">&#9670;&nbsp;</a></span>operator*=()</h2>
+<a id="acbb1bd269a40f0c170f551f9a3fed5f3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acbb1bd269a40f0c170f551f9a3fed5f3">&#9670;&nbsp;</a></span>operator*=()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr void <a class="el" href="classPhQ_1_1Energy.html">PhQ::Energy</a>&lt; Number &gt;::operator*= </td>
+          <td class="memname">constexpr void <a class="el" href="classPhQ_1_1Energy.html">PhQ::Energy</a>&lt; NumericType &gt;::operator*= </td>
           <td>(</td>
-          <td class="paramtype">const Number&#160;</td>
+          <td class="paramtype">const NumericType&#160;</td>
           <td class="paramname"><em>number</em></td><td>)</td>
           <td></td>
         </tr>
@@ -896,27 +896,27 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Energy_8hpp_source.html#l00184">184</a> of file <a class="el" href="Energy_8hpp_source.html">Energy.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Energy_8hpp_source.html#l00187">187</a> of file <a class="el" href="Energy_8hpp_source.html">Energy.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00218">PhQ::DimensionalScalar&lt; Unit::Energy, double &gt;::value</a>.</p>
+<p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00216">PhQ::DimensionalScalar&lt; Unit::Energy, double &gt;::value</a>.</p>
 
 </div>
 </div>
-<a id="a680d1376dd65ecee15a91d7618df6ca8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a680d1376dd65ecee15a91d7618df6ca8">&#9670;&nbsp;</a></span>operator+()</h2>
+<a id="a9c931e9dda4a69281219dd63a7b3ece9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9c931e9dda4a69281219dd63a7b3ece9">&#9670;&nbsp;</a></span>operator+()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Energy.html">Energy</a>&lt;Number&gt; <a class="el" href="classPhQ_1_1Energy.html">PhQ::Energy</a>&lt; Number &gt;::operator+ </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Energy.html">Energy</a>&lt;NumericType&gt; <a class="el" href="classPhQ_1_1Energy.html">PhQ::Energy</a>&lt; NumericType &gt;::operator+ </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1Energy.html">Energy</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1Energy.html">Energy</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>energy</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -928,27 +928,27 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Energy_8hpp_source.html#l00141">141</a> of file <a class="el" href="Energy_8hpp_source.html">Energy.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Energy_8hpp_source.html#l00143">143</a> of file <a class="el" href="Energy_8hpp_source.html">Energy.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00218">PhQ::DimensionalScalar&lt; UnitType, Number &gt;::value</a>, and <a class="el" href="DimensionalScalar_8hpp_source.html#l00218">PhQ::DimensionalScalar&lt; Unit::Energy, double &gt;::value</a>.</p>
+<p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00216">PhQ::DimensionalScalar&lt; UnitType, NumericType &gt;::value</a>, and <a class="el" href="DimensionalScalar_8hpp_source.html#l00216">PhQ::DimensionalScalar&lt; Unit::Energy, double &gt;::value</a>.</p>
 
 </div>
 </div>
-<a id="a924943ece7e96ff968a15ab30d889d34"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a924943ece7e96ff968a15ab30d889d34">&#9670;&nbsp;</a></span>operator+=()</h2>
+<a id="a86d0b168b20bceb341b3f30c4f393089"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a86d0b168b20bceb341b3f30c4f393089">&#9670;&nbsp;</a></span>operator+=()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr void <a class="el" href="classPhQ_1_1Energy.html">PhQ::Energy</a>&lt; Number &gt;::operator+= </td>
+          <td class="memname">constexpr void <a class="el" href="classPhQ_1_1Energy.html">PhQ::Energy</a>&lt; NumericType &gt;::operator+= </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1Energy.html">Energy</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1Energy.html">Energy</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>energy</em></td><td>)</td>
           <td></td>
         </tr>
@@ -960,27 +960,27 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Energy_8hpp_source.html#l00176">176</a> of file <a class="el" href="Energy_8hpp_source.html">Energy.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Energy_8hpp_source.html#l00179">179</a> of file <a class="el" href="Energy_8hpp_source.html">Energy.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00218">PhQ::DimensionalScalar&lt; Unit::Energy, double &gt;::value</a>.</p>
+<p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00216">PhQ::DimensionalScalar&lt; Unit::Energy, double &gt;::value</a>.</p>
 
 </div>
 </div>
-<a id="adfa0808c52c94ee0b0f0438de994fa71"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adfa0808c52c94ee0b0f0438de994fa71">&#9670;&nbsp;</a></span>operator-()</h2>
+<a id="aa89e4b43b62221f610f14d4b2a2979e8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa89e4b43b62221f610f14d4b2a2979e8">&#9670;&nbsp;</a></span>operator-()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Energy.html">Energy</a>&lt;Number&gt; <a class="el" href="classPhQ_1_1Energy.html">PhQ::Energy</a>&lt; Number &gt;::operator- </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Energy.html">Energy</a>&lt;NumericType&gt; <a class="el" href="classPhQ_1_1Energy.html">PhQ::Energy</a>&lt; NumericType &gt;::operator- </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1Energy.html">Energy</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1Energy.html">Energy</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>energy</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -992,27 +992,27 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Energy_8hpp_source.html#l00145">145</a> of file <a class="el" href="Energy_8hpp_source.html">Energy.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Energy_8hpp_source.html#l00147">147</a> of file <a class="el" href="Energy_8hpp_source.html">Energy.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00218">PhQ::DimensionalScalar&lt; UnitType, Number &gt;::value</a>, and <a class="el" href="DimensionalScalar_8hpp_source.html#l00218">PhQ::DimensionalScalar&lt; Unit::Energy, double &gt;::value</a>.</p>
+<p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00216">PhQ::DimensionalScalar&lt; UnitType, NumericType &gt;::value</a>, and <a class="el" href="DimensionalScalar_8hpp_source.html#l00216">PhQ::DimensionalScalar&lt; Unit::Energy, double &gt;::value</a>.</p>
 
 </div>
 </div>
-<a id="a916b8570171fd0e21d40bd5ad15c5b19"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a916b8570171fd0e21d40bd5ad15c5b19">&#9670;&nbsp;</a></span>operator-=()</h2>
+<a id="a499e6680d1b392eec7b27a84f123e6a7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a499e6680d1b392eec7b27a84f123e6a7">&#9670;&nbsp;</a></span>operator-=()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr void <a class="el" href="classPhQ_1_1Energy.html">PhQ::Energy</a>&lt; Number &gt;::operator-= </td>
+          <td class="memname">constexpr void <a class="el" href="classPhQ_1_1Energy.html">PhQ::Energy</a>&lt; NumericType &gt;::operator-= </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1Energy.html">Energy</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1Energy.html">Energy</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>energy</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1024,27 +1024,27 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Energy_8hpp_source.html#l00180">180</a> of file <a class="el" href="Energy_8hpp_source.html">Energy.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Energy_8hpp_source.html#l00183">183</a> of file <a class="el" href="Energy_8hpp_source.html">Energy.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00218">PhQ::DimensionalScalar&lt; Unit::Energy, double &gt;::value</a>.</p>
+<p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00216">PhQ::DimensionalScalar&lt; Unit::Energy, double &gt;::value</a>.</p>
 
 </div>
 </div>
-<a id="a2aff8f41f480a19fdadf8aad6a985820"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2aff8f41f480a19fdadf8aad6a985820">&#9670;&nbsp;</a></span>operator/() <span class="overload">[1/8]</span></h2>
+<a id="a7f7ac1402c99798c7f4e4bdc071fa283"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7f7ac1402c99798c7f4e4bdc071fa283">&#9670;&nbsp;</a></span>operator/() <span class="overload">[1/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr Number <a class="el" href="classPhQ_1_1Energy.html">PhQ::Energy</a>&lt; Number &gt;::operator/ </td>
+          <td class="memname">constexpr NumericType <a class="el" href="classPhQ_1_1Energy.html">PhQ::Energy</a>&lt; NumericType &gt;::operator/ </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1Energy.html">Energy</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1Energy.html">Energy</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>energy</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -1056,27 +1056,27 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Energy_8hpp_source.html#l00172">172</a> of file <a class="el" href="Energy_8hpp_source.html">Energy.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Energy_8hpp_source.html#l00175">175</a> of file <a class="el" href="Energy_8hpp_source.html">Energy.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00218">PhQ::DimensionalScalar&lt; Unit::Energy, double &gt;::value</a>.</p>
+<p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00216">PhQ::DimensionalScalar&lt; Unit::Energy, double &gt;::value</a>.</p>
 
 </div>
 </div>
-<a id="a2f23a4a89fc7209433de9c4493b34f3c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2f23a4a89fc7209433de9c4493b34f3c">&#9670;&nbsp;</a></span>operator/() <span class="overload">[2/8]</span></h2>
+<a id="a2eeacae517bb508064eb15655fa14514"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2eeacae517bb508064eb15655fa14514">&#9670;&nbsp;</a></span>operator/() <span class="overload">[2/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1TransportEnergyConsumption.html">TransportEnergyConsumption</a>&lt;Number&gt; <a class="el" href="classPhQ_1_1Energy.html">PhQ::Energy</a>&lt; Number &gt;::operator/ </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1TransportEnergyConsumption.html">TransportEnergyConsumption</a>&lt;NumericType&gt; <a class="el" href="classPhQ_1_1Energy.html">PhQ::Energy</a>&lt; NumericType &gt;::operator/ </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1Length.html">Length</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1Length.html">Length</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>length</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -1090,21 +1090,21 @@ template&lt;typename Number  = double&gt; </div>
 
 </div>
 </div>
-<a id="a7511212eedef7c874358839e7ce0b0d6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7511212eedef7c874358839e7ce0b0d6">&#9670;&nbsp;</a></span>operator/() <span class="overload">[3/8]</span></h2>
+<a id="a6a19f7b91ed70b778600db89d98a8874"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6a19f7b91ed70b778600db89d98a8874">&#9670;&nbsp;</a></span>operator/() <span class="overload">[3/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1SpecificEnergy.html">SpecificEnergy</a>&lt;Number&gt; <a class="el" href="classPhQ_1_1Energy.html">PhQ::Energy</a>&lt; Number &gt;::operator/ </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1SpecificEnergy.html">SpecificEnergy</a>&lt;NumericType&gt; <a class="el" href="classPhQ_1_1Energy.html">PhQ::Energy</a>&lt; NumericType &gt;::operator/ </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1Mass.html">Mass</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1Mass.html">Mass</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>mass</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -1118,21 +1118,21 @@ template&lt;typename Number  = double&gt; </div>
 
 </div>
 </div>
-<a id="a2c4e3bf40fd6a3a6590c41dfaf56ecde"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2c4e3bf40fd6a3a6590c41dfaf56ecde">&#9670;&nbsp;</a></span>operator/() <span class="overload">[4/8]</span></h2>
+<a id="aa2f007243a208e60fbf800d283bc6952"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa2f007243a208e60fbf800d283bc6952">&#9670;&nbsp;</a></span>operator/() <span class="overload">[4/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Energy.html">Energy</a>&lt;Number&gt; <a class="el" href="classPhQ_1_1Energy.html">PhQ::Energy</a>&lt; Number &gt;::operator/ </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Energy.html">Energy</a>&lt;NumericType&gt; <a class="el" href="classPhQ_1_1Energy.html">PhQ::Energy</a>&lt; NumericType &gt;::operator/ </td>
           <td>(</td>
-          <td class="paramtype">const Number&#160;</td>
+          <td class="paramtype">const NumericType&#160;</td>
           <td class="paramname"><em>number</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -1144,27 +1144,27 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Energy_8hpp_source.html#l00155">155</a> of file <a class="el" href="Energy_8hpp_source.html">Energy.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Energy_8hpp_source.html#l00157">157</a> of file <a class="el" href="Energy_8hpp_source.html">Energy.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00218">PhQ::DimensionalScalar&lt; Unit::Energy, double &gt;::value</a>.</p>
+<p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00216">PhQ::DimensionalScalar&lt; Unit::Energy, double &gt;::value</a>.</p>
 
 </div>
 </div>
-<a id="ab2e25a9bb663fac66507c5456d2d490d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab2e25a9bb663fac66507c5456d2d490d">&#9670;&nbsp;</a></span>operator/() <span class="overload">[5/8]</span></h2>
+<a id="a0f496e774554373ba794e0638857a927"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0f496e774554373ba794e0638857a927">&#9670;&nbsp;</a></span>operator/() <span class="overload">[5/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Time.html">Time</a>&lt;Number&gt; <a class="el" href="classPhQ_1_1Energy.html">PhQ::Energy</a>&lt; Number &gt;::operator/ </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Time.html">Time</a>&lt;NumericType&gt; <a class="el" href="classPhQ_1_1Energy.html">PhQ::Energy</a>&lt; NumericType &gt;::operator/ </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1Power.html">Power</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1Power.html">Power</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>power</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -1178,21 +1178,21 @@ template&lt;typename Number  = double&gt; </div>
 
 </div>
 </div>
-<a id="a7b6b23fb2f9dbb9a898bba7d8c8dc9ba"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7b6b23fb2f9dbb9a898bba7d8c8dc9ba">&#9670;&nbsp;</a></span>operator/() <span class="overload">[6/8]</span></h2>
+<a id="aa0f4b290239eea0286cff85a532213b3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa0f4b290239eea0286cff85a532213b3">&#9670;&nbsp;</a></span>operator/() <span class="overload">[6/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Mass.html">Mass</a>&lt;Number&gt; <a class="el" href="classPhQ_1_1Energy.html">PhQ::Energy</a>&lt; Number &gt;::operator/ </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Mass.html">Mass</a>&lt;NumericType&gt; <a class="el" href="classPhQ_1_1Energy.html">PhQ::Energy</a>&lt; NumericType &gt;::operator/ </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1SpecificEnergy.html">SpecificEnergy</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1SpecificEnergy.html">SpecificEnergy</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>specific_energy</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -1206,21 +1206,21 @@ template&lt;typename Number  = double&gt; </div>
 
 </div>
 </div>
-<a id="ac7d80bcd21c5dfda57d7897956d916e8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac7d80bcd21c5dfda57d7897956d916e8">&#9670;&nbsp;</a></span>operator/() <span class="overload">[7/8]</span></h2>
+<a id="a746999896c8541af4b60031290d5db6c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a746999896c8541af4b60031290d5db6c">&#9670;&nbsp;</a></span>operator/() <span class="overload">[7/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Power.html">Power</a>&lt;Number&gt; <a class="el" href="classPhQ_1_1Energy.html">PhQ::Energy</a>&lt; Number &gt;::operator/ </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Power.html">Power</a>&lt;NumericType&gt; <a class="el" href="classPhQ_1_1Energy.html">PhQ::Energy</a>&lt; NumericType &gt;::operator/ </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1Time.html">Time</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1Time.html">Time</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>time</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -1234,21 +1234,21 @@ template&lt;typename Number  = double&gt; </div>
 
 </div>
 </div>
-<a id="a5055609319a73327e285832fc35cc5f1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5055609319a73327e285832fc35cc5f1">&#9670;&nbsp;</a></span>operator/() <span class="overload">[8/8]</span></h2>
+<a id="abd33a3ad83f4ab25f9b155b534f9bf8c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd33a3ad83f4ab25f9b155b534f9bf8c">&#9670;&nbsp;</a></span>operator/() <span class="overload">[8/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Length.html">Length</a>&lt;Number&gt; <a class="el" href="classPhQ_1_1Energy.html">PhQ::Energy</a>&lt; Number &gt;::operator/ </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Length.html">Length</a>&lt;NumericType&gt; <a class="el" href="classPhQ_1_1Energy.html">PhQ::Energy</a>&lt; NumericType &gt;::operator/ </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1TransportEnergyConsumption.html">TransportEnergyConsumption</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1TransportEnergyConsumption.html">TransportEnergyConsumption</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>transport_energy_consumption</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -1262,21 +1262,21 @@ template&lt;typename Number  = double&gt; </div>
 
 </div>
 </div>
-<a id="a3df4a440301e0cb31e0f87c4f1131c13"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3df4a440301e0cb31e0f87c4f1131c13">&#9670;&nbsp;</a></span>operator/=()</h2>
+<a id="a826bf588954fe4fefb345496996f933a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a826bf588954fe4fefb345496996f933a">&#9670;&nbsp;</a></span>operator/=()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr void <a class="el" href="classPhQ_1_1Energy.html">PhQ::Energy</a>&lt; Number &gt;::operator/= </td>
+          <td class="memname">constexpr void <a class="el" href="classPhQ_1_1Energy.html">PhQ::Energy</a>&lt; NumericType &gt;::operator/= </td>
           <td>(</td>
-          <td class="paramtype">const Number&#160;</td>
+          <td class="paramtype">const NumericType&#160;</td>
           <td class="paramname"><em>number</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1288,27 +1288,27 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Energy_8hpp_source.html#l00188">188</a> of file <a class="el" href="Energy_8hpp_source.html">Energy.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Energy_8hpp_source.html#l00191">191</a> of file <a class="el" href="Energy_8hpp_source.html">Energy.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00218">PhQ::DimensionalScalar&lt; Unit::Energy, double &gt;::value</a>.</p>
+<p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00216">PhQ::DimensionalScalar&lt; Unit::Energy, double &gt;::value</a>.</p>
 
 </div>
 </div>
-<a id="a66e34066455ad00a2583dada896fa193"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a66e34066455ad00a2583dada896fa193">&#9670;&nbsp;</a></span>operator=() <span class="overload">[1/3]</span></h2>
+<a id="a0dc2d0e31ed59860393d3b568db74608"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0dc2d0e31ed59860393d3b568db74608">&#9670;&nbsp;</a></span>operator=() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Energy.html">Energy</a>&lt;Number&gt;&amp; <a class="el" href="classPhQ_1_1Energy.html">PhQ::Energy</a>&lt; Number &gt;::operator= </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Energy.html">Energy</a>&lt;NumericType&gt;&amp; <a class="el" href="classPhQ_1_1Energy.html">PhQ::Energy</a>&lt; NumericType &gt;::operator= </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1Energy.html">Energy</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1Energy.html">Energy</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>other</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1324,23 +1324,23 @@ template&lt;typename Number  = double&gt; </div>
 
 </div>
 </div>
-<a id="a4a483f87bbdead0d0e55cd79b93b38c0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4a483f87bbdead0d0e55cd79b93b38c0">&#9670;&nbsp;</a></span>operator=() <span class="overload">[2/3]</span></h2>
+<a id="add5f11ad94f3b20161eae8e7994592ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add5f11ad94f3b20161eae8e7994592ca">&#9670;&nbsp;</a></span>operator=() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <div class="memtemplate">
-template&lt;typename OtherNumber &gt; </div>
+template&lt;typename OtherNumericType &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Energy.html">Energy</a>&lt;Number&gt;&amp; <a class="el" href="classPhQ_1_1Energy.html">PhQ::Energy</a>&lt; Number &gt;::operator= </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Energy.html">Energy</a>&lt;NumericType&gt;&amp; <a class="el" href="classPhQ_1_1Energy.html">PhQ::Energy</a>&lt; NumericType &gt;::operator= </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1Energy.html">Energy</a>&lt; OtherNumber &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1Energy.html">Energy</a>&lt; OtherNumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>other</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1354,27 +1354,27 @@ template&lt;typename OtherNumber &gt; </div>
 
 <p>Copy assignment operator. Assigns this energy quantity by copying another one. </p>
 
-<p class="definition">Definition at line <a class="el" href="Energy_8hpp_source.html#l00121">121</a> of file <a class="el" href="Energy_8hpp_source.html">Energy.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Energy_8hpp_source.html#l00122">122</a> of file <a class="el" href="Energy_8hpp_source.html">Energy.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00064">PhQ::DimensionalScalar&lt; UnitType, Number &gt;::Value()</a>, and <a class="el" href="DimensionalScalar_8hpp_source.html#l00218">PhQ::DimensionalScalar&lt; Unit::Energy, double &gt;::value</a>.</p>
+<p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00064">PhQ::DimensionalScalar&lt; UnitType, NumericType &gt;::Value()</a>, and <a class="el" href="DimensionalScalar_8hpp_source.html#l00216">PhQ::DimensionalScalar&lt; Unit::Energy, double &gt;::value</a>.</p>
 
 </div>
 </div>
-<a id="af3264628b322c5338cf1159ec4a8bb2e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af3264628b322c5338cf1159ec4a8bb2e">&#9670;&nbsp;</a></span>operator=() <span class="overload">[3/3]</span></h2>
+<a id="a638bb9b5b5454e02928f60b0f23acd05"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a638bb9b5b5454e02928f60b0f23acd05">&#9670;&nbsp;</a></span>operator=() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Energy.html">Energy</a>&lt;Number&gt;&amp; <a class="el" href="classPhQ_1_1Energy.html">PhQ::Energy</a>&lt; Number &gt;::operator= </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Energy.html">Energy</a>&lt;NumericType&gt;&amp; <a class="el" href="classPhQ_1_1Energy.html">PhQ::Energy</a>&lt; NumericType &gt;::operator= </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classPhQ_1_1Energy.html">Energy</a>&lt; Number &gt; &amp;&amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="classPhQ_1_1Energy.html">Energy</a>&lt; NumericType &gt; &amp;&amp;&#160;</td>
           <td class="paramname"><em>other</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1390,8 +1390,8 @@ template&lt;typename Number  = double&gt; </div>
 
 </div>
 </div>
-<a id="aaa28f5bd02ab3373b12d3500cbc05845"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaa28f5bd02ab3373b12d3500cbc05845">&#9670;&nbsp;</a></span>Print() <span class="overload">[1/2]</span></h2>
+<a id="afce0b73bca1442f2ad975e4b6fb169e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afce0b73bca1442f2ad975e4b6fb169e0">&#9670;&nbsp;</a></span>Print() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1415,12 +1415,12 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Prints this physical quantity as a string. This physical quantity's value is expressed in its standard unit of measure. </p>
 
-<p class="definition">Definition at line <a class="el" href="DimensionalScalar_8hpp_source.html#l00096">96</a> of file <a class="el" href="DimensionalScalar_8hpp_source.html">DimensionalScalar.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="DimensionalScalar_8hpp_source.html#l00094">94</a> of file <a class="el" href="DimensionalScalar_8hpp_source.html">DimensionalScalar.hpp</a>.</p>
 
 </div>
 </div>
-<a id="ae58f817c7cfadb04c5c7c821a94df0b7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae58f817c7cfadb04c5c7c821a94df0b7">&#9670;&nbsp;</a></span>Print() <span class="overload">[2/2]</span></h2>
+<a id="a3e98124436bc2dda3fb08f8fe24921f4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e98124436bc2dda3fb08f8fe24921f4">&#9670;&nbsp;</a></span>Print() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1445,12 +1445,12 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Prints this physical quantity as a string. This physical quantity's value is expressed in the given unit of measure. </p>
 
-<p class="definition">Definition at line <a class="el" href="DimensionalScalar_8hpp_source.html#l00102">102</a> of file <a class="el" href="DimensionalScalar_8hpp_source.html">DimensionalScalar.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="DimensionalScalar_8hpp_source.html#l00100">100</a> of file <a class="el" href="DimensionalScalar_8hpp_source.html">DimensionalScalar.hpp</a>.</p>
 
 </div>
 </div>
-<a id="a0e3a68ee9c8b42e8fe942349e588a4ac"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0e3a68ee9c8b42e8fe942349e588a4ac">&#9670;&nbsp;</a></span>SetValue()</h2>
+<a id="a16891d80e526226d81481faecb0331ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a16891d80e526226d81481faecb0331ae">&#9670;&nbsp;</a></span>SetValue()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1475,12 +1475,12 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Sets the value of this physical quantity expressed in its standard unit of measure to the given value. </p>
 
-<p class="definition">Definition at line <a class="el" href="DimensionalScalar_8hpp_source.html#l00090">90</a> of file <a class="el" href="DimensionalScalar_8hpp_source.html">DimensionalScalar.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="DimensionalScalar_8hpp_source.html#l00088">88</a> of file <a class="el" href="DimensionalScalar_8hpp_source.html">DimensionalScalar.hpp</a>.</p>
 
 </div>
 </div>
-<a id="aad095a483424ef55a6ec8031bc285282"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aad095a483424ef55a6ec8031bc285282">&#9670;&nbsp;</a></span>StaticValue()</h2>
+<a id="aa401781659dfda7d74e644ceaf68ff8d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa401781659dfda7d74e644ceaf68ff8d">&#9670;&nbsp;</a></span>StaticValue()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1504,12 +1504,12 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Value of this physical quantity expressed in a given unit of measure. This method can be evaluated statically at compile-time. </p>
 
-<p class="definition">Definition at line <a class="el" href="DimensionalScalar_8hpp_source.html#l00078">78</a> of file <a class="el" href="DimensionalScalar_8hpp_source.html">DimensionalScalar.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="DimensionalScalar_8hpp_source.html#l00076">76</a> of file <a class="el" href="DimensionalScalar_8hpp_source.html">DimensionalScalar.hpp</a>.</p>
 
 </div>
 </div>
-<a id="a75b344fe52822caa65e4918e1d1fcbd6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a75b344fe52822caa65e4918e1d1fcbd6">&#9670;&nbsp;</a></span>Unit()</h2>
+<a id="ac50d4adb6c3f11c180714b6aa39534cd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac50d4adb6c3f11c180714b6aa39534cd">&#9670;&nbsp;</a></span>Unit()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1537,8 +1537,8 @@ template&lt;typename Number  = double&gt; </div>
 
 </div>
 </div>
-<a id="a8068bf6cddee8d6cb3f8aa1dc9216170"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8068bf6cddee8d6cb3f8aa1dc9216170">&#9670;&nbsp;</a></span>Value() <span class="overload">[1/2]</span></h2>
+<a id="aa89c594ce9a870e7d509c39dfa1f996c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa89c594ce9a870e7d509c39dfa1f996c">&#9670;&nbsp;</a></span>Value() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1566,8 +1566,8 @@ template&lt;typename Number  = double&gt; </div>
 
 </div>
 </div>
-<a id="a4ee07be63b44992cae508b16df54c004"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4ee07be63b44992cae508b16df54c004">&#9670;&nbsp;</a></span>Value() <span class="overload">[2/2]</span></h2>
+<a id="a7295e6cce3097405dcaaba0c3c7ebc55"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7295e6cce3097405dcaaba0c3c7ebc55">&#9670;&nbsp;</a></span>Value() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1596,8 +1596,8 @@ template&lt;typename Number  = double&gt; </div>
 
 </div>
 </div>
-<a id="ae7e0d5f7bd52789b77ff20842cba38d8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae7e0d5f7bd52789b77ff20842cba38d8">&#9670;&nbsp;</a></span>XML() <span class="overload">[1/2]</span></h2>
+<a id="ae9c476851d0b711cf6d616483bba9594"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae9c476851d0b711cf6d616483bba9594">&#9670;&nbsp;</a></span>XML() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1621,12 +1621,12 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Serializes this physical quantity as an XML message. This physical quantity's value is expressed in its standard unit of measure. </p>
 
-<p class="definition">Definition at line <a class="el" href="DimensionalScalar_8hpp_source.html#l00128">128</a> of file <a class="el" href="DimensionalScalar_8hpp_source.html">DimensionalScalar.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="DimensionalScalar_8hpp_source.html#l00126">126</a> of file <a class="el" href="DimensionalScalar_8hpp_source.html">DimensionalScalar.hpp</a>.</p>
 
 </div>
 </div>
-<a id="abfe5f218e10bca3eb3f52e114beee2c1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abfe5f218e10bca3eb3f52e114beee2c1">&#9670;&nbsp;</a></span>XML() <span class="overload">[2/2]</span></h2>
+<a id="a0bcfcd2b36949dbfbe4e407d0523d749"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0bcfcd2b36949dbfbe4e407d0523d749">&#9670;&nbsp;</a></span>XML() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1651,12 +1651,12 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Serializes this physical quantity as an XML message. This physical quantity's value is expressed in the given unit of measure. </p>
 
-<p class="definition">Definition at line <a class="el" href="DimensionalScalar_8hpp_source.html#l00138">138</a> of file <a class="el" href="DimensionalScalar_8hpp_source.html">DimensionalScalar.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="DimensionalScalar_8hpp_source.html#l00136">136</a> of file <a class="el" href="DimensionalScalar_8hpp_source.html">DimensionalScalar.hpp</a>.</p>
 
 </div>
 </div>
-<a id="a2082ac17d425476688192460d79803cb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2082ac17d425476688192460d79803cb">&#9670;&nbsp;</a></span>YAML() <span class="overload">[1/2]</span></h2>
+<a id="ac55005e5bec47b0f01de69e71ede218a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac55005e5bec47b0f01de69e71ede218a">&#9670;&nbsp;</a></span>YAML() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1680,12 +1680,12 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Serializes this physical quantity as a YAML message. This physical quantity's value is expressed in its standard unit of measure. </p>
 
-<p class="definition">Definition at line <a class="el" href="DimensionalScalar_8hpp_source.html#l00148">148</a> of file <a class="el" href="DimensionalScalar_8hpp_source.html">DimensionalScalar.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="DimensionalScalar_8hpp_source.html#l00146">146</a> of file <a class="el" href="DimensionalScalar_8hpp_source.html">DimensionalScalar.hpp</a>.</p>
 
 </div>
 </div>
-<a id="aacdcb91b676e4fdb5aa562e5ba58ca1d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aacdcb91b676e4fdb5aa562e5ba58ca1d">&#9670;&nbsp;</a></span>YAML() <span class="overload">[2/2]</span></h2>
+<a id="a14579dd93adade7f7908d3a77b5967e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a14579dd93adade7f7908d3a77b5967e7">&#9670;&nbsp;</a></span>YAML() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1710,23 +1710,23 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Serializes this physical quantity as a YAML message. This physical quantity's value is expressed in the given unit of measure. </p>
 
-<p class="definition">Definition at line <a class="el" href="DimensionalScalar_8hpp_source.html#l00158">158</a> of file <a class="el" href="DimensionalScalar_8hpp_source.html">DimensionalScalar.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="DimensionalScalar_8hpp_source.html#l00156">156</a> of file <a class="el" href="DimensionalScalar_8hpp_source.html">DimensionalScalar.hpp</a>.</p>
 
 </div>
 </div>
-<a id="a625dcad17b8bc6e5641645856c5fc571"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a625dcad17b8bc6e5641645856c5fc571">&#9670;&nbsp;</a></span>Zero()</h2>
+<a id="a199a95a37ebe2d085167f997a7460509"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a199a95a37ebe2d085167f997a7460509">&#9670;&nbsp;</a></span>Zero()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static constexpr <a class="el" href="classPhQ_1_1Energy.html">Energy</a>&lt;Number&gt; <a class="el" href="classPhQ_1_1Energy.html">PhQ::Energy</a>&lt; Number &gt;::Zero </td>
+          <td class="memname">static constexpr <a class="el" href="classPhQ_1_1Energy.html">Energy</a>&lt;NumericType&gt; <a class="el" href="classPhQ_1_1Energy.html">PhQ::Energy</a>&lt; NumericType &gt;::Zero </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -1741,13 +1741,13 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Statically creates an energy quantity of zero. </p>
 
-<p class="definition">Definition at line <a class="el" href="Energy_8hpp_source.html#l00130">130</a> of file <a class="el" href="Energy_8hpp_source.html">Energy.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Energy_8hpp_source.html#l00131">131</a> of file <a class="el" href="Energy_8hpp_source.html">Energy.hpp</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a076d75036473812cf5583dc12b30aac2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a076d75036473812cf5583dc12b30aac2">&#9670;&nbsp;</a></span>value</h2>
+<a id="a34ca46c6f38afa3d34cba2eda00092fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a34ca46c6f38afa3d34cba2eda00092fe">&#9670;&nbsp;</a></span>value</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1768,7 +1768,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Value of this physical quantity expressed in its standard unit of measure. </p>
 
-<p class="definition">Definition at line <a class="el" href="DimensionalScalar_8hpp_source.html#l00218">218</a> of file <a class="el" href="DimensionalScalar_8hpp_source.html">DimensionalScalar.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="DimensionalScalar_8hpp_source.html#l00216">216</a> of file <a class="el" href="DimensionalScalar_8hpp_source.html">DimensionalScalar.hpp</a>.</p>
 
 </div>
 </div>

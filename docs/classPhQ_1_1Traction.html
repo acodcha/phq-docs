@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=9" />
     <meta name="generator" content="Doxygen 1.9.1" />
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=4.0" />
-    <title>Physical Quantities (PhQ): PhQ::Traction&lt; Number &gt; Class Template Reference</title>
+    <title>Physical Quantities (PhQ): PhQ::Traction&lt; NumericType &gt; Class Template Reference</title>
     <link href="tabs.css" rel="stylesheet" type="text/css" />
     <script type="text/javascript" src="jquery.js"></script>
     <script type="text/javascript" src="dynsections.js"></script>
@@ -110,7 +110,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search','.html');
 <a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="classPhQ_1_1Traction-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">PhQ::Traction&lt; Number &gt; Class Template Reference</div>  </div>
+<div class="title">PhQ::Traction&lt; NumericType &gt; Class Template Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
@@ -121,183 +121,183 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search','.html');
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aaaa59615b4d068e3b9e17cdf53b320c0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Traction.html#aaaa59615b4d068e3b9e17cdf53b320c0">Traction</a> ()=default</td></tr>
-<tr class="memdesc:aaaa59615b4d068e3b9e17cdf53b320c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor. Constructs a traction vector with an uninitialized value.  <a href="classPhQ_1_1Traction.html#aaaa59615b4d068e3b9e17cdf53b320c0">More...</a><br /></td></tr>
-<tr class="separator:aaaa59615b4d068e3b9e17cdf53b320c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adb1e5a4415d04256e1a4c6d53c344f1f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Traction.html#adb1e5a4415d04256e1a4c6d53c344f1f">Traction</a> (const <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt; Number &gt; &amp;<a class="el" href="classPhQ_1_1DimensionalVector.html#a78b67be16ddde9f38cc2b7a5c723b5cc">value</a>, const <a class="el" href="namespacePhQ_1_1Unit.html#abcbda7b992e98486ca609a164ae78a24">Unit::Pressure</a> unit)</td></tr>
-<tr class="memdesc:adb1e5a4415d04256e1a4c6d53c344f1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a traction vector with a given value expressed in a given pressure unit.  <a href="classPhQ_1_1Traction.html#adb1e5a4415d04256e1a4c6d53c344f1f">More...</a><br /></td></tr>
-<tr class="separator:adb1e5a4415d04256e1a4c6d53c344f1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6b294b85cfa83b8ccf1a03cc434f96ba"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Traction.html#a6b294b85cfa83b8ccf1a03cc434f96ba">Traction</a> (const <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt; Number &gt; &amp;<a class="el" href="classPhQ_1_1Traction.html#aaeb17a330597d8409d316a3b4e46c183">x</a>, const <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt; Number &gt; &amp;<a class="el" href="classPhQ_1_1Traction.html#a7b1031831ee49b9ebb0352fd6fa8fe80">y</a>, const <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt; Number &gt; &amp;<a class="el" href="classPhQ_1_1Traction.html#a0c4093d9c825181d4f6a2b37c7e32c6e">z</a>)</td></tr>
-<tr class="memdesc:a6b294b85cfa83b8ccf1a03cc434f96ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a traction vector from a given set of scalar traction components.  <a href="classPhQ_1_1Traction.html#a6b294b85cfa83b8ccf1a03cc434f96ba">More...</a><br /></td></tr>
-<tr class="separator:a6b294b85cfa83b8ccf1a03cc434f96ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad9d116c1c4a5c70e5baa7d7f207e20f8"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Traction.html#ad9d116c1c4a5c70e5baa7d7f207e20f8">Traction</a> (const <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt; Number &gt; &amp;scalar_traction, const <a class="el" href="classPhQ_1_1Direction.html">Direction</a>&lt; Number &gt; &amp;direction)</td></tr>
-<tr class="memdesc:ad9d116c1c4a5c70e5baa7d7f207e20f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a traction vector from a given scalar traction and direction.  <a href="classPhQ_1_1Traction.html#ad9d116c1c4a5c70e5baa7d7f207e20f8">More...</a><br /></td></tr>
-<tr class="separator:ad9d116c1c4a5c70e5baa7d7f207e20f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3267e9b780e1b4d9d10638ffcb73cc6d"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Traction.html#a3267e9b780e1b4d9d10638ffcb73cc6d">Traction</a> (const <a class="el" href="classPhQ_1_1PlanarTraction.html">PlanarTraction</a>&lt; Number &gt; &amp;planar_traction)</td></tr>
-<tr class="memdesc:a3267e9b780e1b4d9d10638ffcb73cc6d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a traction vector from a given planar traction vector in the XY plane. This traction vector's z-component is initialized to zero.  <a href="classPhQ_1_1Traction.html#a3267e9b780e1b4d9d10638ffcb73cc6d">More...</a><br /></td></tr>
-<tr class="separator:a3267e9b780e1b4d9d10638ffcb73cc6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af62e52058cb97535ec6d7b868728145c"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Traction.html#af62e52058cb97535ec6d7b868728145c">Traction</a> (const <a class="el" href="classPhQ_1_1Force.html">Force</a>&lt; Number &gt; &amp;force, const <a class="el" href="classPhQ_1_1Area.html">Area</a>&lt; Number &gt; &amp;area)</td></tr>
-<tr class="memdesc:af62e52058cb97535ec6d7b868728145c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a traction vector from a given force and area using the definition of traction.  <a href="classPhQ_1_1Traction.html#af62e52058cb97535ec6d7b868728145c">More...</a><br /></td></tr>
-<tr class="separator:af62e52058cb97535ec6d7b868728145c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2b331aea3a3ec51b21be06bc23d2a3bf"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Traction.html#a2b331aea3a3ec51b21be06bc23d2a3bf">Traction</a> (const <a class="el" href="classPhQ_1_1Stress.html">Stress</a>&lt; Number &gt; &amp;stress, const <a class="el" href="classPhQ_1_1Direction.html">Direction</a>&lt; Number &gt; &amp;direction)</td></tr>
-<tr class="memdesc:a2b331aea3a3ec51b21be06bc23d2a3bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a traction vector from a given stress and direction using the definition of traction.  <a href="classPhQ_1_1Traction.html#a2b331aea3a3ec51b21be06bc23d2a3bf">More...</a><br /></td></tr>
-<tr class="separator:a2b331aea3a3ec51b21be06bc23d2a3bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2c8c617e20f727b7761a35f82f407c45"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Traction.html#a2c8c617e20f727b7761a35f82f407c45">~Traction</a> () noexcept=default</td></tr>
-<tr class="memdesc:a2c8c617e20f727b7761a35f82f407c45"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor. Destroys this traction vector.  <a href="classPhQ_1_1Traction.html#a2c8c617e20f727b7761a35f82f407c45">More...</a><br /></td></tr>
-<tr class="separator:a2c8c617e20f727b7761a35f82f407c45"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acf425abf7b8e6eb8b342f2b210f65433"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Traction.html#acf425abf7b8e6eb8b342f2b210f65433">Traction</a> (const <a class="el" href="classPhQ_1_1Traction.html">Traction</a>&lt; Number &gt; &amp;other)=default</td></tr>
-<tr class="memdesc:acf425abf7b8e6eb8b342f2b210f65433"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy constructor. Constructs a traction vector by copying another one.  <a href="classPhQ_1_1Traction.html#acf425abf7b8e6eb8b342f2b210f65433">More...</a><br /></td></tr>
-<tr class="separator:acf425abf7b8e6eb8b342f2b210f65433"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4e41607d15216e0a65744dd3f4eda6a5"><td class="memTemplParams" colspan="2">template&lt;typename OtherNumber &gt; </td></tr>
-<tr class="memitem:a4e41607d15216e0a65744dd3f4eda6a5"><td class="memTemplItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Traction.html#a4e41607d15216e0a65744dd3f4eda6a5">Traction</a> (const <a class="el" href="classPhQ_1_1Traction.html">Traction</a>&lt; OtherNumber &gt; &amp;other)</td></tr>
-<tr class="memdesc:a4e41607d15216e0a65744dd3f4eda6a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy constructor. Constructs a traction vector by copying another one.  <a href="classPhQ_1_1Traction.html#a4e41607d15216e0a65744dd3f4eda6a5">More...</a><br /></td></tr>
-<tr class="separator:a4e41607d15216e0a65744dd3f4eda6a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a12ffb137aada0d955116ad9f9e65f627"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Traction.html#a12ffb137aada0d955116ad9f9e65f627">Traction</a> (<a class="el" href="classPhQ_1_1Traction.html">Traction</a>&lt; Number &gt; &amp;&amp;other) noexcept=default</td></tr>
-<tr class="memdesc:a12ffb137aada0d955116ad9f9e65f627"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move constructor. Constructs a traction vector by moving another one.  <a href="classPhQ_1_1Traction.html#a12ffb137aada0d955116ad9f9e65f627">More...</a><br /></td></tr>
-<tr class="separator:a12ffb137aada0d955116ad9f9e65f627"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adfd5fd4f6c7712fb1381404ae236e771"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1Traction.html">Traction</a>&lt; Number &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Traction.html#adfd5fd4f6c7712fb1381404ae236e771">operator=</a> (const <a class="el" href="classPhQ_1_1Traction.html">Traction</a>&lt; Number &gt; &amp;other)=default</td></tr>
-<tr class="memdesc:adfd5fd4f6c7712fb1381404ae236e771"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy assignment operator. Assigns this traction vector by copying another one.  <a href="classPhQ_1_1Traction.html#adfd5fd4f6c7712fb1381404ae236e771">More...</a><br /></td></tr>
-<tr class="separator:adfd5fd4f6c7712fb1381404ae236e771"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abbd870bfcbb0c9634e664dd98960d18a"><td class="memTemplParams" colspan="2">template&lt;typename OtherNumber &gt; </td></tr>
-<tr class="memitem:abbd870bfcbb0c9634e664dd98960d18a"><td class="memTemplItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1Traction.html">Traction</a>&lt; Number &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Traction.html#abbd870bfcbb0c9634e664dd98960d18a">operator=</a> (const <a class="el" href="classPhQ_1_1Traction.html">Traction</a>&lt; OtherNumber &gt; &amp;other)</td></tr>
-<tr class="memdesc:abbd870bfcbb0c9634e664dd98960d18a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy assignment operator. Assigns this traction vector by copying another one.  <a href="classPhQ_1_1Traction.html#abbd870bfcbb0c9634e664dd98960d18a">More...</a><br /></td></tr>
-<tr class="separator:abbd870bfcbb0c9634e664dd98960d18a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab19d69ffd30507ccd16afee1eca1249e"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1Traction.html">Traction</a>&lt; Number &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Traction.html#ab19d69ffd30507ccd16afee1eca1249e">operator=</a> (<a class="el" href="classPhQ_1_1Traction.html">Traction</a>&lt; Number &gt; &amp;&amp;other) noexcept=default</td></tr>
-<tr class="memdesc:ab19d69ffd30507ccd16afee1eca1249e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move assignment operator. Assigns this traction vector by moving another one.  <a href="classPhQ_1_1Traction.html#ab19d69ffd30507ccd16afee1eca1249e">More...</a><br /></td></tr>
-<tr class="separator:ab19d69ffd30507ccd16afee1eca1249e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaeb17a330597d8409d316a3b4e46c183"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt; Number &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Traction.html#aaeb17a330597d8409d316a3b4e46c183">x</a> () const noexcept</td></tr>
-<tr class="memdesc:aaeb17a330597d8409d316a3b4e46c183"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the x Cartesian component of this traction vector.  <a href="classPhQ_1_1Traction.html#aaeb17a330597d8409d316a3b4e46c183">More...</a><br /></td></tr>
-<tr class="separator:aaeb17a330597d8409d316a3b4e46c183"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7b1031831ee49b9ebb0352fd6fa8fe80"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt; Number &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Traction.html#a7b1031831ee49b9ebb0352fd6fa8fe80">y</a> () const noexcept</td></tr>
-<tr class="memdesc:a7b1031831ee49b9ebb0352fd6fa8fe80"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the y Cartesian component of this traction vector.  <a href="classPhQ_1_1Traction.html#a7b1031831ee49b9ebb0352fd6fa8fe80">More...</a><br /></td></tr>
-<tr class="separator:a7b1031831ee49b9ebb0352fd6fa8fe80"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0c4093d9c825181d4f6a2b37c7e32c6e"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt; Number &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Traction.html#a0c4093d9c825181d4f6a2b37c7e32c6e">z</a> () const noexcept</td></tr>
-<tr class="memdesc:a0c4093d9c825181d4f6a2b37c7e32c6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the z Cartesian component of this traction vector.  <a href="classPhQ_1_1Traction.html#a0c4093d9c825181d4f6a2b37c7e32c6e">More...</a><br /></td></tr>
-<tr class="separator:a0c4093d9c825181d4f6a2b37c7e32c6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab1658d1b0aba3da727d423a25e834d5f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt; Number &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Traction.html#ab1658d1b0aba3da727d423a25e834d5f">Magnitude</a> () const</td></tr>
-<tr class="memdesc:ab1658d1b0aba3da727d423a25e834d5f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the magnitude of this traction vector.  <a href="classPhQ_1_1Traction.html#ab1658d1b0aba3da727d423a25e834d5f">More...</a><br /></td></tr>
-<tr class="separator:ab1658d1b0aba3da727d423a25e834d5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa75560f77dac09a4f6f9a6b1170dcdca"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPhQ_1_1Direction.html">PhQ::Direction</a>&lt; Number &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Traction.html#aa75560f77dac09a4f6f9a6b1170dcdca">Direction</a> () const</td></tr>
-<tr class="memdesc:aa75560f77dac09a4f6f9a6b1170dcdca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the direction of this traction vector.  <a href="classPhQ_1_1Traction.html#aa75560f77dac09a4f6f9a6b1170dcdca">More...</a><br /></td></tr>
-<tr class="separator:aa75560f77dac09a4f6f9a6b1170dcdca"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a492316caceba3d3ce47fd5573ccf6e66"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPhQ_1_1Angle.html">PhQ::Angle</a>&lt; Number &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Traction.html#a492316caceba3d3ce47fd5573ccf6e66">Angle</a> (const <a class="el" href="classPhQ_1_1Traction.html">Traction</a>&lt; Number &gt; &amp;traction) const</td></tr>
-<tr class="memdesc:a492316caceba3d3ce47fd5573ccf6e66"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the angle between this traction vector and another one.  <a href="classPhQ_1_1Traction.html#a492316caceba3d3ce47fd5573ccf6e66">More...</a><br /></td></tr>
-<tr class="separator:a492316caceba3d3ce47fd5573ccf6e66"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afeea41f4ee82b22ca3437f32acfc1625"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1Traction.html">Traction</a>&lt; Number &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Traction.html#afeea41f4ee82b22ca3437f32acfc1625">operator+</a> (const <a class="el" href="classPhQ_1_1Traction.html">Traction</a>&lt; Number &gt; &amp;traction) const</td></tr>
-<tr class="separator:afeea41f4ee82b22ca3437f32acfc1625"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2ee19229e6c99e3eb1e27e31bdf4f437"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1Traction.html">Traction</a>&lt; Number &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Traction.html#a2ee19229e6c99e3eb1e27e31bdf4f437">operator-</a> (const <a class="el" href="classPhQ_1_1Traction.html">Traction</a>&lt; Number &gt; &amp;traction) const</td></tr>
-<tr class="separator:a2ee19229e6c99e3eb1e27e31bdf4f437"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afdb5265d5f526570db09faa5e321b9a0"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1Traction.html">Traction</a>&lt; Number &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Traction.html#afdb5265d5f526570db09faa5e321b9a0">operator*</a> (const Number number) const</td></tr>
-<tr class="separator:afdb5265d5f526570db09faa5e321b9a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9bdae35c5e58bfbb81a66203f1e7c947"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1Force.html">Force</a>&lt; Number &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Traction.html#a9bdae35c5e58bfbb81a66203f1e7c947">operator*</a> (const <a class="el" href="classPhQ_1_1Area.html">Area</a>&lt; Number &gt; &amp;area) const</td></tr>
-<tr class="separator:a9bdae35c5e58bfbb81a66203f1e7c947"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9d344913a920405c61959c19dd545be0"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1Traction.html">Traction</a>&lt; Number &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Traction.html#a9d344913a920405c61959c19dd545be0">operator/</a> (const Number number) const</td></tr>
-<tr class="separator:a9d344913a920405c61959c19dd545be0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3a77ac16dacd848adf9b79a3d12fb767"><td class="memItemLeft" align="right" valign="top">constexpr void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Traction.html#a3a77ac16dacd848adf9b79a3d12fb767">operator+=</a> (const <a class="el" href="classPhQ_1_1Traction.html">Traction</a>&lt; Number &gt; &amp;traction) noexcept</td></tr>
-<tr class="separator:a3a77ac16dacd848adf9b79a3d12fb767"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae05a0e847e6264332b0f21f9f39723d2"><td class="memItemLeft" align="right" valign="top">constexpr void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Traction.html#ae05a0e847e6264332b0f21f9f39723d2">operator-=</a> (const <a class="el" href="classPhQ_1_1Traction.html">Traction</a>&lt; Number &gt; &amp;traction) noexcept</td></tr>
-<tr class="separator:ae05a0e847e6264332b0f21f9f39723d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaf60b692776966930f3f0c025eb7c14e"><td class="memItemLeft" align="right" valign="top">constexpr void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Traction.html#aaf60b692776966930f3f0c025eb7c14e">operator*=</a> (const Number number) noexcept</td></tr>
-<tr class="separator:aaf60b692776966930f3f0c025eb7c14e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af0a31cbc928a2bb3de5adc6cf57edee1"><td class="memItemLeft" align="right" valign="top">constexpr void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Traction.html#af0a31cbc928a2bb3de5adc6cf57edee1">operator/=</a> (const Number number) noexcept</td></tr>
-<tr class="separator:af0a31cbc928a2bb3de5adc6cf57edee1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a687ccfb2d639c3a51dd0732bb7bf3523"><td class="memItemLeft" align="right" valign="top">constexpr const <a class="el" href="classPhQ_1_1Vector.html">PhQ::Vector</a>&lt; double &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalVector.html#a687ccfb2d639c3a51dd0732bb7bf3523">Value</a> () const noexcept</td></tr>
-<tr class="memdesc:a687ccfb2d639c3a51dd0732bb7bf3523"><td class="mdescLeft">&#160;</td><td class="mdescRight">Value of this physical quantity expressed in its standard unit of measure.  <a href="classPhQ_1_1DimensionalVector.html#a687ccfb2d639c3a51dd0732bb7bf3523">More...</a><br /></td></tr>
-<tr class="separator:a687ccfb2d639c3a51dd0732bb7bf3523"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a88cfe87f901ae98efb5ca293d9ef7a41"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPhQ_1_1Vector.html">PhQ::Vector</a>&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalVector.html#a88cfe87f901ae98efb5ca293d9ef7a41">Value</a> (const <a class="el" href="namespacePhQ_1_1Unit.html#abcbda7b992e98486ca609a164ae78a24">Unit::Pressure</a> unit) const</td></tr>
-<tr class="memdesc:a88cfe87f901ae98efb5ca293d9ef7a41"><td class="mdescLeft">&#160;</td><td class="mdescRight">Value of this physical quantity expressed in a given unit of measure.  <a href="classPhQ_1_1DimensionalVector.html#a88cfe87f901ae98efb5ca293d9ef7a41">More...</a><br /></td></tr>
-<tr class="separator:a88cfe87f901ae98efb5ca293d9ef7a41"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a42f17b902d44a4aa2541054c45d7cea9"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1Vector.html">PhQ::Vector</a>&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalVector.html#a42f17b902d44a4aa2541054c45d7cea9">StaticValue</a> () const</td></tr>
-<tr class="memdesc:a42f17b902d44a4aa2541054c45d7cea9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Value of this physical quantity expressed in a given unit of measure. This method can be evaluated statically at compile-time.  <a href="classPhQ_1_1DimensionalVector.html#a42f17b902d44a4aa2541054c45d7cea9">More...</a><br /></td></tr>
-<tr class="separator:a42f17b902d44a4aa2541054c45d7cea9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a23118c0733b940b47e53dbbcbe2894c8"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1Vector.html">PhQ::Vector</a>&lt; double &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalVector.html#a23118c0733b940b47e53dbbcbe2894c8">MutableValue</a> () noexcept</td></tr>
-<tr class="memdesc:a23118c0733b940b47e53dbbcbe2894c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the value of this physical quantity expressed in its standard unit of measure as a mutable value.  <a href="classPhQ_1_1DimensionalVector.html#a23118c0733b940b47e53dbbcbe2894c8">More...</a><br /></td></tr>
-<tr class="separator:a23118c0733b940b47e53dbbcbe2894c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9f539e9b49ea2af8fe9f86156337baa9"><td class="memItemLeft" align="right" valign="top">constexpr void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalVector.html#a9f539e9b49ea2af8fe9f86156337baa9">SetValue</a> (const <a class="el" href="classPhQ_1_1Vector.html">PhQ::Vector</a>&lt; double &gt; &amp;<a class="el" href="classPhQ_1_1DimensionalVector.html#a78b67be16ddde9f38cc2b7a5c723b5cc">value</a>) noexcept</td></tr>
-<tr class="memdesc:a9f539e9b49ea2af8fe9f86156337baa9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the value of this physical quantity expressed in its standard unit of measure to the given value.  <a href="classPhQ_1_1DimensionalVector.html#a9f539e9b49ea2af8fe9f86156337baa9">More...</a><br /></td></tr>
-<tr class="separator:a9f539e9b49ea2af8fe9f86156337baa9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a99ed09897dee742af4dd2ae5dddc05e5"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalVector.html#a99ed09897dee742af4dd2ae5dddc05e5">Print</a> () const</td></tr>
-<tr class="memdesc:a99ed09897dee742af4dd2ae5dddc05e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints this physical quantity as a string. This physical quantity's value is expressed in its standard unit of measure.  <a href="classPhQ_1_1DimensionalVector.html#a99ed09897dee742af4dd2ae5dddc05e5">More...</a><br /></td></tr>
-<tr class="separator:a99ed09897dee742af4dd2ae5dddc05e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad2ac83a81055ccf8d1117c57186f2d86"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalVector.html#ad2ac83a81055ccf8d1117c57186f2d86">Print</a> (const <a class="el" href="namespacePhQ_1_1Unit.html#abcbda7b992e98486ca609a164ae78a24">Unit::Pressure</a> unit) const</td></tr>
-<tr class="memdesc:ad2ac83a81055ccf8d1117c57186f2d86"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints this physical quantity as a string. This physical quantity's value is expressed in the given unit of measure.  <a href="classPhQ_1_1DimensionalVector.html#ad2ac83a81055ccf8d1117c57186f2d86">More...</a><br /></td></tr>
-<tr class="separator:ad2ac83a81055ccf8d1117c57186f2d86"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa5d01fbac3fe45387202f1f4094b3504"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalVector.html#aa5d01fbac3fe45387202f1f4094b3504">JSON</a> () const</td></tr>
-<tr class="memdesc:aa5d01fbac3fe45387202f1f4094b3504"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serializes this physical quantity as a JSON message. This physical quantity's value is expressed in its standard unit of measure.  <a href="classPhQ_1_1DimensionalVector.html#aa5d01fbac3fe45387202f1f4094b3504">More...</a><br /></td></tr>
-<tr class="separator:aa5d01fbac3fe45387202f1f4094b3504"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac8e4d05736d131fa7aeee27e53e0186c"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalVector.html#ac8e4d05736d131fa7aeee27e53e0186c">JSON</a> (const <a class="el" href="namespacePhQ_1_1Unit.html#abcbda7b992e98486ca609a164ae78a24">Unit::Pressure</a> unit) const</td></tr>
-<tr class="memdesc:ac8e4d05736d131fa7aeee27e53e0186c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serializes this physical quantity as a JSON message. This physical quantity's value is expressed in the given unit of measure.  <a href="classPhQ_1_1DimensionalVector.html#ac8e4d05736d131fa7aeee27e53e0186c">More...</a><br /></td></tr>
-<tr class="separator:ac8e4d05736d131fa7aeee27e53e0186c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a74188a4d05d78530db5b7f0f1437d2a6"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalVector.html#a74188a4d05d78530db5b7f0f1437d2a6">XML</a> () const</td></tr>
-<tr class="memdesc:a74188a4d05d78530db5b7f0f1437d2a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serializes this physical quantity as an XML message. This physical quantity's value is expressed in its standard unit of measure.  <a href="classPhQ_1_1DimensionalVector.html#a74188a4d05d78530db5b7f0f1437d2a6">More...</a><br /></td></tr>
-<tr class="separator:a74188a4d05d78530db5b7f0f1437d2a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1e0680b81c20acaf484851abdfbb14a3"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalVector.html#a1e0680b81c20acaf484851abdfbb14a3">XML</a> (const <a class="el" href="namespacePhQ_1_1Unit.html#abcbda7b992e98486ca609a164ae78a24">Unit::Pressure</a> unit) const</td></tr>
-<tr class="memdesc:a1e0680b81c20acaf484851abdfbb14a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serializes this physical quantity as an XML message. This physical quantity's value is expressed in the given unit of measure.  <a href="classPhQ_1_1DimensionalVector.html#a1e0680b81c20acaf484851abdfbb14a3">More...</a><br /></td></tr>
-<tr class="separator:a1e0680b81c20acaf484851abdfbb14a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5639f8c37c3d4f3476be0dc19f1f6ed2"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalVector.html#a5639f8c37c3d4f3476be0dc19f1f6ed2">YAML</a> () const</td></tr>
-<tr class="memdesc:a5639f8c37c3d4f3476be0dc19f1f6ed2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serializes this physical quantity as a YAML message. This physical quantity's value is expressed in its standard unit of measure.  <a href="classPhQ_1_1DimensionalVector.html#a5639f8c37c3d4f3476be0dc19f1f6ed2">More...</a><br /></td></tr>
-<tr class="separator:a5639f8c37c3d4f3476be0dc19f1f6ed2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8dcec4aea59e5fdc903025414122ccb1"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalVector.html#a8dcec4aea59e5fdc903025414122ccb1">YAML</a> (const <a class="el" href="namespacePhQ_1_1Unit.html#abcbda7b992e98486ca609a164ae78a24">Unit::Pressure</a> unit) const</td></tr>
-<tr class="memdesc:a8dcec4aea59e5fdc903025414122ccb1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serializes this physical quantity as a YAML message. This physical quantity's value is expressed in the given unit of measure.  <a href="classPhQ_1_1DimensionalVector.html#a8dcec4aea59e5fdc903025414122ccb1">More...</a><br /></td></tr>
-<tr class="separator:a8dcec4aea59e5fdc903025414122ccb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb508bb88033f3580889c8fcb488a7e6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Traction.html#abb508bb88033f3580889c8fcb488a7e6">Traction</a> ()=default</td></tr>
+<tr class="memdesc:abb508bb88033f3580889c8fcb488a7e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor. Constructs a traction vector with an uninitialized value.  <a href="classPhQ_1_1Traction.html#abb508bb88033f3580889c8fcb488a7e6">More...</a><br /></td></tr>
+<tr class="separator:abb508bb88033f3580889c8fcb488a7e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab652ea621498db1de5ad1adeaa51395e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Traction.html#ab652ea621498db1de5ad1adeaa51395e">Traction</a> (const <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt; NumericType &gt; &amp;<a class="el" href="classPhQ_1_1DimensionalVector.html#a91b0834f719f542e946de2b3a87dc96d">value</a>, const <a class="el" href="namespacePhQ_1_1Unit.html#abcbda7b992e98486ca609a164ae78a24">Unit::Pressure</a> unit)</td></tr>
+<tr class="memdesc:ab652ea621498db1de5ad1adeaa51395e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a traction vector with a given value expressed in a given pressure unit.  <a href="classPhQ_1_1Traction.html#ab652ea621498db1de5ad1adeaa51395e">More...</a><br /></td></tr>
+<tr class="separator:ab652ea621498db1de5ad1adeaa51395e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a879de6ca7d416bb595539bcc294ca3d9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Traction.html#a879de6ca7d416bb595539bcc294ca3d9">Traction</a> (const <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt; NumericType &gt; &amp;<a class="el" href="classPhQ_1_1Traction.html#a401a0df0d0a2a7f59584fe7f8bcbd162">x</a>, const <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt; NumericType &gt; &amp;<a class="el" href="classPhQ_1_1Traction.html#a126c5607657d082276a8ca55bc421dc8">y</a>, const <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt; NumericType &gt; &amp;<a class="el" href="classPhQ_1_1Traction.html#ab886c5209be37bc3d4d24f2b4f7698f6">z</a>)</td></tr>
+<tr class="memdesc:a879de6ca7d416bb595539bcc294ca3d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a traction vector from a given set of scalar traction components.  <a href="classPhQ_1_1Traction.html#a879de6ca7d416bb595539bcc294ca3d9">More...</a><br /></td></tr>
+<tr class="separator:a879de6ca7d416bb595539bcc294ca3d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e84ba332699835b8adcebd089755d26"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Traction.html#a8e84ba332699835b8adcebd089755d26">Traction</a> (const <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt; NumericType &gt; &amp;scalar_traction, const <a class="el" href="classPhQ_1_1Direction.html">Direction</a>&lt; NumericType &gt; &amp;direction)</td></tr>
+<tr class="memdesc:a8e84ba332699835b8adcebd089755d26"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a traction vector from a given scalar traction and direction.  <a href="classPhQ_1_1Traction.html#a8e84ba332699835b8adcebd089755d26">More...</a><br /></td></tr>
+<tr class="separator:a8e84ba332699835b8adcebd089755d26"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a116518e119e8ee797614caa7d2aaf629"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Traction.html#a116518e119e8ee797614caa7d2aaf629">Traction</a> (const <a class="el" href="classPhQ_1_1PlanarTraction.html">PlanarTraction</a>&lt; NumericType &gt; &amp;planar_traction)</td></tr>
+<tr class="memdesc:a116518e119e8ee797614caa7d2aaf629"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a traction vector from a given planar traction vector in the XY plane. This traction vector's z-component is initialized to zero.  <a href="classPhQ_1_1Traction.html#a116518e119e8ee797614caa7d2aaf629">More...</a><br /></td></tr>
+<tr class="separator:a116518e119e8ee797614caa7d2aaf629"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af040b34a2582a538c8cd9addc9e86685"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Traction.html#af040b34a2582a538c8cd9addc9e86685">Traction</a> (const <a class="el" href="classPhQ_1_1Force.html">Force</a>&lt; NumericType &gt; &amp;force, const <a class="el" href="classPhQ_1_1Area.html">Area</a>&lt; NumericType &gt; &amp;area)</td></tr>
+<tr class="memdesc:af040b34a2582a538c8cd9addc9e86685"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a traction vector from a given force and area using the definition of traction.  <a href="classPhQ_1_1Traction.html#af040b34a2582a538c8cd9addc9e86685">More...</a><br /></td></tr>
+<tr class="separator:af040b34a2582a538c8cd9addc9e86685"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca7bc7e637510a097f8449170d2c7f26"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Traction.html#aca7bc7e637510a097f8449170d2c7f26">Traction</a> (const <a class="el" href="classPhQ_1_1Stress.html">Stress</a>&lt; NumericType &gt; &amp;stress, const <a class="el" href="classPhQ_1_1Direction.html">Direction</a>&lt; NumericType &gt; &amp;direction)</td></tr>
+<tr class="memdesc:aca7bc7e637510a097f8449170d2c7f26"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a traction vector from a given stress and direction using the definition of traction.  <a href="classPhQ_1_1Traction.html#aca7bc7e637510a097f8449170d2c7f26">More...</a><br /></td></tr>
+<tr class="separator:aca7bc7e637510a097f8449170d2c7f26"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a039d9487e333f8e8f95526644d12e6e3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Traction.html#a039d9487e333f8e8f95526644d12e6e3">~Traction</a> () noexcept=default</td></tr>
+<tr class="memdesc:a039d9487e333f8e8f95526644d12e6e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor. Destroys this traction vector.  <a href="classPhQ_1_1Traction.html#a039d9487e333f8e8f95526644d12e6e3">More...</a><br /></td></tr>
+<tr class="separator:a039d9487e333f8e8f95526644d12e6e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a6307a867729e4ca7a2fd7aa36babf2"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Traction.html#a0a6307a867729e4ca7a2fd7aa36babf2">Traction</a> (const <a class="el" href="classPhQ_1_1Traction.html">Traction</a>&lt; NumericType &gt; &amp;other)=default</td></tr>
+<tr class="memdesc:a0a6307a867729e4ca7a2fd7aa36babf2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy constructor. Constructs a traction vector by copying another one.  <a href="classPhQ_1_1Traction.html#a0a6307a867729e4ca7a2fd7aa36babf2">More...</a><br /></td></tr>
+<tr class="separator:a0a6307a867729e4ca7a2fd7aa36babf2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad063a17bb752ed18cd4916b94492ad71"><td class="memTemplParams" colspan="2">template&lt;typename OtherNumericType &gt; </td></tr>
+<tr class="memitem:ad063a17bb752ed18cd4916b94492ad71"><td class="memTemplItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Traction.html#ad063a17bb752ed18cd4916b94492ad71">Traction</a> (const <a class="el" href="classPhQ_1_1Traction.html">Traction</a>&lt; OtherNumericType &gt; &amp;other)</td></tr>
+<tr class="memdesc:ad063a17bb752ed18cd4916b94492ad71"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy constructor. Constructs a traction vector by copying another one.  <a href="classPhQ_1_1Traction.html#ad063a17bb752ed18cd4916b94492ad71">More...</a><br /></td></tr>
+<tr class="separator:ad063a17bb752ed18cd4916b94492ad71"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a76158674dff4d61797142924ef9dd2d4"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Traction.html#a76158674dff4d61797142924ef9dd2d4">Traction</a> (<a class="el" href="classPhQ_1_1Traction.html">Traction</a>&lt; NumericType &gt; &amp;&amp;other) noexcept=default</td></tr>
+<tr class="memdesc:a76158674dff4d61797142924ef9dd2d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move constructor. Constructs a traction vector by moving another one.  <a href="classPhQ_1_1Traction.html#a76158674dff4d61797142924ef9dd2d4">More...</a><br /></td></tr>
+<tr class="separator:a76158674dff4d61797142924ef9dd2d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a068fac777092fe1c4e64bc3e59d12a81"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1Traction.html">Traction</a>&lt; NumericType &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Traction.html#a068fac777092fe1c4e64bc3e59d12a81">operator=</a> (const <a class="el" href="classPhQ_1_1Traction.html">Traction</a>&lt; NumericType &gt; &amp;other)=default</td></tr>
+<tr class="memdesc:a068fac777092fe1c4e64bc3e59d12a81"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy assignment operator. Assigns this traction vector by copying another one.  <a href="classPhQ_1_1Traction.html#a068fac777092fe1c4e64bc3e59d12a81">More...</a><br /></td></tr>
+<tr class="separator:a068fac777092fe1c4e64bc3e59d12a81"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6056a9307df7aa756305c2c2c91deb7b"><td class="memTemplParams" colspan="2">template&lt;typename OtherNumericType &gt; </td></tr>
+<tr class="memitem:a6056a9307df7aa756305c2c2c91deb7b"><td class="memTemplItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1Traction.html">Traction</a>&lt; NumericType &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Traction.html#a6056a9307df7aa756305c2c2c91deb7b">operator=</a> (const <a class="el" href="classPhQ_1_1Traction.html">Traction</a>&lt; OtherNumericType &gt; &amp;other)</td></tr>
+<tr class="memdesc:a6056a9307df7aa756305c2c2c91deb7b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy assignment operator. Assigns this traction vector by copying another one.  <a href="classPhQ_1_1Traction.html#a6056a9307df7aa756305c2c2c91deb7b">More...</a><br /></td></tr>
+<tr class="separator:a6056a9307df7aa756305c2c2c91deb7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a46b2230e6d1f050e2b2abd9fd2489c80"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1Traction.html">Traction</a>&lt; NumericType &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Traction.html#a46b2230e6d1f050e2b2abd9fd2489c80">operator=</a> (<a class="el" href="classPhQ_1_1Traction.html">Traction</a>&lt; NumericType &gt; &amp;&amp;other) noexcept=default</td></tr>
+<tr class="memdesc:a46b2230e6d1f050e2b2abd9fd2489c80"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move assignment operator. Assigns this traction vector by moving another one.  <a href="classPhQ_1_1Traction.html#a46b2230e6d1f050e2b2abd9fd2489c80">More...</a><br /></td></tr>
+<tr class="separator:a46b2230e6d1f050e2b2abd9fd2489c80"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a401a0df0d0a2a7f59584fe7f8bcbd162"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt; NumericType &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Traction.html#a401a0df0d0a2a7f59584fe7f8bcbd162">x</a> () const noexcept</td></tr>
+<tr class="memdesc:a401a0df0d0a2a7f59584fe7f8bcbd162"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the x Cartesian component of this traction vector.  <a href="classPhQ_1_1Traction.html#a401a0df0d0a2a7f59584fe7f8bcbd162">More...</a><br /></td></tr>
+<tr class="separator:a401a0df0d0a2a7f59584fe7f8bcbd162"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a126c5607657d082276a8ca55bc421dc8"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt; NumericType &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Traction.html#a126c5607657d082276a8ca55bc421dc8">y</a> () const noexcept</td></tr>
+<tr class="memdesc:a126c5607657d082276a8ca55bc421dc8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the y Cartesian component of this traction vector.  <a href="classPhQ_1_1Traction.html#a126c5607657d082276a8ca55bc421dc8">More...</a><br /></td></tr>
+<tr class="separator:a126c5607657d082276a8ca55bc421dc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab886c5209be37bc3d4d24f2b4f7698f6"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt; NumericType &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Traction.html#ab886c5209be37bc3d4d24f2b4f7698f6">z</a> () const noexcept</td></tr>
+<tr class="memdesc:ab886c5209be37bc3d4d24f2b4f7698f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the z Cartesian component of this traction vector.  <a href="classPhQ_1_1Traction.html#ab886c5209be37bc3d4d24f2b4f7698f6">More...</a><br /></td></tr>
+<tr class="separator:ab886c5209be37bc3d4d24f2b4f7698f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0be96edfcc46c04e03cb27381c998516"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt; NumericType &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Traction.html#a0be96edfcc46c04e03cb27381c998516">Magnitude</a> () const</td></tr>
+<tr class="memdesc:a0be96edfcc46c04e03cb27381c998516"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the magnitude of this traction vector.  <a href="classPhQ_1_1Traction.html#a0be96edfcc46c04e03cb27381c998516">More...</a><br /></td></tr>
+<tr class="separator:a0be96edfcc46c04e03cb27381c998516"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7208ff0752ec27623ab56655762a2af9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPhQ_1_1Direction.html">PhQ::Direction</a>&lt; NumericType &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Traction.html#a7208ff0752ec27623ab56655762a2af9">Direction</a> () const</td></tr>
+<tr class="memdesc:a7208ff0752ec27623ab56655762a2af9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the direction of this traction vector.  <a href="classPhQ_1_1Traction.html#a7208ff0752ec27623ab56655762a2af9">More...</a><br /></td></tr>
+<tr class="separator:a7208ff0752ec27623ab56655762a2af9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf91440ef176f78538a07685ed9e7f65"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPhQ_1_1Angle.html">PhQ::Angle</a>&lt; NumericType &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Traction.html#acf91440ef176f78538a07685ed9e7f65">Angle</a> (const <a class="el" href="classPhQ_1_1Traction.html">Traction</a>&lt; NumericType &gt; &amp;traction) const</td></tr>
+<tr class="memdesc:acf91440ef176f78538a07685ed9e7f65"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the angle between this traction vector and another one.  <a href="classPhQ_1_1Traction.html#acf91440ef176f78538a07685ed9e7f65">More...</a><br /></td></tr>
+<tr class="separator:acf91440ef176f78538a07685ed9e7f65"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0af264a64391771fcd495ac1c3b668b"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1Traction.html">Traction</a>&lt; NumericType &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Traction.html#ad0af264a64391771fcd495ac1c3b668b">operator+</a> (const <a class="el" href="classPhQ_1_1Traction.html">Traction</a>&lt; NumericType &gt; &amp;traction) const</td></tr>
+<tr class="separator:ad0af264a64391771fcd495ac1c3b668b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9fe6fba3c538e1912b2633f18d79f2b6"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1Traction.html">Traction</a>&lt; NumericType &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Traction.html#a9fe6fba3c538e1912b2633f18d79f2b6">operator-</a> (const <a class="el" href="classPhQ_1_1Traction.html">Traction</a>&lt; NumericType &gt; &amp;traction) const</td></tr>
+<tr class="separator:a9fe6fba3c538e1912b2633f18d79f2b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a74445add2a94c8a51e750d9bbeb0c572"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1Traction.html">Traction</a>&lt; NumericType &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Traction.html#a74445add2a94c8a51e750d9bbeb0c572">operator*</a> (const NumericType number) const</td></tr>
+<tr class="separator:a74445add2a94c8a51e750d9bbeb0c572"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a218a22863738bf9439bbd905baf538fa"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1Force.html">Force</a>&lt; NumericType &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Traction.html#a218a22863738bf9439bbd905baf538fa">operator*</a> (const <a class="el" href="classPhQ_1_1Area.html">Area</a>&lt; NumericType &gt; &amp;area) const</td></tr>
+<tr class="separator:a218a22863738bf9439bbd905baf538fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60d550a8dda1223df7664978a3759f7d"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1Traction.html">Traction</a>&lt; NumericType &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Traction.html#a60d550a8dda1223df7664978a3759f7d">operator/</a> (const NumericType number) const</td></tr>
+<tr class="separator:a60d550a8dda1223df7664978a3759f7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad586666b3903b245a1fcca2e400cdd26"><td class="memItemLeft" align="right" valign="top">constexpr void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Traction.html#ad586666b3903b245a1fcca2e400cdd26">operator+=</a> (const <a class="el" href="classPhQ_1_1Traction.html">Traction</a>&lt; NumericType &gt; &amp;traction) noexcept</td></tr>
+<tr class="separator:ad586666b3903b245a1fcca2e400cdd26"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3fac83e14356bdf3f628d3f248e401f2"><td class="memItemLeft" align="right" valign="top">constexpr void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Traction.html#a3fac83e14356bdf3f628d3f248e401f2">operator-=</a> (const <a class="el" href="classPhQ_1_1Traction.html">Traction</a>&lt; NumericType &gt; &amp;traction) noexcept</td></tr>
+<tr class="separator:a3fac83e14356bdf3f628d3f248e401f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae35db7ee0d512c2483bd7b1ff4948b9a"><td class="memItemLeft" align="right" valign="top">constexpr void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Traction.html#ae35db7ee0d512c2483bd7b1ff4948b9a">operator*=</a> (const NumericType number) noexcept</td></tr>
+<tr class="separator:ae35db7ee0d512c2483bd7b1ff4948b9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35e4632465a63929ee93767fd8bea463"><td class="memItemLeft" align="right" valign="top">constexpr void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Traction.html#a35e4632465a63929ee93767fd8bea463">operator/=</a> (const NumericType number) noexcept</td></tr>
+<tr class="separator:a35e4632465a63929ee93767fd8bea463"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aacc83ea96e5d7da6f42077da29f390f0"><td class="memItemLeft" align="right" valign="top">constexpr const <a class="el" href="classPhQ_1_1Vector.html">PhQ::Vector</a>&lt; double &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalVector.html#aacc83ea96e5d7da6f42077da29f390f0">Value</a> () const noexcept</td></tr>
+<tr class="memdesc:aacc83ea96e5d7da6f42077da29f390f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Value of this physical quantity expressed in its standard unit of measure.  <a href="classPhQ_1_1DimensionalVector.html#aacc83ea96e5d7da6f42077da29f390f0">More...</a><br /></td></tr>
+<tr class="separator:aacc83ea96e5d7da6f42077da29f390f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32cf3be7722793dd220120aff4a003a5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPhQ_1_1Vector.html">PhQ::Vector</a>&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalVector.html#a32cf3be7722793dd220120aff4a003a5">Value</a> (const <a class="el" href="namespacePhQ_1_1Unit.html#abcbda7b992e98486ca609a164ae78a24">Unit::Pressure</a> unit) const</td></tr>
+<tr class="memdesc:a32cf3be7722793dd220120aff4a003a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Value of this physical quantity expressed in a given unit of measure.  <a href="classPhQ_1_1DimensionalVector.html#a32cf3be7722793dd220120aff4a003a5">More...</a><br /></td></tr>
+<tr class="separator:a32cf3be7722793dd220120aff4a003a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f2648107d5eecff332ae404a51b4e45"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1Vector.html">PhQ::Vector</a>&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalVector.html#a0f2648107d5eecff332ae404a51b4e45">StaticValue</a> () const</td></tr>
+<tr class="memdesc:a0f2648107d5eecff332ae404a51b4e45"><td class="mdescLeft">&#160;</td><td class="mdescRight">Value of this physical quantity expressed in a given unit of measure. This method can be evaluated statically at compile-time.  <a href="classPhQ_1_1DimensionalVector.html#a0f2648107d5eecff332ae404a51b4e45">More...</a><br /></td></tr>
+<tr class="separator:a0f2648107d5eecff332ae404a51b4e45"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7bc033c44f7a2bd0f62eaf818ec67529"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1Vector.html">PhQ::Vector</a>&lt; double &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalVector.html#a7bc033c44f7a2bd0f62eaf818ec67529">MutableValue</a> () noexcept</td></tr>
+<tr class="memdesc:a7bc033c44f7a2bd0f62eaf818ec67529"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the value of this physical quantity expressed in its standard unit of measure as a mutable value.  <a href="classPhQ_1_1DimensionalVector.html#a7bc033c44f7a2bd0f62eaf818ec67529">More...</a><br /></td></tr>
+<tr class="separator:a7bc033c44f7a2bd0f62eaf818ec67529"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1cc707c5a1acd9c04fc94cb92fbfc947"><td class="memItemLeft" align="right" valign="top">constexpr void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalVector.html#a1cc707c5a1acd9c04fc94cb92fbfc947">SetValue</a> (const <a class="el" href="classPhQ_1_1Vector.html">PhQ::Vector</a>&lt; double &gt; &amp;<a class="el" href="classPhQ_1_1DimensionalVector.html#a91b0834f719f542e946de2b3a87dc96d">value</a>) noexcept</td></tr>
+<tr class="memdesc:a1cc707c5a1acd9c04fc94cb92fbfc947"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the value of this physical quantity expressed in its standard unit of measure to the given value.  <a href="classPhQ_1_1DimensionalVector.html#a1cc707c5a1acd9c04fc94cb92fbfc947">More...</a><br /></td></tr>
+<tr class="separator:a1cc707c5a1acd9c04fc94cb92fbfc947"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0fec489f4b5f2ac9ebe9fdf745bce512"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalVector.html#a0fec489f4b5f2ac9ebe9fdf745bce512">Print</a> () const</td></tr>
+<tr class="memdesc:a0fec489f4b5f2ac9ebe9fdf745bce512"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints this physical quantity as a string. This physical quantity's value is expressed in its standard unit of measure.  <a href="classPhQ_1_1DimensionalVector.html#a0fec489f4b5f2ac9ebe9fdf745bce512">More...</a><br /></td></tr>
+<tr class="separator:a0fec489f4b5f2ac9ebe9fdf745bce512"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a161674f236b1594b29724fa54dfec73a"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalVector.html#a161674f236b1594b29724fa54dfec73a">Print</a> (const <a class="el" href="namespacePhQ_1_1Unit.html#abcbda7b992e98486ca609a164ae78a24">Unit::Pressure</a> unit) const</td></tr>
+<tr class="memdesc:a161674f236b1594b29724fa54dfec73a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints this physical quantity as a string. This physical quantity's value is expressed in the given unit of measure.  <a href="classPhQ_1_1DimensionalVector.html#a161674f236b1594b29724fa54dfec73a">More...</a><br /></td></tr>
+<tr class="separator:a161674f236b1594b29724fa54dfec73a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a23f09256f35caec8f8c7b8d5c3af30e1"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalVector.html#a23f09256f35caec8f8c7b8d5c3af30e1">JSON</a> () const</td></tr>
+<tr class="memdesc:a23f09256f35caec8f8c7b8d5c3af30e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serializes this physical quantity as a JSON message. This physical quantity's value is expressed in its standard unit of measure.  <a href="classPhQ_1_1DimensionalVector.html#a23f09256f35caec8f8c7b8d5c3af30e1">More...</a><br /></td></tr>
+<tr class="separator:a23f09256f35caec8f8c7b8d5c3af30e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6520b33cd0596118c0170e30eb605da3"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalVector.html#a6520b33cd0596118c0170e30eb605da3">JSON</a> (const <a class="el" href="namespacePhQ_1_1Unit.html#abcbda7b992e98486ca609a164ae78a24">Unit::Pressure</a> unit) const</td></tr>
+<tr class="memdesc:a6520b33cd0596118c0170e30eb605da3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serializes this physical quantity as a JSON message. This physical quantity's value is expressed in the given unit of measure.  <a href="classPhQ_1_1DimensionalVector.html#a6520b33cd0596118c0170e30eb605da3">More...</a><br /></td></tr>
+<tr class="separator:a6520b33cd0596118c0170e30eb605da3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95514c6cdff78a7d6efa2992c9ae7723"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalVector.html#a95514c6cdff78a7d6efa2992c9ae7723">XML</a> () const</td></tr>
+<tr class="memdesc:a95514c6cdff78a7d6efa2992c9ae7723"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serializes this physical quantity as an XML message. This physical quantity's value is expressed in its standard unit of measure.  <a href="classPhQ_1_1DimensionalVector.html#a95514c6cdff78a7d6efa2992c9ae7723">More...</a><br /></td></tr>
+<tr class="separator:a95514c6cdff78a7d6efa2992c9ae7723"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57533a8e85cf1347894f50e474bd216a"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalVector.html#a57533a8e85cf1347894f50e474bd216a">XML</a> (const <a class="el" href="namespacePhQ_1_1Unit.html#abcbda7b992e98486ca609a164ae78a24">Unit::Pressure</a> unit) const</td></tr>
+<tr class="memdesc:a57533a8e85cf1347894f50e474bd216a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serializes this physical quantity as an XML message. This physical quantity's value is expressed in the given unit of measure.  <a href="classPhQ_1_1DimensionalVector.html#a57533a8e85cf1347894f50e474bd216a">More...</a><br /></td></tr>
+<tr class="separator:a57533a8e85cf1347894f50e474bd216a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe459ab50ec84973ca56560963adb7cd"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalVector.html#afe459ab50ec84973ca56560963adb7cd">YAML</a> () const</td></tr>
+<tr class="memdesc:afe459ab50ec84973ca56560963adb7cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serializes this physical quantity as a YAML message. This physical quantity's value is expressed in its standard unit of measure.  <a href="classPhQ_1_1DimensionalVector.html#afe459ab50ec84973ca56560963adb7cd">More...</a><br /></td></tr>
+<tr class="separator:afe459ab50ec84973ca56560963adb7cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34f60a49ea5fd0bded1f6e0a0f81f4c8"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalVector.html#a34f60a49ea5fd0bded1f6e0a0f81f4c8">YAML</a> (const <a class="el" href="namespacePhQ_1_1Unit.html#abcbda7b992e98486ca609a164ae78a24">Unit::Pressure</a> unit) const</td></tr>
+<tr class="memdesc:a34f60a49ea5fd0bded1f6e0a0f81f4c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serializes this physical quantity as a YAML message. This physical quantity's value is expressed in the given unit of measure.  <a href="classPhQ_1_1DimensionalVector.html#a34f60a49ea5fd0bded1f6e0a0f81f4c8">More...</a><br /></td></tr>
+<tr class="separator:a34f60a49ea5fd0bded1f6e0a0f81f4c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a9c9900d17f8ea6ede9440d248a2ef8f5"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="classPhQ_1_1Traction.html">Traction</a>&lt; Number &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Traction.html#a9c9900d17f8ea6ede9440d248a2ef8f5">Zero</a> ()</td></tr>
-<tr class="memdesc:a9c9900d17f8ea6ede9440d248a2ef8f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Statically creates a traction vector of zero.  <a href="classPhQ_1_1Traction.html#a9c9900d17f8ea6ede9440d248a2ef8f5">More...</a><br /></td></tr>
-<tr class="separator:a9c9900d17f8ea6ede9440d248a2ef8f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac32e7dd940ca851d75ebf7e896330be0"><td class="memTemplParams" colspan="2">template&lt;Unit::Pressure Unit&gt; </td></tr>
-<tr class="memitem:ac32e7dd940ca851d75ebf7e896330be0"><td class="memTemplItemLeft" align="right" valign="top">static constexpr <a class="el" href="classPhQ_1_1Traction.html">Traction</a>&lt; Number &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Traction.html#ac32e7dd940ca851d75ebf7e896330be0">Create</a> (const Number <a class="el" href="classPhQ_1_1Traction.html#aaeb17a330597d8409d316a3b4e46c183">x</a>, const Number <a class="el" href="classPhQ_1_1Traction.html#a7b1031831ee49b9ebb0352fd6fa8fe80">y</a>, const Number <a class="el" href="classPhQ_1_1Traction.html#a0c4093d9c825181d4f6a2b37c7e32c6e">z</a>)</td></tr>
-<tr class="memdesc:ac32e7dd940ca851d75ebf7e896330be0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Statically creates a traction vector from the given x, y, and z Cartesian components expressed in a given pressure unit.  <a href="classPhQ_1_1Traction.html#ac32e7dd940ca851d75ebf7e896330be0">More...</a><br /></td></tr>
-<tr class="separator:ac32e7dd940ca851d75ebf7e896330be0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a52feda8603817d279509911aef695a38"><td class="memTemplParams" colspan="2">template&lt;Unit::Pressure Unit&gt; </td></tr>
-<tr class="memitem:a52feda8603817d279509911aef695a38"><td class="memTemplItemLeft" align="right" valign="top">static constexpr <a class="el" href="classPhQ_1_1Traction.html">Traction</a>&lt; Number &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Traction.html#a52feda8603817d279509911aef695a38">Create</a> (const std::array&lt; Number, 3 &gt; &amp;x_y_z)</td></tr>
-<tr class="memdesc:a52feda8603817d279509911aef695a38"><td class="mdescLeft">&#160;</td><td class="mdescRight">Statically creates a traction vector from the given x, y, and z Cartesian components expressed in a given pressure unit.  <a href="classPhQ_1_1Traction.html#a52feda8603817d279509911aef695a38">More...</a><br /></td></tr>
-<tr class="separator:a52feda8603817d279509911aef695a38"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a54f3cdcc8226277d4fe9a5b8c3817db6"><td class="memTemplParams" colspan="2">template&lt;Unit::Pressure Unit&gt; </td></tr>
-<tr class="memitem:a54f3cdcc8226277d4fe9a5b8c3817db6"><td class="memTemplItemLeft" align="right" valign="top">static constexpr <a class="el" href="classPhQ_1_1Traction.html">Traction</a>&lt; Number &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Traction.html#a54f3cdcc8226277d4fe9a5b8c3817db6">Create</a> (const <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt; Number &gt; &amp;<a class="el" href="classPhQ_1_1DimensionalVector.html#a78b67be16ddde9f38cc2b7a5c723b5cc">value</a>)</td></tr>
-<tr class="memdesc:a54f3cdcc8226277d4fe9a5b8c3817db6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Statically creates a traction vector with a given value expressed in a given pressure unit.  <a href="classPhQ_1_1Traction.html#a54f3cdcc8226277d4fe9a5b8c3817db6">More...</a><br /></td></tr>
-<tr class="separator:a54f3cdcc8226277d4fe9a5b8c3817db6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac6362f7452e002f3c13a3994277a7571"><td class="memItemLeft" align="right" valign="top">static constexpr const <a class="el" href="classPhQ_1_1Dimensions.html">PhQ::Dimensions</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalVector.html#ac6362f7452e002f3c13a3994277a7571">Dimensions</a> ()</td></tr>
-<tr class="memdesc:ac6362f7452e002f3c13a3994277a7571"><td class="mdescLeft">&#160;</td><td class="mdescRight">Physical dimension set of this physical quantity.  <a href="classPhQ_1_1DimensionalVector.html#ac6362f7452e002f3c13a3994277a7571">More...</a><br /></td></tr>
-<tr class="separator:ac6362f7452e002f3c13a3994277a7571"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a658f3c466e1baa3d18600a1d3288833a"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="namespacePhQ_1_1Unit.html#abcbda7b992e98486ca609a164ae78a24">Unit::Pressure</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalVector.html#a658f3c466e1baa3d18600a1d3288833a">Unit</a> ()</td></tr>
-<tr class="memdesc:a658f3c466e1baa3d18600a1d3288833a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Standard unit of measure for this physical quantity. This physical quantity's value is stored internally in this unit of measure.  <a href="classPhQ_1_1DimensionalVector.html#a658f3c466e1baa3d18600a1d3288833a">More...</a><br /></td></tr>
-<tr class="separator:a658f3c466e1baa3d18600a1d3288833a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab3bdb8d753b92822aea7c9ad32ba19af"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="classPhQ_1_1Traction.html">Traction</a>&lt; NumericType &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Traction.html#ab3bdb8d753b92822aea7c9ad32ba19af">Zero</a> ()</td></tr>
+<tr class="memdesc:ab3bdb8d753b92822aea7c9ad32ba19af"><td class="mdescLeft">&#160;</td><td class="mdescRight">Statically creates a traction vector of zero.  <a href="classPhQ_1_1Traction.html#ab3bdb8d753b92822aea7c9ad32ba19af">More...</a><br /></td></tr>
+<tr class="separator:ab3bdb8d753b92822aea7c9ad32ba19af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6989ef6891f90d03459ac06c52845677"><td class="memTemplParams" colspan="2">template&lt;Unit::Pressure Unit&gt; </td></tr>
+<tr class="memitem:a6989ef6891f90d03459ac06c52845677"><td class="memTemplItemLeft" align="right" valign="top">static constexpr <a class="el" href="classPhQ_1_1Traction.html">Traction</a>&lt; NumericType &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Traction.html#a6989ef6891f90d03459ac06c52845677">Create</a> (const NumericType <a class="el" href="classPhQ_1_1Traction.html#a401a0df0d0a2a7f59584fe7f8bcbd162">x</a>, const NumericType <a class="el" href="classPhQ_1_1Traction.html#a126c5607657d082276a8ca55bc421dc8">y</a>, const NumericType <a class="el" href="classPhQ_1_1Traction.html#ab886c5209be37bc3d4d24f2b4f7698f6">z</a>)</td></tr>
+<tr class="memdesc:a6989ef6891f90d03459ac06c52845677"><td class="mdescLeft">&#160;</td><td class="mdescRight">Statically creates a traction vector from the given x, y, and z Cartesian components expressed in a given pressure unit.  <a href="classPhQ_1_1Traction.html#a6989ef6891f90d03459ac06c52845677">More...</a><br /></td></tr>
+<tr class="separator:a6989ef6891f90d03459ac06c52845677"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7bb04d4505883ffae0dda8c12517fc48"><td class="memTemplParams" colspan="2">template&lt;Unit::Pressure Unit&gt; </td></tr>
+<tr class="memitem:a7bb04d4505883ffae0dda8c12517fc48"><td class="memTemplItemLeft" align="right" valign="top">static constexpr <a class="el" href="classPhQ_1_1Traction.html">Traction</a>&lt; NumericType &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Traction.html#a7bb04d4505883ffae0dda8c12517fc48">Create</a> (const std::array&lt; NumericType, 3 &gt; &amp;x_y_z)</td></tr>
+<tr class="memdesc:a7bb04d4505883ffae0dda8c12517fc48"><td class="mdescLeft">&#160;</td><td class="mdescRight">Statically creates a traction vector from the given x, y, and z Cartesian components expressed in a given pressure unit.  <a href="classPhQ_1_1Traction.html#a7bb04d4505883ffae0dda8c12517fc48">More...</a><br /></td></tr>
+<tr class="separator:a7bb04d4505883ffae0dda8c12517fc48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a859a11c824dd371069998fc7b737015c"><td class="memTemplParams" colspan="2">template&lt;Unit::Pressure Unit&gt; </td></tr>
+<tr class="memitem:a859a11c824dd371069998fc7b737015c"><td class="memTemplItemLeft" align="right" valign="top">static constexpr <a class="el" href="classPhQ_1_1Traction.html">Traction</a>&lt; NumericType &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Traction.html#a859a11c824dd371069998fc7b737015c">Create</a> (const <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt; NumericType &gt; &amp;<a class="el" href="classPhQ_1_1DimensionalVector.html#a91b0834f719f542e946de2b3a87dc96d">value</a>)</td></tr>
+<tr class="memdesc:a859a11c824dd371069998fc7b737015c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Statically creates a traction vector with a given value expressed in a given pressure unit.  <a href="classPhQ_1_1Traction.html#a859a11c824dd371069998fc7b737015c">More...</a><br /></td></tr>
+<tr class="separator:a859a11c824dd371069998fc7b737015c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e44bd5a5321c06ba08d13d419ac2aa3"><td class="memItemLeft" align="right" valign="top">static constexpr const <a class="el" href="classPhQ_1_1Dimensions.html">PhQ::Dimensions</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalVector.html#a2e44bd5a5321c06ba08d13d419ac2aa3">Dimensions</a> ()</td></tr>
+<tr class="memdesc:a2e44bd5a5321c06ba08d13d419ac2aa3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Physical dimension set of this physical quantity.  <a href="classPhQ_1_1DimensionalVector.html#a2e44bd5a5321c06ba08d13d419ac2aa3">More...</a><br /></td></tr>
+<tr class="separator:a2e44bd5a5321c06ba08d13d419ac2aa3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a785257c294d0960a4e9b6a6d526c7c72"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="namespacePhQ_1_1Unit.html#abcbda7b992e98486ca609a164ae78a24">Unit::Pressure</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalVector.html#a785257c294d0960a4e9b6a6d526c7c72">Unit</a> ()</td></tr>
+<tr class="memdesc:a785257c294d0960a4e9b6a6d526c7c72"><td class="mdescLeft">&#160;</td><td class="mdescRight">Standard unit of measure for this physical quantity. This physical quantity's value is stored internally in this unit of measure.  <a href="classPhQ_1_1DimensionalVector.html#a785257c294d0960a4e9b6a6d526c7c72">More...</a><br /></td></tr>
+<tr class="separator:a785257c294d0960a4e9b6a6d526c7c72"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:a78b67be16ddde9f38cc2b7a5c723b5cc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPhQ_1_1Vector.html">PhQ::Vector</a>&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalVector.html#a78b67be16ddde9f38cc2b7a5c723b5cc">value</a></td></tr>
-<tr class="memdesc:a78b67be16ddde9f38cc2b7a5c723b5cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Value of this physical quantity expressed in its standard unit of measure.  <a href="classPhQ_1_1DimensionalVector.html#a78b67be16ddde9f38cc2b7a5c723b5cc">More...</a><br /></td></tr>
-<tr class="separator:a78b67be16ddde9f38cc2b7a5c723b5cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91b0834f719f542e946de2b3a87dc96d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPhQ_1_1Vector.html">PhQ::Vector</a>&lt; double &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalVector.html#a91b0834f719f542e946de2b3a87dc96d">value</a></td></tr>
+<tr class="memdesc:a91b0834f719f542e946de2b3a87dc96d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Value of this physical quantity expressed in its standard unit of measure.  <a href="classPhQ_1_1DimensionalVector.html#a91b0834f719f542e946de2b3a87dc96d">More...</a><br /></td></tr>
+<tr class="separator:a91b0834f719f542e946de2b3a87dc96d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr class="memitem:accf82abe5a40074bede6895029161eef"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Traction.html#accf82abe5a40074bede6895029161eef">Traction</a> (const <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt; Number &gt; &amp;<a class="el" href="classPhQ_1_1DimensionalVector.html#a78b67be16ddde9f38cc2b7a5c723b5cc">value</a>)</td></tr>
-<tr class="memdesc:accf82abe5a40074bede6895029161eef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a traction vector with a given value expressed in the standard pressure unit.  <a href="classPhQ_1_1Traction.html#accf82abe5a40074bede6895029161eef">More...</a><br /></td></tr>
-<tr class="separator:accf82abe5a40074bede6895029161eef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad729f7a7190a63377f683554c145dddf"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Traction.html#ad729f7a7190a63377f683554c145dddf">Traction</a> (const <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt; NumericType &gt; &amp;<a class="el" href="classPhQ_1_1DimensionalVector.html#a91b0834f719f542e946de2b3a87dc96d">value</a>)</td></tr>
+<tr class="memdesc:ad729f7a7190a63377f683554c145dddf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a traction vector with a given value expressed in the standard pressure unit.  <a href="classPhQ_1_1Traction.html#ad729f7a7190a63377f683554c145dddf">More...</a><br /></td></tr>
+<tr class="separator:ad729f7a7190a63377f683554c145dddf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><h3>template&lt;typename Number = double&gt;<br />
-class PhQ::Traction&lt; Number &gt;</h3>
+<div class="textblock"><h3>template&lt;typename NumericType = double&gt;<br />
+class PhQ::Traction&lt; NumericType &gt;</h3>
 
 <p>Three-dimensional Euclidean traction vector. Contains three components in Cartesian coordinates: x, y, and z. <a class="el" href="classPhQ_1_1Traction.html" title="Three-dimensional Euclidean traction vector. Contains three components in Cartesian coordinates: x,...">Traction</a> is similar to pressure; however, traction can act in any direction, whereas pressure always acts compressively perpendicular to a surface. For a two-dimensional Euclidean traction vector in the XY plane, see <a class="el" href="classPhQ_1_1PlanarTraction.html" title="Two-dimensional Euclidean traction vector in the XY plane. Contains two components in Cartesian coord...">PhQ::PlanarTraction</a>. For scalar traction components or for the magnitude of a traction vector, see <a class="el" href="classPhQ_1_1ScalarTraction.html" title="Scalar traction component or magnitude of a traction vector. Traction is similar to pressure; however...">PhQ::ScalarTraction</a>. </p>
 
 <p class="definition">Definition at line <a class="el" href="Traction_8hpp_source.html#l00056">56</a> of file <a class="el" href="Traction_8hpp_source.html">Traction.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="aaaa59615b4d068e3b9e17cdf53b320c0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaaa59615b4d068e3b9e17cdf53b320c0">&#9670;&nbsp;</a></span>Traction() <span class="overload">[1/11]</span></h2>
+<a id="abb508bb88033f3580889c8fcb488a7e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abb508bb88033f3580889c8fcb488a7e6">&#9670;&nbsp;</a></span>Traction() <span class="overload">[1/11]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classPhQ_1_1Traction.html">PhQ::Traction</a>&lt; Number &gt;::<a class="el" href="classPhQ_1_1Traction.html">Traction</a> </td>
+          <td class="memname"><a class="el" href="classPhQ_1_1Traction.html">PhQ::Traction</a>&lt; NumericType &gt;::<a class="el" href="classPhQ_1_1Traction.html">Traction</a> </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -314,21 +314,21 @@ template&lt;typename Number  = double&gt; </div>
 
 </div>
 </div>
-<a id="adb1e5a4415d04256e1a4c6d53c344f1f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adb1e5a4415d04256e1a4c6d53c344f1f">&#9670;&nbsp;</a></span>Traction() <span class="overload">[2/11]</span></h2>
+<a id="ab652ea621498db1de5ad1adeaa51395e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab652ea621498db1de5ad1adeaa51395e">&#9670;&nbsp;</a></span>Traction() <span class="overload">[2/11]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classPhQ_1_1Traction.html">PhQ::Traction</a>&lt; Number &gt;::<a class="el" href="classPhQ_1_1Traction.html">Traction</a> </td>
+          <td class="memname"><a class="el" href="classPhQ_1_1Traction.html">PhQ::Traction</a>&lt; NumericType &gt;::<a class="el" href="classPhQ_1_1Traction.html">Traction</a> </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>value</em>, </td>
         </tr>
         <tr>
@@ -356,33 +356,33 @@ template&lt;typename Number  = double&gt; </div>
 
 </div>
 </div>
-<a id="a6b294b85cfa83b8ccf1a03cc434f96ba"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6b294b85cfa83b8ccf1a03cc434f96ba">&#9670;&nbsp;</a></span>Traction() <span class="overload">[3/11]</span></h2>
+<a id="a879de6ca7d416bb595539bcc294ca3d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a879de6ca7d416bb595539bcc294ca3d9">&#9670;&nbsp;</a></span>Traction() <span class="overload">[3/11]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classPhQ_1_1Traction.html">PhQ::Traction</a>&lt; Number &gt;::<a class="el" href="classPhQ_1_1Traction.html">Traction</a> </td>
+          <td class="memname"><a class="el" href="classPhQ_1_1Traction.html">PhQ::Traction</a>&lt; NumericType &gt;::<a class="el" href="classPhQ_1_1Traction.html">Traction</a> </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>x</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>y</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>z</em>&#160;</td>
         </tr>
         <tr>
@@ -402,31 +402,31 @@ template&lt;typename Number  = double&gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="Traction_8hpp_source.html#l00068">68</a> of file <a class="el" href="Traction_8hpp_source.html">Traction.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Traction_8hpp_source.html#l00148">PhQ::Traction&lt; Number &gt;::x()</a>, <a class="el" href="Traction_8hpp_source.html#l00153">PhQ::Traction&lt; Number &gt;::y()</a>, and <a class="el" href="Traction_8hpp_source.html#l00158">PhQ::Traction&lt; Number &gt;::z()</a>.</p>
+<p class="reference">References <a class="el" href="Traction_8hpp_source.html#l00149">PhQ::Traction&lt; NumericType &gt;::x()</a>, <a class="el" href="Traction_8hpp_source.html#l00154">PhQ::Traction&lt; NumericType &gt;::y()</a>, and <a class="el" href="Traction_8hpp_source.html#l00159">PhQ::Traction&lt; NumericType &gt;::z()</a>.</p>
 
 </div>
 </div>
-<a id="ad9d116c1c4a5c70e5baa7d7f207e20f8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad9d116c1c4a5c70e5baa7d7f207e20f8">&#9670;&nbsp;</a></span>Traction() <span class="overload">[4/11]</span></h2>
+<a id="a8e84ba332699835b8adcebd089755d26"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e84ba332699835b8adcebd089755d26">&#9670;&nbsp;</a></span>Traction() <span class="overload">[4/11]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Traction.html">PhQ::Traction</a>&lt; Number &gt;::<a class="el" href="classPhQ_1_1Traction.html">Traction</a> </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Traction.html">PhQ::Traction</a>&lt; NumericType &gt;::<a class="el" href="classPhQ_1_1Traction.html">Traction</a> </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>scalar_traction</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1Direction.html">Direction</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1Direction.html">Direction</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>direction</em>&#160;</td>
         </tr>
         <tr>
@@ -448,21 +448,21 @@ template&lt;typename Number  = double&gt; </div>
 
 </div>
 </div>
-<a id="a3267e9b780e1b4d9d10638ffcb73cc6d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3267e9b780e1b4d9d10638ffcb73cc6d">&#9670;&nbsp;</a></span>Traction() <span class="overload">[5/11]</span></h2>
+<a id="a116518e119e8ee797614caa7d2aaf629"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a116518e119e8ee797614caa7d2aaf629">&#9670;&nbsp;</a></span>Traction() <span class="overload">[5/11]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Traction.html">PhQ::Traction</a>&lt; Number &gt;::<a class="el" href="classPhQ_1_1Traction.html">Traction</a> </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Traction.html">PhQ::Traction</a>&lt; NumericType &gt;::<a class="el" href="classPhQ_1_1Traction.html">Traction</a> </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1PlanarTraction.html">PlanarTraction</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1PlanarTraction.html">PlanarTraction</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>planar_traction</em></td><td>)</td>
           <td></td>
         </tr>
@@ -478,31 +478,31 @@ template&lt;typename Number  = double&gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="Traction_8hpp_source.html#l00079">79</a> of file <a class="el" href="Traction_8hpp_source.html">Traction.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00060">PhQ::DimensionalPlanarVector&lt; UnitType, Number &gt;::Value()</a>.</p>
+<p class="reference">References <a class="el" href="DimensionalPlanarVector_8hpp_source.html#l00060">PhQ::DimensionalPlanarVector&lt; UnitType, NumericType &gt;::Value()</a>.</p>
 
 </div>
 </div>
-<a id="af62e52058cb97535ec6d7b868728145c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af62e52058cb97535ec6d7b868728145c">&#9670;&nbsp;</a></span>Traction() <span class="overload">[6/11]</span></h2>
+<a id="af040b34a2582a538c8cd9addc9e86685"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af040b34a2582a538c8cd9addc9e86685">&#9670;&nbsp;</a></span>Traction() <span class="overload">[6/11]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Traction.html">PhQ::Traction</a>&lt; Number &gt;::<a class="el" href="classPhQ_1_1Traction.html">Traction</a> </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Traction.html">PhQ::Traction</a>&lt; NumericType &gt;::<a class="el" href="classPhQ_1_1Traction.html">Traction</a> </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1Force.html">Force</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1Force.html">Force</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>force</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1Area.html">Area</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1Area.html">Area</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>area</em>&#160;</td>
         </tr>
         <tr>
@@ -524,27 +524,27 @@ template&lt;typename Number  = double&gt; </div>
 
 </div>
 </div>
-<a id="a2b331aea3a3ec51b21be06bc23d2a3bf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2b331aea3a3ec51b21be06bc23d2a3bf">&#9670;&nbsp;</a></span>Traction() <span class="overload">[7/11]</span></h2>
+<a id="aca7bc7e637510a097f8449170d2c7f26"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aca7bc7e637510a097f8449170d2c7f26">&#9670;&nbsp;</a></span>Traction() <span class="overload">[7/11]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number &gt; </div>
+template&lt;typename NumericType &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Traction.html">PhQ::Traction</a>&lt; Number &gt;::<a class="el" href="classPhQ_1_1Traction.html">Traction</a> </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Traction.html">PhQ::Traction</a>&lt; NumericType &gt;::<a class="el" href="classPhQ_1_1Traction.html">Traction</a> </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1Stress.html">Stress</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1Stress.html">Stress</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>stress</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1Direction.html">Direction</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1Direction.html">Direction</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>direction</em>&#160;</td>
         </tr>
         <tr>
@@ -562,25 +562,25 @@ template&lt;typename Number &gt; </div>
 
 <p>Constructor. Constructs a traction vector from a given stress and direction using the definition of traction. </p>
 
-<p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00290">290</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Stress_8hpp_source.html#l00302">302</a> of file <a class="el" href="Stress_8hpp_source.html">Stress.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00060">PhQ::DimensionalSymmetricDyad&lt; UnitType, Number &gt;::Value()</a>.</p>
+<p class="reference">References <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00060">PhQ::DimensionalSymmetricDyad&lt; UnitType, NumericType &gt;::Value()</a>.</p>
 
 </div>
 </div>
-<a id="a2c8c617e20f727b7761a35f82f407c45"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2c8c617e20f727b7761a35f82f407c45">&#9670;&nbsp;</a></span>~Traction()</h2>
+<a id="a039d9487e333f8e8f95526644d12e6e3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a039d9487e333f8e8f95526644d12e6e3">&#9670;&nbsp;</a></span>~Traction()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classPhQ_1_1Traction.html">PhQ::Traction</a>&lt; Number &gt;::~<a class="el" href="classPhQ_1_1Traction.html">Traction</a> </td>
+          <td class="memname"><a class="el" href="classPhQ_1_1Traction.html">PhQ::Traction</a>&lt; NumericType &gt;::~<a class="el" href="classPhQ_1_1Traction.html">Traction</a> </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -597,21 +597,21 @@ template&lt;typename Number  = double&gt; </div>
 
 </div>
 </div>
-<a id="acf425abf7b8e6eb8b342f2b210f65433"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acf425abf7b8e6eb8b342f2b210f65433">&#9670;&nbsp;</a></span>Traction() <span class="overload">[8/11]</span></h2>
+<a id="a0a6307a867729e4ca7a2fd7aa36babf2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a6307a867729e4ca7a2fd7aa36babf2">&#9670;&nbsp;</a></span>Traction() <span class="overload">[8/11]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Traction.html">PhQ::Traction</a>&lt; Number &gt;::<a class="el" href="classPhQ_1_1Traction.html">Traction</a> </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Traction.html">PhQ::Traction</a>&lt; NumericType &gt;::<a class="el" href="classPhQ_1_1Traction.html">Traction</a> </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1Traction.html">Traction</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1Traction.html">Traction</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>other</em></td><td>)</td>
           <td></td>
         </tr>
@@ -627,23 +627,23 @@ template&lt;typename Number  = double&gt; </div>
 
 </div>
 </div>
-<a id="a4e41607d15216e0a65744dd3f4eda6a5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4e41607d15216e0a65744dd3f4eda6a5">&#9670;&nbsp;</a></span>Traction() <span class="overload">[9/11]</span></h2>
+<a id="ad063a17bb752ed18cd4916b94492ad71"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad063a17bb752ed18cd4916b94492ad71">&#9670;&nbsp;</a></span>Traction() <span class="overload">[9/11]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <div class="memtemplate">
-template&lt;typename OtherNumber &gt; </div>
+template&lt;typename OtherNumericType &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Traction.html">PhQ::Traction</a>&lt; Number &gt;::<a class="el" href="classPhQ_1_1Traction.html">Traction</a> </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Traction.html">PhQ::Traction</a>&lt; NumericType &gt;::<a class="el" href="classPhQ_1_1Traction.html">Traction</a> </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1Traction.html">Traction</a>&lt; OtherNumber &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1Traction.html">Traction</a>&lt; OtherNumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>other</em></td><td>)</td>
           <td></td>
         </tr>
@@ -661,21 +661,21 @@ template&lt;typename OtherNumber &gt; </div>
 
 </div>
 </div>
-<a id="a12ffb137aada0d955116ad9f9e65f627"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a12ffb137aada0d955116ad9f9e65f627">&#9670;&nbsp;</a></span>Traction() <span class="overload">[10/11]</span></h2>
+<a id="a76158674dff4d61797142924ef9dd2d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a76158674dff4d61797142924ef9dd2d4">&#9670;&nbsp;</a></span>Traction() <span class="overload">[10/11]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Traction.html">PhQ::Traction</a>&lt; Number &gt;::<a class="el" href="classPhQ_1_1Traction.html">Traction</a> </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Traction.html">PhQ::Traction</a>&lt; NumericType &gt;::<a class="el" href="classPhQ_1_1Traction.html">Traction</a> </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classPhQ_1_1Traction.html">Traction</a>&lt; Number &gt; &amp;&amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="classPhQ_1_1Traction.html">Traction</a>&lt; NumericType &gt; &amp;&amp;&#160;</td>
           <td class="paramname"><em>other</em></td><td>)</td>
           <td></td>
         </tr>
@@ -691,21 +691,21 @@ template&lt;typename Number  = double&gt; </div>
 
 </div>
 </div>
-<a id="accf82abe5a40074bede6895029161eef"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#accf82abe5a40074bede6895029161eef">&#9670;&nbsp;</a></span>Traction() <span class="overload">[11/11]</span></h2>
+<a id="ad729f7a7190a63377f683554c145dddf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad729f7a7190a63377f683554c145dddf">&#9670;&nbsp;</a></span>Traction() <span class="overload">[11/11]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Traction.html">PhQ::Traction</a>&lt; Number &gt;::<a class="el" href="classPhQ_1_1Traction.html">Traction</a> </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Traction.html">PhQ::Traction</a>&lt; NumericType &gt;::<a class="el" href="classPhQ_1_1Traction.html">Traction</a> </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>value</em></td><td>)</td>
           <td></td>
         </tr>
@@ -719,26 +719,26 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Constructor. Constructs a traction vector with a given value expressed in the standard pressure unit. </p>
 
-<p class="definition">Definition at line <a class="el" href="Traction_8hpp_source.html#l00216">216</a> of file <a class="el" href="Traction_8hpp_source.html">Traction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Traction_8hpp_source.html#l00217">217</a> of file <a class="el" href="Traction_8hpp_source.html">Traction.hpp</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a492316caceba3d3ce47fd5573ccf6e66"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a492316caceba3d3ce47fd5573ccf6e66">&#9670;&nbsp;</a></span>Angle()</h2>
+<a id="acf91440ef176f78538a07685ed9e7f65"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf91440ef176f78538a07685ed9e7f65">&#9670;&nbsp;</a></span>Angle()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classPhQ_1_1Angle.html">PhQ::Angle</a>&lt;Number&gt; <a class="el" href="classPhQ_1_1Traction.html">PhQ::Traction</a>&lt; Number &gt;::<a class="el" href="classPhQ_1_1Angle.html">Angle</a> </td>
+          <td class="memname"><a class="el" href="classPhQ_1_1Angle.html">PhQ::Angle</a>&lt;NumericType&gt; <a class="el" href="classPhQ_1_1Traction.html">PhQ::Traction</a>&lt; NumericType &gt;::<a class="el" href="classPhQ_1_1Angle.html">Angle</a> </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1Traction.html">Traction</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1Traction.html">Traction</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>traction</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -752,17 +752,17 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the angle between this traction vector and another one. </p>
 
-<p class="definition">Definition at line <a class="el" href="Traction_8hpp_source.html#l00173">173</a> of file <a class="el" href="Traction_8hpp_source.html">Traction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Traction_8hpp_source.html#l00174">174</a> of file <a class="el" href="Traction_8hpp_source.html">Traction.hpp</a>.</p>
 
 </div>
 </div>
-<a id="ac32e7dd940ca851d75ebf7e896330be0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac32e7dd940ca851d75ebf7e896330be0">&#9670;&nbsp;</a></span>Create() <span class="overload">[1/3]</span></h2>
+<a id="a6989ef6891f90d03459ac06c52845677"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6989ef6891f90d03459ac06c52845677">&#9670;&nbsp;</a></span>Create() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <div class="memtemplate">
 template&lt;Unit::Pressure Unit&gt; </div>
 <table class="mlabels">
@@ -770,21 +770,21 @@ template&lt;Unit::Pressure Unit&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static constexpr <a class="el" href="classPhQ_1_1Traction.html">Traction</a>&lt;Number&gt; <a class="el" href="classPhQ_1_1Traction.html">PhQ::Traction</a>&lt; Number &gt;::Create </td>
+          <td class="memname">static constexpr <a class="el" href="classPhQ_1_1Traction.html">Traction</a>&lt;NumericType&gt; <a class="el" href="classPhQ_1_1Traction.html">PhQ::Traction</a>&lt; NumericType &gt;::Create </td>
           <td>(</td>
-          <td class="paramtype">const Number&#160;</td>
+          <td class="paramtype">const NumericType&#160;</td>
           <td class="paramname"><em>x</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const Number&#160;</td>
+          <td class="paramtype">const NumericType&#160;</td>
           <td class="paramname"><em>y</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const Number&#160;</td>
+          <td class="paramtype">const NumericType&#160;</td>
           <td class="paramname"><em>z</em>&#160;</td>
         </tr>
         <tr>
@@ -804,17 +804,17 @@ template&lt;Unit::Pressure Unit&gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="Traction_8hpp_source.html#l00126">126</a> of file <a class="el" href="Traction_8hpp_source.html">Traction.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Traction_8hpp_source.html#l00148">PhQ::Traction&lt; Number &gt;::x()</a>, <a class="el" href="Traction_8hpp_source.html#l00153">PhQ::Traction&lt; Number &gt;::y()</a>, and <a class="el" href="Traction_8hpp_source.html#l00158">PhQ::Traction&lt; Number &gt;::z()</a>.</p>
+<p class="reference">References <a class="el" href="Traction_8hpp_source.html#l00149">PhQ::Traction&lt; NumericType &gt;::x()</a>, <a class="el" href="Traction_8hpp_source.html#l00154">PhQ::Traction&lt; NumericType &gt;::y()</a>, and <a class="el" href="Traction_8hpp_source.html#l00159">PhQ::Traction&lt; NumericType &gt;::z()</a>.</p>
 
 </div>
 </div>
-<a id="a52feda8603817d279509911aef695a38"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a52feda8603817d279509911aef695a38">&#9670;&nbsp;</a></span>Create() <span class="overload">[2/3]</span></h2>
+<a id="a7bb04d4505883ffae0dda8c12517fc48"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7bb04d4505883ffae0dda8c12517fc48">&#9670;&nbsp;</a></span>Create() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <div class="memtemplate">
 template&lt;Unit::Pressure Unit&gt; </div>
 <table class="mlabels">
@@ -822,9 +822,9 @@ template&lt;Unit::Pressure Unit&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static constexpr <a class="el" href="classPhQ_1_1Traction.html">Traction</a>&lt;Number&gt; <a class="el" href="classPhQ_1_1Traction.html">PhQ::Traction</a>&lt; Number &gt;::Create </td>
+          <td class="memname">static constexpr <a class="el" href="classPhQ_1_1Traction.html">Traction</a>&lt;NumericType&gt; <a class="el" href="classPhQ_1_1Traction.html">PhQ::Traction</a>&lt; NumericType &gt;::Create </td>
           <td>(</td>
-          <td class="paramtype">const std::array&lt; Number, 3 &gt; &amp;&#160;</td>
+          <td class="paramtype">const std::array&lt; NumericType, 3 &gt; &amp;&#160;</td>
           <td class="paramname"><em>x_y_z</em></td><td>)</td>
           <td></td>
         </tr>
@@ -838,17 +838,17 @@ template&lt;Unit::Pressure Unit&gt; </div>
 
 <p>Statically creates a traction vector from the given x, y, and z Cartesian components expressed in a given pressure unit. </p>
 
-<p class="definition">Definition at line <a class="el" href="Traction_8hpp_source.html#l00134">134</a> of file <a class="el" href="Traction_8hpp_source.html">Traction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Traction_8hpp_source.html#l00135">135</a> of file <a class="el" href="Traction_8hpp_source.html">Traction.hpp</a>.</p>
 
 </div>
 </div>
-<a id="a54f3cdcc8226277d4fe9a5b8c3817db6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a54f3cdcc8226277d4fe9a5b8c3817db6">&#9670;&nbsp;</a></span>Create() <span class="overload">[3/3]</span></h2>
+<a id="a859a11c824dd371069998fc7b737015c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a859a11c824dd371069998fc7b737015c">&#9670;&nbsp;</a></span>Create() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <div class="memtemplate">
 template&lt;Unit::Pressure Unit&gt; </div>
 <table class="mlabels">
@@ -856,9 +856,9 @@ template&lt;Unit::Pressure Unit&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static constexpr <a class="el" href="classPhQ_1_1Traction.html">Traction</a>&lt;Number&gt; <a class="el" href="classPhQ_1_1Traction.html">PhQ::Traction</a>&lt; Number &gt;::Create </td>
+          <td class="memname">static constexpr <a class="el" href="classPhQ_1_1Traction.html">Traction</a>&lt;NumericType&gt; <a class="el" href="classPhQ_1_1Traction.html">PhQ::Traction</a>&lt; NumericType &gt;::Create </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>value</em></td><td>)</td>
           <td></td>
         </tr>
@@ -872,14 +872,14 @@ template&lt;Unit::Pressure Unit&gt; </div>
 
 <p>Statically creates a traction vector with a given value expressed in a given pressure unit. </p>
 
-<p class="definition">Definition at line <a class="el" href="Traction_8hpp_source.html#l00142">142</a> of file <a class="el" href="Traction_8hpp_source.html">Traction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Traction_8hpp_source.html#l00143">143</a> of file <a class="el" href="Traction_8hpp_source.html">Traction.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Pressure, double &gt;::value</a>.</p>
+<p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00212">PhQ::DimensionalVector&lt; Unit::Pressure, double &gt;::value</a>.</p>
 
 </div>
 </div>
-<a id="ac6362f7452e002f3c13a3994277a7571"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac6362f7452e002f3c13a3994277a7571">&#9670;&nbsp;</a></span>Dimensions()</h2>
+<a id="a2e44bd5a5321c06ba08d13d419ac2aa3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e44bd5a5321c06ba08d13d419ac2aa3">&#9670;&nbsp;</a></span>Dimensions()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -907,19 +907,19 @@ template&lt;Unit::Pressure Unit&gt; </div>
 
 </div>
 </div>
-<a id="aa75560f77dac09a4f6f9a6b1170dcdca"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa75560f77dac09a4f6f9a6b1170dcdca">&#9670;&nbsp;</a></span>Direction()</h2>
+<a id="a7208ff0752ec27623ab56655762a2af9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7208ff0752ec27623ab56655762a2af9">&#9670;&nbsp;</a></span>Direction()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classPhQ_1_1Direction.html">PhQ::Direction</a>&lt;Number&gt; <a class="el" href="classPhQ_1_1Traction.html">PhQ::Traction</a>&lt; Number &gt;::<a class="el" href="classPhQ_1_1Direction.html">Direction</a> </td>
+          <td class="memname"><a class="el" href="classPhQ_1_1Direction.html">PhQ::Direction</a>&lt;NumericType&gt; <a class="el" href="classPhQ_1_1Traction.html">PhQ::Traction</a>&lt; NumericType &gt;::<a class="el" href="classPhQ_1_1Direction.html">Direction</a> </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -934,14 +934,14 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the direction of this traction vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="Traction_8hpp_source.html#l00168">168</a> of file <a class="el" href="Traction_8hpp_source.html">Traction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Traction_8hpp_source.html#l00169">169</a> of file <a class="el" href="Traction_8hpp_source.html">Traction.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Direction_8hpp_source.html#l00374">PhQ::Vector&lt; Number &gt;::Direction()</a>, and <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Pressure, double &gt;::value</a>.</p>
+<p class="reference">References <a class="el" href="Direction_8hpp_source.html#l00379">PhQ::Vector&lt; NumericType &gt;::Direction()</a>, and <a class="el" href="DimensionalVector_8hpp_source.html#l00212">PhQ::DimensionalVector&lt; Unit::Pressure, double &gt;::value</a>.</p>
 
 </div>
 </div>
-<a id="aa5d01fbac3fe45387202f1f4094b3504"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa5d01fbac3fe45387202f1f4094b3504">&#9670;&nbsp;</a></span>JSON() <span class="overload">[1/2]</span></h2>
+<a id="a23f09256f35caec8f8c7b8d5c3af30e1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a23f09256f35caec8f8c7b8d5c3af30e1">&#9670;&nbsp;</a></span>JSON() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -965,12 +965,12 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Serializes this physical quantity as a JSON message. This physical quantity's value is expressed in its standard unit of measure. </p>
 
-<p class="definition">Definition at line <a class="el" href="DimensionalVector_8hpp_source.html#l00104">104</a> of file <a class="el" href="DimensionalVector_8hpp_source.html">DimensionalVector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="DimensionalVector_8hpp_source.html#l00102">102</a> of file <a class="el" href="DimensionalVector_8hpp_source.html">DimensionalVector.hpp</a>.</p>
 
 </div>
 </div>
-<a id="ac8e4d05736d131fa7aeee27e53e0186c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac8e4d05736d131fa7aeee27e53e0186c">&#9670;&nbsp;</a></span>JSON() <span class="overload">[2/2]</span></h2>
+<a id="a6520b33cd0596118c0170e30eb605da3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6520b33cd0596118c0170e30eb605da3">&#9670;&nbsp;</a></span>JSON() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -995,23 +995,23 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Serializes this physical quantity as a JSON message. This physical quantity's value is expressed in the given unit of measure. </p>
 
-<p class="definition">Definition at line <a class="el" href="DimensionalVector_8hpp_source.html#l00114">114</a> of file <a class="el" href="DimensionalVector_8hpp_source.html">DimensionalVector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="DimensionalVector_8hpp_source.html#l00112">112</a> of file <a class="el" href="DimensionalVector_8hpp_source.html">DimensionalVector.hpp</a>.</p>
 
 </div>
 </div>
-<a id="ab1658d1b0aba3da727d423a25e834d5f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab1658d1b0aba3da727d423a25e834d5f">&#9670;&nbsp;</a></span>Magnitude()</h2>
+<a id="a0be96edfcc46c04e03cb27381c998516"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0be96edfcc46c04e03cb27381c998516">&#9670;&nbsp;</a></span>Magnitude()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt;Number&gt; <a class="el" href="classPhQ_1_1Traction.html">PhQ::Traction</a>&lt; Number &gt;::Magnitude </td>
+          <td class="memname"><a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt;NumericType&gt; <a class="el" href="classPhQ_1_1Traction.html">PhQ::Traction</a>&lt; NumericType &gt;::Magnitude </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -1026,14 +1026,14 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the magnitude of this traction vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="Traction_8hpp_source.html#l00163">163</a> of file <a class="el" href="Traction_8hpp_source.html">Traction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Traction_8hpp_source.html#l00164">164</a> of file <a class="el" href="Traction_8hpp_source.html">Traction.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00208">PhQ::Vector&lt; Number &gt;::Magnitude()</a>, and <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Pressure, double &gt;::value</a>.</p>
+<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00209">PhQ::Vector&lt; NumericType &gt;::Magnitude()</a>, and <a class="el" href="DimensionalVector_8hpp_source.html#l00212">PhQ::DimensionalVector&lt; Unit::Pressure, double &gt;::value</a>.</p>
 
 </div>
 </div>
-<a id="a23118c0733b940b47e53dbbcbe2894c8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a23118c0733b940b47e53dbbcbe2894c8">&#9670;&nbsp;</a></span>MutableValue()</h2>
+<a id="a7bc033c44f7a2bd0f62eaf818ec67529"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7bc033c44f7a2bd0f62eaf818ec67529">&#9670;&nbsp;</a></span>MutableValue()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1057,25 +1057,25 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the value of this physical quantity expressed in its standard unit of measure as a mutable value. </p>
 
-<p class="definition">Definition at line <a class="el" href="DimensionalVector_8hpp_source.html#l00080">80</a> of file <a class="el" href="DimensionalVector_8hpp_source.html">DimensionalVector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="DimensionalVector_8hpp_source.html#l00078">78</a> of file <a class="el" href="DimensionalVector_8hpp_source.html">DimensionalVector.hpp</a>.</p>
 
 </div>
 </div>
-<a id="a9bdae35c5e58bfbb81a66203f1e7c947"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9bdae35c5e58bfbb81a66203f1e7c947">&#9670;&nbsp;</a></span>operator*() <span class="overload">[1/2]</span></h2>
+<a id="a218a22863738bf9439bbd905baf538fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a218a22863738bf9439bbd905baf538fa">&#9670;&nbsp;</a></span>operator*() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Force.html">Force</a>&lt;Number&gt; <a class="el" href="classPhQ_1_1Traction.html">PhQ::Traction</a>&lt; Number &gt;::operator* </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Force.html">Force</a>&lt;NumericType&gt; <a class="el" href="classPhQ_1_1Traction.html">PhQ::Traction</a>&lt; NumericType &gt;::operator* </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1Area.html">Area</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1Area.html">Area</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>area</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -1087,25 +1087,25 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Traction_8hpp_source.html#l00189">189</a> of file <a class="el" href="Traction_8hpp_source.html">Traction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Traction_8hpp_source.html#l00190">190</a> of file <a class="el" href="Traction_8hpp_source.html">Traction.hpp</a>.</p>
 
 </div>
 </div>
-<a id="afdb5265d5f526570db09faa5e321b9a0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afdb5265d5f526570db09faa5e321b9a0">&#9670;&nbsp;</a></span>operator*() <span class="overload">[2/2]</span></h2>
+<a id="a74445add2a94c8a51e750d9bbeb0c572"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a74445add2a94c8a51e750d9bbeb0c572">&#9670;&nbsp;</a></span>operator*() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Traction.html">Traction</a>&lt;Number&gt; <a class="el" href="classPhQ_1_1Traction.html">PhQ::Traction</a>&lt; Number &gt;::operator* </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Traction.html">Traction</a>&lt;NumericType&gt; <a class="el" href="classPhQ_1_1Traction.html">PhQ::Traction</a>&lt; NumericType &gt;::operator* </td>
           <td>(</td>
-          <td class="paramtype">const Number&#160;</td>
+          <td class="paramtype">const NumericType&#160;</td>
           <td class="paramname"><em>number</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -1117,27 +1117,27 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Traction_8hpp_source.html#l00185">185</a> of file <a class="el" href="Traction_8hpp_source.html">Traction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Traction_8hpp_source.html#l00186">186</a> of file <a class="el" href="Traction_8hpp_source.html">Traction.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Pressure, double &gt;::value</a>.</p>
+<p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00212">PhQ::DimensionalVector&lt; Unit::Pressure, double &gt;::value</a>.</p>
 
 </div>
 </div>
-<a id="aaf60b692776966930f3f0c025eb7c14e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaf60b692776966930f3f0c025eb7c14e">&#9670;&nbsp;</a></span>operator*=()</h2>
+<a id="ae35db7ee0d512c2483bd7b1ff4948b9a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae35db7ee0d512c2483bd7b1ff4948b9a">&#9670;&nbsp;</a></span>operator*=()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr void <a class="el" href="classPhQ_1_1Traction.html">PhQ::Traction</a>&lt; Number &gt;::operator*= </td>
+          <td class="memname">constexpr void <a class="el" href="classPhQ_1_1Traction.html">PhQ::Traction</a>&lt; NumericType &gt;::operator*= </td>
           <td>(</td>
-          <td class="paramtype">const Number&#160;</td>
+          <td class="paramtype">const NumericType&#160;</td>
           <td class="paramname"><em>number</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1149,27 +1149,27 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Traction_8hpp_source.html#l00205">205</a> of file <a class="el" href="Traction_8hpp_source.html">Traction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Traction_8hpp_source.html#l00206">206</a> of file <a class="el" href="Traction_8hpp_source.html">Traction.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Pressure, double &gt;::value</a>.</p>
+<p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00212">PhQ::DimensionalVector&lt; Unit::Pressure, double &gt;::value</a>.</p>
 
 </div>
 </div>
-<a id="afeea41f4ee82b22ca3437f32acfc1625"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afeea41f4ee82b22ca3437f32acfc1625">&#9670;&nbsp;</a></span>operator+()</h2>
+<a id="ad0af264a64391771fcd495ac1c3b668b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad0af264a64391771fcd495ac1c3b668b">&#9670;&nbsp;</a></span>operator+()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Traction.html">Traction</a>&lt;Number&gt; <a class="el" href="classPhQ_1_1Traction.html">PhQ::Traction</a>&lt; Number &gt;::operator+ </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Traction.html">Traction</a>&lt;NumericType&gt; <a class="el" href="classPhQ_1_1Traction.html">PhQ::Traction</a>&lt; NumericType &gt;::operator+ </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1Traction.html">Traction</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1Traction.html">Traction</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>traction</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -1181,27 +1181,27 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Traction_8hpp_source.html#l00177">177</a> of file <a class="el" href="Traction_8hpp_source.html">Traction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Traction_8hpp_source.html#l00178">178</a> of file <a class="el" href="Traction_8hpp_source.html">Traction.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; UnitType, Number &gt;::value</a>, and <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Pressure, double &gt;::value</a>.</p>
+<p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00212">PhQ::DimensionalVector&lt; UnitType, NumericType &gt;::value</a>, and <a class="el" href="DimensionalVector_8hpp_source.html#l00212">PhQ::DimensionalVector&lt; Unit::Pressure, double &gt;::value</a>.</p>
 
 </div>
 </div>
-<a id="a3a77ac16dacd848adf9b79a3d12fb767"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3a77ac16dacd848adf9b79a3d12fb767">&#9670;&nbsp;</a></span>operator+=()</h2>
+<a id="ad586666b3903b245a1fcca2e400cdd26"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad586666b3903b245a1fcca2e400cdd26">&#9670;&nbsp;</a></span>operator+=()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr void <a class="el" href="classPhQ_1_1Traction.html">PhQ::Traction</a>&lt; Number &gt;::operator+= </td>
+          <td class="memname">constexpr void <a class="el" href="classPhQ_1_1Traction.html">PhQ::Traction</a>&lt; NumericType &gt;::operator+= </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1Traction.html">Traction</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1Traction.html">Traction</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>traction</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1213,27 +1213,27 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Traction_8hpp_source.html#l00197">197</a> of file <a class="el" href="Traction_8hpp_source.html">Traction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Traction_8hpp_source.html#l00198">198</a> of file <a class="el" href="Traction_8hpp_source.html">Traction.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Pressure, double &gt;::value</a>.</p>
+<p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00212">PhQ::DimensionalVector&lt; Unit::Pressure, double &gt;::value</a>.</p>
 
 </div>
 </div>
-<a id="a2ee19229e6c99e3eb1e27e31bdf4f437"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2ee19229e6c99e3eb1e27e31bdf4f437">&#9670;&nbsp;</a></span>operator-()</h2>
+<a id="a9fe6fba3c538e1912b2633f18d79f2b6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9fe6fba3c538e1912b2633f18d79f2b6">&#9670;&nbsp;</a></span>operator-()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Traction.html">Traction</a>&lt;Number&gt; <a class="el" href="classPhQ_1_1Traction.html">PhQ::Traction</a>&lt; Number &gt;::operator- </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Traction.html">Traction</a>&lt;NumericType&gt; <a class="el" href="classPhQ_1_1Traction.html">PhQ::Traction</a>&lt; NumericType &gt;::operator- </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1Traction.html">Traction</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1Traction.html">Traction</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>traction</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -1245,27 +1245,27 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Traction_8hpp_source.html#l00181">181</a> of file <a class="el" href="Traction_8hpp_source.html">Traction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Traction_8hpp_source.html#l00182">182</a> of file <a class="el" href="Traction_8hpp_source.html">Traction.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; UnitType, Number &gt;::value</a>, and <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Pressure, double &gt;::value</a>.</p>
+<p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00212">PhQ::DimensionalVector&lt; UnitType, NumericType &gt;::value</a>, and <a class="el" href="DimensionalVector_8hpp_source.html#l00212">PhQ::DimensionalVector&lt; Unit::Pressure, double &gt;::value</a>.</p>
 
 </div>
 </div>
-<a id="ae05a0e847e6264332b0f21f9f39723d2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae05a0e847e6264332b0f21f9f39723d2">&#9670;&nbsp;</a></span>operator-=()</h2>
+<a id="a3fac83e14356bdf3f628d3f248e401f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3fac83e14356bdf3f628d3f248e401f2">&#9670;&nbsp;</a></span>operator-=()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr void <a class="el" href="classPhQ_1_1Traction.html">PhQ::Traction</a>&lt; Number &gt;::operator-= </td>
+          <td class="memname">constexpr void <a class="el" href="classPhQ_1_1Traction.html">PhQ::Traction</a>&lt; NumericType &gt;::operator-= </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1Traction.html">Traction</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1Traction.html">Traction</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>traction</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1277,27 +1277,27 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Traction_8hpp_source.html#l00201">201</a> of file <a class="el" href="Traction_8hpp_source.html">Traction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Traction_8hpp_source.html#l00202">202</a> of file <a class="el" href="Traction_8hpp_source.html">Traction.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Pressure, double &gt;::value</a>.</p>
+<p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00212">PhQ::DimensionalVector&lt; Unit::Pressure, double &gt;::value</a>.</p>
 
 </div>
 </div>
-<a id="a9d344913a920405c61959c19dd545be0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9d344913a920405c61959c19dd545be0">&#9670;&nbsp;</a></span>operator/()</h2>
+<a id="a60d550a8dda1223df7664978a3759f7d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a60d550a8dda1223df7664978a3759f7d">&#9670;&nbsp;</a></span>operator/()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Traction.html">Traction</a>&lt;Number&gt; <a class="el" href="classPhQ_1_1Traction.html">PhQ::Traction</a>&lt; Number &gt;::operator/ </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Traction.html">Traction</a>&lt;NumericType&gt; <a class="el" href="classPhQ_1_1Traction.html">PhQ::Traction</a>&lt; NumericType &gt;::operator/ </td>
           <td>(</td>
-          <td class="paramtype">const Number&#160;</td>
+          <td class="paramtype">const NumericType&#160;</td>
           <td class="paramname"><em>number</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -1309,27 +1309,27 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Traction_8hpp_source.html#l00193">193</a> of file <a class="el" href="Traction_8hpp_source.html">Traction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Traction_8hpp_source.html#l00194">194</a> of file <a class="el" href="Traction_8hpp_source.html">Traction.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Pressure, double &gt;::value</a>.</p>
+<p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00212">PhQ::DimensionalVector&lt; Unit::Pressure, double &gt;::value</a>.</p>
 
 </div>
 </div>
-<a id="af0a31cbc928a2bb3de5adc6cf57edee1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af0a31cbc928a2bb3de5adc6cf57edee1">&#9670;&nbsp;</a></span>operator/=()</h2>
+<a id="a35e4632465a63929ee93767fd8bea463"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a35e4632465a63929ee93767fd8bea463">&#9670;&nbsp;</a></span>operator/=()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr void <a class="el" href="classPhQ_1_1Traction.html">PhQ::Traction</a>&lt; Number &gt;::operator/= </td>
+          <td class="memname">constexpr void <a class="el" href="classPhQ_1_1Traction.html">PhQ::Traction</a>&lt; NumericType &gt;::operator/= </td>
           <td>(</td>
-          <td class="paramtype">const Number&#160;</td>
+          <td class="paramtype">const NumericType&#160;</td>
           <td class="paramname"><em>number</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1341,27 +1341,27 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Traction_8hpp_source.html#l00209">209</a> of file <a class="el" href="Traction_8hpp_source.html">Traction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Traction_8hpp_source.html#l00210">210</a> of file <a class="el" href="Traction_8hpp_source.html">Traction.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Pressure, double &gt;::value</a>.</p>
+<p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00212">PhQ::DimensionalVector&lt; Unit::Pressure, double &gt;::value</a>.</p>
 
 </div>
 </div>
-<a id="adfd5fd4f6c7712fb1381404ae236e771"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adfd5fd4f6c7712fb1381404ae236e771">&#9670;&nbsp;</a></span>operator=() <span class="overload">[1/3]</span></h2>
+<a id="a068fac777092fe1c4e64bc3e59d12a81"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a068fac777092fe1c4e64bc3e59d12a81">&#9670;&nbsp;</a></span>operator=() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Traction.html">Traction</a>&lt;Number&gt;&amp; <a class="el" href="classPhQ_1_1Traction.html">PhQ::Traction</a>&lt; Number &gt;::operator= </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Traction.html">Traction</a>&lt;NumericType&gt;&amp; <a class="el" href="classPhQ_1_1Traction.html">PhQ::Traction</a>&lt; NumericType &gt;::operator= </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1Traction.html">Traction</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1Traction.html">Traction</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>other</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1377,23 +1377,23 @@ template&lt;typename Number  = double&gt; </div>
 
 </div>
 </div>
-<a id="abbd870bfcbb0c9634e664dd98960d18a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abbd870bfcbb0c9634e664dd98960d18a">&#9670;&nbsp;</a></span>operator=() <span class="overload">[2/3]</span></h2>
+<a id="a6056a9307df7aa756305c2c2c91deb7b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6056a9307df7aa756305c2c2c91deb7b">&#9670;&nbsp;</a></span>operator=() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <div class="memtemplate">
-template&lt;typename OtherNumber &gt; </div>
+template&lt;typename OtherNumericType &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Traction.html">Traction</a>&lt;Number&gt;&amp; <a class="el" href="classPhQ_1_1Traction.html">PhQ::Traction</a>&lt; Number &gt;::operator= </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Traction.html">Traction</a>&lt;NumericType&gt;&amp; <a class="el" href="classPhQ_1_1Traction.html">PhQ::Traction</a>&lt; NumericType &gt;::operator= </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1Traction.html">Traction</a>&lt; OtherNumber &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1Traction.html">Traction</a>&lt; OtherNumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>other</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1409,25 +1409,25 @@ template&lt;typename OtherNumber &gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="Traction_8hpp_source.html#l00110">110</a> of file <a class="el" href="Traction_8hpp_source.html">Traction.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00060">PhQ::DimensionalVector&lt; UnitType, Number &gt;::Value()</a>, and <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Pressure, double &gt;::value</a>.</p>
+<p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00060">PhQ::DimensionalVector&lt; UnitType, NumericType &gt;::Value()</a>, and <a class="el" href="DimensionalVector_8hpp_source.html#l00212">PhQ::DimensionalVector&lt; Unit::Pressure, double &gt;::value</a>.</p>
 
 </div>
 </div>
-<a id="ab19d69ffd30507ccd16afee1eca1249e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab19d69ffd30507ccd16afee1eca1249e">&#9670;&nbsp;</a></span>operator=() <span class="overload">[3/3]</span></h2>
+<a id="a46b2230e6d1f050e2b2abd9fd2489c80"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a46b2230e6d1f050e2b2abd9fd2489c80">&#9670;&nbsp;</a></span>operator=() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Traction.html">Traction</a>&lt;Number&gt;&amp; <a class="el" href="classPhQ_1_1Traction.html">PhQ::Traction</a>&lt; Number &gt;::operator= </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Traction.html">Traction</a>&lt;NumericType&gt;&amp; <a class="el" href="classPhQ_1_1Traction.html">PhQ::Traction</a>&lt; NumericType &gt;::operator= </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classPhQ_1_1Traction.html">Traction</a>&lt; Number &gt; &amp;&amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="classPhQ_1_1Traction.html">Traction</a>&lt; NumericType &gt; &amp;&amp;&#160;</td>
           <td class="paramname"><em>other</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1443,8 +1443,8 @@ template&lt;typename Number  = double&gt; </div>
 
 </div>
 </div>
-<a id="a99ed09897dee742af4dd2ae5dddc05e5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a99ed09897dee742af4dd2ae5dddc05e5">&#9670;&nbsp;</a></span>Print() <span class="overload">[1/2]</span></h2>
+<a id="a0fec489f4b5f2ac9ebe9fdf745bce512"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0fec489f4b5f2ac9ebe9fdf745bce512">&#9670;&nbsp;</a></span>Print() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1468,12 +1468,12 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Prints this physical quantity as a string. This physical quantity's value is expressed in its standard unit of measure. </p>
 
-<p class="definition">Definition at line <a class="el" href="DimensionalVector_8hpp_source.html#l00092">92</a> of file <a class="el" href="DimensionalVector_8hpp_source.html">DimensionalVector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="DimensionalVector_8hpp_source.html#l00090">90</a> of file <a class="el" href="DimensionalVector_8hpp_source.html">DimensionalVector.hpp</a>.</p>
 
 </div>
 </div>
-<a id="ad2ac83a81055ccf8d1117c57186f2d86"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad2ac83a81055ccf8d1117c57186f2d86">&#9670;&nbsp;</a></span>Print() <span class="overload">[2/2]</span></h2>
+<a id="a161674f236b1594b29724fa54dfec73a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a161674f236b1594b29724fa54dfec73a">&#9670;&nbsp;</a></span>Print() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1498,12 +1498,12 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Prints this physical quantity as a string. This physical quantity's value is expressed in the given unit of measure. </p>
 
-<p class="definition">Definition at line <a class="el" href="DimensionalVector_8hpp_source.html#l00098">98</a> of file <a class="el" href="DimensionalVector_8hpp_source.html">DimensionalVector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="DimensionalVector_8hpp_source.html#l00096">96</a> of file <a class="el" href="DimensionalVector_8hpp_source.html">DimensionalVector.hpp</a>.</p>
 
 </div>
 </div>
-<a id="a9f539e9b49ea2af8fe9f86156337baa9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9f539e9b49ea2af8fe9f86156337baa9">&#9670;&nbsp;</a></span>SetValue()</h2>
+<a id="a1cc707c5a1acd9c04fc94cb92fbfc947"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1cc707c5a1acd9c04fc94cb92fbfc947">&#9670;&nbsp;</a></span>SetValue()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1528,12 +1528,12 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Sets the value of this physical quantity expressed in its standard unit of measure to the given value. </p>
 
-<p class="definition">Definition at line <a class="el" href="DimensionalVector_8hpp_source.html#l00086">86</a> of file <a class="el" href="DimensionalVector_8hpp_source.html">DimensionalVector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="DimensionalVector_8hpp_source.html#l00084">84</a> of file <a class="el" href="DimensionalVector_8hpp_source.html">DimensionalVector.hpp</a>.</p>
 
 </div>
 </div>
-<a id="a42f17b902d44a4aa2541054c45d7cea9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a42f17b902d44a4aa2541054c45d7cea9">&#9670;&nbsp;</a></span>StaticValue()</h2>
+<a id="a0f2648107d5eecff332ae404a51b4e45"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0f2648107d5eecff332ae404a51b4e45">&#9670;&nbsp;</a></span>StaticValue()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1557,12 +1557,12 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Value of this physical quantity expressed in a given unit of measure. This method can be evaluated statically at compile-time. </p>
 
-<p class="definition">Definition at line <a class="el" href="DimensionalVector_8hpp_source.html#l00074">74</a> of file <a class="el" href="DimensionalVector_8hpp_source.html">DimensionalVector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="DimensionalVector_8hpp_source.html#l00072">72</a> of file <a class="el" href="DimensionalVector_8hpp_source.html">DimensionalVector.hpp</a>.</p>
 
 </div>
 </div>
-<a id="a658f3c466e1baa3d18600a1d3288833a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a658f3c466e1baa3d18600a1d3288833a">&#9670;&nbsp;</a></span>Unit()</h2>
+<a id="a785257c294d0960a4e9b6a6d526c7c72"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a785257c294d0960a4e9b6a6d526c7c72">&#9670;&nbsp;</a></span>Unit()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1590,8 +1590,8 @@ template&lt;typename Number  = double&gt; </div>
 
 </div>
 </div>
-<a id="a687ccfb2d639c3a51dd0732bb7bf3523"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a687ccfb2d639c3a51dd0732bb7bf3523">&#9670;&nbsp;</a></span>Value() <span class="overload">[1/2]</span></h2>
+<a id="aacc83ea96e5d7da6f42077da29f390f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aacc83ea96e5d7da6f42077da29f390f0">&#9670;&nbsp;</a></span>Value() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1619,8 +1619,8 @@ template&lt;typename Number  = double&gt; </div>
 
 </div>
 </div>
-<a id="a88cfe87f901ae98efb5ca293d9ef7a41"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a88cfe87f901ae98efb5ca293d9ef7a41">&#9670;&nbsp;</a></span>Value() <span class="overload">[2/2]</span></h2>
+<a id="a32cf3be7722793dd220120aff4a003a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a32cf3be7722793dd220120aff4a003a5">&#9670;&nbsp;</a></span>Value() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1649,19 +1649,19 @@ template&lt;typename Number  = double&gt; </div>
 
 </div>
 </div>
-<a id="aaeb17a330597d8409d316a3b4e46c183"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaeb17a330597d8409d316a3b4e46c183">&#9670;&nbsp;</a></span>x()</h2>
+<a id="a401a0df0d0a2a7f59584fe7f8bcbd162"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a401a0df0d0a2a7f59584fe7f8bcbd162">&#9670;&nbsp;</a></span>x()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt;Number&gt; <a class="el" href="classPhQ_1_1Traction.html">PhQ::Traction</a>&lt; Number &gt;::x </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt;NumericType&gt; <a class="el" href="classPhQ_1_1Traction.html">PhQ::Traction</a>&lt; NumericType &gt;::x </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -1676,16 +1676,16 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the x Cartesian component of this traction vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="Traction_8hpp_source.html#l00148">148</a> of file <a class="el" href="Traction_8hpp_source.html">Traction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Traction_8hpp_source.html#l00149">149</a> of file <a class="el" href="Traction_8hpp_source.html">Traction.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Pressure, double &gt;::value</a>, and <a class="el" href="Vector_8hpp_source.html#l00138">PhQ::Vector&lt; Number &gt;::x()</a>.</p>
+<p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00212">PhQ::DimensionalVector&lt; Unit::Pressure, double &gt;::value</a>, and <a class="el" href="Vector_8hpp_source.html#l00139">PhQ::Vector&lt; NumericType &gt;::x()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="Traction_8hpp_source.html#l00126">PhQ::Traction&lt; Number &gt;::Create()</a>, and <a class="el" href="Traction_8hpp_source.html#l00068">PhQ::Traction&lt; Number &gt;::Traction()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="Traction_8hpp_source.html#l00126">PhQ::Traction&lt; NumericType &gt;::Create()</a>, and <a class="el" href="Traction_8hpp_source.html#l00068">PhQ::Traction&lt; NumericType &gt;::Traction()</a>.</p>
 
 </div>
 </div>
-<a id="a74188a4d05d78530db5b7f0f1437d2a6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a74188a4d05d78530db5b7f0f1437d2a6">&#9670;&nbsp;</a></span>XML() <span class="overload">[1/2]</span></h2>
+<a id="a95514c6cdff78a7d6efa2992c9ae7723"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a95514c6cdff78a7d6efa2992c9ae7723">&#9670;&nbsp;</a></span>XML() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1709,12 +1709,12 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Serializes this physical quantity as an XML message. This physical quantity's value is expressed in its standard unit of measure. </p>
 
-<p class="definition">Definition at line <a class="el" href="DimensionalVector_8hpp_source.html#l00124">124</a> of file <a class="el" href="DimensionalVector_8hpp_source.html">DimensionalVector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="DimensionalVector_8hpp_source.html#l00122">122</a> of file <a class="el" href="DimensionalVector_8hpp_source.html">DimensionalVector.hpp</a>.</p>
 
 </div>
 </div>
-<a id="a1e0680b81c20acaf484851abdfbb14a3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1e0680b81c20acaf484851abdfbb14a3">&#9670;&nbsp;</a></span>XML() <span class="overload">[2/2]</span></h2>
+<a id="a57533a8e85cf1347894f50e474bd216a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a57533a8e85cf1347894f50e474bd216a">&#9670;&nbsp;</a></span>XML() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1739,23 +1739,23 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Serializes this physical quantity as an XML message. This physical quantity's value is expressed in the given unit of measure. </p>
 
-<p class="definition">Definition at line <a class="el" href="DimensionalVector_8hpp_source.html#l00134">134</a> of file <a class="el" href="DimensionalVector_8hpp_source.html">DimensionalVector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="DimensionalVector_8hpp_source.html#l00132">132</a> of file <a class="el" href="DimensionalVector_8hpp_source.html">DimensionalVector.hpp</a>.</p>
 
 </div>
 </div>
-<a id="a7b1031831ee49b9ebb0352fd6fa8fe80"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7b1031831ee49b9ebb0352fd6fa8fe80">&#9670;&nbsp;</a></span>y()</h2>
+<a id="a126c5607657d082276a8ca55bc421dc8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a126c5607657d082276a8ca55bc421dc8">&#9670;&nbsp;</a></span>y()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt;Number&gt; <a class="el" href="classPhQ_1_1Traction.html">PhQ::Traction</a>&lt; Number &gt;::y </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt;NumericType&gt; <a class="el" href="classPhQ_1_1Traction.html">PhQ::Traction</a>&lt; NumericType &gt;::y </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -1770,16 +1770,16 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the y Cartesian component of this traction vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="Traction_8hpp_source.html#l00153">153</a> of file <a class="el" href="Traction_8hpp_source.html">Traction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Traction_8hpp_source.html#l00154">154</a> of file <a class="el" href="Traction_8hpp_source.html">Traction.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Pressure, double &gt;::value</a>, and <a class="el" href="Vector_8hpp_source.html#l00143">PhQ::Vector&lt; Number &gt;::y()</a>.</p>
+<p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00212">PhQ::DimensionalVector&lt; Unit::Pressure, double &gt;::value</a>, and <a class="el" href="Vector_8hpp_source.html#l00144">PhQ::Vector&lt; NumericType &gt;::y()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="Traction_8hpp_source.html#l00126">PhQ::Traction&lt; Number &gt;::Create()</a>, and <a class="el" href="Traction_8hpp_source.html#l00068">PhQ::Traction&lt; Number &gt;::Traction()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="Traction_8hpp_source.html#l00126">PhQ::Traction&lt; NumericType &gt;::Create()</a>, and <a class="el" href="Traction_8hpp_source.html#l00068">PhQ::Traction&lt; NumericType &gt;::Traction()</a>.</p>
 
 </div>
 </div>
-<a id="a5639f8c37c3d4f3476be0dc19f1f6ed2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5639f8c37c3d4f3476be0dc19f1f6ed2">&#9670;&nbsp;</a></span>YAML() <span class="overload">[1/2]</span></h2>
+<a id="afe459ab50ec84973ca56560963adb7cd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afe459ab50ec84973ca56560963adb7cd">&#9670;&nbsp;</a></span>YAML() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1803,12 +1803,12 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Serializes this physical quantity as a YAML message. This physical quantity's value is expressed in its standard unit of measure. </p>
 
-<p class="definition">Definition at line <a class="el" href="DimensionalVector_8hpp_source.html#l00144">144</a> of file <a class="el" href="DimensionalVector_8hpp_source.html">DimensionalVector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="DimensionalVector_8hpp_source.html#l00142">142</a> of file <a class="el" href="DimensionalVector_8hpp_source.html">DimensionalVector.hpp</a>.</p>
 
 </div>
 </div>
-<a id="a8dcec4aea59e5fdc903025414122ccb1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8dcec4aea59e5fdc903025414122ccb1">&#9670;&nbsp;</a></span>YAML() <span class="overload">[2/2]</span></h2>
+<a id="a34f60a49ea5fd0bded1f6e0a0f81f4c8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a34f60a49ea5fd0bded1f6e0a0f81f4c8">&#9670;&nbsp;</a></span>YAML() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1833,23 +1833,23 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Serializes this physical quantity as a YAML message. This physical quantity's value is expressed in the given unit of measure. </p>
 
-<p class="definition">Definition at line <a class="el" href="DimensionalVector_8hpp_source.html#l00154">154</a> of file <a class="el" href="DimensionalVector_8hpp_source.html">DimensionalVector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="DimensionalVector_8hpp_source.html#l00152">152</a> of file <a class="el" href="DimensionalVector_8hpp_source.html">DimensionalVector.hpp</a>.</p>
 
 </div>
 </div>
-<a id="a0c4093d9c825181d4f6a2b37c7e32c6e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0c4093d9c825181d4f6a2b37c7e32c6e">&#9670;&nbsp;</a></span>z()</h2>
+<a id="ab886c5209be37bc3d4d24f2b4f7698f6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab886c5209be37bc3d4d24f2b4f7698f6">&#9670;&nbsp;</a></span>z()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt;Number&gt; <a class="el" href="classPhQ_1_1Traction.html">PhQ::Traction</a>&lt; Number &gt;::z </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt;NumericType&gt; <a class="el" href="classPhQ_1_1Traction.html">PhQ::Traction</a>&lt; NumericType &gt;::z </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -1864,27 +1864,27 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the z Cartesian component of this traction vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="Traction_8hpp_source.html#l00158">158</a> of file <a class="el" href="Traction_8hpp_source.html">Traction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Traction_8hpp_source.html#l00159">159</a> of file <a class="el" href="Traction_8hpp_source.html">Traction.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00214">PhQ::DimensionalVector&lt; Unit::Pressure, double &gt;::value</a>, and <a class="el" href="Vector_8hpp_source.html#l00148">PhQ::Vector&lt; Number &gt;::z()</a>.</p>
+<p class="reference">References <a class="el" href="DimensionalVector_8hpp_source.html#l00212">PhQ::DimensionalVector&lt; Unit::Pressure, double &gt;::value</a>, and <a class="el" href="Vector_8hpp_source.html#l00149">PhQ::Vector&lt; NumericType &gt;::z()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="Traction_8hpp_source.html#l00126">PhQ::Traction&lt; Number &gt;::Create()</a>, and <a class="el" href="Traction_8hpp_source.html#l00068">PhQ::Traction&lt; Number &gt;::Traction()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="Traction_8hpp_source.html#l00126">PhQ::Traction&lt; NumericType &gt;::Create()</a>, and <a class="el" href="Traction_8hpp_source.html#l00068">PhQ::Traction&lt; NumericType &gt;::Traction()</a>.</p>
 
 </div>
 </div>
-<a id="a9c9900d17f8ea6ede9440d248a2ef8f5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9c9900d17f8ea6ede9440d248a2ef8f5">&#9670;&nbsp;</a></span>Zero()</h2>
+<a id="ab3bdb8d753b92822aea7c9ad32ba19af"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab3bdb8d753b92822aea7c9ad32ba19af">&#9670;&nbsp;</a></span>Zero()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static constexpr <a class="el" href="classPhQ_1_1Traction.html">Traction</a>&lt;Number&gt; <a class="el" href="classPhQ_1_1Traction.html">PhQ::Traction</a>&lt; Number &gt;::Zero </td>
+          <td class="memname">static constexpr <a class="el" href="classPhQ_1_1Traction.html">Traction</a>&lt;NumericType&gt; <a class="el" href="classPhQ_1_1Traction.html">PhQ::Traction</a>&lt; NumericType &gt;::Zero </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -1901,13 +1901,13 @@ template&lt;typename Number  = double&gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="Traction_8hpp_source.html#l00119">119</a> of file <a class="el" href="Traction_8hpp_source.html">Traction.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00125">PhQ::Vector&lt; Number &gt;::Zero()</a>.</p>
+<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00126">PhQ::Vector&lt; NumericType &gt;::Zero()</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a78b67be16ddde9f38cc2b7a5c723b5cc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a78b67be16ddde9f38cc2b7a5c723b5cc">&#9670;&nbsp;</a></span>value</h2>
+<a id="a91b0834f719f542e946de2b3a87dc96d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a91b0834f719f542e946de2b3a87dc96d">&#9670;&nbsp;</a></span>value</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1928,7 +1928,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Value of this physical quantity expressed in its standard unit of measure. </p>
 
-<p class="definition">Definition at line <a class="el" href="DimensionalVector_8hpp_source.html#l00214">214</a> of file <a class="el" href="DimensionalVector_8hpp_source.html">DimensionalVector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="DimensionalVector_8hpp_source.html#l00212">212</a> of file <a class="el" href="DimensionalVector_8hpp_source.html">DimensionalVector.hpp</a>.</p>
 
 </div>
 </div>

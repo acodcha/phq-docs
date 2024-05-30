@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=9" />
     <meta name="generator" content="Doxygen 1.9.1" />
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=4.0" />
-    <title>Physical Quantities (PhQ): PhQ::ScalarTraction&lt; Number &gt; Class Template Reference</title>
+    <title>Physical Quantities (PhQ): PhQ::ScalarTraction&lt; NumericType &gt; Class Template Reference</title>
     <link href="tabs.css" rel="stylesheet" type="text/css" />
     <script type="text/javascript" src="jquery.js"></script>
     <script type="text/javascript" src="dynsections.js"></script>
@@ -111,7 +111,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search','.html');
 <a href="#friends">Friends</a> &#124;
 <a href="classPhQ_1_1ScalarTraction-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">PhQ::ScalarTraction&lt; Number &gt; Class Template Reference</div>  </div>
+<div class="title">PhQ::ScalarTraction&lt; NumericType &gt; Class Template Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
@@ -122,160 +122,160 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search','.html');
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a42e1b957f10518aadfa63de4aead41b6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1ScalarTraction.html#a42e1b957f10518aadfa63de4aead41b6">ScalarTraction</a> ()=default</td></tr>
-<tr class="memdesc:a42e1b957f10518aadfa63de4aead41b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor. Constructs a scalar traction with an uninitialized value.  <a href="classPhQ_1_1ScalarTraction.html#a42e1b957f10518aadfa63de4aead41b6">More...</a><br /></td></tr>
-<tr class="separator:a42e1b957f10518aadfa63de4aead41b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a60b7dce925423e3efcd80d8ca89764cc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1ScalarTraction.html#a60b7dce925423e3efcd80d8ca89764cc">ScalarTraction</a> (const Number <a class="el" href="classPhQ_1_1DimensionalScalar.html#a076d75036473812cf5583dc12b30aac2">value</a>, const <a class="el" href="namespacePhQ_1_1Unit.html#abcbda7b992e98486ca609a164ae78a24">Unit::Pressure</a> unit)</td></tr>
-<tr class="memdesc:a60b7dce925423e3efcd80d8ca89764cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a scalar traction with a given value expressed in a given pressure unit.  <a href="classPhQ_1_1ScalarTraction.html#a60b7dce925423e3efcd80d8ca89764cc">More...</a><br /></td></tr>
-<tr class="separator:a60b7dce925423e3efcd80d8ca89764cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeb8903cc556cdb39696b38edccf5192a"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1ScalarTraction.html#aeb8903cc556cdb39696b38edccf5192a">ScalarTraction</a> (const <a class="el" href="classPhQ_1_1ScalarForce.html">ScalarForce</a>&lt; Number &gt; &amp;scalar_force, const <a class="el" href="classPhQ_1_1Area.html">Area</a>&lt; Number &gt; &amp;area)</td></tr>
-<tr class="memdesc:aeb8903cc556cdb39696b38edccf5192a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a scalar traction from a given scalar force magnitude and area using the definition of traction.  <a href="classPhQ_1_1ScalarTraction.html#aeb8903cc556cdb39696b38edccf5192a">More...</a><br /></td></tr>
-<tr class="separator:aeb8903cc556cdb39696b38edccf5192a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afabf90dfdcb8ea66f75657409c41cf20"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1ScalarTraction.html#afabf90dfdcb8ea66f75657409c41cf20">~ScalarTraction</a> () noexcept=default</td></tr>
-<tr class="memdesc:afabf90dfdcb8ea66f75657409c41cf20"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor. Destroys this scalar traction.  <a href="classPhQ_1_1ScalarTraction.html#afabf90dfdcb8ea66f75657409c41cf20">More...</a><br /></td></tr>
-<tr class="separator:afabf90dfdcb8ea66f75657409c41cf20"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4ec1cb54140de2fecb81dfaa6dce3de0"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1ScalarTraction.html#a4ec1cb54140de2fecb81dfaa6dce3de0">ScalarTraction</a> (const <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt; Number &gt; &amp;other)=default</td></tr>
-<tr class="memdesc:a4ec1cb54140de2fecb81dfaa6dce3de0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy constructor. Constructs a scalar traction by copying another one.  <a href="classPhQ_1_1ScalarTraction.html#a4ec1cb54140de2fecb81dfaa6dce3de0">More...</a><br /></td></tr>
-<tr class="separator:a4ec1cb54140de2fecb81dfaa6dce3de0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aee4e9b3a6b1594ecc559ef428da0af7f"><td class="memTemplParams" colspan="2">template&lt;typename OtherNumber &gt; </td></tr>
-<tr class="memitem:aee4e9b3a6b1594ecc559ef428da0af7f"><td class="memTemplItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classPhQ_1_1ScalarTraction.html#aee4e9b3a6b1594ecc559ef428da0af7f">ScalarTraction</a> (const <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt; OtherNumber &gt; &amp;other)</td></tr>
-<tr class="memdesc:aee4e9b3a6b1594ecc559ef428da0af7f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy constructor. Constructs a scalar traction by copying another one.  <a href="classPhQ_1_1ScalarTraction.html#aee4e9b3a6b1594ecc559ef428da0af7f">More...</a><br /></td></tr>
-<tr class="separator:aee4e9b3a6b1594ecc559ef428da0af7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a849e6a35416b38f86f5f893fdca20785"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1ScalarTraction.html#a849e6a35416b38f86f5f893fdca20785">ScalarTraction</a> (<a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt; Number &gt; &amp;&amp;other) noexcept=default</td></tr>
-<tr class="memdesc:a849e6a35416b38f86f5f893fdca20785"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move constructor. Constructs a scalar traction by moving another one.  <a href="classPhQ_1_1ScalarTraction.html#a849e6a35416b38f86f5f893fdca20785">More...</a><br /></td></tr>
-<tr class="separator:a849e6a35416b38f86f5f893fdca20785"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeb8b968dea2fef6e4178842ee5ce70fb"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt; Number &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1ScalarTraction.html#aeb8b968dea2fef6e4178842ee5ce70fb">operator=</a> (const <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt; Number &gt; &amp;other)=default</td></tr>
-<tr class="memdesc:aeb8b968dea2fef6e4178842ee5ce70fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy assignment operator. Assigns this scalar traction by copying another one.  <a href="classPhQ_1_1ScalarTraction.html#aeb8b968dea2fef6e4178842ee5ce70fb">More...</a><br /></td></tr>
-<tr class="separator:aeb8b968dea2fef6e4178842ee5ce70fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4dda4d19171b243b1405b5d9645385b2"><td class="memTemplParams" colspan="2">template&lt;typename OtherNumber &gt; </td></tr>
-<tr class="memitem:a4dda4d19171b243b1405b5d9645385b2"><td class="memTemplItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt; Number &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classPhQ_1_1ScalarTraction.html#a4dda4d19171b243b1405b5d9645385b2">operator=</a> (const <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt; OtherNumber &gt; &amp;other)</td></tr>
-<tr class="memdesc:a4dda4d19171b243b1405b5d9645385b2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy assignment operator. Assigns this scalar traction by copying another one.  <a href="classPhQ_1_1ScalarTraction.html#a4dda4d19171b243b1405b5d9645385b2">More...</a><br /></td></tr>
-<tr class="separator:a4dda4d19171b243b1405b5d9645385b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2a979c8a3ba05c4fcf75abf48c2b0f91"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt; Number &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1ScalarTraction.html#a2a979c8a3ba05c4fcf75abf48c2b0f91">operator=</a> (<a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt; Number &gt; &amp;&amp;other) noexcept=default</td></tr>
-<tr class="memdesc:a2a979c8a3ba05c4fcf75abf48c2b0f91"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move assignment operator. Assigns this scalar traction by moving another one.  <a href="classPhQ_1_1ScalarTraction.html#a2a979c8a3ba05c4fcf75abf48c2b0f91">More...</a><br /></td></tr>
-<tr class="separator:a2a979c8a3ba05c4fcf75abf48c2b0f91"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a82ef8bfe38d94c1eca7a9228dc8944c2"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt; Number &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1ScalarTraction.html#a82ef8bfe38d94c1eca7a9228dc8944c2">operator+</a> (const <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt; Number &gt; &amp;other) const</td></tr>
-<tr class="separator:a82ef8bfe38d94c1eca7a9228dc8944c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7c2e9b34bb2879eb053b85db24c9f2a1"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt; Number &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1ScalarTraction.html#a7c2e9b34bb2879eb053b85db24c9f2a1">operator-</a> (const <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt; Number &gt; &amp;other) const</td></tr>
-<tr class="separator:a7c2e9b34bb2879eb053b85db24c9f2a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af1b5d13171b95950f044faae41b55756"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt; Number &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1ScalarTraction.html#af1b5d13171b95950f044faae41b55756">operator*</a> (const Number number) const</td></tr>
-<tr class="separator:af1b5d13171b95950f044faae41b55756"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a16096d00b88eb4655eac7fa711f5e1b8"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1ScalarForce.html">ScalarForce</a>&lt; Number &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1ScalarTraction.html#a16096d00b88eb4655eac7fa711f5e1b8">operator*</a> (const <a class="el" href="classPhQ_1_1Area.html">Area</a>&lt; Number &gt; &amp;area) const</td></tr>
-<tr class="separator:a16096d00b88eb4655eac7fa711f5e1b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0fa9978b51ec167d5ea7311a09e3fb25"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1PlanarTraction.html">PlanarTraction</a>&lt; Number &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1ScalarTraction.html#a0fa9978b51ec167d5ea7311a09e3fb25">operator*</a> (const <a class="el" href="classPhQ_1_1PlanarDirection.html">PlanarDirection</a>&lt; Number &gt; &amp;planar_direction) const</td></tr>
-<tr class="separator:a0fa9978b51ec167d5ea7311a09e3fb25"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab44ce171d09a07440a8652af269428ee"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1Traction.html">Traction</a>&lt; Number &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1ScalarTraction.html#ab44ce171d09a07440a8652af269428ee">operator*</a> (const <a class="el" href="classPhQ_1_1Direction.html">Direction</a>&lt; Number &gt; &amp;direction) const</td></tr>
-<tr class="separator:ab44ce171d09a07440a8652af269428ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a05e36ac1e738ef0a6cf82778beb80ccd"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt; Number &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1ScalarTraction.html#a05e36ac1e738ef0a6cf82778beb80ccd">operator/</a> (const Number number) const</td></tr>
-<tr class="separator:a05e36ac1e738ef0a6cf82778beb80ccd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaf7cc0980622c2f7d24bc814ca000e6a"><td class="memItemLeft" align="right" valign="top">constexpr Number&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1ScalarTraction.html#aaf7cc0980622c2f7d24bc814ca000e6a">operator/</a> (const <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt; Number &gt; &amp;other) const noexcept</td></tr>
-<tr class="separator:aaf7cc0980622c2f7d24bc814ca000e6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6778a13f156ffb100f1a87a91a3b2027"><td class="memItemLeft" align="right" valign="top">constexpr void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1ScalarTraction.html#a6778a13f156ffb100f1a87a91a3b2027">operator+=</a> (const <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt; Number &gt; &amp;other) noexcept</td></tr>
-<tr class="separator:a6778a13f156ffb100f1a87a91a3b2027"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1a357d34bfbd2ad538762ccdeaa98c1b"><td class="memItemLeft" align="right" valign="top">constexpr void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1ScalarTraction.html#a1a357d34bfbd2ad538762ccdeaa98c1b">operator-=</a> (const <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt; Number &gt; &amp;other) noexcept</td></tr>
-<tr class="separator:a1a357d34bfbd2ad538762ccdeaa98c1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2db3fd35fbd6f48c99884a55934b891d"><td class="memItemLeft" align="right" valign="top">constexpr void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1ScalarTraction.html#a2db3fd35fbd6f48c99884a55934b891d">operator*=</a> (const Number number) noexcept</td></tr>
-<tr class="separator:a2db3fd35fbd6f48c99884a55934b891d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a57b7ae78cea5d5f70b0842168e9abb52"><td class="memItemLeft" align="right" valign="top">constexpr void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1ScalarTraction.html#a57b7ae78cea5d5f70b0842168e9abb52">operator/=</a> (const Number number) noexcept</td></tr>
-<tr class="separator:a57b7ae78cea5d5f70b0842168e9abb52"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8068bf6cddee8d6cb3f8aa1dc9216170"><td class="memItemLeft" align="right" valign="top">constexpr double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalScalar.html#a8068bf6cddee8d6cb3f8aa1dc9216170">Value</a> () const noexcept</td></tr>
-<tr class="memdesc:a8068bf6cddee8d6cb3f8aa1dc9216170"><td class="mdescLeft">&#160;</td><td class="mdescRight">Value of this physical quantity expressed in its standard unit of measure.  <a href="classPhQ_1_1DimensionalScalar.html#a8068bf6cddee8d6cb3f8aa1dc9216170">More...</a><br /></td></tr>
-<tr class="separator:a8068bf6cddee8d6cb3f8aa1dc9216170"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4ee07be63b44992cae508b16df54c004"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalScalar.html#a4ee07be63b44992cae508b16df54c004">Value</a> (const <a class="el" href="namespacePhQ_1_1Unit.html#abcbda7b992e98486ca609a164ae78a24">Unit::Pressure</a> unit) const</td></tr>
-<tr class="memdesc:a4ee07be63b44992cae508b16df54c004"><td class="mdescLeft">&#160;</td><td class="mdescRight">Value of this physical quantity expressed in a given unit of measure.  <a href="classPhQ_1_1DimensionalScalar.html#a4ee07be63b44992cae508b16df54c004">More...</a><br /></td></tr>
-<tr class="separator:a4ee07be63b44992cae508b16df54c004"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aad095a483424ef55a6ec8031bc285282"><td class="memItemLeft" align="right" valign="top">constexpr double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalScalar.html#aad095a483424ef55a6ec8031bc285282">StaticValue</a> () const</td></tr>
-<tr class="memdesc:aad095a483424ef55a6ec8031bc285282"><td class="mdescLeft">&#160;</td><td class="mdescRight">Value of this physical quantity expressed in a given unit of measure. This method can be evaluated statically at compile-time.  <a href="classPhQ_1_1DimensionalScalar.html#aad095a483424ef55a6ec8031bc285282">More...</a><br /></td></tr>
-<tr class="separator:aad095a483424ef55a6ec8031bc285282"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab23e71494593d494de7e970896c6e8be"><td class="memItemLeft" align="right" valign="top">constexpr double &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalScalar.html#ab23e71494593d494de7e970896c6e8be">MutableValue</a> () noexcept</td></tr>
-<tr class="memdesc:ab23e71494593d494de7e970896c6e8be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the value of this physical quantity expressed in its standard unit of measure as a mutable value.  <a href="classPhQ_1_1DimensionalScalar.html#ab23e71494593d494de7e970896c6e8be">More...</a><br /></td></tr>
-<tr class="separator:ab23e71494593d494de7e970896c6e8be"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0e3a68ee9c8b42e8fe942349e588a4ac"><td class="memItemLeft" align="right" valign="top">constexpr void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalScalar.html#a0e3a68ee9c8b42e8fe942349e588a4ac">SetValue</a> (const double <a class="el" href="classPhQ_1_1DimensionalScalar.html#a076d75036473812cf5583dc12b30aac2">value</a>) noexcept</td></tr>
-<tr class="memdesc:a0e3a68ee9c8b42e8fe942349e588a4ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the value of this physical quantity expressed in its standard unit of measure to the given value.  <a href="classPhQ_1_1DimensionalScalar.html#a0e3a68ee9c8b42e8fe942349e588a4ac">More...</a><br /></td></tr>
-<tr class="separator:a0e3a68ee9c8b42e8fe942349e588a4ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaa28f5bd02ab3373b12d3500cbc05845"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalScalar.html#aaa28f5bd02ab3373b12d3500cbc05845">Print</a> () const</td></tr>
-<tr class="memdesc:aaa28f5bd02ab3373b12d3500cbc05845"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints this physical quantity as a string. This physical quantity's value is expressed in its standard unit of measure.  <a href="classPhQ_1_1DimensionalScalar.html#aaa28f5bd02ab3373b12d3500cbc05845">More...</a><br /></td></tr>
-<tr class="separator:aaa28f5bd02ab3373b12d3500cbc05845"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae58f817c7cfadb04c5c7c821a94df0b7"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalScalar.html#ae58f817c7cfadb04c5c7c821a94df0b7">Print</a> (const <a class="el" href="namespacePhQ_1_1Unit.html#abcbda7b992e98486ca609a164ae78a24">Unit::Pressure</a> unit) const</td></tr>
-<tr class="memdesc:ae58f817c7cfadb04c5c7c821a94df0b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints this physical quantity as a string. This physical quantity's value is expressed in the given unit of measure.  <a href="classPhQ_1_1DimensionalScalar.html#ae58f817c7cfadb04c5c7c821a94df0b7">More...</a><br /></td></tr>
-<tr class="separator:ae58f817c7cfadb04c5c7c821a94df0b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a05cd733dcabe35166c4ec6ce476f46ab"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalScalar.html#a05cd733dcabe35166c4ec6ce476f46ab">JSON</a> () const</td></tr>
-<tr class="memdesc:a05cd733dcabe35166c4ec6ce476f46ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serializes this physical quantity as a JSON message. This physical quantity's value is expressed in its standard unit of measure.  <a href="classPhQ_1_1DimensionalScalar.html#a05cd733dcabe35166c4ec6ce476f46ab">More...</a><br /></td></tr>
-<tr class="separator:a05cd733dcabe35166c4ec6ce476f46ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab0b9a823fbcc260db150dc1454e595ad"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalScalar.html#ab0b9a823fbcc260db150dc1454e595ad">JSON</a> (const <a class="el" href="namespacePhQ_1_1Unit.html#abcbda7b992e98486ca609a164ae78a24">Unit::Pressure</a> unit) const</td></tr>
-<tr class="memdesc:ab0b9a823fbcc260db150dc1454e595ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serializes this physical quantity as a JSON message. This physical quantity's value is expressed in the given unit of measure.  <a href="classPhQ_1_1DimensionalScalar.html#ab0b9a823fbcc260db150dc1454e595ad">More...</a><br /></td></tr>
-<tr class="separator:ab0b9a823fbcc260db150dc1454e595ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae7e0d5f7bd52789b77ff20842cba38d8"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalScalar.html#ae7e0d5f7bd52789b77ff20842cba38d8">XML</a> () const</td></tr>
-<tr class="memdesc:ae7e0d5f7bd52789b77ff20842cba38d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serializes this physical quantity as an XML message. This physical quantity's value is expressed in its standard unit of measure.  <a href="classPhQ_1_1DimensionalScalar.html#ae7e0d5f7bd52789b77ff20842cba38d8">More...</a><br /></td></tr>
-<tr class="separator:ae7e0d5f7bd52789b77ff20842cba38d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abfe5f218e10bca3eb3f52e114beee2c1"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalScalar.html#abfe5f218e10bca3eb3f52e114beee2c1">XML</a> (const <a class="el" href="namespacePhQ_1_1Unit.html#abcbda7b992e98486ca609a164ae78a24">Unit::Pressure</a> unit) const</td></tr>
-<tr class="memdesc:abfe5f218e10bca3eb3f52e114beee2c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serializes this physical quantity as an XML message. This physical quantity's value is expressed in the given unit of measure.  <a href="classPhQ_1_1DimensionalScalar.html#abfe5f218e10bca3eb3f52e114beee2c1">More...</a><br /></td></tr>
-<tr class="separator:abfe5f218e10bca3eb3f52e114beee2c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2082ac17d425476688192460d79803cb"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalScalar.html#a2082ac17d425476688192460d79803cb">YAML</a> () const</td></tr>
-<tr class="memdesc:a2082ac17d425476688192460d79803cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serializes this physical quantity as a YAML message. This physical quantity's value is expressed in its standard unit of measure.  <a href="classPhQ_1_1DimensionalScalar.html#a2082ac17d425476688192460d79803cb">More...</a><br /></td></tr>
-<tr class="separator:a2082ac17d425476688192460d79803cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aacdcb91b676e4fdb5aa562e5ba58ca1d"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalScalar.html#aacdcb91b676e4fdb5aa562e5ba58ca1d">YAML</a> (const <a class="el" href="namespacePhQ_1_1Unit.html#abcbda7b992e98486ca609a164ae78a24">Unit::Pressure</a> unit) const</td></tr>
-<tr class="memdesc:aacdcb91b676e4fdb5aa562e5ba58ca1d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serializes this physical quantity as a YAML message. This physical quantity's value is expressed in the given unit of measure.  <a href="classPhQ_1_1DimensionalScalar.html#aacdcb91b676e4fdb5aa562e5ba58ca1d">More...</a><br /></td></tr>
-<tr class="separator:aacdcb91b676e4fdb5aa562e5ba58ca1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa335460f965cfd4edc5e4fccd827c57e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1ScalarTraction.html#aa335460f965cfd4edc5e4fccd827c57e">ScalarTraction</a> ()=default</td></tr>
+<tr class="memdesc:aa335460f965cfd4edc5e4fccd827c57e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor. Constructs a scalar traction with an uninitialized value.  <a href="classPhQ_1_1ScalarTraction.html#aa335460f965cfd4edc5e4fccd827c57e">More...</a><br /></td></tr>
+<tr class="separator:aa335460f965cfd4edc5e4fccd827c57e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a72a0a9933ec75b96fb3187c7657ae9e5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1ScalarTraction.html#a72a0a9933ec75b96fb3187c7657ae9e5">ScalarTraction</a> (const NumericType <a class="el" href="classPhQ_1_1DimensionalScalar.html#a34ca46c6f38afa3d34cba2eda00092fe">value</a>, const <a class="el" href="namespacePhQ_1_1Unit.html#abcbda7b992e98486ca609a164ae78a24">Unit::Pressure</a> unit)</td></tr>
+<tr class="memdesc:a72a0a9933ec75b96fb3187c7657ae9e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a scalar traction with a given value expressed in a given pressure unit.  <a href="classPhQ_1_1ScalarTraction.html#a72a0a9933ec75b96fb3187c7657ae9e5">More...</a><br /></td></tr>
+<tr class="separator:a72a0a9933ec75b96fb3187c7657ae9e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af920095559e700985828142dacb38762"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1ScalarTraction.html#af920095559e700985828142dacb38762">ScalarTraction</a> (const <a class="el" href="classPhQ_1_1ScalarForce.html">ScalarForce</a>&lt; NumericType &gt; &amp;scalar_force, const <a class="el" href="classPhQ_1_1Area.html">Area</a>&lt; NumericType &gt; &amp;area)</td></tr>
+<tr class="memdesc:af920095559e700985828142dacb38762"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a scalar traction from a given scalar force magnitude and area using the definition of traction.  <a href="classPhQ_1_1ScalarTraction.html#af920095559e700985828142dacb38762">More...</a><br /></td></tr>
+<tr class="separator:af920095559e700985828142dacb38762"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66d760b8b6a1bd3a23077b360f730f22"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1ScalarTraction.html#a66d760b8b6a1bd3a23077b360f730f22">~ScalarTraction</a> () noexcept=default</td></tr>
+<tr class="memdesc:a66d760b8b6a1bd3a23077b360f730f22"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor. Destroys this scalar traction.  <a href="classPhQ_1_1ScalarTraction.html#a66d760b8b6a1bd3a23077b360f730f22">More...</a><br /></td></tr>
+<tr class="separator:a66d760b8b6a1bd3a23077b360f730f22"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aecc29512f295fe11eb18793badbaf8b4"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1ScalarTraction.html#aecc29512f295fe11eb18793badbaf8b4">ScalarTraction</a> (const <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt; NumericType &gt; &amp;other)=default</td></tr>
+<tr class="memdesc:aecc29512f295fe11eb18793badbaf8b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy constructor. Constructs a scalar traction by copying another one.  <a href="classPhQ_1_1ScalarTraction.html#aecc29512f295fe11eb18793badbaf8b4">More...</a><br /></td></tr>
+<tr class="separator:aecc29512f295fe11eb18793badbaf8b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac00b9b14bef065bf9c2f3f8358752593"><td class="memTemplParams" colspan="2">template&lt;typename OtherNumericType &gt; </td></tr>
+<tr class="memitem:ac00b9b14bef065bf9c2f3f8358752593"><td class="memTemplItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classPhQ_1_1ScalarTraction.html#ac00b9b14bef065bf9c2f3f8358752593">ScalarTraction</a> (const <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt; OtherNumericType &gt; &amp;other)</td></tr>
+<tr class="memdesc:ac00b9b14bef065bf9c2f3f8358752593"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy constructor. Constructs a scalar traction by copying another one.  <a href="classPhQ_1_1ScalarTraction.html#ac00b9b14bef065bf9c2f3f8358752593">More...</a><br /></td></tr>
+<tr class="separator:ac00b9b14bef065bf9c2f3f8358752593"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50b88c792f7610f6bbfd4b3aec9a3a20"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1ScalarTraction.html#a50b88c792f7610f6bbfd4b3aec9a3a20">ScalarTraction</a> (<a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt; NumericType &gt; &amp;&amp;other) noexcept=default</td></tr>
+<tr class="memdesc:a50b88c792f7610f6bbfd4b3aec9a3a20"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move constructor. Constructs a scalar traction by moving another one.  <a href="classPhQ_1_1ScalarTraction.html#a50b88c792f7610f6bbfd4b3aec9a3a20">More...</a><br /></td></tr>
+<tr class="separator:a50b88c792f7610f6bbfd4b3aec9a3a20"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae594e32a38ec28bb1fd1d15826d79cf7"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt; NumericType &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1ScalarTraction.html#ae594e32a38ec28bb1fd1d15826d79cf7">operator=</a> (const <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt; NumericType &gt; &amp;other)=default</td></tr>
+<tr class="memdesc:ae594e32a38ec28bb1fd1d15826d79cf7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy assignment operator. Assigns this scalar traction by copying another one.  <a href="classPhQ_1_1ScalarTraction.html#ae594e32a38ec28bb1fd1d15826d79cf7">More...</a><br /></td></tr>
+<tr class="separator:ae594e32a38ec28bb1fd1d15826d79cf7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaba31e82bbe42dc9c67d23e385864292"><td class="memTemplParams" colspan="2">template&lt;typename OtherNumericType &gt; </td></tr>
+<tr class="memitem:aaba31e82bbe42dc9c67d23e385864292"><td class="memTemplItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt; NumericType &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classPhQ_1_1ScalarTraction.html#aaba31e82bbe42dc9c67d23e385864292">operator=</a> (const <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt; OtherNumericType &gt; &amp;other)</td></tr>
+<tr class="memdesc:aaba31e82bbe42dc9c67d23e385864292"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy assignment operator. Assigns this scalar traction by copying another one.  <a href="classPhQ_1_1ScalarTraction.html#aaba31e82bbe42dc9c67d23e385864292">More...</a><br /></td></tr>
+<tr class="separator:aaba31e82bbe42dc9c67d23e385864292"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9263c312ab6660a92c96513fcfb06f6"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt; NumericType &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1ScalarTraction.html#af9263c312ab6660a92c96513fcfb06f6">operator=</a> (<a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt; NumericType &gt; &amp;&amp;other) noexcept=default</td></tr>
+<tr class="memdesc:af9263c312ab6660a92c96513fcfb06f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move assignment operator. Assigns this scalar traction by moving another one.  <a href="classPhQ_1_1ScalarTraction.html#af9263c312ab6660a92c96513fcfb06f6">More...</a><br /></td></tr>
+<tr class="separator:af9263c312ab6660a92c96513fcfb06f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b34db59a82eb066db0c8c2f9c5f87c5"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt; NumericType &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1ScalarTraction.html#a6b34db59a82eb066db0c8c2f9c5f87c5">operator+</a> (const <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt; NumericType &gt; &amp;other) const</td></tr>
+<tr class="separator:a6b34db59a82eb066db0c8c2f9c5f87c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a4531bb039d73e76c7ed4709e8d71f6"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt; NumericType &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1ScalarTraction.html#a8a4531bb039d73e76c7ed4709e8d71f6">operator-</a> (const <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt; NumericType &gt; &amp;other) const</td></tr>
+<tr class="separator:a8a4531bb039d73e76c7ed4709e8d71f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c9828ace8b65a146e1126ed68500dd8"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt; NumericType &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1ScalarTraction.html#a8c9828ace8b65a146e1126ed68500dd8">operator*</a> (const NumericType number) const</td></tr>
+<tr class="separator:a8c9828ace8b65a146e1126ed68500dd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3bfd705a6c5ba62aede95698790d51f"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1ScalarForce.html">ScalarForce</a>&lt; NumericType &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1ScalarTraction.html#ad3bfd705a6c5ba62aede95698790d51f">operator*</a> (const <a class="el" href="classPhQ_1_1Area.html">Area</a>&lt; NumericType &gt; &amp;area) const</td></tr>
+<tr class="separator:ad3bfd705a6c5ba62aede95698790d51f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8854828b4c747ae00f6c4659593de525"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1PlanarTraction.html">PlanarTraction</a>&lt; NumericType &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1ScalarTraction.html#a8854828b4c747ae00f6c4659593de525">operator*</a> (const <a class="el" href="classPhQ_1_1PlanarDirection.html">PlanarDirection</a>&lt; NumericType &gt; &amp;planar_direction) const</td></tr>
+<tr class="separator:a8854828b4c747ae00f6c4659593de525"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aadaeda41b832087f67a3ec6631d1b9d6"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1Traction.html">Traction</a>&lt; NumericType &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1ScalarTraction.html#aadaeda41b832087f67a3ec6631d1b9d6">operator*</a> (const <a class="el" href="classPhQ_1_1Direction.html">Direction</a>&lt; NumericType &gt; &amp;direction) const</td></tr>
+<tr class="separator:aadaeda41b832087f67a3ec6631d1b9d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c072968d592910273ad24cd4fff82c1"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt; NumericType &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1ScalarTraction.html#a2c072968d592910273ad24cd4fff82c1">operator/</a> (const NumericType number) const</td></tr>
+<tr class="separator:a2c072968d592910273ad24cd4fff82c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2370e1e3faf44c297e8e8d049afb4e81"><td class="memItemLeft" align="right" valign="top">constexpr NumericType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1ScalarTraction.html#a2370e1e3faf44c297e8e8d049afb4e81">operator/</a> (const <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt; NumericType &gt; &amp;other) const noexcept</td></tr>
+<tr class="separator:a2370e1e3faf44c297e8e8d049afb4e81"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81a57718b1dad1b54832a0356dc3de05"><td class="memItemLeft" align="right" valign="top">constexpr void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1ScalarTraction.html#a81a57718b1dad1b54832a0356dc3de05">operator+=</a> (const <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt; NumericType &gt; &amp;other) noexcept</td></tr>
+<tr class="separator:a81a57718b1dad1b54832a0356dc3de05"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad46b6626961b649ca6ebba88653dca20"><td class="memItemLeft" align="right" valign="top">constexpr void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1ScalarTraction.html#ad46b6626961b649ca6ebba88653dca20">operator-=</a> (const <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt; NumericType &gt; &amp;other) noexcept</td></tr>
+<tr class="separator:ad46b6626961b649ca6ebba88653dca20"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87de54ca0132742f76296e1505541ccb"><td class="memItemLeft" align="right" valign="top">constexpr void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1ScalarTraction.html#a87de54ca0132742f76296e1505541ccb">operator*=</a> (const NumericType number) noexcept</td></tr>
+<tr class="separator:a87de54ca0132742f76296e1505541ccb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aee4b771e5f587a58414afeeb013961f0"><td class="memItemLeft" align="right" valign="top">constexpr void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1ScalarTraction.html#aee4b771e5f587a58414afeeb013961f0">operator/=</a> (const NumericType number) noexcept</td></tr>
+<tr class="separator:aee4b771e5f587a58414afeeb013961f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa89c594ce9a870e7d509c39dfa1f996c"><td class="memItemLeft" align="right" valign="top">constexpr double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalScalar.html#aa89c594ce9a870e7d509c39dfa1f996c">Value</a> () const noexcept</td></tr>
+<tr class="memdesc:aa89c594ce9a870e7d509c39dfa1f996c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Value of this physical quantity expressed in its standard unit of measure.  <a href="classPhQ_1_1DimensionalScalar.html#aa89c594ce9a870e7d509c39dfa1f996c">More...</a><br /></td></tr>
+<tr class="separator:aa89c594ce9a870e7d509c39dfa1f996c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7295e6cce3097405dcaaba0c3c7ebc55"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalScalar.html#a7295e6cce3097405dcaaba0c3c7ebc55">Value</a> (const <a class="el" href="namespacePhQ_1_1Unit.html#abcbda7b992e98486ca609a164ae78a24">Unit::Pressure</a> unit) const</td></tr>
+<tr class="memdesc:a7295e6cce3097405dcaaba0c3c7ebc55"><td class="mdescLeft">&#160;</td><td class="mdescRight">Value of this physical quantity expressed in a given unit of measure.  <a href="classPhQ_1_1DimensionalScalar.html#a7295e6cce3097405dcaaba0c3c7ebc55">More...</a><br /></td></tr>
+<tr class="separator:a7295e6cce3097405dcaaba0c3c7ebc55"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa401781659dfda7d74e644ceaf68ff8d"><td class="memItemLeft" align="right" valign="top">constexpr double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalScalar.html#aa401781659dfda7d74e644ceaf68ff8d">StaticValue</a> () const</td></tr>
+<tr class="memdesc:aa401781659dfda7d74e644ceaf68ff8d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Value of this physical quantity expressed in a given unit of measure. This method can be evaluated statically at compile-time.  <a href="classPhQ_1_1DimensionalScalar.html#aa401781659dfda7d74e644ceaf68ff8d">More...</a><br /></td></tr>
+<tr class="separator:aa401781659dfda7d74e644ceaf68ff8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afae0bdf529936a6cd8d9bdcfd3ee4e6d"><td class="memItemLeft" align="right" valign="top">constexpr double &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalScalar.html#afae0bdf529936a6cd8d9bdcfd3ee4e6d">MutableValue</a> () noexcept</td></tr>
+<tr class="memdesc:afae0bdf529936a6cd8d9bdcfd3ee4e6d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the value of this physical quantity expressed in its standard unit of measure as a mutable value.  <a href="classPhQ_1_1DimensionalScalar.html#afae0bdf529936a6cd8d9bdcfd3ee4e6d">More...</a><br /></td></tr>
+<tr class="separator:afae0bdf529936a6cd8d9bdcfd3ee4e6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16891d80e526226d81481faecb0331ae"><td class="memItemLeft" align="right" valign="top">constexpr void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalScalar.html#a16891d80e526226d81481faecb0331ae">SetValue</a> (const double <a class="el" href="classPhQ_1_1DimensionalScalar.html#a34ca46c6f38afa3d34cba2eda00092fe">value</a>) noexcept</td></tr>
+<tr class="memdesc:a16891d80e526226d81481faecb0331ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the value of this physical quantity expressed in its standard unit of measure to the given value.  <a href="classPhQ_1_1DimensionalScalar.html#a16891d80e526226d81481faecb0331ae">More...</a><br /></td></tr>
+<tr class="separator:a16891d80e526226d81481faecb0331ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afce0b73bca1442f2ad975e4b6fb169e0"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalScalar.html#afce0b73bca1442f2ad975e4b6fb169e0">Print</a> () const</td></tr>
+<tr class="memdesc:afce0b73bca1442f2ad975e4b6fb169e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints this physical quantity as a string. This physical quantity's value is expressed in its standard unit of measure.  <a href="classPhQ_1_1DimensionalScalar.html#afce0b73bca1442f2ad975e4b6fb169e0">More...</a><br /></td></tr>
+<tr class="separator:afce0b73bca1442f2ad975e4b6fb169e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e98124436bc2dda3fb08f8fe24921f4"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalScalar.html#a3e98124436bc2dda3fb08f8fe24921f4">Print</a> (const <a class="el" href="namespacePhQ_1_1Unit.html#abcbda7b992e98486ca609a164ae78a24">Unit::Pressure</a> unit) const</td></tr>
+<tr class="memdesc:a3e98124436bc2dda3fb08f8fe24921f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints this physical quantity as a string. This physical quantity's value is expressed in the given unit of measure.  <a href="classPhQ_1_1DimensionalScalar.html#a3e98124436bc2dda3fb08f8fe24921f4">More...</a><br /></td></tr>
+<tr class="separator:a3e98124436bc2dda3fb08f8fe24921f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a955c0cd8487dc1332feb49dff22fd43d"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalScalar.html#a955c0cd8487dc1332feb49dff22fd43d">JSON</a> () const</td></tr>
+<tr class="memdesc:a955c0cd8487dc1332feb49dff22fd43d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serializes this physical quantity as a JSON message. This physical quantity's value is expressed in its standard unit of measure.  <a href="classPhQ_1_1DimensionalScalar.html#a955c0cd8487dc1332feb49dff22fd43d">More...</a><br /></td></tr>
+<tr class="separator:a955c0cd8487dc1332feb49dff22fd43d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8ba6d43f120369610d116d506b77a92"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalScalar.html#ae8ba6d43f120369610d116d506b77a92">JSON</a> (const <a class="el" href="namespacePhQ_1_1Unit.html#abcbda7b992e98486ca609a164ae78a24">Unit::Pressure</a> unit) const</td></tr>
+<tr class="memdesc:ae8ba6d43f120369610d116d506b77a92"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serializes this physical quantity as a JSON message. This physical quantity's value is expressed in the given unit of measure.  <a href="classPhQ_1_1DimensionalScalar.html#ae8ba6d43f120369610d116d506b77a92">More...</a><br /></td></tr>
+<tr class="separator:ae8ba6d43f120369610d116d506b77a92"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9c476851d0b711cf6d616483bba9594"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalScalar.html#ae9c476851d0b711cf6d616483bba9594">XML</a> () const</td></tr>
+<tr class="memdesc:ae9c476851d0b711cf6d616483bba9594"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serializes this physical quantity as an XML message. This physical quantity's value is expressed in its standard unit of measure.  <a href="classPhQ_1_1DimensionalScalar.html#ae9c476851d0b711cf6d616483bba9594">More...</a><br /></td></tr>
+<tr class="separator:ae9c476851d0b711cf6d616483bba9594"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0bcfcd2b36949dbfbe4e407d0523d749"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalScalar.html#a0bcfcd2b36949dbfbe4e407d0523d749">XML</a> (const <a class="el" href="namespacePhQ_1_1Unit.html#abcbda7b992e98486ca609a164ae78a24">Unit::Pressure</a> unit) const</td></tr>
+<tr class="memdesc:a0bcfcd2b36949dbfbe4e407d0523d749"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serializes this physical quantity as an XML message. This physical quantity's value is expressed in the given unit of measure.  <a href="classPhQ_1_1DimensionalScalar.html#a0bcfcd2b36949dbfbe4e407d0523d749">More...</a><br /></td></tr>
+<tr class="separator:a0bcfcd2b36949dbfbe4e407d0523d749"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac55005e5bec47b0f01de69e71ede218a"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalScalar.html#ac55005e5bec47b0f01de69e71ede218a">YAML</a> () const</td></tr>
+<tr class="memdesc:ac55005e5bec47b0f01de69e71ede218a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serializes this physical quantity as a YAML message. This physical quantity's value is expressed in its standard unit of measure.  <a href="classPhQ_1_1DimensionalScalar.html#ac55005e5bec47b0f01de69e71ede218a">More...</a><br /></td></tr>
+<tr class="separator:ac55005e5bec47b0f01de69e71ede218a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14579dd93adade7f7908d3a77b5967e7"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalScalar.html#a14579dd93adade7f7908d3a77b5967e7">YAML</a> (const <a class="el" href="namespacePhQ_1_1Unit.html#abcbda7b992e98486ca609a164ae78a24">Unit::Pressure</a> unit) const</td></tr>
+<tr class="memdesc:a14579dd93adade7f7908d3a77b5967e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serializes this physical quantity as a YAML message. This physical quantity's value is expressed in the given unit of measure.  <a href="classPhQ_1_1DimensionalScalar.html#a14579dd93adade7f7908d3a77b5967e7">More...</a><br /></td></tr>
+<tr class="separator:a14579dd93adade7f7908d3a77b5967e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a8bf1a2db02252822151bd700343515e7"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt; Number &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1ScalarTraction.html#a8bf1a2db02252822151bd700343515e7">Zero</a> ()</td></tr>
-<tr class="memdesc:a8bf1a2db02252822151bd700343515e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Statically creates a scalar traction of zero.  <a href="classPhQ_1_1ScalarTraction.html#a8bf1a2db02252822151bd700343515e7">More...</a><br /></td></tr>
-<tr class="separator:a8bf1a2db02252822151bd700343515e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab40031ce897efabebc97499b10d20248"><td class="memTemplParams" colspan="2">template&lt;Unit::Pressure Unit&gt; </td></tr>
-<tr class="memitem:ab40031ce897efabebc97499b10d20248"><td class="memTemplItemLeft" align="right" valign="top">static constexpr <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt; Number &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classPhQ_1_1ScalarTraction.html#ab40031ce897efabebc97499b10d20248">Create</a> (const Number <a class="el" href="classPhQ_1_1DimensionalScalar.html#a076d75036473812cf5583dc12b30aac2">value</a>)</td></tr>
-<tr class="memdesc:ab40031ce897efabebc97499b10d20248"><td class="mdescLeft">&#160;</td><td class="mdescRight">Statically creates a scalar traction with a given value expressed in a given pressure unit.  <a href="classPhQ_1_1ScalarTraction.html#ab40031ce897efabebc97499b10d20248">More...</a><br /></td></tr>
-<tr class="separator:ab40031ce897efabebc97499b10d20248"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a49230866296c449b998578cbb78bae38"><td class="memItemLeft" align="right" valign="top">static constexpr const <a class="el" href="classPhQ_1_1Dimensions.html">PhQ::Dimensions</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalScalar.html#a49230866296c449b998578cbb78bae38">Dimensions</a> ()</td></tr>
-<tr class="memdesc:a49230866296c449b998578cbb78bae38"><td class="mdescLeft">&#160;</td><td class="mdescRight">Physical dimension set of this physical quantity.  <a href="classPhQ_1_1DimensionalScalar.html#a49230866296c449b998578cbb78bae38">More...</a><br /></td></tr>
-<tr class="separator:a49230866296c449b998578cbb78bae38"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a75b344fe52822caa65e4918e1d1fcbd6"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="namespacePhQ_1_1Unit.html#abcbda7b992e98486ca609a164ae78a24">Unit::Pressure</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalScalar.html#a75b344fe52822caa65e4918e1d1fcbd6">Unit</a> ()</td></tr>
-<tr class="memdesc:a75b344fe52822caa65e4918e1d1fcbd6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Standard unit of measure for this physical quantity. This physical quantity's value is stored internally in this unit of measure.  <a href="classPhQ_1_1DimensionalScalar.html#a75b344fe52822caa65e4918e1d1fcbd6">More...</a><br /></td></tr>
-<tr class="separator:a75b344fe52822caa65e4918e1d1fcbd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c869b8cba3b18e4dec176c45177408e"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt; NumericType &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1ScalarTraction.html#a4c869b8cba3b18e4dec176c45177408e">Zero</a> ()</td></tr>
+<tr class="memdesc:a4c869b8cba3b18e4dec176c45177408e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Statically creates a scalar traction of zero.  <a href="classPhQ_1_1ScalarTraction.html#a4c869b8cba3b18e4dec176c45177408e">More...</a><br /></td></tr>
+<tr class="separator:a4c869b8cba3b18e4dec176c45177408e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac2b003232559cbe835ec65c961766ab5"><td class="memTemplParams" colspan="2">template&lt;Unit::Pressure Unit&gt; </td></tr>
+<tr class="memitem:ac2b003232559cbe835ec65c961766ab5"><td class="memTemplItemLeft" align="right" valign="top">static constexpr <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt; NumericType &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classPhQ_1_1ScalarTraction.html#ac2b003232559cbe835ec65c961766ab5">Create</a> (const NumericType <a class="el" href="classPhQ_1_1DimensionalScalar.html#a34ca46c6f38afa3d34cba2eda00092fe">value</a>)</td></tr>
+<tr class="memdesc:ac2b003232559cbe835ec65c961766ab5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Statically creates a scalar traction with a given value expressed in a given pressure unit.  <a href="classPhQ_1_1ScalarTraction.html#ac2b003232559cbe835ec65c961766ab5">More...</a><br /></td></tr>
+<tr class="separator:ac2b003232559cbe835ec65c961766ab5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb6ee843bf9ff8888de5a9dea1c00a94"><td class="memItemLeft" align="right" valign="top">static constexpr const <a class="el" href="classPhQ_1_1Dimensions.html">PhQ::Dimensions</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalScalar.html#afb6ee843bf9ff8888de5a9dea1c00a94">Dimensions</a> ()</td></tr>
+<tr class="memdesc:afb6ee843bf9ff8888de5a9dea1c00a94"><td class="mdescLeft">&#160;</td><td class="mdescRight">Physical dimension set of this physical quantity.  <a href="classPhQ_1_1DimensionalScalar.html#afb6ee843bf9ff8888de5a9dea1c00a94">More...</a><br /></td></tr>
+<tr class="separator:afb6ee843bf9ff8888de5a9dea1c00a94"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac50d4adb6c3f11c180714b6aa39534cd"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="namespacePhQ_1_1Unit.html#abcbda7b992e98486ca609a164ae78a24">Unit::Pressure</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalScalar.html#ac50d4adb6c3f11c180714b6aa39534cd">Unit</a> ()</td></tr>
+<tr class="memdesc:ac50d4adb6c3f11c180714b6aa39534cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Standard unit of measure for this physical quantity. This physical quantity's value is stored internally in this unit of measure.  <a href="classPhQ_1_1DimensionalScalar.html#ac50d4adb6c3f11c180714b6aa39534cd">More...</a><br /></td></tr>
+<tr class="separator:ac50d4adb6c3f11c180714b6aa39534cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:a076d75036473812cf5583dc12b30aac2"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalScalar.html#a076d75036473812cf5583dc12b30aac2">value</a></td></tr>
-<tr class="memdesc:a076d75036473812cf5583dc12b30aac2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Value of this physical quantity expressed in its standard unit of measure.  <a href="classPhQ_1_1DimensionalScalar.html#a076d75036473812cf5583dc12b30aac2">More...</a><br /></td></tr>
-<tr class="separator:a076d75036473812cf5583dc12b30aac2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34ca46c6f38afa3d34cba2eda00092fe"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1DimensionalScalar.html#a34ca46c6f38afa3d34cba2eda00092fe">value</a></td></tr>
+<tr class="memdesc:a34ca46c6f38afa3d34cba2eda00092fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Value of this physical quantity expressed in its standard unit of measure.  <a href="classPhQ_1_1DimensionalScalar.html#a34ca46c6f38afa3d34cba2eda00092fe">More...</a><br /></td></tr>
+<tr class="separator:a34ca46c6f38afa3d34cba2eda00092fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr class="memitem:a1fe365044f99bc6a55d9c6cb250b1a7e"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1ScalarTraction.html#a1fe365044f99bc6a55d9c6cb250b1a7e">ScalarTraction</a> (const Number <a class="el" href="classPhQ_1_1DimensionalScalar.html#a076d75036473812cf5583dc12b30aac2">value</a>)</td></tr>
-<tr class="memdesc:a1fe365044f99bc6a55d9c6cb250b1a7e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a scalar traction with a given value expressed in the standard pressure unit.  <a href="classPhQ_1_1ScalarTraction.html#a1fe365044f99bc6a55d9c6cb250b1a7e">More...</a><br /></td></tr>
-<tr class="separator:a1fe365044f99bc6a55d9c6cb250b1a7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ab217b99935a495c11ef52ce38f474d"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1ScalarTraction.html#a8ab217b99935a495c11ef52ce38f474d">ScalarTraction</a> (const NumericType <a class="el" href="classPhQ_1_1DimensionalScalar.html#a34ca46c6f38afa3d34cba2eda00092fe">value</a>)</td></tr>
+<tr class="memdesc:a8ab217b99935a495c11ef52ce38f474d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a scalar traction with a given value expressed in the standard pressure unit.  <a href="classPhQ_1_1ScalarTraction.html#a8ab217b99935a495c11ef52ce38f474d">More...</a><br /></td></tr>
+<tr class="separator:a8ab217b99935a495c11ef52ce38f474d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
 Friends</h2></td></tr>
-<tr class="memitem:a69d9d294dd580a8223a0d0449384ed49"><td class="memTemplParams" colspan="2">template&lt;typename OtherNumber &gt; </td></tr>
+<tr class="memitem:a69d9d294dd580a8223a0d0449384ed49"><td class="memTemplParams" colspan="2">template&lt;typename OtherNumericType &gt; </td></tr>
 <tr class="memitem:a69d9d294dd580a8223a0d0449384ed49"><td class="memTemplItemLeft" align="right" valign="top">class&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classPhQ_1_1ScalarTraction.html#a69d9d294dd580a8223a0d0449384ed49">PlanarTraction</a></td></tr>
 <tr class="separator:a69d9d294dd580a8223a0d0449384ed49"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1e69c6ca0189f8597e8a224ca04c4aa9"><td class="memTemplParams" colspan="2">template&lt;typename OtherNumber &gt; </td></tr>
+<tr class="memitem:a1e69c6ca0189f8597e8a224ca04c4aa9"><td class="memTemplParams" colspan="2">template&lt;typename OtherNumericType &gt; </td></tr>
 <tr class="memitem:a1e69c6ca0189f8597e8a224ca04c4aa9"><td class="memTemplItemLeft" align="right" valign="top">class&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classPhQ_1_1ScalarTraction.html#a1e69c6ca0189f8597e8a224ca04c4aa9">Traction</a></td></tr>
 <tr class="separator:a1e69c6ca0189f8597e8a224ca04c4aa9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><h3>template&lt;typename Number = double&gt;<br />
-class PhQ::ScalarTraction&lt; Number &gt;</h3>
+<div class="textblock"><h3>template&lt;typename NumericType = double&gt;<br />
+class PhQ::ScalarTraction&lt; NumericType &gt;</h3>
 
 <p>Scalar traction component or magnitude of a traction vector. <a class="el" href="classPhQ_1_1Traction.html" title="Three-dimensional Euclidean traction vector. Contains three components in Cartesian coordinates: x,...">Traction</a> is similar to pressure; however, traction can act in any direction, whereas pressure always acts compressively perpendicular to a surface. For a three-dimensional Euclidean traction vector, see <a class="el" href="classPhQ_1_1Traction.html" title="Three-dimensional Euclidean traction vector. Contains three components in Cartesian coordinates: x,...">PhQ::Traction</a>. For a two-dimensional Euclidean traction vector in the XY plane, see <a class="el" href="classPhQ_1_1PlanarTraction.html" title="Two-dimensional Euclidean traction vector in the XY plane. Contains two components in Cartesian coord...">PhQ::PlanarTraction</a>. </p>
 
 <p class="definition">Definition at line <a class="el" href="ScalarTraction_8hpp_source.html#l00063">63</a> of file <a class="el" href="ScalarTraction_8hpp_source.html">ScalarTraction.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a42e1b957f10518aadfa63de4aead41b6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a42e1b957f10518aadfa63de4aead41b6">&#9670;&nbsp;</a></span>ScalarTraction() <span class="overload">[1/7]</span></h2>
+<a id="aa335460f965cfd4edc5e4fccd827c57e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa335460f965cfd4edc5e4fccd827c57e">&#9670;&nbsp;</a></span>ScalarTraction() <span class="overload">[1/7]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classPhQ_1_1ScalarTraction.html">PhQ::ScalarTraction</a>&lt; Number &gt;::<a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a> </td>
+          <td class="memname"><a class="el" href="classPhQ_1_1ScalarTraction.html">PhQ::ScalarTraction</a>&lt; NumericType &gt;::<a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a> </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -292,21 +292,21 @@ template&lt;typename Number  = double&gt; </div>
 
 </div>
 </div>
-<a id="a60b7dce925423e3efcd80d8ca89764cc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a60b7dce925423e3efcd80d8ca89764cc">&#9670;&nbsp;</a></span>ScalarTraction() <span class="overload">[2/7]</span></h2>
+<a id="a72a0a9933ec75b96fb3187c7657ae9e5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a72a0a9933ec75b96fb3187c7657ae9e5">&#9670;&nbsp;</a></span>ScalarTraction() <span class="overload">[2/7]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classPhQ_1_1ScalarTraction.html">PhQ::ScalarTraction</a>&lt; Number &gt;::<a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a> </td>
+          <td class="memname"><a class="el" href="classPhQ_1_1ScalarTraction.html">PhQ::ScalarTraction</a>&lt; NumericType &gt;::<a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a> </td>
           <td>(</td>
-          <td class="paramtype">const Number&#160;</td>
+          <td class="paramtype">const NumericType&#160;</td>
           <td class="paramname"><em>value</em>, </td>
         </tr>
         <tr>
@@ -334,27 +334,27 @@ template&lt;typename Number  = double&gt; </div>
 
 </div>
 </div>
-<a id="aeb8903cc556cdb39696b38edccf5192a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aeb8903cc556cdb39696b38edccf5192a">&#9670;&nbsp;</a></span>ScalarTraction() <span class="overload">[3/7]</span></h2>
+<a id="af920095559e700985828142dacb38762"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af920095559e700985828142dacb38762">&#9670;&nbsp;</a></span>ScalarTraction() <span class="overload">[3/7]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1ScalarTraction.html">PhQ::ScalarTraction</a>&lt; Number &gt;::<a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a> </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1ScalarTraction.html">PhQ::ScalarTraction</a>&lt; NumericType &gt;::<a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a> </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1ScalarForce.html">ScalarForce</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1ScalarForce.html">ScalarForce</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>scalar_force</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1Area.html">Area</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1Area.html">Area</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>area</em>&#160;</td>
         </tr>
         <tr>
@@ -376,19 +376,19 @@ template&lt;typename Number  = double&gt; </div>
 
 </div>
 </div>
-<a id="afabf90dfdcb8ea66f75657409c41cf20"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afabf90dfdcb8ea66f75657409c41cf20">&#9670;&nbsp;</a></span>~ScalarTraction()</h2>
+<a id="a66d760b8b6a1bd3a23077b360f730f22"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a66d760b8b6a1bd3a23077b360f730f22">&#9670;&nbsp;</a></span>~ScalarTraction()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classPhQ_1_1ScalarTraction.html">PhQ::ScalarTraction</a>&lt; Number &gt;::~<a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a> </td>
+          <td class="memname"><a class="el" href="classPhQ_1_1ScalarTraction.html">PhQ::ScalarTraction</a>&lt; NumericType &gt;::~<a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a> </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -405,21 +405,21 @@ template&lt;typename Number  = double&gt; </div>
 
 </div>
 </div>
-<a id="a4ec1cb54140de2fecb81dfaa6dce3de0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4ec1cb54140de2fecb81dfaa6dce3de0">&#9670;&nbsp;</a></span>ScalarTraction() <span class="overload">[4/7]</span></h2>
+<a id="aecc29512f295fe11eb18793badbaf8b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aecc29512f295fe11eb18793badbaf8b4">&#9670;&nbsp;</a></span>ScalarTraction() <span class="overload">[4/7]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1ScalarTraction.html">PhQ::ScalarTraction</a>&lt; Number &gt;::<a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a> </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1ScalarTraction.html">PhQ::ScalarTraction</a>&lt; NumericType &gt;::<a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a> </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>other</em></td><td>)</td>
           <td></td>
         </tr>
@@ -435,23 +435,23 @@ template&lt;typename Number  = double&gt; </div>
 
 </div>
 </div>
-<a id="aee4e9b3a6b1594ecc559ef428da0af7f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aee4e9b3a6b1594ecc559ef428da0af7f">&#9670;&nbsp;</a></span>ScalarTraction() <span class="overload">[5/7]</span></h2>
+<a id="ac00b9b14bef065bf9c2f3f8358752593"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac00b9b14bef065bf9c2f3f8358752593">&#9670;&nbsp;</a></span>ScalarTraction() <span class="overload">[5/7]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <div class="memtemplate">
-template&lt;typename OtherNumber &gt; </div>
+template&lt;typename OtherNumericType &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1ScalarTraction.html">PhQ::ScalarTraction</a>&lt; Number &gt;::<a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a> </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1ScalarTraction.html">PhQ::ScalarTraction</a>&lt; NumericType &gt;::<a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a> </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt; OtherNumber &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt; OtherNumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>other</em></td><td>)</td>
           <td></td>
         </tr>
@@ -465,25 +465,25 @@ template&lt;typename OtherNumber &gt; </div>
 
 <p>Copy constructor. Constructs a scalar traction by copying another one. </p>
 
-<p class="definition">Definition at line <a class="el" href="ScalarTraction_8hpp_source.html#l00086">86</a> of file <a class="el" href="ScalarTraction_8hpp_source.html">ScalarTraction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ScalarTraction_8hpp_source.html#l00087">87</a> of file <a class="el" href="ScalarTraction_8hpp_source.html">ScalarTraction.hpp</a>.</p>
 
 </div>
 </div>
-<a id="a849e6a35416b38f86f5f893fdca20785"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a849e6a35416b38f86f5f893fdca20785">&#9670;&nbsp;</a></span>ScalarTraction() <span class="overload">[6/7]</span></h2>
+<a id="a50b88c792f7610f6bbfd4b3aec9a3a20"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a50b88c792f7610f6bbfd4b3aec9a3a20">&#9670;&nbsp;</a></span>ScalarTraction() <span class="overload">[6/7]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1ScalarTraction.html">PhQ::ScalarTraction</a>&lt; Number &gt;::<a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a> </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1ScalarTraction.html">PhQ::ScalarTraction</a>&lt; NumericType &gt;::<a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a> </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt; Number &gt; &amp;&amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt; NumericType &gt; &amp;&amp;&#160;</td>
           <td class="paramname"><em>other</em></td><td>)</td>
           <td></td>
         </tr>
@@ -499,21 +499,21 @@ template&lt;typename Number  = double&gt; </div>
 
 </div>
 </div>
-<a id="a1fe365044f99bc6a55d9c6cb250b1a7e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1fe365044f99bc6a55d9c6cb250b1a7e">&#9670;&nbsp;</a></span>ScalarTraction() <span class="overload">[7/7]</span></h2>
+<a id="a8ab217b99935a495c11ef52ce38f474d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8ab217b99935a495c11ef52ce38f474d">&#9670;&nbsp;</a></span>ScalarTraction() <span class="overload">[7/7]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1ScalarTraction.html">PhQ::ScalarTraction</a>&lt; Number &gt;::<a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a> </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1ScalarTraction.html">PhQ::ScalarTraction</a>&lt; NumericType &gt;::<a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a> </td>
           <td>(</td>
-          <td class="paramtype">const Number&#160;</td>
+          <td class="paramtype">const NumericType&#160;</td>
           <td class="paramname"><em>value</em></td><td>)</td>
           <td></td>
         </tr>
@@ -527,18 +527,18 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Constructor. Constructs a scalar traction with a given value expressed in the standard pressure unit. </p>
 
-<p class="definition">Definition at line <a class="el" href="ScalarTraction_8hpp_source.html#l00165">165</a> of file <a class="el" href="ScalarTraction_8hpp_source.html">ScalarTraction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ScalarTraction_8hpp_source.html#l00169">169</a> of file <a class="el" href="ScalarTraction_8hpp_source.html">ScalarTraction.hpp</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="ab40031ce897efabebc97499b10d20248"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab40031ce897efabebc97499b10d20248">&#9670;&nbsp;</a></span>Create()</h2>
+<a id="ac2b003232559cbe835ec65c961766ab5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac2b003232559cbe835ec65c961766ab5">&#9670;&nbsp;</a></span>Create()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <div class="memtemplate">
 template&lt;Unit::Pressure Unit&gt; </div>
 <table class="mlabels">
@@ -546,9 +546,9 @@ template&lt;Unit::Pressure Unit&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static constexpr <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt;Number&gt; <a class="el" href="classPhQ_1_1ScalarTraction.html">PhQ::ScalarTraction</a>&lt; Number &gt;::Create </td>
+          <td class="memname">static constexpr <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt;NumericType&gt; <a class="el" href="classPhQ_1_1ScalarTraction.html">PhQ::ScalarTraction</a>&lt; NumericType &gt;::Create </td>
           <td>(</td>
-          <td class="paramtype">const Number&#160;</td>
+          <td class="paramtype">const NumericType&#160;</td>
           <td class="paramname"><em>value</em></td><td>)</td>
           <td></td>
         </tr>
@@ -562,14 +562,14 @@ template&lt;Unit::Pressure Unit&gt; </div>
 
 <p>Statically creates a scalar traction with a given value expressed in a given pressure unit. </p>
 
-<p class="definition">Definition at line <a class="el" href="ScalarTraction_8hpp_source.html#l00113">113</a> of file <a class="el" href="ScalarTraction_8hpp_source.html">ScalarTraction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ScalarTraction_8hpp_source.html#l00116">116</a> of file <a class="el" href="ScalarTraction_8hpp_source.html">ScalarTraction.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00218">PhQ::DimensionalScalar&lt; Unit::Pressure, double &gt;::value</a>.</p>
+<p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00216">PhQ::DimensionalScalar&lt; Unit::Pressure, double &gt;::value</a>.</p>
 
 </div>
 </div>
-<a id="a49230866296c449b998578cbb78bae38"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a49230866296c449b998578cbb78bae38">&#9670;&nbsp;</a></span>Dimensions()</h2>
+<a id="afb6ee843bf9ff8888de5a9dea1c00a94"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb6ee843bf9ff8888de5a9dea1c00a94">&#9670;&nbsp;</a></span>Dimensions()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -597,8 +597,8 @@ template&lt;Unit::Pressure Unit&gt; </div>
 
 </div>
 </div>
-<a id="a05cd733dcabe35166c4ec6ce476f46ab"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a05cd733dcabe35166c4ec6ce476f46ab">&#9670;&nbsp;</a></span>JSON() <span class="overload">[1/2]</span></h2>
+<a id="a955c0cd8487dc1332feb49dff22fd43d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a955c0cd8487dc1332feb49dff22fd43d">&#9670;&nbsp;</a></span>JSON() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -622,12 +622,12 @@ template&lt;Unit::Pressure Unit&gt; </div>
 
 <p>Serializes this physical quantity as a JSON message. This physical quantity's value is expressed in its standard unit of measure. </p>
 
-<p class="definition">Definition at line <a class="el" href="DimensionalScalar_8hpp_source.html#l00108">108</a> of file <a class="el" href="DimensionalScalar_8hpp_source.html">DimensionalScalar.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="DimensionalScalar_8hpp_source.html#l00106">106</a> of file <a class="el" href="DimensionalScalar_8hpp_source.html">DimensionalScalar.hpp</a>.</p>
 
 </div>
 </div>
-<a id="ab0b9a823fbcc260db150dc1454e595ad"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab0b9a823fbcc260db150dc1454e595ad">&#9670;&nbsp;</a></span>JSON() <span class="overload">[2/2]</span></h2>
+<a id="ae8ba6d43f120369610d116d506b77a92"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae8ba6d43f120369610d116d506b77a92">&#9670;&nbsp;</a></span>JSON() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -652,12 +652,12 @@ template&lt;Unit::Pressure Unit&gt; </div>
 
 <p>Serializes this physical quantity as a JSON message. This physical quantity's value is expressed in the given unit of measure. </p>
 
-<p class="definition">Definition at line <a class="el" href="DimensionalScalar_8hpp_source.html#l00118">118</a> of file <a class="el" href="DimensionalScalar_8hpp_source.html">DimensionalScalar.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="DimensionalScalar_8hpp_source.html#l00116">116</a> of file <a class="el" href="DimensionalScalar_8hpp_source.html">DimensionalScalar.hpp</a>.</p>
 
 </div>
 </div>
-<a id="ab23e71494593d494de7e970896c6e8be"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab23e71494593d494de7e970896c6e8be">&#9670;&nbsp;</a></span>MutableValue()</h2>
+<a id="afae0bdf529936a6cd8d9bdcfd3ee4e6d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afae0bdf529936a6cd8d9bdcfd3ee4e6d">&#9670;&nbsp;</a></span>MutableValue()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -681,25 +681,25 @@ template&lt;Unit::Pressure Unit&gt; </div>
 
 <p>Returns the value of this physical quantity expressed in its standard unit of measure as a mutable value. </p>
 
-<p class="definition">Definition at line <a class="el" href="DimensionalScalar_8hpp_source.html#l00084">84</a> of file <a class="el" href="DimensionalScalar_8hpp_source.html">DimensionalScalar.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="DimensionalScalar_8hpp_source.html#l00082">82</a> of file <a class="el" href="DimensionalScalar_8hpp_source.html">DimensionalScalar.hpp</a>.</p>
 
 </div>
 </div>
-<a id="a16096d00b88eb4655eac7fa711f5e1b8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a16096d00b88eb4655eac7fa711f5e1b8">&#9670;&nbsp;</a></span>operator*() <span class="overload">[1/4]</span></h2>
+<a id="ad3bfd705a6c5ba62aede95698790d51f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad3bfd705a6c5ba62aede95698790d51f">&#9670;&nbsp;</a></span>operator*() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1ScalarForce.html">ScalarForce</a>&lt;Number&gt; <a class="el" href="classPhQ_1_1ScalarTraction.html">PhQ::ScalarTraction</a>&lt; Number &gt;::operator* </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1ScalarForce.html">ScalarForce</a>&lt;NumericType&gt; <a class="el" href="classPhQ_1_1ScalarTraction.html">PhQ::ScalarTraction</a>&lt; NumericType &gt;::operator* </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1Area.html">Area</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1Area.html">Area</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>area</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -711,25 +711,25 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ScalarTraction_8hpp_source.html#l00130">130</a> of file <a class="el" href="ScalarTraction_8hpp_source.html">ScalarTraction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ScalarTraction_8hpp_source.html#l00133">133</a> of file <a class="el" href="ScalarTraction_8hpp_source.html">ScalarTraction.hpp</a>.</p>
 
 </div>
 </div>
-<a id="ab44ce171d09a07440a8652af269428ee"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab44ce171d09a07440a8652af269428ee">&#9670;&nbsp;</a></span>operator*() <span class="overload">[2/4]</span></h2>
+<a id="aadaeda41b832087f67a3ec6631d1b9d6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aadaeda41b832087f67a3ec6631d1b9d6">&#9670;&nbsp;</a></span>operator*() <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number &gt; </div>
+template&lt;typename NumericType &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Traction.html">Traction</a>&lt; Number &gt; <a class="el" href="classPhQ_1_1ScalarTraction.html">PhQ::ScalarTraction</a>&lt; Number &gt;::operator* </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Traction.html">Traction</a>&lt; NumericType &gt; <a class="el" href="classPhQ_1_1ScalarTraction.html">PhQ::ScalarTraction</a>&lt; NumericType &gt;::operator* </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1Direction.html">Direction</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1Direction.html">Direction</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>direction</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -741,25 +741,25 @@ template&lt;typename Number &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Traction_8hpp_source.html#l00286">286</a> of file <a class="el" href="Traction_8hpp_source.html">Traction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Traction_8hpp_source.html#l00290">290</a> of file <a class="el" href="Traction_8hpp_source.html">Traction.hpp</a>.</p>
 
 </div>
 </div>
-<a id="af1b5d13171b95950f044faae41b55756"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af1b5d13171b95950f044faae41b55756">&#9670;&nbsp;</a></span>operator*() <span class="overload">[3/4]</span></h2>
+<a id="a8c9828ace8b65a146e1126ed68500dd8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c9828ace8b65a146e1126ed68500dd8">&#9670;&nbsp;</a></span>operator*() <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt;Number&gt; <a class="el" href="classPhQ_1_1ScalarTraction.html">PhQ::ScalarTraction</a>&lt; Number &gt;::operator* </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt;NumericType&gt; <a class="el" href="classPhQ_1_1ScalarTraction.html">PhQ::ScalarTraction</a>&lt; NumericType &gt;::operator* </td>
           <td>(</td>
-          <td class="paramtype">const Number&#160;</td>
+          <td class="paramtype">const NumericType&#160;</td>
           <td class="paramname"><em>number</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -771,27 +771,27 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ScalarTraction_8hpp_source.html#l00126">126</a> of file <a class="el" href="ScalarTraction_8hpp_source.html">ScalarTraction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ScalarTraction_8hpp_source.html#l00129">129</a> of file <a class="el" href="ScalarTraction_8hpp_source.html">ScalarTraction.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00218">PhQ::DimensionalScalar&lt; Unit::Pressure, double &gt;::value</a>.</p>
+<p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00216">PhQ::DimensionalScalar&lt; Unit::Pressure, double &gt;::value</a>.</p>
 
 </div>
 </div>
-<a id="a0fa9978b51ec167d5ea7311a09e3fb25"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0fa9978b51ec167d5ea7311a09e3fb25">&#9670;&nbsp;</a></span>operator*() <span class="overload">[4/4]</span></h2>
+<a id="a8854828b4c747ae00f6c4659593de525"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8854828b4c747ae00f6c4659593de525">&#9670;&nbsp;</a></span>operator*() <span class="overload">[4/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number &gt; </div>
+template&lt;typename NumericType &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1PlanarTraction.html">PlanarTraction</a>&lt; Number &gt; <a class="el" href="classPhQ_1_1ScalarTraction.html">PhQ::ScalarTraction</a>&lt; Number &gt;::operator* </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1PlanarTraction.html">PlanarTraction</a>&lt; NumericType &gt; <a class="el" href="classPhQ_1_1ScalarTraction.html">PhQ::ScalarTraction</a>&lt; NumericType &gt;::operator* </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1PlanarDirection.html">PlanarDirection</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1PlanarDirection.html">PlanarDirection</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>planar_direction</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -803,249 +803,25 @@ template&lt;typename Number &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="PlanarTraction_8hpp_source.html#l00284">284</a> of file <a class="el" href="PlanarTraction_8hpp_source.html">PlanarTraction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarTraction_8hpp_source.html#l00293">293</a> of file <a class="el" href="PlanarTraction_8hpp_source.html">PlanarTraction.hpp</a>.</p>
 
 </div>
 </div>
-<a id="a2db3fd35fbd6f48c99884a55934b891d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2db3fd35fbd6f48c99884a55934b891d">&#9670;&nbsp;</a></span>operator*=()</h2>
+<a id="a87de54ca0132742f76296e1505541ccb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a87de54ca0132742f76296e1505541ccb">&#9670;&nbsp;</a></span>operator*=()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr void <a class="el" href="classPhQ_1_1ScalarTraction.html">PhQ::ScalarTraction</a>&lt; Number &gt;::operator*= </td>
+          <td class="memname">constexpr void <a class="el" href="classPhQ_1_1ScalarTraction.html">PhQ::ScalarTraction</a>&lt; NumericType &gt;::operator*= </td>
           <td>(</td>
-          <td class="paramtype">const Number&#160;</td>
-          <td class="paramname"><em>number</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="ScalarTraction_8hpp_source.html#l00154">154</a> of file <a class="el" href="ScalarTraction_8hpp_source.html">ScalarTraction.hpp</a>.</p>
-
-<p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00218">PhQ::DimensionalScalar&lt; Unit::Pressure, double &gt;::value</a>.</p>
-
-</div>
-</div>
-<a id="a82ef8bfe38d94c1eca7a9228dc8944c2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a82ef8bfe38d94c1eca7a9228dc8944c2">&#9670;&nbsp;</a></span>operator+()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt;Number&gt; <a class="el" href="classPhQ_1_1ScalarTraction.html">PhQ::ScalarTraction</a>&lt; Number &gt;::operator+ </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt; Number &gt; &amp;&#160;</td>
-          <td class="paramname"><em>other</em></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="ScalarTraction_8hpp_source.html#l00118">118</a> of file <a class="el" href="ScalarTraction_8hpp_source.html">ScalarTraction.hpp</a>.</p>
-
-<p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00218">PhQ::DimensionalScalar&lt; UnitType, Number &gt;::value</a>, and <a class="el" href="DimensionalScalar_8hpp_source.html#l00218">PhQ::DimensionalScalar&lt; Unit::Pressure, double &gt;::value</a>.</p>
-
-</div>
-</div>
-<a id="a6778a13f156ffb100f1a87a91a3b2027"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6778a13f156ffb100f1a87a91a3b2027">&#9670;&nbsp;</a></span>operator+=()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr void <a class="el" href="classPhQ_1_1ScalarTraction.html">PhQ::ScalarTraction</a>&lt; Number &gt;::operator+= </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt; Number &gt; &amp;&#160;</td>
-          <td class="paramname"><em>other</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="ScalarTraction_8hpp_source.html#l00146">146</a> of file <a class="el" href="ScalarTraction_8hpp_source.html">ScalarTraction.hpp</a>.</p>
-
-<p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00218">PhQ::DimensionalScalar&lt; Unit::Pressure, double &gt;::value</a>.</p>
-
-</div>
-</div>
-<a id="a7c2e9b34bb2879eb053b85db24c9f2a1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7c2e9b34bb2879eb053b85db24c9f2a1">&#9670;&nbsp;</a></span>operator-()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt;Number&gt; <a class="el" href="classPhQ_1_1ScalarTraction.html">PhQ::ScalarTraction</a>&lt; Number &gt;::operator- </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt; Number &gt; &amp;&#160;</td>
-          <td class="paramname"><em>other</em></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="ScalarTraction_8hpp_source.html#l00122">122</a> of file <a class="el" href="ScalarTraction_8hpp_source.html">ScalarTraction.hpp</a>.</p>
-
-<p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00218">PhQ::DimensionalScalar&lt; UnitType, Number &gt;::value</a>, and <a class="el" href="DimensionalScalar_8hpp_source.html#l00218">PhQ::DimensionalScalar&lt; Unit::Pressure, double &gt;::value</a>.</p>
-
-</div>
-</div>
-<a id="a1a357d34bfbd2ad538762ccdeaa98c1b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1a357d34bfbd2ad538762ccdeaa98c1b">&#9670;&nbsp;</a></span>operator-=()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr void <a class="el" href="classPhQ_1_1ScalarTraction.html">PhQ::ScalarTraction</a>&lt; Number &gt;::operator-= </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt; Number &gt; &amp;&#160;</td>
-          <td class="paramname"><em>other</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="ScalarTraction_8hpp_source.html#l00150">150</a> of file <a class="el" href="ScalarTraction_8hpp_source.html">ScalarTraction.hpp</a>.</p>
-
-<p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00218">PhQ::DimensionalScalar&lt; Unit::Pressure, double &gt;::value</a>.</p>
-
-</div>
-</div>
-<a id="a05e36ac1e738ef0a6cf82778beb80ccd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a05e36ac1e738ef0a6cf82778beb80ccd">&#9670;&nbsp;</a></span>operator/() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt;Number&gt; <a class="el" href="classPhQ_1_1ScalarTraction.html">PhQ::ScalarTraction</a>&lt; Number &gt;::operator/ </td>
-          <td>(</td>
-          <td class="paramtype">const Number&#160;</td>
-          <td class="paramname"><em>number</em></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="ScalarTraction_8hpp_source.html#l00138">138</a> of file <a class="el" href="ScalarTraction_8hpp_source.html">ScalarTraction.hpp</a>.</p>
-
-<p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00218">PhQ::DimensionalScalar&lt; Unit::Pressure, double &gt;::value</a>.</p>
-
-</div>
-</div>
-<a id="aaf7cc0980622c2f7d24bc814ca000e6a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaf7cc0980622c2f7d24bc814ca000e6a">&#9670;&nbsp;</a></span>operator/() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr Number <a class="el" href="classPhQ_1_1ScalarTraction.html">PhQ::ScalarTraction</a>&lt; Number &gt;::operator/ </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt; Number &gt; &amp;&#160;</td>
-          <td class="paramname"><em>other</em></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="definition">Definition at line <a class="el" href="ScalarTraction_8hpp_source.html#l00142">142</a> of file <a class="el" href="ScalarTraction_8hpp_source.html">ScalarTraction.hpp</a>.</p>
-
-<p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00218">PhQ::DimensionalScalar&lt; Unit::Pressure, double &gt;::value</a>.</p>
-
-</div>
-</div>
-<a id="a57b7ae78cea5d5f70b0842168e9abb52"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a57b7ae78cea5d5f70b0842168e9abb52">&#9670;&nbsp;</a></span>operator/=()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr void <a class="el" href="classPhQ_1_1ScalarTraction.html">PhQ::ScalarTraction</a>&lt; Number &gt;::operator/= </td>
-          <td>(</td>
-          <td class="paramtype">const Number&#160;</td>
+          <td class="paramtype">const NumericType&#160;</td>
           <td class="paramname"><em>number</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1059,25 +835,249 @@ template&lt;typename Number  = double&gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="ScalarTraction_8hpp_source.html#l00158">158</a> of file <a class="el" href="ScalarTraction_8hpp_source.html">ScalarTraction.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00218">PhQ::DimensionalScalar&lt; Unit::Pressure, double &gt;::value</a>.</p>
+<p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00216">PhQ::DimensionalScalar&lt; Unit::Pressure, double &gt;::value</a>.</p>
 
 </div>
 </div>
-<a id="aeb8b968dea2fef6e4178842ee5ce70fb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aeb8b968dea2fef6e4178842ee5ce70fb">&#9670;&nbsp;</a></span>operator=() <span class="overload">[1/3]</span></h2>
+<a id="a6b34db59a82eb066db0c8c2f9c5f87c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6b34db59a82eb066db0c8c2f9c5f87c5">&#9670;&nbsp;</a></span>operator+()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt;Number&gt;&amp; <a class="el" href="classPhQ_1_1ScalarTraction.html">PhQ::ScalarTraction</a>&lt; Number &gt;::operator= </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt;NumericType&gt; <a class="el" href="classPhQ_1_1ScalarTraction.html">PhQ::ScalarTraction</a>&lt; NumericType &gt;::operator+ </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt; NumericType &gt; &amp;&#160;</td>
+          <td class="paramname"><em>other</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="ScalarTraction_8hpp_source.html#l00121">121</a> of file <a class="el" href="ScalarTraction_8hpp_source.html">ScalarTraction.hpp</a>.</p>
+
+<p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00216">PhQ::DimensionalScalar&lt; UnitType, NumericType &gt;::value</a>, and <a class="el" href="DimensionalScalar_8hpp_source.html#l00216">PhQ::DimensionalScalar&lt; Unit::Pressure, double &gt;::value</a>.</p>
+
+</div>
+</div>
+<a id="a81a57718b1dad1b54832a0356dc3de05"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a81a57718b1dad1b54832a0356dc3de05">&#9670;&nbsp;</a></span>operator+=()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename NumericType  = double&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr void <a class="el" href="classPhQ_1_1ScalarTraction.html">PhQ::ScalarTraction</a>&lt; NumericType &gt;::operator+= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt; NumericType &gt; &amp;&#160;</td>
+          <td class="paramname"><em>other</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="ScalarTraction_8hpp_source.html#l00150">150</a> of file <a class="el" href="ScalarTraction_8hpp_source.html">ScalarTraction.hpp</a>.</p>
+
+<p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00216">PhQ::DimensionalScalar&lt; Unit::Pressure, double &gt;::value</a>.</p>
+
+</div>
+</div>
+<a id="a8a4531bb039d73e76c7ed4709e8d71f6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8a4531bb039d73e76c7ed4709e8d71f6">&#9670;&nbsp;</a></span>operator-()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename NumericType  = double&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt;NumericType&gt; <a class="el" href="classPhQ_1_1ScalarTraction.html">PhQ::ScalarTraction</a>&lt; NumericType &gt;::operator- </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt; NumericType &gt; &amp;&#160;</td>
+          <td class="paramname"><em>other</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="ScalarTraction_8hpp_source.html#l00125">125</a> of file <a class="el" href="ScalarTraction_8hpp_source.html">ScalarTraction.hpp</a>.</p>
+
+<p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00216">PhQ::DimensionalScalar&lt; UnitType, NumericType &gt;::value</a>, and <a class="el" href="DimensionalScalar_8hpp_source.html#l00216">PhQ::DimensionalScalar&lt; Unit::Pressure, double &gt;::value</a>.</p>
+
+</div>
+</div>
+<a id="ad46b6626961b649ca6ebba88653dca20"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad46b6626961b649ca6ebba88653dca20">&#9670;&nbsp;</a></span>operator-=()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename NumericType  = double&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr void <a class="el" href="classPhQ_1_1ScalarTraction.html">PhQ::ScalarTraction</a>&lt; NumericType &gt;::operator-= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt; NumericType &gt; &amp;&#160;</td>
+          <td class="paramname"><em>other</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="ScalarTraction_8hpp_source.html#l00154">154</a> of file <a class="el" href="ScalarTraction_8hpp_source.html">ScalarTraction.hpp</a>.</p>
+
+<p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00216">PhQ::DimensionalScalar&lt; Unit::Pressure, double &gt;::value</a>.</p>
+
+</div>
+</div>
+<a id="a2c072968d592910273ad24cd4fff82c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c072968d592910273ad24cd4fff82c1">&#9670;&nbsp;</a></span>operator/() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename NumericType  = double&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt;NumericType&gt; <a class="el" href="classPhQ_1_1ScalarTraction.html">PhQ::ScalarTraction</a>&lt; NumericType &gt;::operator/ </td>
+          <td>(</td>
+          <td class="paramtype">const NumericType&#160;</td>
+          <td class="paramname"><em>number</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="ScalarTraction_8hpp_source.html#l00142">142</a> of file <a class="el" href="ScalarTraction_8hpp_source.html">ScalarTraction.hpp</a>.</p>
+
+<p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00216">PhQ::DimensionalScalar&lt; Unit::Pressure, double &gt;::value</a>.</p>
+
+</div>
+</div>
+<a id="a2370e1e3faf44c297e8e8d049afb4e81"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2370e1e3faf44c297e8e8d049afb4e81">&#9670;&nbsp;</a></span>operator/() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename NumericType  = double&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr NumericType <a class="el" href="classPhQ_1_1ScalarTraction.html">PhQ::ScalarTraction</a>&lt; NumericType &gt;::operator/ </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt; NumericType &gt; &amp;&#160;</td>
+          <td class="paramname"><em>other</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="ScalarTraction_8hpp_source.html#l00146">146</a> of file <a class="el" href="ScalarTraction_8hpp_source.html">ScalarTraction.hpp</a>.</p>
+
+<p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00216">PhQ::DimensionalScalar&lt; Unit::Pressure, double &gt;::value</a>.</p>
+
+</div>
+</div>
+<a id="aee4b771e5f587a58414afeeb013961f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aee4b771e5f587a58414afeeb013961f0">&#9670;&nbsp;</a></span>operator/=()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename NumericType  = double&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr void <a class="el" href="classPhQ_1_1ScalarTraction.html">PhQ::ScalarTraction</a>&lt; NumericType &gt;::operator/= </td>
+          <td>(</td>
+          <td class="paramtype">const NumericType&#160;</td>
+          <td class="paramname"><em>number</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">constexpr</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="definition">Definition at line <a class="el" href="ScalarTraction_8hpp_source.html#l00162">162</a> of file <a class="el" href="ScalarTraction_8hpp_source.html">ScalarTraction.hpp</a>.</p>
+
+<p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00216">PhQ::DimensionalScalar&lt; Unit::Pressure, double &gt;::value</a>.</p>
+
+</div>
+</div>
+<a id="ae594e32a38ec28bb1fd1d15826d79cf7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae594e32a38ec28bb1fd1d15826d79cf7">&#9670;&nbsp;</a></span>operator=() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename NumericType  = double&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt;NumericType&gt;&amp; <a class="el" href="classPhQ_1_1ScalarTraction.html">PhQ::ScalarTraction</a>&lt; NumericType &gt;::operator= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>other</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1093,23 +1093,23 @@ template&lt;typename Number  = double&gt; </div>
 
 </div>
 </div>
-<a id="a4dda4d19171b243b1405b5d9645385b2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4dda4d19171b243b1405b5d9645385b2">&#9670;&nbsp;</a></span>operator=() <span class="overload">[2/3]</span></h2>
+<a id="aaba31e82bbe42dc9c67d23e385864292"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaba31e82bbe42dc9c67d23e385864292">&#9670;&nbsp;</a></span>operator=() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <div class="memtemplate">
-template&lt;typename OtherNumber &gt; </div>
+template&lt;typename OtherNumericType &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt;Number&gt;&amp; <a class="el" href="classPhQ_1_1ScalarTraction.html">PhQ::ScalarTraction</a>&lt; Number &gt;::operator= </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt;NumericType&gt;&amp; <a class="el" href="classPhQ_1_1ScalarTraction.html">PhQ::ScalarTraction</a>&lt; NumericType &gt;::operator= </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt; OtherNumber &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt; OtherNumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>other</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1123,27 +1123,27 @@ template&lt;typename OtherNumber &gt; </div>
 
 <p>Copy assignment operator. Assigns this scalar traction by copying another one. </p>
 
-<p class="definition">Definition at line <a class="el" href="ScalarTraction_8hpp_source.html#l00097">97</a> of file <a class="el" href="ScalarTraction_8hpp_source.html">ScalarTraction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ScalarTraction_8hpp_source.html#l00099">99</a> of file <a class="el" href="ScalarTraction_8hpp_source.html">ScalarTraction.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00064">PhQ::DimensionalScalar&lt; UnitType, Number &gt;::Value()</a>, and <a class="el" href="DimensionalScalar_8hpp_source.html#l00218">PhQ::DimensionalScalar&lt; Unit::Pressure, double &gt;::value</a>.</p>
+<p class="reference">References <a class="el" href="DimensionalScalar_8hpp_source.html#l00064">PhQ::DimensionalScalar&lt; UnitType, NumericType &gt;::Value()</a>, and <a class="el" href="DimensionalScalar_8hpp_source.html#l00216">PhQ::DimensionalScalar&lt; Unit::Pressure, double &gt;::value</a>.</p>
 
 </div>
 </div>
-<a id="a2a979c8a3ba05c4fcf75abf48c2b0f91"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2a979c8a3ba05c4fcf75abf48c2b0f91">&#9670;&nbsp;</a></span>operator=() <span class="overload">[3/3]</span></h2>
+<a id="af9263c312ab6660a92c96513fcfb06f6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af9263c312ab6660a92c96513fcfb06f6">&#9670;&nbsp;</a></span>operator=() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt;Number&gt;&amp; <a class="el" href="classPhQ_1_1ScalarTraction.html">PhQ::ScalarTraction</a>&lt; Number &gt;::operator= </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt;NumericType&gt;&amp; <a class="el" href="classPhQ_1_1ScalarTraction.html">PhQ::ScalarTraction</a>&lt; NumericType &gt;::operator= </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt; Number &gt; &amp;&amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt; NumericType &gt; &amp;&amp;&#160;</td>
           <td class="paramname"><em>other</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1159,8 +1159,8 @@ template&lt;typename Number  = double&gt; </div>
 
 </div>
 </div>
-<a id="aaa28f5bd02ab3373b12d3500cbc05845"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaa28f5bd02ab3373b12d3500cbc05845">&#9670;&nbsp;</a></span>Print() <span class="overload">[1/2]</span></h2>
+<a id="afce0b73bca1442f2ad975e4b6fb169e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afce0b73bca1442f2ad975e4b6fb169e0">&#9670;&nbsp;</a></span>Print() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1184,12 +1184,12 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Prints this physical quantity as a string. This physical quantity's value is expressed in its standard unit of measure. </p>
 
-<p class="definition">Definition at line <a class="el" href="DimensionalScalar_8hpp_source.html#l00096">96</a> of file <a class="el" href="DimensionalScalar_8hpp_source.html">DimensionalScalar.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="DimensionalScalar_8hpp_source.html#l00094">94</a> of file <a class="el" href="DimensionalScalar_8hpp_source.html">DimensionalScalar.hpp</a>.</p>
 
 </div>
 </div>
-<a id="ae58f817c7cfadb04c5c7c821a94df0b7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae58f817c7cfadb04c5c7c821a94df0b7">&#9670;&nbsp;</a></span>Print() <span class="overload">[2/2]</span></h2>
+<a id="a3e98124436bc2dda3fb08f8fe24921f4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e98124436bc2dda3fb08f8fe24921f4">&#9670;&nbsp;</a></span>Print() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1214,12 +1214,12 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Prints this physical quantity as a string. This physical quantity's value is expressed in the given unit of measure. </p>
 
-<p class="definition">Definition at line <a class="el" href="DimensionalScalar_8hpp_source.html#l00102">102</a> of file <a class="el" href="DimensionalScalar_8hpp_source.html">DimensionalScalar.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="DimensionalScalar_8hpp_source.html#l00100">100</a> of file <a class="el" href="DimensionalScalar_8hpp_source.html">DimensionalScalar.hpp</a>.</p>
 
 </div>
 </div>
-<a id="a0e3a68ee9c8b42e8fe942349e588a4ac"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0e3a68ee9c8b42e8fe942349e588a4ac">&#9670;&nbsp;</a></span>SetValue()</h2>
+<a id="a16891d80e526226d81481faecb0331ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a16891d80e526226d81481faecb0331ae">&#9670;&nbsp;</a></span>SetValue()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1244,12 +1244,12 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Sets the value of this physical quantity expressed in its standard unit of measure to the given value. </p>
 
-<p class="definition">Definition at line <a class="el" href="DimensionalScalar_8hpp_source.html#l00090">90</a> of file <a class="el" href="DimensionalScalar_8hpp_source.html">DimensionalScalar.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="DimensionalScalar_8hpp_source.html#l00088">88</a> of file <a class="el" href="DimensionalScalar_8hpp_source.html">DimensionalScalar.hpp</a>.</p>
 
 </div>
 </div>
-<a id="aad095a483424ef55a6ec8031bc285282"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aad095a483424ef55a6ec8031bc285282">&#9670;&nbsp;</a></span>StaticValue()</h2>
+<a id="aa401781659dfda7d74e644ceaf68ff8d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa401781659dfda7d74e644ceaf68ff8d">&#9670;&nbsp;</a></span>StaticValue()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1273,12 +1273,12 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Value of this physical quantity expressed in a given unit of measure. This method can be evaluated statically at compile-time. </p>
 
-<p class="definition">Definition at line <a class="el" href="DimensionalScalar_8hpp_source.html#l00078">78</a> of file <a class="el" href="DimensionalScalar_8hpp_source.html">DimensionalScalar.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="DimensionalScalar_8hpp_source.html#l00076">76</a> of file <a class="el" href="DimensionalScalar_8hpp_source.html">DimensionalScalar.hpp</a>.</p>
 
 </div>
 </div>
-<a id="a75b344fe52822caa65e4918e1d1fcbd6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a75b344fe52822caa65e4918e1d1fcbd6">&#9670;&nbsp;</a></span>Unit()</h2>
+<a id="ac50d4adb6c3f11c180714b6aa39534cd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac50d4adb6c3f11c180714b6aa39534cd">&#9670;&nbsp;</a></span>Unit()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1306,8 +1306,8 @@ template&lt;typename Number  = double&gt; </div>
 
 </div>
 </div>
-<a id="a8068bf6cddee8d6cb3f8aa1dc9216170"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8068bf6cddee8d6cb3f8aa1dc9216170">&#9670;&nbsp;</a></span>Value() <span class="overload">[1/2]</span></h2>
+<a id="aa89c594ce9a870e7d509c39dfa1f996c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa89c594ce9a870e7d509c39dfa1f996c">&#9670;&nbsp;</a></span>Value() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1335,8 +1335,8 @@ template&lt;typename Number  = double&gt; </div>
 
 </div>
 </div>
-<a id="a4ee07be63b44992cae508b16df54c004"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4ee07be63b44992cae508b16df54c004">&#9670;&nbsp;</a></span>Value() <span class="overload">[2/2]</span></h2>
+<a id="a7295e6cce3097405dcaaba0c3c7ebc55"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7295e6cce3097405dcaaba0c3c7ebc55">&#9670;&nbsp;</a></span>Value() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1365,8 +1365,8 @@ template&lt;typename Number  = double&gt; </div>
 
 </div>
 </div>
-<a id="ae7e0d5f7bd52789b77ff20842cba38d8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae7e0d5f7bd52789b77ff20842cba38d8">&#9670;&nbsp;</a></span>XML() <span class="overload">[1/2]</span></h2>
+<a id="ae9c476851d0b711cf6d616483bba9594"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae9c476851d0b711cf6d616483bba9594">&#9670;&nbsp;</a></span>XML() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1390,12 +1390,12 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Serializes this physical quantity as an XML message. This physical quantity's value is expressed in its standard unit of measure. </p>
 
-<p class="definition">Definition at line <a class="el" href="DimensionalScalar_8hpp_source.html#l00128">128</a> of file <a class="el" href="DimensionalScalar_8hpp_source.html">DimensionalScalar.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="DimensionalScalar_8hpp_source.html#l00126">126</a> of file <a class="el" href="DimensionalScalar_8hpp_source.html">DimensionalScalar.hpp</a>.</p>
 
 </div>
 </div>
-<a id="abfe5f218e10bca3eb3f52e114beee2c1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abfe5f218e10bca3eb3f52e114beee2c1">&#9670;&nbsp;</a></span>XML() <span class="overload">[2/2]</span></h2>
+<a id="a0bcfcd2b36949dbfbe4e407d0523d749"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0bcfcd2b36949dbfbe4e407d0523d749">&#9670;&nbsp;</a></span>XML() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1420,12 +1420,12 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Serializes this physical quantity as an XML message. This physical quantity's value is expressed in the given unit of measure. </p>
 
-<p class="definition">Definition at line <a class="el" href="DimensionalScalar_8hpp_source.html#l00138">138</a> of file <a class="el" href="DimensionalScalar_8hpp_source.html">DimensionalScalar.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="DimensionalScalar_8hpp_source.html#l00136">136</a> of file <a class="el" href="DimensionalScalar_8hpp_source.html">DimensionalScalar.hpp</a>.</p>
 
 </div>
 </div>
-<a id="a2082ac17d425476688192460d79803cb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2082ac17d425476688192460d79803cb">&#9670;&nbsp;</a></span>YAML() <span class="overload">[1/2]</span></h2>
+<a id="ac55005e5bec47b0f01de69e71ede218a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac55005e5bec47b0f01de69e71ede218a">&#9670;&nbsp;</a></span>YAML() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1449,12 +1449,12 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Serializes this physical quantity as a YAML message. This physical quantity's value is expressed in its standard unit of measure. </p>
 
-<p class="definition">Definition at line <a class="el" href="DimensionalScalar_8hpp_source.html#l00148">148</a> of file <a class="el" href="DimensionalScalar_8hpp_source.html">DimensionalScalar.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="DimensionalScalar_8hpp_source.html#l00146">146</a> of file <a class="el" href="DimensionalScalar_8hpp_source.html">DimensionalScalar.hpp</a>.</p>
 
 </div>
 </div>
-<a id="aacdcb91b676e4fdb5aa562e5ba58ca1d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aacdcb91b676e4fdb5aa562e5ba58ca1d">&#9670;&nbsp;</a></span>YAML() <span class="overload">[2/2]</span></h2>
+<a id="a14579dd93adade7f7908d3a77b5967e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a14579dd93adade7f7908d3a77b5967e7">&#9670;&nbsp;</a></span>YAML() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1479,23 +1479,23 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Serializes this physical quantity as a YAML message. This physical quantity's value is expressed in the given unit of measure. </p>
 
-<p class="definition">Definition at line <a class="el" href="DimensionalScalar_8hpp_source.html#l00158">158</a> of file <a class="el" href="DimensionalScalar_8hpp_source.html">DimensionalScalar.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="DimensionalScalar_8hpp_source.html#l00156">156</a> of file <a class="el" href="DimensionalScalar_8hpp_source.html">DimensionalScalar.hpp</a>.</p>
 
 </div>
 </div>
-<a id="a8bf1a2db02252822151bd700343515e7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8bf1a2db02252822151bd700343515e7">&#9670;&nbsp;</a></span>Zero()</h2>
+<a id="a4c869b8cba3b18e4dec176c45177408e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c869b8cba3b18e4dec176c45177408e">&#9670;&nbsp;</a></span>Zero()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static constexpr <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt;Number&gt; <a class="el" href="classPhQ_1_1ScalarTraction.html">PhQ::ScalarTraction</a>&lt; Number &gt;::Zero </td>
+          <td class="memname">static constexpr <a class="el" href="classPhQ_1_1ScalarTraction.html">ScalarTraction</a>&lt;NumericType&gt; <a class="el" href="classPhQ_1_1ScalarTraction.html">PhQ::ScalarTraction</a>&lt; NumericType &gt;::Zero </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -1510,7 +1510,7 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Statically creates a scalar traction of zero. </p>
 
-<p class="definition">Definition at line <a class="el" href="ScalarTraction_8hpp_source.html#l00106">106</a> of file <a class="el" href="ScalarTraction_8hpp_source.html">ScalarTraction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ScalarTraction_8hpp_source.html#l00109">109</a> of file <a class="el" href="ScalarTraction_8hpp_source.html">ScalarTraction.hpp</a>.</p>
 
 </div>
 </div>
@@ -1521,9 +1521,9 @@ template&lt;typename Number  = double&gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <div class="memtemplate">
-template&lt;typename OtherNumber &gt; </div>
+template&lt;typename OtherNumericType &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -1539,7 +1539,7 @@ template&lt;typename OtherNumber &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ScalarTraction_8hpp_source.html#l00169">169</a> of file <a class="el" href="ScalarTraction_8hpp_source.html">ScalarTraction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ScalarTraction_8hpp_source.html#l00173">173</a> of file <a class="el" href="ScalarTraction_8hpp_source.html">ScalarTraction.hpp</a>.</p>
 
 </div>
 </div>
@@ -1549,9 +1549,9 @@ template&lt;typename OtherNumber &gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <div class="memtemplate">
-template&lt;typename OtherNumber &gt; </div>
+template&lt;typename OtherNumericType &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -1567,13 +1567,13 @@ template&lt;typename OtherNumber &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="ScalarTraction_8hpp_source.html#l00172">172</a> of file <a class="el" href="ScalarTraction_8hpp_source.html">ScalarTraction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="ScalarTraction_8hpp_source.html#l00176">176</a> of file <a class="el" href="ScalarTraction_8hpp_source.html">ScalarTraction.hpp</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a076d75036473812cf5583dc12b30aac2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a076d75036473812cf5583dc12b30aac2">&#9670;&nbsp;</a></span>value</h2>
+<a id="a34ca46c6f38afa3d34cba2eda00092fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a34ca46c6f38afa3d34cba2eda00092fe">&#9670;&nbsp;</a></span>value</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1594,7 +1594,7 @@ template&lt;typename OtherNumber &gt; </div>
 
 <p>Value of this physical quantity expressed in its standard unit of measure. </p>
 
-<p class="definition">Definition at line <a class="el" href="DimensionalScalar_8hpp_source.html#l00218">218</a> of file <a class="el" href="DimensionalScalar_8hpp_source.html">DimensionalScalar.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="DimensionalScalar_8hpp_source.html#l00216">216</a> of file <a class="el" href="DimensionalScalar_8hpp_source.html">DimensionalScalar.hpp</a>.</p>
 
 </div>
 </div>

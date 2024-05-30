@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=9" />
     <meta name="generator" content="Doxygen 1.9.1" />
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=4.0" />
-    <title>Physical Quantities (PhQ): PhQ::Vector&lt; Number &gt; Class Template Reference</title>
+    <title>Physical Quantities (PhQ): PhQ::Vector&lt; NumericType &gt; Class Template Reference</title>
     <link href="tabs.css" rel="stylesheet" type="text/css" />
     <script type="text/javascript" src="jquery.js"></script>
     <script type="text/javascript" src="dynsections.js"></script>
@@ -109,7 +109,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search','.html');
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classPhQ_1_1Vector-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">PhQ::Vector&lt; Number &gt; Class Template Reference</div>  </div>
+<div class="title">PhQ::Vector&lt; NumericType &gt; Class Template Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
@@ -120,175 +120,175 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search','.html');
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a8b20856b78ca3302e91223aa37ffb44b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Vector.html#a8b20856b78ca3302e91223aa37ffb44b">Vector</a> ()=default</td></tr>
-<tr class="memdesc:a8b20856b78ca3302e91223aa37ffb44b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor. Constructs a three-dimensional vector with uninitialized x, y, and z Cartesian components.  <a href="classPhQ_1_1Vector.html#a8b20856b78ca3302e91223aa37ffb44b">More...</a><br /></td></tr>
-<tr class="separator:a8b20856b78ca3302e91223aa37ffb44b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8df1470a68fe1f883c8ab057a32a2c22"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Vector.html#a8df1470a68fe1f883c8ab057a32a2c22">Vector</a> (const Number <a class="el" href="classPhQ_1_1Vector.html#a9f7082b45323a3fc78f9beae5f551689">x</a>, const Number <a class="el" href="classPhQ_1_1Vector.html#af0d41d90904ce1f232799b283ee0c872">y</a>, const Number <a class="el" href="classPhQ_1_1Vector.html#a3fac362f6f83d5fbf8cb6e05707dffeb">z</a>)</td></tr>
-<tr class="memdesc:a8df1470a68fe1f883c8ab057a32a2c22"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a three-dimensional vector from the given x, y, and z Cartesian components.  <a href="classPhQ_1_1Vector.html#a8df1470a68fe1f883c8ab057a32a2c22">More...</a><br /></td></tr>
-<tr class="separator:a8df1470a68fe1f883c8ab057a32a2c22"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8e89d98354fa660e37ca8eac6742da1c"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Vector.html#a8e89d98354fa660e37ca8eac6742da1c">Vector</a> (const std::array&lt; Number, 3 &gt; &amp;<a class="el" href="classPhQ_1_1Vector.html#a18ff506c80c7453b89ae20ae3f7f3565">x_y_z</a>)</td></tr>
-<tr class="memdesc:a8e89d98354fa660e37ca8eac6742da1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a three-dimensional vector from a given array representing its x, y, and z Cartesian components.  <a href="classPhQ_1_1Vector.html#a8e89d98354fa660e37ca8eac6742da1c">More...</a><br /></td></tr>
-<tr class="separator:a8e89d98354fa660e37ca8eac6742da1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0480dce7699c42d43d703d8ec6ef000a"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Vector.html#a0480dce7699c42d43d703d8ec6ef000a">Vector</a> (const <a class="el" href="classPhQ_1_1PlanarVector.html">PlanarVector</a>&lt; Number &gt; &amp;planar_vector)</td></tr>
-<tr class="memdesc:a0480dce7699c42d43d703d8ec6ef000a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a three-dimensional vector from a given two-dimensional planar vector in the XY plane. This vector's z-component is initialized to zero.  <a href="classPhQ_1_1Vector.html#a0480dce7699c42d43d703d8ec6ef000a">More...</a><br /></td></tr>
-<tr class="separator:a0480dce7699c42d43d703d8ec6ef000a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3f686b0df7b21991fdcdc87074a1bbf7"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Vector.html#a3f686b0df7b21991fdcdc87074a1bbf7">Vector</a> (Number magnitude, const <a class="el" href="classPhQ_1_1Direction.html">Direction</a>&lt; Number &gt; &amp;direction)</td></tr>
-<tr class="memdesc:a3f686b0df7b21991fdcdc87074a1bbf7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a three-dimensional vector given a magnitude and a direction.  <a href="classPhQ_1_1Vector.html#a3f686b0df7b21991fdcdc87074a1bbf7">More...</a><br /></td></tr>
-<tr class="separator:a3f686b0df7b21991fdcdc87074a1bbf7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a913c6b45d52a7f6a11ac8b70be9e2aef"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Vector.html#a913c6b45d52a7f6a11ac8b70be9e2aef">~Vector</a> () noexcept=default</td></tr>
-<tr class="memdesc:a913c6b45d52a7f6a11ac8b70be9e2aef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor. Destroys this three-dimensional vector.  <a href="classPhQ_1_1Vector.html#a913c6b45d52a7f6a11ac8b70be9e2aef">More...</a><br /></td></tr>
-<tr class="separator:a913c6b45d52a7f6a11ac8b70be9e2aef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae722cbfe2decc32ce0aa09343cdb8299"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Vector.html#ae722cbfe2decc32ce0aa09343cdb8299">Vector</a> (const <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt; Number &gt; &amp;other)=default</td></tr>
-<tr class="memdesc:ae722cbfe2decc32ce0aa09343cdb8299"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy constructor. Constructs a three-dimensional vector by copying another one.  <a href="classPhQ_1_1Vector.html#ae722cbfe2decc32ce0aa09343cdb8299">More...</a><br /></td></tr>
-<tr class="separator:ae722cbfe2decc32ce0aa09343cdb8299"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5c0ab009eb54ff4fe8387cee06cb7e17"><td class="memTemplParams" colspan="2">template&lt;typename OtherNumber &gt; </td></tr>
-<tr class="memitem:a5c0ab009eb54ff4fe8387cee06cb7e17"><td class="memTemplItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Vector.html#a5c0ab009eb54ff4fe8387cee06cb7e17">Vector</a> (const <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt; OtherNumber &gt; &amp;other)</td></tr>
-<tr class="memdesc:a5c0ab009eb54ff4fe8387cee06cb7e17"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy constructor. Constructs a three-dimensional vector by copying another one.  <a href="classPhQ_1_1Vector.html#a5c0ab009eb54ff4fe8387cee06cb7e17">More...</a><br /></td></tr>
-<tr class="separator:a5c0ab009eb54ff4fe8387cee06cb7e17"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a15835ab765a8c98549828b10d84f13d3"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Vector.html#a15835ab765a8c98549828b10d84f13d3">Vector</a> (<a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt; Number &gt; &amp;&amp;other) noexcept=default</td></tr>
-<tr class="memdesc:a15835ab765a8c98549828b10d84f13d3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move constructor. Constructs a three-dimensional vector by moving another one.  <a href="classPhQ_1_1Vector.html#a15835ab765a8c98549828b10d84f13d3">More...</a><br /></td></tr>
-<tr class="separator:a15835ab765a8c98549828b10d84f13d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1743088864e5baf799f1b708d32fb70d"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt; Number &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Vector.html#a1743088864e5baf799f1b708d32fb70d">operator=</a> (const <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt; Number &gt; &amp;other)=default</td></tr>
-<tr class="memdesc:a1743088864e5baf799f1b708d32fb70d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy assignment operator. Assigns this three-dimensional vector by copying another one.  <a href="classPhQ_1_1Vector.html#a1743088864e5baf799f1b708d32fb70d">More...</a><br /></td></tr>
-<tr class="separator:a1743088864e5baf799f1b708d32fb70d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa640587b878fdfdafcf1ca37988fe7f5"><td class="memTemplParams" colspan="2">template&lt;typename OtherNumber &gt; </td></tr>
-<tr class="memitem:aa640587b878fdfdafcf1ca37988fe7f5"><td class="memTemplItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt; Number &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Vector.html#aa640587b878fdfdafcf1ca37988fe7f5">operator=</a> (const <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt; OtherNumber &gt; &amp;other)</td></tr>
-<tr class="memdesc:aa640587b878fdfdafcf1ca37988fe7f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy assignment operator. Assigns this three-dimensional vector by copying another one.  <a href="classPhQ_1_1Vector.html#aa640587b878fdfdafcf1ca37988fe7f5">More...</a><br /></td></tr>
-<tr class="separator:aa640587b878fdfdafcf1ca37988fe7f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a19cf7583c387a663c893fd270a21f263"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt; Number &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Vector.html#a19cf7583c387a663c893fd270a21f263">operator=</a> (<a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt; Number &gt; &amp;&amp;other) noexcept=default</td></tr>
-<tr class="memdesc:a19cf7583c387a663c893fd270a21f263"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move assignment operator. Assigns this three-dimensional vector by moving another one.  <a href="classPhQ_1_1Vector.html#a19cf7583c387a663c893fd270a21f263">More...</a><br /></td></tr>
-<tr class="separator:a19cf7583c387a663c893fd270a21f263"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a52c81d5c6529ee052a2e9de197f09bcf"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt; Number &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Vector.html#a52c81d5c6529ee052a2e9de197f09bcf">operator=</a> (const std::array&lt; Number, 3 &gt; &amp;<a class="el" href="classPhQ_1_1Vector.html#a18ff506c80c7453b89ae20ae3f7f3565">x_y_z</a>)</td></tr>
-<tr class="memdesc:a52c81d5c6529ee052a2e9de197f09bcf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assignment operator. Assigns this three-dimensional vector by copying a given array representing its x, y, and z Cartesian components.  <a href="classPhQ_1_1Vector.html#a52c81d5c6529ee052a2e9de197f09bcf">More...</a><br /></td></tr>
-<tr class="separator:a52c81d5c6529ee052a2e9de197f09bcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a18ff506c80c7453b89ae20ae3f7f3565"><td class="memItemLeft" align="right" valign="top">constexpr const std::array&lt; Number, 3 &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Vector.html#a18ff506c80c7453b89ae20ae3f7f3565">x_y_z</a> () const noexcept</td></tr>
-<tr class="memdesc:a18ff506c80c7453b89ae20ae3f7f3565"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns this three-dimensional vector's x, y, and z Cartesian components as an array.  <a href="classPhQ_1_1Vector.html#a18ff506c80c7453b89ae20ae3f7f3565">More...</a><br /></td></tr>
-<tr class="separator:a18ff506c80c7453b89ae20ae3f7f3565"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9f7082b45323a3fc78f9beae5f551689"><td class="memItemLeft" align="right" valign="top">constexpr Number&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Vector.html#a9f7082b45323a3fc78f9beae5f551689">x</a> () const noexcept</td></tr>
-<tr class="memdesc:a9f7082b45323a3fc78f9beae5f551689"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns this three-dimensional vector's x Cartesian component.  <a href="classPhQ_1_1Vector.html#a9f7082b45323a3fc78f9beae5f551689">More...</a><br /></td></tr>
-<tr class="separator:a9f7082b45323a3fc78f9beae5f551689"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af0d41d90904ce1f232799b283ee0c872"><td class="memItemLeft" align="right" valign="top">constexpr Number&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Vector.html#af0d41d90904ce1f232799b283ee0c872">y</a> () const noexcept</td></tr>
-<tr class="memdesc:af0d41d90904ce1f232799b283ee0c872"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns this three-dimensional vector's y Cartesian component.  <a href="classPhQ_1_1Vector.html#af0d41d90904ce1f232799b283ee0c872">More...</a><br /></td></tr>
-<tr class="separator:af0d41d90904ce1f232799b283ee0c872"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3fac362f6f83d5fbf8cb6e05707dffeb"><td class="memItemLeft" align="right" valign="top">constexpr Number&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Vector.html#a3fac362f6f83d5fbf8cb6e05707dffeb">z</a> () const noexcept</td></tr>
-<tr class="memdesc:a3fac362f6f83d5fbf8cb6e05707dffeb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns this three-dimensional vector's z Cartesian component.  <a href="classPhQ_1_1Vector.html#a3fac362f6f83d5fbf8cb6e05707dffeb">More...</a><br /></td></tr>
-<tr class="separator:a3fac362f6f83d5fbf8cb6e05707dffeb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6c2cf0ff2142e6fb94f22a4e0993781a"><td class="memItemLeft" align="right" valign="top">constexpr std::array&lt; Number, 3 &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Vector.html#a6c2cf0ff2142e6fb94f22a4e0993781a">Mutable_x_y_z</a> () noexcept</td></tr>
-<tr class="memdesc:a6c2cf0ff2142e6fb94f22a4e0993781a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns this three-dimensional vector's x, y, and z Cartesian components as a mutable array.  <a href="classPhQ_1_1Vector.html#a6c2cf0ff2142e6fb94f22a4e0993781a">More...</a><br /></td></tr>
-<tr class="separator:a6c2cf0ff2142e6fb94f22a4e0993781a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aef836117e5460a637cd731a8b07b3910"><td class="memItemLeft" align="right" valign="top">constexpr Number &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Vector.html#aef836117e5460a637cd731a8b07b3910">Mutable_x</a> () noexcept</td></tr>
-<tr class="memdesc:aef836117e5460a637cd731a8b07b3910"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns this three-dimensional vector's x Cartesian component as a mutable value.  <a href="classPhQ_1_1Vector.html#aef836117e5460a637cd731a8b07b3910">More...</a><br /></td></tr>
-<tr class="separator:aef836117e5460a637cd731a8b07b3910"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af8e7849d630b987eae4151a09feae16a"><td class="memItemLeft" align="right" valign="top">constexpr Number &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Vector.html#af8e7849d630b987eae4151a09feae16a">Mutable_y</a> () noexcept</td></tr>
-<tr class="memdesc:af8e7849d630b987eae4151a09feae16a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns this three-dimensional vector's y Cartesian component as a mutable value.  <a href="classPhQ_1_1Vector.html#af8e7849d630b987eae4151a09feae16a">More...</a><br /></td></tr>
-<tr class="separator:af8e7849d630b987eae4151a09feae16a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aafb3180bd137637ba0ddd51efe938aec"><td class="memItemLeft" align="right" valign="top">constexpr Number &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Vector.html#aafb3180bd137637ba0ddd51efe938aec">Mutable_z</a> () noexcept</td></tr>
-<tr class="memdesc:aafb3180bd137637ba0ddd51efe938aec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns this three-dimensional vector's z Cartesian component as a mutable value.  <a href="classPhQ_1_1Vector.html#aafb3180bd137637ba0ddd51efe938aec">More...</a><br /></td></tr>
-<tr class="separator:aafb3180bd137637ba0ddd51efe938aec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6970618c439700b0b13a58df1b8cd1e5"><td class="memItemLeft" align="right" valign="top">constexpr void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Vector.html#a6970618c439700b0b13a58df1b8cd1e5">Set_x_y_z</a> (const std::array&lt; Number, 3 &gt; &amp;<a class="el" href="classPhQ_1_1Vector.html#a18ff506c80c7453b89ae20ae3f7f3565">x_y_z</a>) noexcept</td></tr>
-<tr class="memdesc:a6970618c439700b0b13a58df1b8cd1e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets this three-dimensional vector's x, y, and z Cartesian components to the given values.  <a href="classPhQ_1_1Vector.html#a6970618c439700b0b13a58df1b8cd1e5">More...</a><br /></td></tr>
-<tr class="separator:a6970618c439700b0b13a58df1b8cd1e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab2b2923881b3cf14b8c6bba4208f5693"><td class="memItemLeft" align="right" valign="top">constexpr void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Vector.html#ab2b2923881b3cf14b8c6bba4208f5693">Set_x_y_z</a> (const Number <a class="el" href="classPhQ_1_1Vector.html#a9f7082b45323a3fc78f9beae5f551689">x</a>, const Number <a class="el" href="classPhQ_1_1Vector.html#af0d41d90904ce1f232799b283ee0c872">y</a>, const Number <a class="el" href="classPhQ_1_1Vector.html#a3fac362f6f83d5fbf8cb6e05707dffeb">z</a>) noexcept</td></tr>
-<tr class="memdesc:ab2b2923881b3cf14b8c6bba4208f5693"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets this three-dimensional vector's x, y, and z Cartesian components to the given values.  <a href="classPhQ_1_1Vector.html#ab2b2923881b3cf14b8c6bba4208f5693">More...</a><br /></td></tr>
-<tr class="separator:ab2b2923881b3cf14b8c6bba4208f5693"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1cc1c6a744942420ea15e6f01c8c354a"><td class="memItemLeft" align="right" valign="top">constexpr void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Vector.html#a1cc1c6a744942420ea15e6f01c8c354a">Set_x</a> (const Number <a class="el" href="classPhQ_1_1Vector.html#a9f7082b45323a3fc78f9beae5f551689">x</a>) noexcept</td></tr>
-<tr class="memdesc:a1cc1c6a744942420ea15e6f01c8c354a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets this three-dimensional vector's x Cartesian component to a given value.  <a href="classPhQ_1_1Vector.html#a1cc1c6a744942420ea15e6f01c8c354a">More...</a><br /></td></tr>
-<tr class="separator:a1cc1c6a744942420ea15e6f01c8c354a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a85696d7cf79d80726481e0aa4bed512f"><td class="memItemLeft" align="right" valign="top">constexpr void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Vector.html#a85696d7cf79d80726481e0aa4bed512f">Set_y</a> (const Number <a class="el" href="classPhQ_1_1Vector.html#af0d41d90904ce1f232799b283ee0c872">y</a>) noexcept</td></tr>
-<tr class="memdesc:a85696d7cf79d80726481e0aa4bed512f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets this three-dimensional vector's y Cartesian component to a given value.  <a href="classPhQ_1_1Vector.html#a85696d7cf79d80726481e0aa4bed512f">More...</a><br /></td></tr>
-<tr class="separator:a85696d7cf79d80726481e0aa4bed512f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a81a5540634e807e122a445e45a2f1527"><td class="memItemLeft" align="right" valign="top">constexpr void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Vector.html#a81a5540634e807e122a445e45a2f1527">Set_z</a> (const Number <a class="el" href="classPhQ_1_1Vector.html#a3fac362f6f83d5fbf8cb6e05707dffeb">z</a>) noexcept</td></tr>
-<tr class="memdesc:a81a5540634e807e122a445e45a2f1527"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets this three-dimensional vector's z Cartesian component to a given value.  <a href="classPhQ_1_1Vector.html#a81a5540634e807e122a445e45a2f1527">More...</a><br /></td></tr>
-<tr class="separator:a81a5540634e807e122a445e45a2f1527"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af8925802f1a0875f8717294d6ee51bcb"><td class="memItemLeft" align="right" valign="top">constexpr Number&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Vector.html#af8925802f1a0875f8717294d6ee51bcb">MagnitudeSquared</a> () const noexcept</td></tr>
-<tr class="memdesc:af8925802f1a0875f8717294d6ee51bcb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the square of the magnitude of this three-dimensional vector.  <a href="classPhQ_1_1Vector.html#af8925802f1a0875f8717294d6ee51bcb">More...</a><br /></td></tr>
-<tr class="separator:af8925802f1a0875f8717294d6ee51bcb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab0389aef5fa6161ce85dcdadc5d76300"><td class="memItemLeft" align="right" valign="top">Number&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Vector.html#ab0389aef5fa6161ce85dcdadc5d76300">Magnitude</a> () const noexcept</td></tr>
-<tr class="memdesc:ab0389aef5fa6161ce85dcdadc5d76300"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the magnitude (also known as the L2 norm) of this three-dimensional vector.  <a href="classPhQ_1_1Vector.html#ab0389aef5fa6161ce85dcdadc5d76300">More...</a><br /></td></tr>
-<tr class="separator:ab0389aef5fa6161ce85dcdadc5d76300"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8ca3c7a2b7258c425c6155414baa467e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPhQ_1_1Direction.html">PhQ::Direction</a>&lt; Number &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Vector.html#a8ca3c7a2b7258c425c6155414baa467e">Direction</a> () const</td></tr>
-<tr class="memdesc:a8ca3c7a2b7258c425c6155414baa467e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the direction of this three-dimensional vector.  <a href="classPhQ_1_1Vector.html#a8ca3c7a2b7258c425c6155414baa467e">More...</a><br /></td></tr>
-<tr class="separator:a8ca3c7a2b7258c425c6155414baa467e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a409a3449206eb8857019a2daa54b3953"><td class="memItemLeft" align="right" valign="top">constexpr Number&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Vector.html#a409a3449206eb8857019a2daa54b3953">Dot</a> (const <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt; Number &gt; &amp;vector) const noexcept</td></tr>
-<tr class="memdesc:a409a3449206eb8857019a2daa54b3953"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the dot product (also known as the inner product or scalar product) of this three-dimensional vector and another one.  <a href="classPhQ_1_1Vector.html#a409a3449206eb8857019a2daa54b3953">More...</a><br /></td></tr>
-<tr class="separator:a409a3449206eb8857019a2daa54b3953"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1a352d93851cc507ff37d1345944a38f"><td class="memItemLeft" align="right" valign="top">constexpr Number&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Vector.html#a1a352d93851cc507ff37d1345944a38f">Dot</a> (const <a class="el" href="classPhQ_1_1Direction.html">PhQ::Direction</a>&lt; Number &gt; &amp;direction) const noexcept</td></tr>
-<tr class="memdesc:a1a352d93851cc507ff37d1345944a38f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the dot product (also known as the inner product or scalar product) of this three-dimensional vector and a given direction.  <a href="classPhQ_1_1Vector.html#a1a352d93851cc507ff37d1345944a38f">More...</a><br /></td></tr>
-<tr class="separator:a1a352d93851cc507ff37d1345944a38f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afeaef383acb2783257174a43545169d5"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt; Number &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Vector.html#afeaef383acb2783257174a43545169d5">Cross</a> (const <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt; Number &gt; &amp;vector) const</td></tr>
-<tr class="memdesc:afeaef383acb2783257174a43545169d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the cross product (also known as the vector product) of this three-dimensional vector and another one.  <a href="classPhQ_1_1Vector.html#afeaef383acb2783257174a43545169d5">More...</a><br /></td></tr>
-<tr class="separator:afeaef383acb2783257174a43545169d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afeab2b51af6c8be64502a1fe1522a54d"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt; Number &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Vector.html#afeab2b51af6c8be64502a1fe1522a54d">Cross</a> (const <a class="el" href="classPhQ_1_1Direction.html">PhQ::Direction</a>&lt; Number &gt; &amp;direction) const</td></tr>
-<tr class="memdesc:afeab2b51af6c8be64502a1fe1522a54d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the cross product (also known as the vector product) of this three-dimensional vector and a given direction.  <a href="classPhQ_1_1Vector.html#afeab2b51af6c8be64502a1fe1522a54d">More...</a><br /></td></tr>
-<tr class="separator:afeab2b51af6c8be64502a1fe1522a54d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae76020aa3a5992a18209627108118af8"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1Dyad.html">Dyad</a>&lt; Number &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Vector.html#ae76020aa3a5992a18209627108118af8">Dyadic</a> (const <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt; Number &gt; &amp;vector) const</td></tr>
-<tr class="memdesc:ae76020aa3a5992a18209627108118af8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the dyadic tensor product (also known as the outer product) of this three-dimensional vector and another one.  <a href="classPhQ_1_1Vector.html#ae76020aa3a5992a18209627108118af8">More...</a><br /></td></tr>
-<tr class="separator:ae76020aa3a5992a18209627108118af8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aad6faf1fa291bbf9c1a2ceb7103c68aa"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1Dyad.html">Dyad</a>&lt; Number &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Vector.html#aad6faf1fa291bbf9c1a2ceb7103c68aa">Dyadic</a> (const <a class="el" href="classPhQ_1_1Direction.html">PhQ::Direction</a>&lt; Number &gt; &amp;direction) const</td></tr>
-<tr class="memdesc:aad6faf1fa291bbf9c1a2ceb7103c68aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the dyadic tensor product (also known as the outer product) of this three-dimensional vector and a given direction.  <a href="classPhQ_1_1Vector.html#aad6faf1fa291bbf9c1a2ceb7103c68aa">More...</a><br /></td></tr>
-<tr class="separator:aad6faf1fa291bbf9c1a2ceb7103c68aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a93fb10aee3026381406e25ee9f5e2c2c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPhQ_1_1Angle.html">PhQ::Angle</a>&lt; Number &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Vector.html#a93fb10aee3026381406e25ee9f5e2c2c">Angle</a> (const <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt; Number &gt; &amp;vector) const</td></tr>
-<tr class="memdesc:a93fb10aee3026381406e25ee9f5e2c2c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the angle between this three-dimensional vector and another one.  <a href="classPhQ_1_1Vector.html#a93fb10aee3026381406e25ee9f5e2c2c">More...</a><br /></td></tr>
-<tr class="separator:a93fb10aee3026381406e25ee9f5e2c2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3e9cca856807f0987db90c8f430a2a3b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPhQ_1_1Angle.html">PhQ::Angle</a>&lt; Number &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Vector.html#a3e9cca856807f0987db90c8f430a2a3b">Angle</a> (const <a class="el" href="classPhQ_1_1Direction.html">PhQ::Direction</a>&lt; Number &gt; &amp;direction) const</td></tr>
-<tr class="memdesc:a3e9cca856807f0987db90c8f430a2a3b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the angle between this three-dimensional vector and a given direction.  <a href="classPhQ_1_1Vector.html#a3e9cca856807f0987db90c8f430a2a3b">More...</a><br /></td></tr>
-<tr class="separator:a3e9cca856807f0987db90c8f430a2a3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2a4487290bf00ee1b82f787548ca45ae"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Vector.html#a2a4487290bf00ee1b82f787548ca45ae">Print</a> () const</td></tr>
-<tr class="memdesc:a2a4487290bf00ee1b82f787548ca45ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints this three-dimensional vector as a string.  <a href="classPhQ_1_1Vector.html#a2a4487290bf00ee1b82f787548ca45ae">More...</a><br /></td></tr>
-<tr class="separator:a2a4487290bf00ee1b82f787548ca45ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8b801c808d9fd75edc6a916d41ef6aad"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Vector.html#a8b801c808d9fd75edc6a916d41ef6aad">JSON</a> () const</td></tr>
-<tr class="memdesc:a8b801c808d9fd75edc6a916d41ef6aad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serializes this three-dimensional vector as a JSON message.  <a href="classPhQ_1_1Vector.html#a8b801c808d9fd75edc6a916d41ef6aad">More...</a><br /></td></tr>
-<tr class="separator:a8b801c808d9fd75edc6a916d41ef6aad"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2cd6426a219aa2982198a8e937f96bba"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Vector.html#a2cd6426a219aa2982198a8e937f96bba">XML</a> () const</td></tr>
-<tr class="memdesc:a2cd6426a219aa2982198a8e937f96bba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serializes this three-dimensional vector as an XML message.  <a href="classPhQ_1_1Vector.html#a2cd6426a219aa2982198a8e937f96bba">More...</a><br /></td></tr>
-<tr class="separator:a2cd6426a219aa2982198a8e937f96bba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3487a932ab9de5f1126a02ac26037c29"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Vector.html#a3487a932ab9de5f1126a02ac26037c29">YAML</a> () const</td></tr>
-<tr class="memdesc:a3487a932ab9de5f1126a02ac26037c29"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serializes this three-dimensional vector as a YAML message.  <a href="classPhQ_1_1Vector.html#a3487a932ab9de5f1126a02ac26037c29">More...</a><br /></td></tr>
-<tr class="separator:a3487a932ab9de5f1126a02ac26037c29"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af2b3ff9d7238eacf91645de357831062"><td class="memItemLeft" align="right" valign="top">constexpr void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Vector.html#af2b3ff9d7238eacf91645de357831062">operator+=</a> (const <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt; Number &gt; &amp;vector) noexcept</td></tr>
-<tr class="separator:af2b3ff9d7238eacf91645de357831062"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a39b83a559bf2e076481993d6ebae1e75"><td class="memItemLeft" align="right" valign="top">constexpr void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Vector.html#a39b83a559bf2e076481993d6ebae1e75">operator-=</a> (const <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt; Number &gt; &amp;vector) noexcept</td></tr>
-<tr class="separator:a39b83a559bf2e076481993d6ebae1e75"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abba22067f83c48f5ed76043229002b4a"><td class="memTemplParams" colspan="2">template&lt;typename OtherNumber &gt; </td></tr>
-<tr class="memitem:abba22067f83c48f5ed76043229002b4a"><td class="memTemplItemLeft" align="right" valign="top">constexpr void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Vector.html#abba22067f83c48f5ed76043229002b4a">operator*=</a> (const OtherNumber number) noexcept</td></tr>
-<tr class="separator:abba22067f83c48f5ed76043229002b4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab830cd1ac86a4183ad186a855ac227ca"><td class="memTemplParams" colspan="2">template&lt;typename OtherNumber &gt; </td></tr>
-<tr class="memitem:ab830cd1ac86a4183ad186a855ac227ca"><td class="memTemplItemLeft" align="right" valign="top">constexpr void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Vector.html#ab830cd1ac86a4183ad186a855ac227ca">operator/=</a> (const OtherNumber number) noexcept</td></tr>
-<tr class="separator:ab830cd1ac86a4183ad186a855ac227ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa04bf9f8e559b377022cd5d4798e75b3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Vector.html#aa04bf9f8e559b377022cd5d4798e75b3">Vector</a> ()=default</td></tr>
+<tr class="memdesc:aa04bf9f8e559b377022cd5d4798e75b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor. Constructs a three-dimensional vector with uninitialized x, y, and z Cartesian components.  <a href="classPhQ_1_1Vector.html#aa04bf9f8e559b377022cd5d4798e75b3">More...</a><br /></td></tr>
+<tr class="separator:aa04bf9f8e559b377022cd5d4798e75b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9aafc4bf63e45170ae3387b09249bd5"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Vector.html#af9aafc4bf63e45170ae3387b09249bd5">Vector</a> (const NumericType <a class="el" href="classPhQ_1_1Vector.html#a86324f11eb02e8d21520786b229e5703">x</a>, const NumericType <a class="el" href="classPhQ_1_1Vector.html#ac504e3a76fcebc6e6c6ad4ea840a6756">y</a>, const NumericType <a class="el" href="classPhQ_1_1Vector.html#afa04389817c900abcf706971e398aa89">z</a>)</td></tr>
+<tr class="memdesc:af9aafc4bf63e45170ae3387b09249bd5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a three-dimensional vector from the given x, y, and z Cartesian components.  <a href="classPhQ_1_1Vector.html#af9aafc4bf63e45170ae3387b09249bd5">More...</a><br /></td></tr>
+<tr class="separator:af9aafc4bf63e45170ae3387b09249bd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a44e2f55b65984ac2bb2346d0e13c43bb"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Vector.html#a44e2f55b65984ac2bb2346d0e13c43bb">Vector</a> (const std::array&lt; NumericType, 3 &gt; &amp;<a class="el" href="classPhQ_1_1Vector.html#a5e4576d0701a25d1f75d2491379b489a">x_y_z</a>)</td></tr>
+<tr class="memdesc:a44e2f55b65984ac2bb2346d0e13c43bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a three-dimensional vector from a given array representing its x, y, and z Cartesian components.  <a href="classPhQ_1_1Vector.html#a44e2f55b65984ac2bb2346d0e13c43bb">More...</a><br /></td></tr>
+<tr class="separator:a44e2f55b65984ac2bb2346d0e13c43bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aadf1fa5746e2b17d0abb9d031e03c6a4"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Vector.html#aadf1fa5746e2b17d0abb9d031e03c6a4">Vector</a> (const <a class="el" href="classPhQ_1_1PlanarVector.html">PlanarVector</a>&lt; NumericType &gt; &amp;planar_vector)</td></tr>
+<tr class="memdesc:aadf1fa5746e2b17d0abb9d031e03c6a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a three-dimensional vector from a given two-dimensional planar vector in the XY plane. This vector's z-component is initialized to zero.  <a href="classPhQ_1_1Vector.html#aadf1fa5746e2b17d0abb9d031e03c6a4">More...</a><br /></td></tr>
+<tr class="separator:aadf1fa5746e2b17d0abb9d031e03c6a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4303444dfb1d8ce99d433b8d3509c06f"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Vector.html#a4303444dfb1d8ce99d433b8d3509c06f">Vector</a> (NumericType magnitude, const <a class="el" href="classPhQ_1_1Direction.html">Direction</a>&lt; NumericType &gt; &amp;direction)</td></tr>
+<tr class="memdesc:a4303444dfb1d8ce99d433b8d3509c06f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a three-dimensional vector given a magnitude and a direction.  <a href="classPhQ_1_1Vector.html#a4303444dfb1d8ce99d433b8d3509c06f">More...</a><br /></td></tr>
+<tr class="separator:a4303444dfb1d8ce99d433b8d3509c06f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a54a31532f82b3e0a4793b13fa4481ede"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Vector.html#a54a31532f82b3e0a4793b13fa4481ede">~Vector</a> () noexcept=default</td></tr>
+<tr class="memdesc:a54a31532f82b3e0a4793b13fa4481ede"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor. Destroys this three-dimensional vector.  <a href="classPhQ_1_1Vector.html#a54a31532f82b3e0a4793b13fa4481ede">More...</a><br /></td></tr>
+<tr class="separator:a54a31532f82b3e0a4793b13fa4481ede"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38913fa048c43ddd39dd7ca7b3bd301e"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Vector.html#a38913fa048c43ddd39dd7ca7b3bd301e">Vector</a> (const <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt; NumericType &gt; &amp;other)=default</td></tr>
+<tr class="memdesc:a38913fa048c43ddd39dd7ca7b3bd301e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy constructor. Constructs a three-dimensional vector by copying another one.  <a href="classPhQ_1_1Vector.html#a38913fa048c43ddd39dd7ca7b3bd301e">More...</a><br /></td></tr>
+<tr class="separator:a38913fa048c43ddd39dd7ca7b3bd301e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6bb26501016e08d315b710bee4e20f15"><td class="memTemplParams" colspan="2">template&lt;typename OtherNumericType &gt; </td></tr>
+<tr class="memitem:a6bb26501016e08d315b710bee4e20f15"><td class="memTemplItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Vector.html#a6bb26501016e08d315b710bee4e20f15">Vector</a> (const <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt; OtherNumericType &gt; &amp;other)</td></tr>
+<tr class="memdesc:a6bb26501016e08d315b710bee4e20f15"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy constructor. Constructs a three-dimensional vector by copying another one.  <a href="classPhQ_1_1Vector.html#a6bb26501016e08d315b710bee4e20f15">More...</a><br /></td></tr>
+<tr class="separator:a6bb26501016e08d315b710bee4e20f15"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5fa6855474361118a96d9cf3d57b6a1c"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Vector.html#a5fa6855474361118a96d9cf3d57b6a1c">Vector</a> (<a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt; NumericType &gt; &amp;&amp;other) noexcept=default</td></tr>
+<tr class="memdesc:a5fa6855474361118a96d9cf3d57b6a1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move constructor. Constructs a three-dimensional vector by moving another one.  <a href="classPhQ_1_1Vector.html#a5fa6855474361118a96d9cf3d57b6a1c">More...</a><br /></td></tr>
+<tr class="separator:a5fa6855474361118a96d9cf3d57b6a1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4b46205b72e3fdd29e47dcf25bf3d41"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt; NumericType &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Vector.html#af4b46205b72e3fdd29e47dcf25bf3d41">operator=</a> (const <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt; NumericType &gt; &amp;other)=default</td></tr>
+<tr class="memdesc:af4b46205b72e3fdd29e47dcf25bf3d41"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy assignment operator. Assigns this three-dimensional vector by copying another one.  <a href="classPhQ_1_1Vector.html#af4b46205b72e3fdd29e47dcf25bf3d41">More...</a><br /></td></tr>
+<tr class="separator:af4b46205b72e3fdd29e47dcf25bf3d41"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a23a98f1cf8d77ffd36e1b7e867b6f786"><td class="memTemplParams" colspan="2">template&lt;typename OtherNumericType &gt; </td></tr>
+<tr class="memitem:a23a98f1cf8d77ffd36e1b7e867b6f786"><td class="memTemplItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt; NumericType &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Vector.html#a23a98f1cf8d77ffd36e1b7e867b6f786">operator=</a> (const <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt; OtherNumericType &gt; &amp;other)</td></tr>
+<tr class="memdesc:a23a98f1cf8d77ffd36e1b7e867b6f786"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy assignment operator. Assigns this three-dimensional vector by copying another one.  <a href="classPhQ_1_1Vector.html#a23a98f1cf8d77ffd36e1b7e867b6f786">More...</a><br /></td></tr>
+<tr class="separator:a23a98f1cf8d77ffd36e1b7e867b6f786"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acbe343cc6795de79d0cc1ca87acf3d64"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt; NumericType &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Vector.html#acbe343cc6795de79d0cc1ca87acf3d64">operator=</a> (<a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt; NumericType &gt; &amp;&amp;other) noexcept=default</td></tr>
+<tr class="memdesc:acbe343cc6795de79d0cc1ca87acf3d64"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move assignment operator. Assigns this three-dimensional vector by moving another one.  <a href="classPhQ_1_1Vector.html#acbe343cc6795de79d0cc1ca87acf3d64">More...</a><br /></td></tr>
+<tr class="separator:acbe343cc6795de79d0cc1ca87acf3d64"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeca92fb4fc5c4999d3f6fad34d5dc651"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt; NumericType &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Vector.html#aeca92fb4fc5c4999d3f6fad34d5dc651">operator=</a> (const std::array&lt; NumericType, 3 &gt; &amp;<a class="el" href="classPhQ_1_1Vector.html#a5e4576d0701a25d1f75d2491379b489a">x_y_z</a>)</td></tr>
+<tr class="memdesc:aeca92fb4fc5c4999d3f6fad34d5dc651"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assignment operator. Assigns this three-dimensional vector by copying a given array representing its x, y, and z Cartesian components.  <a href="classPhQ_1_1Vector.html#aeca92fb4fc5c4999d3f6fad34d5dc651">More...</a><br /></td></tr>
+<tr class="separator:aeca92fb4fc5c4999d3f6fad34d5dc651"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e4576d0701a25d1f75d2491379b489a"><td class="memItemLeft" align="right" valign="top">constexpr const std::array&lt; NumericType, 3 &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Vector.html#a5e4576d0701a25d1f75d2491379b489a">x_y_z</a> () const noexcept</td></tr>
+<tr class="memdesc:a5e4576d0701a25d1f75d2491379b489a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns this three-dimensional vector's x, y, and z Cartesian components as an array.  <a href="classPhQ_1_1Vector.html#a5e4576d0701a25d1f75d2491379b489a">More...</a><br /></td></tr>
+<tr class="separator:a5e4576d0701a25d1f75d2491379b489a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86324f11eb02e8d21520786b229e5703"><td class="memItemLeft" align="right" valign="top">constexpr NumericType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Vector.html#a86324f11eb02e8d21520786b229e5703">x</a> () const noexcept</td></tr>
+<tr class="memdesc:a86324f11eb02e8d21520786b229e5703"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns this three-dimensional vector's x Cartesian component.  <a href="classPhQ_1_1Vector.html#a86324f11eb02e8d21520786b229e5703">More...</a><br /></td></tr>
+<tr class="separator:a86324f11eb02e8d21520786b229e5703"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac504e3a76fcebc6e6c6ad4ea840a6756"><td class="memItemLeft" align="right" valign="top">constexpr NumericType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Vector.html#ac504e3a76fcebc6e6c6ad4ea840a6756">y</a> () const noexcept</td></tr>
+<tr class="memdesc:ac504e3a76fcebc6e6c6ad4ea840a6756"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns this three-dimensional vector's y Cartesian component.  <a href="classPhQ_1_1Vector.html#ac504e3a76fcebc6e6c6ad4ea840a6756">More...</a><br /></td></tr>
+<tr class="separator:ac504e3a76fcebc6e6c6ad4ea840a6756"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa04389817c900abcf706971e398aa89"><td class="memItemLeft" align="right" valign="top">constexpr NumericType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Vector.html#afa04389817c900abcf706971e398aa89">z</a> () const noexcept</td></tr>
+<tr class="memdesc:afa04389817c900abcf706971e398aa89"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns this three-dimensional vector's z Cartesian component.  <a href="classPhQ_1_1Vector.html#afa04389817c900abcf706971e398aa89">More...</a><br /></td></tr>
+<tr class="separator:afa04389817c900abcf706971e398aa89"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af88489628232750d9267a07adcf9eef0"><td class="memItemLeft" align="right" valign="top">constexpr std::array&lt; NumericType, 3 &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Vector.html#af88489628232750d9267a07adcf9eef0">Mutable_x_y_z</a> () noexcept</td></tr>
+<tr class="memdesc:af88489628232750d9267a07adcf9eef0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns this three-dimensional vector's x, y, and z Cartesian components as a mutable array.  <a href="classPhQ_1_1Vector.html#af88489628232750d9267a07adcf9eef0">More...</a><br /></td></tr>
+<tr class="separator:af88489628232750d9267a07adcf9eef0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60d72ba1328d529e7f850fc7303b00e3"><td class="memItemLeft" align="right" valign="top">constexpr NumericType &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Vector.html#a60d72ba1328d529e7f850fc7303b00e3">Mutable_x</a> () noexcept</td></tr>
+<tr class="memdesc:a60d72ba1328d529e7f850fc7303b00e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns this three-dimensional vector's x Cartesian component as a mutable value.  <a href="classPhQ_1_1Vector.html#a60d72ba1328d529e7f850fc7303b00e3">More...</a><br /></td></tr>
+<tr class="separator:a60d72ba1328d529e7f850fc7303b00e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9887768b4a41a0f231d461dec7086631"><td class="memItemLeft" align="right" valign="top">constexpr NumericType &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Vector.html#a9887768b4a41a0f231d461dec7086631">Mutable_y</a> () noexcept</td></tr>
+<tr class="memdesc:a9887768b4a41a0f231d461dec7086631"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns this three-dimensional vector's y Cartesian component as a mutable value.  <a href="classPhQ_1_1Vector.html#a9887768b4a41a0f231d461dec7086631">More...</a><br /></td></tr>
+<tr class="separator:a9887768b4a41a0f231d461dec7086631"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a372cd26fa88a4552b256f9d7074e22d4"><td class="memItemLeft" align="right" valign="top">constexpr NumericType &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Vector.html#a372cd26fa88a4552b256f9d7074e22d4">Mutable_z</a> () noexcept</td></tr>
+<tr class="memdesc:a372cd26fa88a4552b256f9d7074e22d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns this three-dimensional vector's z Cartesian component as a mutable value.  <a href="classPhQ_1_1Vector.html#a372cd26fa88a4552b256f9d7074e22d4">More...</a><br /></td></tr>
+<tr class="separator:a372cd26fa88a4552b256f9d7074e22d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c67870f1cde3f9cd1a91c16851544b4"><td class="memItemLeft" align="right" valign="top">constexpr void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Vector.html#a8c67870f1cde3f9cd1a91c16851544b4">Set_x_y_z</a> (const std::array&lt; NumericType, 3 &gt; &amp;<a class="el" href="classPhQ_1_1Vector.html#a5e4576d0701a25d1f75d2491379b489a">x_y_z</a>) noexcept</td></tr>
+<tr class="memdesc:a8c67870f1cde3f9cd1a91c16851544b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets this three-dimensional vector's x, y, and z Cartesian components to the given values.  <a href="classPhQ_1_1Vector.html#a8c67870f1cde3f9cd1a91c16851544b4">More...</a><br /></td></tr>
+<tr class="separator:a8c67870f1cde3f9cd1a91c16851544b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f460ce3680d078ebcff8e1332328a68"><td class="memItemLeft" align="right" valign="top">constexpr void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Vector.html#a6f460ce3680d078ebcff8e1332328a68">Set_x_y_z</a> (const NumericType <a class="el" href="classPhQ_1_1Vector.html#a86324f11eb02e8d21520786b229e5703">x</a>, const NumericType <a class="el" href="classPhQ_1_1Vector.html#ac504e3a76fcebc6e6c6ad4ea840a6756">y</a>, const NumericType <a class="el" href="classPhQ_1_1Vector.html#afa04389817c900abcf706971e398aa89">z</a>) noexcept</td></tr>
+<tr class="memdesc:a6f460ce3680d078ebcff8e1332328a68"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets this three-dimensional vector's x, y, and z Cartesian components to the given values.  <a href="classPhQ_1_1Vector.html#a6f460ce3680d078ebcff8e1332328a68">More...</a><br /></td></tr>
+<tr class="separator:a6f460ce3680d078ebcff8e1332328a68"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2bf79b6ac9ca7f11be8e6f6c57f10a14"><td class="memItemLeft" align="right" valign="top">constexpr void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Vector.html#a2bf79b6ac9ca7f11be8e6f6c57f10a14">Set_x</a> (const NumericType <a class="el" href="classPhQ_1_1Vector.html#a86324f11eb02e8d21520786b229e5703">x</a>) noexcept</td></tr>
+<tr class="memdesc:a2bf79b6ac9ca7f11be8e6f6c57f10a14"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets this three-dimensional vector's x Cartesian component to a given value.  <a href="classPhQ_1_1Vector.html#a2bf79b6ac9ca7f11be8e6f6c57f10a14">More...</a><br /></td></tr>
+<tr class="separator:a2bf79b6ac9ca7f11be8e6f6c57f10a14"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a74f9ac07a7ca4c8da5e0550abe8e28d1"><td class="memItemLeft" align="right" valign="top">constexpr void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Vector.html#a74f9ac07a7ca4c8da5e0550abe8e28d1">Set_y</a> (const NumericType <a class="el" href="classPhQ_1_1Vector.html#ac504e3a76fcebc6e6c6ad4ea840a6756">y</a>) noexcept</td></tr>
+<tr class="memdesc:a74f9ac07a7ca4c8da5e0550abe8e28d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets this three-dimensional vector's y Cartesian component to a given value.  <a href="classPhQ_1_1Vector.html#a74f9ac07a7ca4c8da5e0550abe8e28d1">More...</a><br /></td></tr>
+<tr class="separator:a74f9ac07a7ca4c8da5e0550abe8e28d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f72de1d9f01b087b26e65009cf6bc81"><td class="memItemLeft" align="right" valign="top">constexpr void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Vector.html#a0f72de1d9f01b087b26e65009cf6bc81">Set_z</a> (const NumericType <a class="el" href="classPhQ_1_1Vector.html#afa04389817c900abcf706971e398aa89">z</a>) noexcept</td></tr>
+<tr class="memdesc:a0f72de1d9f01b087b26e65009cf6bc81"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets this three-dimensional vector's z Cartesian component to a given value.  <a href="classPhQ_1_1Vector.html#a0f72de1d9f01b087b26e65009cf6bc81">More...</a><br /></td></tr>
+<tr class="separator:a0f72de1d9f01b087b26e65009cf6bc81"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d4237ce53100350eedf67abf12c2d47"><td class="memItemLeft" align="right" valign="top">constexpr NumericType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Vector.html#a6d4237ce53100350eedf67abf12c2d47">MagnitudeSquared</a> () const noexcept</td></tr>
+<tr class="memdesc:a6d4237ce53100350eedf67abf12c2d47"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the square of the magnitude of this three-dimensional vector.  <a href="classPhQ_1_1Vector.html#a6d4237ce53100350eedf67abf12c2d47">More...</a><br /></td></tr>
+<tr class="separator:a6d4237ce53100350eedf67abf12c2d47"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1377665304b0a89c62c5fc32e56d2a97"><td class="memItemLeft" align="right" valign="top">NumericType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Vector.html#a1377665304b0a89c62c5fc32e56d2a97">Magnitude</a> () const noexcept</td></tr>
+<tr class="memdesc:a1377665304b0a89c62c5fc32e56d2a97"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the magnitude (also known as the L2 norm) of this three-dimensional vector.  <a href="classPhQ_1_1Vector.html#a1377665304b0a89c62c5fc32e56d2a97">More...</a><br /></td></tr>
+<tr class="separator:a1377665304b0a89c62c5fc32e56d2a97"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa148cb91eba030e6b542d01efbbebd6b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPhQ_1_1Direction.html">PhQ::Direction</a>&lt; NumericType &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Vector.html#aa148cb91eba030e6b542d01efbbebd6b">Direction</a> () const</td></tr>
+<tr class="memdesc:aa148cb91eba030e6b542d01efbbebd6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the direction of this three-dimensional vector.  <a href="classPhQ_1_1Vector.html#aa148cb91eba030e6b542d01efbbebd6b">More...</a><br /></td></tr>
+<tr class="separator:aa148cb91eba030e6b542d01efbbebd6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff5227abe96ada91d7eab533570a6d28"><td class="memItemLeft" align="right" valign="top">constexpr NumericType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Vector.html#aff5227abe96ada91d7eab533570a6d28">Dot</a> (const <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt; NumericType &gt; &amp;vector) const noexcept</td></tr>
+<tr class="memdesc:aff5227abe96ada91d7eab533570a6d28"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the dot product (also known as the inner product or scalar product) of this three-dimensional vector and another one.  <a href="classPhQ_1_1Vector.html#aff5227abe96ada91d7eab533570a6d28">More...</a><br /></td></tr>
+<tr class="separator:aff5227abe96ada91d7eab533570a6d28"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab81bfe221af45874b7638ea215b77721"><td class="memItemLeft" align="right" valign="top">constexpr NumericType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Vector.html#ab81bfe221af45874b7638ea215b77721">Dot</a> (const <a class="el" href="classPhQ_1_1Direction.html">PhQ::Direction</a>&lt; NumericType &gt; &amp;direction) const noexcept</td></tr>
+<tr class="memdesc:ab81bfe221af45874b7638ea215b77721"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the dot product (also known as the inner product or scalar product) of this three-dimensional vector and a given direction.  <a href="classPhQ_1_1Vector.html#ab81bfe221af45874b7638ea215b77721">More...</a><br /></td></tr>
+<tr class="separator:ab81bfe221af45874b7638ea215b77721"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d92e3330a683346088ad0e612d42f1b"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt; NumericType &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Vector.html#a2d92e3330a683346088ad0e612d42f1b">Cross</a> (const <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt; NumericType &gt; &amp;vector) const</td></tr>
+<tr class="memdesc:a2d92e3330a683346088ad0e612d42f1b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the cross product (also known as the vector product) of this three-dimensional vector and another one.  <a href="classPhQ_1_1Vector.html#a2d92e3330a683346088ad0e612d42f1b">More...</a><br /></td></tr>
+<tr class="separator:a2d92e3330a683346088ad0e612d42f1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab7e321919fbe3d5f751a4c14acf14af2"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt; NumericType &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Vector.html#ab7e321919fbe3d5f751a4c14acf14af2">Cross</a> (const <a class="el" href="classPhQ_1_1Direction.html">PhQ::Direction</a>&lt; NumericType &gt; &amp;direction) const</td></tr>
+<tr class="memdesc:ab7e321919fbe3d5f751a4c14acf14af2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the cross product (also known as the vector product) of this three-dimensional vector and a given direction.  <a href="classPhQ_1_1Vector.html#ab7e321919fbe3d5f751a4c14acf14af2">More...</a><br /></td></tr>
+<tr class="separator:ab7e321919fbe3d5f751a4c14acf14af2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71143b4f55fdc339effb79b205c760bd"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1Dyad.html">Dyad</a>&lt; NumericType &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Vector.html#a71143b4f55fdc339effb79b205c760bd">Dyadic</a> (const <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt; NumericType &gt; &amp;vector) const</td></tr>
+<tr class="memdesc:a71143b4f55fdc339effb79b205c760bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the dyadic tensor product (also known as the outer product) of this three-dimensional vector and another one.  <a href="classPhQ_1_1Vector.html#a71143b4f55fdc339effb79b205c760bd">More...</a><br /></td></tr>
+<tr class="separator:a71143b4f55fdc339effb79b205c760bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad16e36cbc9587caecb3d2a822a434137"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1Dyad.html">Dyad</a>&lt; NumericType &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Vector.html#ad16e36cbc9587caecb3d2a822a434137">Dyadic</a> (const <a class="el" href="classPhQ_1_1Direction.html">PhQ::Direction</a>&lt; NumericType &gt; &amp;direction) const</td></tr>
+<tr class="memdesc:ad16e36cbc9587caecb3d2a822a434137"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the dyadic tensor product (also known as the outer product) of this three-dimensional vector and a given direction.  <a href="classPhQ_1_1Vector.html#ad16e36cbc9587caecb3d2a822a434137">More...</a><br /></td></tr>
+<tr class="separator:ad16e36cbc9587caecb3d2a822a434137"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c04da16c781c7dc90993157bf756161"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPhQ_1_1Angle.html">PhQ::Angle</a>&lt; NumericType &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Vector.html#a9c04da16c781c7dc90993157bf756161">Angle</a> (const <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt; NumericType &gt; &amp;vector) const</td></tr>
+<tr class="memdesc:a9c04da16c781c7dc90993157bf756161"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the angle between this three-dimensional vector and another one.  <a href="classPhQ_1_1Vector.html#a9c04da16c781c7dc90993157bf756161">More...</a><br /></td></tr>
+<tr class="separator:a9c04da16c781c7dc90993157bf756161"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a151a7b5eac8a2df99c257d289f52efb3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPhQ_1_1Angle.html">PhQ::Angle</a>&lt; NumericType &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Vector.html#a151a7b5eac8a2df99c257d289f52efb3">Angle</a> (const <a class="el" href="classPhQ_1_1Direction.html">PhQ::Direction</a>&lt; NumericType &gt; &amp;direction) const</td></tr>
+<tr class="memdesc:a151a7b5eac8a2df99c257d289f52efb3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the angle between this three-dimensional vector and a given direction.  <a href="classPhQ_1_1Vector.html#a151a7b5eac8a2df99c257d289f52efb3">More...</a><br /></td></tr>
+<tr class="separator:a151a7b5eac8a2df99c257d289f52efb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2019be3fe385e21016074efa1c2e08a1"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Vector.html#a2019be3fe385e21016074efa1c2e08a1">Print</a> () const</td></tr>
+<tr class="memdesc:a2019be3fe385e21016074efa1c2e08a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints this three-dimensional vector as a string.  <a href="classPhQ_1_1Vector.html#a2019be3fe385e21016074efa1c2e08a1">More...</a><br /></td></tr>
+<tr class="separator:a2019be3fe385e21016074efa1c2e08a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1fb8f32897e10f79bca56b0505325682"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Vector.html#a1fb8f32897e10f79bca56b0505325682">JSON</a> () const</td></tr>
+<tr class="memdesc:a1fb8f32897e10f79bca56b0505325682"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serializes this three-dimensional vector as a JSON message.  <a href="classPhQ_1_1Vector.html#a1fb8f32897e10f79bca56b0505325682">More...</a><br /></td></tr>
+<tr class="separator:a1fb8f32897e10f79bca56b0505325682"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a12dd8148418b6268295028e67fa44b34"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Vector.html#a12dd8148418b6268295028e67fa44b34">XML</a> () const</td></tr>
+<tr class="memdesc:a12dd8148418b6268295028e67fa44b34"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serializes this three-dimensional vector as an XML message.  <a href="classPhQ_1_1Vector.html#a12dd8148418b6268295028e67fa44b34">More...</a><br /></td></tr>
+<tr class="separator:a12dd8148418b6268295028e67fa44b34"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6fd2f848e7c08a1c2367cb7debffde25"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Vector.html#a6fd2f848e7c08a1c2367cb7debffde25">YAML</a> () const</td></tr>
+<tr class="memdesc:a6fd2f848e7c08a1c2367cb7debffde25"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serializes this three-dimensional vector as a YAML message.  <a href="classPhQ_1_1Vector.html#a6fd2f848e7c08a1c2367cb7debffde25">More...</a><br /></td></tr>
+<tr class="separator:a6fd2f848e7c08a1c2367cb7debffde25"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45d926a9983a20190e5544c93082e173"><td class="memItemLeft" align="right" valign="top">constexpr void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Vector.html#a45d926a9983a20190e5544c93082e173">operator+=</a> (const <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt; NumericType &gt; &amp;vector) noexcept</td></tr>
+<tr class="separator:a45d926a9983a20190e5544c93082e173"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad37e91b8994d16cc4c46eeab1e62cff5"><td class="memItemLeft" align="right" valign="top">constexpr void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Vector.html#ad37e91b8994d16cc4c46eeab1e62cff5">operator-=</a> (const <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt; NumericType &gt; &amp;vector) noexcept</td></tr>
+<tr class="separator:ad37e91b8994d16cc4c46eeab1e62cff5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af84d2382be611b3d34a0fe196a7680f3"><td class="memTemplParams" colspan="2">template&lt;typename OtherNumericType &gt; </td></tr>
+<tr class="memitem:af84d2382be611b3d34a0fe196a7680f3"><td class="memTemplItemLeft" align="right" valign="top">constexpr void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Vector.html#af84d2382be611b3d34a0fe196a7680f3">operator*=</a> (const OtherNumericType number) noexcept</td></tr>
+<tr class="separator:af84d2382be611b3d34a0fe196a7680f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca2137b332b37278baaeac2fdeea07a1"><td class="memTemplParams" colspan="2">template&lt;typename OtherNumericType &gt; </td></tr>
+<tr class="memitem:aca2137b332b37278baaeac2fdeea07a1"><td class="memTemplItemLeft" align="right" valign="top">constexpr void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Vector.html#aca2137b332b37278baaeac2fdeea07a1">operator/=</a> (const OtherNumericType number) noexcept</td></tr>
+<tr class="separator:aca2137b332b37278baaeac2fdeea07a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a5af070aa134492498d45080e5fa1e024"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt; Number &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Vector.html#a5af070aa134492498d45080e5fa1e024">Zero</a> ()</td></tr>
-<tr class="memdesc:a5af070aa134492498d45080e5fa1e024"><td class="mdescLeft">&#160;</td><td class="mdescRight">Statically creates a three-dimensional vector with its x, y, and z Cartesian components initialized to zero.  <a href="classPhQ_1_1Vector.html#a5af070aa134492498d45080e5fa1e024">More...</a><br /></td></tr>
-<tr class="separator:a5af070aa134492498d45080e5fa1e024"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a219f0512eb17c390fb17055046e51efa"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt; NumericType &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Vector.html#a219f0512eb17c390fb17055046e51efa">Zero</a> ()</td></tr>
+<tr class="memdesc:a219f0512eb17c390fb17055046e51efa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Statically creates a three-dimensional vector with its x, y, and z Cartesian components initialized to zero.  <a href="classPhQ_1_1Vector.html#a219f0512eb17c390fb17055046e51efa">More...</a><br /></td></tr>
+<tr class="separator:a219f0512eb17c390fb17055046e51efa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a30f42af4f7e30c7a0a3093eac88d2477"><td class="memItemLeft" align="right" valign="top">std::array&lt; Number, 3 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Vector.html#a30f42af4f7e30c7a0a3093eac88d2477">x_y_z_</a></td></tr>
-<tr class="memdesc:a30f42af4f7e30c7a0a3093eac88d2477"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cartesian components of this three-dimensional vector.  <a href="classPhQ_1_1Vector.html#a30f42af4f7e30c7a0a3093eac88d2477">More...</a><br /></td></tr>
-<tr class="separator:a30f42af4f7e30c7a0a3093eac88d2477"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a870e4e92ec1644d0c42a83f3e950388c"><td class="memItemLeft" align="right" valign="top">std::array&lt; NumericType, 3 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1Vector.html#a870e4e92ec1644d0c42a83f3e950388c">x_y_z_</a></td></tr>
+<tr class="memdesc:a870e4e92ec1644d0c42a83f3e950388c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cartesian components of this three-dimensional vector.  <a href="classPhQ_1_1Vector.html#a870e4e92ec1644d0c42a83f3e950388c">More...</a><br /></td></tr>
+<tr class="separator:a870e4e92ec1644d0c42a83f3e950388c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><h3>template&lt;typename Number = double&gt;<br />
-class PhQ::Vector&lt; Number &gt;</h3>
+<div class="textblock"><h3>template&lt;typename NumericType = double&gt;<br />
+class PhQ::Vector&lt; NumericType &gt;</h3>
 
 <p>Three-dimensional Euclidean vector. Contains three components in Cartesian coordinates: x, y, and z. For a two-dimensional Euclidean vector in the XY plane, see <a class="el" href="classPhQ_1_1PlanarVector.html" title="Two-dimensional Euclidean vector in the XY plane. Contains two components in Cartesian coordinates: x...">PhQ::PlanarVector</a>. For a three-dimensional Euclidean dyadic tensor, see <a class="el" href="classPhQ_1_1Dyad.html" title="Three-dimensional Euclidean dyadic tensor. Contains nine components in Cartesian coordinates: xx,...">PhQ::Dyad</a>. For a three-dimensional symmetric Euclidean dyadic tensor, see <a class="el" href="classPhQ_1_1SymmetricDyad.html" title="Symmetric three-dimensional Euclidean dyadic tensor. Contains six components in Cartesian coordinates...">PhQ::SymmetricDyad</a>. </p>
 
 <p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00060">60</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a8b20856b78ca3302e91223aa37ffb44b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8b20856b78ca3302e91223aa37ffb44b">&#9670;&nbsp;</a></span>Vector() <span class="overload">[1/8]</span></h2>
+<a id="aa04bf9f8e559b377022cd5d4798e75b3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa04bf9f8e559b377022cd5d4798e75b3">&#9670;&nbsp;</a></span>Vector() <span class="overload">[1/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classPhQ_1_1Vector.html">PhQ::Vector</a>&lt; Number &gt;::<a class="el" href="classPhQ_1_1Vector.html">Vector</a> </td>
+          <td class="memname"><a class="el" href="classPhQ_1_1Vector.html">PhQ::Vector</a>&lt; NumericType &gt;::<a class="el" href="classPhQ_1_1Vector.html">Vector</a> </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -305,33 +305,33 @@ template&lt;typename Number  = double&gt; </div>
 
 </div>
 </div>
-<a id="a8df1470a68fe1f883c8ab057a32a2c22"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8df1470a68fe1f883c8ab057a32a2c22">&#9670;&nbsp;</a></span>Vector() <span class="overload">[2/8]</span></h2>
+<a id="af9aafc4bf63e45170ae3387b09249bd5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af9aafc4bf63e45170ae3387b09249bd5">&#9670;&nbsp;</a></span>Vector() <span class="overload">[2/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Vector.html">PhQ::Vector</a>&lt; Number &gt;::<a class="el" href="classPhQ_1_1Vector.html">Vector</a> </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Vector.html">PhQ::Vector</a>&lt; NumericType &gt;::<a class="el" href="classPhQ_1_1Vector.html">Vector</a> </td>
           <td>(</td>
-          <td class="paramtype">const Number&#160;</td>
+          <td class="paramtype">const NumericType&#160;</td>
           <td class="paramname"><em>x</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const Number&#160;</td>
+          <td class="paramtype">const NumericType&#160;</td>
           <td class="paramname"><em>y</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const Number&#160;</td>
+          <td class="paramtype">const NumericType&#160;</td>
           <td class="paramname"><em>z</em>&#160;</td>
         </tr>
         <tr>
@@ -351,25 +351,25 @@ template&lt;typename Number  = double&gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00072">72</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00138">PhQ::Vector&lt; Number &gt;::x()</a>, <a class="el" href="Vector_8hpp_source.html#l00143">PhQ::Vector&lt; Number &gt;::y()</a>, and <a class="el" href="Vector_8hpp_source.html#l00148">PhQ::Vector&lt; Number &gt;::z()</a>.</p>
+<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00139">PhQ::Vector&lt; NumericType &gt;::x()</a>, <a class="el" href="Vector_8hpp_source.html#l00144">PhQ::Vector&lt; NumericType &gt;::y()</a>, and <a class="el" href="Vector_8hpp_source.html#l00149">PhQ::Vector&lt; NumericType &gt;::z()</a>.</p>
 
 </div>
 </div>
-<a id="a8e89d98354fa660e37ca8eac6742da1c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8e89d98354fa660e37ca8eac6742da1c">&#9670;&nbsp;</a></span>Vector() <span class="overload">[3/8]</span></h2>
+<a id="a44e2f55b65984ac2bb2346d0e13c43bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a44e2f55b65984ac2bb2346d0e13c43bb">&#9670;&nbsp;</a></span>Vector() <span class="overload">[3/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Vector.html">PhQ::Vector</a>&lt; Number &gt;::<a class="el" href="classPhQ_1_1Vector.html">Vector</a> </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Vector.html">PhQ::Vector</a>&lt; NumericType &gt;::<a class="el" href="classPhQ_1_1Vector.html">Vector</a> </td>
           <td>(</td>
-          <td class="paramtype">const std::array&lt; Number, 3 &gt; &amp;&#160;</td>
+          <td class="paramtype">const std::array&lt; NumericType, 3 &gt; &amp;&#160;</td>
           <td class="paramname"><em>x_y_z</em></td><td>)</td>
           <td></td>
         </tr>
@@ -383,25 +383,25 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Constructor. Constructs a three-dimensional vector from a given array representing its x, y, and z Cartesian components. </p>
 
-<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00076">76</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00077">77</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
 
 </div>
 </div>
-<a id="a0480dce7699c42d43d703d8ec6ef000a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0480dce7699c42d43d703d8ec6ef000a">&#9670;&nbsp;</a></span>Vector() <span class="overload">[4/8]</span></h2>
+<a id="aadf1fa5746e2b17d0abb9d031e03c6a4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aadf1fa5746e2b17d0abb9d031e03c6a4">&#9670;&nbsp;</a></span>Vector() <span class="overload">[4/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Vector.html">PhQ::Vector</a>&lt; Number &gt;::<a class="el" href="classPhQ_1_1Vector.html">Vector</a> </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Vector.html">PhQ::Vector</a>&lt; NumericType &gt;::<a class="el" href="classPhQ_1_1Vector.html">Vector</a> </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1PlanarVector.html">PlanarVector</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1PlanarVector.html">PlanarVector</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>planar_vector</em></td><td>)</td>
           <td></td>
         </tr>
@@ -415,33 +415,33 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Constructor. Constructs a three-dimensional vector from a given two-dimensional planar vector in the XY plane. This vector's z-component is initialized to zero. </p>
 
-<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00080">80</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00081">81</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="PlanarVector_8hpp_source.html#l00141">PhQ::PlanarVector&lt; Number &gt;::x()</a>, and <a class="el" href="PlanarVector_8hpp_source.html#l00146">PhQ::PlanarVector&lt; Number &gt;::y()</a>.</p>
+<p class="reference">References <a class="el" href="PlanarVector_8hpp_source.html#l00142">PhQ::PlanarVector&lt; NumericType &gt;::x()</a>, and <a class="el" href="PlanarVector_8hpp_source.html#l00147">PhQ::PlanarVector&lt; NumericType &gt;::y()</a>.</p>
 
 </div>
 </div>
-<a id="a3f686b0df7b21991fdcdc87074a1bbf7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3f686b0df7b21991fdcdc87074a1bbf7">&#9670;&nbsp;</a></span>Vector() <span class="overload">[5/8]</span></h2>
+<a id="a4303444dfb1d8ce99d433b8d3509c06f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4303444dfb1d8ce99d433b8d3509c06f">&#9670;&nbsp;</a></span>Vector() <span class="overload">[5/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number &gt; </div>
+template&lt;typename NumericType &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Vector.html">PhQ::Vector</a>&lt; Number &gt;::<a class="el" href="classPhQ_1_1Vector.html">Vector</a> </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Vector.html">PhQ::Vector</a>&lt; NumericType &gt;::<a class="el" href="classPhQ_1_1Vector.html">Vector</a> </td>
           <td>(</td>
-          <td class="paramtype">Number&#160;</td>
+          <td class="paramtype">NumericType&#160;</td>
           <td class="paramname"><em>magnitude</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1Direction.html">Direction</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1Direction.html">Direction</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>direction</em>&#160;</td>
         </tr>
         <tr>
@@ -459,25 +459,25 @@ template&lt;typename Number &gt; </div>
 
 <p>Constructor. Constructs a three-dimensional vector given a magnitude and a direction. </p>
 
-<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00369">369</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00374">374</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionlessVector_8hpp_source.html#l00060">PhQ::DimensionlessVector&lt; Number &gt;::Value()</a>, and <a class="el" href="Vector_8hpp_source.html#l00304">PhQ::Vector&lt; Number &gt;::x_y_z_</a>.</p>
+<p class="reference">References <a class="el" href="DimensionlessVector_8hpp_source.html#l00060">PhQ::DimensionlessVector&lt; NumericType &gt;::Value()</a>, and <a class="el" href="Vector_8hpp_source.html#l00308">PhQ::Vector&lt; NumericType &gt;::x_y_z_</a>.</p>
 
 </div>
 </div>
-<a id="a913c6b45d52a7f6a11ac8b70be9e2aef"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a913c6b45d52a7f6a11ac8b70be9e2aef">&#9670;&nbsp;</a></span>~Vector()</h2>
+<a id="a54a31532f82b3e0a4793b13fa4481ede"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a54a31532f82b3e0a4793b13fa4481ede">&#9670;&nbsp;</a></span>~Vector()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classPhQ_1_1Vector.html">PhQ::Vector</a>&lt; Number &gt;::~<a class="el" href="classPhQ_1_1Vector.html">Vector</a> </td>
+          <td class="memname"><a class="el" href="classPhQ_1_1Vector.html">PhQ::Vector</a>&lt; NumericType &gt;::~<a class="el" href="classPhQ_1_1Vector.html">Vector</a> </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -494,21 +494,21 @@ template&lt;typename Number  = double&gt; </div>
 
 </div>
 </div>
-<a id="ae722cbfe2decc32ce0aa09343cdb8299"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae722cbfe2decc32ce0aa09343cdb8299">&#9670;&nbsp;</a></span>Vector() <span class="overload">[6/8]</span></h2>
+<a id="a38913fa048c43ddd39dd7ca7b3bd301e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a38913fa048c43ddd39dd7ca7b3bd301e">&#9670;&nbsp;</a></span>Vector() <span class="overload">[6/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Vector.html">PhQ::Vector</a>&lt; Number &gt;::<a class="el" href="classPhQ_1_1Vector.html">Vector</a> </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Vector.html">PhQ::Vector</a>&lt; NumericType &gt;::<a class="el" href="classPhQ_1_1Vector.html">Vector</a> </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>other</em></td><td>)</td>
           <td></td>
         </tr>
@@ -524,23 +524,23 @@ template&lt;typename Number  = double&gt; </div>
 
 </div>
 </div>
-<a id="a5c0ab009eb54ff4fe8387cee06cb7e17"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5c0ab009eb54ff4fe8387cee06cb7e17">&#9670;&nbsp;</a></span>Vector() <span class="overload">[7/8]</span></h2>
+<a id="a6bb26501016e08d315b710bee4e20f15"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6bb26501016e08d315b710bee4e20f15">&#9670;&nbsp;</a></span>Vector() <span class="overload">[7/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <div class="memtemplate">
-template&lt;typename OtherNumber &gt; </div>
+template&lt;typename OtherNumericType &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Vector.html">PhQ::Vector</a>&lt; Number &gt;::<a class="el" href="classPhQ_1_1Vector.html">Vector</a> </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Vector.html">PhQ::Vector</a>&lt; NumericType &gt;::<a class="el" href="classPhQ_1_1Vector.html">Vector</a> </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt; OtherNumber &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt; OtherNumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>other</em></td><td>)</td>
           <td></td>
         </tr>
@@ -554,25 +554,25 @@ template&lt;typename OtherNumber &gt; </div>
 
 <p>Copy constructor. Constructs a three-dimensional vector by copying another one. </p>
 
-<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00094">94</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00095">95</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
 
 </div>
 </div>
-<a id="a15835ab765a8c98549828b10d84f13d3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a15835ab765a8c98549828b10d84f13d3">&#9670;&nbsp;</a></span>Vector() <span class="overload">[8/8]</span></h2>
+<a id="a5fa6855474361118a96d9cf3d57b6a1c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5fa6855474361118a96d9cf3d57b6a1c">&#9670;&nbsp;</a></span>Vector() <span class="overload">[8/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Vector.html">PhQ::Vector</a>&lt; Number &gt;::<a class="el" href="classPhQ_1_1Vector.html">Vector</a> </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Vector.html">PhQ::Vector</a>&lt; NumericType &gt;::<a class="el" href="classPhQ_1_1Vector.html">Vector</a> </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt; Number &gt; &amp;&amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt; NumericType &gt; &amp;&amp;&#160;</td>
           <td class="paramname"><em>other</em></td><td>)</td>
           <td></td>
         </tr>
@@ -589,21 +589,21 @@ template&lt;typename Number  = double&gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a3e9cca856807f0987db90c8f430a2a3b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3e9cca856807f0987db90c8f430a2a3b">&#9670;&nbsp;</a></span>Angle() <span class="overload">[1/2]</span></h2>
+<a id="a151a7b5eac8a2df99c257d289f52efb3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a151a7b5eac8a2df99c257d289f52efb3">&#9670;&nbsp;</a></span>Angle() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number &gt; </div>
+template&lt;typename NumericType &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classPhQ_1_1Angle.html">Angle</a>&lt; Number &gt; <a class="el" href="classPhQ_1_1Vector.html">PhQ::Vector</a>&lt; Number &gt;::<a class="el" href="classPhQ_1_1Angle.html">Angle</a> </td>
+          <td class="memname"><a class="el" href="classPhQ_1_1Angle.html">Angle</a>&lt; NumericType &gt; <a class="el" href="classPhQ_1_1Vector.html">PhQ::Vector</a>&lt; NumericType &gt;::<a class="el" href="classPhQ_1_1Angle.html">Angle</a> </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1Direction.html">PhQ::Direction</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1Direction.html">PhQ::Direction</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>direction</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -617,25 +617,25 @@ template&lt;typename Number &gt; </div>
 
 <p>Returns the angle between this three-dimensional vector and a given direction. </p>
 
-<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00409">409</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00414">414</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
 
 </div>
 </div>
-<a id="a93fb10aee3026381406e25ee9f5e2c2c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a93fb10aee3026381406e25ee9f5e2c2c">&#9670;&nbsp;</a></span>Angle() <span class="overload">[2/2]</span></h2>
+<a id="a9c04da16c781c7dc90993157bf756161"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9c04da16c781c7dc90993157bf756161">&#9670;&nbsp;</a></span>Angle() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number &gt; </div>
+template&lt;typename NumericType &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classPhQ_1_1Angle.html">PhQ::Angle</a>&lt; Number &gt; <a class="el" href="classPhQ_1_1Vector.html">PhQ::Vector</a>&lt; Number &gt;::<a class="el" href="classPhQ_1_1Angle.html">Angle</a> </td>
+          <td class="memname"><a class="el" href="classPhQ_1_1Angle.html">PhQ::Angle</a>&lt; NumericType &gt; <a class="el" href="classPhQ_1_1Vector.html">PhQ::Vector</a>&lt; NumericType &gt;::<a class="el" href="classPhQ_1_1Angle.html">Angle</a> </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>vector</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -649,25 +649,25 @@ template&lt;typename Number &gt; </div>
 
 <p>Returns the angle between this three-dimensional vector and another one. </p>
 
-<p class="definition">Definition at line <a class="el" href="Angle_8hpp_source.html#l00396">396</a> of file <a class="el" href="Angle_8hpp_source.html">Angle.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Angle_8hpp_source.html#l00411">411</a> of file <a class="el" href="Angle_8hpp_source.html">Angle.hpp</a>.</p>
 
 </div>
 </div>
-<a id="afeab2b51af6c8be64502a1fe1522a54d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afeab2b51af6c8be64502a1fe1522a54d">&#9670;&nbsp;</a></span>Cross() <span class="overload">[1/2]</span></h2>
+<a id="ab7e321919fbe3d5f751a4c14acf14af2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab7e321919fbe3d5f751a4c14acf14af2">&#9670;&nbsp;</a></span>Cross() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number &gt; </div>
+template&lt;typename NumericType &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt; Number &gt; <a class="el" href="classPhQ_1_1Vector.html">PhQ::Vector</a>&lt; Number &gt;::Cross </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt; NumericType &gt; <a class="el" href="classPhQ_1_1Vector.html">PhQ::Vector</a>&lt; NumericType &gt;::Cross </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1Direction.html">PhQ::Direction</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1Direction.html">PhQ::Direction</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>direction</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -681,27 +681,27 @@ template&lt;typename Number &gt; </div>
 
 <p>Returns the cross product (also known as the vector product) of this three-dimensional vector and a given direction. </p>
 
-<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00385">385</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00390">390</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionlessVector_8hpp_source.html#l00060">PhQ::DimensionlessVector&lt; Number &gt;::Value()</a>.</p>
+<p class="reference">References <a class="el" href="DimensionlessVector_8hpp_source.html#l00060">PhQ::DimensionlessVector&lt; NumericType &gt;::Value()</a>.</p>
 
 </div>
 </div>
-<a id="afeaef383acb2783257174a43545169d5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afeaef383acb2783257174a43545169d5">&#9670;&nbsp;</a></span>Cross() <span class="overload">[2/2]</span></h2>
+<a id="a2d92e3330a683346088ad0e612d42f1b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d92e3330a683346088ad0e612d42f1b">&#9670;&nbsp;</a></span>Cross() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt;Number&gt; <a class="el" href="classPhQ_1_1Vector.html">PhQ::Vector</a>&lt; Number &gt;::Cross </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt;NumericType&gt; <a class="el" href="classPhQ_1_1Vector.html">PhQ::Vector</a>&lt; NumericType &gt;::Cross </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>vector</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -715,27 +715,27 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the cross product (also known as the vector product) of this three-dimensional vector and another one. </p>
 
-<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00228">228</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00230">230</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00304">PhQ::Vector&lt; Number &gt;::x_y_z_</a>.</p>
+<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00308">PhQ::Vector&lt; NumericType &gt;::x_y_z_</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="Direction_8hpp_source.html#l00278">PhQ::Direction&lt; Number &gt;::Cross()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="Direction_8hpp_source.html#l00280">PhQ::Direction&lt; NumericType &gt;::Cross()</a>.</p>
 
 </div>
 </div>
-<a id="a8ca3c7a2b7258c425c6155414baa467e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8ca3c7a2b7258c425c6155414baa467e">&#9670;&nbsp;</a></span>Direction()</h2>
+<a id="aa148cb91eba030e6b542d01efbbebd6b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa148cb91eba030e6b542d01efbbebd6b">&#9670;&nbsp;</a></span>Direction()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number &gt; </div>
+template&lt;typename NumericType &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classPhQ_1_1Direction.html">PhQ::Direction</a>&lt; Number &gt; <a class="el" href="classPhQ_1_1Vector.html">PhQ::Vector</a>&lt; Number &gt;::<a class="el" href="classPhQ_1_1Direction.html">Direction</a></td>
+          <td class="memname"><a class="el" href="classPhQ_1_1Direction.html">PhQ::Direction</a>&lt; NumericType &gt; <a class="el" href="classPhQ_1_1Vector.html">PhQ::Vector</a>&lt; NumericType &gt;::<a class="el" href="classPhQ_1_1Direction.html">Direction</a></td>
         </tr>
       </table>
   </td>
@@ -747,27 +747,27 @@ template&lt;typename Number &gt; </div>
 
 <p>Returns the direction of this three-dimensional vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00374">374</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00379">379</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="Acceleration_8hpp_source.html#l00169">PhQ::Acceleration&lt; Number &gt;::Direction()</a>, <a class="el" href="Displacement_8hpp_source.html#l00179">PhQ::Displacement&lt; Number &gt;::Direction()</a>, <a class="el" href="Force_8hpp_source.html#l00157">PhQ::Force&lt; Number &gt;::Direction()</a>, <a class="el" href="HeatFlux_8hpp_source.html#l00172">PhQ::HeatFlux&lt; Number &gt;::Direction()</a>, <a class="el" href="Position_8hpp_source.html#l00156">PhQ::Position&lt; Number &gt;::Direction()</a>, <a class="el" href="TemperatureGradient_8hpp_source.html#l00168">PhQ::TemperatureGradient&lt; Number &gt;::Direction()</a>, <a class="el" href="Traction_8hpp_source.html#l00168">PhQ::Traction&lt; Number &gt;::Direction()</a>, <a class="el" href="VectorArea_8hpp_source.html#l00143">PhQ::VectorArea&lt; Number &gt;::Direction()</a>, and <a class="el" href="Velocity_8hpp_source.html#l00174">PhQ::Velocity&lt; Number &gt;::Direction()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="Acceleration_8hpp_source.html#l00172">PhQ::Acceleration&lt; NumericType &gt;::Direction()</a>, <a class="el" href="Displacement_8hpp_source.html#l00183">PhQ::Displacement&lt; NumericType &gt;::Direction()</a>, <a class="el" href="Force_8hpp_source.html#l00160">PhQ::Force&lt; NumericType &gt;::Direction()</a>, <a class="el" href="HeatFlux_8hpp_source.html#l00175">PhQ::HeatFlux&lt; NumericType &gt;::Direction()</a>, <a class="el" href="Position_8hpp_source.html#l00158">PhQ::Position&lt; NumericType &gt;::Direction()</a>, <a class="el" href="TemperatureGradient_8hpp_source.html#l00170">PhQ::TemperatureGradient&lt; NumericType &gt;::Direction()</a>, <a class="el" href="Traction_8hpp_source.html#l00169">PhQ::Traction&lt; NumericType &gt;::Direction()</a>, <a class="el" href="VectorArea_8hpp_source.html#l00145">PhQ::VectorArea&lt; NumericType &gt;::Direction()</a>, and <a class="el" href="Velocity_8hpp_source.html#l00178">PhQ::Velocity&lt; NumericType &gt;::Direction()</a>.</p>
 
 </div>
 </div>
-<a id="a1a352d93851cc507ff37d1345944a38f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1a352d93851cc507ff37d1345944a38f">&#9670;&nbsp;</a></span>Dot() <span class="overload">[1/2]</span></h2>
+<a id="ab81bfe221af45874b7638ea215b77721"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab81bfe221af45874b7638ea215b77721">&#9670;&nbsp;</a></span>Dot() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number &gt; </div>
+template&lt;typename NumericType &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr Number <a class="el" href="classPhQ_1_1Vector.html">PhQ::Vector</a>&lt; Number &gt;::Dot </td>
+          <td class="memname">constexpr NumericType <a class="el" href="classPhQ_1_1Vector.html">PhQ::Vector</a>&lt; NumericType &gt;::Dot </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1Direction.html">PhQ::Direction</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1Direction.html">PhQ::Direction</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>direction</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -781,25 +781,25 @@ template&lt;typename Number &gt; </div>
 
 <p>Returns the dot product (also known as the inner product or scalar product) of this three-dimensional vector and a given direction. </p>
 
-<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00379">379</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00384">384</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
 
 </div>
 </div>
-<a id="a409a3449206eb8857019a2daa54b3953"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a409a3449206eb8857019a2daa54b3953">&#9670;&nbsp;</a></span>Dot() <span class="overload">[2/2]</span></h2>
+<a id="aff5227abe96ada91d7eab533570a6d28"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aff5227abe96ada91d7eab533570a6d28">&#9670;&nbsp;</a></span>Dot() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr Number <a class="el" href="classPhQ_1_1Vector.html">PhQ::Vector</a>&lt; Number &gt;::Dot </td>
+          <td class="memname">constexpr NumericType <a class="el" href="classPhQ_1_1Vector.html">PhQ::Vector</a>&lt; NumericType &gt;::Dot </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>vector</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -813,29 +813,27 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the dot product (also known as the inner product or scalar product) of this three-dimensional vector and another one. </p>
 
-<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00217">217</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00218">218</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00304">PhQ::Vector&lt; Number &gt;::x_y_z_</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="Direction_8hpp_source.html#l00267">PhQ::Direction&lt; Number &gt;::Dot()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="Direction_8hpp_source.html#l00269">PhQ::Direction&lt; NumericType &gt;::Dot()</a>.</p>
 
 </div>
 </div>
-<a id="aad6faf1fa291bbf9c1a2ceb7103c68aa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aad6faf1fa291bbf9c1a2ceb7103c68aa">&#9670;&nbsp;</a></span>Dyadic() <span class="overload">[1/2]</span></h2>
+<a id="ad16e36cbc9587caecb3d2a822a434137"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad16e36cbc9587caecb3d2a822a434137">&#9670;&nbsp;</a></span>Dyadic() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number &gt; </div>
+template&lt;typename NumericType &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Dyad.html">Dyad</a>&lt; Number &gt; <a class="el" href="classPhQ_1_1Vector.html">PhQ::Vector</a>&lt; Number &gt;::Dyadic </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Dyad.html">Dyad</a>&lt; NumericType &gt; <a class="el" href="classPhQ_1_1Vector.html">PhQ::Vector</a>&lt; NumericType &gt;::Dyadic </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1Direction.html">PhQ::Direction</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1Direction.html">PhQ::Direction</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>direction</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -849,27 +847,27 @@ template&lt;typename Number &gt; </div>
 
 <p>Returns the dyadic tensor product (also known as the outer product) of this three-dimensional vector and a given direction. </p>
 
-<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00391">391</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00396">396</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionlessVector_8hpp_source.html#l00060">PhQ::DimensionlessVector&lt; Number &gt;::Value()</a>.</p>
+<p class="reference">References <a class="el" href="DimensionlessVector_8hpp_source.html#l00060">PhQ::DimensionlessVector&lt; NumericType &gt;::Value()</a>.</p>
 
 </div>
 </div>
-<a id="ae76020aa3a5992a18209627108118af8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae76020aa3a5992a18209627108118af8">&#9670;&nbsp;</a></span>Dyadic() <span class="overload">[2/2]</span></h2>
+<a id="a71143b4f55fdc339effb79b205c760bd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a71143b4f55fdc339effb79b205c760bd">&#9670;&nbsp;</a></span>Dyadic() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number &gt; </div>
+template&lt;typename NumericType &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Dyad.html">Dyad</a>&lt; Number &gt; <a class="el" href="classPhQ_1_1Vector.html">PhQ::Vector</a>&lt; Number &gt;::Dyadic </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Dyad.html">Dyad</a>&lt; NumericType &gt; <a class="el" href="classPhQ_1_1Vector.html">PhQ::Vector</a>&lt; NumericType &gt;::Dyadic </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>vector</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -883,27 +881,27 @@ template&lt;typename Number &gt; </div>
 
 <p>Returns the dyadic tensor product (also known as the outer product) of this three-dimensional vector and another one. </p>
 
-<p class="definition">Definition at line <a class="el" href="Dyad_8hpp_source.html#l00705">705</a> of file <a class="el" href="Dyad_8hpp_source.html">Dyad.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Dyad_8hpp_source.html#l00724">724</a> of file <a class="el" href="Dyad_8hpp_source.html">Dyad.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00304">PhQ::Vector&lt; Number &gt;::x_y_z_</a>.</p>
+<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00308">PhQ::Vector&lt; NumericType &gt;::x_y_z_</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="Direction_8hpp_source.html#l00288">PhQ::Direction&lt; Number &gt;::Dyadic()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="Direction_8hpp_source.html#l00290">PhQ::Direction&lt; NumericType &gt;::Dyadic()</a>.</p>
 
 </div>
 </div>
-<a id="a8b801c808d9fd75edc6a916d41ef6aad"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8b801c808d9fd75edc6a916d41ef6aad">&#9670;&nbsp;</a></span>JSON()</h2>
+<a id="a1fb8f32897e10f79bca56b0505325682"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1fb8f32897e10f79bca56b0505325682">&#9670;&nbsp;</a></span>JSON()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::string <a class="el" href="classPhQ_1_1Vector.html">PhQ::Vector</a>&lt; Number &gt;::JSON </td>
+          <td class="memname">std::string <a class="el" href="classPhQ_1_1Vector.html">PhQ::Vector</a>&lt; NumericType &gt;::JSON </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -918,25 +916,25 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Serializes this three-dimensional vector as a JSON message. </p>
 
-<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00259">259</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00263">263</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Base_8hpp_source.html#l00170">PhQ::Print()</a>, and <a class="el" href="Vector_8hpp_source.html#l00304">PhQ::Vector&lt; Number &gt;::x_y_z_</a>.</p>
+<p class="reference">References <a class="el" href="Base_8hpp_source.html#l00167">PhQ::Print()</a>, and <a class="el" href="Vector_8hpp_source.html#l00308">PhQ::Vector&lt; NumericType &gt;::x_y_z_</a>.</p>
 
 </div>
 </div>
-<a id="ab0389aef5fa6161ce85dcdadc5d76300"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab0389aef5fa6161ce85dcdadc5d76300">&#9670;&nbsp;</a></span>Magnitude()</h2>
+<a id="a1377665304b0a89c62c5fc32e56d2a97"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1377665304b0a89c62c5fc32e56d2a97">&#9670;&nbsp;</a></span>Magnitude()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Number <a class="el" href="classPhQ_1_1Vector.html">PhQ::Vector</a>&lt; Number &gt;::Magnitude </td>
+          <td class="memname">NumericType <a class="el" href="classPhQ_1_1Vector.html">PhQ::Vector</a>&lt; NumericType &gt;::Magnitude </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -951,25 +949,25 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the magnitude (also known as the L2 norm) of this three-dimensional vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00208">208</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00209">209</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="Acceleration_8hpp_source.html#l00164">PhQ::Acceleration&lt; Number &gt;::Magnitude()</a>, <a class="el" href="Displacement_8hpp_source.html#l00174">PhQ::Displacement&lt; Number &gt;::Magnitude()</a>, <a class="el" href="Force_8hpp_source.html#l00152">PhQ::Force&lt; Number &gt;::Magnitude()</a>, <a class="el" href="HeatFlux_8hpp_source.html#l00167">PhQ::HeatFlux&lt; Number &gt;::Magnitude()</a>, <a class="el" href="Position_8hpp_source.html#l00151">PhQ::Position&lt; Number &gt;::Magnitude()</a>, <a class="el" href="TemperatureGradient_8hpp_source.html#l00163">PhQ::TemperatureGradient&lt; Number &gt;::Magnitude()</a>, <a class="el" href="Traction_8hpp_source.html#l00163">PhQ::Traction&lt; Number &gt;::Magnitude()</a>, <a class="el" href="VectorArea_8hpp_source.html#l00138">PhQ::VectorArea&lt; Number &gt;::Magnitude()</a>, <a class="el" href="Velocity_8hpp_source.html#l00169">PhQ::Velocity&lt; Number &gt;::Magnitude()</a>, and <a class="el" href="Direction_8hpp_source.html#l00261">PhQ::Direction&lt; Number &gt;::Magnitude()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="Acceleration_8hpp_source.html#l00167">PhQ::Acceleration&lt; NumericType &gt;::Magnitude()</a>, <a class="el" href="Displacement_8hpp_source.html#l00178">PhQ::Displacement&lt; NumericType &gt;::Magnitude()</a>, <a class="el" href="Force_8hpp_source.html#l00155">PhQ::Force&lt; NumericType &gt;::Magnitude()</a>, <a class="el" href="HeatFlux_8hpp_source.html#l00170">PhQ::HeatFlux&lt; NumericType &gt;::Magnitude()</a>, <a class="el" href="Position_8hpp_source.html#l00153">PhQ::Position&lt; NumericType &gt;::Magnitude()</a>, <a class="el" href="TemperatureGradient_8hpp_source.html#l00165">PhQ::TemperatureGradient&lt; NumericType &gt;::Magnitude()</a>, <a class="el" href="Traction_8hpp_source.html#l00164">PhQ::Traction&lt; NumericType &gt;::Magnitude()</a>, <a class="el" href="VectorArea_8hpp_source.html#l00140">PhQ::VectorArea&lt; NumericType &gt;::Magnitude()</a>, <a class="el" href="Velocity_8hpp_source.html#l00173">PhQ::Velocity&lt; NumericType &gt;::Magnitude()</a>, and <a class="el" href="Direction_8hpp_source.html#l00263">PhQ::Direction&lt; NumericType &gt;::Magnitude()</a>.</p>
 
 </div>
 </div>
-<a id="af8925802f1a0875f8717294d6ee51bcb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af8925802f1a0875f8717294d6ee51bcb">&#9670;&nbsp;</a></span>MagnitudeSquared()</h2>
+<a id="a6d4237ce53100350eedf67abf12c2d47"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6d4237ce53100350eedf67abf12c2d47">&#9670;&nbsp;</a></span>MagnitudeSquared()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr Number <a class="el" href="classPhQ_1_1Vector.html">PhQ::Vector</a>&lt; Number &gt;::MagnitudeSquared </td>
+          <td class="memname">constexpr NumericType <a class="el" href="classPhQ_1_1Vector.html">PhQ::Vector</a>&lt; NumericType &gt;::MagnitudeSquared </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -984,27 +982,27 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the square of the magnitude of this three-dimensional vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00203">203</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00204">204</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00304">PhQ::Vector&lt; Number &gt;::x_y_z_</a>.</p>
+<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00308">PhQ::Vector&lt; NumericType &gt;::x_y_z_</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="Direction_8hpp_source.html#l00255">PhQ::Direction&lt; Number &gt;::MagnitudeSquared()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="Direction_8hpp_source.html#l00257">PhQ::Direction&lt; NumericType &gt;::MagnitudeSquared()</a>.</p>
 
 </div>
 </div>
-<a id="aef836117e5460a637cd731a8b07b3910"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aef836117e5460a637cd731a8b07b3910">&#9670;&nbsp;</a></span>Mutable_x()</h2>
+<a id="a60d72ba1328d529e7f850fc7303b00e3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a60d72ba1328d529e7f850fc7303b00e3">&#9670;&nbsp;</a></span>Mutable_x()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr Number&amp; <a class="el" href="classPhQ_1_1Vector.html">PhQ::Vector</a>&lt; Number &gt;::Mutable_x </td>
+          <td class="memname">constexpr NumericType&amp; <a class="el" href="classPhQ_1_1Vector.html">PhQ::Vector</a>&lt; NumericType &gt;::Mutable_x </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -1019,25 +1017,25 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns this three-dimensional vector's x Cartesian component as a mutable value. </p>
 
-<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00159">159</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00160">160</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00304">PhQ::Vector&lt; Number &gt;::x_y_z_</a>.</p>
+<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00308">PhQ::Vector&lt; NumericType &gt;::x_y_z_</a>.</p>
 
 </div>
 </div>
-<a id="a6c2cf0ff2142e6fb94f22a4e0993781a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6c2cf0ff2142e6fb94f22a4e0993781a">&#9670;&nbsp;</a></span>Mutable_x_y_z()</h2>
+<a id="af88489628232750d9267a07adcf9eef0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af88489628232750d9267a07adcf9eef0">&#9670;&nbsp;</a></span>Mutable_x_y_z()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr std::array&lt;Number, 3&gt;&amp; <a class="el" href="classPhQ_1_1Vector.html">PhQ::Vector</a>&lt; Number &gt;::Mutable_x_y_z </td>
+          <td class="memname">constexpr std::array&lt;NumericType, 3&gt;&amp; <a class="el" href="classPhQ_1_1Vector.html">PhQ::Vector</a>&lt; NumericType &gt;::Mutable_x_y_z </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -1052,27 +1050,27 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns this three-dimensional vector's x, y, and z Cartesian components as a mutable array. </p>
 
-<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00154">154</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00155">155</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00304">PhQ::Vector&lt; Number &gt;::x_y_z_</a>.</p>
+<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00308">PhQ::Vector&lt; NumericType &gt;::x_y_z_</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="Unit_8hpp_source.html#l00183">PhQ::Convert()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="Unit_8hpp_source.html#l00187">PhQ::ConvertInPlace()</a>.</p>
 
 </div>
 </div>
-<a id="af8e7849d630b987eae4151a09feae16a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af8e7849d630b987eae4151a09feae16a">&#9670;&nbsp;</a></span>Mutable_y()</h2>
+<a id="a9887768b4a41a0f231d461dec7086631"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9887768b4a41a0f231d461dec7086631">&#9670;&nbsp;</a></span>Mutable_y()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr Number&amp; <a class="el" href="classPhQ_1_1Vector.html">PhQ::Vector</a>&lt; Number &gt;::Mutable_y </td>
+          <td class="memname">constexpr NumericType&amp; <a class="el" href="classPhQ_1_1Vector.html">PhQ::Vector</a>&lt; NumericType &gt;::Mutable_y </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -1087,25 +1085,25 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns this three-dimensional vector's y Cartesian component as a mutable value. </p>
 
-<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00164">164</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00165">165</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00304">PhQ::Vector&lt; Number &gt;::x_y_z_</a>.</p>
+<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00308">PhQ::Vector&lt; NumericType &gt;::x_y_z_</a>.</p>
 
 </div>
 </div>
-<a id="aafb3180bd137637ba0ddd51efe938aec"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aafb3180bd137637ba0ddd51efe938aec">&#9670;&nbsp;</a></span>Mutable_z()</h2>
+<a id="a372cd26fa88a4552b256f9d7074e22d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a372cd26fa88a4552b256f9d7074e22d4">&#9670;&nbsp;</a></span>Mutable_z()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr Number&amp; <a class="el" href="classPhQ_1_1Vector.html">PhQ::Vector</a>&lt; Number &gt;::Mutable_z </td>
+          <td class="memname">constexpr NumericType&amp; <a class="el" href="classPhQ_1_1Vector.html">PhQ::Vector</a>&lt; NumericType &gt;::Mutable_z </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -1120,29 +1118,29 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns this three-dimensional vector's z Cartesian component as a mutable value. </p>
 
-<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00169">169</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00170">170</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00304">PhQ::Vector&lt; Number &gt;::x_y_z_</a>.</p>
+<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00308">PhQ::Vector&lt; NumericType &gt;::x_y_z_</a>.</p>
 
 </div>
 </div>
-<a id="abba22067f83c48f5ed76043229002b4a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abba22067f83c48f5ed76043229002b4a">&#9670;&nbsp;</a></span>operator*=()</h2>
+<a id="af84d2382be611b3d34a0fe196a7680f3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af84d2382be611b3d34a0fe196a7680f3">&#9670;&nbsp;</a></span>operator*=()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <div class="memtemplate">
-template&lt;typename OtherNumber &gt; </div>
+template&lt;typename OtherNumericType &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr void <a class="el" href="classPhQ_1_1Vector.html">PhQ::Vector</a>&lt; Number &gt;::operator*= </td>
+          <td class="memname">constexpr void <a class="el" href="classPhQ_1_1Vector.html">PhQ::Vector</a>&lt; NumericType &gt;::operator*= </td>
           <td>(</td>
-          <td class="paramtype">const OtherNumber&#160;</td>
+          <td class="paramtype">const OtherNumericType&#160;</td>
           <td class="paramname"><em>number</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1154,27 +1152,27 @@ template&lt;typename OtherNumber &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00289">289</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00293">293</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00304">PhQ::Vector&lt; Number &gt;::x_y_z_</a>.</p>
+<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00308">PhQ::Vector&lt; NumericType &gt;::x_y_z_</a>.</p>
 
 </div>
 </div>
-<a id="af2b3ff9d7238eacf91645de357831062"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af2b3ff9d7238eacf91645de357831062">&#9670;&nbsp;</a></span>operator+=()</h2>
+<a id="a45d926a9983a20190e5544c93082e173"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a45d926a9983a20190e5544c93082e173">&#9670;&nbsp;</a></span>operator+=()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr void <a class="el" href="classPhQ_1_1Vector.html">PhQ::Vector</a>&lt; Number &gt;::operator+= </td>
+          <td class="memname">constexpr void <a class="el" href="classPhQ_1_1Vector.html">PhQ::Vector</a>&lt; NumericType &gt;::operator+= </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>vector</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1186,27 +1184,27 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00276">276</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00280">280</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00304">PhQ::Vector&lt; Number &gt;::x_y_z_</a>.</p>
+<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00308">PhQ::Vector&lt; NumericType &gt;::x_y_z_</a>.</p>
 
 </div>
 </div>
-<a id="a39b83a559bf2e076481993d6ebae1e75"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a39b83a559bf2e076481993d6ebae1e75">&#9670;&nbsp;</a></span>operator-=()</h2>
+<a id="ad37e91b8994d16cc4c46eeab1e62cff5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad37e91b8994d16cc4c46eeab1e62cff5">&#9670;&nbsp;</a></span>operator-=()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr void <a class="el" href="classPhQ_1_1Vector.html">PhQ::Vector</a>&lt; Number &gt;::operator-= </td>
+          <td class="memname">constexpr void <a class="el" href="classPhQ_1_1Vector.html">PhQ::Vector</a>&lt; NumericType &gt;::operator-= </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>vector</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1218,29 +1216,29 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00282">282</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00286">286</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00304">PhQ::Vector&lt; Number &gt;::x_y_z_</a>.</p>
+<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00308">PhQ::Vector&lt; NumericType &gt;::x_y_z_</a>.</p>
 
 </div>
 </div>
-<a id="ab830cd1ac86a4183ad186a855ac227ca"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab830cd1ac86a4183ad186a855ac227ca">&#9670;&nbsp;</a></span>operator/=()</h2>
+<a id="aca2137b332b37278baaeac2fdeea07a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aca2137b332b37278baaeac2fdeea07a1">&#9670;&nbsp;</a></span>operator/=()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <div class="memtemplate">
-template&lt;typename OtherNumber &gt; </div>
+template&lt;typename OtherNumericType &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr void <a class="el" href="classPhQ_1_1Vector.html">PhQ::Vector</a>&lt; Number &gt;::operator/= </td>
+          <td class="memname">constexpr void <a class="el" href="classPhQ_1_1Vector.html">PhQ::Vector</a>&lt; NumericType &gt;::operator/= </td>
           <td>(</td>
-          <td class="paramtype">const OtherNumber&#160;</td>
+          <td class="paramtype">const OtherNumericType&#160;</td>
           <td class="paramname"><em>number</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1252,27 +1250,27 @@ template&lt;typename OtherNumber &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00296">296</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00300">300</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00304">PhQ::Vector&lt; Number &gt;::x_y_z_</a>.</p>
+<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00308">PhQ::Vector&lt; NumericType &gt;::x_y_z_</a>.</p>
 
 </div>
 </div>
-<a id="a52c81d5c6529ee052a2e9de197f09bcf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a52c81d5c6529ee052a2e9de197f09bcf">&#9670;&nbsp;</a></span>operator=() <span class="overload">[1/4]</span></h2>
+<a id="aeca92fb4fc5c4999d3f6fad34d5dc651"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeca92fb4fc5c4999d3f6fad34d5dc651">&#9670;&nbsp;</a></span>operator=() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt;Number&gt;&amp; <a class="el" href="classPhQ_1_1Vector.html">PhQ::Vector</a>&lt; Number &gt;::operator= </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt;NumericType&gt;&amp; <a class="el" href="classPhQ_1_1Vector.html">PhQ::Vector</a>&lt; NumericType &gt;::operator= </td>
           <td>(</td>
-          <td class="paramtype">const std::array&lt; Number, 3 &gt; &amp;&#160;</td>
+          <td class="paramtype">const std::array&lt; NumericType, 3 &gt; &amp;&#160;</td>
           <td class="paramname"><em>x_y_z</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1286,27 +1284,27 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Assignment operator. Assigns this three-dimensional vector by copying a given array representing its x, y, and z Cartesian components. </p>
 
-<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00118">118</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00119">119</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00133">PhQ::Vector&lt; Number &gt;::x_y_z()</a>, and <a class="el" href="Vector_8hpp_source.html#l00304">PhQ::Vector&lt; Number &gt;::x_y_z_</a>.</p>
+<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00134">PhQ::Vector&lt; NumericType &gt;::x_y_z()</a>, and <a class="el" href="Vector_8hpp_source.html#l00308">PhQ::Vector&lt; NumericType &gt;::x_y_z_</a>.</p>
 
 </div>
 </div>
-<a id="a1743088864e5baf799f1b708d32fb70d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1743088864e5baf799f1b708d32fb70d">&#9670;&nbsp;</a></span>operator=() <span class="overload">[2/4]</span></h2>
+<a id="af4b46205b72e3fdd29e47dcf25bf3d41"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af4b46205b72e3fdd29e47dcf25bf3d41">&#9670;&nbsp;</a></span>operator=() <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt;Number&gt;&amp; <a class="el" href="classPhQ_1_1Vector.html">PhQ::Vector</a>&lt; Number &gt;::operator= </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt;NumericType&gt;&amp; <a class="el" href="classPhQ_1_1Vector.html">PhQ::Vector</a>&lt; NumericType &gt;::operator= </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>other</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1322,23 +1320,23 @@ template&lt;typename Number  = double&gt; </div>
 
 </div>
 </div>
-<a id="aa640587b878fdfdafcf1ca37988fe7f5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa640587b878fdfdafcf1ca37988fe7f5">&#9670;&nbsp;</a></span>operator=() <span class="overload">[3/4]</span></h2>
+<a id="a23a98f1cf8d77ffd36e1b7e867b6f786"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a23a98f1cf8d77ffd36e1b7e867b6f786">&#9670;&nbsp;</a></span>operator=() <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <div class="memtemplate">
-template&lt;typename OtherNumber &gt; </div>
+template&lt;typename OtherNumericType &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt;Number&gt;&amp; <a class="el" href="classPhQ_1_1Vector.html">PhQ::Vector</a>&lt; Number &gt;::operator= </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt;NumericType&gt;&amp; <a class="el" href="classPhQ_1_1Vector.html">PhQ::Vector</a>&lt; NumericType &gt;::operator= </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt; OtherNumber &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt; OtherNumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>other</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1352,27 +1350,27 @@ template&lt;typename OtherNumber &gt; </div>
 
 <p>Copy assignment operator. Assigns this three-dimensional vector by copying another one. </p>
 
-<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00106">106</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00107">107</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00138">PhQ::Vector&lt; Number &gt;::x()</a>, <a class="el" href="Vector_8hpp_source.html#l00304">PhQ::Vector&lt; Number &gt;::x_y_z_</a>, <a class="el" href="Vector_8hpp_source.html#l00143">PhQ::Vector&lt; Number &gt;::y()</a>, and <a class="el" href="Vector_8hpp_source.html#l00148">PhQ::Vector&lt; Number &gt;::z()</a>.</p>
+<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00139">PhQ::Vector&lt; NumericType &gt;::x()</a>, <a class="el" href="Vector_8hpp_source.html#l00308">PhQ::Vector&lt; NumericType &gt;::x_y_z_</a>, <a class="el" href="Vector_8hpp_source.html#l00144">PhQ::Vector&lt; NumericType &gt;::y()</a>, and <a class="el" href="Vector_8hpp_source.html#l00149">PhQ::Vector&lt; NumericType &gt;::z()</a>.</p>
 
 </div>
 </div>
-<a id="a19cf7583c387a663c893fd270a21f263"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a19cf7583c387a663c893fd270a21f263">&#9670;&nbsp;</a></span>operator=() <span class="overload">[4/4]</span></h2>
+<a id="acbe343cc6795de79d0cc1ca87acf3d64"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acbe343cc6795de79d0cc1ca87acf3d64">&#9670;&nbsp;</a></span>operator=() <span class="overload">[4/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt;Number&gt;&amp; <a class="el" href="classPhQ_1_1Vector.html">PhQ::Vector</a>&lt; Number &gt;::operator= </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt;NumericType&gt;&amp; <a class="el" href="classPhQ_1_1Vector.html">PhQ::Vector</a>&lt; NumericType &gt;::operator= </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt; Number &gt; &amp;&amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt; NumericType &gt; &amp;&amp;&#160;</td>
           <td class="paramname"><em>other</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1388,19 +1386,19 @@ template&lt;typename Number  = double&gt; </div>
 
 </div>
 </div>
-<a id="a2a4487290bf00ee1b82f787548ca45ae"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2a4487290bf00ee1b82f787548ca45ae">&#9670;&nbsp;</a></span>Print()</h2>
+<a id="a2019be3fe385e21016074efa1c2e08a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2019be3fe385e21016074efa1c2e08a1">&#9670;&nbsp;</a></span>Print()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::string <a class="el" href="classPhQ_1_1Vector.html">PhQ::Vector</a>&lt; Number &gt;::Print </td>
+          <td class="memname">std::string <a class="el" href="classPhQ_1_1Vector.html">PhQ::Vector</a>&lt; NumericType &gt;::Print </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -1415,29 +1413,29 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Prints this three-dimensional vector as a string. </p>
 
-<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00253">253</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00257">257</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Base_8hpp_source.html#l00170">PhQ::Print()</a>, and <a class="el" href="Vector_8hpp_source.html#l00304">PhQ::Vector&lt; Number &gt;::x_y_z_</a>.</p>
+<p class="reference">References <a class="el" href="Base_8hpp_source.html#l00167">PhQ::Print()</a>, and <a class="el" href="Vector_8hpp_source.html#l00308">PhQ::Vector&lt; NumericType &gt;::x_y_z_</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="Vector_8hpp_source.html#l00379">PhQ::operator&lt;&lt;()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="Vector_8hpp_source.html#l00394">PhQ::operator&lt;&lt;()</a>.</p>
 
 </div>
 </div>
-<a id="a1cc1c6a744942420ea15e6f01c8c354a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1cc1c6a744942420ea15e6f01c8c354a">&#9670;&nbsp;</a></span>Set_x()</h2>
+<a id="a2bf79b6ac9ca7f11be8e6f6c57f10a14"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2bf79b6ac9ca7f11be8e6f6c57f10a14">&#9670;&nbsp;</a></span>Set_x()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr void <a class="el" href="classPhQ_1_1Vector.html">PhQ::Vector</a>&lt; Number &gt;::Set_x </td>
+          <td class="memname">constexpr void <a class="el" href="classPhQ_1_1Vector.html">PhQ::Vector</a>&lt; NumericType &gt;::Set_x </td>
           <td>(</td>
-          <td class="paramtype">const Number&#160;</td>
+          <td class="paramtype">const NumericType&#160;</td>
           <td class="paramname"><em>x</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1451,39 +1449,39 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Sets this three-dimensional vector's x Cartesian component to a given value. </p>
 
-<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00188">188</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00189">189</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00138">PhQ::Vector&lt; Number &gt;::x()</a>, and <a class="el" href="Vector_8hpp_source.html#l00304">PhQ::Vector&lt; Number &gt;::x_y_z_</a>.</p>
+<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00139">PhQ::Vector&lt; NumericType &gt;::x()</a>, and <a class="el" href="Vector_8hpp_source.html#l00308">PhQ::Vector&lt; NumericType &gt;::x_y_z_</a>.</p>
 
 </div>
 </div>
-<a id="ab2b2923881b3cf14b8c6bba4208f5693"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab2b2923881b3cf14b8c6bba4208f5693">&#9670;&nbsp;</a></span>Set_x_y_z() <span class="overload">[1/2]</span></h2>
+<a id="a6f460ce3680d078ebcff8e1332328a68"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f460ce3680d078ebcff8e1332328a68">&#9670;&nbsp;</a></span>Set_x_y_z() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr void <a class="el" href="classPhQ_1_1Vector.html">PhQ::Vector</a>&lt; Number &gt;::Set_x_y_z </td>
+          <td class="memname">constexpr void <a class="el" href="classPhQ_1_1Vector.html">PhQ::Vector</a>&lt; NumericType &gt;::Set_x_y_z </td>
           <td>(</td>
-          <td class="paramtype">const Number&#160;</td>
+          <td class="paramtype">const NumericType&#160;</td>
           <td class="paramname"><em>x</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const Number&#160;</td>
+          <td class="paramtype">const NumericType&#160;</td>
           <td class="paramname"><em>y</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const Number&#160;</td>
+          <td class="paramtype">const NumericType&#160;</td>
           <td class="paramname"><em>z</em>&#160;</td>
         </tr>
         <tr>
@@ -1501,27 +1499,27 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Sets this three-dimensional vector's x, y, and z Cartesian components to the given values. </p>
 
-<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00181">181</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00182">182</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00138">PhQ::Vector&lt; Number &gt;::x()</a>, <a class="el" href="Vector_8hpp_source.html#l00304">PhQ::Vector&lt; Number &gt;::x_y_z_</a>, <a class="el" href="Vector_8hpp_source.html#l00143">PhQ::Vector&lt; Number &gt;::y()</a>, and <a class="el" href="Vector_8hpp_source.html#l00148">PhQ::Vector&lt; Number &gt;::z()</a>.</p>
+<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00139">PhQ::Vector&lt; NumericType &gt;::x()</a>, <a class="el" href="Vector_8hpp_source.html#l00308">PhQ::Vector&lt; NumericType &gt;::x_y_z_</a>, <a class="el" href="Vector_8hpp_source.html#l00144">PhQ::Vector&lt; NumericType &gt;::y()</a>, and <a class="el" href="Vector_8hpp_source.html#l00149">PhQ::Vector&lt; NumericType &gt;::z()</a>.</p>
 
 </div>
 </div>
-<a id="a6970618c439700b0b13a58df1b8cd1e5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6970618c439700b0b13a58df1b8cd1e5">&#9670;&nbsp;</a></span>Set_x_y_z() <span class="overload">[2/2]</span></h2>
+<a id="a8c67870f1cde3f9cd1a91c16851544b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c67870f1cde3f9cd1a91c16851544b4">&#9670;&nbsp;</a></span>Set_x_y_z() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr void <a class="el" href="classPhQ_1_1Vector.html">PhQ::Vector</a>&lt; Number &gt;::Set_x_y_z </td>
+          <td class="memname">constexpr void <a class="el" href="classPhQ_1_1Vector.html">PhQ::Vector</a>&lt; NumericType &gt;::Set_x_y_z </td>
           <td>(</td>
-          <td class="paramtype">const std::array&lt; Number, 3 &gt; &amp;&#160;</td>
+          <td class="paramtype">const std::array&lt; NumericType, 3 &gt; &amp;&#160;</td>
           <td class="paramname"><em>x_y_z</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1535,27 +1533,27 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Sets this three-dimensional vector's x, y, and z Cartesian components to the given values. </p>
 
-<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00175">175</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00176">176</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00133">PhQ::Vector&lt; Number &gt;::x_y_z()</a>, and <a class="el" href="Vector_8hpp_source.html#l00304">PhQ::Vector&lt; Number &gt;::x_y_z_</a>.</p>
+<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00134">PhQ::Vector&lt; NumericType &gt;::x_y_z()</a>, and <a class="el" href="Vector_8hpp_source.html#l00308">PhQ::Vector&lt; NumericType &gt;::x_y_z_</a>.</p>
 
 </div>
 </div>
-<a id="a85696d7cf79d80726481e0aa4bed512f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a85696d7cf79d80726481e0aa4bed512f">&#9670;&nbsp;</a></span>Set_y()</h2>
+<a id="a74f9ac07a7ca4c8da5e0550abe8e28d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a74f9ac07a7ca4c8da5e0550abe8e28d1">&#9670;&nbsp;</a></span>Set_y()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr void <a class="el" href="classPhQ_1_1Vector.html">PhQ::Vector</a>&lt; Number &gt;::Set_y </td>
+          <td class="memname">constexpr void <a class="el" href="classPhQ_1_1Vector.html">PhQ::Vector</a>&lt; NumericType &gt;::Set_y </td>
           <td>(</td>
-          <td class="paramtype">const Number&#160;</td>
+          <td class="paramtype">const NumericType&#160;</td>
           <td class="paramname"><em>y</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1569,27 +1567,27 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Sets this three-dimensional vector's y Cartesian component to a given value. </p>
 
-<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00193">193</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00194">194</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00304">PhQ::Vector&lt; Number &gt;::x_y_z_</a>, and <a class="el" href="Vector_8hpp_source.html#l00143">PhQ::Vector&lt; Number &gt;::y()</a>.</p>
+<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00308">PhQ::Vector&lt; NumericType &gt;::x_y_z_</a>, and <a class="el" href="Vector_8hpp_source.html#l00144">PhQ::Vector&lt; NumericType &gt;::y()</a>.</p>
 
 </div>
 </div>
-<a id="a81a5540634e807e122a445e45a2f1527"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a81a5540634e807e122a445e45a2f1527">&#9670;&nbsp;</a></span>Set_z()</h2>
+<a id="a0f72de1d9f01b087b26e65009cf6bc81"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0f72de1d9f01b087b26e65009cf6bc81">&#9670;&nbsp;</a></span>Set_z()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr void <a class="el" href="classPhQ_1_1Vector.html">PhQ::Vector</a>&lt; Number &gt;::Set_z </td>
+          <td class="memname">constexpr void <a class="el" href="classPhQ_1_1Vector.html">PhQ::Vector</a>&lt; NumericType &gt;::Set_z </td>
           <td>(</td>
-          <td class="paramtype">const Number&#160;</td>
+          <td class="paramtype">const NumericType&#160;</td>
           <td class="paramname"><em>z</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1603,25 +1601,25 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Sets this three-dimensional vector's z Cartesian component to a given value. </p>
 
-<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00198">198</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00199">199</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00304">PhQ::Vector&lt; Number &gt;::x_y_z_</a>, and <a class="el" href="Vector_8hpp_source.html#l00148">PhQ::Vector&lt; Number &gt;::z()</a>.</p>
+<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00308">PhQ::Vector&lt; NumericType &gt;::x_y_z_</a>, and <a class="el" href="Vector_8hpp_source.html#l00149">PhQ::Vector&lt; NumericType &gt;::z()</a>.</p>
 
 </div>
 </div>
-<a id="a9f7082b45323a3fc78f9beae5f551689"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9f7082b45323a3fc78f9beae5f551689">&#9670;&nbsp;</a></span>x()</h2>
+<a id="a86324f11eb02e8d21520786b229e5703"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a86324f11eb02e8d21520786b229e5703">&#9670;&nbsp;</a></span>x()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr Number <a class="el" href="classPhQ_1_1Vector.html">PhQ::Vector</a>&lt; Number &gt;::x </td>
+          <td class="memname">constexpr NumericType <a class="el" href="classPhQ_1_1Vector.html">PhQ::Vector</a>&lt; NumericType &gt;::x </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -1636,27 +1634,27 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns this three-dimensional vector's x Cartesian component. </p>
 
-<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00138">138</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00139">139</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00304">PhQ::Vector&lt; Number &gt;::x_y_z_</a>.</p>
+<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00308">PhQ::Vector&lt; NumericType &gt;::x_y_z_</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="Dyad_8hpp_source.html#l00587">PhQ::operator*()</a>, <a class="el" href="Vector_8hpp_source.html#l00350">PhQ::operator+()</a>, <a class="el" href="Vector_8hpp_source.html#l00355">PhQ::operator-()</a>, <a class="el" href="Vector_8hpp_source.html#l00372">PhQ::operator/()</a>, <a class="el" href="Vector_8hpp_source.html#l00106">PhQ::Vector&lt; Number &gt;::operator=()</a>, <a class="el" href="Vector_8hpp_source.html#l00385">PhQ::PlanarVector&lt; Number &gt;::PlanarVector()</a>, <a class="el" href="Vector_8hpp_source.html#l00188">PhQ::Vector&lt; Number &gt;::Set_x()</a>, <a class="el" href="Vector_8hpp_source.html#l00181">PhQ::Vector&lt; Number &gt;::Set_x_y_z()</a>, <a class="el" href="Vector_8hpp_source.html#l00072">PhQ::Vector&lt; Number &gt;::Vector()</a>, <a class="el" href="Acceleration_8hpp_source.html#l00149">PhQ::Acceleration&lt; Number &gt;::x()</a>, <a class="el" href="Direction_8hpp_source.html#l00207">PhQ::Direction&lt; Number &gt;::x()</a>, <a class="el" href="Displacement_8hpp_source.html#l00159">PhQ::Displacement&lt; Number &gt;::x()</a>, <a class="el" href="Force_8hpp_source.html#l00137">PhQ::Force&lt; Number &gt;::x()</a>, <a class="el" href="HeatFlux_8hpp_source.html#l00152">PhQ::HeatFlux&lt; Number &gt;::x()</a>, <a class="el" href="Position_8hpp_source.html#l00136">PhQ::Position&lt; Number &gt;::x()</a>, <a class="el" href="TemperatureGradient_8hpp_source.html#l00148">PhQ::TemperatureGradient&lt; Number &gt;::x()</a>, <a class="el" href="Traction_8hpp_source.html#l00148">PhQ::Traction&lt; Number &gt;::x()</a>, <a class="el" href="VectorArea_8hpp_source.html#l00123">PhQ::VectorArea&lt; Number &gt;::x()</a>, and <a class="el" href="Velocity_8hpp_source.html#l00154">PhQ::Velocity&lt; Number &gt;::x()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="Dyad_8hpp_source.html#l00600">PhQ::operator*()</a>, <a class="el" href="Vector_8hpp_source.html#l00360">PhQ::operator+()</a>, <a class="el" href="Vector_8hpp_source.html#l00366">PhQ::operator-()</a>, <a class="el" href="Vector_8hpp_source.html#l00386">PhQ::operator/()</a>, <a class="el" href="Vector_8hpp_source.html#l00107">PhQ::Vector&lt; NumericType &gt;::operator=()</a>, <a class="el" href="Vector_8hpp_source.html#l00400">PhQ::PlanarVector&lt; NumericType &gt;::PlanarVector()</a>, <a class="el" href="Vector_8hpp_source.html#l00189">PhQ::Vector&lt; NumericType &gt;::Set_x()</a>, <a class="el" href="Vector_8hpp_source.html#l00182">PhQ::Vector&lt; NumericType &gt;::Set_x_y_z()</a>, <a class="el" href="Vector_8hpp_source.html#l00072">PhQ::Vector&lt; NumericType &gt;::Vector()</a>, <a class="el" href="Acceleration_8hpp_source.html#l00152">PhQ::Acceleration&lt; NumericType &gt;::x()</a>, <a class="el" href="Direction_8hpp_source.html#l00208">PhQ::Direction&lt; NumericType &gt;::x()</a>, <a class="el" href="Displacement_8hpp_source.html#l00163">PhQ::Displacement&lt; NumericType &gt;::x()</a>, <a class="el" href="Force_8hpp_source.html#l00140">PhQ::Force&lt; NumericType &gt;::x()</a>, <a class="el" href="HeatFlux_8hpp_source.html#l00155">PhQ::HeatFlux&lt; NumericType &gt;::x()</a>, <a class="el" href="Position_8hpp_source.html#l00138">PhQ::Position&lt; NumericType &gt;::x()</a>, <a class="el" href="TemperatureGradient_8hpp_source.html#l00150">PhQ::TemperatureGradient&lt; NumericType &gt;::x()</a>, <a class="el" href="Traction_8hpp_source.html#l00149">PhQ::Traction&lt; NumericType &gt;::x()</a>, <a class="el" href="VectorArea_8hpp_source.html#l00125">PhQ::VectorArea&lt; NumericType &gt;::x()</a>, and <a class="el" href="Velocity_8hpp_source.html#l00158">PhQ::Velocity&lt; NumericType &gt;::x()</a>.</p>
 
 </div>
 </div>
-<a id="a18ff506c80c7453b89ae20ae3f7f3565"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a18ff506c80c7453b89ae20ae3f7f3565">&#9670;&nbsp;</a></span>x_y_z()</h2>
+<a id="a5e4576d0701a25d1f75d2491379b489a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5e4576d0701a25d1f75d2491379b489a">&#9670;&nbsp;</a></span>x_y_z()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr const std::array&lt;Number, 3&gt;&amp; <a class="el" href="classPhQ_1_1Vector.html">PhQ::Vector</a>&lt; Number &gt;::x_y_z </td>
+          <td class="memname">constexpr const std::array&lt;NumericType, 3&gt;&amp; <a class="el" href="classPhQ_1_1Vector.html">PhQ::Vector</a>&lt; NumericType &gt;::x_y_z </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -1671,27 +1669,27 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns this three-dimensional vector's x, y, and z Cartesian components as an array. </p>
 
-<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00133">133</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00134">134</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00304">PhQ::Vector&lt; Number &gt;::x_y_z_</a>.</p>
+<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00308">PhQ::Vector&lt; NumericType &gt;::x_y_z_</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="Unit_8hpp_source.html#l00242">PhQ::ConvertCopy()</a>, <a class="el" href="Vector_8hpp_source.html#l00118">PhQ::Vector&lt; Number &gt;::operator=()</a>, <a class="el" href="Vector_8hpp_source.html#l00175">PhQ::Vector&lt; Number &gt;::Set_x_y_z()</a>, and <a class="el" href="Unit_8hpp_source.html#l00307">PhQ::StaticConvertCopy()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="Unit_8hpp_source.html#l00250">PhQ::Convert()</a>, <a class="el" href="Unit_8hpp_source.html#l00317">PhQ::ConvertStatically()</a>, <a class="el" href="Vector_8hpp_source.html#l00119">PhQ::Vector&lt; NumericType &gt;::operator=()</a>, <a class="el" href="Direction_8hpp_source.html#l00251">PhQ::Direction&lt; NumericType &gt;::Set()</a>, and <a class="el" href="Vector_8hpp_source.html#l00176">PhQ::Vector&lt; NumericType &gt;::Set_x_y_z()</a>.</p>
 
 </div>
 </div>
-<a id="a2cd6426a219aa2982198a8e937f96bba"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2cd6426a219aa2982198a8e937f96bba">&#9670;&nbsp;</a></span>XML()</h2>
+<a id="a12dd8148418b6268295028e67fa44b34"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a12dd8148418b6268295028e67fa44b34">&#9670;&nbsp;</a></span>XML()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::string <a class="el" href="classPhQ_1_1Vector.html">PhQ::Vector</a>&lt; Number &gt;::XML </td>
+          <td class="memname">std::string <a class="el" href="classPhQ_1_1Vector.html">PhQ::Vector</a>&lt; NumericType &gt;::XML </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -1706,25 +1704,25 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Serializes this three-dimensional vector as an XML message. </p>
 
-<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00265">265</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00269">269</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Base_8hpp_source.html#l00170">PhQ::Print()</a>, and <a class="el" href="Vector_8hpp_source.html#l00304">PhQ::Vector&lt; Number &gt;::x_y_z_</a>.</p>
+<p class="reference">References <a class="el" href="Base_8hpp_source.html#l00167">PhQ::Print()</a>, and <a class="el" href="Vector_8hpp_source.html#l00308">PhQ::Vector&lt; NumericType &gt;::x_y_z_</a>.</p>
 
 </div>
 </div>
-<a id="af0d41d90904ce1f232799b283ee0c872"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af0d41d90904ce1f232799b283ee0c872">&#9670;&nbsp;</a></span>y()</h2>
+<a id="ac504e3a76fcebc6e6c6ad4ea840a6756"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac504e3a76fcebc6e6c6ad4ea840a6756">&#9670;&nbsp;</a></span>y()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr Number <a class="el" href="classPhQ_1_1Vector.html">PhQ::Vector</a>&lt; Number &gt;::y </td>
+          <td class="memname">constexpr NumericType <a class="el" href="classPhQ_1_1Vector.html">PhQ::Vector</a>&lt; NumericType &gt;::y </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -1739,27 +1737,27 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns this three-dimensional vector's y Cartesian component. </p>
 
-<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00143">143</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00144">144</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00304">PhQ::Vector&lt; Number &gt;::x_y_z_</a>.</p>
+<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00308">PhQ::Vector&lt; NumericType &gt;::x_y_z_</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="Dyad_8hpp_source.html#l00587">PhQ::operator*()</a>, <a class="el" href="Vector_8hpp_source.html#l00350">PhQ::operator+()</a>, <a class="el" href="Vector_8hpp_source.html#l00355">PhQ::operator-()</a>, <a class="el" href="Vector_8hpp_source.html#l00372">PhQ::operator/()</a>, <a class="el" href="Vector_8hpp_source.html#l00106">PhQ::Vector&lt; Number &gt;::operator=()</a>, <a class="el" href="Vector_8hpp_source.html#l00385">PhQ::PlanarVector&lt; Number &gt;::PlanarVector()</a>, <a class="el" href="Vector_8hpp_source.html#l00181">PhQ::Vector&lt; Number &gt;::Set_x_y_z()</a>, <a class="el" href="Vector_8hpp_source.html#l00193">PhQ::Vector&lt; Number &gt;::Set_y()</a>, <a class="el" href="Vector_8hpp_source.html#l00072">PhQ::Vector&lt; Number &gt;::Vector()</a>, <a class="el" href="Acceleration_8hpp_source.html#l00154">PhQ::Acceleration&lt; Number &gt;::y()</a>, <a class="el" href="Displacement_8hpp_source.html#l00164">PhQ::Displacement&lt; Number &gt;::y()</a>, <a class="el" href="Force_8hpp_source.html#l00142">PhQ::Force&lt; Number &gt;::y()</a>, <a class="el" href="HeatFlux_8hpp_source.html#l00157">PhQ::HeatFlux&lt; Number &gt;::y()</a>, <a class="el" href="Position_8hpp_source.html#l00141">PhQ::Position&lt; Number &gt;::y()</a>, <a class="el" href="TemperatureGradient_8hpp_source.html#l00153">PhQ::TemperatureGradient&lt; Number &gt;::y()</a>, <a class="el" href="Traction_8hpp_source.html#l00153">PhQ::Traction&lt; Number &gt;::y()</a>, <a class="el" href="VectorArea_8hpp_source.html#l00128">PhQ::VectorArea&lt; Number &gt;::y()</a>, and <a class="el" href="Velocity_8hpp_source.html#l00159">PhQ::Velocity&lt; Number &gt;::y()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="Dyad_8hpp_source.html#l00600">PhQ::operator*()</a>, <a class="el" href="Vector_8hpp_source.html#l00360">PhQ::operator+()</a>, <a class="el" href="Vector_8hpp_source.html#l00366">PhQ::operator-()</a>, <a class="el" href="Vector_8hpp_source.html#l00386">PhQ::operator/()</a>, <a class="el" href="Vector_8hpp_source.html#l00107">PhQ::Vector&lt; NumericType &gt;::operator=()</a>, <a class="el" href="Vector_8hpp_source.html#l00400">PhQ::PlanarVector&lt; NumericType &gt;::PlanarVector()</a>, <a class="el" href="Vector_8hpp_source.html#l00182">PhQ::Vector&lt; NumericType &gt;::Set_x_y_z()</a>, <a class="el" href="Vector_8hpp_source.html#l00194">PhQ::Vector&lt; NumericType &gt;::Set_y()</a>, <a class="el" href="Vector_8hpp_source.html#l00072">PhQ::Vector&lt; NumericType &gt;::Vector()</a>, <a class="el" href="Acceleration_8hpp_source.html#l00157">PhQ::Acceleration&lt; NumericType &gt;::y()</a>, <a class="el" href="Displacement_8hpp_source.html#l00168">PhQ::Displacement&lt; NumericType &gt;::y()</a>, <a class="el" href="Force_8hpp_source.html#l00145">PhQ::Force&lt; NumericType &gt;::y()</a>, <a class="el" href="HeatFlux_8hpp_source.html#l00160">PhQ::HeatFlux&lt; NumericType &gt;::y()</a>, <a class="el" href="Position_8hpp_source.html#l00143">PhQ::Position&lt; NumericType &gt;::y()</a>, <a class="el" href="TemperatureGradient_8hpp_source.html#l00155">PhQ::TemperatureGradient&lt; NumericType &gt;::y()</a>, <a class="el" href="Traction_8hpp_source.html#l00154">PhQ::Traction&lt; NumericType &gt;::y()</a>, <a class="el" href="VectorArea_8hpp_source.html#l00130">PhQ::VectorArea&lt; NumericType &gt;::y()</a>, and <a class="el" href="Velocity_8hpp_source.html#l00163">PhQ::Velocity&lt; NumericType &gt;::y()</a>.</p>
 
 </div>
 </div>
-<a id="a3487a932ab9de5f1126a02ac26037c29"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3487a932ab9de5f1126a02ac26037c29">&#9670;&nbsp;</a></span>YAML()</h2>
+<a id="a6fd2f848e7c08a1c2367cb7debffde25"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6fd2f848e7c08a1c2367cb7debffde25">&#9670;&nbsp;</a></span>YAML()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::string <a class="el" href="classPhQ_1_1Vector.html">PhQ::Vector</a>&lt; Number &gt;::YAML </td>
+          <td class="memname">std::string <a class="el" href="classPhQ_1_1Vector.html">PhQ::Vector</a>&lt; NumericType &gt;::YAML </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -1774,25 +1772,25 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Serializes this three-dimensional vector as a YAML message. </p>
 
-<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00271">271</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00275">275</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Base_8hpp_source.html#l00170">PhQ::Print()</a>, and <a class="el" href="Vector_8hpp_source.html#l00304">PhQ::Vector&lt; Number &gt;::x_y_z_</a>.</p>
+<p class="reference">References <a class="el" href="Base_8hpp_source.html#l00167">PhQ::Print()</a>, and <a class="el" href="Vector_8hpp_source.html#l00308">PhQ::Vector&lt; NumericType &gt;::x_y_z_</a>.</p>
 
 </div>
 </div>
-<a id="a3fac362f6f83d5fbf8cb6e05707dffeb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3fac362f6f83d5fbf8cb6e05707dffeb">&#9670;&nbsp;</a></span>z()</h2>
+<a id="afa04389817c900abcf706971e398aa89"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa04389817c900abcf706971e398aa89">&#9670;&nbsp;</a></span>z()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr Number <a class="el" href="classPhQ_1_1Vector.html">PhQ::Vector</a>&lt; Number &gt;::z </td>
+          <td class="memname">constexpr NumericType <a class="el" href="classPhQ_1_1Vector.html">PhQ::Vector</a>&lt; NumericType &gt;::z </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -1807,27 +1805,27 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns this three-dimensional vector's z Cartesian component. </p>
 
-<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00148">148</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00149">149</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00304">PhQ::Vector&lt; Number &gt;::x_y_z_</a>.</p>
+<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00308">PhQ::Vector&lt; NumericType &gt;::x_y_z_</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="Dyad_8hpp_source.html#l00587">PhQ::operator*()</a>, <a class="el" href="Vector_8hpp_source.html#l00350">PhQ::operator+()</a>, <a class="el" href="Vector_8hpp_source.html#l00355">PhQ::operator-()</a>, <a class="el" href="Vector_8hpp_source.html#l00372">PhQ::operator/()</a>, <a class="el" href="Vector_8hpp_source.html#l00106">PhQ::Vector&lt; Number &gt;::operator=()</a>, <a class="el" href="Vector_8hpp_source.html#l00181">PhQ::Vector&lt; Number &gt;::Set_x_y_z()</a>, <a class="el" href="Vector_8hpp_source.html#l00198">PhQ::Vector&lt; Number &gt;::Set_z()</a>, <a class="el" href="Vector_8hpp_source.html#l00072">PhQ::Vector&lt; Number &gt;::Vector()</a>, <a class="el" href="Acceleration_8hpp_source.html#l00159">PhQ::Acceleration&lt; Number &gt;::z()</a>, <a class="el" href="Direction_8hpp_source.html#l00217">PhQ::Direction&lt; Number &gt;::z()</a>, <a class="el" href="Displacement_8hpp_source.html#l00169">PhQ::Displacement&lt; Number &gt;::z()</a>, <a class="el" href="Force_8hpp_source.html#l00147">PhQ::Force&lt; Number &gt;::z()</a>, <a class="el" href="HeatFlux_8hpp_source.html#l00162">PhQ::HeatFlux&lt; Number &gt;::z()</a>, <a class="el" href="Position_8hpp_source.html#l00146">PhQ::Position&lt; Number &gt;::z()</a>, <a class="el" href="TemperatureGradient_8hpp_source.html#l00158">PhQ::TemperatureGradient&lt; Number &gt;::z()</a>, <a class="el" href="Traction_8hpp_source.html#l00158">PhQ::Traction&lt; Number &gt;::z()</a>, <a class="el" href="VectorArea_8hpp_source.html#l00133">PhQ::VectorArea&lt; Number &gt;::z()</a>, and <a class="el" href="Velocity_8hpp_source.html#l00164">PhQ::Velocity&lt; Number &gt;::z()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="Dyad_8hpp_source.html#l00600">PhQ::operator*()</a>, <a class="el" href="Vector_8hpp_source.html#l00360">PhQ::operator+()</a>, <a class="el" href="Vector_8hpp_source.html#l00366">PhQ::operator-()</a>, <a class="el" href="Vector_8hpp_source.html#l00386">PhQ::operator/()</a>, <a class="el" href="Vector_8hpp_source.html#l00107">PhQ::Vector&lt; NumericType &gt;::operator=()</a>, <a class="el" href="Vector_8hpp_source.html#l00182">PhQ::Vector&lt; NumericType &gt;::Set_x_y_z()</a>, <a class="el" href="Vector_8hpp_source.html#l00199">PhQ::Vector&lt; NumericType &gt;::Set_z()</a>, <a class="el" href="Vector_8hpp_source.html#l00072">PhQ::Vector&lt; NumericType &gt;::Vector()</a>, <a class="el" href="Acceleration_8hpp_source.html#l00162">PhQ::Acceleration&lt; NumericType &gt;::z()</a>, <a class="el" href="Direction_8hpp_source.html#l00218">PhQ::Direction&lt; NumericType &gt;::z()</a>, <a class="el" href="Displacement_8hpp_source.html#l00173">PhQ::Displacement&lt; NumericType &gt;::z()</a>, <a class="el" href="Force_8hpp_source.html#l00150">PhQ::Force&lt; NumericType &gt;::z()</a>, <a class="el" href="HeatFlux_8hpp_source.html#l00165">PhQ::HeatFlux&lt; NumericType &gt;::z()</a>, <a class="el" href="Position_8hpp_source.html#l00148">PhQ::Position&lt; NumericType &gt;::z()</a>, <a class="el" href="TemperatureGradient_8hpp_source.html#l00160">PhQ::TemperatureGradient&lt; NumericType &gt;::z()</a>, <a class="el" href="Traction_8hpp_source.html#l00159">PhQ::Traction&lt; NumericType &gt;::z()</a>, <a class="el" href="VectorArea_8hpp_source.html#l00135">PhQ::VectorArea&lt; NumericType &gt;::z()</a>, and <a class="el" href="Velocity_8hpp_source.html#l00168">PhQ::Velocity&lt; NumericType &gt;::z()</a>.</p>
 
 </div>
 </div>
-<a id="a5af070aa134492498d45080e5fa1e024"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5af070aa134492498d45080e5fa1e024">&#9670;&nbsp;</a></span>Zero()</h2>
+<a id="a219f0512eb17c390fb17055046e51efa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a219f0512eb17c390fb17055046e51efa">&#9670;&nbsp;</a></span>Zero()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static constexpr <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt;Number&gt; <a class="el" href="classPhQ_1_1Vector.html">PhQ::Vector</a>&lt; Number &gt;::Zero </td>
+          <td class="memname">static constexpr <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt;NumericType&gt; <a class="el" href="classPhQ_1_1Vector.html">PhQ::Vector</a>&lt; NumericType &gt;::Zero </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -1842,26 +1840,26 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Statically creates a three-dimensional vector with its x, y, and z Cartesian components initialized to zero. </p>
 
-<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00125">125</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00126">126</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="Acceleration_8hpp_source.html#l00118">PhQ::Acceleration&lt; Number &gt;::Zero()</a>, <a class="el" href="Displacement_8hpp_source.html#l00130">PhQ::Displacement&lt; Number &gt;::Zero()</a>, <a class="el" href="Force_8hpp_source.html#l00110">PhQ::Force&lt; Number &gt;::Zero()</a>, <a class="el" href="HeatFlux_8hpp_source.html#l00123">PhQ::HeatFlux&lt; Number &gt;::Zero()</a>, <a class="el" href="Position_8hpp_source.html#l00108">PhQ::Position&lt; Number &gt;::Zero()</a>, <a class="el" href="TemperatureGradient_8hpp_source.html#l00115">PhQ::TemperatureGradient&lt; Number &gt;::Zero()</a>, <a class="el" href="Traction_8hpp_source.html#l00119">PhQ::Traction&lt; Number &gt;::Zero()</a>, <a class="el" href="VectorArea_8hpp_source.html#l00096">PhQ::VectorArea&lt; Number &gt;::Zero()</a>, and <a class="el" href="Velocity_8hpp_source.html#l00126">PhQ::Velocity&lt; Number &gt;::Zero()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="Acceleration_8hpp_source.html#l00120">PhQ::Acceleration&lt; NumericType &gt;::Zero()</a>, <a class="el" href="Displacement_8hpp_source.html#l00133">PhQ::Displacement&lt; NumericType &gt;::Zero()</a>, <a class="el" href="Force_8hpp_source.html#l00112">PhQ::Force&lt; NumericType &gt;::Zero()</a>, <a class="el" href="HeatFlux_8hpp_source.html#l00123">PhQ::HeatFlux&lt; NumericType &gt;::Zero()</a>, <a class="el" href="Position_8hpp_source.html#l00108">PhQ::Position&lt; NumericType &gt;::Zero()</a>, <a class="el" href="TemperatureGradient_8hpp_source.html#l00116">PhQ::TemperatureGradient&lt; NumericType &gt;::Zero()</a>, <a class="el" href="Traction_8hpp_source.html#l00119">PhQ::Traction&lt; NumericType &gt;::Zero()</a>, <a class="el" href="VectorArea_8hpp_source.html#l00096">PhQ::VectorArea&lt; NumericType &gt;::Zero()</a>, and <a class="el" href="Velocity_8hpp_source.html#l00128">PhQ::Velocity&lt; NumericType &gt;::Zero()</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a30f42af4f7e30c7a0a3093eac88d2477"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a30f42af4f7e30c7a0a3093eac88d2477">&#9670;&nbsp;</a></span>x_y_z_</h2>
+<a id="a870e4e92ec1644d0c42a83f3e950388c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a870e4e92ec1644d0c42a83f3e950388c">&#9670;&nbsp;</a></span>x_y_z_</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::array&lt;Number, 3&gt; <a class="el" href="classPhQ_1_1Vector.html">PhQ::Vector</a>&lt; Number &gt;::x_y_z_</td>
+          <td class="memname">std::array&lt;NumericType, 3&gt; <a class="el" href="classPhQ_1_1Vector.html">PhQ::Vector</a>&lt; NumericType &gt;::x_y_z_</td>
         </tr>
       </table>
   </td>
@@ -1873,9 +1871,9 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Cartesian components of this three-dimensional vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00304">304</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00308">308</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="Vector_8hpp_source.html#l00228">PhQ::Vector&lt; Number &gt;::Cross()</a>, <a class="el" href="Vector_8hpp_source.html#l00217">PhQ::Vector&lt; Number &gt;::Dot()</a>, <a class="el" href="Dyad_8hpp_source.html#l00705">PhQ::Vector&lt; Number &gt;::Dyadic()</a>, <a class="el" href="Vector_8hpp_source.html#l00259">PhQ::Vector&lt; Number &gt;::JSON()</a>, <a class="el" href="Vector_8hpp_source.html#l00203">PhQ::Vector&lt; Number &gt;::MagnitudeSquared()</a>, <a class="el" href="Vector_8hpp_source.html#l00159">PhQ::Vector&lt; Number &gt;::Mutable_x()</a>, <a class="el" href="Vector_8hpp_source.html#l00154">PhQ::Vector&lt; Number &gt;::Mutable_x_y_z()</a>, <a class="el" href="Vector_8hpp_source.html#l00164">PhQ::Vector&lt; Number &gt;::Mutable_y()</a>, <a class="el" href="Vector_8hpp_source.html#l00169">PhQ::Vector&lt; Number &gt;::Mutable_z()</a>, <a class="el" href="Vector_8hpp_source.html#l00289">PhQ::Vector&lt; Number &gt;::operator*=()</a>, <a class="el" href="Vector_8hpp_source.html#l00276">PhQ::Vector&lt; Number &gt;::operator+=()</a>, <a class="el" href="Vector_8hpp_source.html#l00282">PhQ::Vector&lt; Number &gt;::operator-=()</a>, <a class="el" href="Vector_8hpp_source.html#l00296">PhQ::Vector&lt; Number &gt;::operator/=()</a>, <a class="el" href="Vector_8hpp_source.html#l00106">PhQ::Vector&lt; Number &gt;::operator=()</a>, <a class="el" href="Vector_8hpp_source.html#l00253">PhQ::Vector&lt; Number &gt;::Print()</a>, <a class="el" href="Vector_8hpp_source.html#l00188">PhQ::Vector&lt; Number &gt;::Set_x()</a>, <a class="el" href="Vector_8hpp_source.html#l00175">PhQ::Vector&lt; Number &gt;::Set_x_y_z()</a>, <a class="el" href="Vector_8hpp_source.html#l00193">PhQ::Vector&lt; Number &gt;::Set_y()</a>, <a class="el" href="Vector_8hpp_source.html#l00198">PhQ::Vector&lt; Number &gt;::Set_z()</a>, <a class="el" href="Direction_8hpp_source.html#l00369">PhQ::Vector&lt; Number &gt;::Vector()</a>, <a class="el" href="Vector_8hpp_source.html#l00138">PhQ::Vector&lt; Number &gt;::x()</a>, <a class="el" href="Vector_8hpp_source.html#l00133">PhQ::Vector&lt; Number &gt;::x_y_z()</a>, <a class="el" href="Vector_8hpp_source.html#l00265">PhQ::Vector&lt; Number &gt;::XML()</a>, <a class="el" href="Vector_8hpp_source.html#l00143">PhQ::Vector&lt; Number &gt;::y()</a>, <a class="el" href="Vector_8hpp_source.html#l00271">PhQ::Vector&lt; Number &gt;::YAML()</a>, and <a class="el" href="Vector_8hpp_source.html#l00148">PhQ::Vector&lt; Number &gt;::z()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="Vector_8hpp_source.html#l00404">PhQ::PlanarVector&lt; double &gt;::Cross()</a>, <a class="el" href="Vector_8hpp_source.html#l00230">PhQ::Vector&lt; NumericType &gt;::Cross()</a>, <a class="el" href="Dyad_8hpp_source.html#l00724">PhQ::Vector&lt; NumericType &gt;::Dyadic()</a>, <a class="el" href="Vector_8hpp_source.html#l00263">PhQ::Vector&lt; NumericType &gt;::JSON()</a>, <a class="el" href="Vector_8hpp_source.html#l00204">PhQ::Vector&lt; NumericType &gt;::MagnitudeSquared()</a>, <a class="el" href="Vector_8hpp_source.html#l00160">PhQ::Vector&lt; NumericType &gt;::Mutable_x()</a>, <a class="el" href="Vector_8hpp_source.html#l00155">PhQ::Vector&lt; NumericType &gt;::Mutable_x_y_z()</a>, <a class="el" href="Vector_8hpp_source.html#l00165">PhQ::Vector&lt; NumericType &gt;::Mutable_y()</a>, <a class="el" href="Vector_8hpp_source.html#l00170">PhQ::Vector&lt; NumericType &gt;::Mutable_z()</a>, <a class="el" href="Vector_8hpp_source.html#l00293">PhQ::Vector&lt; NumericType &gt;::operator*=()</a>, <a class="el" href="Vector_8hpp_source.html#l00280">PhQ::Vector&lt; NumericType &gt;::operator+=()</a>, <a class="el" href="Vector_8hpp_source.html#l00286">PhQ::Vector&lt; NumericType &gt;::operator-=()</a>, <a class="el" href="Vector_8hpp_source.html#l00300">PhQ::Vector&lt; NumericType &gt;::operator/=()</a>, <a class="el" href="Vector_8hpp_source.html#l00107">PhQ::Vector&lt; NumericType &gt;::operator=()</a>, <a class="el" href="Vector_8hpp_source.html#l00257">PhQ::Vector&lt; NumericType &gt;::Print()</a>, <a class="el" href="Vector_8hpp_source.html#l00189">PhQ::Vector&lt; NumericType &gt;::Set_x()</a>, <a class="el" href="Vector_8hpp_source.html#l00176">PhQ::Vector&lt; NumericType &gt;::Set_x_y_z()</a>, <a class="el" href="Vector_8hpp_source.html#l00194">PhQ::Vector&lt; NumericType &gt;::Set_y()</a>, <a class="el" href="Vector_8hpp_source.html#l00199">PhQ::Vector&lt; NumericType &gt;::Set_z()</a>, <a class="el" href="Direction_8hpp_source.html#l00374">PhQ::Vector&lt; NumericType &gt;::Vector()</a>, <a class="el" href="Vector_8hpp_source.html#l00139">PhQ::Vector&lt; NumericType &gt;::x()</a>, <a class="el" href="Vector_8hpp_source.html#l00134">PhQ::Vector&lt; NumericType &gt;::x_y_z()</a>, <a class="el" href="Vector_8hpp_source.html#l00269">PhQ::Vector&lt; NumericType &gt;::XML()</a>, <a class="el" href="Vector_8hpp_source.html#l00144">PhQ::Vector&lt; NumericType &gt;::y()</a>, <a class="el" href="Vector_8hpp_source.html#l00275">PhQ::Vector&lt; NumericType &gt;::YAML()</a>, and <a class="el" href="Vector_8hpp_source.html#l00149">PhQ::Vector&lt; NumericType &gt;::z()</a>.</p>
 
 </div>
 </div>
