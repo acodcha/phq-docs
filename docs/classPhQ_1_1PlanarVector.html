@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=9" />
     <meta name="generator" content="Doxygen 1.9.1" />
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=4.0" />
-    <title>Physical Quantities (PhQ): PhQ::PlanarVector&lt; Number &gt; Class Template Reference</title>
+    <title>Physical Quantities (PhQ): PhQ::PlanarVector&lt; NumericType &gt; Class Template Reference</title>
     <link href="tabs.css" rel="stylesheet" type="text/css" />
     <script type="text/javascript" src="jquery.js"></script>
     <script type="text/javascript" src="dynsections.js"></script>
@@ -109,7 +109,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search','.html');
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classPhQ_1_1PlanarVector-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">PhQ::PlanarVector&lt; Number &gt; Class Template Reference</div>  </div>
+<div class="title">PhQ::PlanarVector&lt; NumericType &gt; Class Template Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
@@ -120,166 +120,166 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search','.html');
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a11509935d0f94e5045d308c3608ca5f4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1PlanarVector.html#a11509935d0f94e5045d308c3608ca5f4">PlanarVector</a> ()=default</td></tr>
-<tr class="memdesc:a11509935d0f94e5045d308c3608ca5f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor. Constructs a two-dimensional planar vector with uninitialized x and y Cartesian components.  <a href="classPhQ_1_1PlanarVector.html#a11509935d0f94e5045d308c3608ca5f4">More...</a><br /></td></tr>
-<tr class="separator:a11509935d0f94e5045d308c3608ca5f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a11dd548fe3a8b79eca181e6784361cc0"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1PlanarVector.html#a11dd548fe3a8b79eca181e6784361cc0">PlanarVector</a> (const Number <a class="el" href="classPhQ_1_1PlanarVector.html#ad1b44f8d7732b8e7d9bc7eff5b8efd45">x</a>, const Number <a class="el" href="classPhQ_1_1PlanarVector.html#a1ceeee3f3b8de2f70c04ede4aea5588a">y</a>)</td></tr>
-<tr class="memdesc:a11dd548fe3a8b79eca181e6784361cc0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a two-dimensional planar vector from the given x and y Cartesian components.  <a href="classPhQ_1_1PlanarVector.html#a11dd548fe3a8b79eca181e6784361cc0">More...</a><br /></td></tr>
-<tr class="separator:a11dd548fe3a8b79eca181e6784361cc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac1bd91061098592dc5102e00d91e5ff9"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1PlanarVector.html#ac1bd91061098592dc5102e00d91e5ff9">PlanarVector</a> (const std::array&lt; Number, 2 &gt; &amp;<a class="el" href="classPhQ_1_1PlanarVector.html#a96ab8abd460e6808ea5a6692671b1b8a">x_y</a>)</td></tr>
-<tr class="memdesc:ac1bd91061098592dc5102e00d91e5ff9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a two-dimensional planar vector from a given array representing its x and y Cartesian components.  <a href="classPhQ_1_1PlanarVector.html#ac1bd91061098592dc5102e00d91e5ff9">More...</a><br /></td></tr>
-<tr class="separator:ac1bd91061098592dc5102e00d91e5ff9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a43b319c5516d804251626ed1a386bd71"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1PlanarVector.html#a43b319c5516d804251626ed1a386bd71">PlanarVector</a> (const <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt; Number &gt; &amp;vector)</td></tr>
-<tr class="memdesc:a43b319c5516d804251626ed1a386bd71"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a two-dimensional planar vector from a given three-dimensional vector. Projects the three-dimensional vector onto the XY plane.  <a href="classPhQ_1_1PlanarVector.html#a43b319c5516d804251626ed1a386bd71">More...</a><br /></td></tr>
-<tr class="separator:a43b319c5516d804251626ed1a386bd71"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac7d83f1d6d2a39bf3bbb0be270e67e48"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1PlanarVector.html#ac7d83f1d6d2a39bf3bbb0be270e67e48">PlanarVector</a> (Number magnitude, const <a class="el" href="classPhQ_1_1PlanarDirection.html">PlanarDirection</a>&lt; Number &gt; &amp;direction)</td></tr>
-<tr class="memdesc:ac7d83f1d6d2a39bf3bbb0be270e67e48"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a two-dimensional planar vector given a magnitude and a planar direction.  <a href="classPhQ_1_1PlanarVector.html#ac7d83f1d6d2a39bf3bbb0be270e67e48">More...</a><br /></td></tr>
-<tr class="separator:ac7d83f1d6d2a39bf3bbb0be270e67e48"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8bac018c138ed5ce771be7b408884a55"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1PlanarVector.html#a8bac018c138ed5ce771be7b408884a55">~PlanarVector</a> () noexcept=default</td></tr>
-<tr class="memdesc:a8bac018c138ed5ce771be7b408884a55"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor. Destroys this two-dimensional planar vector.  <a href="classPhQ_1_1PlanarVector.html#a8bac018c138ed5ce771be7b408884a55">More...</a><br /></td></tr>
-<tr class="separator:a8bac018c138ed5ce771be7b408884a55"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af218590884a83397a5f3884e0b94d60a"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1PlanarVector.html#af218590884a83397a5f3884e0b94d60a">PlanarVector</a> (const <a class="el" href="classPhQ_1_1PlanarVector.html">PlanarVector</a>&lt; Number &gt; &amp;other)=default</td></tr>
-<tr class="memdesc:af218590884a83397a5f3884e0b94d60a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy constructor. Constructs a two-dimensional planar vector by copying another one.  <a href="classPhQ_1_1PlanarVector.html#af218590884a83397a5f3884e0b94d60a">More...</a><br /></td></tr>
-<tr class="separator:af218590884a83397a5f3884e0b94d60a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a72ab56a90ff90bdb9f00ae6e8ccfe5ec"><td class="memTemplParams" colspan="2">template&lt;typename OtherNumber &gt; </td></tr>
-<tr class="memitem:a72ab56a90ff90bdb9f00ae6e8ccfe5ec"><td class="memTemplItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classPhQ_1_1PlanarVector.html#a72ab56a90ff90bdb9f00ae6e8ccfe5ec">PlanarVector</a> (const <a class="el" href="classPhQ_1_1PlanarVector.html">PlanarVector</a>&lt; OtherNumber &gt; &amp;other)</td></tr>
-<tr class="memdesc:a72ab56a90ff90bdb9f00ae6e8ccfe5ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy constructor. Constructs a two-dimensional planar vector by copying another one.  <a href="classPhQ_1_1PlanarVector.html#a72ab56a90ff90bdb9f00ae6e8ccfe5ec">More...</a><br /></td></tr>
-<tr class="separator:a72ab56a90ff90bdb9f00ae6e8ccfe5ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a959679f6e4023f6172e4f75bbdc9240c"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1PlanarVector.html#a959679f6e4023f6172e4f75bbdc9240c">PlanarVector</a> (<a class="el" href="classPhQ_1_1PlanarVector.html">PlanarVector</a>&lt; Number &gt; &amp;&amp;other) noexcept=default</td></tr>
-<tr class="memdesc:a959679f6e4023f6172e4f75bbdc9240c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move constructor. Constructs a two-dimensional planar vector by moving another one.  <a href="classPhQ_1_1PlanarVector.html#a959679f6e4023f6172e4f75bbdc9240c">More...</a><br /></td></tr>
-<tr class="separator:a959679f6e4023f6172e4f75bbdc9240c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8bf4718759afcb788d81d2cf447152ae"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1PlanarVector.html">PlanarVector</a>&lt; Number &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1PlanarVector.html#a8bf4718759afcb788d81d2cf447152ae">operator=</a> (const <a class="el" href="classPhQ_1_1PlanarVector.html">PlanarVector</a>&lt; Number &gt; &amp;other)=default</td></tr>
-<tr class="memdesc:a8bf4718759afcb788d81d2cf447152ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy assignment operator. Assigns this two-dimensional planar vector by copying another one.  <a href="classPhQ_1_1PlanarVector.html#a8bf4718759afcb788d81d2cf447152ae">More...</a><br /></td></tr>
-<tr class="separator:a8bf4718759afcb788d81d2cf447152ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aef327ad60adda74eec3fde79084ff4f9"><td class="memTemplParams" colspan="2">template&lt;typename OtherNumber &gt; </td></tr>
-<tr class="memitem:aef327ad60adda74eec3fde79084ff4f9"><td class="memTemplItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1PlanarVector.html">PlanarVector</a>&lt; Number &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classPhQ_1_1PlanarVector.html#aef327ad60adda74eec3fde79084ff4f9">operator=</a> (const <a class="el" href="classPhQ_1_1PlanarVector.html">PlanarVector</a>&lt; OtherNumber &gt; &amp;other)</td></tr>
-<tr class="memdesc:aef327ad60adda74eec3fde79084ff4f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy assignment operator. Assigns this two-dimensional planar vector by copying another one.  <a href="classPhQ_1_1PlanarVector.html#aef327ad60adda74eec3fde79084ff4f9">More...</a><br /></td></tr>
-<tr class="separator:aef327ad60adda74eec3fde79084ff4f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a562f999372f0d9b885ff43abb6dbd3e9"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1PlanarVector.html">PlanarVector</a>&lt; Number &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1PlanarVector.html#a562f999372f0d9b885ff43abb6dbd3e9">operator=</a> (<a class="el" href="classPhQ_1_1PlanarVector.html">PlanarVector</a>&lt; Number &gt; &amp;&amp;other) noexcept=default</td></tr>
-<tr class="memdesc:a562f999372f0d9b885ff43abb6dbd3e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move assignment operator. Assigns this two-dimensional planar vector by moving another one.  <a href="classPhQ_1_1PlanarVector.html#a562f999372f0d9b885ff43abb6dbd3e9">More...</a><br /></td></tr>
-<tr class="separator:a562f999372f0d9b885ff43abb6dbd3e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a031d190bdeaf125c28a62d06922f231f"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1PlanarVector.html">PlanarVector</a>&lt; Number &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1PlanarVector.html#a031d190bdeaf125c28a62d06922f231f">operator=</a> (const std::array&lt; Number, 2 &gt; &amp;<a class="el" href="classPhQ_1_1PlanarVector.html#a96ab8abd460e6808ea5a6692671b1b8a">x_y</a>)</td></tr>
-<tr class="memdesc:a031d190bdeaf125c28a62d06922f231f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assignment operator. Assigns this two-dimensional planar vector by copying a given array representing its x and y Cartesian components.  <a href="classPhQ_1_1PlanarVector.html#a031d190bdeaf125c28a62d06922f231f">More...</a><br /></td></tr>
-<tr class="separator:a031d190bdeaf125c28a62d06922f231f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a96ab8abd460e6808ea5a6692671b1b8a"><td class="memItemLeft" align="right" valign="top">constexpr const std::array&lt; Number, 2 &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1PlanarVector.html#a96ab8abd460e6808ea5a6692671b1b8a">x_y</a> () const noexcept</td></tr>
-<tr class="memdesc:a96ab8abd460e6808ea5a6692671b1b8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns this two-dimensional planar vector's x and y Cartesian components as an array.  <a href="classPhQ_1_1PlanarVector.html#a96ab8abd460e6808ea5a6692671b1b8a">More...</a><br /></td></tr>
-<tr class="separator:a96ab8abd460e6808ea5a6692671b1b8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad1b44f8d7732b8e7d9bc7eff5b8efd45"><td class="memItemLeft" align="right" valign="top">constexpr Number&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1PlanarVector.html#ad1b44f8d7732b8e7d9bc7eff5b8efd45">x</a> () const noexcept</td></tr>
-<tr class="memdesc:ad1b44f8d7732b8e7d9bc7eff5b8efd45"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns this two-dimensional planar vector's x Cartesian component.  <a href="classPhQ_1_1PlanarVector.html#ad1b44f8d7732b8e7d9bc7eff5b8efd45">More...</a><br /></td></tr>
-<tr class="separator:ad1b44f8d7732b8e7d9bc7eff5b8efd45"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1ceeee3f3b8de2f70c04ede4aea5588a"><td class="memItemLeft" align="right" valign="top">constexpr Number&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1PlanarVector.html#a1ceeee3f3b8de2f70c04ede4aea5588a">y</a> () const noexcept</td></tr>
-<tr class="memdesc:a1ceeee3f3b8de2f70c04ede4aea5588a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns this two-dimensional planar vector's y Cartesian component.  <a href="classPhQ_1_1PlanarVector.html#a1ceeee3f3b8de2f70c04ede4aea5588a">More...</a><br /></td></tr>
-<tr class="separator:a1ceeee3f3b8de2f70c04ede4aea5588a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a76b344913bcf7eeaf770c87d07fe7800"><td class="memItemLeft" align="right" valign="top">constexpr std::array&lt; Number, 2 &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1PlanarVector.html#a76b344913bcf7eeaf770c87d07fe7800">Mutable_x_y</a> () noexcept</td></tr>
-<tr class="memdesc:a76b344913bcf7eeaf770c87d07fe7800"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns this two-dimensional planar vector's x and y Cartesian components as a mutable array.  <a href="classPhQ_1_1PlanarVector.html#a76b344913bcf7eeaf770c87d07fe7800">More...</a><br /></td></tr>
-<tr class="separator:a76b344913bcf7eeaf770c87d07fe7800"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adf272f0c89ef51c901165943f261c7f8"><td class="memItemLeft" align="right" valign="top">constexpr Number &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1PlanarVector.html#adf272f0c89ef51c901165943f261c7f8">Mutable_x</a> () noexcept</td></tr>
-<tr class="memdesc:adf272f0c89ef51c901165943f261c7f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns this two-dimensional planar vector's x Cartesian component as a mutable value.  <a href="classPhQ_1_1PlanarVector.html#adf272f0c89ef51c901165943f261c7f8">More...</a><br /></td></tr>
-<tr class="separator:adf272f0c89ef51c901165943f261c7f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a58a7bd8690b7cfc2b1c224462d606a1a"><td class="memItemLeft" align="right" valign="top">constexpr Number &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1PlanarVector.html#a58a7bd8690b7cfc2b1c224462d606a1a">Mutable_y</a> () noexcept</td></tr>
-<tr class="memdesc:a58a7bd8690b7cfc2b1c224462d606a1a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns this two-dimensional planar vector's y Cartesian component as a mutable value.  <a href="classPhQ_1_1PlanarVector.html#a58a7bd8690b7cfc2b1c224462d606a1a">More...</a><br /></td></tr>
-<tr class="separator:a58a7bd8690b7cfc2b1c224462d606a1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a734885050ff250ee47a5cdeb95f9f6d8"><td class="memItemLeft" align="right" valign="top">constexpr void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1PlanarVector.html#a734885050ff250ee47a5cdeb95f9f6d8">Set_x_y</a> (const std::array&lt; Number, 2 &gt; &amp;<a class="el" href="classPhQ_1_1PlanarVector.html#a96ab8abd460e6808ea5a6692671b1b8a">x_y</a>) noexcept</td></tr>
-<tr class="memdesc:a734885050ff250ee47a5cdeb95f9f6d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets this two-dimensional planar vector's x and y Cartesian components to the given values.  <a href="classPhQ_1_1PlanarVector.html#a734885050ff250ee47a5cdeb95f9f6d8">More...</a><br /></td></tr>
-<tr class="separator:a734885050ff250ee47a5cdeb95f9f6d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0c64747a8dc807bf6983b0848362e99f"><td class="memItemLeft" align="right" valign="top">constexpr void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1PlanarVector.html#a0c64747a8dc807bf6983b0848362e99f">Set_x_y</a> (const Number <a class="el" href="classPhQ_1_1PlanarVector.html#ad1b44f8d7732b8e7d9bc7eff5b8efd45">x</a>, const Number <a class="el" href="classPhQ_1_1PlanarVector.html#a1ceeee3f3b8de2f70c04ede4aea5588a">y</a>) noexcept</td></tr>
-<tr class="memdesc:a0c64747a8dc807bf6983b0848362e99f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets this two-dimensional planar vector's x and y Cartesian components to the given values.  <a href="classPhQ_1_1PlanarVector.html#a0c64747a8dc807bf6983b0848362e99f">More...</a><br /></td></tr>
-<tr class="separator:a0c64747a8dc807bf6983b0848362e99f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a654aefbe438b764d70949e3b7e515605"><td class="memItemLeft" align="right" valign="top">constexpr void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1PlanarVector.html#a654aefbe438b764d70949e3b7e515605">Set_x</a> (const Number <a class="el" href="classPhQ_1_1PlanarVector.html#ad1b44f8d7732b8e7d9bc7eff5b8efd45">x</a>) noexcept</td></tr>
-<tr class="memdesc:a654aefbe438b764d70949e3b7e515605"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets this two-dimensional planar vector's x Cartesian component to a given value.  <a href="classPhQ_1_1PlanarVector.html#a654aefbe438b764d70949e3b7e515605">More...</a><br /></td></tr>
-<tr class="separator:a654aefbe438b764d70949e3b7e515605"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7d7e07ece22079781730c2da60960bcf"><td class="memItemLeft" align="right" valign="top">constexpr void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1PlanarVector.html#a7d7e07ece22079781730c2da60960bcf">Set_y</a> (const Number <a class="el" href="classPhQ_1_1PlanarVector.html#a1ceeee3f3b8de2f70c04ede4aea5588a">y</a>) noexcept</td></tr>
-<tr class="memdesc:a7d7e07ece22079781730c2da60960bcf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets this two-dimensional planar vector's y Cartesian component to a given value.  <a href="classPhQ_1_1PlanarVector.html#a7d7e07ece22079781730c2da60960bcf">More...</a><br /></td></tr>
-<tr class="separator:a7d7e07ece22079781730c2da60960bcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0e9fd1073ddea9b8efa2a7d564177879"><td class="memItemLeft" align="right" valign="top">constexpr Number&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1PlanarVector.html#a0e9fd1073ddea9b8efa2a7d564177879">MagnitudeSquared</a> () const noexcept</td></tr>
-<tr class="memdesc:a0e9fd1073ddea9b8efa2a7d564177879"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the square of the magnitude of this two-dimensional planar vector.  <a href="classPhQ_1_1PlanarVector.html#a0e9fd1073ddea9b8efa2a7d564177879">More...</a><br /></td></tr>
-<tr class="separator:a0e9fd1073ddea9b8efa2a7d564177879"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7872d6fd2a9f75b3d6b297cff44bbb7a"><td class="memItemLeft" align="right" valign="top">Number&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1PlanarVector.html#a7872d6fd2a9f75b3d6b297cff44bbb7a">Magnitude</a> () const noexcept</td></tr>
-<tr class="memdesc:a7872d6fd2a9f75b3d6b297cff44bbb7a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the magnitude (also known as the L2 norm) of this two-dimensional planar vector.  <a href="classPhQ_1_1PlanarVector.html#a7872d6fd2a9f75b3d6b297cff44bbb7a">More...</a><br /></td></tr>
-<tr class="separator:a7872d6fd2a9f75b3d6b297cff44bbb7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af2b816fdb65f519eb39f76185f60ec60"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPhQ_1_1PlanarDirection.html">PhQ::PlanarDirection</a>&lt; Number &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1PlanarVector.html#af2b816fdb65f519eb39f76185f60ec60">PlanarDirection</a> () const</td></tr>
-<tr class="memdesc:af2b816fdb65f519eb39f76185f60ec60"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the planar direction of this two-dimensional planar vector.  <a href="classPhQ_1_1PlanarVector.html#af2b816fdb65f519eb39f76185f60ec60">More...</a><br /></td></tr>
-<tr class="separator:af2b816fdb65f519eb39f76185f60ec60"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac620de5851a0851293a0f06237705edf"><td class="memItemLeft" align="right" valign="top">constexpr Number&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1PlanarVector.html#ac620de5851a0851293a0f06237705edf">Dot</a> (const <a class="el" href="classPhQ_1_1PlanarVector.html">PlanarVector</a>&lt; Number &gt; &amp;planar_vector) const noexcept</td></tr>
-<tr class="memdesc:ac620de5851a0851293a0f06237705edf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the dot product (also known as the inner product or scalar product) of this two-dimensional planar vector and another one.  <a href="classPhQ_1_1PlanarVector.html#ac620de5851a0851293a0f06237705edf">More...</a><br /></td></tr>
-<tr class="separator:ac620de5851a0851293a0f06237705edf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af29999824e2faf382406c5deef88e8b6"><td class="memItemLeft" align="right" valign="top">constexpr Number&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1PlanarVector.html#af29999824e2faf382406c5deef88e8b6">Dot</a> (const <a class="el" href="classPhQ_1_1PlanarDirection.html">PhQ::PlanarDirection</a>&lt; Number &gt; &amp;planar_direction) const noexcept</td></tr>
-<tr class="memdesc:af29999824e2faf382406c5deef88e8b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the dot product (also known as the inner product or scalar product) of this two-dimensional planar vector and a given planar direction.  <a href="classPhQ_1_1PlanarVector.html#af29999824e2faf382406c5deef88e8b6">More...</a><br /></td></tr>
-<tr class="separator:af29999824e2faf382406c5deef88e8b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa0c00c62582c4b669100e06d3fde9f97"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt; Number &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1PlanarVector.html#aa0c00c62582c4b669100e06d3fde9f97">Cross</a> (const <a class="el" href="classPhQ_1_1PlanarVector.html">PlanarVector</a>&lt; Number &gt; &amp;planar_vector) const</td></tr>
-<tr class="memdesc:aa0c00c62582c4b669100e06d3fde9f97"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the cross product (also known as the vector product) of this two-dimensional planar vector and another one.  <a href="classPhQ_1_1PlanarVector.html#aa0c00c62582c4b669100e06d3fde9f97">More...</a><br /></td></tr>
-<tr class="separator:aa0c00c62582c4b669100e06d3fde9f97"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a821527f1e81e9f9605aa801e3167e569"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt; Number &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1PlanarVector.html#a821527f1e81e9f9605aa801e3167e569">Cross</a> (const <a class="el" href="classPhQ_1_1PlanarDirection.html">PhQ::PlanarDirection</a>&lt; Number &gt; &amp;planar_direction) const</td></tr>
-<tr class="memdesc:a821527f1e81e9f9605aa801e3167e569"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the cross product (also known as the vector product) of this two-dimensional planar vector and a given planar direction.  <a href="classPhQ_1_1PlanarVector.html#a821527f1e81e9f9605aa801e3167e569">More...</a><br /></td></tr>
-<tr class="separator:a821527f1e81e9f9605aa801e3167e569"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a08abe1636ca2f0ad6ba9d0067b771238"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1Dyad.html">Dyad</a>&lt; Number &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1PlanarVector.html#a08abe1636ca2f0ad6ba9d0067b771238">Dyadic</a> (const <a class="el" href="classPhQ_1_1PlanarVector.html">PlanarVector</a>&lt; Number &gt; &amp;planar_vector) const</td></tr>
-<tr class="memdesc:a08abe1636ca2f0ad6ba9d0067b771238"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the dyadic tensor product (also known as the outer product) of this two-dimensional planar vector and another one.  <a href="classPhQ_1_1PlanarVector.html#a08abe1636ca2f0ad6ba9d0067b771238">More...</a><br /></td></tr>
-<tr class="separator:a08abe1636ca2f0ad6ba9d0067b771238"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aafee82aa7d5b7954d7c16934fc766012"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1Dyad.html">Dyad</a>&lt; Number &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1PlanarVector.html#aafee82aa7d5b7954d7c16934fc766012">Dyadic</a> (const <a class="el" href="classPhQ_1_1PlanarDirection.html">PhQ::PlanarDirection</a>&lt; Number &gt; &amp;planar_direction) const</td></tr>
-<tr class="memdesc:aafee82aa7d5b7954d7c16934fc766012"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the dyadic tensor product (also known as the outer product) of this two-dimensional planar vector and a given planar direction.  <a href="classPhQ_1_1PlanarVector.html#aafee82aa7d5b7954d7c16934fc766012">More...</a><br /></td></tr>
-<tr class="separator:aafee82aa7d5b7954d7c16934fc766012"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6891a2a66fcc0df07eaf16475147635b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPhQ_1_1Angle.html">PhQ::Angle</a>&lt; Number &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1PlanarVector.html#a6891a2a66fcc0df07eaf16475147635b">Angle</a> (const <a class="el" href="classPhQ_1_1PlanarVector.html">PlanarVector</a>&lt; Number &gt; &amp;planar_vector) const</td></tr>
-<tr class="memdesc:a6891a2a66fcc0df07eaf16475147635b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the angle between this two-dimensional planar vector and another one.  <a href="classPhQ_1_1PlanarVector.html#a6891a2a66fcc0df07eaf16475147635b">More...</a><br /></td></tr>
-<tr class="separator:a6891a2a66fcc0df07eaf16475147635b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af47b69be35212cd9fe3eaa5f40e5aa85"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPhQ_1_1Angle.html">PhQ::Angle</a>&lt; Number &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1PlanarVector.html#af47b69be35212cd9fe3eaa5f40e5aa85">Angle</a> (const <a class="el" href="classPhQ_1_1PlanarDirection.html">PhQ::PlanarDirection</a>&lt; Number &gt; &amp;planar_direction) const</td></tr>
-<tr class="memdesc:af47b69be35212cd9fe3eaa5f40e5aa85"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the angle between this two-dimensional planar vector and a given planar direction.  <a href="classPhQ_1_1PlanarVector.html#af47b69be35212cd9fe3eaa5f40e5aa85">More...</a><br /></td></tr>
-<tr class="separator:af47b69be35212cd9fe3eaa5f40e5aa85"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0cb3cdacb4b65bea616c698a3898180d"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1PlanarVector.html#a0cb3cdacb4b65bea616c698a3898180d">Print</a> () const</td></tr>
-<tr class="memdesc:a0cb3cdacb4b65bea616c698a3898180d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints this two-dimensional planar vector as a string.  <a href="classPhQ_1_1PlanarVector.html#a0cb3cdacb4b65bea616c698a3898180d">More...</a><br /></td></tr>
-<tr class="separator:a0cb3cdacb4b65bea616c698a3898180d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2304eb7941c25cd9f28d648910fcf6b8"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1PlanarVector.html#a2304eb7941c25cd9f28d648910fcf6b8">JSON</a> () const</td></tr>
-<tr class="memdesc:a2304eb7941c25cd9f28d648910fcf6b8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serializes this two-dimensional planar vector as a JSON message.  <a href="classPhQ_1_1PlanarVector.html#a2304eb7941c25cd9f28d648910fcf6b8">More...</a><br /></td></tr>
-<tr class="separator:a2304eb7941c25cd9f28d648910fcf6b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa31fcdc0925a1b7d7d726584f0c1b118"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1PlanarVector.html#aa31fcdc0925a1b7d7d726584f0c1b118">XML</a> () const</td></tr>
-<tr class="memdesc:aa31fcdc0925a1b7d7d726584f0c1b118"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serializes this two-dimensional planar vector as an XML message.  <a href="classPhQ_1_1PlanarVector.html#aa31fcdc0925a1b7d7d726584f0c1b118">More...</a><br /></td></tr>
-<tr class="separator:aa31fcdc0925a1b7d7d726584f0c1b118"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab4f34feccdd4c290ae623a6c4fc47bd6"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1PlanarVector.html#ab4f34feccdd4c290ae623a6c4fc47bd6">YAML</a> () const</td></tr>
-<tr class="memdesc:ab4f34feccdd4c290ae623a6c4fc47bd6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serializes this two-dimensional planar vector as a YAML message.  <a href="classPhQ_1_1PlanarVector.html#ab4f34feccdd4c290ae623a6c4fc47bd6">More...</a><br /></td></tr>
-<tr class="separator:ab4f34feccdd4c290ae623a6c4fc47bd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aad63b6c19c2953e2eff46d12e8cc733d"><td class="memItemLeft" align="right" valign="top">constexpr void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1PlanarVector.html#aad63b6c19c2953e2eff46d12e8cc733d">operator+=</a> (const <a class="el" href="classPhQ_1_1PlanarVector.html">PlanarVector</a>&lt; Number &gt; &amp;planar_vector) noexcept</td></tr>
-<tr class="separator:aad63b6c19c2953e2eff46d12e8cc733d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad88826a9e6853d6019a28cd0c6a8a942"><td class="memItemLeft" align="right" valign="top">constexpr void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1PlanarVector.html#ad88826a9e6853d6019a28cd0c6a8a942">operator-=</a> (const <a class="el" href="classPhQ_1_1PlanarVector.html">PlanarVector</a>&lt; Number &gt; &amp;planar_vector) noexcept</td></tr>
-<tr class="separator:ad88826a9e6853d6019a28cd0c6a8a942"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af11633490f39586f4d38a449159aba78"><td class="memTemplParams" colspan="2">template&lt;typename OtherNumber &gt; </td></tr>
-<tr class="memitem:af11633490f39586f4d38a449159aba78"><td class="memTemplItemLeft" align="right" valign="top">constexpr void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classPhQ_1_1PlanarVector.html#af11633490f39586f4d38a449159aba78">operator*=</a> (const OtherNumber number) noexcept</td></tr>
-<tr class="separator:af11633490f39586f4d38a449159aba78"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0819281e9329fc036ac587e73caf2c3b"><td class="memTemplParams" colspan="2">template&lt;typename OtherNumber &gt; </td></tr>
-<tr class="memitem:a0819281e9329fc036ac587e73caf2c3b"><td class="memTemplItemLeft" align="right" valign="top">constexpr void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classPhQ_1_1PlanarVector.html#a0819281e9329fc036ac587e73caf2c3b">operator/=</a> (const OtherNumber number) noexcept</td></tr>
-<tr class="separator:a0819281e9329fc036ac587e73caf2c3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d3beba51c47260288b0a8cd1902c510"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1PlanarVector.html#a3d3beba51c47260288b0a8cd1902c510">PlanarVector</a> ()=default</td></tr>
+<tr class="memdesc:a3d3beba51c47260288b0a8cd1902c510"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor. Constructs a two-dimensional planar vector with uninitialized x and y Cartesian components.  <a href="classPhQ_1_1PlanarVector.html#a3d3beba51c47260288b0a8cd1902c510">More...</a><br /></td></tr>
+<tr class="separator:a3d3beba51c47260288b0a8cd1902c510"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1031cad129fdb0c875f5db7dee1a86af"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1PlanarVector.html#a1031cad129fdb0c875f5db7dee1a86af">PlanarVector</a> (const NumericType <a class="el" href="classPhQ_1_1PlanarVector.html#a150bcbfbb642beff385d29238339b7dd">x</a>, const NumericType <a class="el" href="classPhQ_1_1PlanarVector.html#ae3fe847f9d204ca739a74e3fb4078066">y</a>)</td></tr>
+<tr class="memdesc:a1031cad129fdb0c875f5db7dee1a86af"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a two-dimensional planar vector from the given x and y Cartesian components.  <a href="classPhQ_1_1PlanarVector.html#a1031cad129fdb0c875f5db7dee1a86af">More...</a><br /></td></tr>
+<tr class="separator:a1031cad129fdb0c875f5db7dee1a86af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a851f2ce2a750fb430544c4ec78c1ebda"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1PlanarVector.html#a851f2ce2a750fb430544c4ec78c1ebda">PlanarVector</a> (const std::array&lt; NumericType, 2 &gt; &amp;<a class="el" href="classPhQ_1_1PlanarVector.html#a0b07fb75aa0b1fec8bc03ba80ad094b7">x_y</a>)</td></tr>
+<tr class="memdesc:a851f2ce2a750fb430544c4ec78c1ebda"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a two-dimensional planar vector from a given array representing its x and y Cartesian components.  <a href="classPhQ_1_1PlanarVector.html#a851f2ce2a750fb430544c4ec78c1ebda">More...</a><br /></td></tr>
+<tr class="separator:a851f2ce2a750fb430544c4ec78c1ebda"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ae0ec873fc2370ccb23ef8a40d27106"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1PlanarVector.html#a4ae0ec873fc2370ccb23ef8a40d27106">PlanarVector</a> (const <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt; NumericType &gt; &amp;vector)</td></tr>
+<tr class="memdesc:a4ae0ec873fc2370ccb23ef8a40d27106"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a two-dimensional planar vector from a given three-dimensional vector. Projects the three-dimensional vector onto the XY plane.  <a href="classPhQ_1_1PlanarVector.html#a4ae0ec873fc2370ccb23ef8a40d27106">More...</a><br /></td></tr>
+<tr class="separator:a4ae0ec873fc2370ccb23ef8a40d27106"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac67d698308debafbc1d4eb2aae40814b"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1PlanarVector.html#ac67d698308debafbc1d4eb2aae40814b">PlanarVector</a> (NumericType magnitude, const <a class="el" href="classPhQ_1_1PlanarDirection.html">PlanarDirection</a>&lt; NumericType &gt; &amp;direction)</td></tr>
+<tr class="memdesc:ac67d698308debafbc1d4eb2aae40814b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a two-dimensional planar vector given a magnitude and a planar direction.  <a href="classPhQ_1_1PlanarVector.html#ac67d698308debafbc1d4eb2aae40814b">More...</a><br /></td></tr>
+<tr class="separator:ac67d698308debafbc1d4eb2aae40814b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:affbd9788c0b7893000b749217fc75beb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1PlanarVector.html#affbd9788c0b7893000b749217fc75beb">~PlanarVector</a> () noexcept=default</td></tr>
+<tr class="memdesc:affbd9788c0b7893000b749217fc75beb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor. Destroys this two-dimensional planar vector.  <a href="classPhQ_1_1PlanarVector.html#affbd9788c0b7893000b749217fc75beb">More...</a><br /></td></tr>
+<tr class="separator:affbd9788c0b7893000b749217fc75beb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae681d93c0c915f119ed9de63d877240f"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1PlanarVector.html#ae681d93c0c915f119ed9de63d877240f">PlanarVector</a> (const <a class="el" href="classPhQ_1_1PlanarVector.html">PlanarVector</a>&lt; NumericType &gt; &amp;other)=default</td></tr>
+<tr class="memdesc:ae681d93c0c915f119ed9de63d877240f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy constructor. Constructs a two-dimensional planar vector by copying another one.  <a href="classPhQ_1_1PlanarVector.html#ae681d93c0c915f119ed9de63d877240f">More...</a><br /></td></tr>
+<tr class="separator:ae681d93c0c915f119ed9de63d877240f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5304e8729db65ced4cdeffe931989c9e"><td class="memTemplParams" colspan="2">template&lt;typename OtherNumericType &gt; </td></tr>
+<tr class="memitem:a5304e8729db65ced4cdeffe931989c9e"><td class="memTemplItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classPhQ_1_1PlanarVector.html#a5304e8729db65ced4cdeffe931989c9e">PlanarVector</a> (const <a class="el" href="classPhQ_1_1PlanarVector.html">PlanarVector</a>&lt; OtherNumericType &gt; &amp;other)</td></tr>
+<tr class="memdesc:a5304e8729db65ced4cdeffe931989c9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy constructor. Constructs a two-dimensional planar vector by copying another one.  <a href="classPhQ_1_1PlanarVector.html#a5304e8729db65ced4cdeffe931989c9e">More...</a><br /></td></tr>
+<tr class="separator:a5304e8729db65ced4cdeffe931989c9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a76b9234bfa5bf153e991bef23b6df613"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1PlanarVector.html#a76b9234bfa5bf153e991bef23b6df613">PlanarVector</a> (<a class="el" href="classPhQ_1_1PlanarVector.html">PlanarVector</a>&lt; NumericType &gt; &amp;&amp;other) noexcept=default</td></tr>
+<tr class="memdesc:a76b9234bfa5bf153e991bef23b6df613"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move constructor. Constructs a two-dimensional planar vector by moving another one.  <a href="classPhQ_1_1PlanarVector.html#a76b9234bfa5bf153e991bef23b6df613">More...</a><br /></td></tr>
+<tr class="separator:a76b9234bfa5bf153e991bef23b6df613"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e7059e0e75701e1021c417f8867aef6"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1PlanarVector.html">PlanarVector</a>&lt; NumericType &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1PlanarVector.html#a4e7059e0e75701e1021c417f8867aef6">operator=</a> (const <a class="el" href="classPhQ_1_1PlanarVector.html">PlanarVector</a>&lt; NumericType &gt; &amp;other)=default</td></tr>
+<tr class="memdesc:a4e7059e0e75701e1021c417f8867aef6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy assignment operator. Assigns this two-dimensional planar vector by copying another one.  <a href="classPhQ_1_1PlanarVector.html#a4e7059e0e75701e1021c417f8867aef6">More...</a><br /></td></tr>
+<tr class="separator:a4e7059e0e75701e1021c417f8867aef6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe6dae539a7188a7c7fccfb94b8864e4"><td class="memTemplParams" colspan="2">template&lt;typename OtherNumericType &gt; </td></tr>
+<tr class="memitem:abe6dae539a7188a7c7fccfb94b8864e4"><td class="memTemplItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1PlanarVector.html">PlanarVector</a>&lt; NumericType &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classPhQ_1_1PlanarVector.html#abe6dae539a7188a7c7fccfb94b8864e4">operator=</a> (const <a class="el" href="classPhQ_1_1PlanarVector.html">PlanarVector</a>&lt; OtherNumericType &gt; &amp;other)</td></tr>
+<tr class="memdesc:abe6dae539a7188a7c7fccfb94b8864e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy assignment operator. Assigns this two-dimensional planar vector by copying another one.  <a href="classPhQ_1_1PlanarVector.html#abe6dae539a7188a7c7fccfb94b8864e4">More...</a><br /></td></tr>
+<tr class="separator:abe6dae539a7188a7c7fccfb94b8864e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32a0791c5b45726ba349cdf5ec4a2c2e"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1PlanarVector.html">PlanarVector</a>&lt; NumericType &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1PlanarVector.html#a32a0791c5b45726ba349cdf5ec4a2c2e">operator=</a> (<a class="el" href="classPhQ_1_1PlanarVector.html">PlanarVector</a>&lt; NumericType &gt; &amp;&amp;other) noexcept=default</td></tr>
+<tr class="memdesc:a32a0791c5b45726ba349cdf5ec4a2c2e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move assignment operator. Assigns this two-dimensional planar vector by moving another one.  <a href="classPhQ_1_1PlanarVector.html#a32a0791c5b45726ba349cdf5ec4a2c2e">More...</a><br /></td></tr>
+<tr class="separator:a32a0791c5b45726ba349cdf5ec4a2c2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad212e01080060c646cc15ce35b0dfa6c"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1PlanarVector.html">PlanarVector</a>&lt; NumericType &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1PlanarVector.html#ad212e01080060c646cc15ce35b0dfa6c">operator=</a> (const std::array&lt; NumericType, 2 &gt; &amp;<a class="el" href="classPhQ_1_1PlanarVector.html#a0b07fb75aa0b1fec8bc03ba80ad094b7">x_y</a>)</td></tr>
+<tr class="memdesc:ad212e01080060c646cc15ce35b0dfa6c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assignment operator. Assigns this two-dimensional planar vector by copying a given array representing its x and y Cartesian components.  <a href="classPhQ_1_1PlanarVector.html#ad212e01080060c646cc15ce35b0dfa6c">More...</a><br /></td></tr>
+<tr class="separator:ad212e01080060c646cc15ce35b0dfa6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b07fb75aa0b1fec8bc03ba80ad094b7"><td class="memItemLeft" align="right" valign="top">constexpr const std::array&lt; NumericType, 2 &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1PlanarVector.html#a0b07fb75aa0b1fec8bc03ba80ad094b7">x_y</a> () const noexcept</td></tr>
+<tr class="memdesc:a0b07fb75aa0b1fec8bc03ba80ad094b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns this two-dimensional planar vector's x and y Cartesian components as an array.  <a href="classPhQ_1_1PlanarVector.html#a0b07fb75aa0b1fec8bc03ba80ad094b7">More...</a><br /></td></tr>
+<tr class="separator:a0b07fb75aa0b1fec8bc03ba80ad094b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a150bcbfbb642beff385d29238339b7dd"><td class="memItemLeft" align="right" valign="top">constexpr NumericType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1PlanarVector.html#a150bcbfbb642beff385d29238339b7dd">x</a> () const noexcept</td></tr>
+<tr class="memdesc:a150bcbfbb642beff385d29238339b7dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns this two-dimensional planar vector's x Cartesian component.  <a href="classPhQ_1_1PlanarVector.html#a150bcbfbb642beff385d29238339b7dd">More...</a><br /></td></tr>
+<tr class="separator:a150bcbfbb642beff385d29238339b7dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae3fe847f9d204ca739a74e3fb4078066"><td class="memItemLeft" align="right" valign="top">constexpr NumericType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1PlanarVector.html#ae3fe847f9d204ca739a74e3fb4078066">y</a> () const noexcept</td></tr>
+<tr class="memdesc:ae3fe847f9d204ca739a74e3fb4078066"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns this two-dimensional planar vector's y Cartesian component.  <a href="classPhQ_1_1PlanarVector.html#ae3fe847f9d204ca739a74e3fb4078066">More...</a><br /></td></tr>
+<tr class="separator:ae3fe847f9d204ca739a74e3fb4078066"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad082ffe15d93673fb3eaa30745cd79e6"><td class="memItemLeft" align="right" valign="top">constexpr std::array&lt; NumericType, 2 &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1PlanarVector.html#ad082ffe15d93673fb3eaa30745cd79e6">Mutable_x_y</a> () noexcept</td></tr>
+<tr class="memdesc:ad082ffe15d93673fb3eaa30745cd79e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns this two-dimensional planar vector's x and y Cartesian components as a mutable array.  <a href="classPhQ_1_1PlanarVector.html#ad082ffe15d93673fb3eaa30745cd79e6">More...</a><br /></td></tr>
+<tr class="separator:ad082ffe15d93673fb3eaa30745cd79e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a24c6bb0f568f7976571bb07849ac1d65"><td class="memItemLeft" align="right" valign="top">constexpr NumericType &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1PlanarVector.html#a24c6bb0f568f7976571bb07849ac1d65">Mutable_x</a> () noexcept</td></tr>
+<tr class="memdesc:a24c6bb0f568f7976571bb07849ac1d65"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns this two-dimensional planar vector's x Cartesian component as a mutable value.  <a href="classPhQ_1_1PlanarVector.html#a24c6bb0f568f7976571bb07849ac1d65">More...</a><br /></td></tr>
+<tr class="separator:a24c6bb0f568f7976571bb07849ac1d65"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac43402ec2abd5fd4df58a795d92ec90"><td class="memItemLeft" align="right" valign="top">constexpr NumericType &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1PlanarVector.html#aac43402ec2abd5fd4df58a795d92ec90">Mutable_y</a> () noexcept</td></tr>
+<tr class="memdesc:aac43402ec2abd5fd4df58a795d92ec90"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns this two-dimensional planar vector's y Cartesian component as a mutable value.  <a href="classPhQ_1_1PlanarVector.html#aac43402ec2abd5fd4df58a795d92ec90">More...</a><br /></td></tr>
+<tr class="separator:aac43402ec2abd5fd4df58a795d92ec90"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9dd76946b3025f7c3bcc1736bdbb9fd9"><td class="memItemLeft" align="right" valign="top">constexpr void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1PlanarVector.html#a9dd76946b3025f7c3bcc1736bdbb9fd9">Set_x_y</a> (const std::array&lt; NumericType, 2 &gt; &amp;<a class="el" href="classPhQ_1_1PlanarVector.html#a0b07fb75aa0b1fec8bc03ba80ad094b7">x_y</a>) noexcept</td></tr>
+<tr class="memdesc:a9dd76946b3025f7c3bcc1736bdbb9fd9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets this two-dimensional planar vector's x and y Cartesian components to the given values.  <a href="classPhQ_1_1PlanarVector.html#a9dd76946b3025f7c3bcc1736bdbb9fd9">More...</a><br /></td></tr>
+<tr class="separator:a9dd76946b3025f7c3bcc1736bdbb9fd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21751913ce591eb41938e95d58d69df7"><td class="memItemLeft" align="right" valign="top">constexpr void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1PlanarVector.html#a21751913ce591eb41938e95d58d69df7">Set_x_y</a> (const NumericType <a class="el" href="classPhQ_1_1PlanarVector.html#a150bcbfbb642beff385d29238339b7dd">x</a>, const NumericType <a class="el" href="classPhQ_1_1PlanarVector.html#ae3fe847f9d204ca739a74e3fb4078066">y</a>) noexcept</td></tr>
+<tr class="memdesc:a21751913ce591eb41938e95d58d69df7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets this two-dimensional planar vector's x and y Cartesian components to the given values.  <a href="classPhQ_1_1PlanarVector.html#a21751913ce591eb41938e95d58d69df7">More...</a><br /></td></tr>
+<tr class="separator:a21751913ce591eb41938e95d58d69df7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e68d48aa5007aa5ee8b5c0c1d9afb52"><td class="memItemLeft" align="right" valign="top">constexpr void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1PlanarVector.html#a5e68d48aa5007aa5ee8b5c0c1d9afb52">Set_x</a> (const NumericType <a class="el" href="classPhQ_1_1PlanarVector.html#a150bcbfbb642beff385d29238339b7dd">x</a>) noexcept</td></tr>
+<tr class="memdesc:a5e68d48aa5007aa5ee8b5c0c1d9afb52"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets this two-dimensional planar vector's x Cartesian component to a given value.  <a href="classPhQ_1_1PlanarVector.html#a5e68d48aa5007aa5ee8b5c0c1d9afb52">More...</a><br /></td></tr>
+<tr class="separator:a5e68d48aa5007aa5ee8b5c0c1d9afb52"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31b0a724dc9198a2bfe11a7b399fd0da"><td class="memItemLeft" align="right" valign="top">constexpr void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1PlanarVector.html#a31b0a724dc9198a2bfe11a7b399fd0da">Set_y</a> (const NumericType <a class="el" href="classPhQ_1_1PlanarVector.html#ae3fe847f9d204ca739a74e3fb4078066">y</a>) noexcept</td></tr>
+<tr class="memdesc:a31b0a724dc9198a2bfe11a7b399fd0da"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets this two-dimensional planar vector's y Cartesian component to a given value.  <a href="classPhQ_1_1PlanarVector.html#a31b0a724dc9198a2bfe11a7b399fd0da">More...</a><br /></td></tr>
+<tr class="separator:a31b0a724dc9198a2bfe11a7b399fd0da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af000224a845812d586cb6d8627d2da3a"><td class="memItemLeft" align="right" valign="top">constexpr NumericType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1PlanarVector.html#af000224a845812d586cb6d8627d2da3a">MagnitudeSquared</a> () const noexcept</td></tr>
+<tr class="memdesc:af000224a845812d586cb6d8627d2da3a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the square of the magnitude of this two-dimensional planar vector.  <a href="classPhQ_1_1PlanarVector.html#af000224a845812d586cb6d8627d2da3a">More...</a><br /></td></tr>
+<tr class="separator:af000224a845812d586cb6d8627d2da3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75cf4f6db3665f4781588f20adb70eaf"><td class="memItemLeft" align="right" valign="top">NumericType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1PlanarVector.html#a75cf4f6db3665f4781588f20adb70eaf">Magnitude</a> () const noexcept</td></tr>
+<tr class="memdesc:a75cf4f6db3665f4781588f20adb70eaf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the magnitude (also known as the L2 norm) of this two-dimensional planar vector.  <a href="classPhQ_1_1PlanarVector.html#a75cf4f6db3665f4781588f20adb70eaf">More...</a><br /></td></tr>
+<tr class="separator:a75cf4f6db3665f4781588f20adb70eaf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ea624a7fcb50bc776e1df34979dd4ad"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPhQ_1_1PlanarDirection.html">PhQ::PlanarDirection</a>&lt; NumericType &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1PlanarVector.html#a5ea624a7fcb50bc776e1df34979dd4ad">PlanarDirection</a> () const</td></tr>
+<tr class="memdesc:a5ea624a7fcb50bc776e1df34979dd4ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the planar direction of this two-dimensional planar vector.  <a href="classPhQ_1_1PlanarVector.html#a5ea624a7fcb50bc776e1df34979dd4ad">More...</a><br /></td></tr>
+<tr class="separator:a5ea624a7fcb50bc776e1df34979dd4ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a46ba40830821eec3afeae3bc99e67ee8"><td class="memItemLeft" align="right" valign="top">constexpr NumericType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1PlanarVector.html#a46ba40830821eec3afeae3bc99e67ee8">Dot</a> (const <a class="el" href="classPhQ_1_1PlanarVector.html">PlanarVector</a>&lt; NumericType &gt; &amp;planar_vector) const noexcept</td></tr>
+<tr class="memdesc:a46ba40830821eec3afeae3bc99e67ee8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the dot product (also known as the inner product or scalar product) of this two-dimensional planar vector and another one.  <a href="classPhQ_1_1PlanarVector.html#a46ba40830821eec3afeae3bc99e67ee8">More...</a><br /></td></tr>
+<tr class="separator:a46ba40830821eec3afeae3bc99e67ee8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f3385a3b444edf66a4232495f7d41c3"><td class="memItemLeft" align="right" valign="top">constexpr NumericType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1PlanarVector.html#a6f3385a3b444edf66a4232495f7d41c3">Dot</a> (const <a class="el" href="classPhQ_1_1PlanarDirection.html">PhQ::PlanarDirection</a>&lt; NumericType &gt; &amp;planar_direction) const noexcept</td></tr>
+<tr class="memdesc:a6f3385a3b444edf66a4232495f7d41c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the dot product (also known as the inner product or scalar product) of this two-dimensional planar vector and a given planar direction.  <a href="classPhQ_1_1PlanarVector.html#a6f3385a3b444edf66a4232495f7d41c3">More...</a><br /></td></tr>
+<tr class="separator:a6f3385a3b444edf66a4232495f7d41c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a749f2765ac5188b2210d819ca03a9abd"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt; NumericType &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1PlanarVector.html#a749f2765ac5188b2210d819ca03a9abd">Cross</a> (const <a class="el" href="classPhQ_1_1PlanarVector.html">PlanarVector</a>&lt; NumericType &gt; &amp;planar_vector) const</td></tr>
+<tr class="memdesc:a749f2765ac5188b2210d819ca03a9abd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the cross product (also known as the vector product) of this two-dimensional planar vector and another one.  <a href="classPhQ_1_1PlanarVector.html#a749f2765ac5188b2210d819ca03a9abd">More...</a><br /></td></tr>
+<tr class="separator:a749f2765ac5188b2210d819ca03a9abd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e3803e2ad227367c53181ed7978986d"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt; NumericType &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1PlanarVector.html#a9e3803e2ad227367c53181ed7978986d">Cross</a> (const <a class="el" href="classPhQ_1_1PlanarDirection.html">PhQ::PlanarDirection</a>&lt; NumericType &gt; &amp;planar_direction) const</td></tr>
+<tr class="memdesc:a9e3803e2ad227367c53181ed7978986d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the cross product (also known as the vector product) of this two-dimensional planar vector and a given planar direction.  <a href="classPhQ_1_1PlanarVector.html#a9e3803e2ad227367c53181ed7978986d">More...</a><br /></td></tr>
+<tr class="separator:a9e3803e2ad227367c53181ed7978986d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a30905c5ceefb3116aa2ee956f664fc6b"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1Dyad.html">Dyad</a>&lt; NumericType &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1PlanarVector.html#a30905c5ceefb3116aa2ee956f664fc6b">Dyadic</a> (const <a class="el" href="classPhQ_1_1PlanarVector.html">PlanarVector</a>&lt; NumericType &gt; &amp;planar_vector) const</td></tr>
+<tr class="memdesc:a30905c5ceefb3116aa2ee956f664fc6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the dyadic tensor product (also known as the outer product) of this two-dimensional planar vector and another one.  <a href="classPhQ_1_1PlanarVector.html#a30905c5ceefb3116aa2ee956f664fc6b">More...</a><br /></td></tr>
+<tr class="separator:a30905c5ceefb3116aa2ee956f664fc6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e155d4adc25c289a4c0b11b16235ebe"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classPhQ_1_1Dyad.html">Dyad</a>&lt; NumericType &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1PlanarVector.html#a9e155d4adc25c289a4c0b11b16235ebe">Dyadic</a> (const <a class="el" href="classPhQ_1_1PlanarDirection.html">PhQ::PlanarDirection</a>&lt; NumericType &gt; &amp;planar_direction) const</td></tr>
+<tr class="memdesc:a9e155d4adc25c289a4c0b11b16235ebe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the dyadic tensor product (also known as the outer product) of this two-dimensional planar vector and a given planar direction.  <a href="classPhQ_1_1PlanarVector.html#a9e155d4adc25c289a4c0b11b16235ebe">More...</a><br /></td></tr>
+<tr class="separator:a9e155d4adc25c289a4c0b11b16235ebe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a2a7bfbdea9b0635447d480b8ac66c7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPhQ_1_1Angle.html">PhQ::Angle</a>&lt; NumericType &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1PlanarVector.html#a7a2a7bfbdea9b0635447d480b8ac66c7">Angle</a> (const <a class="el" href="classPhQ_1_1PlanarVector.html">PlanarVector</a>&lt; NumericType &gt; &amp;planar_vector) const</td></tr>
+<tr class="memdesc:a7a2a7bfbdea9b0635447d480b8ac66c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the angle between this two-dimensional planar vector and another one.  <a href="classPhQ_1_1PlanarVector.html#a7a2a7bfbdea9b0635447d480b8ac66c7">More...</a><br /></td></tr>
+<tr class="separator:a7a2a7bfbdea9b0635447d480b8ac66c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acad278a74f5c15271b2bcac0865b085e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPhQ_1_1Angle.html">PhQ::Angle</a>&lt; NumericType &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1PlanarVector.html#acad278a74f5c15271b2bcac0865b085e">Angle</a> (const <a class="el" href="classPhQ_1_1PlanarDirection.html">PhQ::PlanarDirection</a>&lt; NumericType &gt; &amp;planar_direction) const</td></tr>
+<tr class="memdesc:acad278a74f5c15271b2bcac0865b085e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the angle between this two-dimensional planar vector and a given planar direction.  <a href="classPhQ_1_1PlanarVector.html#acad278a74f5c15271b2bcac0865b085e">More...</a><br /></td></tr>
+<tr class="separator:acad278a74f5c15271b2bcac0865b085e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acee34881ffac74620affef4a7675caf5"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1PlanarVector.html#acee34881ffac74620affef4a7675caf5">Print</a> () const</td></tr>
+<tr class="memdesc:acee34881ffac74620affef4a7675caf5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prints this two-dimensional planar vector as a string.  <a href="classPhQ_1_1PlanarVector.html#acee34881ffac74620affef4a7675caf5">More...</a><br /></td></tr>
+<tr class="separator:acee34881ffac74620affef4a7675caf5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7af688543a72eb0eae1e91cb71bba3fc"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1PlanarVector.html#a7af688543a72eb0eae1e91cb71bba3fc">JSON</a> () const</td></tr>
+<tr class="memdesc:a7af688543a72eb0eae1e91cb71bba3fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serializes this two-dimensional planar vector as a JSON message.  <a href="classPhQ_1_1PlanarVector.html#a7af688543a72eb0eae1e91cb71bba3fc">More...</a><br /></td></tr>
+<tr class="separator:a7af688543a72eb0eae1e91cb71bba3fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f4c92becc1cc9732d733edf73a8a7d2"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1PlanarVector.html#a7f4c92becc1cc9732d733edf73a8a7d2">XML</a> () const</td></tr>
+<tr class="memdesc:a7f4c92becc1cc9732d733edf73a8a7d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serializes this two-dimensional planar vector as an XML message.  <a href="classPhQ_1_1PlanarVector.html#a7f4c92becc1cc9732d733edf73a8a7d2">More...</a><br /></td></tr>
+<tr class="separator:a7f4c92becc1cc9732d733edf73a8a7d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1160a872924990bb08cd809e5fa260b9"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1PlanarVector.html#a1160a872924990bb08cd809e5fa260b9">YAML</a> () const</td></tr>
+<tr class="memdesc:a1160a872924990bb08cd809e5fa260b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Serializes this two-dimensional planar vector as a YAML message.  <a href="classPhQ_1_1PlanarVector.html#a1160a872924990bb08cd809e5fa260b9">More...</a><br /></td></tr>
+<tr class="separator:a1160a872924990bb08cd809e5fa260b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59a4cf5dcf189165e33abe267bae24a4"><td class="memItemLeft" align="right" valign="top">constexpr void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1PlanarVector.html#a59a4cf5dcf189165e33abe267bae24a4">operator+=</a> (const <a class="el" href="classPhQ_1_1PlanarVector.html">PlanarVector</a>&lt; NumericType &gt; &amp;planar_vector) noexcept</td></tr>
+<tr class="separator:a59a4cf5dcf189165e33abe267bae24a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb7256902f112bebec8cb7491b5dbf8d"><td class="memItemLeft" align="right" valign="top">constexpr void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1PlanarVector.html#afb7256902f112bebec8cb7491b5dbf8d">operator-=</a> (const <a class="el" href="classPhQ_1_1PlanarVector.html">PlanarVector</a>&lt; NumericType &gt; &amp;planar_vector) noexcept</td></tr>
+<tr class="separator:afb7256902f112bebec8cb7491b5dbf8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1bf95588be9a22b9eacd9617683474e6"><td class="memTemplParams" colspan="2">template&lt;typename OtherNumericType &gt; </td></tr>
+<tr class="memitem:a1bf95588be9a22b9eacd9617683474e6"><td class="memTemplItemLeft" align="right" valign="top">constexpr void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classPhQ_1_1PlanarVector.html#a1bf95588be9a22b9eacd9617683474e6">operator*=</a> (const OtherNumericType number) noexcept</td></tr>
+<tr class="separator:a1bf95588be9a22b9eacd9617683474e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf5c112a3ac95790a067f13cff1a314e"><td class="memTemplParams" colspan="2">template&lt;typename OtherNumericType &gt; </td></tr>
+<tr class="memitem:aaf5c112a3ac95790a067f13cff1a314e"><td class="memTemplItemLeft" align="right" valign="top">constexpr void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classPhQ_1_1PlanarVector.html#aaf5c112a3ac95790a067f13cff1a314e">operator/=</a> (const OtherNumericType number) noexcept</td></tr>
+<tr class="separator:aaf5c112a3ac95790a067f13cff1a314e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a5ddd6ac1c1a7aec42d1e481ccc700982"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="classPhQ_1_1PlanarVector.html">PlanarVector</a>&lt; Number &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1PlanarVector.html#a5ddd6ac1c1a7aec42d1e481ccc700982">Zero</a> ()</td></tr>
-<tr class="memdesc:a5ddd6ac1c1a7aec42d1e481ccc700982"><td class="mdescLeft">&#160;</td><td class="mdescRight">Statically creates a two-dimensional planar vector with its x and y Cartesian components initialized to zero.  <a href="classPhQ_1_1PlanarVector.html#a5ddd6ac1c1a7aec42d1e481ccc700982">More...</a><br /></td></tr>
-<tr class="separator:a5ddd6ac1c1a7aec42d1e481ccc700982"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a53bcb495e7b353cda55904c366da09ae"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="classPhQ_1_1PlanarVector.html">PlanarVector</a>&lt; NumericType &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1PlanarVector.html#a53bcb495e7b353cda55904c366da09ae">Zero</a> ()</td></tr>
+<tr class="memdesc:a53bcb495e7b353cda55904c366da09ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Statically creates a two-dimensional planar vector with its x and y Cartesian components initialized to zero.  <a href="classPhQ_1_1PlanarVector.html#a53bcb495e7b353cda55904c366da09ae">More...</a><br /></td></tr>
+<tr class="separator:a53bcb495e7b353cda55904c366da09ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:aeeeddf2f0c86172505d1757f65cf6604"><td class="memItemLeft" align="right" valign="top">std::array&lt; Number, 2 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1PlanarVector.html#aeeeddf2f0c86172505d1757f65cf6604">x_y_</a></td></tr>
-<tr class="memdesc:aeeeddf2f0c86172505d1757f65cf6604"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cartesian components of this two-dimensional planar vector.  <a href="classPhQ_1_1PlanarVector.html#aeeeddf2f0c86172505d1757f65cf6604">More...</a><br /></td></tr>
-<tr class="separator:aeeeddf2f0c86172505d1757f65cf6604"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f7b7fdc74b338cd712257f1f8459896"><td class="memItemLeft" align="right" valign="top">std::array&lt; NumericType, 2 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1PlanarVector.html#a7f7b7fdc74b338cd712257f1f8459896">x_y_</a></td></tr>
+<tr class="memdesc:a7f7b7fdc74b338cd712257f1f8459896"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cartesian components of this two-dimensional planar vector.  <a href="classPhQ_1_1PlanarVector.html#a7f7b7fdc74b338cd712257f1f8459896">More...</a><br /></td></tr>
+<tr class="separator:a7f7b7fdc74b338cd712257f1f8459896"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><h3>template&lt;typename Number = double&gt;<br />
-class PhQ::PlanarVector&lt; Number &gt;</h3>
+<div class="textblock"><h3>template&lt;typename NumericType = double&gt;<br />
+class PhQ::PlanarVector&lt; NumericType &gt;</h3>
 
 <p>Two-dimensional Euclidean vector in the XY plane. Contains two components in Cartesian coordinates: x and y. For a three-dimensional Euclidean vector, see <a class="el" href="classPhQ_1_1Vector.html" title="Three-dimensional Euclidean vector. Contains three components in Cartesian coordinates: x,...">PhQ::Vector</a>. For a three-dimensional Euclidean dyadic tensor, see <a class="el" href="classPhQ_1_1Dyad.html" title="Three-dimensional Euclidean dyadic tensor. Contains nine components in Cartesian coordinates: xx,...">PhQ::Dyad</a>. For a three-dimensional symmetric Euclidean dyadic tensor, see <a class="el" href="classPhQ_1_1SymmetricDyad.html" title="Symmetric three-dimensional Euclidean dyadic tensor. Contains six components in Cartesian coordinates...">PhQ::SymmetricDyad</a>. </p>
 
 <p class="definition">Definition at line <a class="el" href="PlanarVector_8hpp_source.html#l00063">63</a> of file <a class="el" href="PlanarVector_8hpp_source.html">PlanarVector.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a11509935d0f94e5045d308c3608ca5f4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a11509935d0f94e5045d308c3608ca5f4">&#9670;&nbsp;</a></span>PlanarVector() <span class="overload">[1/8]</span></h2>
+<a id="a3d3beba51c47260288b0a8cd1902c510"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3d3beba51c47260288b0a8cd1902c510">&#9670;&nbsp;</a></span>PlanarVector() <span class="overload">[1/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classPhQ_1_1PlanarVector.html">PhQ::PlanarVector</a>&lt; Number &gt;::<a class="el" href="classPhQ_1_1PlanarVector.html">PlanarVector</a> </td>
+          <td class="memname"><a class="el" href="classPhQ_1_1PlanarVector.html">PhQ::PlanarVector</a>&lt; NumericType &gt;::<a class="el" href="classPhQ_1_1PlanarVector.html">PlanarVector</a> </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -296,27 +296,27 @@ template&lt;typename Number  = double&gt; </div>
 
 </div>
 </div>
-<a id="a11dd548fe3a8b79eca181e6784361cc0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a11dd548fe3a8b79eca181e6784361cc0">&#9670;&nbsp;</a></span>PlanarVector() <span class="overload">[2/8]</span></h2>
+<a id="a1031cad129fdb0c875f5db7dee1a86af"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1031cad129fdb0c875f5db7dee1a86af">&#9670;&nbsp;</a></span>PlanarVector() <span class="overload">[2/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1PlanarVector.html">PhQ::PlanarVector</a>&lt; Number &gt;::<a class="el" href="classPhQ_1_1PlanarVector.html">PlanarVector</a> </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1PlanarVector.html">PhQ::PlanarVector</a>&lt; NumericType &gt;::<a class="el" href="classPhQ_1_1PlanarVector.html">PlanarVector</a> </td>
           <td>(</td>
-          <td class="paramtype">const Number&#160;</td>
+          <td class="paramtype">const NumericType&#160;</td>
           <td class="paramname"><em>x</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const Number&#160;</td>
+          <td class="paramtype">const NumericType&#160;</td>
           <td class="paramname"><em>y</em>&#160;</td>
         </tr>
         <tr>
@@ -336,25 +336,25 @@ template&lt;typename Number  = double&gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="PlanarVector_8hpp_source.html#l00075">75</a> of file <a class="el" href="PlanarVector_8hpp_source.html">PlanarVector.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="PlanarVector_8hpp_source.html#l00141">PhQ::PlanarVector&lt; Number &gt;::x()</a>, and <a class="el" href="PlanarVector_8hpp_source.html#l00146">PhQ::PlanarVector&lt; Number &gt;::y()</a>.</p>
+<p class="reference">References <a class="el" href="PlanarVector_8hpp_source.html#l00142">PhQ::PlanarVector&lt; NumericType &gt;::x()</a>, and <a class="el" href="PlanarVector_8hpp_source.html#l00147">PhQ::PlanarVector&lt; NumericType &gt;::y()</a>.</p>
 
 </div>
 </div>
-<a id="ac1bd91061098592dc5102e00d91e5ff9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac1bd91061098592dc5102e00d91e5ff9">&#9670;&nbsp;</a></span>PlanarVector() <span class="overload">[3/8]</span></h2>
+<a id="a851f2ce2a750fb430544c4ec78c1ebda"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a851f2ce2a750fb430544c4ec78c1ebda">&#9670;&nbsp;</a></span>PlanarVector() <span class="overload">[3/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1PlanarVector.html">PhQ::PlanarVector</a>&lt; Number &gt;::<a class="el" href="classPhQ_1_1PlanarVector.html">PlanarVector</a> </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1PlanarVector.html">PhQ::PlanarVector</a>&lt; NumericType &gt;::<a class="el" href="classPhQ_1_1PlanarVector.html">PlanarVector</a> </td>
           <td>(</td>
-          <td class="paramtype">const std::array&lt; Number, 2 &gt; &amp;&#160;</td>
+          <td class="paramtype">const std::array&lt; NumericType, 2 &gt; &amp;&#160;</td>
           <td class="paramname"><em>x_y</em></td><td>)</td>
           <td></td>
         </tr>
@@ -372,21 +372,21 @@ template&lt;typename Number  = double&gt; </div>
 
 </div>
 </div>
-<a id="a43b319c5516d804251626ed1a386bd71"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a43b319c5516d804251626ed1a386bd71">&#9670;&nbsp;</a></span>PlanarVector() <span class="overload">[4/8]</span></h2>
+<a id="a4ae0ec873fc2370ccb23ef8a40d27106"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ae0ec873fc2370ccb23ef8a40d27106">&#9670;&nbsp;</a></span>PlanarVector() <span class="overload">[4/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number &gt; </div>
+template&lt;typename NumericType &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1PlanarVector.html">PhQ::PlanarVector</a>&lt; Number &gt;::<a class="el" href="classPhQ_1_1PlanarVector.html">PlanarVector</a> </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1PlanarVector.html">PhQ::PlanarVector</a>&lt; NumericType &gt;::<a class="el" href="classPhQ_1_1PlanarVector.html">PlanarVector</a> </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>vector</em></td><td>)</td>
           <td></td>
         </tr>
@@ -400,33 +400,33 @@ template&lt;typename Number &gt; </div>
 
 <p>Constructor. Constructs a two-dimensional planar vector from a given three-dimensional vector. Projects the three-dimensional vector onto the XY plane. </p>
 
-<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00385">385</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00400">400</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00138">PhQ::Vector&lt; Number &gt;::x()</a>, and <a class="el" href="Vector_8hpp_source.html#l00143">PhQ::Vector&lt; Number &gt;::y()</a>.</p>
+<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00139">PhQ::Vector&lt; NumericType &gt;::x()</a>, and <a class="el" href="Vector_8hpp_source.html#l00144">PhQ::Vector&lt; NumericType &gt;::y()</a>.</p>
 
 </div>
 </div>
-<a id="ac7d83f1d6d2a39bf3bbb0be270e67e48"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac7d83f1d6d2a39bf3bbb0be270e67e48">&#9670;&nbsp;</a></span>PlanarVector() <span class="overload">[5/8]</span></h2>
+<a id="ac67d698308debafbc1d4eb2aae40814b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac67d698308debafbc1d4eb2aae40814b">&#9670;&nbsp;</a></span>PlanarVector() <span class="overload">[5/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number &gt; </div>
+template&lt;typename NumericType &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1PlanarVector.html">PhQ::PlanarVector</a>&lt; Number &gt;::<a class="el" href="classPhQ_1_1PlanarVector.html">PlanarVector</a> </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1PlanarVector.html">PhQ::PlanarVector</a>&lt; NumericType &gt;::<a class="el" href="classPhQ_1_1PlanarVector.html">PlanarVector</a> </td>
           <td>(</td>
-          <td class="paramtype">Number&#160;</td>
+          <td class="paramtype">NumericType&#160;</td>
           <td class="paramname"><em>magnitude</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1PlanarDirection.html">PlanarDirection</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1PlanarDirection.html">PlanarDirection</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>direction</em>&#160;</td>
         </tr>
         <tr>
@@ -444,25 +444,25 @@ template&lt;typename Number &gt; </div>
 
 <p>Constructor. Constructs a two-dimensional planar vector given a magnitude and a planar direction. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarDirection_8hpp_source.html#l00372">372</a> of file <a class="el" href="PlanarDirection_8hpp_source.html">PlanarDirection.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarDirection_8hpp_source.html#l00387">387</a> of file <a class="el" href="PlanarDirection_8hpp_source.html">PlanarDirection.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionlessPlanarVector_8hpp_source.html#l00060">PhQ::DimensionlessPlanarVector&lt; Number &gt;::Value()</a>, and <a class="el" href="PlanarVector_8hpp_source.html#l00284">PhQ::PlanarVector&lt; Number &gt;::x_y_</a>.</p>
+<p class="reference">References <a class="el" href="DimensionlessPlanarVector_8hpp_source.html#l00060">PhQ::DimensionlessPlanarVector&lt; NumericType &gt;::Value()</a>, and <a class="el" href="PlanarVector_8hpp_source.html#l00288">PhQ::PlanarVector&lt; NumericType &gt;::x_y_</a>.</p>
 
 </div>
 </div>
-<a id="a8bac018c138ed5ce771be7b408884a55"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8bac018c138ed5ce771be7b408884a55">&#9670;&nbsp;</a></span>~PlanarVector()</h2>
+<a id="affbd9788c0b7893000b749217fc75beb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#affbd9788c0b7893000b749217fc75beb">&#9670;&nbsp;</a></span>~PlanarVector()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classPhQ_1_1PlanarVector.html">PhQ::PlanarVector</a>&lt; Number &gt;::~<a class="el" href="classPhQ_1_1PlanarVector.html">PlanarVector</a> </td>
+          <td class="memname"><a class="el" href="classPhQ_1_1PlanarVector.html">PhQ::PlanarVector</a>&lt; NumericType &gt;::~<a class="el" href="classPhQ_1_1PlanarVector.html">PlanarVector</a> </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -479,21 +479,21 @@ template&lt;typename Number  = double&gt; </div>
 
 </div>
 </div>
-<a id="af218590884a83397a5f3884e0b94d60a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af218590884a83397a5f3884e0b94d60a">&#9670;&nbsp;</a></span>PlanarVector() <span class="overload">[6/8]</span></h2>
+<a id="ae681d93c0c915f119ed9de63d877240f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae681d93c0c915f119ed9de63d877240f">&#9670;&nbsp;</a></span>PlanarVector() <span class="overload">[6/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1PlanarVector.html">PhQ::PlanarVector</a>&lt; Number &gt;::<a class="el" href="classPhQ_1_1PlanarVector.html">PlanarVector</a> </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1PlanarVector.html">PhQ::PlanarVector</a>&lt; NumericType &gt;::<a class="el" href="classPhQ_1_1PlanarVector.html">PlanarVector</a> </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1PlanarVector.html">PlanarVector</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1PlanarVector.html">PlanarVector</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>other</em></td><td>)</td>
           <td></td>
         </tr>
@@ -509,23 +509,23 @@ template&lt;typename Number  = double&gt; </div>
 
 </div>
 </div>
-<a id="a72ab56a90ff90bdb9f00ae6e8ccfe5ec"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a72ab56a90ff90bdb9f00ae6e8ccfe5ec">&#9670;&nbsp;</a></span>PlanarVector() <span class="overload">[7/8]</span></h2>
+<a id="a5304e8729db65ced4cdeffe931989c9e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5304e8729db65ced4cdeffe931989c9e">&#9670;&nbsp;</a></span>PlanarVector() <span class="overload">[7/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <div class="memtemplate">
-template&lt;typename OtherNumber &gt; </div>
+template&lt;typename OtherNumericType &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1PlanarVector.html">PhQ::PlanarVector</a>&lt; Number &gt;::<a class="el" href="classPhQ_1_1PlanarVector.html">PlanarVector</a> </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1PlanarVector.html">PhQ::PlanarVector</a>&lt; NumericType &gt;::<a class="el" href="classPhQ_1_1PlanarVector.html">PlanarVector</a> </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1PlanarVector.html">PlanarVector</a>&lt; OtherNumber &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1PlanarVector.html">PlanarVector</a>&lt; OtherNumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>other</em></td><td>)</td>
           <td></td>
         </tr>
@@ -543,21 +543,21 @@ template&lt;typename OtherNumber &gt; </div>
 
 </div>
 </div>
-<a id="a959679f6e4023f6172e4f75bbdc9240c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a959679f6e4023f6172e4f75bbdc9240c">&#9670;&nbsp;</a></span>PlanarVector() <span class="overload">[8/8]</span></h2>
+<a id="a76b9234bfa5bf153e991bef23b6df613"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a76b9234bfa5bf153e991bef23b6df613">&#9670;&nbsp;</a></span>PlanarVector() <span class="overload">[8/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1PlanarVector.html">PhQ::PlanarVector</a>&lt; Number &gt;::<a class="el" href="classPhQ_1_1PlanarVector.html">PlanarVector</a> </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1PlanarVector.html">PhQ::PlanarVector</a>&lt; NumericType &gt;::<a class="el" href="classPhQ_1_1PlanarVector.html">PlanarVector</a> </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classPhQ_1_1PlanarVector.html">PlanarVector</a>&lt; Number &gt; &amp;&amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="classPhQ_1_1PlanarVector.html">PlanarVector</a>&lt; NumericType &gt; &amp;&amp;&#160;</td>
           <td class="paramname"><em>other</em></td><td>)</td>
           <td></td>
         </tr>
@@ -574,21 +574,21 @@ template&lt;typename Number  = double&gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="af47b69be35212cd9fe3eaa5f40e5aa85"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af47b69be35212cd9fe3eaa5f40e5aa85">&#9670;&nbsp;</a></span>Angle() <span class="overload">[1/2]</span></h2>
+<a id="acad278a74f5c15271b2bcac0865b085e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acad278a74f5c15271b2bcac0865b085e">&#9670;&nbsp;</a></span>Angle() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number &gt; </div>
+template&lt;typename NumericType &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classPhQ_1_1Angle.html">Angle</a>&lt; Number &gt; <a class="el" href="classPhQ_1_1PlanarVector.html">PhQ::PlanarVector</a>&lt; Number &gt;::<a class="el" href="classPhQ_1_1Angle.html">Angle</a> </td>
+          <td class="memname"><a class="el" href="classPhQ_1_1Angle.html">Angle</a>&lt; NumericType &gt; <a class="el" href="classPhQ_1_1PlanarVector.html">PhQ::PlanarVector</a>&lt; NumericType &gt;::<a class="el" href="classPhQ_1_1Angle.html">Angle</a> </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1PlanarDirection.html">PhQ::PlanarDirection</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1PlanarDirection.html">PhQ::PlanarDirection</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>planar_direction</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -602,25 +602,25 @@ template&lt;typename Number &gt; </div>
 
 <p>Returns the angle between this two-dimensional planar vector and a given planar direction. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarDirection_8hpp_source.html#l00412">412</a> of file <a class="el" href="PlanarDirection_8hpp_source.html">PlanarDirection.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarDirection_8hpp_source.html#l00428">428</a> of file <a class="el" href="PlanarDirection_8hpp_source.html">PlanarDirection.hpp</a>.</p>
 
 </div>
 </div>
-<a id="a6891a2a66fcc0df07eaf16475147635b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6891a2a66fcc0df07eaf16475147635b">&#9670;&nbsp;</a></span>Angle() <span class="overload">[2/2]</span></h2>
+<a id="a7a2a7bfbdea9b0635447d480b8ac66c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a2a7bfbdea9b0635447d480b8ac66c7">&#9670;&nbsp;</a></span>Angle() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number &gt; </div>
+template&lt;typename NumericType &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classPhQ_1_1Angle.html">PhQ::Angle</a>&lt; Number &gt; <a class="el" href="classPhQ_1_1PlanarVector.html">PhQ::PlanarVector</a>&lt; Number &gt;::<a class="el" href="classPhQ_1_1Angle.html">Angle</a> </td>
+          <td class="memname"><a class="el" href="classPhQ_1_1Angle.html">PhQ::Angle</a>&lt; NumericType &gt; <a class="el" href="classPhQ_1_1PlanarVector.html">PhQ::PlanarVector</a>&lt; NumericType &gt;::<a class="el" href="classPhQ_1_1Angle.html">Angle</a> </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1PlanarVector.html">PlanarVector</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1PlanarVector.html">PlanarVector</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>planar_vector</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -634,25 +634,25 @@ template&lt;typename Number &gt; </div>
 
 <p>Returns the angle between this two-dimensional planar vector and another one. </p>
 
-<p class="definition">Definition at line <a class="el" href="Angle_8hpp_source.html#l00390">390</a> of file <a class="el" href="Angle_8hpp_source.html">Angle.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Angle_8hpp_source.html#l00405">405</a> of file <a class="el" href="Angle_8hpp_source.html">Angle.hpp</a>.</p>
 
 </div>
 </div>
-<a id="a821527f1e81e9f9605aa801e3167e569"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a821527f1e81e9f9605aa801e3167e569">&#9670;&nbsp;</a></span>Cross() <span class="overload">[1/2]</span></h2>
+<a id="a9e3803e2ad227367c53181ed7978986d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e3803e2ad227367c53181ed7978986d">&#9670;&nbsp;</a></span>Cross() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number &gt; </div>
+template&lt;typename NumericType &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt; Number &gt; <a class="el" href="classPhQ_1_1PlanarVector.html">PhQ::PlanarVector</a>&lt; Number &gt;::Cross </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt; NumericType &gt; <a class="el" href="classPhQ_1_1PlanarVector.html">PhQ::PlanarVector</a>&lt; NumericType &gt;::Cross </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1PlanarDirection.html">PhQ::PlanarDirection</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1PlanarDirection.html">PhQ::PlanarDirection</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>planar_direction</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -666,27 +666,27 @@ template&lt;typename Number &gt; </div>
 
 <p>Returns the cross product (also known as the vector product) of this two-dimensional planar vector and a given planar direction. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarDirection_8hpp_source.html#l00388">388</a> of file <a class="el" href="PlanarDirection_8hpp_source.html">PlanarDirection.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarDirection_8hpp_source.html#l00403">403</a> of file <a class="el" href="PlanarDirection_8hpp_source.html">PlanarDirection.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionlessPlanarVector_8hpp_source.html#l00060">PhQ::DimensionlessPlanarVector&lt; Number &gt;::Value()</a>.</p>
+<p class="reference">References <a class="el" href="DimensionlessPlanarVector_8hpp_source.html#l00060">PhQ::DimensionlessPlanarVector&lt; NumericType &gt;::Value()</a>.</p>
 
 </div>
 </div>
-<a id="aa0c00c62582c4b669100e06d3fde9f97"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa0c00c62582c4b669100e06d3fde9f97">&#9670;&nbsp;</a></span>Cross() <span class="overload">[2/2]</span></h2>
+<a id="a749f2765ac5188b2210d819ca03a9abd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a749f2765ac5188b2210d819ca03a9abd">&#9670;&nbsp;</a></span>Cross() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number &gt; </div>
+template&lt;typename NumericType &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt; Number &gt; <a class="el" href="classPhQ_1_1PlanarVector.html">PhQ::PlanarVector</a>&lt; Number &gt;::Cross </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Vector.html">Vector</a>&lt; NumericType &gt; <a class="el" href="classPhQ_1_1PlanarVector.html">PhQ::PlanarVector</a>&lt; NumericType &gt;::Cross </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1PlanarVector.html">PlanarVector</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1PlanarVector.html">PlanarVector</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>planar_vector</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -700,29 +700,29 @@ template&lt;typename Number &gt; </div>
 
 <p>Returns the cross product (also known as the vector product) of this two-dimensional planar vector and another one. </p>
 
-<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00389">389</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Vector_8hpp_source.html#l00404">404</a> of file <a class="el" href="Vector_8hpp_source.html">Vector.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="PlanarVector_8hpp_source.html#l00284">PhQ::PlanarVector&lt; Number &gt;::x_y_</a>.</p>
+<p class="reference">References <a class="el" href="PlanarVector_8hpp_source.html#l00288">PhQ::PlanarVector&lt; NumericType &gt;::x_y_</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="PlanarDirection_8hpp_source.html#l00279">PhQ::PlanarDirection&lt; Number &gt;::Cross()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="PlanarDirection_8hpp_source.html#l00287">PhQ::PlanarDirection&lt; NumericType &gt;::Cross()</a>.</p>
 
 </div>
 </div>
-<a id="af29999824e2faf382406c5deef88e8b6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af29999824e2faf382406c5deef88e8b6">&#9670;&nbsp;</a></span>Dot() <span class="overload">[1/2]</span></h2>
+<a id="a6f3385a3b444edf66a4232495f7d41c3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f3385a3b444edf66a4232495f7d41c3">&#9670;&nbsp;</a></span>Dot() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number &gt; </div>
+template&lt;typename NumericType &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr Number <a class="el" href="classPhQ_1_1PlanarVector.html">PhQ::PlanarVector</a>&lt; Number &gt;::Dot </td>
+          <td class="memname">constexpr NumericType <a class="el" href="classPhQ_1_1PlanarVector.html">PhQ::PlanarVector</a>&lt; NumericType &gt;::Dot </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1PlanarDirection.html">PhQ::PlanarDirection</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1PlanarDirection.html">PhQ::PlanarDirection</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>planar_direction</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -736,25 +736,25 @@ template&lt;typename Number &gt; </div>
 
 <p>Returns the dot product (also known as the inner product or scalar product) of this two-dimensional planar vector and a given planar direction. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarDirection_8hpp_source.html#l00382">382</a> of file <a class="el" href="PlanarDirection_8hpp_source.html">PlanarDirection.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarDirection_8hpp_source.html#l00397">397</a> of file <a class="el" href="PlanarDirection_8hpp_source.html">PlanarDirection.hpp</a>.</p>
 
 </div>
 </div>
-<a id="ac620de5851a0851293a0f06237705edf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac620de5851a0851293a0f06237705edf">&#9670;&nbsp;</a></span>Dot() <span class="overload">[2/2]</span></h2>
+<a id="a46ba40830821eec3afeae3bc99e67ee8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a46ba40830821eec3afeae3bc99e67ee8">&#9670;&nbsp;</a></span>Dot() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr Number <a class="el" href="classPhQ_1_1PlanarVector.html">PhQ::PlanarVector</a>&lt; Number &gt;::Dot </td>
+          <td class="memname">constexpr NumericType <a class="el" href="classPhQ_1_1PlanarVector.html">PhQ::PlanarVector</a>&lt; NumericType &gt;::Dot </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1PlanarVector.html">PlanarVector</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1PlanarVector.html">PlanarVector</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>planar_vector</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -768,29 +768,29 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the dot product (also known as the inner product or scalar product) of this two-dimensional planar vector and another one. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarVector_8hpp_source.html#l00205">205</a> of file <a class="el" href="PlanarVector_8hpp_source.html">PlanarVector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarVector_8hpp_source.html#l00206">206</a> of file <a class="el" href="PlanarVector_8hpp_source.html">PlanarVector.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="PlanarVector_8hpp_source.html#l00284">PhQ::PlanarVector&lt; Number &gt;::x_y_</a>.</p>
+<p class="reference">References <a class="el" href="PlanarVector_8hpp_source.html#l00288">PhQ::PlanarVector&lt; NumericType &gt;::x_y_</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="PlanarDirection_8hpp_source.html#l00267">PhQ::PlanarDirection&lt; Number &gt;::Dot()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="PlanarDirection_8hpp_source.html#l00274">PhQ::PlanarDirection&lt; NumericType &gt;::Dot()</a>.</p>
 
 </div>
 </div>
-<a id="aafee82aa7d5b7954d7c16934fc766012"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aafee82aa7d5b7954d7c16934fc766012">&#9670;&nbsp;</a></span>Dyadic() <span class="overload">[1/2]</span></h2>
+<a id="a9e155d4adc25c289a4c0b11b16235ebe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e155d4adc25c289a4c0b11b16235ebe">&#9670;&nbsp;</a></span>Dyadic() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number &gt; </div>
+template&lt;typename NumericType &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Dyad.html">Dyad</a>&lt; Number &gt; <a class="el" href="classPhQ_1_1PlanarVector.html">PhQ::PlanarVector</a>&lt; Number &gt;::Dyadic </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Dyad.html">Dyad</a>&lt; NumericType &gt; <a class="el" href="classPhQ_1_1PlanarVector.html">PhQ::PlanarVector</a>&lt; NumericType &gt;::Dyadic </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1PlanarDirection.html">PhQ::PlanarDirection</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1PlanarDirection.html">PhQ::PlanarDirection</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>planar_direction</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -804,27 +804,27 @@ template&lt;typename Number &gt; </div>
 
 <p>Returns the dyadic tensor product (also known as the outer product) of this two-dimensional planar vector and a given planar direction. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarDirection_8hpp_source.html#l00394">394</a> of file <a class="el" href="PlanarDirection_8hpp_source.html">PlanarDirection.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarDirection_8hpp_source.html#l00409">409</a> of file <a class="el" href="PlanarDirection_8hpp_source.html">PlanarDirection.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionlessPlanarVector_8hpp_source.html#l00060">PhQ::DimensionlessPlanarVector&lt; Number &gt;::Value()</a>.</p>
+<p class="reference">References <a class="el" href="DimensionlessPlanarVector_8hpp_source.html#l00060">PhQ::DimensionlessPlanarVector&lt; NumericType &gt;::Value()</a>.</p>
 
 </div>
 </div>
-<a id="a08abe1636ca2f0ad6ba9d0067b771238"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a08abe1636ca2f0ad6ba9d0067b771238">&#9670;&nbsp;</a></span>Dyadic() <span class="overload">[2/2]</span></h2>
+<a id="a30905c5ceefb3116aa2ee956f664fc6b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a30905c5ceefb3116aa2ee956f664fc6b">&#9670;&nbsp;</a></span>Dyadic() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number &gt; </div>
+template&lt;typename NumericType &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Dyad.html">Dyad</a>&lt; Number &gt; <a class="el" href="classPhQ_1_1PlanarVector.html">PhQ::PlanarVector</a>&lt; Number &gt;::Dyadic </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1Dyad.html">Dyad</a>&lt; NumericType &gt; <a class="el" href="classPhQ_1_1PlanarVector.html">PhQ::PlanarVector</a>&lt; NumericType &gt;::Dyadic </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1PlanarVector.html">PlanarVector</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1PlanarVector.html">PlanarVector</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>planar_vector</em></td><td>)</td>
           <td> const</td>
         </tr>
@@ -838,27 +838,27 @@ template&lt;typename Number &gt; </div>
 
 <p>Returns the dyadic tensor product (also known as the outer product) of this two-dimensional planar vector and another one. </p>
 
-<p class="definition">Definition at line <a class="el" href="Dyad_8hpp_source.html#l00696">696</a> of file <a class="el" href="Dyad_8hpp_source.html">Dyad.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Dyad_8hpp_source.html#l00713">713</a> of file <a class="el" href="Dyad_8hpp_source.html">Dyad.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="PlanarVector_8hpp_source.html#l00284">PhQ::PlanarVector&lt; Number &gt;::x_y_</a>.</p>
+<p class="reference">References <a class="el" href="PlanarVector_8hpp_source.html#l00288">PhQ::PlanarVector&lt; NumericType &gt;::x_y_</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="PlanarDirection_8hpp_source.html#l00288">PhQ::PlanarDirection&lt; Number &gt;::Dyadic()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="PlanarDirection_8hpp_source.html#l00298">PhQ::PlanarDirection&lt; NumericType &gt;::Dyadic()</a>.</p>
 
 </div>
 </div>
-<a id="a2304eb7941c25cd9f28d648910fcf6b8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2304eb7941c25cd9f28d648910fcf6b8">&#9670;&nbsp;</a></span>JSON()</h2>
+<a id="a7af688543a72eb0eae1e91cb71bba3fc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7af688543a72eb0eae1e91cb71bba3fc">&#9670;&nbsp;</a></span>JSON()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::string <a class="el" href="classPhQ_1_1PlanarVector.html">PhQ::PlanarVector</a>&lt; Number &gt;::JSON </td>
+          <td class="memname">std::string <a class="el" href="classPhQ_1_1PlanarVector.html">PhQ::PlanarVector</a>&lt; NumericType &gt;::JSON </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -873,25 +873,25 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Serializes this two-dimensional planar vector as a JSON message. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarVector_8hpp_source.html#l00246">246</a> of file <a class="el" href="PlanarVector_8hpp_source.html">PlanarVector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarVector_8hpp_source.html#l00250">250</a> of file <a class="el" href="PlanarVector_8hpp_source.html">PlanarVector.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Base_8hpp_source.html#l00170">PhQ::Print()</a>, and <a class="el" href="PlanarVector_8hpp_source.html#l00284">PhQ::PlanarVector&lt; Number &gt;::x_y_</a>.</p>
+<p class="reference">References <a class="el" href="Base_8hpp_source.html#l00167">PhQ::Print()</a>, and <a class="el" href="PlanarVector_8hpp_source.html#l00288">PhQ::PlanarVector&lt; NumericType &gt;::x_y_</a>.</p>
 
 </div>
 </div>
-<a id="a7872d6fd2a9f75b3d6b297cff44bbb7a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7872d6fd2a9f75b3d6b297cff44bbb7a">&#9670;&nbsp;</a></span>Magnitude()</h2>
+<a id="a75cf4f6db3665f4781588f20adb70eaf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a75cf4f6db3665f4781588f20adb70eaf">&#9670;&nbsp;</a></span>Magnitude()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Number <a class="el" href="classPhQ_1_1PlanarVector.html">PhQ::PlanarVector</a>&lt; Number &gt;::Magnitude </td>
+          <td class="memname">NumericType <a class="el" href="classPhQ_1_1PlanarVector.html">PhQ::PlanarVector</a>&lt; NumericType &gt;::Magnitude </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -906,25 +906,25 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the magnitude (also known as the L2 norm) of this two-dimensional planar vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarVector_8hpp_source.html#l00196">196</a> of file <a class="el" href="PlanarVector_8hpp_source.html">PlanarVector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarVector_8hpp_source.html#l00197">197</a> of file <a class="el" href="PlanarVector_8hpp_source.html">PlanarVector.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="PlanarAcceleration_8hpp_source.html#l00161">PhQ::PlanarAcceleration&lt; Number &gt;::Magnitude()</a>, <a class="el" href="PlanarDisplacement_8hpp_source.html#l00183">PhQ::PlanarDisplacement&lt; Number &gt;::Magnitude()</a>, <a class="el" href="PlanarForce_8hpp_source.html#l00147">PhQ::PlanarForce&lt; Number &gt;::Magnitude()</a>, <a class="el" href="PlanarHeatFlux_8hpp_source.html#l00163">PhQ::PlanarHeatFlux&lt; Number &gt;::Magnitude()</a>, <a class="el" href="PlanarPosition_8hpp_source.html#l00147">PhQ::PlanarPosition&lt; Number &gt;::Magnitude()</a>, <a class="el" href="PlanarTemperatureGradient_8hpp_source.html#l00159">PhQ::PlanarTemperatureGradient&lt; Number &gt;::Magnitude()</a>, <a class="el" href="PlanarTraction_8hpp_source.html#l00157">PhQ::PlanarTraction&lt; Number &gt;::Magnitude()</a>, <a class="el" href="PlanarVelocity_8hpp_source.html#l00169">PhQ::PlanarVelocity&lt; Number &gt;::Magnitude()</a>, and <a class="el" href="PlanarDirection_8hpp_source.html#l00261">PhQ::PlanarDirection&lt; Number &gt;::Magnitude()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="PlanarAcceleration_8hpp_source.html#l00164">PhQ::PlanarAcceleration&lt; NumericType &gt;::Magnitude()</a>, <a class="el" href="PlanarDisplacement_8hpp_source.html#l00187">PhQ::PlanarDisplacement&lt; NumericType &gt;::Magnitude()</a>, <a class="el" href="PlanarForce_8hpp_source.html#l00150">PhQ::PlanarForce&lt; NumericType &gt;::Magnitude()</a>, <a class="el" href="PlanarHeatFlux_8hpp_source.html#l00167">PhQ::PlanarHeatFlux&lt; NumericType &gt;::Magnitude()</a>, <a class="el" href="PlanarPosition_8hpp_source.html#l00151">PhQ::PlanarPosition&lt; NumericType &gt;::Magnitude()</a>, <a class="el" href="PlanarTemperatureGradient_8hpp_source.html#l00166">PhQ::PlanarTemperatureGradient&lt; NumericType &gt;::Magnitude()</a>, <a class="el" href="PlanarTraction_8hpp_source.html#l00162">PhQ::PlanarTraction&lt; NumericType &gt;::Magnitude()</a>, <a class="el" href="PlanarVelocity_8hpp_source.html#l00171">PhQ::PlanarVelocity&lt; NumericType &gt;::Magnitude()</a>, and <a class="el" href="PlanarDirection_8hpp_source.html#l00268">PhQ::PlanarDirection&lt; NumericType &gt;::Magnitude()</a>.</p>
 
 </div>
 </div>
-<a id="a0e9fd1073ddea9b8efa2a7d564177879"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0e9fd1073ddea9b8efa2a7d564177879">&#9670;&nbsp;</a></span>MagnitudeSquared()</h2>
+<a id="af000224a845812d586cb6d8627d2da3a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af000224a845812d586cb6d8627d2da3a">&#9670;&nbsp;</a></span>MagnitudeSquared()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr Number <a class="el" href="classPhQ_1_1PlanarVector.html">PhQ::PlanarVector</a>&lt; Number &gt;::MagnitudeSquared </td>
+          <td class="memname">constexpr NumericType <a class="el" href="classPhQ_1_1PlanarVector.html">PhQ::PlanarVector</a>&lt; NumericType &gt;::MagnitudeSquared </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -939,27 +939,27 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns the square of the magnitude of this two-dimensional planar vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarVector_8hpp_source.html#l00190">190</a> of file <a class="el" href="PlanarVector_8hpp_source.html">PlanarVector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarVector_8hpp_source.html#l00191">191</a> of file <a class="el" href="PlanarVector_8hpp_source.html">PlanarVector.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="PlanarVector_8hpp_source.html#l00284">PhQ::PlanarVector&lt; Number &gt;::x_y_</a>.</p>
+<p class="reference">References <a class="el" href="PlanarVector_8hpp_source.html#l00288">PhQ::PlanarVector&lt; NumericType &gt;::x_y_</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="PlanarDirection_8hpp_source.html#l00254">PhQ::PlanarDirection&lt; Number &gt;::MagnitudeSquared()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="PlanarDirection_8hpp_source.html#l00261">PhQ::PlanarDirection&lt; NumericType &gt;::MagnitudeSquared()</a>.</p>
 
 </div>
 </div>
-<a id="adf272f0c89ef51c901165943f261c7f8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adf272f0c89ef51c901165943f261c7f8">&#9670;&nbsp;</a></span>Mutable_x()</h2>
+<a id="a24c6bb0f568f7976571bb07849ac1d65"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a24c6bb0f568f7976571bb07849ac1d65">&#9670;&nbsp;</a></span>Mutable_x()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr Number&amp; <a class="el" href="classPhQ_1_1PlanarVector.html">PhQ::PlanarVector</a>&lt; Number &gt;::Mutable_x </td>
+          <td class="memname">constexpr NumericType&amp; <a class="el" href="classPhQ_1_1PlanarVector.html">PhQ::PlanarVector</a>&lt; NumericType &gt;::Mutable_x </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -974,25 +974,25 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns this two-dimensional planar vector's x Cartesian component as a mutable value. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarVector_8hpp_source.html#l00157">157</a> of file <a class="el" href="PlanarVector_8hpp_source.html">PlanarVector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarVector_8hpp_source.html#l00158">158</a> of file <a class="el" href="PlanarVector_8hpp_source.html">PlanarVector.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="PlanarVector_8hpp_source.html#l00284">PhQ::PlanarVector&lt; Number &gt;::x_y_</a>.</p>
+<p class="reference">References <a class="el" href="PlanarVector_8hpp_source.html#l00288">PhQ::PlanarVector&lt; NumericType &gt;::x_y_</a>.</p>
 
 </div>
 </div>
-<a id="a76b344913bcf7eeaf770c87d07fe7800"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a76b344913bcf7eeaf770c87d07fe7800">&#9670;&nbsp;</a></span>Mutable_x_y()</h2>
+<a id="ad082ffe15d93673fb3eaa30745cd79e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad082ffe15d93673fb3eaa30745cd79e6">&#9670;&nbsp;</a></span>Mutable_x_y()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr std::array&lt;Number, 2&gt;&amp; <a class="el" href="classPhQ_1_1PlanarVector.html">PhQ::PlanarVector</a>&lt; Number &gt;::Mutable_x_y </td>
+          <td class="memname">constexpr std::array&lt;NumericType, 2&gt;&amp; <a class="el" href="classPhQ_1_1PlanarVector.html">PhQ::PlanarVector</a>&lt; NumericType &gt;::Mutable_x_y </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -1007,27 +1007,27 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns this two-dimensional planar vector's x and y Cartesian components as a mutable array. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarVector_8hpp_source.html#l00152">152</a> of file <a class="el" href="PlanarVector_8hpp_source.html">PlanarVector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarVector_8hpp_source.html#l00153">153</a> of file <a class="el" href="PlanarVector_8hpp_source.html">PlanarVector.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="PlanarVector_8hpp_source.html#l00284">PhQ::PlanarVector&lt; Number &gt;::x_y_</a>.</p>
+<p class="reference">References <a class="el" href="PlanarVector_8hpp_source.html#l00288">PhQ::PlanarVector&lt; NumericType &gt;::x_y_</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="Unit_8hpp_source.html#l00176">PhQ::Convert()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="Unit_8hpp_source.html#l00179">PhQ::ConvertInPlace()</a>.</p>
 
 </div>
 </div>
-<a id="a58a7bd8690b7cfc2b1c224462d606a1a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a58a7bd8690b7cfc2b1c224462d606a1a">&#9670;&nbsp;</a></span>Mutable_y()</h2>
+<a id="aac43402ec2abd5fd4df58a795d92ec90"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac43402ec2abd5fd4df58a795d92ec90">&#9670;&nbsp;</a></span>Mutable_y()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr Number&amp; <a class="el" href="classPhQ_1_1PlanarVector.html">PhQ::PlanarVector</a>&lt; Number &gt;::Mutable_y </td>
+          <td class="memname">constexpr NumericType&amp; <a class="el" href="classPhQ_1_1PlanarVector.html">PhQ::PlanarVector</a>&lt; NumericType &gt;::Mutable_y </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -1042,29 +1042,29 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns this two-dimensional planar vector's y Cartesian component as a mutable value. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarVector_8hpp_source.html#l00162">162</a> of file <a class="el" href="PlanarVector_8hpp_source.html">PlanarVector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarVector_8hpp_source.html#l00163">163</a> of file <a class="el" href="PlanarVector_8hpp_source.html">PlanarVector.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="PlanarVector_8hpp_source.html#l00284">PhQ::PlanarVector&lt; Number &gt;::x_y_</a>.</p>
+<p class="reference">References <a class="el" href="PlanarVector_8hpp_source.html#l00288">PhQ::PlanarVector&lt; NumericType &gt;::x_y_</a>.</p>
 
 </div>
 </div>
-<a id="af11633490f39586f4d38a449159aba78"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af11633490f39586f4d38a449159aba78">&#9670;&nbsp;</a></span>operator*=()</h2>
+<a id="a1bf95588be9a22b9eacd9617683474e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1bf95588be9a22b9eacd9617683474e6">&#9670;&nbsp;</a></span>operator*=()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <div class="memtemplate">
-template&lt;typename OtherNumber &gt; </div>
+template&lt;typename OtherNumericType &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr void <a class="el" href="classPhQ_1_1PlanarVector.html">PhQ::PlanarVector</a>&lt; Number &gt;::operator*= </td>
+          <td class="memname">constexpr void <a class="el" href="classPhQ_1_1PlanarVector.html">PhQ::PlanarVector</a>&lt; NumericType &gt;::operator*= </td>
           <td>(</td>
-          <td class="paramtype">const OtherNumber&#160;</td>
+          <td class="paramtype">const OtherNumericType&#160;</td>
           <td class="paramname"><em>number</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1076,27 +1076,27 @@ template&lt;typename OtherNumber &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="PlanarVector_8hpp_source.html#l00271">271</a> of file <a class="el" href="PlanarVector_8hpp_source.html">PlanarVector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarVector_8hpp_source.html#l00275">275</a> of file <a class="el" href="PlanarVector_8hpp_source.html">PlanarVector.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="PlanarVector_8hpp_source.html#l00284">PhQ::PlanarVector&lt; Number &gt;::x_y_</a>.</p>
+<p class="reference">References <a class="el" href="PlanarVector_8hpp_source.html#l00288">PhQ::PlanarVector&lt; NumericType &gt;::x_y_</a>.</p>
 
 </div>
 </div>
-<a id="aad63b6c19c2953e2eff46d12e8cc733d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aad63b6c19c2953e2eff46d12e8cc733d">&#9670;&nbsp;</a></span>operator+=()</h2>
+<a id="a59a4cf5dcf189165e33abe267bae24a4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a59a4cf5dcf189165e33abe267bae24a4">&#9670;&nbsp;</a></span>operator+=()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr void <a class="el" href="classPhQ_1_1PlanarVector.html">PhQ::PlanarVector</a>&lt; Number &gt;::operator+= </td>
+          <td class="memname">constexpr void <a class="el" href="classPhQ_1_1PlanarVector.html">PhQ::PlanarVector</a>&lt; NumericType &gt;::operator+= </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1PlanarVector.html">PlanarVector</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1PlanarVector.html">PlanarVector</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>planar_vector</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1108,27 +1108,27 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="PlanarVector_8hpp_source.html#l00260">260</a> of file <a class="el" href="PlanarVector_8hpp_source.html">PlanarVector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarVector_8hpp_source.html#l00264">264</a> of file <a class="el" href="PlanarVector_8hpp_source.html">PlanarVector.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="PlanarVector_8hpp_source.html#l00284">PhQ::PlanarVector&lt; Number &gt;::x_y_</a>.</p>
+<p class="reference">References <a class="el" href="PlanarVector_8hpp_source.html#l00288">PhQ::PlanarVector&lt; NumericType &gt;::x_y_</a>.</p>
 
 </div>
 </div>
-<a id="ad88826a9e6853d6019a28cd0c6a8a942"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad88826a9e6853d6019a28cd0c6a8a942">&#9670;&nbsp;</a></span>operator-=()</h2>
+<a id="afb7256902f112bebec8cb7491b5dbf8d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb7256902f112bebec8cb7491b5dbf8d">&#9670;&nbsp;</a></span>operator-=()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr void <a class="el" href="classPhQ_1_1PlanarVector.html">PhQ::PlanarVector</a>&lt; Number &gt;::operator-= </td>
+          <td class="memname">constexpr void <a class="el" href="classPhQ_1_1PlanarVector.html">PhQ::PlanarVector</a>&lt; NumericType &gt;::operator-= </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1PlanarVector.html">PlanarVector</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1PlanarVector.html">PlanarVector</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>planar_vector</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1140,29 +1140,29 @@ template&lt;typename Number  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="PlanarVector_8hpp_source.html#l00265">265</a> of file <a class="el" href="PlanarVector_8hpp_source.html">PlanarVector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarVector_8hpp_source.html#l00269">269</a> of file <a class="el" href="PlanarVector_8hpp_source.html">PlanarVector.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="PlanarVector_8hpp_source.html#l00284">PhQ::PlanarVector&lt; Number &gt;::x_y_</a>.</p>
+<p class="reference">References <a class="el" href="PlanarVector_8hpp_source.html#l00288">PhQ::PlanarVector&lt; NumericType &gt;::x_y_</a>.</p>
 
 </div>
 </div>
-<a id="a0819281e9329fc036ac587e73caf2c3b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0819281e9329fc036ac587e73caf2c3b">&#9670;&nbsp;</a></span>operator/=()</h2>
+<a id="aaf5c112a3ac95790a067f13cff1a314e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf5c112a3ac95790a067f13cff1a314e">&#9670;&nbsp;</a></span>operator/=()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <div class="memtemplate">
-template&lt;typename OtherNumber &gt; </div>
+template&lt;typename OtherNumericType &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr void <a class="el" href="classPhQ_1_1PlanarVector.html">PhQ::PlanarVector</a>&lt; Number &gt;::operator/= </td>
+          <td class="memname">constexpr void <a class="el" href="classPhQ_1_1PlanarVector.html">PhQ::PlanarVector</a>&lt; NumericType &gt;::operator/= </td>
           <td>(</td>
-          <td class="paramtype">const OtherNumber&#160;</td>
+          <td class="paramtype">const OtherNumericType&#160;</td>
           <td class="paramname"><em>number</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1174,27 +1174,27 @@ template&lt;typename OtherNumber &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="PlanarVector_8hpp_source.html#l00277">277</a> of file <a class="el" href="PlanarVector_8hpp_source.html">PlanarVector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarVector_8hpp_source.html#l00281">281</a> of file <a class="el" href="PlanarVector_8hpp_source.html">PlanarVector.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="PlanarVector_8hpp_source.html#l00284">PhQ::PlanarVector&lt; Number &gt;::x_y_</a>.</p>
+<p class="reference">References <a class="el" href="PlanarVector_8hpp_source.html#l00288">PhQ::PlanarVector&lt; NumericType &gt;::x_y_</a>.</p>
 
 </div>
 </div>
-<a id="a8bf4718759afcb788d81d2cf447152ae"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8bf4718759afcb788d81d2cf447152ae">&#9670;&nbsp;</a></span>operator=() <span class="overload">[1/4]</span></h2>
+<a id="a4e7059e0e75701e1021c417f8867aef6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e7059e0e75701e1021c417f8867aef6">&#9670;&nbsp;</a></span>operator=() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1PlanarVector.html">PlanarVector</a>&lt;Number&gt;&amp; <a class="el" href="classPhQ_1_1PlanarVector.html">PhQ::PlanarVector</a>&lt; Number &gt;::operator= </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1PlanarVector.html">PlanarVector</a>&lt;NumericType&gt;&amp; <a class="el" href="classPhQ_1_1PlanarVector.html">PhQ::PlanarVector</a>&lt; NumericType &gt;::operator= </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1PlanarVector.html">PlanarVector</a>&lt; Number &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1PlanarVector.html">PlanarVector</a>&lt; NumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>other</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1210,23 +1210,23 @@ template&lt;typename Number  = double&gt; </div>
 
 </div>
 </div>
-<a id="aef327ad60adda74eec3fde79084ff4f9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aef327ad60adda74eec3fde79084ff4f9">&#9670;&nbsp;</a></span>operator=() <span class="overload">[2/4]</span></h2>
+<a id="abe6dae539a7188a7c7fccfb94b8864e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abe6dae539a7188a7c7fccfb94b8864e4">&#9670;&nbsp;</a></span>operator=() <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <div class="memtemplate">
-template&lt;typename OtherNumber &gt; </div>
+template&lt;typename OtherNumericType &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1PlanarVector.html">PlanarVector</a>&lt;Number&gt;&amp; <a class="el" href="classPhQ_1_1PlanarVector.html">PhQ::PlanarVector</a>&lt; Number &gt;::operator= </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1PlanarVector.html">PlanarVector</a>&lt;NumericType&gt;&amp; <a class="el" href="classPhQ_1_1PlanarVector.html">PhQ::PlanarVector</a>&lt; NumericType &gt;::operator= </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classPhQ_1_1PlanarVector.html">PlanarVector</a>&lt; OtherNumber &gt; &amp;&#160;</td>
+          <td class="paramtype">const <a class="el" href="classPhQ_1_1PlanarVector.html">PlanarVector</a>&lt; OtherNumericType &gt; &amp;&#160;</td>
           <td class="paramname"><em>other</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1242,25 +1242,25 @@ template&lt;typename OtherNumber &gt; </div>
 
 <p class="definition">Definition at line <a class="el" href="PlanarVector_8hpp_source.html#l00110">110</a> of file <a class="el" href="PlanarVector_8hpp_source.html">PlanarVector.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="PlanarVector_8hpp_source.html#l00141">PhQ::PlanarVector&lt; Number &gt;::x()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00284">PhQ::PlanarVector&lt; Number &gt;::x_y_</a>, and <a class="el" href="PlanarVector_8hpp_source.html#l00146">PhQ::PlanarVector&lt; Number &gt;::y()</a>.</p>
+<p class="reference">References <a class="el" href="PlanarVector_8hpp_source.html#l00142">PhQ::PlanarVector&lt; NumericType &gt;::x()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00288">PhQ::PlanarVector&lt; NumericType &gt;::x_y_</a>, and <a class="el" href="PlanarVector_8hpp_source.html#l00147">PhQ::PlanarVector&lt; NumericType &gt;::y()</a>.</p>
 
 </div>
 </div>
-<a id="a031d190bdeaf125c28a62d06922f231f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a031d190bdeaf125c28a62d06922f231f">&#9670;&nbsp;</a></span>operator=() <span class="overload">[3/4]</span></h2>
+<a id="ad212e01080060c646cc15ce35b0dfa6c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad212e01080060c646cc15ce35b0dfa6c">&#9670;&nbsp;</a></span>operator=() <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1PlanarVector.html">PlanarVector</a>&lt;Number&gt;&amp; <a class="el" href="classPhQ_1_1PlanarVector.html">PhQ::PlanarVector</a>&lt; Number &gt;::operator= </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1PlanarVector.html">PlanarVector</a>&lt;NumericType&gt;&amp; <a class="el" href="classPhQ_1_1PlanarVector.html">PhQ::PlanarVector</a>&lt; NumericType &gt;::operator= </td>
           <td>(</td>
-          <td class="paramtype">const std::array&lt; Number, 2 &gt; &amp;&#160;</td>
+          <td class="paramtype">const std::array&lt; NumericType, 2 &gt; &amp;&#160;</td>
           <td class="paramname"><em>x_y</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1274,27 +1274,27 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Assignment operator. Assigns this two-dimensional planar vector by copying a given array representing its x and y Cartesian components. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarVector_8hpp_source.html#l00122">122</a> of file <a class="el" href="PlanarVector_8hpp_source.html">PlanarVector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarVector_8hpp_source.html#l00123">123</a> of file <a class="el" href="PlanarVector_8hpp_source.html">PlanarVector.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="PlanarVector_8hpp_source.html#l00136">PhQ::PlanarVector&lt; Number &gt;::x_y()</a>, and <a class="el" href="PlanarVector_8hpp_source.html#l00284">PhQ::PlanarVector&lt; Number &gt;::x_y_</a>.</p>
+<p class="reference">References <a class="el" href="PlanarVector_8hpp_source.html#l00137">PhQ::PlanarVector&lt; NumericType &gt;::x_y()</a>, and <a class="el" href="PlanarVector_8hpp_source.html#l00288">PhQ::PlanarVector&lt; NumericType &gt;::x_y_</a>.</p>
 
 </div>
 </div>
-<a id="a562f999372f0d9b885ff43abb6dbd3e9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a562f999372f0d9b885ff43abb6dbd3e9">&#9670;&nbsp;</a></span>operator=() <span class="overload">[4/4]</span></h2>
+<a id="a32a0791c5b45726ba349cdf5ec4a2c2e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a32a0791c5b45726ba349cdf5ec4a2c2e">&#9670;&nbsp;</a></span>operator=() <span class="overload">[4/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classPhQ_1_1PlanarVector.html">PlanarVector</a>&lt;Number&gt;&amp; <a class="el" href="classPhQ_1_1PlanarVector.html">PhQ::PlanarVector</a>&lt; Number &gt;::operator= </td>
+          <td class="memname">constexpr <a class="el" href="classPhQ_1_1PlanarVector.html">PlanarVector</a>&lt;NumericType&gt;&amp; <a class="el" href="classPhQ_1_1PlanarVector.html">PhQ::PlanarVector</a>&lt; NumericType &gt;::operator= </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classPhQ_1_1PlanarVector.html">PlanarVector</a>&lt; Number &gt; &amp;&amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="classPhQ_1_1PlanarVector.html">PlanarVector</a>&lt; NumericType &gt; &amp;&amp;&#160;</td>
           <td class="paramname"><em>other</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1310,19 +1310,19 @@ template&lt;typename Number  = double&gt; </div>
 
 </div>
 </div>
-<a id="af2b816fdb65f519eb39f76185f60ec60"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af2b816fdb65f519eb39f76185f60ec60">&#9670;&nbsp;</a></span>PlanarDirection()</h2>
+<a id="a5ea624a7fcb50bc776e1df34979dd4ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5ea624a7fcb50bc776e1df34979dd4ad">&#9670;&nbsp;</a></span>PlanarDirection()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number &gt; </div>
+template&lt;typename NumericType &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classPhQ_1_1PlanarDirection.html">PhQ::PlanarDirection</a>&lt; Number &gt; <a class="el" href="classPhQ_1_1PlanarVector.html">PhQ::PlanarVector</a>&lt; Number &gt;::<a class="el" href="classPhQ_1_1PlanarDirection.html">PlanarDirection</a></td>
+          <td class="memname"><a class="el" href="classPhQ_1_1PlanarDirection.html">PhQ::PlanarDirection</a>&lt; NumericType &gt; <a class="el" href="classPhQ_1_1PlanarVector.html">PhQ::PlanarVector</a>&lt; NumericType &gt;::<a class="el" href="classPhQ_1_1PlanarDirection.html">PlanarDirection</a></td>
         </tr>
       </table>
   </td>
@@ -1334,25 +1334,25 @@ template&lt;typename Number &gt; </div>
 
 <p>Returns the planar direction of this two-dimensional planar vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarDirection_8hpp_source.html#l00377">377</a> of file <a class="el" href="PlanarDirection_8hpp_source.html">PlanarDirection.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarDirection_8hpp_source.html#l00392">392</a> of file <a class="el" href="PlanarDirection_8hpp_source.html">PlanarDirection.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="PlanarAcceleration_8hpp_source.html#l00166">PhQ::PlanarAcceleration&lt; Number &gt;::PlanarDirection()</a>, <a class="el" href="PlanarDisplacement_8hpp_source.html#l00188">PhQ::PlanarDisplacement&lt; Number &gt;::PlanarDirection()</a>, <a class="el" href="PlanarForce_8hpp_source.html#l00152">PhQ::PlanarForce&lt; Number &gt;::PlanarDirection()</a>, <a class="el" href="PlanarHeatFlux_8hpp_source.html#l00168">PhQ::PlanarHeatFlux&lt; Number &gt;::PlanarDirection()</a>, <a class="el" href="PlanarPosition_8hpp_source.html#l00152">PhQ::PlanarPosition&lt; Number &gt;::PlanarDirection()</a>, <a class="el" href="PlanarTemperatureGradient_8hpp_source.html#l00164">PhQ::PlanarTemperatureGradient&lt; Number &gt;::PlanarDirection()</a>, <a class="el" href="PlanarTraction_8hpp_source.html#l00162">PhQ::PlanarTraction&lt; Number &gt;::PlanarDirection()</a>, and <a class="el" href="PlanarVelocity_8hpp_source.html#l00174">PhQ::PlanarVelocity&lt; Number &gt;::PlanarDirection()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="PlanarAcceleration_8hpp_source.html#l00169">PhQ::PlanarAcceleration&lt; NumericType &gt;::PlanarDirection()</a>, <a class="el" href="PlanarDisplacement_8hpp_source.html#l00192">PhQ::PlanarDisplacement&lt; NumericType &gt;::PlanarDirection()</a>, <a class="el" href="PlanarForce_8hpp_source.html#l00155">PhQ::PlanarForce&lt; NumericType &gt;::PlanarDirection()</a>, <a class="el" href="PlanarHeatFlux_8hpp_source.html#l00172">PhQ::PlanarHeatFlux&lt; NumericType &gt;::PlanarDirection()</a>, <a class="el" href="PlanarPosition_8hpp_source.html#l00156">PhQ::PlanarPosition&lt; NumericType &gt;::PlanarDirection()</a>, <a class="el" href="PlanarTemperatureGradient_8hpp_source.html#l00171">PhQ::PlanarTemperatureGradient&lt; NumericType &gt;::PlanarDirection()</a>, <a class="el" href="PlanarTraction_8hpp_source.html#l00167">PhQ::PlanarTraction&lt; NumericType &gt;::PlanarDirection()</a>, and <a class="el" href="PlanarVelocity_8hpp_source.html#l00176">PhQ::PlanarVelocity&lt; NumericType &gt;::PlanarDirection()</a>.</p>
 
 </div>
 </div>
-<a id="a0cb3cdacb4b65bea616c698a3898180d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0cb3cdacb4b65bea616c698a3898180d">&#9670;&nbsp;</a></span>Print()</h2>
+<a id="acee34881ffac74620affef4a7675caf5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acee34881ffac74620affef4a7675caf5">&#9670;&nbsp;</a></span>Print()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::string <a class="el" href="classPhQ_1_1PlanarVector.html">PhQ::PlanarVector</a>&lt; Number &gt;::Print </td>
+          <td class="memname">std::string <a class="el" href="classPhQ_1_1PlanarVector.html">PhQ::PlanarVector</a>&lt; NumericType &gt;::Print </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -1367,29 +1367,29 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Prints this two-dimensional planar vector as a string. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarVector_8hpp_source.html#l00241">241</a> of file <a class="el" href="PlanarVector_8hpp_source.html">PlanarVector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarVector_8hpp_source.html#l00245">245</a> of file <a class="el" href="PlanarVector_8hpp_source.html">PlanarVector.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Base_8hpp_source.html#l00170">PhQ::Print()</a>, and <a class="el" href="PlanarVector_8hpp_source.html#l00284">PhQ::PlanarVector&lt; Number &gt;::x_y_</a>.</p>
+<p class="reference">References <a class="el" href="Base_8hpp_source.html#l00167">PhQ::Print()</a>, and <a class="el" href="PlanarVector_8hpp_source.html#l00288">PhQ::PlanarVector&lt; NumericType &gt;::x_y_</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="PlanarVector_8hpp_source.html#l00362">PhQ::operator&lt;&lt;()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="PlanarVector_8hpp_source.html#l00366">PhQ::operator&lt;&lt;()</a>.</p>
 
 </div>
 </div>
-<a id="a654aefbe438b764d70949e3b7e515605"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a654aefbe438b764d70949e3b7e515605">&#9670;&nbsp;</a></span>Set_x()</h2>
+<a id="a5e68d48aa5007aa5ee8b5c0c1d9afb52"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5e68d48aa5007aa5ee8b5c0c1d9afb52">&#9670;&nbsp;</a></span>Set_x()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr void <a class="el" href="classPhQ_1_1PlanarVector.html">PhQ::PlanarVector</a>&lt; Number &gt;::Set_x </td>
+          <td class="memname">constexpr void <a class="el" href="classPhQ_1_1PlanarVector.html">PhQ::PlanarVector</a>&lt; NumericType &gt;::Set_x </td>
           <td>(</td>
-          <td class="paramtype">const Number&#160;</td>
+          <td class="paramtype">const NumericType&#160;</td>
           <td class="paramname"><em>x</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1403,33 +1403,33 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Sets this two-dimensional planar vector's x Cartesian component to a given value. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarVector_8hpp_source.html#l00180">180</a> of file <a class="el" href="PlanarVector_8hpp_source.html">PlanarVector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarVector_8hpp_source.html#l00181">181</a> of file <a class="el" href="PlanarVector_8hpp_source.html">PlanarVector.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="PlanarVector_8hpp_source.html#l00141">PhQ::PlanarVector&lt; Number &gt;::x()</a>, and <a class="el" href="PlanarVector_8hpp_source.html#l00284">PhQ::PlanarVector&lt; Number &gt;::x_y_</a>.</p>
+<p class="reference">References <a class="el" href="PlanarVector_8hpp_source.html#l00142">PhQ::PlanarVector&lt; NumericType &gt;::x()</a>, and <a class="el" href="PlanarVector_8hpp_source.html#l00288">PhQ::PlanarVector&lt; NumericType &gt;::x_y_</a>.</p>
 
 </div>
 </div>
-<a id="a0c64747a8dc807bf6983b0848362e99f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0c64747a8dc807bf6983b0848362e99f">&#9670;&nbsp;</a></span>Set_x_y() <span class="overload">[1/2]</span></h2>
+<a id="a21751913ce591eb41938e95d58d69df7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a21751913ce591eb41938e95d58d69df7">&#9670;&nbsp;</a></span>Set_x_y() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr void <a class="el" href="classPhQ_1_1PlanarVector.html">PhQ::PlanarVector</a>&lt; Number &gt;::Set_x_y </td>
+          <td class="memname">constexpr void <a class="el" href="classPhQ_1_1PlanarVector.html">PhQ::PlanarVector</a>&lt; NumericType &gt;::Set_x_y </td>
           <td>(</td>
-          <td class="paramtype">const Number&#160;</td>
+          <td class="paramtype">const NumericType&#160;</td>
           <td class="paramname"><em>x</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const Number&#160;</td>
+          <td class="paramtype">const NumericType&#160;</td>
           <td class="paramname"><em>y</em>&#160;</td>
         </tr>
         <tr>
@@ -1447,27 +1447,27 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Sets this two-dimensional planar vector's x and y Cartesian components to the given values. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarVector_8hpp_source.html#l00174">174</a> of file <a class="el" href="PlanarVector_8hpp_source.html">PlanarVector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarVector_8hpp_source.html#l00175">175</a> of file <a class="el" href="PlanarVector_8hpp_source.html">PlanarVector.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="PlanarVector_8hpp_source.html#l00141">PhQ::PlanarVector&lt; Number &gt;::x()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00284">PhQ::PlanarVector&lt; Number &gt;::x_y_</a>, and <a class="el" href="PlanarVector_8hpp_source.html#l00146">PhQ::PlanarVector&lt; Number &gt;::y()</a>.</p>
+<p class="reference">References <a class="el" href="PlanarVector_8hpp_source.html#l00142">PhQ::PlanarVector&lt; NumericType &gt;::x()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00288">PhQ::PlanarVector&lt; NumericType &gt;::x_y_</a>, and <a class="el" href="PlanarVector_8hpp_source.html#l00147">PhQ::PlanarVector&lt; NumericType &gt;::y()</a>.</p>
 
 </div>
 </div>
-<a id="a734885050ff250ee47a5cdeb95f9f6d8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a734885050ff250ee47a5cdeb95f9f6d8">&#9670;&nbsp;</a></span>Set_x_y() <span class="overload">[2/2]</span></h2>
+<a id="a9dd76946b3025f7c3bcc1736bdbb9fd9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9dd76946b3025f7c3bcc1736bdbb9fd9">&#9670;&nbsp;</a></span>Set_x_y() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr void <a class="el" href="classPhQ_1_1PlanarVector.html">PhQ::PlanarVector</a>&lt; Number &gt;::Set_x_y </td>
+          <td class="memname">constexpr void <a class="el" href="classPhQ_1_1PlanarVector.html">PhQ::PlanarVector</a>&lt; NumericType &gt;::Set_x_y </td>
           <td>(</td>
-          <td class="paramtype">const std::array&lt; Number, 2 &gt; &amp;&#160;</td>
+          <td class="paramtype">const std::array&lt; NumericType, 2 &gt; &amp;&#160;</td>
           <td class="paramname"><em>x_y</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1481,27 +1481,27 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Sets this two-dimensional planar vector's x and y Cartesian components to the given values. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarVector_8hpp_source.html#l00168">168</a> of file <a class="el" href="PlanarVector_8hpp_source.html">PlanarVector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarVector_8hpp_source.html#l00169">169</a> of file <a class="el" href="PlanarVector_8hpp_source.html">PlanarVector.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="PlanarVector_8hpp_source.html#l00136">PhQ::PlanarVector&lt; Number &gt;::x_y()</a>, and <a class="el" href="PlanarVector_8hpp_source.html#l00284">PhQ::PlanarVector&lt; Number &gt;::x_y_</a>.</p>
+<p class="reference">References <a class="el" href="PlanarVector_8hpp_source.html#l00137">PhQ::PlanarVector&lt; NumericType &gt;::x_y()</a>, and <a class="el" href="PlanarVector_8hpp_source.html#l00288">PhQ::PlanarVector&lt; NumericType &gt;::x_y_</a>.</p>
 
 </div>
 </div>
-<a id="a7d7e07ece22079781730c2da60960bcf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7d7e07ece22079781730c2da60960bcf">&#9670;&nbsp;</a></span>Set_y()</h2>
+<a id="a31b0a724dc9198a2bfe11a7b399fd0da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a31b0a724dc9198a2bfe11a7b399fd0da">&#9670;&nbsp;</a></span>Set_y()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr void <a class="el" href="classPhQ_1_1PlanarVector.html">PhQ::PlanarVector</a>&lt; Number &gt;::Set_y </td>
+          <td class="memname">constexpr void <a class="el" href="classPhQ_1_1PlanarVector.html">PhQ::PlanarVector</a>&lt; NumericType &gt;::Set_y </td>
           <td>(</td>
-          <td class="paramtype">const Number&#160;</td>
+          <td class="paramtype">const NumericType&#160;</td>
           <td class="paramname"><em>y</em></td><td>)</td>
           <td></td>
         </tr>
@@ -1515,25 +1515,25 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Sets this two-dimensional planar vector's y Cartesian component to a given value. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarVector_8hpp_source.html#l00185">185</a> of file <a class="el" href="PlanarVector_8hpp_source.html">PlanarVector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarVector_8hpp_source.html#l00186">186</a> of file <a class="el" href="PlanarVector_8hpp_source.html">PlanarVector.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="PlanarVector_8hpp_source.html#l00284">PhQ::PlanarVector&lt; Number &gt;::x_y_</a>, and <a class="el" href="PlanarVector_8hpp_source.html#l00146">PhQ::PlanarVector&lt; Number &gt;::y()</a>.</p>
+<p class="reference">References <a class="el" href="PlanarVector_8hpp_source.html#l00288">PhQ::PlanarVector&lt; NumericType &gt;::x_y_</a>, and <a class="el" href="PlanarVector_8hpp_source.html#l00147">PhQ::PlanarVector&lt; NumericType &gt;::y()</a>.</p>
 
 </div>
 </div>
-<a id="ad1b44f8d7732b8e7d9bc7eff5b8efd45"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad1b44f8d7732b8e7d9bc7eff5b8efd45">&#9670;&nbsp;</a></span>x()</h2>
+<a id="a150bcbfbb642beff385d29238339b7dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a150bcbfbb642beff385d29238339b7dd">&#9670;&nbsp;</a></span>x()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr Number <a class="el" href="classPhQ_1_1PlanarVector.html">PhQ::PlanarVector</a>&lt; Number &gt;::x </td>
+          <td class="memname">constexpr NumericType <a class="el" href="classPhQ_1_1PlanarVector.html">PhQ::PlanarVector</a>&lt; NumericType &gt;::x </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -1548,27 +1548,27 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns this two-dimensional planar vector's x Cartesian component. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarVector_8hpp_source.html#l00141">141</a> of file <a class="el" href="PlanarVector_8hpp_source.html">PlanarVector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarVector_8hpp_source.html#l00142">142</a> of file <a class="el" href="PlanarVector_8hpp_source.html">PlanarVector.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="PlanarVector_8hpp_source.html#l00284">PhQ::PlanarVector&lt; Number &gt;::x_y_</a>.</p>
+<p class="reference">References <a class="el" href="PlanarVector_8hpp_source.html#l00288">PhQ::PlanarVector&lt; NumericType &gt;::x_y_</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="Dyad_8hpp_source.html#l00579">PhQ::operator*()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00330">PhQ::operator+()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00336">PhQ::operator-()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00355">PhQ::operator/()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00110">PhQ::PlanarVector&lt; Number &gt;::operator=()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00075">PhQ::PlanarVector&lt; Number &gt;::PlanarVector()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00180">PhQ::PlanarVector&lt; Number &gt;::Set_x()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00174">PhQ::PlanarVector&lt; Number &gt;::Set_x_y()</a>, <a class="el" href="Vector_8hpp_source.html#l00080">PhQ::Vector&lt; Number &gt;::Vector()</a>, <a class="el" href="PlanarAcceleration_8hpp_source.html#l00151">PhQ::PlanarAcceleration&lt; Number &gt;::x()</a>, <a class="el" href="PlanarDirection_8hpp_source.html#l00209">PhQ::PlanarDirection&lt; Number &gt;::x()</a>, <a class="el" href="PlanarDisplacement_8hpp_source.html#l00168">PhQ::PlanarDisplacement&lt; Number &gt;::x()</a>, <a class="el" href="PlanarForce_8hpp_source.html#l00137">PhQ::PlanarForce&lt; Number &gt;::x()</a>, <a class="el" href="PlanarHeatFlux_8hpp_source.html#l00153">PhQ::PlanarHeatFlux&lt; Number &gt;::x()</a>, <a class="el" href="PlanarPosition_8hpp_source.html#l00137">PhQ::PlanarPosition&lt; Number &gt;::x()</a>, <a class="el" href="PlanarTemperatureGradient_8hpp_source.html#l00149">PhQ::PlanarTemperatureGradient&lt; Number &gt;::x()</a>, <a class="el" href="PlanarTraction_8hpp_source.html#l00147">PhQ::PlanarTraction&lt; Number &gt;::x()</a>, and <a class="el" href="PlanarVelocity_8hpp_source.html#l00159">PhQ::PlanarVelocity&lt; Number &gt;::x()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="Dyad_8hpp_source.html#l00592">PhQ::operator*()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00334">PhQ::operator+()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00340">PhQ::operator-()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00359">PhQ::operator/()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00110">PhQ::PlanarVector&lt; NumericType &gt;::operator=()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00075">PhQ::PlanarVector&lt; NumericType &gt;::PlanarVector()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00181">PhQ::PlanarVector&lt; NumericType &gt;::Set_x()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00175">PhQ::PlanarVector&lt; NumericType &gt;::Set_x_y()</a>, <a class="el" href="Vector_8hpp_source.html#l00081">PhQ::Vector&lt; NumericType &gt;::Vector()</a>, <a class="el" href="PlanarAcceleration_8hpp_source.html#l00154">PhQ::PlanarAcceleration&lt; NumericType &gt;::x()</a>, <a class="el" href="PlanarDirection_8hpp_source.html#l00216">PhQ::PlanarDirection&lt; NumericType &gt;::x()</a>, <a class="el" href="PlanarDisplacement_8hpp_source.html#l00172">PhQ::PlanarDisplacement&lt; NumericType &gt;::x()</a>, <a class="el" href="PlanarForce_8hpp_source.html#l00140">PhQ::PlanarForce&lt; NumericType &gt;::x()</a>, <a class="el" href="PlanarHeatFlux_8hpp_source.html#l00157">PhQ::PlanarHeatFlux&lt; NumericType &gt;::x()</a>, <a class="el" href="PlanarPosition_8hpp_source.html#l00141">PhQ::PlanarPosition&lt; NumericType &gt;::x()</a>, <a class="el" href="PlanarTemperatureGradient_8hpp_source.html#l00156">PhQ::PlanarTemperatureGradient&lt; NumericType &gt;::x()</a>, <a class="el" href="PlanarTraction_8hpp_source.html#l00152">PhQ::PlanarTraction&lt; NumericType &gt;::x()</a>, and <a class="el" href="PlanarVelocity_8hpp_source.html#l00161">PhQ::PlanarVelocity&lt; NumericType &gt;::x()</a>.</p>
 
 </div>
 </div>
-<a id="a96ab8abd460e6808ea5a6692671b1b8a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a96ab8abd460e6808ea5a6692671b1b8a">&#9670;&nbsp;</a></span>x_y()</h2>
+<a id="a0b07fb75aa0b1fec8bc03ba80ad094b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0b07fb75aa0b1fec8bc03ba80ad094b7">&#9670;&nbsp;</a></span>x_y()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr const std::array&lt;Number, 2&gt;&amp; <a class="el" href="classPhQ_1_1PlanarVector.html">PhQ::PlanarVector</a>&lt; Number &gt;::x_y </td>
+          <td class="memname">constexpr const std::array&lt;NumericType, 2&gt;&amp; <a class="el" href="classPhQ_1_1PlanarVector.html">PhQ::PlanarVector</a>&lt; NumericType &gt;::x_y </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -1583,27 +1583,27 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns this two-dimensional planar vector's x and y Cartesian components as an array. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarVector_8hpp_source.html#l00136">136</a> of file <a class="el" href="PlanarVector_8hpp_source.html">PlanarVector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarVector_8hpp_source.html#l00137">137</a> of file <a class="el" href="PlanarVector_8hpp_source.html">PlanarVector.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="PlanarVector_8hpp_source.html#l00284">PhQ::PlanarVector&lt; Number &gt;::x_y_</a>.</p>
+<p class="reference">References <a class="el" href="PlanarVector_8hpp_source.html#l00288">PhQ::PlanarVector&lt; NumericType &gt;::x_y_</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="Unit_8hpp_source.html#l00234">PhQ::ConvertCopy()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00122">PhQ::PlanarVector&lt; Number &gt;::operator=()</a>, <a class="el" href="PlanarDirection_8hpp_source.html#l00247">PhQ::PlanarDirection&lt; Number &gt;::Set()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00168">PhQ::PlanarVector&lt; Number &gt;::Set_x_y()</a>, and <a class="el" href="Unit_8hpp_source.html#l00299">PhQ::StaticConvertCopy()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="Unit_8hpp_source.html#l00242">PhQ::Convert()</a>, <a class="el" href="Unit_8hpp_source.html#l00307">PhQ::ConvertStatically()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00123">PhQ::PlanarVector&lt; NumericType &gt;::operator=()</a>, <a class="el" href="PlanarDirection_8hpp_source.html#l00254">PhQ::PlanarDirection&lt; NumericType &gt;::Set()</a>, and <a class="el" href="PlanarVector_8hpp_source.html#l00169">PhQ::PlanarVector&lt; NumericType &gt;::Set_x_y()</a>.</p>
 
 </div>
 </div>
-<a id="aa31fcdc0925a1b7d7d726584f0c1b118"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa31fcdc0925a1b7d7d726584f0c1b118">&#9670;&nbsp;</a></span>XML()</h2>
+<a id="a7f4c92becc1cc9732d733edf73a8a7d2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7f4c92becc1cc9732d733edf73a8a7d2">&#9670;&nbsp;</a></span>XML()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::string <a class="el" href="classPhQ_1_1PlanarVector.html">PhQ::PlanarVector</a>&lt; Number &gt;::XML </td>
+          <td class="memname">std::string <a class="el" href="classPhQ_1_1PlanarVector.html">PhQ::PlanarVector</a>&lt; NumericType &gt;::XML </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -1618,25 +1618,25 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Serializes this two-dimensional planar vector as an XML message. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarVector_8hpp_source.html#l00251">251</a> of file <a class="el" href="PlanarVector_8hpp_source.html">PlanarVector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarVector_8hpp_source.html#l00255">255</a> of file <a class="el" href="PlanarVector_8hpp_source.html">PlanarVector.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Base_8hpp_source.html#l00170">PhQ::Print()</a>, and <a class="el" href="PlanarVector_8hpp_source.html#l00284">PhQ::PlanarVector&lt; Number &gt;::x_y_</a>.</p>
+<p class="reference">References <a class="el" href="Base_8hpp_source.html#l00167">PhQ::Print()</a>, and <a class="el" href="PlanarVector_8hpp_source.html#l00288">PhQ::PlanarVector&lt; NumericType &gt;::x_y_</a>.</p>
 
 </div>
 </div>
-<a id="a1ceeee3f3b8de2f70c04ede4aea5588a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1ceeee3f3b8de2f70c04ede4aea5588a">&#9670;&nbsp;</a></span>y()</h2>
+<a id="ae3fe847f9d204ca739a74e3fb4078066"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae3fe847f9d204ca739a74e3fb4078066">&#9670;&nbsp;</a></span>y()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr Number <a class="el" href="classPhQ_1_1PlanarVector.html">PhQ::PlanarVector</a>&lt; Number &gt;::y </td>
+          <td class="memname">constexpr NumericType <a class="el" href="classPhQ_1_1PlanarVector.html">PhQ::PlanarVector</a>&lt; NumericType &gt;::y </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -1651,27 +1651,27 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Returns this two-dimensional planar vector's y Cartesian component. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarVector_8hpp_source.html#l00146">146</a> of file <a class="el" href="PlanarVector_8hpp_source.html">PlanarVector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarVector_8hpp_source.html#l00147">147</a> of file <a class="el" href="PlanarVector_8hpp_source.html">PlanarVector.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="PlanarVector_8hpp_source.html#l00284">PhQ::PlanarVector&lt; Number &gt;::x_y_</a>.</p>
+<p class="reference">References <a class="el" href="PlanarVector_8hpp_source.html#l00288">PhQ::PlanarVector&lt; NumericType &gt;::x_y_</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="Dyad_8hpp_source.html#l00579">PhQ::operator*()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00330">PhQ::operator+()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00336">PhQ::operator-()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00355">PhQ::operator/()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00110">PhQ::PlanarVector&lt; Number &gt;::operator=()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00075">PhQ::PlanarVector&lt; Number &gt;::PlanarVector()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00174">PhQ::PlanarVector&lt; Number &gt;::Set_x_y()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00185">PhQ::PlanarVector&lt; Number &gt;::Set_y()</a>, <a class="el" href="Vector_8hpp_source.html#l00080">PhQ::Vector&lt; Number &gt;::Vector()</a>, <a class="el" href="PlanarAcceleration_8hpp_source.html#l00156">PhQ::PlanarAcceleration&lt; Number &gt;::y()</a>, <a class="el" href="PlanarDirection_8hpp_source.html#l00214">PhQ::PlanarDirection&lt; Number &gt;::y()</a>, <a class="el" href="PlanarDisplacement_8hpp_source.html#l00173">PhQ::PlanarDisplacement&lt; Number &gt;::y()</a>, <a class="el" href="PlanarForce_8hpp_source.html#l00142">PhQ::PlanarForce&lt; Number &gt;::y()</a>, <a class="el" href="PlanarHeatFlux_8hpp_source.html#l00158">PhQ::PlanarHeatFlux&lt; Number &gt;::y()</a>, <a class="el" href="PlanarPosition_8hpp_source.html#l00142">PhQ::PlanarPosition&lt; Number &gt;::y()</a>, <a class="el" href="PlanarTemperatureGradient_8hpp_source.html#l00154">PhQ::PlanarTemperatureGradient&lt; Number &gt;::y()</a>, <a class="el" href="PlanarTraction_8hpp_source.html#l00152">PhQ::PlanarTraction&lt; Number &gt;::y()</a>, and <a class="el" href="PlanarVelocity_8hpp_source.html#l00164">PhQ::PlanarVelocity&lt; Number &gt;::y()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="Dyad_8hpp_source.html#l00592">PhQ::operator*()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00334">PhQ::operator+()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00340">PhQ::operator-()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00359">PhQ::operator/()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00110">PhQ::PlanarVector&lt; NumericType &gt;::operator=()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00075">PhQ::PlanarVector&lt; NumericType &gt;::PlanarVector()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00175">PhQ::PlanarVector&lt; NumericType &gt;::Set_x_y()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00186">PhQ::PlanarVector&lt; NumericType &gt;::Set_y()</a>, <a class="el" href="Vector_8hpp_source.html#l00081">PhQ::Vector&lt; NumericType &gt;::Vector()</a>, <a class="el" href="PlanarAcceleration_8hpp_source.html#l00159">PhQ::PlanarAcceleration&lt; NumericType &gt;::y()</a>, <a class="el" href="PlanarDirection_8hpp_source.html#l00221">PhQ::PlanarDirection&lt; NumericType &gt;::y()</a>, <a class="el" href="PlanarDisplacement_8hpp_source.html#l00177">PhQ::PlanarDisplacement&lt; NumericType &gt;::y()</a>, <a class="el" href="PlanarForce_8hpp_source.html#l00145">PhQ::PlanarForce&lt; NumericType &gt;::y()</a>, <a class="el" href="PlanarHeatFlux_8hpp_source.html#l00162">PhQ::PlanarHeatFlux&lt; NumericType &gt;::y()</a>, <a class="el" href="PlanarPosition_8hpp_source.html#l00146">PhQ::PlanarPosition&lt; NumericType &gt;::y()</a>, <a class="el" href="PlanarTemperatureGradient_8hpp_source.html#l00161">PhQ::PlanarTemperatureGradient&lt; NumericType &gt;::y()</a>, <a class="el" href="PlanarTraction_8hpp_source.html#l00157">PhQ::PlanarTraction&lt; NumericType &gt;::y()</a>, and <a class="el" href="PlanarVelocity_8hpp_source.html#l00166">PhQ::PlanarVelocity&lt; NumericType &gt;::y()</a>.</p>
 
 </div>
 </div>
-<a id="ab4f34feccdd4c290ae623a6c4fc47bd6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab4f34feccdd4c290ae623a6c4fc47bd6">&#9670;&nbsp;</a></span>YAML()</h2>
+<a id="a1160a872924990bb08cd809e5fa260b9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1160a872924990bb08cd809e5fa260b9">&#9670;&nbsp;</a></span>YAML()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::string <a class="el" href="classPhQ_1_1PlanarVector.html">PhQ::PlanarVector</a>&lt; Number &gt;::YAML </td>
+          <td class="memname">std::string <a class="el" href="classPhQ_1_1PlanarVector.html">PhQ::PlanarVector</a>&lt; NumericType &gt;::YAML </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -1686,25 +1686,25 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Serializes this two-dimensional planar vector as a YAML message. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarVector_8hpp_source.html#l00256">256</a> of file <a class="el" href="PlanarVector_8hpp_source.html">PlanarVector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarVector_8hpp_source.html#l00260">260</a> of file <a class="el" href="PlanarVector_8hpp_source.html">PlanarVector.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Base_8hpp_source.html#l00170">PhQ::Print()</a>, and <a class="el" href="PlanarVector_8hpp_source.html#l00284">PhQ::PlanarVector&lt; Number &gt;::x_y_</a>.</p>
+<p class="reference">References <a class="el" href="Base_8hpp_source.html#l00167">PhQ::Print()</a>, and <a class="el" href="PlanarVector_8hpp_source.html#l00288">PhQ::PlanarVector&lt; NumericType &gt;::x_y_</a>.</p>
 
 </div>
 </div>
-<a id="a5ddd6ac1c1a7aec42d1e481ccc700982"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5ddd6ac1c1a7aec42d1e481ccc700982">&#9670;&nbsp;</a></span>Zero()</h2>
+<a id="a53bcb495e7b353cda55904c366da09ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a53bcb495e7b353cda55904c366da09ae">&#9670;&nbsp;</a></span>Zero()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static constexpr <a class="el" href="classPhQ_1_1PlanarVector.html">PlanarVector</a>&lt;Number&gt; <a class="el" href="classPhQ_1_1PlanarVector.html">PhQ::PlanarVector</a>&lt; Number &gt;::Zero </td>
+          <td class="memname">static constexpr <a class="el" href="classPhQ_1_1PlanarVector.html">PlanarVector</a>&lt;NumericType&gt; <a class="el" href="classPhQ_1_1PlanarVector.html">PhQ::PlanarVector</a>&lt; NumericType &gt;::Zero </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -1719,26 +1719,26 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Statically creates a two-dimensional planar vector with its x and y Cartesian components initialized to zero. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarVector_8hpp_source.html#l00129">129</a> of file <a class="el" href="PlanarVector_8hpp_source.html">PlanarVector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarVector_8hpp_source.html#l00130">130</a> of file <a class="el" href="PlanarVector_8hpp_source.html">PlanarVector.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="PlanarAcceleration_8hpp_source.html#l00120">PhQ::PlanarAcceleration&lt; Number &gt;::Zero()</a>, <a class="el" href="PlanarDisplacement_8hpp_source.html#l00139">PhQ::PlanarDisplacement&lt; Number &gt;::Zero()</a>, <a class="el" href="PlanarForce_8hpp_source.html#l00109">PhQ::PlanarForce&lt; Number &gt;::Zero()</a>, <a class="el" href="PlanarHeatFlux_8hpp_source.html#l00122">PhQ::PlanarHeatFlux&lt; Number &gt;::Zero()</a>, <a class="el" href="PlanarPosition_8hpp_source.html#l00108">PhQ::PlanarPosition&lt; Number &gt;::Zero()</a>, <a class="el" href="PlanarTemperatureGradient_8hpp_source.html#l00117">PhQ::PlanarTemperatureGradient&lt; Number &gt;::Zero()</a>, <a class="el" href="PlanarTraction_8hpp_source.html#l00118">PhQ::PlanarTraction&lt; Number &gt;::Zero()</a>, and <a class="el" href="PlanarVelocity_8hpp_source.html#l00130">PhQ::PlanarVelocity&lt; Number &gt;::Zero()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="PlanarAcceleration_8hpp_source.html#l00122">PhQ::PlanarAcceleration&lt; NumericType &gt;::Zero()</a>, <a class="el" href="PlanarDisplacement_8hpp_source.html#l00140">PhQ::PlanarDisplacement&lt; NumericType &gt;::Zero()</a>, <a class="el" href="PlanarForce_8hpp_source.html#l00111">PhQ::PlanarForce&lt; NumericType &gt;::Zero()</a>, <a class="el" href="PlanarHeatFlux_8hpp_source.html#l00126">PhQ::PlanarHeatFlux&lt; NumericType &gt;::Zero()</a>, <a class="el" href="PlanarPosition_8hpp_source.html#l00110">PhQ::PlanarPosition&lt; NumericType &gt;::Zero()</a>, <a class="el" href="PlanarTemperatureGradient_8hpp_source.html#l00121">PhQ::PlanarTemperatureGradient&lt; NumericType &gt;::Zero()</a>, <a class="el" href="PlanarTraction_8hpp_source.html#l00121">PhQ::PlanarTraction&lt; NumericType &gt;::Zero()</a>, and <a class="el" href="PlanarVelocity_8hpp_source.html#l00132">PhQ::PlanarVelocity&lt; NumericType &gt;::Zero()</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="aeeeddf2f0c86172505d1757f65cf6604"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aeeeddf2f0c86172505d1757f65cf6604">&#9670;&nbsp;</a></span>x_y_</h2>
+<a id="a7f7b7fdc74b338cd712257f1f8459896"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7f7b7fdc74b338cd712257f1f8459896">&#9670;&nbsp;</a></span>x_y_</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Number  = double&gt; </div>
+template&lt;typename NumericType  = double&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::array&lt;Number, 2&gt; <a class="el" href="classPhQ_1_1PlanarVector.html">PhQ::PlanarVector</a>&lt; Number &gt;::x_y_</td>
+          <td class="memname">std::array&lt;NumericType, 2&gt; <a class="el" href="classPhQ_1_1PlanarVector.html">PhQ::PlanarVector</a>&lt; NumericType &gt;::x_y_</td>
         </tr>
       </table>
   </td>
@@ -1750,9 +1750,9 @@ template&lt;typename Number  = double&gt; </div>
 
 <p>Cartesian components of this two-dimensional planar vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="PlanarVector_8hpp_source.html#l00284">284</a> of file <a class="el" href="PlanarVector_8hpp_source.html">PlanarVector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="PlanarVector_8hpp_source.html#l00288">288</a> of file <a class="el" href="PlanarVector_8hpp_source.html">PlanarVector.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="Vector_8hpp_source.html#l00389">PhQ::PlanarVector&lt; Number &gt;::Cross()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00205">PhQ::PlanarVector&lt; Number &gt;::Dot()</a>, <a class="el" href="Dyad_8hpp_source.html#l00696">PhQ::PlanarVector&lt; Number &gt;::Dyadic()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00246">PhQ::PlanarVector&lt; Number &gt;::JSON()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00190">PhQ::PlanarVector&lt; Number &gt;::MagnitudeSquared()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00157">PhQ::PlanarVector&lt; Number &gt;::Mutable_x()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00152">PhQ::PlanarVector&lt; Number &gt;::Mutable_x_y()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00162">PhQ::PlanarVector&lt; Number &gt;::Mutable_y()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00271">PhQ::PlanarVector&lt; Number &gt;::operator*=()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00260">PhQ::PlanarVector&lt; Number &gt;::operator+=()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00265">PhQ::PlanarVector&lt; Number &gt;::operator-=()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00277">PhQ::PlanarVector&lt; Number &gt;::operator/=()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00110">PhQ::PlanarVector&lt; Number &gt;::operator=()</a>, <a class="el" href="PlanarDirection_8hpp_source.html#l00372">PhQ::PlanarVector&lt; Number &gt;::PlanarVector()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00241">PhQ::PlanarVector&lt; Number &gt;::Print()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00180">PhQ::PlanarVector&lt; Number &gt;::Set_x()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00168">PhQ::PlanarVector&lt; Number &gt;::Set_x_y()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00185">PhQ::PlanarVector&lt; Number &gt;::Set_y()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00141">PhQ::PlanarVector&lt; Number &gt;::x()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00136">PhQ::PlanarVector&lt; Number &gt;::x_y()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00251">PhQ::PlanarVector&lt; Number &gt;::XML()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00146">PhQ::PlanarVector&lt; Number &gt;::y()</a>, and <a class="el" href="PlanarVector_8hpp_source.html#l00256">PhQ::PlanarVector&lt; Number &gt;::YAML()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="Vector_8hpp_source.html#l00404">PhQ::PlanarVector&lt; NumericType &gt;::Cross()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00206">PhQ::PlanarVector&lt; NumericType &gt;::Dot()</a>, <a class="el" href="Dyad_8hpp_source.html#l00713">PhQ::PlanarVector&lt; NumericType &gt;::Dyadic()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00250">PhQ::PlanarVector&lt; NumericType &gt;::JSON()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00191">PhQ::PlanarVector&lt; NumericType &gt;::MagnitudeSquared()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00158">PhQ::PlanarVector&lt; NumericType &gt;::Mutable_x()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00153">PhQ::PlanarVector&lt; NumericType &gt;::Mutable_x_y()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00163">PhQ::PlanarVector&lt; NumericType &gt;::Mutable_y()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00275">PhQ::PlanarVector&lt; NumericType &gt;::operator*=()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00264">PhQ::PlanarVector&lt; NumericType &gt;::operator+=()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00269">PhQ::PlanarVector&lt; NumericType &gt;::operator-=()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00281">PhQ::PlanarVector&lt; NumericType &gt;::operator/=()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00110">PhQ::PlanarVector&lt; NumericType &gt;::operator=()</a>, <a class="el" href="PlanarDirection_8hpp_source.html#l00387">PhQ::PlanarVector&lt; NumericType &gt;::PlanarVector()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00245">PhQ::PlanarVector&lt; NumericType &gt;::Print()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00181">PhQ::PlanarVector&lt; NumericType &gt;::Set_x()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00169">PhQ::PlanarVector&lt; NumericType &gt;::Set_x_y()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00186">PhQ::PlanarVector&lt; NumericType &gt;::Set_y()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00142">PhQ::PlanarVector&lt; NumericType &gt;::x()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00137">PhQ::PlanarVector&lt; NumericType &gt;::x_y()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00255">PhQ::PlanarVector&lt; NumericType &gt;::XML()</a>, <a class="el" href="PlanarVector_8hpp_source.html#l00147">PhQ::PlanarVector&lt; NumericType &gt;::y()</a>, and <a class="el" href="PlanarVector_8hpp_source.html#l00260">PhQ::PlanarVector&lt; NumericType &gt;::YAML()</a>.</p>
 
 </div>
 </div>
