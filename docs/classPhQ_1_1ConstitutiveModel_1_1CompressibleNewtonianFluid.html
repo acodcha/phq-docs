@@ -133,7 +133,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a70dee8ee13acb5cd776bb21014cccd27"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor. Constructs a compressible Newtonian fluid constitutive model with an uninitialized dynamic viscosity and bulk dynamic viscosity.  <a href="classPhQ_1_1ConstitutiveModel_1_1CompressibleNewtonianFluid.html#a70dee8ee13acb5cd776bb21014cccd27">More...</a><br /></td></tr>
 <tr class="separator:a70dee8ee13acb5cd776bb21014cccd27"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a52be19d38797545a38ac30c60db05484"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1ConstitutiveModel_1_1CompressibleNewtonianFluid.html#a52be19d38797545a38ac30c60db05484">CompressibleNewtonianFluid</a> (const <a class="el" href="classPhQ_1_1DynamicViscosity.html">DynamicViscosity</a>&lt; NumericType &gt; &amp;<a class="el" href="classPhQ_1_1ConstitutiveModel_1_1CompressibleNewtonianFluid.html#a929630fdd0d3ffabc7a8e748b54b3eb7">dynamic_viscosity</a>)</td></tr>
-<tr class="memdesc:a52be19d38797545a38ac30c60db05484"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a compressible Newtonian fluid constitutive model from a given dynamic viscosity. Initializes the bulk dynamic viscosity as -2/3 of the dynamic viscosity.  <a href="classPhQ_1_1ConstitutiveModel_1_1CompressibleNewtonianFluid.html#a52be19d38797545a38ac30c60db05484">More...</a><br /></td></tr>
+<tr class="memdesc:a52be19d38797545a38ac30c60db05484"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a compressible Newtonian fluid constitutive model from a given dynamic viscosity. Initializes the bulk dynamic viscosity to zero.  <a href="classPhQ_1_1ConstitutiveModel_1_1CompressibleNewtonianFluid.html#a52be19d38797545a38ac30c60db05484">More...</a><br /></td></tr>
 <tr class="separator:a52be19d38797545a38ac30c60db05484"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1fe432b5c82be9b49ce79707ff17c54e"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classPhQ_1_1ConstitutiveModel_1_1CompressibleNewtonianFluid.html#a1fe432b5c82be9b49ce79707ff17c54e">CompressibleNewtonianFluid</a> (const <a class="el" href="classPhQ_1_1DynamicViscosity.html">DynamicViscosity</a>&lt; NumericType &gt; &amp;<a class="el" href="classPhQ_1_1ConstitutiveModel_1_1CompressibleNewtonianFluid.html#a929630fdd0d3ffabc7a8e748b54b3eb7">dynamic_viscosity</a>, const <a class="el" href="classPhQ_1_1BulkDynamicViscosity.html">BulkDynamicViscosity</a>&lt; NumericType &gt; &amp;<a class="el" href="classPhQ_1_1ConstitutiveModel_1_1CompressibleNewtonianFluid.html#a88c2adac7fc26b0b95ac5252408382c8">bulk_dynamic_viscosity</a>)</td></tr>
 <tr class="memdesc:a1fe432b5c82be9b49ce79707ff17c54e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor. Constructs a compressible Newtonian fluid constitutive model from a given dynamic viscosity and bulk dynamic viscosity.  <a href="classPhQ_1_1ConstitutiveModel_1_1CompressibleNewtonianFluid.html#a1fe432b5c82be9b49ce79707ff17c54e">More...</a><br /></td></tr>
@@ -329,7 +329,7 @@ template&lt;typename NumericType  = double&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Constructor. Constructs a compressible Newtonian fluid constitutive model from a given dynamic viscosity. Initializes the bulk dynamic viscosity as -2/3 of the dynamic viscosity. </p>
+<p>Constructor. Constructs a compressible Newtonian fluid constitutive model from a given dynamic viscosity. Initializes the bulk dynamic viscosity to zero. </p>
 
 <p class="definition">Definition at line <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00061">61</a> of file <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html">CompressibleNewtonianFluid.hpp</a>.</p>
 
@@ -373,7 +373,7 @@ template&lt;typename NumericType  = double&gt; </div>
 
 <p>Constructor. Constructs a compressible Newtonian fluid constitutive model from a given dynamic viscosity and bulk dynamic viscosity. </p>
 
-<p class="definition">Definition at line <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00069">69</a> of file <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html">CompressibleNewtonianFluid.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00068">68</a> of file <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html">CompressibleNewtonianFluid.hpp</a>.</p>
 
 </div>
 </div>
@@ -494,9 +494,9 @@ template&lt;typename NumericType  = double&gt; </div>
 
 <p>Bulk dynamic viscosity of this compressible Newtonian fluid constitutive model. </p>
 
-<p class="definition">Definition at line <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00102">102</a> of file <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html">CompressibleNewtonianFluid.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00101">101</a> of file <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html">CompressibleNewtonianFluid.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00344">PhQ::ConstitutiveModel::CompressibleNewtonianFluid&lt; NumericType &gt;::bulk_dynamic_viscosity</a>.</p>
+<p class="reference">References <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00343">PhQ::ConstitutiveModel::CompressibleNewtonianFluid&lt; NumericType &gt;::bulk_dynamic_viscosity</a>.</p>
 
 </div>
 </div>
@@ -527,9 +527,9 @@ template&lt;typename NumericType  = double&gt; </div>
 
 <p>Dynamic viscosity of this compressible Newtonian fluid constitutive model. </p>
 
-<p class="definition">Definition at line <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00096">96</a> of file <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html">CompressibleNewtonianFluid.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00095">95</a> of file <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html">CompressibleNewtonianFluid.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00341">PhQ::ConstitutiveModel::CompressibleNewtonianFluid&lt; NumericType &gt;::dynamic_viscosity</a>.</p>
+<p class="reference">References <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00340">PhQ::ConstitutiveModel::CompressibleNewtonianFluid&lt; NumericType &gt;::dynamic_viscosity</a>.</p>
 
 </div>
 </div>
@@ -562,11 +562,11 @@ template&lt;typename NumericType  = double&gt; </div>
 
 <p>Implements <a class="el" href="classPhQ_1_1ConstitutiveModel.html#a696a50c6188fbbaf5c01f8d1231873d8">PhQ::ConstitutiveModel</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00107">107</a> of file <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html">CompressibleNewtonianFluid.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00106">106</a> of file <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html">CompressibleNewtonianFluid.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="classPhQ_1_1ConstitutiveModel.html#a26c404e83ab48b408f6208a839e4d51ca67800c7d6d5456716b3e0bc0e048470d">PhQ::ConstitutiveModel::CompressibleNewtonianFluid</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00319">PhQ::ConstitutiveModel::CompressibleNewtonianFluid&lt; NumericType &gt;::JSON()</a>, <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00312">PhQ::ConstitutiveModel::CompressibleNewtonianFluid&lt; NumericType &gt;::Print()</a>, <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00326">PhQ::ConstitutiveModel::CompressibleNewtonianFluid&lt; NumericType &gt;::XML()</a>, and <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00333">PhQ::ConstitutiveModel::CompressibleNewtonianFluid&lt; NumericType &gt;::YAML()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00318">PhQ::ConstitutiveModel::CompressibleNewtonianFluid&lt; NumericType &gt;::JSON()</a>, <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00311">PhQ::ConstitutiveModel::CompressibleNewtonianFluid&lt; NumericType &gt;::Print()</a>, <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00325">PhQ::ConstitutiveModel::CompressibleNewtonianFluid&lt; NumericType &gt;::XML()</a>, and <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00332">PhQ::ConstitutiveModel::CompressibleNewtonianFluid&lt; NumericType &gt;::YAML()</a>.</p>
 
 </div>
 </div>
@@ -599,9 +599,9 @@ template&lt;typename NumericType  = double&gt; </div>
 
 <p>Implements <a class="el" href="classPhQ_1_1ConstitutiveModel.html#ae3715bed1bd9cf75866549490bd57da0">PhQ::ConstitutiveModel</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00319">319</a> of file <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html">CompressibleNewtonianFluid.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00318">318</a> of file <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html">CompressibleNewtonianFluid.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Base_8hpp_source.html#l00089">PhQ::Abbreviation()</a>, <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00344">PhQ::ConstitutiveModel::CompressibleNewtonianFluid&lt; NumericType &gt;::bulk_dynamic_viscosity</a>, <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00341">PhQ::ConstitutiveModel::CompressibleNewtonianFluid&lt; NumericType &gt;::dynamic_viscosity</a>, <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00107">PhQ::ConstitutiveModel::CompressibleNewtonianFluid&lt; NumericType &gt;::GetType()</a>, and <a class="el" href="Base_8hpp_source.html#l00260">PhQ::SnakeCase()</a>.</p>
+<p class="reference">References <a class="el" href="Base_8hpp_source.html#l00089">PhQ::Abbreviation()</a>, <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00343">PhQ::ConstitutiveModel::CompressibleNewtonianFluid&lt; NumericType &gt;::bulk_dynamic_viscosity</a>, <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00340">PhQ::ConstitutiveModel::CompressibleNewtonianFluid&lt; NumericType &gt;::dynamic_viscosity</a>, <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00106">PhQ::ConstitutiveModel::CompressibleNewtonianFluid&lt; NumericType &gt;::GetType()</a>, and <a class="el" href="Base_8hpp_source.html#l00260">PhQ::SnakeCase()</a>.</p>
 
 </div>
 </div>
@@ -694,11 +694,11 @@ template&lt;typename NumericType  = double&gt; </div>
 
 <p>Implements <a class="el" href="classPhQ_1_1ConstitutiveModel.html#aec52c5f74ee3c802f1a5a0b3e6024b09">PhQ::ConstitutiveModel</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00312">312</a> of file <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html">CompressibleNewtonianFluid.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00311">311</a> of file <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html">CompressibleNewtonianFluid.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Base_8hpp_source.html#l00089">PhQ::Abbreviation()</a>, <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00344">PhQ::ConstitutiveModel::CompressibleNewtonianFluid&lt; NumericType &gt;::bulk_dynamic_viscosity</a>, <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00341">PhQ::ConstitutiveModel::CompressibleNewtonianFluid&lt; NumericType &gt;::dynamic_viscosity</a>, and <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00107">PhQ::ConstitutiveModel::CompressibleNewtonianFluid&lt; NumericType &gt;::GetType()</a>.</p>
+<p class="reference">References <a class="el" href="Base_8hpp_source.html#l00089">PhQ::Abbreviation()</a>, <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00343">PhQ::ConstitutiveModel::CompressibleNewtonianFluid&lt; NumericType &gt;::bulk_dynamic_viscosity</a>, <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00340">PhQ::ConstitutiveModel::CompressibleNewtonianFluid&lt; NumericType &gt;::dynamic_viscosity</a>, and <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00106">PhQ::ConstitutiveModel::CompressibleNewtonianFluid&lt; NumericType &gt;::GetType()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00398">PhQ::operator&lt;&lt;()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00397">PhQ::operator&lt;&lt;()</a>.</p>
 
 </div>
 </div>
@@ -732,7 +732,7 @@ template&lt;typename NumericType  = double&gt; </div>
 
 <p>Implements <a class="el" href="classPhQ_1_1ConstitutiveModel.html#aa85fc0a3a2279f7470a1454463823066">PhQ::ConstitutiveModel</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00226">226</a> of file <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html">CompressibleNewtonianFluid.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00225">225</a> of file <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html">CompressibleNewtonianFluid.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="Strain_8hpp_source.html#l00138">PhQ::Strain&lt; NumericType &gt;::Zero()</a>.</p>
 
@@ -768,7 +768,7 @@ template&lt;typename NumericType  = double&gt; </div>
 
 <p>Implements <a class="el" href="classPhQ_1_1ConstitutiveModel.html#ae385eb101754bfbe77f4dd8fc09d9a3e">PhQ::ConstitutiveModel</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00218">218</a> of file <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html">CompressibleNewtonianFluid.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00217">217</a> of file <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html">CompressibleNewtonianFluid.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="Strain_8hpp_source.html#l00138">PhQ::Strain&lt; NumericType &gt;::Zero()</a>.</p>
 
@@ -804,7 +804,7 @@ template&lt;typename NumericType  = double&gt; </div>
 
 <p>Implements <a class="el" href="classPhQ_1_1ConstitutiveModel.html#a1404becf451941c715964a4fe9dd6c5a">PhQ::ConstitutiveModel</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00234">234</a> of file <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html">CompressibleNewtonianFluid.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00233">233</a> of file <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html">CompressibleNewtonianFluid.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="Strain_8hpp_source.html#l00138">PhQ::Strain&lt; NumericType &gt;::Zero()</a>.</p>
 
@@ -840,9 +840,9 @@ template&lt;typename NumericType  = double&gt; </div>
 
 <p>Implements <a class="el" href="classPhQ_1_1ConstitutiveModel.html#a3cf6cd7dd12be2872610af440ee6fbf7">PhQ::ConstitutiveModel</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00263">263</a> of file <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html">CompressibleNewtonianFluid.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00262">262</a> of file <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html">CompressibleNewtonianFluid.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00344">PhQ::ConstitutiveModel::CompressibleNewtonianFluid&lt; NumericType &gt;::bulk_dynamic_viscosity</a>, <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00341">PhQ::ConstitutiveModel::CompressibleNewtonianFluid&lt; NumericType &gt;::dynamic_viscosity</a>, <a class="el" href="SymmetricDyad_8hpp_source.html#l00318">PhQ::SymmetricDyad&lt; NumericType &gt;::Trace()</a>, and <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00060">PhQ::DimensionalSymmetricDyad&lt; UnitType, NumericType &gt;::Value()</a>.</p>
+<p class="reference">References <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00343">PhQ::ConstitutiveModel::CompressibleNewtonianFluid&lt; NumericType &gt;::bulk_dynamic_viscosity</a>, <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00340">PhQ::ConstitutiveModel::CompressibleNewtonianFluid&lt; NumericType &gt;::dynamic_viscosity</a>, <a class="el" href="SymmetricDyad_8hpp_source.html#l00318">PhQ::SymmetricDyad&lt; NumericType &gt;::Trace()</a>, and <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00060">PhQ::DimensionalSymmetricDyad&lt; UnitType, NumericType &gt;::Value()</a>.</p>
 
 </div>
 </div>
@@ -876,9 +876,9 @@ template&lt;typename NumericType  = double&gt; </div>
 
 <p>Implements <a class="el" href="classPhQ_1_1ConstitutiveModel.html#a01afe959899ad745b79a79fcc8f3895c">PhQ::ConstitutiveModel</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00240">240</a> of file <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html">CompressibleNewtonianFluid.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00239">239</a> of file <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html">CompressibleNewtonianFluid.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00344">PhQ::ConstitutiveModel::CompressibleNewtonianFluid&lt; NumericType &gt;::bulk_dynamic_viscosity</a>, <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00341">PhQ::ConstitutiveModel::CompressibleNewtonianFluid&lt; NumericType &gt;::dynamic_viscosity</a>, <a class="el" href="SymmetricDyad_8hpp_source.html#l00318">PhQ::SymmetricDyad&lt; NumericType &gt;::Trace()</a>, and <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00060">PhQ::DimensionalSymmetricDyad&lt; UnitType, NumericType &gt;::Value()</a>.</p>
+<p class="reference">References <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00343">PhQ::ConstitutiveModel::CompressibleNewtonianFluid&lt; NumericType &gt;::bulk_dynamic_viscosity</a>, <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00340">PhQ::ConstitutiveModel::CompressibleNewtonianFluid&lt; NumericType &gt;::dynamic_viscosity</a>, <a class="el" href="SymmetricDyad_8hpp_source.html#l00318">PhQ::SymmetricDyad&lt; NumericType &gt;::Trace()</a>, and <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00060">PhQ::DimensionalSymmetricDyad&lt; UnitType, NumericType &gt;::Value()</a>.</p>
 
 </div>
 </div>
@@ -912,9 +912,9 @@ template&lt;typename NumericType  = double&gt; </div>
 
 <p>Implements <a class="el" href="classPhQ_1_1ConstitutiveModel.html#a41ae4908037be6e543ddb222c7635259">PhQ::ConstitutiveModel</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00286">286</a> of file <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html">CompressibleNewtonianFluid.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00285">285</a> of file <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html">CompressibleNewtonianFluid.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00344">PhQ::ConstitutiveModel::CompressibleNewtonianFluid&lt; NumericType &gt;::bulk_dynamic_viscosity</a>, <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00341">PhQ::ConstitutiveModel::CompressibleNewtonianFluid&lt; NumericType &gt;::dynamic_viscosity</a>, <a class="el" href="SymmetricDyad_8hpp_source.html#l00318">PhQ::SymmetricDyad&lt; NumericType &gt;::Trace()</a>, and <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00060">PhQ::DimensionalSymmetricDyad&lt; UnitType, NumericType &gt;::Value()</a>.</p>
+<p class="reference">References <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00343">PhQ::ConstitutiveModel::CompressibleNewtonianFluid&lt; NumericType &gt;::bulk_dynamic_viscosity</a>, <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00340">PhQ::ConstitutiveModel::CompressibleNewtonianFluid&lt; NumericType &gt;::dynamic_viscosity</a>, <a class="el" href="SymmetricDyad_8hpp_source.html#l00318">PhQ::SymmetricDyad&lt; NumericType &gt;::Trace()</a>, and <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00060">PhQ::DimensionalSymmetricDyad&lt; UnitType, NumericType &gt;::Value()</a>.</p>
 
 </div>
 </div>
@@ -948,7 +948,7 @@ template&lt;typename NumericType  = double&gt; </div>
 
 <p>Implements <a class="el" href="classPhQ_1_1ConstitutiveModel.html#a43feafa1666666c63f38d60a19654f2d">PhQ::ConstitutiveModel</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00149">149</a> of file <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html">CompressibleNewtonianFluid.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00148">148</a> of file <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html">CompressibleNewtonianFluid.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="Stress_8hpp_source.html#l00107">PhQ::Stress&lt; NumericType &gt;::Zero()</a>.</p>
 
@@ -994,9 +994,9 @@ template&lt;typename NumericType  = double&gt; </div>
 
 <p>Implements <a class="el" href="classPhQ_1_1ConstitutiveModel.html#a1595ce099e49d17890b7cebb3f9480ae">PhQ::ConstitutiveModel</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00123">123</a> of file <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html">CompressibleNewtonianFluid.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00122">122</a> of file <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html">CompressibleNewtonianFluid.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00114">PhQ::ConstitutiveModel::CompressibleNewtonianFluid&lt; NumericType &gt;::Stress()</a>.</p>
+<p class="reference">References <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00113">PhQ::ConstitutiveModel::CompressibleNewtonianFluid&lt; NumericType &gt;::Stress()</a>.</p>
 
 </div>
 </div>
@@ -1030,7 +1030,7 @@ template&lt;typename NumericType  = double&gt; </div>
 
 <p>Implements <a class="el" href="classPhQ_1_1ConstitutiveModel.html#ad7234ffdc12d7da4330a98299603891b">PhQ::ConstitutiveModel</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00141">141</a> of file <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html">CompressibleNewtonianFluid.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00140">140</a> of file <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html">CompressibleNewtonianFluid.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="Stress_8hpp_source.html#l00107">PhQ::Stress&lt; NumericType &gt;::Zero()</a>.</p>
 
@@ -1076,9 +1076,9 @@ template&lt;typename NumericType  = double&gt; </div>
 
 <p>Implements <a class="el" href="classPhQ_1_1ConstitutiveModel.html#a92eeb2fbacdf65012c13668753531b38">PhQ::ConstitutiveModel</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00114">114</a> of file <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html">CompressibleNewtonianFluid.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00113">113</a> of file <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html">CompressibleNewtonianFluid.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00123">PhQ::ConstitutiveModel::CompressibleNewtonianFluid&lt; NumericType &gt;::Stress()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00122">PhQ::ConstitutiveModel::CompressibleNewtonianFluid&lt; NumericType &gt;::Stress()</a>.</p>
 
 </div>
 </div>
@@ -1112,7 +1112,7 @@ template&lt;typename NumericType  = double&gt; </div>
 
 <p>Implements <a class="el" href="classPhQ_1_1ConstitutiveModel.html#ace5a9f2dc46229853fad06ab6cab646d">PhQ::ConstitutiveModel</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00157">157</a> of file <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html">CompressibleNewtonianFluid.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00156">156</a> of file <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html">CompressibleNewtonianFluid.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="Stress_8hpp_source.html#l00107">PhQ::Stress&lt; NumericType &gt;::Zero()</a>.</p>
 
@@ -1158,9 +1158,9 @@ template&lt;typename NumericType  = double&gt; </div>
 
 <p>Implements <a class="el" href="classPhQ_1_1ConstitutiveModel.html#a3b4b24a06cd5d053d4c434db6e37365f">PhQ::ConstitutiveModel</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00132">132</a> of file <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html">CompressibleNewtonianFluid.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00131">131</a> of file <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html">CompressibleNewtonianFluid.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00114">PhQ::ConstitutiveModel::CompressibleNewtonianFluid&lt; NumericType &gt;::Stress()</a>.</p>
+<p class="reference">References <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00113">PhQ::ConstitutiveModel::CompressibleNewtonianFluid&lt; NumericType &gt;::Stress()</a>.</p>
 
 </div>
 </div>
@@ -1194,9 +1194,9 @@ template&lt;typename NumericType  = double&gt; </div>
 
 <p>Implements <a class="el" href="classPhQ_1_1ConstitutiveModel.html#a5d506d0e0101fd4668b676de6fa09127">PhQ::ConstitutiveModel</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00180">180</a> of file <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html">CompressibleNewtonianFluid.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00179">179</a> of file <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html">CompressibleNewtonianFluid.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00344">PhQ::ConstitutiveModel::CompressibleNewtonianFluid&lt; NumericType &gt;::bulk_dynamic_viscosity</a>, <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00341">PhQ::ConstitutiveModel::CompressibleNewtonianFluid&lt; NumericType &gt;::dynamic_viscosity</a>, <a class="el" href="SymmetricDyad_8hpp_source.html#l00318">PhQ::SymmetricDyad&lt; NumericType &gt;::Trace()</a>, and <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00060">PhQ::DimensionalSymmetricDyad&lt; UnitType, NumericType &gt;::Value()</a>.</p>
+<p class="reference">References <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00343">PhQ::ConstitutiveModel::CompressibleNewtonianFluid&lt; NumericType &gt;::bulk_dynamic_viscosity</a>, <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00340">PhQ::ConstitutiveModel::CompressibleNewtonianFluid&lt; NumericType &gt;::dynamic_viscosity</a>, <a class="el" href="SymmetricDyad_8hpp_source.html#l00318">PhQ::SymmetricDyad&lt; NumericType &gt;::Trace()</a>, and <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00060">PhQ::DimensionalSymmetricDyad&lt; UnitType, NumericType &gt;::Value()</a>.</p>
 
 </div>
 </div>
@@ -1230,9 +1230,9 @@ template&lt;typename NumericType  = double&gt; </div>
 
 <p>Implements <a class="el" href="classPhQ_1_1ConstitutiveModel.html#a14ba7e7fd99f184b579e6f681716b08b">PhQ::ConstitutiveModel</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00163">163</a> of file <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html">CompressibleNewtonianFluid.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00162">162</a> of file <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html">CompressibleNewtonianFluid.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00344">PhQ::ConstitutiveModel::CompressibleNewtonianFluid&lt; NumericType &gt;::bulk_dynamic_viscosity</a>, <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00341">PhQ::ConstitutiveModel::CompressibleNewtonianFluid&lt; NumericType &gt;::dynamic_viscosity</a>, <a class="el" href="SymmetricDyad_8hpp_source.html#l00318">PhQ::SymmetricDyad&lt; NumericType &gt;::Trace()</a>, and <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00060">PhQ::DimensionalSymmetricDyad&lt; UnitType, NumericType &gt;::Value()</a>.</p>
+<p class="reference">References <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00343">PhQ::ConstitutiveModel::CompressibleNewtonianFluid&lt; NumericType &gt;::bulk_dynamic_viscosity</a>, <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00340">PhQ::ConstitutiveModel::CompressibleNewtonianFluid&lt; NumericType &gt;::dynamic_viscosity</a>, <a class="el" href="SymmetricDyad_8hpp_source.html#l00318">PhQ::SymmetricDyad&lt; NumericType &gt;::Trace()</a>, and <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00060">PhQ::DimensionalSymmetricDyad&lt; UnitType, NumericType &gt;::Value()</a>.</p>
 
 </div>
 </div>
@@ -1266,9 +1266,9 @@ template&lt;typename NumericType  = double&gt; </div>
 
 <p>Implements <a class="el" href="classPhQ_1_1ConstitutiveModel.html#ad5c6dc5e25490f773094d5ca9844df1c">PhQ::ConstitutiveModel</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00197">197</a> of file <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html">CompressibleNewtonianFluid.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00196">196</a> of file <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html">CompressibleNewtonianFluid.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00344">PhQ::ConstitutiveModel::CompressibleNewtonianFluid&lt; NumericType &gt;::bulk_dynamic_viscosity</a>, <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00341">PhQ::ConstitutiveModel::CompressibleNewtonianFluid&lt; NumericType &gt;::dynamic_viscosity</a>, <a class="el" href="SymmetricDyad_8hpp_source.html#l00318">PhQ::SymmetricDyad&lt; NumericType &gt;::Trace()</a>, and <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00060">PhQ::DimensionalSymmetricDyad&lt; UnitType, NumericType &gt;::Value()</a>.</p>
+<p class="reference">References <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00343">PhQ::ConstitutiveModel::CompressibleNewtonianFluid&lt; NumericType &gt;::bulk_dynamic_viscosity</a>, <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00340">PhQ::ConstitutiveModel::CompressibleNewtonianFluid&lt; NumericType &gt;::dynamic_viscosity</a>, <a class="el" href="SymmetricDyad_8hpp_source.html#l00318">PhQ::SymmetricDyad&lt; NumericType &gt;::Trace()</a>, and <a class="el" href="DimensionalSymmetricDyad_8hpp_source.html#l00060">PhQ::DimensionalSymmetricDyad&lt; UnitType, NumericType &gt;::Value()</a>.</p>
 
 </div>
 </div>
@@ -1301,9 +1301,9 @@ template&lt;typename NumericType  = double&gt; </div>
 
 <p>Implements <a class="el" href="classPhQ_1_1ConstitutiveModel.html#a57d6b8700f6d6f8054b0667704b57f87">PhQ::ConstitutiveModel</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00326">326</a> of file <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html">CompressibleNewtonianFluid.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00325">325</a> of file <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html">CompressibleNewtonianFluid.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Base_8hpp_source.html#l00089">PhQ::Abbreviation()</a>, <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00344">PhQ::ConstitutiveModel::CompressibleNewtonianFluid&lt; NumericType &gt;::bulk_dynamic_viscosity</a>, <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00341">PhQ::ConstitutiveModel::CompressibleNewtonianFluid&lt; NumericType &gt;::dynamic_viscosity</a>, <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00107">PhQ::ConstitutiveModel::CompressibleNewtonianFluid&lt; NumericType &gt;::GetType()</a>, and <a class="el" href="Base_8hpp_source.html#l00260">PhQ::SnakeCase()</a>.</p>
+<p class="reference">References <a class="el" href="Base_8hpp_source.html#l00089">PhQ::Abbreviation()</a>, <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00343">PhQ::ConstitutiveModel::CompressibleNewtonianFluid&lt; NumericType &gt;::bulk_dynamic_viscosity</a>, <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00340">PhQ::ConstitutiveModel::CompressibleNewtonianFluid&lt; NumericType &gt;::dynamic_viscosity</a>, <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00106">PhQ::ConstitutiveModel::CompressibleNewtonianFluid&lt; NumericType &gt;::GetType()</a>, and <a class="el" href="Base_8hpp_source.html#l00260">PhQ::SnakeCase()</a>.</p>
 
 </div>
 </div>
@@ -1336,9 +1336,9 @@ template&lt;typename NumericType  = double&gt; </div>
 
 <p>Implements <a class="el" href="classPhQ_1_1ConstitutiveModel.html#ac28c323546734141fb38630b04c8d17b">PhQ::ConstitutiveModel</a>.</p>
 
-<p class="definition">Definition at line <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00333">333</a> of file <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html">CompressibleNewtonianFluid.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00332">332</a> of file <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html">CompressibleNewtonianFluid.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Base_8hpp_source.html#l00089">PhQ::Abbreviation()</a>, <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00344">PhQ::ConstitutiveModel::CompressibleNewtonianFluid&lt; NumericType &gt;::bulk_dynamic_viscosity</a>, <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00341">PhQ::ConstitutiveModel::CompressibleNewtonianFluid&lt; NumericType &gt;::dynamic_viscosity</a>, <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00107">PhQ::ConstitutiveModel::CompressibleNewtonianFluid&lt; NumericType &gt;::GetType()</a>, and <a class="el" href="Base_8hpp_source.html#l00260">PhQ::SnakeCase()</a>.</p>
+<p class="reference">References <a class="el" href="Base_8hpp_source.html#l00089">PhQ::Abbreviation()</a>, <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00343">PhQ::ConstitutiveModel::CompressibleNewtonianFluid&lt; NumericType &gt;::bulk_dynamic_viscosity</a>, <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00340">PhQ::ConstitutiveModel::CompressibleNewtonianFluid&lt; NumericType &gt;::dynamic_viscosity</a>, <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00106">PhQ::ConstitutiveModel::CompressibleNewtonianFluid&lt; NumericType &gt;::GetType()</a>, and <a class="el" href="Base_8hpp_source.html#l00260">PhQ::SnakeCase()</a>.</p>
 
 </div>
 </div>
@@ -1367,9 +1367,9 @@ template&lt;typename NumericType  = double&gt; </div>
 
 <p>Bulk dynamic viscosity of this compressible Newtonian fluid constitutive model. </p>
 
-<p class="definition">Definition at line <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00344">344</a> of file <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html">CompressibleNewtonianFluid.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00343">343</a> of file <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html">CompressibleNewtonianFluid.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00102">PhQ::ConstitutiveModel::CompressibleNewtonianFluid&lt; NumericType &gt;::BulkDynamicViscosity()</a>, <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00319">PhQ::ConstitutiveModel::CompressibleNewtonianFluid&lt; NumericType &gt;::JSON()</a>, <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00312">PhQ::ConstitutiveModel::CompressibleNewtonianFluid&lt; NumericType &gt;::Print()</a>, <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00240">PhQ::ConstitutiveModel::CompressibleNewtonianFluid&lt; NumericType &gt;::StrainRate()</a>, <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00163">PhQ::ConstitutiveModel::CompressibleNewtonianFluid&lt; NumericType &gt;::Stress()</a>, <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00326">PhQ::ConstitutiveModel::CompressibleNewtonianFluid&lt; NumericType &gt;::XML()</a>, and <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00333">PhQ::ConstitutiveModel::CompressibleNewtonianFluid&lt; NumericType &gt;::YAML()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00101">PhQ::ConstitutiveModel::CompressibleNewtonianFluid&lt; NumericType &gt;::BulkDynamicViscosity()</a>, <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00318">PhQ::ConstitutiveModel::CompressibleNewtonianFluid&lt; NumericType &gt;::JSON()</a>, <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00311">PhQ::ConstitutiveModel::CompressibleNewtonianFluid&lt; NumericType &gt;::Print()</a>, <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00239">PhQ::ConstitutiveModel::CompressibleNewtonianFluid&lt; NumericType &gt;::StrainRate()</a>, <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00162">PhQ::ConstitutiveModel::CompressibleNewtonianFluid&lt; NumericType &gt;::Stress()</a>, <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00325">PhQ::ConstitutiveModel::CompressibleNewtonianFluid&lt; NumericType &gt;::XML()</a>, and <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00332">PhQ::ConstitutiveModel::CompressibleNewtonianFluid&lt; NumericType &gt;::YAML()</a>.</p>
 
 </div>
 </div>
@@ -1397,9 +1397,9 @@ template&lt;typename NumericType  = double&gt; </div>
 
 <p>Dynamic viscosity of this compressible Newtonian fluid constitutive model. </p>
 
-<p class="definition">Definition at line <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00341">341</a> of file <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html">CompressibleNewtonianFluid.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00340">340</a> of file <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html">CompressibleNewtonianFluid.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00096">PhQ::ConstitutiveModel::CompressibleNewtonianFluid&lt; NumericType &gt;::DynamicViscosity()</a>, <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00319">PhQ::ConstitutiveModel::CompressibleNewtonianFluid&lt; NumericType &gt;::JSON()</a>, <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00312">PhQ::ConstitutiveModel::CompressibleNewtonianFluid&lt; NumericType &gt;::Print()</a>, <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00240">PhQ::ConstitutiveModel::CompressibleNewtonianFluid&lt; NumericType &gt;::StrainRate()</a>, <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00163">PhQ::ConstitutiveModel::CompressibleNewtonianFluid&lt; NumericType &gt;::Stress()</a>, <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00326">PhQ::ConstitutiveModel::CompressibleNewtonianFluid&lt; NumericType &gt;::XML()</a>, and <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00333">PhQ::ConstitutiveModel::CompressibleNewtonianFluid&lt; NumericType &gt;::YAML()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00095">PhQ::ConstitutiveModel::CompressibleNewtonianFluid&lt; NumericType &gt;::DynamicViscosity()</a>, <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00318">PhQ::ConstitutiveModel::CompressibleNewtonianFluid&lt; NumericType &gt;::JSON()</a>, <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00311">PhQ::ConstitutiveModel::CompressibleNewtonianFluid&lt; NumericType &gt;::Print()</a>, <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00239">PhQ::ConstitutiveModel::CompressibleNewtonianFluid&lt; NumericType &gt;::StrainRate()</a>, <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00162">PhQ::ConstitutiveModel::CompressibleNewtonianFluid&lt; NumericType &gt;::Stress()</a>, <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00325">PhQ::ConstitutiveModel::CompressibleNewtonianFluid&lt; NumericType &gt;::XML()</a>, and <a class="el" href="CompressibleNewtonianFluid_8hpp_source.html#l00332">PhQ::ConstitutiveModel::CompressibleNewtonianFluid&lt; NumericType &gt;::YAML()</a>.</p>
 
 </div>
 </div>
