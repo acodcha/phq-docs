@@ -1,6 +1,6 @@
 # Physical Quantities (PhQ) Documentation
 
-This repository hosts the documentation of the Physical Quantities (PhQ) library.
+This repository hosts the documentation of the Physical Quantities library.
 
 Physical Quantities (PhQ) is a C++ library of physical quantities, physical models, and units of measure for scientific computing.
 
