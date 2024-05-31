@@ -30,7 +30,7 @@ var searchData=
   ['petabyteperminute_644',['PetabytePerMinute',['../namespacePhQ_1_1Unit.html#abcf57f41172d02143992c1d00b8e00cba778af85d176faa7f56ee9c2100dcc49d',1,'PhQ::Unit']]],
   ['petabytepersecond_645',['PetabytePerSecond',['../namespacePhQ_1_1Unit.html#abcf57f41172d02143992c1d00b8e00cba62508e336f43c69b3de19f8170ef0c8c',1,'PhQ::Unit']]],
   ['phq_646',['PhQ',['../namespacePhQ.html',1,'']]],
-  ['physical_20quantities_647',['Physical Quantities',['../index.html',1,'']]],
+  ['physical_20quantities_20_28phq_29_647',['Physical Quantities (PhQ)',['../index.html',1,'']]],
   ['pi_648',['Pi',['../namespacePhQ.html#a097fe4cab91a6e87d1213b0ce8309a8a',1,'PhQ']]],
   ['pi_3c_20double_20_3e_649',['Pi&lt; double &gt;',['../namespacePhQ.html#aa531f54da7c80a5ea8bb9ee034065e7e',1,'PhQ']]],
   ['pi_3c_20float_20_3e_650',['Pi&lt; float &gt;',['../namespacePhQ.html#ad8423006447eca33a148806536b38188',1,'PhQ']]],
