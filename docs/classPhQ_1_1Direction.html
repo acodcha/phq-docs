@@ -286,7 +286,7 @@ class PhQ::Direction&lt; NumericType &gt;</h3>
 
 <p>Three-dimensional Euclidean direction vector. Contains three components in Cartesian coordinates: x, y, and z. Guaranteed to be either a unit vector or the zero vector (0, 0, 0). For a two-dimensional Euclidean direction vector in the XY plane, see <a class="el" href="classPhQ_1_1PlanarDirection.html" title="two-dimensional Euclidean direction vector in the XY plane. Contains two components in Cartesian coor...">PhQ::PlanarDirection</a>. </p>
 
-<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00117">117</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00115">115</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aa31b7d6334e23fc9f482b6bd0b743d05"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa31b7d6334e23fc9f482b6bd0b743d05">&#9670;&nbsp;</a></span>Direction() <span class="overload">[1/17]</span></h2>
@@ -315,7 +315,7 @@ template&lt;typename NumericType  = double&gt; </div>
 
 <p>Default constructor. Initializes a direction to the zero vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00120">120</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00118">118</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
 
 </div>
 </div>
@@ -363,9 +363,9 @@ template&lt;typename NumericType  = double&gt; </div>
 
 <p>Constructor. Constructs a direction by normalizing the given x, y, and z Cartesian components to a unit vector. If x = 0, y = 0, and z = 0, initializes the direction to the zero vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00125">125</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00123">123</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Direction_8hpp_source.html#l00225">PhQ::Direction&lt; NumericType &gt;::Set()</a>, <a class="el" href="Direction_8hpp_source.html#l00208">PhQ::Direction&lt; NumericType &gt;::x()</a>, <a class="el" href="Direction_8hpp_source.html#l00213">PhQ::Direction&lt; NumericType &gt;::y()</a>, and <a class="el" href="Direction_8hpp_source.html#l00218">PhQ::Direction&lt; NumericType &gt;::z()</a>.</p>
+<p class="reference">References <a class="el" href="Direction_8hpp_source.html#l00223">PhQ::Direction&lt; NumericType &gt;::Set()</a>, <a class="el" href="Direction_8hpp_source.html#l00206">PhQ::Direction&lt; NumericType &gt;::x()</a>, <a class="el" href="Direction_8hpp_source.html#l00211">PhQ::Direction&lt; NumericType &gt;::y()</a>, and <a class="el" href="Direction_8hpp_source.html#l00216">PhQ::Direction&lt; NumericType &gt;::z()</a>.</p>
 
 </div>
 </div>
@@ -397,9 +397,9 @@ template&lt;typename NumericType  = double&gt; </div>
 
 <p>Constructor. Constructs a direction by normalizing a given array representing x, y, and z Cartesian components to a unit vector. If x = 0, y = 0, and z = 0, initializes the direction to the zero vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00133">133</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00131">131</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Direction_8hpp_source.html#l00225">PhQ::Direction&lt; NumericType &gt;::Set()</a>.</p>
+<p class="reference">References <a class="el" href="Direction_8hpp_source.html#l00223">PhQ::Direction&lt; NumericType &gt;::Set()</a>.</p>
 
 </div>
 </div>
@@ -431,9 +431,9 @@ template&lt;typename NumericType  = double&gt; </div>
 
 <p>Constructor. Constructs a direction by normalizing the given vector to a unit vector. If the given vector is the zero vector, initializes the direction to the zero vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00139">139</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00137">137</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Direction_8hpp_source.html#l00225">PhQ::Direction&lt; NumericType &gt;::Set()</a>, and <a class="el" href="DimensionlessVector_8hpp_source.html#l00138">PhQ::DimensionlessVector&lt; double &gt;::value</a>.</p>
+<p class="reference">References <a class="el" href="Direction_8hpp_source.html#l00223">PhQ::Direction&lt; NumericType &gt;::Set()</a>, and <a class="el" href="DimensionlessVector_8hpp_source.html#l00136">PhQ::DimensionlessVector&lt; double &gt;::value</a>.</p>
 
 </div>
 </div>
@@ -465,9 +465,9 @@ template&lt;typename NumericType  = double&gt; </div>
 
 <p>Constructor. Constructs a direction from a given planar direction in the XY plane. This direction's z-component is initialized to zero. </p>
 
-<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00145">145</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00143">143</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionlessPlanarVector_8hpp_source.html#l00060">PhQ::DimensionlessPlanarVector&lt; NumericType &gt;::Value()</a>.</p>
+<p class="reference">References <a class="el" href="DimensionlessPlanarVector_8hpp_source.html#l00058">PhQ::DimensionlessPlanarVector&lt; NumericType &gt;::Value()</a>.</p>
 
 </div>
 </div>
@@ -499,7 +499,7 @@ template&lt;typename NumericType &gt; </div>
 
 <p>Constructor. Constructs a direction from an acceleration. </p>
 
-<p class="definition">Definition at line <a class="el" href="Acceleration_8hpp_source.html#l00278">278</a> of file <a class="el" href="Acceleration_8hpp_source.html">Acceleration.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Acceleration_8hpp_source.html#l00276">276</a> of file <a class="el" href="Acceleration_8hpp_source.html">Acceleration.hpp</a>.</p>
 
 </div>
 </div>
@@ -531,7 +531,7 @@ template&lt;typename NumericType &gt; </div>
 
 <p>Constructor. Constructs a direction from a displacement. </p>
 
-<p class="definition">Definition at line <a class="el" href="Displacement_8hpp_source.html#l00294">294</a> of file <a class="el" href="Displacement_8hpp_source.html">Displacement.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Displacement_8hpp_source.html#l00292">292</a> of file <a class="el" href="Displacement_8hpp_source.html">Displacement.hpp</a>.</p>
 
 </div>
 </div>
@@ -563,7 +563,7 @@ template&lt;typename NumericType &gt; </div>
 
 <p>Constructor. Constructs a direction from a force. </p>
 
-<p class="definition">Definition at line <a class="el" href="Force_8hpp_source.html#l00259">259</a> of file <a class="el" href="Force_8hpp_source.html">Force.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Force_8hpp_source.html#l00257">257</a> of file <a class="el" href="Force_8hpp_source.html">Force.hpp</a>.</p>
 
 </div>
 </div>
@@ -595,7 +595,7 @@ template&lt;typename NumericType &gt; </div>
 
 <p>Constructor. Constructs a direction from a heat flux. </p>
 
-<p class="definition">Definition at line <a class="el" href="HeatFlux_8hpp_source.html#l00272">272</a> of file <a class="el" href="HeatFlux_8hpp_source.html">HeatFlux.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="HeatFlux_8hpp_source.html#l00270">270</a> of file <a class="el" href="HeatFlux_8hpp_source.html">HeatFlux.hpp</a>.</p>
 
 </div>
 </div>
@@ -627,7 +627,7 @@ template&lt;typename NumericType &gt; </div>
 
 <p>Constructor. Constructs a direction from a position. </p>
 
-<p class="definition">Definition at line <a class="el" href="Position_8hpp_source.html#l00274">274</a> of file <a class="el" href="Position_8hpp_source.html">Position.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Position_8hpp_source.html#l00272">272</a> of file <a class="el" href="Position_8hpp_source.html">Position.hpp</a>.</p>
 
 </div>
 </div>
@@ -659,7 +659,7 @@ template&lt;typename NumericType &gt; </div>
 
 <p>Constructor. Constructs a direction from a temperature gradient. </p>
 
-<p class="definition">Definition at line <a class="el" href="TemperatureGradient_8hpp_source.html#l00271">271</a> of file <a class="el" href="TemperatureGradient_8hpp_source.html">TemperatureGradient.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="TemperatureGradient_8hpp_source.html#l00269">269</a> of file <a class="el" href="TemperatureGradient_8hpp_source.html">TemperatureGradient.hpp</a>.</p>
 
 </div>
 </div>
@@ -691,7 +691,7 @@ template&lt;typename NumericType &gt; </div>
 
 <p>Constructor. Constructs a direction from a traction. </p>
 
-<p class="definition">Definition at line <a class="el" href="Traction_8hpp_source.html#l00270">270</a> of file <a class="el" href="Traction_8hpp_source.html">Traction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Traction_8hpp_source.html#l00268">268</a> of file <a class="el" href="Traction_8hpp_source.html">Traction.hpp</a>.</p>
 
 </div>
 </div>
@@ -723,7 +723,7 @@ template&lt;typename NumericType &gt; </div>
 
 <p>Constructor. Constructs a direction from a vector area. </p>
 
-<p class="definition">Definition at line <a class="el" href="VectorArea_8hpp_source.html#l00242">242</a> of file <a class="el" href="VectorArea_8hpp_source.html">VectorArea.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="VectorArea_8hpp_source.html#l00240">240</a> of file <a class="el" href="VectorArea_8hpp_source.html">VectorArea.hpp</a>.</p>
 
 </div>
 </div>
@@ -755,7 +755,7 @@ template&lt;typename NumericType &gt; </div>
 
 <p>Constructor. Constructs a direction from a velocity. </p>
 
-<p class="definition">Definition at line <a class="el" href="Velocity_8hpp_source.html#l00287">287</a> of file <a class="el" href="Velocity_8hpp_source.html">Velocity.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Velocity_8hpp_source.html#l00285">285</a> of file <a class="el" href="Velocity_8hpp_source.html">Velocity.hpp</a>.</p>
 
 </div>
 </div>
@@ -848,7 +848,7 @@ template&lt;typename OtherNumericType &gt; </div>
 
 <p>Copy constructor. Constructs a direction by copying another one. </p>
 
-<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00183">183</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00181">181</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
 
 </div>
 </div>
@@ -911,7 +911,7 @@ template&lt;typename NumericType  = double&gt; </div>
 
 <p>Returns the angle between this direction and the given other direction. </p>
 
-<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00305">305</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00303">303</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
 
 </div>
 </div>
@@ -943,7 +943,7 @@ template&lt;typename NumericType  = double&gt; </div>
 
 <p>Returns the angle between this direction and the given vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00300">300</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00298">298</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
 
 </div>
 </div>
@@ -975,9 +975,9 @@ template&lt;typename NumericType  = double&gt; </div>
 
 <p>Returns the cross product of this direction with the given other direction. </p>
 
-<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00285">285</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00283">283</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00230">PhQ::Vector&lt; NumericType &gt;::Cross()</a>, <a class="el" href="DimensionlessVector_8hpp_source.html#l00138">PhQ::DimensionlessVector&lt; NumericType &gt;::value</a>, and <a class="el" href="DimensionlessVector_8hpp_source.html#l00138">PhQ::DimensionlessVector&lt; double &gt;::value</a>.</p>
+<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00228">PhQ::Vector&lt; NumericType &gt;::Cross()</a>, <a class="el" href="DimensionlessVector_8hpp_source.html#l00136">PhQ::DimensionlessVector&lt; NumericType &gt;::value</a>, and <a class="el" href="DimensionlessVector_8hpp_source.html#l00136">PhQ::DimensionlessVector&lt; double &gt;::value</a>.</p>
 
 </div>
 </div>
@@ -1009,11 +1009,11 @@ template&lt;typename NumericType  = double&gt; </div>
 
 <p>Returns the cross product of this direction with the given vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00280">280</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00278">278</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00230">PhQ::Vector&lt; NumericType &gt;::Cross()</a>, and <a class="el" href="DimensionlessVector_8hpp_source.html#l00138">PhQ::DimensionlessVector&lt; double &gt;::value</a>.</p>
+<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00228">PhQ::Vector&lt; NumericType &gt;::Cross()</a>, and <a class="el" href="DimensionlessVector_8hpp_source.html#l00136">PhQ::DimensionlessVector&lt; double &gt;::value</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="Direction_8hpp_source.html#l00440">PhQ::PlanarDirection&lt; NumericType &gt;::Cross()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="Direction_8hpp_source.html#l00438">PhQ::PlanarDirection&lt; NumericType &gt;::Cross()</a>.</p>
 
 </div>
 </div>
@@ -1042,7 +1042,7 @@ template&lt;typename NumericType  = double&gt; </div>
 
 <p>Physical dimension set of this physical quantity. Since this physical quantity is dimensionless, its physical dimension set is simply the null set. </p>
 
-<p class="definition">Definition at line <a class="el" href="DimensionlessVector_8hpp_source.html#l00055">55</a> of file <a class="el" href="DimensionlessVector_8hpp_source.html">DimensionlessVector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="DimensionlessVector_8hpp_source.html#l00053">53</a> of file <a class="el" href="DimensionlessVector_8hpp_source.html">DimensionlessVector.hpp</a>.</p>
 
 </div>
 </div>
@@ -1074,9 +1074,9 @@ template&lt;typename NumericType  = double&gt; </div>
 
 <p>Returns the dot product (also known as the scalar product or the inner product) of this direction with the given other direction. </p>
 
-<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00275">275</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00273">273</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00218">PhQ::Vector&lt; NumericType &gt;::Dot()</a>, and <a class="el" href="DimensionlessVector_8hpp_source.html#l00138">PhQ::DimensionlessVector&lt; double &gt;::value</a>.</p>
+<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00216">PhQ::Vector&lt; NumericType &gt;::Dot()</a>, and <a class="el" href="DimensionlessVector_8hpp_source.html#l00136">PhQ::DimensionlessVector&lt; double &gt;::value</a>.</p>
 
 </div>
 </div>
@@ -1108,9 +1108,9 @@ template&lt;typename NumericType  = double&gt; </div>
 
 <p>Returns the dot product (also known as the scalar product or the inner product) of this direction with the given vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00269">269</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00267">267</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00218">PhQ::Vector&lt; NumericType &gt;::Dot()</a>, and <a class="el" href="DimensionlessVector_8hpp_source.html#l00138">PhQ::DimensionlessVector&lt; double &gt;::value</a>.</p>
+<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00216">PhQ::Vector&lt; NumericType &gt;::Dot()</a>, and <a class="el" href="DimensionlessVector_8hpp_source.html#l00136">PhQ::DimensionlessVector&lt; double &gt;::value</a>.</p>
 
 </div>
 </div>
@@ -1142,9 +1142,9 @@ template&lt;typename NumericType  = double&gt; </div>
 
 <p>Returns the dyadic product of this direction with the given other direction. </p>
 
-<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00295">295</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00293">293</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Dyad_8hpp_source.html#l00724">PhQ::Vector&lt; NumericType &gt;::Dyadic()</a>, <a class="el" href="DimensionlessVector_8hpp_source.html#l00138">PhQ::DimensionlessVector&lt; NumericType &gt;::value</a>, and <a class="el" href="DimensionlessVector_8hpp_source.html#l00138">PhQ::DimensionlessVector&lt; double &gt;::value</a>.</p>
+<p class="reference">References <a class="el" href="Dyad_8hpp_source.html#l00722">PhQ::Vector&lt; NumericType &gt;::Dyadic()</a>, <a class="el" href="DimensionlessVector_8hpp_source.html#l00136">PhQ::DimensionlessVector&lt; NumericType &gt;::value</a>, and <a class="el" href="DimensionlessVector_8hpp_source.html#l00136">PhQ::DimensionlessVector&lt; double &gt;::value</a>.</p>
 
 </div>
 </div>
@@ -1176,9 +1176,9 @@ template&lt;typename NumericType  = double&gt; </div>
 
 <p>Returns the dyadic product of this direction with the given vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00290">290</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00288">288</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Dyad_8hpp_source.html#l00724">PhQ::Vector&lt; NumericType &gt;::Dyadic()</a>, and <a class="el" href="DimensionlessVector_8hpp_source.html#l00138">PhQ::DimensionlessVector&lt; double &gt;::value</a>.</p>
+<p class="reference">References <a class="el" href="Dyad_8hpp_source.html#l00722">PhQ::Vector&lt; NumericType &gt;::Dyadic()</a>, and <a class="el" href="DimensionlessVector_8hpp_source.html#l00136">PhQ::DimensionlessVector&lt; double &gt;::value</a>.</p>
 
 </div>
 </div>
@@ -1207,7 +1207,7 @@ template&lt;typename NumericType  = double&gt; </div>
 
 <p>Serializes this physical quantity as a JSON message. </p>
 
-<p class="definition">Definition at line <a class="el" href="DimensionlessVector_8hpp_source.html#l00070">70</a> of file <a class="el" href="DimensionlessVector_8hpp_source.html">DimensionlessVector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="DimensionlessVector_8hpp_source.html#l00068">68</a> of file <a class="el" href="DimensionlessVector_8hpp_source.html">DimensionlessVector.hpp</a>.</p>
 
 </div>
 </div>
@@ -1238,9 +1238,9 @@ template&lt;typename NumericType  = double&gt; </div>
 
 <p>Returns the magnitude of this direction. This is guaranteed to be exactly 1 if the direction is not the zero vector, or 0 if the direction is the zero vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00263">263</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00261">261</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00209">PhQ::Vector&lt; NumericType &gt;::Magnitude()</a>, and <a class="el" href="DimensionlessVector_8hpp_source.html#l00138">PhQ::DimensionlessVector&lt; double &gt;::value</a>.</p>
+<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00207">PhQ::Vector&lt; NumericType &gt;::Magnitude()</a>, and <a class="el" href="DimensionlessVector_8hpp_source.html#l00136">PhQ::DimensionlessVector&lt; double &gt;::value</a>.</p>
 
 </div>
 </div>
@@ -1271,9 +1271,9 @@ template&lt;typename NumericType  = double&gt; </div>
 
 <p>Returns the square of the magnitude of this direction. This is guaranteed to be exactly 1 if the direction is not the zero vector, or 0 if the direction is the zero vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00257">257</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00255">255</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00204">PhQ::Vector&lt; NumericType &gt;::MagnitudeSquared()</a>, and <a class="el" href="DimensionlessVector_8hpp_source.html#l00138">PhQ::DimensionlessVector&lt; double &gt;::value</a>.</p>
+<p class="reference">References <a class="el" href="Vector_8hpp_source.html#l00202">PhQ::Vector&lt; NumericType &gt;::MagnitudeSquared()</a>, and <a class="el" href="DimensionlessVector_8hpp_source.html#l00136">PhQ::DimensionlessVector&lt; double &gt;::value</a>.</p>
 
 </div>
 </div>
@@ -1303,7 +1303,7 @@ template&lt;typename NumericType &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="VectorArea_8hpp_source.html#l00251">251</a> of file <a class="el" href="VectorArea_8hpp_source.html">VectorArea.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="VectorArea_8hpp_source.html#l00249">249</a> of file <a class="el" href="VectorArea_8hpp_source.html">VectorArea.hpp</a>.</p>
 
 </div>
 </div>
@@ -1333,7 +1333,7 @@ template&lt;typename NumericType &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Position_8hpp_source.html#l00299">299</a> of file <a class="el" href="Position_8hpp_source.html">Position.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Position_8hpp_source.html#l00297">297</a> of file <a class="el" href="Position_8hpp_source.html">Position.hpp</a>.</p>
 
 </div>
 </div>
@@ -1363,7 +1363,7 @@ template&lt;typename NumericType &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Acceleration_8hpp_source.html#l00302">302</a> of file <a class="el" href="Acceleration_8hpp_source.html">Acceleration.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Acceleration_8hpp_source.html#l00300">300</a> of file <a class="el" href="Acceleration_8hpp_source.html">Acceleration.hpp</a>.</p>
 
 </div>
 </div>
@@ -1393,7 +1393,7 @@ template&lt;typename NumericType &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Force_8hpp_source.html#l00267">267</a> of file <a class="el" href="Force_8hpp_source.html">Force.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Force_8hpp_source.html#l00265">265</a> of file <a class="el" href="Force_8hpp_source.html">Force.hpp</a>.</p>
 
 </div>
 </div>
@@ -1423,7 +1423,7 @@ template&lt;typename NumericType &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="HeatFlux_8hpp_source.html#l00281">281</a> of file <a class="el" href="HeatFlux_8hpp_source.html">HeatFlux.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="HeatFlux_8hpp_source.html#l00279">279</a> of file <a class="el" href="HeatFlux_8hpp_source.html">HeatFlux.hpp</a>.</p>
 
 </div>
 </div>
@@ -1453,7 +1453,7 @@ template&lt;typename NumericType &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="TemperatureGradient_8hpp_source.html#l00281">281</a> of file <a class="el" href="TemperatureGradient_8hpp_source.html">TemperatureGradient.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="TemperatureGradient_8hpp_source.html#l00279">279</a> of file <a class="el" href="TemperatureGradient_8hpp_source.html">TemperatureGradient.hpp</a>.</p>
 
 </div>
 </div>
@@ -1483,7 +1483,7 @@ template&lt;typename NumericType &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Traction_8hpp_source.html#l00284">284</a> of file <a class="el" href="Traction_8hpp_source.html">Traction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Traction_8hpp_source.html#l00282">282</a> of file <a class="el" href="Traction_8hpp_source.html">Traction.hpp</a>.</p>
 
 </div>
 </div>
@@ -1513,7 +1513,7 @@ template&lt;typename NumericType &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="Velocity_8hpp_source.html#l00310">310</a> of file <a class="el" href="Velocity_8hpp_source.html">Velocity.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Velocity_8hpp_source.html#l00308">308</a> of file <a class="el" href="Velocity_8hpp_source.html">Velocity.hpp</a>.</p>
 
 </div>
 </div>
@@ -1577,9 +1577,9 @@ template&lt;typename OtherNumericType &gt; </div>
 
 <p>Copy assignment operator. Assigns this direction by copying another one. </p>
 
-<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00194">194</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00192">192</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionlessVector_8hpp_source.html#l00060">PhQ::DimensionlessVector&lt; NumericType &gt;::Value()</a>, and <a class="el" href="DimensionlessVector_8hpp_source.html#l00138">PhQ::DimensionlessVector&lt; double &gt;::value</a>.</p>
+<p class="reference">References <a class="el" href="DimensionlessVector_8hpp_source.html#l00058">PhQ::DimensionlessVector&lt; NumericType &gt;::Value()</a>, and <a class="el" href="DimensionlessVector_8hpp_source.html#l00136">PhQ::DimensionlessVector&lt; double &gt;::value</a>.</p>
 
 </div>
 </div>
@@ -1638,7 +1638,7 @@ template&lt;typename NumericType  = double&gt; </div>
 
 <p>Prints this physical quantity as a string. </p>
 
-<p class="definition">Definition at line <a class="el" href="DimensionlessVector_8hpp_source.html#l00065">65</a> of file <a class="el" href="DimensionlessVector_8hpp_source.html">DimensionlessVector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="DimensionlessVector_8hpp_source.html#l00063">63</a> of file <a class="el" href="DimensionlessVector_8hpp_source.html">DimensionlessVector.hpp</a>.</p>
 
 </div>
 </div>
@@ -1686,9 +1686,9 @@ template&lt;typename NumericType  = double&gt; </div>
 
 <p>Sets the value of this direction by normalizing the given x, y, and z Cartesian components to a unit vector. If x = 0, y = 0, and z = 0, sets the direction to the zero vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00225">225</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00223">223</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="Direction_8hpp_source.html#l00125">PhQ::Direction&lt; NumericType &gt;::Direction()</a>, and <a class="el" href="Direction_8hpp_source.html#l00251">PhQ::Direction&lt; NumericType &gt;::Set()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="Direction_8hpp_source.html#l00123">PhQ::Direction&lt; NumericType &gt;::Direction()</a>, and <a class="el" href="Direction_8hpp_source.html#l00249">PhQ::Direction&lt; NumericType &gt;::Set()</a>.</p>
 
 </div>
 </div>
@@ -1720,7 +1720,7 @@ template&lt;typename NumericType  = double&gt; </div>
 
 <p>Sets the value of this direction by normalizing the given x, y, and z Cartesian components to a unit vector. If x = 0, y = 0, and z = 0, sets the direction to the zero vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00238">238</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00236">236</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
 
 </div>
 </div>
@@ -1752,9 +1752,9 @@ template&lt;typename NumericType  = double&gt; </div>
 
 <p>Sets the value of this direction by normalizing the given vector to a unit vector. If the given vector is a zero vector, sets the direction to the zero vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00251">251</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00249">249</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="Direction_8hpp_source.html#l00225">PhQ::Direction&lt; NumericType &gt;::Set()</a>, <a class="el" href="DimensionlessVector_8hpp_source.html#l00138">PhQ::DimensionlessVector&lt; double &gt;::value</a>, and <a class="el" href="Vector_8hpp_source.html#l00134">PhQ::Vector&lt; NumericType &gt;::x_y_z()</a>.</p>
+<p class="reference">References <a class="el" href="Direction_8hpp_source.html#l00223">PhQ::Direction&lt; NumericType &gt;::Set()</a>, <a class="el" href="DimensionlessVector_8hpp_source.html#l00136">PhQ::DimensionlessVector&lt; double &gt;::value</a>, and <a class="el" href="Vector_8hpp_source.html#l00132">PhQ::Vector&lt; NumericType &gt;::x_y_z()</a>.</p>
 
 </div>
 </div>
@@ -1783,7 +1783,7 @@ template&lt;typename NumericType  = double&gt; </div>
 
 <p>Value of this physical quantity. </p>
 
-<p class="definition">Definition at line <a class="el" href="DimensionlessVector_8hpp_source.html#l00060">60</a> of file <a class="el" href="DimensionlessVector_8hpp_source.html">DimensionlessVector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="DimensionlessVector_8hpp_source.html#l00058">58</a> of file <a class="el" href="DimensionlessVector_8hpp_source.html">DimensionlessVector.hpp</a>.</p>
 
 </div>
 </div>
@@ -1814,11 +1814,11 @@ template&lt;typename NumericType  = double&gt; </div>
 
 <p>Returns the x Cartesian component of this direction. </p>
 
-<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00208">208</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00206">206</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionlessVector_8hpp_source.html#l00138">PhQ::DimensionlessVector&lt; double &gt;::value</a>, and <a class="el" href="Vector_8hpp_source.html#l00139">PhQ::Vector&lt; NumericType &gt;::x()</a>.</p>
+<p class="reference">References <a class="el" href="DimensionlessVector_8hpp_source.html#l00136">PhQ::DimensionlessVector&lt; double &gt;::value</a>, and <a class="el" href="Vector_8hpp_source.html#l00137">PhQ::Vector&lt; NumericType &gt;::x()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="Direction_8hpp_source.html#l00125">PhQ::Direction&lt; NumericType &gt;::Direction()</a>, and <a class="el" href="Direction_8hpp_source.html#l00384">PhQ::Vector&lt; double &gt;::Dot()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="Direction_8hpp_source.html#l00123">PhQ::Direction&lt; NumericType &gt;::Direction()</a>, and <a class="el" href="Direction_8hpp_source.html#l00382">PhQ::Vector&lt; double &gt;::Dot()</a>.</p>
 
 </div>
 </div>
@@ -1847,7 +1847,7 @@ template&lt;typename NumericType  = double&gt; </div>
 
 <p>Serializes this physical quantity as an XML message. </p>
 
-<p class="definition">Definition at line <a class="el" href="DimensionlessVector_8hpp_source.html#l00075">75</a> of file <a class="el" href="DimensionlessVector_8hpp_source.html">DimensionlessVector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="DimensionlessVector_8hpp_source.html#l00073">73</a> of file <a class="el" href="DimensionlessVector_8hpp_source.html">DimensionlessVector.hpp</a>.</p>
 
 </div>
 </div>
@@ -1878,9 +1878,9 @@ template&lt;typename NumericType  = double&gt; </div>
 
 <p>Returns the y Cartesian component of this direction. </p>
 
-<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00213">213</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00211">211</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="Direction_8hpp_source.html#l00125">PhQ::Direction&lt; NumericType &gt;::Direction()</a>, and <a class="el" href="Direction_8hpp_source.html#l00384">PhQ::Vector&lt; double &gt;::Dot()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="Direction_8hpp_source.html#l00123">PhQ::Direction&lt; NumericType &gt;::Direction()</a>, and <a class="el" href="Direction_8hpp_source.html#l00382">PhQ::Vector&lt; double &gt;::Dot()</a>.</p>
 
 </div>
 </div>
@@ -1909,7 +1909,7 @@ template&lt;typename NumericType  = double&gt; </div>
 
 <p>Serializes this physical quantity as a YAML message. </p>
 
-<p class="definition">Definition at line <a class="el" href="DimensionlessVector_8hpp_source.html#l00080">80</a> of file <a class="el" href="DimensionlessVector_8hpp_source.html">DimensionlessVector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="DimensionlessVector_8hpp_source.html#l00078">78</a> of file <a class="el" href="DimensionlessVector_8hpp_source.html">DimensionlessVector.hpp</a>.</p>
 
 </div>
 </div>
@@ -1940,11 +1940,11 @@ template&lt;typename NumericType  = double&gt; </div>
 
 <p>Returns the z Cartesian component of this direction. </p>
 
-<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00218">218</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00216">216</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionlessVector_8hpp_source.html#l00138">PhQ::DimensionlessVector&lt; double &gt;::value</a>, and <a class="el" href="Vector_8hpp_source.html#l00149">PhQ::Vector&lt; NumericType &gt;::z()</a>.</p>
+<p class="reference">References <a class="el" href="DimensionlessVector_8hpp_source.html#l00136">PhQ::DimensionlessVector&lt; double &gt;::value</a>, and <a class="el" href="Vector_8hpp_source.html#l00147">PhQ::Vector&lt; NumericType &gt;::z()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="Direction_8hpp_source.html#l00125">PhQ::Direction&lt; NumericType &gt;::Direction()</a>, and <a class="el" href="Direction_8hpp_source.html#l00384">PhQ::Vector&lt; double &gt;::Dot()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="Direction_8hpp_source.html#l00123">PhQ::Direction&lt; NumericType &gt;::Direction()</a>, and <a class="el" href="Direction_8hpp_source.html#l00382">PhQ::Vector&lt; double &gt;::Dot()</a>.</p>
 
 </div>
 </div>
@@ -1975,7 +1975,7 @@ template&lt;typename NumericType  = double&gt; </div>
 
 <p>Statically creates a direction whose value is the zero vector. </p>
 
-<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00203">203</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="Direction_8hpp_source.html#l00201">201</a> of file <a class="el" href="Direction_8hpp_source.html">Direction.hpp</a>.</p>
 
 </div>
 </div>
@@ -2002,7 +2002,7 @@ template&lt;typename NumericType  = double&gt; </div>
 
 <p>Value of this physical quantity. </p>
 
-<p class="definition">Definition at line <a class="el" href="DimensionlessVector_8hpp_source.html#l00138">138</a> of file <a class="el" href="DimensionlessVector_8hpp_source.html">DimensionlessVector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="DimensionlessVector_8hpp_source.html#l00136">136</a> of file <a class="el" href="DimensionlessVector_8hpp_source.html">DimensionlessVector.hpp</a>.</p>
 
 </div>
 </div>
