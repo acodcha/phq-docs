@@ -104,6 +104,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search','.html');
 <li><a class="el" href="index.html#documentation">Documentation</a></li>
 <li><a class="el" href="index.html#installation">Installation</a></li>
 <li><a class="el" href="index.html#testing">Testing</a></li>
+<li><a class="el" href="index.html#coverage">Coverage</a></li>
 <li><a class="el" href="index.html#license">License</a></li>
 </ul>
 <p>Example:</p>
@@ -552,17 +553,8 @@ Usage: Dimensions</h2>
 Documentation</h1>
 <p>The full documentation of the Physical Quantities library is hosted here, at <a href="https://acodcha.github.io/phq-docs">https://acodcha.github.io/phq-docs</a>:</p>
 <ul>
-<li><a href="namespaces.html">Namespaces</a><ul>
-<li><a href="namespaces.html">Namespace List</a></li>
-<li><a href="namespacemembers.html">Namespace Members</a></li>
-</ul>
-</li>
-<li><a href="annotated.html">Classes</a><ul>
-<li><a href="annotated.html">Class List</a></li>
-<li><a href="hierarchy.html">Class Hierarchy</a></li>
-<li><a href="functions.html">Class Members</a></li>
-</ul>
-</li>
+<li><a href="namespaces.html">Namespaces</a>: <a href="namespaces.html">Namespace List</a>, <a href="namespacemembers.html">Namespace Members</a></li>
+<li><a href="annotated.html">Classes</a>: <a href="annotated.html">Class List</a>, <a href="hierarchy.html">Class Hierarchy</a>, <a href="functions.html">Class Members</a></li>
 <li><a href="files.html">Files</a></li>
 </ul>
 <p>Alternatively, the documentation can be built locally on your system. Doing so requires the following additional package:</p>
@@ -592,7 +584,7 @@ Testing</h1>
 <p>The Physical Quantities library is automatically tested whenever it is updated.</p>
 <p>Testing can optionally be performed locally on your system. Doing so requires the following additional package:</p>
 <ul>
-<li><b>GoogleTest</b>: The GoogleTest library (<a href="https://github.com/google/googletest">https://github.com/google/googletest</a>) is used for testing. On Ubuntu, install it with <code>sudo apt install libgtest-dev</code>. When testing is enabled, if the GoogleTest library is not found on your system, it is automatically downloaded and linked with this library.</li>
+<li><b>GoogleTest</b>: The GoogleTest library (<a href="https://github.com/google/googletest">https://github.com/google/googletest</a>) is used for testing. On Ubuntu, install it with <code>sudo apt install libgtest-dev</code>.</li>
 </ul>
 <p>Testing instructions differ depending on your build system.</p>
 <p>If using the CMake build system, you can manually test the Physical Quantities library on your system with:</p>
@@ -609,6 +601,25 @@ Testing</h1>
 <div class="line">bazel build <span class="comment">//:all</span></div>
 <div class="line">bazel test <span class="comment">//:all</span></div>
 </div><!-- fragment --><p><a class="el" href="index.html">(Back to Top)</a></p>
+<h1><a class="anchor" id="coverage"></a>
+Coverage</h1>
+<p>Code coverage (also known as test coverage) measures the extent to which a library's source code is covered by its tests. The Physical Quantities library currently has 95% coverage overall.</p>
+<p>The Physical Quantities library's code coverage can optionally be computed locally on your system. Doing so requires the following additional package:</p>
+<ul>
+<li><b>GoogleTest</b>: The GoogleTest library (<a href="https://github.com/google/googletest">https://github.com/google/googletest</a>) is used for testing. On Ubuntu, install it with <code>sudo apt install libgtest-dev</code>.</li>
+<li><b>LCOV</b>: The LCOV program (<a href="https://github.com/linux-test-project/lcov">https://github.com/linux-test-project/lcov</a>) is used for computing code coverage. On Ubuntu, install it with <code>sudo apt install lcov</code>.</li>
+</ul>
+<p>In addition to these requirements, code coverage computation also requires the CMake build system and either the GCC C++ compiler or the Clang C++ compiler; see the <a href="#requirements">Requirements</a> section for more information on these.</p>
+<p>Compute the Physical Quantities library's code coverage with:</p>
+<div class="fragment"><div class="line">git clone git@github.com:acodcha/phq.git <a class="code" href="namespacePhQ.html">PhQ</a></div>
+<div class="line">cd <a class="code" href="namespacePhQ.html">PhQ</a></div>
+<div class="line">mkdir build</div>
+<div class="line">cd build</div>
+<div class="line">cmake .. -D PHYSICAL_QUANTITIES_PHQ_COVERAGE=ON</div>
+<div class="line">make --jobs=16</div>
+<div class="line">./bin/all_tests &amp;&amp; make coverage</div>
+</div><!-- fragment --><p>This generates an HTML report in the <code>PhQ/coverage/</code> directory. Browse the report by opening the <code>PhQ/coverage/index.html</code> file in a web browser.</p>
+<p><a class="el" href="index.html">(Back to Top)</a></p>
 <h1><a class="anchor" id="license"></a>
 License</h1>
 <p>Copyright © 2020-2024 Alexandre Coderre-Chabot</p>
