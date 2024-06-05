@@ -198,8 +198,14 @@ Protected Attributes</h2></td></tr>
 class PhQ::DimensionlessSymmetricDyad&lt; NumericType &gt;</h3>
 
 <p>Abstract base class that represents any dimensionless symmetric dyadic tensor physical quantity. Such a physical quantity is composed only of a value where the value is a three-dimensional symmetric dyadic tensor. Such a physical quantity has no unit of measure and no dimension set. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">NumericType</td><td>Floating-point numeric type: float, double, or long double. Defaults to double if unspecified. </td></tr>
+  </table>
+  </dd>
+</dl>
 
-<p class="definition">Definition at line <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html#l00046">46</a> of file <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html">DimensionlessSymmetricDyad.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html#l00048">48</a> of file <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html">DimensionlessSymmetricDyad.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a86d629f5912dc54f7a94bb089286c4ad"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a86d629f5912dc54f7a94bb089286c4ad">&#9670;&nbsp;</a></span>DimensionlessSymmetricDyad() <span class="overload">[1/7]</span></h2>
@@ -292,7 +298,7 @@ template&lt;typename NumericType  = double&gt; </div>
 
 <p>Constructor. Constructs a dimensionless symmetric dyadic tensor physical quantity whose value has the given xx, xy, xz, yy, yz, and zz Cartesian components. </p>
 
-<p class="definition">Definition at line <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html#l00100">100</a> of file <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html">DimensionlessSymmetricDyad.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html#l00102">102</a> of file <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html">DimensionlessSymmetricDyad.hpp</a>.</p>
 
 </div>
 </div>
@@ -324,7 +330,7 @@ template&lt;typename NumericType  = double&gt; </div>
 
 <p>Constructor. Constructs a dimensionless symmetric dyadic tensor physical quantity from a given array representing its value's xx, xy, xz, yy, yz, and zz Cartesian components. </p>
 
-<p class="definition">Definition at line <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html#l00107">107</a> of file <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html">DimensionlessSymmetricDyad.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html#l00109">109</a> of file <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html">DimensionlessSymmetricDyad.hpp</a>.</p>
 
 </div>
 </div>
@@ -356,7 +362,7 @@ template&lt;typename NumericType  = double&gt; </div>
 
 <p>Constructor. Constructs a dimensionless symmetric dyadic tensor physical quantity with a given value. </p>
 
-<p class="definition">Definition at line <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html#l00112">112</a> of file <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html">DimensionlessSymmetricDyad.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html#l00114">114</a> of file <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html">DimensionlessSymmetricDyad.hpp</a>.</p>
 
 </div>
 </div>
@@ -448,8 +454,14 @@ template&lt;typename OtherNumericType &gt; </div>
 </div><div class="memdoc">
 
 <p>Copy constructor. Constructs a dimensionless symmetric dyadic tensor physical quantity by copying another one. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">OtherNumericType</td><td>Floating-point numeric type of the other physical quantity. Deduced automatically. </td></tr>
+  </table>
+  </dd>
+</dl>
 
-<p class="definition">Definition at line <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html#l00126">126</a> of file <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html">DimensionlessSymmetricDyad.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html#l00130">130</a> of file <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html">DimensionlessSymmetricDyad.hpp</a>.</p>
 
 </div>
 </div>
@@ -511,7 +523,7 @@ template&lt;typename NumericType  = double&gt; </div>
 
 <p>Physical dimension set of this physical quantity. Since this physical quantity is dimensionless, its physical dimension set is simply the null set. </p>
 
-<p class="definition">Definition at line <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html#l00054">54</a> of file <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html">DimensionlessSymmetricDyad.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html#l00056">56</a> of file <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html">DimensionlessSymmetricDyad.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="Dimensions_8hpp_source.html#l00406">PhQ::Dimensionless</a>.</p>
 
@@ -544,9 +556,9 @@ template&lt;typename NumericType  = double&gt; </div>
 
 <p>Serializes this physical quantity as a JSON message. </p>
 
-<p class="definition">Definition at line <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html#l00079">79</a> of file <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html">DimensionlessSymmetricDyad.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html#l00081">81</a> of file <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html">DimensionlessSymmetricDyad.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html#l00155">PhQ::DimensionlessSymmetricDyad&lt; NumericType &gt;::value</a>.</p>
+<p class="reference">References <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html#l00161">PhQ::DimensionlessSymmetricDyad&lt; NumericType &gt;::value</a>.</p>
 
 </div>
 </div>
@@ -577,9 +589,9 @@ template&lt;typename NumericType  = double&gt; </div>
 
 <p>Returns the value of this physical quantity as a mutable value. </p>
 
-<p class="definition">Definition at line <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html#l00064">64</a> of file <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html">DimensionlessSymmetricDyad.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html#l00066">66</a> of file <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html">DimensionlessSymmetricDyad.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html#l00155">PhQ::DimensionlessSymmetricDyad&lt; NumericType &gt;::value</a>.</p>
+<p class="reference">References <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html#l00161">PhQ::DimensionlessSymmetricDyad&lt; NumericType &gt;::value</a>.</p>
 
 </div>
 </div>
@@ -642,10 +654,16 @@ template&lt;typename OtherNumericType &gt; </div>
 </div><div class="memdoc">
 
 <p>Copy assignment operator. Assigns this dimensionless symmetric dyadic tensor physical quantity by copying another one. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">OtherNumericType</td><td>Floating-point numeric type of the other physical quantity. Deduced automatically. </td></tr>
+  </table>
+  </dd>
+</dl>
 
-<p class="definition">Definition at line <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html#l00143">143</a> of file <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html">DimensionlessSymmetricDyad.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html#l00149">149</a> of file <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html">DimensionlessSymmetricDyad.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html#l00059">PhQ::DimensionlessSymmetricDyad&lt; NumericType &gt;::Value()</a>, and <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html#l00155">PhQ::DimensionlessSymmetricDyad&lt; NumericType &gt;::value</a>.</p>
+<p class="reference">References <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html#l00061">PhQ::DimensionlessSymmetricDyad&lt; NumericType &gt;::Value()</a>, and <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html#l00161">PhQ::DimensionlessSymmetricDyad&lt; NumericType &gt;::value</a>.</p>
 
 </div>
 </div>
@@ -706,9 +724,9 @@ template&lt;typename NumericType  = double&gt; </div>
 
 <p>Prints this physical quantity as a string. </p>
 
-<p class="definition">Definition at line <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html#l00074">74</a> of file <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html">DimensionlessSymmetricDyad.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html#l00076">76</a> of file <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html">DimensionlessSymmetricDyad.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html#l00155">PhQ::DimensionlessSymmetricDyad&lt; NumericType &gt;::value</a>.</p>
+<p class="reference">References <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html#l00161">PhQ::DimensionlessSymmetricDyad&lt; NumericType &gt;::value</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="Strain_8hpp_source.html#l00259">PhQ::operator&lt;&lt;()</a>.</p>
 
@@ -742,9 +760,9 @@ template&lt;typename NumericType  = double&gt; </div>
 
 <p>Sets the value of this physical quantity to the given value. </p>
 
-<p class="definition">Definition at line <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html#l00069">69</a> of file <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html">DimensionlessSymmetricDyad.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html#l00071">71</a> of file <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html">DimensionlessSymmetricDyad.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html#l00155">PhQ::DimensionlessSymmetricDyad&lt; NumericType &gt;::value</a>.</p>
+<p class="reference">References <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html#l00161">PhQ::DimensionlessSymmetricDyad&lt; NumericType &gt;::value</a>.</p>
 
 </div>
 </div>
@@ -775,11 +793,11 @@ template&lt;typename NumericType  = double&gt; </div>
 
 <p>Value of this physical quantity. </p>
 
-<p class="definition">Definition at line <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html#l00059">59</a> of file <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html">DimensionlessSymmetricDyad.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html#l00061">61</a> of file <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html">DimensionlessSymmetricDyad.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html#l00155">PhQ::DimensionlessSymmetricDyad&lt; NumericType &gt;::value</a>.</p>
+<p class="reference">References <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html#l00161">PhQ::DimensionlessSymmetricDyad&lt; NumericType &gt;::value</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html#l00143">PhQ::DimensionlessSymmetricDyad&lt; NumericType &gt;::operator=()</a>, <a class="el" href="Strain_8hpp_source.html#l00127">PhQ::Strain&lt; NumericType &gt;::operator=()</a>, and <a class="el" href="ElasticIsotropicSolid_8hpp_source.html#l00389">PhQ::ConstitutiveModel::ElasticIsotropicSolid&lt; NumericType &gt;::Stress()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html#l00149">PhQ::DimensionlessSymmetricDyad&lt; NumericType &gt;::operator=()</a>, <a class="el" href="Strain_8hpp_source.html#l00127">PhQ::Strain&lt; NumericType &gt;::operator=()</a>, and <a class="el" href="ElasticIsotropicSolid_8hpp_source.html#l00389">PhQ::ConstitutiveModel::ElasticIsotropicSolid&lt; NumericType &gt;::Stress()</a>.</p>
 
 </div>
 </div>
@@ -810,9 +828,9 @@ template&lt;typename NumericType  = double&gt; </div>
 
 <p>Serializes this physical quantity as an XML message. </p>
 
-<p class="definition">Definition at line <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html#l00084">84</a> of file <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html">DimensionlessSymmetricDyad.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html#l00086">86</a> of file <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html">DimensionlessSymmetricDyad.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html#l00155">PhQ::DimensionlessSymmetricDyad&lt; NumericType &gt;::value</a>.</p>
+<p class="reference">References <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html#l00161">PhQ::DimensionlessSymmetricDyad&lt; NumericType &gt;::value</a>.</p>
 
 </div>
 </div>
@@ -843,9 +861,9 @@ template&lt;typename NumericType  = double&gt; </div>
 
 <p>Serializes this physical quantity as a YAML message. </p>
 
-<p class="definition">Definition at line <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html#l00089">89</a> of file <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html">DimensionlessSymmetricDyad.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html#l00091">91</a> of file <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html">DimensionlessSymmetricDyad.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html#l00155">PhQ::DimensionlessSymmetricDyad&lt; NumericType &gt;::value</a>.</p>
+<p class="reference">References <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html#l00161">PhQ::DimensionlessSymmetricDyad&lt; NumericType &gt;::value</a>.</p>
 
 </div>
 </div>
@@ -874,9 +892,9 @@ template&lt;typename NumericType  = double&gt; </div>
 
 <p>Value of this physical quantity. </p>
 
-<p class="definition">Definition at line <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html#l00155">155</a> of file <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html">DimensionlessSymmetricDyad.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html#l00161">161</a> of file <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html">DimensionlessSymmetricDyad.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html#l00079">PhQ::DimensionlessSymmetricDyad&lt; NumericType &gt;::JSON()</a>, <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html#l00064">PhQ::DimensionlessSymmetricDyad&lt; NumericType &gt;::MutableValue()</a>, <a class="el" href="Strain_8hpp_source.html#l00185">PhQ::Strain&lt; NumericType &gt;::operator+()</a>, <a class="el" href="Strain_8hpp_source.html#l00189">PhQ::Strain&lt; NumericType &gt;::operator-()</a>, <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html#l00143">PhQ::DimensionlessSymmetricDyad&lt; NumericType &gt;::operator=()</a>, <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html#l00074">PhQ::DimensionlessSymmetricDyad&lt; NumericType &gt;::Print()</a>, <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html#l00069">PhQ::DimensionlessSymmetricDyad&lt; NumericType &gt;::SetValue()</a>, <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html#l00059">PhQ::DimensionlessSymmetricDyad&lt; NumericType &gt;::Value()</a>, <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html#l00084">PhQ::DimensionlessSymmetricDyad&lt; NumericType &gt;::XML()</a>, and <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html#l00089">PhQ::DimensionlessSymmetricDyad&lt; NumericType &gt;::YAML()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html#l00081">PhQ::DimensionlessSymmetricDyad&lt; NumericType &gt;::JSON()</a>, <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html#l00066">PhQ::DimensionlessSymmetricDyad&lt; NumericType &gt;::MutableValue()</a>, <a class="el" href="Strain_8hpp_source.html#l00185">PhQ::Strain&lt; NumericType &gt;::operator+()</a>, <a class="el" href="Strain_8hpp_source.html#l00189">PhQ::Strain&lt; NumericType &gt;::operator-()</a>, <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html#l00149">PhQ::DimensionlessSymmetricDyad&lt; NumericType &gt;::operator=()</a>, <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html#l00076">PhQ::DimensionlessSymmetricDyad&lt; NumericType &gt;::Print()</a>, <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html#l00071">PhQ::DimensionlessSymmetricDyad&lt; NumericType &gt;::SetValue()</a>, <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html#l00061">PhQ::DimensionlessSymmetricDyad&lt; NumericType &gt;::Value()</a>, <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html#l00086">PhQ::DimensionlessSymmetricDyad&lt; NumericType &gt;::XML()</a>, and <a class="el" href="DimensionlessSymmetricDyad_8hpp_source.html#l00091">PhQ::DimensionlessSymmetricDyad&lt; NumericType &gt;::YAML()</a>.</p>
 
 </div>
 </div>
