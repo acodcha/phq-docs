@@ -192,8 +192,14 @@ Protected Attributes</h2></td></tr>
 class PhQ::DimensionlessVector&lt; NumericType &gt;</h3>
 
 <p>Abstract base class that represents any dimensionless vector physical quantity. Such a physical quantity is composed only of a value where the value is a three-dimensional vector. Such a physical quantity has no unit of measure and no dimension set. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">NumericType</td><td>Floating-point numeric type: float, double, or long double. Defaults to double if unspecified. </td></tr>
+  </table>
+  </dd>
+</dl>
 
-<p class="definition">Definition at line <a class="el" href="DimensionlessVector_8hpp_source.html#l00045">45</a> of file <a class="el" href="DimensionlessVector_8hpp_source.html">DimensionlessVector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="DimensionlessVector_8hpp_source.html#l00047">47</a> of file <a class="el" href="DimensionlessVector_8hpp_source.html">DimensionlessVector.hpp</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a9abda44772c129a75507aad3e70797d0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9abda44772c129a75507aad3e70797d0">&#9670;&nbsp;</a></span>DimensionlessVector() <span class="overload">[1/7]</span></h2>
@@ -268,7 +274,7 @@ template&lt;typename NumericType  = double&gt; </div>
 
 <p>Constructor. Constructs a dimensionless vector physical quantity whose value has the given x, y, and z Cartesian components. </p>
 
-<p class="definition">Definition at line <a class="el" href="DimensionlessVector_8hpp_source.html#l00089">89</a> of file <a class="el" href="DimensionlessVector_8hpp_source.html">DimensionlessVector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="DimensionlessVector_8hpp_source.html#l00091">91</a> of file <a class="el" href="DimensionlessVector_8hpp_source.html">DimensionlessVector.hpp</a>.</p>
 
 </div>
 </div>
@@ -300,7 +306,7 @@ template&lt;typename NumericType  = double&gt; </div>
 
 <p>Constructor. Constructs a dimensionless vector physical quantity from a given array representing its value's x, y, and z Cartesian components. </p>
 
-<p class="definition">Definition at line <a class="el" href="DimensionlessVector_8hpp_source.html#l00094">94</a> of file <a class="el" href="DimensionlessVector_8hpp_source.html">DimensionlessVector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="DimensionlessVector_8hpp_source.html#l00096">96</a> of file <a class="el" href="DimensionlessVector_8hpp_source.html">DimensionlessVector.hpp</a>.</p>
 
 </div>
 </div>
@@ -332,7 +338,7 @@ template&lt;typename NumericType  = double&gt; </div>
 
 <p>Constructor. Constructs a dimensionless vector physical quantity with a given value. </p>
 
-<p class="definition">Definition at line <a class="el" href="DimensionlessVector_8hpp_source.html#l00097">97</a> of file <a class="el" href="DimensionlessVector_8hpp_source.html">DimensionlessVector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="DimensionlessVector_8hpp_source.html#l00099">99</a> of file <a class="el" href="DimensionlessVector_8hpp_source.html">DimensionlessVector.hpp</a>.</p>
 
 </div>
 </div>
@@ -424,8 +430,14 @@ template&lt;typename OtherNumericType &gt; </div>
 </div><div class="memdoc">
 
 <p>Copy constructor. Constructs a dimensionless vector physical quantity by copying another one. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">OtherNumericType</td><td>Floating-point numeric type of the other physical quantity. Deduced automatically. </td></tr>
+  </table>
+  </dd>
+</dl>
 
-<p class="definition">Definition at line <a class="el" href="DimensionlessVector_8hpp_source.html#l00109">109</a> of file <a class="el" href="DimensionlessVector_8hpp_source.html">DimensionlessVector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="DimensionlessVector_8hpp_source.html#l00113">113</a> of file <a class="el" href="DimensionlessVector_8hpp_source.html">DimensionlessVector.hpp</a>.</p>
 
 </div>
 </div>
@@ -487,7 +499,7 @@ template&lt;typename NumericType  = double&gt; </div>
 
 <p>Physical dimension set of this physical quantity. Since this physical quantity is dimensionless, its physical dimension set is simply the null set. </p>
 
-<p class="definition">Definition at line <a class="el" href="DimensionlessVector_8hpp_source.html#l00053">53</a> of file <a class="el" href="DimensionlessVector_8hpp_source.html">DimensionlessVector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="DimensionlessVector_8hpp_source.html#l00055">55</a> of file <a class="el" href="DimensionlessVector_8hpp_source.html">DimensionlessVector.hpp</a>.</p>
 
 <p class="reference">References <a class="el" href="Dimensions_8hpp_source.html#l00406">PhQ::Dimensionless</a>.</p>
 
@@ -520,9 +532,9 @@ template&lt;typename NumericType  = double&gt; </div>
 
 <p>Serializes this physical quantity as a JSON message. </p>
 
-<p class="definition">Definition at line <a class="el" href="DimensionlessVector_8hpp_source.html#l00068">68</a> of file <a class="el" href="DimensionlessVector_8hpp_source.html">DimensionlessVector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="DimensionlessVector_8hpp_source.html#l00070">70</a> of file <a class="el" href="DimensionlessVector_8hpp_source.html">DimensionlessVector.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionlessVector_8hpp_source.html#l00136">PhQ::DimensionlessVector&lt; NumericType &gt;::value</a>.</p>
+<p class="reference">References <a class="el" href="DimensionlessVector_8hpp_source.html#l00142">PhQ::DimensionlessVector&lt; NumericType &gt;::value</a>.</p>
 
 </div>
 </div>
@@ -585,10 +597,16 @@ template&lt;typename OtherNumericType &gt; </div>
 </div><div class="memdoc">
 
 <p>Copy assignment operator. Assigns this dimensionless vector physical quantity by copying another one. </p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">OtherNumericType</td><td>Floating-point numeric type of the other physical quantity. Deduced automatically. </td></tr>
+  </table>
+  </dd>
+</dl>
 
-<p class="definition">Definition at line <a class="el" href="DimensionlessVector_8hpp_source.html#l00124">124</a> of file <a class="el" href="DimensionlessVector_8hpp_source.html">DimensionlessVector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="DimensionlessVector_8hpp_source.html#l00130">130</a> of file <a class="el" href="DimensionlessVector_8hpp_source.html">DimensionlessVector.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionlessVector_8hpp_source.html#l00058">PhQ::DimensionlessVector&lt; NumericType &gt;::Value()</a>, and <a class="el" href="DimensionlessVector_8hpp_source.html#l00136">PhQ::DimensionlessVector&lt; NumericType &gt;::value</a>.</p>
+<p class="reference">References <a class="el" href="DimensionlessVector_8hpp_source.html#l00060">PhQ::DimensionlessVector&lt; NumericType &gt;::Value()</a>, and <a class="el" href="DimensionlessVector_8hpp_source.html#l00142">PhQ::DimensionlessVector&lt; NumericType &gt;::value</a>.</p>
 
 </div>
 </div>
@@ -649,9 +667,9 @@ template&lt;typename NumericType  = double&gt; </div>
 
 <p>Prints this physical quantity as a string. </p>
 
-<p class="definition">Definition at line <a class="el" href="DimensionlessVector_8hpp_source.html#l00063">63</a> of file <a class="el" href="DimensionlessVector_8hpp_source.html">DimensionlessVector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="DimensionlessVector_8hpp_source.html#l00065">65</a> of file <a class="el" href="DimensionlessVector_8hpp_source.html">DimensionlessVector.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionlessVector_8hpp_source.html#l00136">PhQ::DimensionlessVector&lt; NumericType &gt;::value</a>.</p>
+<p class="reference">References <a class="el" href="DimensionlessVector_8hpp_source.html#l00142">PhQ::DimensionlessVector&lt; NumericType &gt;::value</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="Direction_8hpp_source.html#l00365">PhQ::operator&lt;&lt;()</a>.</p>
 
@@ -684,11 +702,11 @@ template&lt;typename NumericType  = double&gt; </div>
 
 <p>Value of this physical quantity. </p>
 
-<p class="definition">Definition at line <a class="el" href="DimensionlessVector_8hpp_source.html#l00058">58</a> of file <a class="el" href="DimensionlessVector_8hpp_source.html">DimensionlessVector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="DimensionlessVector_8hpp_source.html#l00060">60</a> of file <a class="el" href="DimensionlessVector_8hpp_source.html">DimensionlessVector.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionlessVector_8hpp_source.html#l00136">PhQ::DimensionlessVector&lt; NumericType &gt;::value</a>.</p>
+<p class="reference">References <a class="el" href="DimensionlessVector_8hpp_source.html#l00142">PhQ::DimensionlessVector&lt; NumericType &gt;::value</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="Direction_8hpp_source.html#l00388">PhQ::Vector&lt; NumericType &gt;::Cross()</a>, <a class="el" href="Direction_8hpp_source.html#l00394">PhQ::Vector&lt; NumericType &gt;::Dyadic()</a>, <a class="el" href="Direction_8hpp_source.html#l00400">PhQ::operator*()</a>, <a class="el" href="DimensionlessVector_8hpp_source.html#l00124">PhQ::DimensionlessVector&lt; NumericType &gt;::operator=()</a>, <a class="el" href="Direction_8hpp_source.html#l00192">PhQ::Direction&lt; NumericType &gt;::operator=()</a>, <a class="el" href="Direction_8hpp_source.html#l00433">PhQ::PlanarDirection&lt; NumericType &gt;::PlanarDirection()</a>, and <a class="el" href="Direction_8hpp_source.html#l00372">PhQ::Vector&lt; NumericType &gt;::Vector()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="Direction_8hpp_source.html#l00388">PhQ::Vector&lt; NumericType &gt;::Cross()</a>, <a class="el" href="Direction_8hpp_source.html#l00394">PhQ::Vector&lt; NumericType &gt;::Dyadic()</a>, <a class="el" href="Direction_8hpp_source.html#l00400">PhQ::operator*()</a>, <a class="el" href="DimensionlessVector_8hpp_source.html#l00130">PhQ::DimensionlessVector&lt; NumericType &gt;::operator=()</a>, <a class="el" href="Direction_8hpp_source.html#l00192">PhQ::Direction&lt; NumericType &gt;::operator=()</a>, <a class="el" href="Direction_8hpp_source.html#l00433">PhQ::PlanarDirection&lt; NumericType &gt;::PlanarDirection()</a>, and <a class="el" href="Direction_8hpp_source.html#l00372">PhQ::Vector&lt; NumericType &gt;::Vector()</a>.</p>
 
 </div>
 </div>
@@ -719,9 +737,9 @@ template&lt;typename NumericType  = double&gt; </div>
 
 <p>Serializes this physical quantity as an XML message. </p>
 
-<p class="definition">Definition at line <a class="el" href="DimensionlessVector_8hpp_source.html#l00073">73</a> of file <a class="el" href="DimensionlessVector_8hpp_source.html">DimensionlessVector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="DimensionlessVector_8hpp_source.html#l00075">75</a> of file <a class="el" href="DimensionlessVector_8hpp_source.html">DimensionlessVector.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionlessVector_8hpp_source.html#l00136">PhQ::DimensionlessVector&lt; NumericType &gt;::value</a>.</p>
+<p class="reference">References <a class="el" href="DimensionlessVector_8hpp_source.html#l00142">PhQ::DimensionlessVector&lt; NumericType &gt;::value</a>.</p>
 
 </div>
 </div>
@@ -752,9 +770,9 @@ template&lt;typename NumericType  = double&gt; </div>
 
 <p>Serializes this physical quantity as a YAML message. </p>
 
-<p class="definition">Definition at line <a class="el" href="DimensionlessVector_8hpp_source.html#l00078">78</a> of file <a class="el" href="DimensionlessVector_8hpp_source.html">DimensionlessVector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="DimensionlessVector_8hpp_source.html#l00080">80</a> of file <a class="el" href="DimensionlessVector_8hpp_source.html">DimensionlessVector.hpp</a>.</p>
 
-<p class="reference">References <a class="el" href="DimensionlessVector_8hpp_source.html#l00136">PhQ::DimensionlessVector&lt; NumericType &gt;::value</a>.</p>
+<p class="reference">References <a class="el" href="DimensionlessVector_8hpp_source.html#l00142">PhQ::DimensionlessVector&lt; NumericType &gt;::value</a>.</p>
 
 </div>
 </div>
@@ -783,9 +801,9 @@ template&lt;typename NumericType  = double&gt; </div>
 
 <p>Value of this physical quantity. </p>
 
-<p class="definition">Definition at line <a class="el" href="DimensionlessVector_8hpp_source.html#l00136">136</a> of file <a class="el" href="DimensionlessVector_8hpp_source.html">DimensionlessVector.hpp</a>.</p>
+<p class="definition">Definition at line <a class="el" href="DimensionlessVector_8hpp_source.html#l00142">142</a> of file <a class="el" href="DimensionlessVector_8hpp_source.html">DimensionlessVector.hpp</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="Direction_8hpp_source.html#l00283">PhQ::Direction&lt; NumericType &gt;::Cross()</a>, <a class="el" href="Direction_8hpp_source.html#l00293">PhQ::Direction&lt; NumericType &gt;::Dyadic()</a>, <a class="el" href="DimensionlessVector_8hpp_source.html#l00068">PhQ::DimensionlessVector&lt; NumericType &gt;::JSON()</a>, <a class="el" href="DimensionlessVector_8hpp_source.html#l00124">PhQ::DimensionlessVector&lt; NumericType &gt;::operator=()</a>, <a class="el" href="DimensionlessVector_8hpp_source.html#l00063">PhQ::DimensionlessVector&lt; NumericType &gt;::Print()</a>, <a class="el" href="DimensionlessVector_8hpp_source.html#l00058">PhQ::DimensionlessVector&lt; NumericType &gt;::Value()</a>, <a class="el" href="DimensionlessVector_8hpp_source.html#l00073">PhQ::DimensionlessVector&lt; NumericType &gt;::XML()</a>, and <a class="el" href="DimensionlessVector_8hpp_source.html#l00078">PhQ::DimensionlessVector&lt; NumericType &gt;::YAML()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="Direction_8hpp_source.html#l00283">PhQ::Direction&lt; NumericType &gt;::Cross()</a>, <a class="el" href="Direction_8hpp_source.html#l00293">PhQ::Direction&lt; NumericType &gt;::Dyadic()</a>, <a class="el" href="DimensionlessVector_8hpp_source.html#l00070">PhQ::DimensionlessVector&lt; NumericType &gt;::JSON()</a>, <a class="el" href="DimensionlessVector_8hpp_source.html#l00130">PhQ::DimensionlessVector&lt; NumericType &gt;::operator=()</a>, <a class="el" href="DimensionlessVector_8hpp_source.html#l00065">PhQ::DimensionlessVector&lt; NumericType &gt;::Print()</a>, <a class="el" href="DimensionlessVector_8hpp_source.html#l00060">PhQ::DimensionlessVector&lt; NumericType &gt;::Value()</a>, <a class="el" href="DimensionlessVector_8hpp_source.html#l00075">PhQ::DimensionlessVector&lt; NumericType &gt;::XML()</a>, and <a class="el" href="DimensionlessVector_8hpp_source.html#l00080">PhQ::DimensionlessVector&lt; NumericType &gt;::YAML()</a>.</p>
 
 </div>
 </div>
