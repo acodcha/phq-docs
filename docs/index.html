@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=9" />
     <meta name="generator" content="Doxygen 1.9.1" />
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=4.0" />
-    <title>Physical Quantities (PhQ): Physical Quantities (PhQ)</title>
+    <title>Physical Quantities: Physical Quantities</title>
     <link href="tabs.css" rel="stylesheet" type="text/css" />
     <script type="text/javascript" src="jquery.js"></script>
     <script type="text/javascript" src="dynsections.js"></script>
@@ -31,12 +31,12 @@
             <tr style="height: 56px">
               <td id="projectalign" style="padding-left: 0.5em">
                 <div id="projectname">
-                  Physical Quantities (PhQ)
+                  Physical Quantities
                   &#160;<span id="projectnumber"
                     >v1.0.0</span
                   >
                 </div>
-                <div id="projectbrief">C++ library of physical quantities, physical models, and units of measure for scientific computation. <a href="https://github.com/acodcha/phq">https://github.com/acodcha/phq</a></div>
+                <div id="projectbrief">C++ library of physical quantities, physical models, and units of measure for scientific computing. <a href="https://github.com/acodcha/phq">https://github.com/acodcha/phq</a></div>
               </td>
             </tr>
           </tbody>
@@ -93,7 +93,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search','.html');
 
 <div class="PageDoc"><div class="header">
   <div class="headertitle">
-<div class="title">Physical Quantities (<a class="el" href="namespacePhQ.html" title="Namespace that encompasses all of the Physical Quantities library&#39;s content.">PhQ</a>) </div>  </div>
+<div class="title">Physical Quantities </div>  </div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><p>Physical Quantities (<a class="el" href="namespacePhQ.html" title="Namespace that encompasses all of the Physical Quantities library&#39;s content.">PhQ</a>) is a C++ library of physical quantities, physical models, and units of measure for scientific computing.</p>
@@ -175,7 +175,7 @@ Configuration: CMake</h2>
 <div class="line">        <a class="code" href="namespacePhQ.html">PhQ</a></div>
 <div class="line">        GIT_REPOSITORY https:<span class="comment">//github.com/acodcha/phq.git</span></div>
 <div class="line">        GIT_TAG main</div>
-<div class="line">    )</div>
+<div class="line">    )  <span class="preprocessor"># You can also use a specific version such as v1.0.0 instead of the main branch.</span></div>
 <div class="line">    FetchContent_MakeAvailable(<a class="code" href="namespacePhQ.html">PhQ</a>)</div>
 <div class="line">    message(STATUS <span class="stringliteral">&quot;The PhQ library was fetched from https://github.com/acodcha/phq.git&quot;</span>)</div>
 <div class="line">endif()</div>
@@ -197,6 +197,7 @@ Configuration: Bazel</h2>
 <div class="line">    remote = &quot;https:<span class="comment">//github.com/acodcha/phq.git&quot;,</span></div>
 <div class="line">    branch = &quot;main&quot;,</div>
 <div class="line">)</div>
+<div class="line"><span class="preprocessor"># Alternatively, you can use a version tag instead of a branch, such as: tag = &quot;v1.0.0&quot;</span></div>
 </div><!-- fragment --><p>The above code automatically downloads the Physical Quantities library and makes it available to your Bazel targets.</p>
 <p>Next, add the following code to your project's <code>BUILD.bazel</code> file:</p>
 <div class="fragment"><div class="line">cc_library(</div>
@@ -217,7 +218,7 @@ Configuration: Bazel</h2>
 <div class="line">    ],</div>
 <div class="line">    copts = [</div>
 <div class="line">        <span class="stringliteral">&quot;-your-other-parameters&quot;</span>,</div>
-<div class="line">        <span class="stringliteral">&quot;-std=c++17&quot;</span>  # Or any more recent C++ standard.</div>
+<div class="line">        <span class="stringliteral">&quot;-std=c++17&quot;</span>,  # Or any more recent C++ standard.</div>
 <div class="line">    ],</div>
 <div class="line">)</div>
 </div><!-- fragment --><p>The above code adds the dependencies for the <code><a class="el" href="classPhQ_1_1Position.html" title="Three-dimensional Euclidean position vector. Contains three components in Cartesian coordinates: x,...">PhQ::Position</a></code> and <code><a class="el" href="classPhQ_1_1ConstitutiveModel_1_1ElasticIsotropicSolid.html" title="Constitutive model for an elastic isotropic solid. This is the simplest constitutive model for a defo...">PhQ::ConstitutiveModel::ElasticIsotropicSolid</a></code> classes to your Bazel C++ library.</p>
@@ -249,7 +250,7 @@ Usage: Basics</h2>
 <div class="ttc" id="anamespacePhQ_1_1Unit_html_adbbc35ccec867274c2d5878f9ba51cf5a1ef292971cad34ecb884283503bf86c1"><div class="ttname"><a href="namespacePhQ_1_1Unit.html#adbbc35ccec867274c2d5878f9ba51cf5a1ef292971cad34ecb884283503bf86c1">PhQ::Unit::Temperature::Celsius</a></div><div class="ttdeci">@ Celsius</div><div class="ttdoc">Degree Celsius (°C) temperature unit.</div></div>
 <div class="ttc" id="anamespacePhQ_1_1Unit_html_adbbc35ccec867274c2d5878f9ba51cf5ad119045e099e65e84e69e73b620a52e3"><div class="ttname"><a href="namespacePhQ_1_1Unit.html#adbbc35ccec867274c2d5878f9ba51cf5ad119045e099e65e84e69e73b620a52e3">PhQ::Unit::Temperature::Fahrenheit</a></div><div class="ttdeci">@ Fahrenheit</div><div class="ttdoc">Degree Fahrenheit (°F) temperature unit.</div></div>
 </div><!-- fragment --><p>The above example creates two temperature quantities, computes their average, and prints the result.</p>
-<p>Physical quantities support the <code>float</code>, <code>double</code>, and <code>long double</code> floating-point number types. A physical quantity's type is inferred from its constructor arguments and can also be explicitly specified. If no type is explicitly specified and the default constructor is used, the <code>double</code> type is used by default. For example:</p>
+<p>Physical quantities support the <code>float</code>, <code>double</code>, and <code>long double</code> floating-point numeric types. A physical quantity's type is inferred from its constructor arguments and can also be explicitly specified. If no type is explicitly specified and the default constructor is used, the <code>double</code> type is used by default. For example:</p>
 <div class="fragment"><div class="line"><span class="comment">// Defaults to PhQ::Area&lt;double&gt;.</span></div>
 <div class="line"><a class="code" href="classPhQ_1_1Area.html">PhQ::Area</a> area_double;</div>
 <div class="line"> </div>
@@ -366,7 +367,28 @@ Usage: Operations</h2>
 <div class="ttc" id="anamespacePhQ_1_1Unit_html_a3c167018d0818cf5b0ce11aafe7dc67ca129e74dde7b475c8848310e16754c965"><div class="ttname"><a href="namespacePhQ_1_1Unit.html#a3c167018d0818cf5b0ce11aafe7dc67ca129e74dde7b475c8848310e16754c965">PhQ::Unit::Length::Foot</a></div><div class="ttdeci">@ Foot</div><div class="ttdoc">Foot (ft) length unit.</div></div>
 <div class="ttc" id="anamespacePhQ_1_1Unit_html_a3c167018d0818cf5b0ce11aafe7dc67cabee12d309ba5730e1e121733b7b67956"><div class="ttname"><a href="namespacePhQ_1_1Unit.html#a3c167018d0818cf5b0ce11aafe7dc67cabee12d309ba5730e1e121733b7b67956">PhQ::Unit::Length::Inch</a></div><div class="ttdeci">@ Inch</div><div class="ttdoc">Inch (in) length unit.</div></div>
 </div><!-- fragment --><p>The above example creates a displacement of (0, 6, 0) in, computes and prints its magnitude and direction, then creates a second displacement of (0, 0, -3) ft, and computes and prints the angle between the two displacements, which is 90 deg.</p>
-<p>The Physical Quantities library checks for divisions by zero in certain critical internal arithmetic operations. For example, <code><a class="el" href="classPhQ_1_1Direction.html" title="Three-dimensional Euclidean direction vector. Contains three components in Cartesian coordinates: x,...">PhQ::Direction</a></code> carefully checks for the zero vector case when normalizing its magnitude, and <code><a class="el" href="classPhQ_1_1Dyad.html" title="Three-dimensional Euclidean dyadic tensor. Contains nine components in Cartesian coordinates: xx,...">PhQ::Dyad</a></code> and <code><a class="el" href="classPhQ_1_1SymmetricDyad.html" title="Symmetric three-dimensional Euclidean dyadic tensor. Contains six components in Cartesian coordinates...">PhQ::SymmetricDyad</a></code> carefully check for a zero determinant when computing their inverse.</p>
+<p>Physical quantities define the standard comparison operators (<code>==</code>, <code>!=</code>, <code>&lt;</code>, <code>&gt;</code>, <code>&lt;=</code>, and <code>&gt;=</code>) and specialize the <code>std::hash</code> function object such that they can be used in standard containers such as <code>std::set</code>, <code>std::unordered_set</code>, <code>std::map</code>, and <code>std::unordered_map</code>. For example:</p>
+<div class="fragment"><div class="line"> {C++}</div>
+<div class="line">assert(<a class="code" href="classPhQ_1_1MachNumber.html">PhQ::MachNumber</a>(0.8) == <a class="code" href="classPhQ_1_1MachNumber.html">PhQ::MachNumber</a>(0.8));</div>
+<div class="line">assert(<a class="code" href="classPhQ_1_1ReynoldsNumber.html">PhQ::ReynoldsNumber</a>(5000.0) &gt; <a class="code" href="classPhQ_1_1ReynoldsNumber.html">PhQ::ReynoldsNumber</a>(200.0));</div>
+<div class="line"> </div>
+<div class="line">std::set&lt;PhQ::AngularSpeed&gt; angular_speed_set{</div>
+<div class="line">  <a class="code" href="namespacePhQ_1_1Unit.html#aed2734f97b5aad1f5e6b6c1687515a2e">PhQ::AngularSpeed</a>(1.23, <a class="code" href="namespacePhQ_1_1Unit.html#aed2734f97b5aad1f5e6b6c1687515a2ea5c3a8480970c0c8602b25a071947d34d">PhQ::Unit::AngularSpeed::RadianPerSecond</a>),</div>
+<div class="line">  <a class="code" href="namespacePhQ_1_1Unit.html#aed2734f97b5aad1f5e6b6c1687515a2e">PhQ::AngularSpeed</a>(4.56, <a class="code" href="namespacePhQ_1_1Unit.html#aed2734f97b5aad1f5e6b6c1687515a2ea323bc32d82dfcd558004ceb0847f08d3">PhQ::Unit::AngularSpeed::RevolutionPerMinute</a>),</div>
+<div class="line">};  <span class="comment">// Uses the less-than comparison operator (&lt;).</span></div>
+<div class="line"> </div>
+<div class="line">std::unordered_set&lt;PhQ::StaticPressure&gt; static_pressure_unordered_set{</div>
+<div class="line">  <a class="code" href="classPhQ_1_1StaticPressure.html">PhQ::StaticPressure</a>(1.23, <a class="code" href="namespacePhQ_1_1Unit.html#abcbda7b992e98486ca609a164ae78a24a81e31611246957c200a7f1f264a97ec8">PhQ::Unit::Pressure::Kilopascal</a>),</div>
+<div class="line">  <a class="code" href="classPhQ_1_1StaticPressure.html">PhQ::StaticPressure</a>(4.56, <a class="code" href="namespacePhQ_1_1Unit.html#abcbda7b992e98486ca609a164ae78a24addc35f88fa71b6ef142ae61f35364653">PhQ::Unit::Pressure::Bar</a>),</div>
+<div class="line">};  <span class="comment">// Uses std::hash&lt;PhQ::StaticPressure&gt;.</span></div>
+<div class="ttc" id="aclassPhQ_1_1ReynoldsNumber_html"><div class="ttname"><a href="classPhQ_1_1ReynoldsNumber.html">PhQ::ReynoldsNumber</a></div><div class="ttdoc">Reynolds number of a fluid flow. Measures the local turbulence of a fluid flow. Represents the ratio ...</div><div class="ttdef"><b>Definition:</b> <a href="ReynoldsNumber_8hpp_source.html#l00045">ReynoldsNumber.hpp:45</a></div></div>
+<div class="ttc" id="aclassPhQ_1_1StaticPressure_html"><div class="ttname"><a href="classPhQ_1_1StaticPressure.html">PhQ::StaticPressure</a></div><div class="ttdoc">Static pressure. Pressure of a fluid at rest. Not to be confused with dynamic pressure,...</div><div class="ttdef"><b>Definition:</b> <a href="StaticPressure_8hpp_source.html#l00070">StaticPressure.hpp:70</a></div></div>
+<div class="ttc" id="anamespacePhQ_1_1Unit_html_abcbda7b992e98486ca609a164ae78a24a81e31611246957c200a7f1f264a97ec8"><div class="ttname"><a href="namespacePhQ_1_1Unit.html#abcbda7b992e98486ca609a164ae78a24a81e31611246957c200a7f1f264a97ec8">PhQ::Unit::Pressure::Kilopascal</a></div><div class="ttdeci">@ Kilopascal</div><div class="ttdoc">Kilopascal (kPa) pressure unit.</div></div>
+<div class="ttc" id="anamespacePhQ_1_1Unit_html_abcbda7b992e98486ca609a164ae78a24addc35f88fa71b6ef142ae61f35364653"><div class="ttname"><a href="namespacePhQ_1_1Unit.html#abcbda7b992e98486ca609a164ae78a24addc35f88fa71b6ef142ae61f35364653">PhQ::Unit::Pressure::Bar</a></div><div class="ttdeci">@ Bar</div><div class="ttdoc">Bar (bar) pressure unit.</div></div>
+<div class="ttc" id="anamespacePhQ_1_1Unit_html_aed2734f97b5aad1f5e6b6c1687515a2e"><div class="ttname"><a href="namespacePhQ_1_1Unit.html#aed2734f97b5aad1f5e6b6c1687515a2e">PhQ::Unit::AngularSpeed</a></div><div class="ttdeci">AngularSpeed</div><div class="ttdoc">Angular speed units.</div><div class="ttdef"><b>Definition:</b> <a href="Unit_2AngularSpeed_8hpp_source.html#l00053">AngularSpeed.hpp:53</a></div></div>
+<div class="ttc" id="anamespacePhQ_1_1Unit_html_aed2734f97b5aad1f5e6b6c1687515a2ea323bc32d82dfcd558004ceb0847f08d3"><div class="ttname"><a href="namespacePhQ_1_1Unit.html#aed2734f97b5aad1f5e6b6c1687515a2ea323bc32d82dfcd558004ceb0847f08d3">PhQ::Unit::AngularSpeed::RevolutionPerMinute</a></div><div class="ttdeci">@ RevolutionPerMinute</div><div class="ttdoc">Revolution per minute (rev/min) angular speed unit.</div></div>
+<div class="ttc" id="anamespacePhQ_1_1Unit_html_aed2734f97b5aad1f5e6b6c1687515a2ea5c3a8480970c0c8602b25a071947d34d"><div class="ttname"><a href="namespacePhQ_1_1Unit.html#aed2734f97b5aad1f5e6b6c1687515a2ea5c3a8480970c0c8602b25a071947d34d">PhQ::Unit::AngularSpeed::RadianPerSecond</a></div><div class="ttdeci">@ RadianPerSecond</div><div class="ttdoc">Radian per second (rad/s) angular speed unit.</div></div>
+</div><!-- fragment --><p>The Physical Quantities library checks for divisions by zero in certain critical internal arithmetic operations. For example, <code><a class="el" href="classPhQ_1_1Direction.html" title="Three-dimensional Euclidean direction vector. Contains three components in Cartesian coordinates: x,...">PhQ::Direction</a></code> carefully checks for the zero vector case when normalizing its magnitude, and <code><a class="el" href="classPhQ_1_1Dyad.html" title="Three-dimensional Euclidean dyadic tensor. Contains nine components in Cartesian coordinates: xx,...">PhQ::Dyad</a></code> and <code><a class="el" href="classPhQ_1_1SymmetricDyad.html" title="Symmetric three-dimensional Euclidean dyadic tensor. Contains six components in Cartesian coordinates...">PhQ::SymmetricDyad</a></code> carefully check for a zero determinant when computing their inverse.</p>
 <p>However, in general, divisions by zero can occur during arithmetic operations between physical quantities. For example, <code><a class="el" href="classPhQ_1_1Length.html" title="Length, distance, or physical size. Can also represent a scalar component or magnitude of a position ...">PhQ::Length</a>&lt;&gt;::Zero() / <a class="el" href="classPhQ_1_1Time.html" title="Time. Can represent either a point in time, a time duration, or a period. For the inverse of time,...">PhQ::Time</a>&lt;&gt;::Zero()</code> results in a <code><a class="el" href="classPhQ_1_1Speed.html" title="Scalar velocity component or magnitude of a velocity vector. For a three-dimensional Euclidean veloci...">PhQ::Speed</a></code> with a value of "not-a-number" (<code>NaN</code>). C++ uses the IEEE 754 floating-point arithmetic standard such that divisions by zero result in <code>inf</code>, <code>-inf</code>, or <code>NaN</code>. If any of these special cases are a concern, use <code>try</code> and <code>catch</code> blocks or standard C++ utilities such as <code>std::isfinite</code>.</p>
 <p>Similarly, floating-point overflows and underflows can occur during arithmetic operations between physical quantities. If this is a concern, query the status of the C++ floating-point environment with <code>std::fetestexcept</code>.</p>
 <p><a class="el" href="index.html#usage">(Back to Usage)</a></p>
@@ -406,7 +428,7 @@ Usage: Units</h2>
 <div class="ttc" id="anamespacePhQ_1_1Unit_html_a5690cf24c854447e014932672e591da1acbf3d08a16a6b826687da549f716fa8f"><div class="ttname"><a href="namespacePhQ_1_1Unit.html#a5690cf24c854447e014932672e591da1acbf3d08a16a6b826687da549f716fa8f">PhQ::Unit::Frequency::Kilohertz</a></div><div class="ttdeci">@ Kilohertz</div><div class="ttdoc">Kilohertz (kHz) frequency unit.</div></div>
 <div class="ttc" id="anamespacePhQ_1_1Unit_html_a5690cf24c854447e014932672e591da1af373520f32c8e017a3a42344b5706960"><div class="ttname"><a href="namespacePhQ_1_1Unit.html#a5690cf24c854447e014932672e591da1af373520f32c8e017a3a42344b5706960">PhQ::Unit::Frequency::Hertz</a></div><div class="ttdeci">@ Hertz</div><div class="ttdoc">Hertz (Hz) frequency unit.</div></div>
 </div><!-- fragment --><p>The above example creates a 1234.56789 Hz frequency and prints it both in hertz and in kilohertz.</p>
-<p>Unit conversions can also be performed explicitly on raw floating-point numbers without the use of physical quantities through the <code><a class="el" href="namespacePhQ.html#a17849ba66fe55dd05dd5b19a689b3905" title="Converts a value expressed in a given unit of measure to a new unit of measure. Returns the converted...">PhQ::Convert</a></code>, <code><a class="el" href="namespacePhQ.html#ab6ebf9272ae38a1dd2fd916ab66163a8" title="Converts a value expressed in a given unit of measure to a new unit of measure. The conversion is per...">PhQ::ConvertInPlace</a></code>, and <code><a class="el" href="namespacePhQ.html#a53955d528dfbf0580f318f403a07638c" title="Converts a value expressed in a given unit of measure to a new unit of measure. Returns the converted...">PhQ::ConvertStatically</a></code> functions, which take one or more floating-point values, an original unit, and a new unit. For example:</p>
+<p>Unit conversions can also be performed directly on raw floating-point numbers through the <code><a class="el" href="namespacePhQ.html#a17849ba66fe55dd05dd5b19a689b3905" title="Converts a value expressed in a given unit of measure to a new unit of measure. Returns the converted...">PhQ::Convert</a></code>, <code><a class="el" href="namespacePhQ.html#ab6ebf9272ae38a1dd2fd916ab66163a8" title="Converts a value expressed in a given unit of measure to a new unit of measure. The conversion is per...">PhQ::ConvertInPlace</a></code>, and <code><a class="el" href="namespacePhQ.html#a53955d528dfbf0580f318f403a07638c" title="Converts a value expressed in a given unit of measure to a new unit of measure. Returns the converted...">PhQ::ConvertStatically</a></code> functions, which take one or more floating-point values, an original unit, and a new unit. For example:</p>
 <div class="fragment"><div class="line">std::vector&lt;double&gt; values = {10.0, 20.0, 30.0, 40.0};</div>
 <div class="line"><a class="code" href="namespacePhQ.html#ab6ebf9272ae38a1dd2fd916ab66163a8">PhQ::ConvertInPlace</a>(values, <a class="code" href="namespacePhQ_1_1Unit.html#a5fd3823ba60b168b5550a29b088facb6a3898f795109b7ea94b8da5ce738dee0e">PhQ::Unit::Energy::Joule</a>, <a class="code" href="namespacePhQ_1_1Unit.html#a5fd3823ba60b168b5550a29b088facb6a5944f6d5b03c262b6f002c692616680a">PhQ::Unit::Energy::FootPound</a>);</div>
 <div class="line"><span class="keywordflow">for</span> (<span class="keyword">const</span> <span class="keywordtype">double</span> value : values) {</div>
@@ -624,8 +646,7 @@ Coverage</h1>
 License</h1>
 <p>Copyright © 2020-2024 Alexandre Coderre-Chabot</p>
 <p>Physical Quantities (<a class="el" href="namespacePhQ.html" title="Namespace that encompasses all of the Physical Quantities library&#39;s content.">PhQ</a>) is a C++ library of physical quantities, physical models, and units of measure for scientific computing.</p>
-<p>The Physical Quantities library is hosted at <a href="https://github.com/acodcha/phq">https://github.com/acodcha/phq</a> and its documentation is hosted at <a href="https://acodcha.github.io/phq-docs">https://acodcha.github.io/phq-docs</a>.</p>
-<p>Physical Quantities (<a class="el" href="namespacePhQ.html" title="Namespace that encompasses all of the Physical Quantities library&#39;s content.">PhQ</a>) is authored by Alexandre Coderre-Chabot (<a href="https://github.com/acodcha">https://github.com/acodcha</a>) and licensed under the MIT License; see the <a href="https://github.com/acodcha/phq/blob/main/LICENSE">license file</a> or <a href="https://mit-license.org">https://mit-license.org</a>.</p>
+<p>The Physical Quantities library is hosted at <a href="https://github.com/acodcha/phq">https://github.com/acodcha/phq</a> and its documentation is hosted at <a href="https://acodcha.github.io/phq-docs">https://acodcha.github.io/phq-docs</a>. Physical Quantities is authored by Alexandre Coderre-Chabot (<a href="https://github.com/acodcha">https://github.com/acodcha</a>) and licensed under the MIT License; see the <a href="https://github.com/acodcha/phq/blob/main/LICENSE">license file</a> or <a href="https://mit-license.org">https://mit-license.org</a>.</p>
 <p>Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:</p>
 <ul>
 <li>The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.</li>
