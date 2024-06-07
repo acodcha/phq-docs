@@ -368,8 +368,7 @@ Usage: Operations</h2>
 <div class="ttc" id="anamespacePhQ_1_1Unit_html_a3c167018d0818cf5b0ce11aafe7dc67cabee12d309ba5730e1e121733b7b67956"><div class="ttname"><a href="namespacePhQ_1_1Unit.html#a3c167018d0818cf5b0ce11aafe7dc67cabee12d309ba5730e1e121733b7b67956">PhQ::Unit::Length::Inch</a></div><div class="ttdeci">@ Inch</div><div class="ttdoc">Inch (in) length unit.</div></div>
 </div><!-- fragment --><p>The above example creates a displacement of (0, 6, 0) in, computes and prints its magnitude and direction, then creates a second displacement of (0, 0, -3) ft, and computes and prints the angle between the two displacements, which is 90 deg.</p>
 <p>Physical quantities define the standard comparison operators (<code>==</code>, <code>!=</code>, <code>&lt;</code>, <code>&gt;</code>, <code>&lt;=</code>, and <code>&gt;=</code>) and specialize the <code>std::hash</code> function object such that they can be used in standard containers such as <code>std::set</code>, <code>std::unordered_set</code>, <code>std::map</code>, and <code>std::unordered_map</code>. For example:</p>
-<div class="fragment"><div class="line"> {C++}</div>
-<div class="line">assert(<a class="code" href="classPhQ_1_1MachNumber.html">PhQ::MachNumber</a>(0.8) == <a class="code" href="classPhQ_1_1MachNumber.html">PhQ::MachNumber</a>(0.8));</div>
+<div class="fragment"><div class="line">assert(<a class="code" href="classPhQ_1_1MachNumber.html">PhQ::MachNumber</a>(0.8) == <a class="code" href="classPhQ_1_1MachNumber.html">PhQ::MachNumber</a>(0.8));</div>
 <div class="line">assert(<a class="code" href="classPhQ_1_1ReynoldsNumber.html">PhQ::ReynoldsNumber</a>(5000.0) &gt; <a class="code" href="classPhQ_1_1ReynoldsNumber.html">PhQ::ReynoldsNumber</a>(200.0));</div>
 <div class="line"> </div>
 <div class="line">std::set&lt;PhQ::AngularSpeed&gt; angular_speed_set{</div>
