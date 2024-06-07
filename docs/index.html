@@ -371,12 +371,12 @@ Usage: Operations</h2>
 <div class="fragment"><div class="line">assert(<a class="code" href="classPhQ_1_1MachNumber.html">PhQ::MachNumber</a>(0.8) == <a class="code" href="classPhQ_1_1MachNumber.html">PhQ::MachNumber</a>(0.8));</div>
 <div class="line">assert(<a class="code" href="classPhQ_1_1ReynoldsNumber.html">PhQ::ReynoldsNumber</a>(5000.0) &gt; <a class="code" href="classPhQ_1_1ReynoldsNumber.html">PhQ::ReynoldsNumber</a>(200.0));</div>
 <div class="line"> </div>
-<div class="line">std::set&lt;PhQ::AngularSpeed&gt; angular_speed_set{</div>
+<div class="line">std::set&lt;PhQ::AngularSpeed&lt;&gt;&gt; angular_speed_set{</div>
 <div class="line">  <a class="code" href="namespacePhQ_1_1Unit.html#aed2734f97b5aad1f5e6b6c1687515a2e">PhQ::AngularSpeed</a>(1.23, <a class="code" href="namespacePhQ_1_1Unit.html#aed2734f97b5aad1f5e6b6c1687515a2ea5c3a8480970c0c8602b25a071947d34d">PhQ::Unit::AngularSpeed::RadianPerSecond</a>),</div>
 <div class="line">  <a class="code" href="namespacePhQ_1_1Unit.html#aed2734f97b5aad1f5e6b6c1687515a2e">PhQ::AngularSpeed</a>(4.56, <a class="code" href="namespacePhQ_1_1Unit.html#aed2734f97b5aad1f5e6b6c1687515a2ea323bc32d82dfcd558004ceb0847f08d3">PhQ::Unit::AngularSpeed::RevolutionPerMinute</a>),</div>
 <div class="line">};  <span class="comment">// Uses the less-than comparison operator (&lt;).</span></div>
 <div class="line"> </div>
-<div class="line">std::unordered_set&lt;PhQ::StaticPressure&gt; static_pressure_unordered_set{</div>
+<div class="line">std::unordered_set&lt;PhQ::StaticPressure&lt;&gt;&gt; static_pressure_unordered_set{</div>
 <div class="line">  <a class="code" href="classPhQ_1_1StaticPressure.html">PhQ::StaticPressure</a>(1.23, <a class="code" href="namespacePhQ_1_1Unit.html#abcbda7b992e98486ca609a164ae78a24a81e31611246957c200a7f1f264a97ec8">PhQ::Unit::Pressure::Kilopascal</a>),</div>
 <div class="line">  <a class="code" href="classPhQ_1_1StaticPressure.html">PhQ::StaticPressure</a>(4.56, <a class="code" href="namespacePhQ_1_1Unit.html#abcbda7b992e98486ca609a164ae78a24addc35f88fa71b6ef142ae61f35364653">PhQ::Unit::Pressure::Bar</a>),</div>
 <div class="line">};  <span class="comment">// Uses std::hash&lt;PhQ::StaticPressure&gt;.</span></div>
