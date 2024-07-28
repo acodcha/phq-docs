@@ -98,13 +98,9 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search','.html');
 <div class="contents">
 <div class="textblock"><p>Physical Quantities (<a class="el" href="namespacePhQ.html" title="Namespace that encompasses all of the Physical Quantities library&#39;s content.">PhQ</a>) is a C++ library of physical quantities, physical models, and units of measure for scientific computing.</p>
 <ul>
-<li><a class="el" href="index.html#requirements">Requirements</a></li>
 <li><a class="el" href="index.html#configuration">Configuration</a>: <a class="el" href="index.html#configuration_cmake">CMake</a>, <a class="el" href="index.html#configuration_bazel">Bazel</a></li>
-<li><a class="el" href="index.html#usage">Usage</a>: <a class="el" href="index.html#usage_basics">Basics</a>, <a class="el" href="index.html#usage_vectors_and_tensors">Vectors and Tensors</a>, <a class="el" href="index.html#usage_operations">Operations</a>, <a class="el" href="index.html#usage_units">Units</a>, <a class="el" href="index.html#usage_unit_systems">Unit Systems</a>, <a class="el" href="index.html#usage_models">Models</a>, <a class="el" href="index.html#usage_dimensions">Dimensions</a></li>
-<li><a class="el" href="index.html#documentation">Documentation</a></li>
-<li><a class="el" href="index.html#installation">Installation</a></li>
-<li><a class="el" href="index.html#testing">Testing</a></li>
-<li><a class="el" href="index.html#coverage">Coverage</a></li>
+<li><a class="el" href="index.html#user_guide">User Guide</a>: <a class="el" href="index.html#user_guide_basics">Basics</a>, <a class="el" href="index.html#user_guide_vectors_and_tensors">Vectors and Tensors</a>, <a class="el" href="index.html#user_guide_operations">Operations</a>, <a class="el" href="index.html#user_guide_units">Units</a>, <a class="el" href="index.html#user_guide_unit_systems">Unit Systems</a>, <a class="el" href="index.html#user_guide_models">Models</a>, <a class="el" href="index.html#user_guide_dimensions">Dimensions</a></li>
+<li><a class="el" href="index.html#developer_guide">Developer Guide</a>: <a class="el" href="index.html#developer_guide_documentation">Documentation</a>, <a class="el" href="index.html#developer_guide_installation">Installation</a>, <a class="el" href="index.html#developer_guide_testing">Testing</a>, <a class="el" href="index.html#developer_guide_coverage">Coverage</a></li>
 <li><a class="el" href="index.html#license">License</a></li>
 </ul>
 <p>Example:</p>
@@ -141,21 +137,10 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search','.html');
 <li>Unit systems allow scientific data to be expressed in several consistent systems of units for use across applications. Never again will you accidentally use pounds when you should have used slugs!</li>
 </ul>
 <p>The Physical Quantities library is hosted at <a href="https://github.com/acodcha/phq">https://github.com/acodcha/phq</a> and its documentation is hosted at <a href="https://acodcha.github.io/phq-docs">https://acodcha.github.io/phq-docs</a>.</p>
-<h1><a class="anchor" id="requirements"></a>
-Requirements</h1>
-<p>The Physical Quantities library requires the following packages:</p>
-<ul>
-<li><b>C++ Compiler:</b> A C++ compiler with support for the C++17 standard or any more recent standard is needed. Any recent C++ compiler will do, such as GCC or Clang. On Ubuntu, install GCC with <code>sudo apt install g++</code> or Clang with <code>sudo apt install clang</code>.</li>
-<li><b>CMake</b> or <b>Bazel:</b> Either the CMake build system or the Bazel build system is required.<ul>
-<li><b>CMake:</b> On Ubuntu, install CMake with <code>sudo apt install cmake</code>. Visit <a href="https://cmake.org">https://cmake.org</a> for alternative means of installation.</li>
-<li><b>Bazel:</b> Follow the instructions at <a href="https://bazel.build/install">https://bazel.build/install</a> to install Bazel on your system.</li>
-</ul>
-</li>
-</ul>
-<p><a class="el" href="index.html">(Back to Top)</a></p>
 <h1><a class="anchor" id="configuration"></a>
 Configuration</h1>
-<p>The Physical Quantities library can be configured with either the CMake build system or the Bazel build system.</p>
+<p>The Physical Quantities library is a header-only library written in C++17 and therefore requires a C++ compiler with support for the C++17 standard or any more recent standard. Any recent C++ compiler should do, such as GCC or Clang. Install GCC on Ubuntu with <code>sudo apt install g++</code> or visit <a href="https://gcc.gnu.org">https://gcc.gnu.org</a> for alternate means of installation. Install Clang on Ubuntu with <code>sudo apt install clang</code> or visit <a href="https://clang.llvm.org/">https://clang.llvm.org/</a> for alternate means of installation.</p>
+<p>The Physical Quantities library also requires a build system. Currently, both the CMake build system and the Bazel build system are supported:</p>
 <ul>
 <li><a class="el" href="index.html#configuration_cmake">CMake</a></li>
 <li><a class="el" href="index.html#configuration_bazel">Bazel</a></li>
@@ -163,7 +148,8 @@ Configuration</h1>
 <p><a class="el" href="index.html">(Back to Top)</a></p>
 <h2><a class="anchor" id="configuration_cmake"></a>
 Configuration: CMake</h2>
-<p>To use this library in one of your CMake C++ projects, add the following code to your project's <code>CMakeLists.txt</code> file:</p>
+<p>Install the CMake build system on Ubuntu with <code>sudo apt install cmake</code> or visit <a href="https://cmake.org">https://cmake.org</a> for alternate means of installation.</p>
+<p>To use the Physical Quantities library in one of your CMake C++ projects, add the following code to your project's <code>CMakeLists.txt</code> file:</p>
 <div class="fragment"><div class="line">set(CMAKE_CXX_STANDARD 17)  <span class="preprocessor"># Or any more recent C++ standard.</span></div>
 <div class="line">set(CMAKE_CXX_STANDARD_REQUIRED ON)</div>
 <div class="line">include(FetchContent)</div>
@@ -184,13 +170,13 @@ Configuration: CMake</h2>
 <div class="line"> </div>
 <div class="line">target_link_libraries(your_target_name [your_other_options] <a class="code" href="namespacePhQ.html">PhQ</a>)</div>
 <div class="ttc" id="anamespacePhQ_html"><div class="ttname"><a href="namespacePhQ.html">PhQ</a></div><div class="ttdoc">Namespace that encompasses all of the Physical Quantities library's content.</div><div class="ttdef"><b>Definition:</b> <a href="Acceleration_8hpp_source.html#l00044">Acceleration.hpp:44</a></div></div>
-</div><!-- fragment --><p>The above code first checks whether the Physical Quantities library is installed on your system (see the <a href="#installation">Installation</a> section). If found, the library is linked to your target. Otherwise, the library is automatically downloaded from its GitHub repository and linked to your target.</p>
-<p>Once this is done, simply include this library's C++ headers in your project's C++ source files, such as <code>#include &lt;<a class="el" href="Position_8hpp.html">PhQ/Position.hpp</a>&gt;</code> for the <code><a class="el" href="classPhQ_1_1Position.html" title="Three-dimensional Euclidean position vector. Contains three components in Cartesian coordinates: x,...">PhQ::Position</a></code> class. The <code><a class="el" href="namespacePhQ.html" title="Namespace that encompasses all of the Physical Quantities library&#39;s content.">PhQ</a>::</code> namespace encapsulates all of the Physical Quantities library's contents.</p>
+</div><!-- fragment --><p>The above code first checks whether the Physical Quantities library is installed on your system (see the <a class="el" href="index.html#developer_guide">Developer Guide</a> section). If found, the library is linked to your target. Otherwise, the library is automatically downloaded from its GitHub repository and linked to your target.</p>
+<p>Once this is done, simply include the Physical Quantities library's C++ headers in your project's C++ source files, such as <code>#include &lt;<a class="el" href="Position_8hpp.html">PhQ/Position.hpp</a>&gt;</code> for the <code><a class="el" href="classPhQ_1_1Position.html" title="Three-dimensional Euclidean position vector. Contains three components in Cartesian coordinates: x,...">PhQ::Position</a></code> class. The <code><a class="el" href="namespacePhQ.html" title="Namespace that encompasses all of the Physical Quantities library&#39;s content.">PhQ</a>::</code> namespace encapsulates all of the Physical Quantities library's contents.</p>
 <p><a class="el" href="index.html#configuration">(Back to Configuration)</a></p>
 <h2><a class="anchor" id="configuration_bazel"></a>
 Configuration: Bazel</h2>
-<p>To use this library in one of your Bazel C++ projects, do the following.</p>
-<p>Add the following code to your project's <code>WORKSPACE.bazel</code> file:</p>
+<p>Follow the instructions at <a href="https://bazel.build/install">https://bazel.build/install</a> to install the Bazel build system on your system.</p>
+<p>To use the Physical Quantities library in one of your Bazel C++ projects, first add the following code to your project's <code>WORKSPACE.bazel</code> file:</p>
 <div class="fragment"><div class="line">load(<span class="stringliteral">&quot;@bazel_tools//tools/build_defs/repo:git.bzl&quot;</span>, <span class="stringliteral">&quot;git_repository&quot;</span>)</div>
 <div class="line">git_repository(</div>
 <div class="line">    name = &quot;<a class="code" href="namespacePhQ.html">PhQ</a>&quot;,</div>
@@ -222,23 +208,24 @@ Configuration: Bazel</h2>
 <div class="line">    ],</div>
 <div class="line">)</div>
 </div><!-- fragment --><p>The above code adds the dependencies for the <code><a class="el" href="classPhQ_1_1Position.html" title="Three-dimensional Euclidean position vector. Contains three components in Cartesian coordinates: x,...">PhQ::Position</a></code> and <code><a class="el" href="classPhQ_1_1ConstitutiveModel_1_1ElasticIsotropicSolid.html" title="Constitutive model for an elastic isotropic solid. This is the simplest constitutive model for a defo...">PhQ::ConstitutiveModel::ElasticIsotropicSolid</a></code> classes to your Bazel C++ library.</p>
-<p>Finally, simply include this library's C++ headers in your project's C++ source files, such as <code>#include &lt;<a class="el" href="Position_8hpp.html">PhQ/Position.hpp</a>&gt;</code> for the <code><a class="el" href="classPhQ_1_1Position.html" title="Three-dimensional Euclidean position vector. Contains three components in Cartesian coordinates: x,...">PhQ::Position</a></code> class. The <code><a class="el" href="namespacePhQ.html" title="Namespace that encompasses all of the Physical Quantities library&#39;s content.">PhQ</a>::</code> namespace encapsulates all of this library's contents.</p>
+<p>Finally, simply include the Physical Quantities library's C++ headers in your project's C++ source files, such as <code>#include &lt;<a class="el" href="Position_8hpp.html">PhQ/Position.hpp</a>&gt;</code> for the <code><a class="el" href="classPhQ_1_1Position.html" title="Three-dimensional Euclidean position vector. Contains three components in Cartesian coordinates: x,...">PhQ::Position</a></code> class. The <code><a class="el" href="namespacePhQ.html" title="Namespace that encompasses all of the Physical Quantities library&#39;s content.">PhQ</a>::</code> namespace encapsulates all of the Physical Quantities library's contents.</p>
 <p><a class="el" href="index.html#configuration">(Back to Configuration)</a></p>
-<h1><a class="anchor" id="usage"></a>
-Usage</h1>
-<p>This section contains basic usage information of the Physical Quantities library; see the <a class="el" href="index.html#documentation">Documentation</a> section for the full documentation.</p>
+<h1><a class="anchor" id="user_guide"></a>
+User Guide</h1>
+<p>This section contains a basic user guide for the Physical Quantities library:</p>
 <ul>
-<li><a class="el" href="index.html#usage_basics">Basics</a></li>
-<li><a class="el" href="index.html#usage_vectors_and_tensors">Vectors and Tensors</a></li>
-<li><a class="el" href="index.html#usage_operations">Operations</a></li>
-<li><a class="el" href="index.html#usage_units">Units</a></li>
-<li><a class="el" href="index.html#usage_unit_systems">Unit Systems</a></li>
-<li><a class="el" href="index.html#usage_models">Models</a></li>
-<li><a class="el" href="index.html#usage_dimensions">Dimensions</a></li>
+<li><a class="el" href="index.html#user_guide_basics">Basics</a></li>
+<li><a class="el" href="index.html#user_guide_vectors_and_tensors">Vectors and Tensors</a></li>
+<li><a class="el" href="index.html#user_guide_operations">Operations</a></li>
+<li><a class="el" href="index.html#user_guide_units">Units</a></li>
+<li><a class="el" href="index.html#user_guide_unit_systems">Unit Systems</a></li>
+<li><a class="el" href="index.html#user_guide_models">Models</a></li>
+<li><a class="el" href="index.html#user_guide_dimensions">Dimensions</a></li>
 </ul>
+<p>In addition to this user guide, the full documentation of the Physical Quantities library is hosted here, at <a href="https://acodcha.github.io/phq-docs">https://acodcha.github.io/phq-docs</a>.</p>
 <p><a class="el" href="index.html">(Back to Top)</a></p>
-<h2><a class="anchor" id="usage_basics"></a>
-Usage: Basics</h2>
+<h2><a class="anchor" id="user_guide_basics"></a>
+User Guide: Basics</h2>
 <p>Physical quantities are constructed from a value and a unit and support standard arithmetic operations. For example:</p>
 <div class="fragment"><div class="line"><a class="code" href="classPhQ_1_1Temperature.html">PhQ::Temperature</a> low{10.0, <a class="code" href="namespacePhQ_1_1Unit.html#adbbc35ccec867274c2d5878f9ba51cf5a1ef292971cad34ecb884283503bf86c1">PhQ::Unit::Temperature::Celsius</a>};</div>
 <div class="line"><a class="code" href="classPhQ_1_1Temperature.html">PhQ::Temperature</a> high{68.0, <a class="code" href="namespacePhQ_1_1Unit.html#adbbc35ccec867274c2d5878f9ba51cf5ad119045e099e65e84e69e73b620a52e3">PhQ::Unit::Temperature::Fahrenheit</a>};</div>
@@ -295,10 +282,10 @@ Usage: Basics</h2>
 <div class="ttc" id="anamespacePhQ_1_1Unit_html_a3c167018d0818cf5b0ce11aafe7dc67ca3731c4c4bb730aa072bbcfa62f8a796a"><div class="ttname"><a href="namespacePhQ_1_1Unit.html#a3c167018d0818cf5b0ce11aafe7dc67ca3731c4c4bb730aa072bbcfa62f8a796a">PhQ::Unit::Length::Mile</a></div><div class="ttdeci">@ Mile</div><div class="ttdoc">Mile (mi) length unit.</div></div>
 <div class="ttc" id="anamespacePhQ_1_1Unit_html_a9db0744c7327e0be668ead2519667f65a1daa71d6b9018222ea89018b187dbe02"><div class="ttname"><a href="namespacePhQ_1_1Unit.html#a9db0744c7327e0be668ead2519667f65a1daa71d6b9018222ea89018b187dbe02">PhQ::Unit::Volume::Litre</a></div><div class="ttdeci">@ Litre</div><div class="ttdoc">Litre (L) volume unit.</div></div>
 </div><!-- fragment --><p>The only circumstance in which the Physical Quantities library throws an exception is a memory allocation failure due to running out of memory on your system when instantiating a new C++ object. In this case, C++ throws a <code>std::bad_alloc</code> exception.</p>
-<p>If maintaining a strong exception guarantee is a concern, use <code>try</code> and <code>catch</code> blocks when instantiating new objects to handle this exception. Other than this case, the Physical Quantities library does not throw exceptions. Where applicable, this library's functions and methods are marked <code>noexcept</code>.</p>
-<p><a class="el" href="index.html#usage">(Back to Usage)</a></p>
-<h2><a class="anchor" id="usage_vectors_and_tensors"></a>
-Usage: Vectors and Tensors</h2>
+<p>If maintaining a strong exception guarantee is a concern, use <code>try</code> and <code>catch</code> blocks when instantiating new objects to handle this exception. Other than this case, the Physical Quantities library does not throw exceptions. Where applicable, the Physical Quantities library's functions and methods are marked <code>noexcept</code>.</p>
+<p><a class="el" href="index.html#user_guide">(Back to User Guide)</a></p>
+<h2><a class="anchor" id="user_guide_vectors_and_tensors"></a>
+User Guide: Vectors and Tensors</h2>
 <p>Physical quantities' values can be scalars, vectors, or dyadic tensors. Vectors and dyadic tensors are defined in three-dimensional Euclidean space and use Cartesian coordinates. For example:</p>
 <div class="fragment"><div class="line"><a class="code" href="classPhQ_1_1HeatFlux.html">PhQ::HeatFlux</a> heat_flux{{-200.0,  <span class="comment">// x</span></div>
 <div class="line">                          300.0,  <span class="comment">// y</span></div>
@@ -338,9 +325,9 @@ Usage: Vectors and Tensors</h2>
 <div class="ttc" id="aclassPhQ_1_1Stress_html"><div class="ttname"><a href="classPhQ_1_1Stress.html">PhQ::Stress</a></div><div class="ttdoc">Three-dimensional Euclidean Cauchy stress symmetric dyadic tensor. Contains six components in Cartesi...</div><div class="ttdef"><b>Definition:</b> <a href="Stress_8hpp_source.html#l00050">Stress.hpp:50</a></div></div>
 <div class="ttc" id="anamespacePhQ_1_1Unit_html_abcbda7b992e98486ca609a164ae78a24a7566a088894c743f28e34fd490bed5fc"><div class="ttname"><a href="namespacePhQ_1_1Unit.html#abcbda7b992e98486ca609a164ae78a24a7566a088894c743f28e34fd490bed5fc">PhQ::Unit::Pressure::Megapascal</a></div><div class="ttdeci">@ Megapascal</div><div class="ttdoc">Megapascal (MPa) pressure unit.</div></div>
 </div><!-- fragment --><p>The above example creates a stress tensor, asserts that it is symmetric, and computes and prints its equivalent von Mises stress.</p>
-<p><a class="el" href="index.html#usage">(Back to Usage)</a></p>
-<h2><a class="anchor" id="usage_operations"></a>
-Usage: Operations</h2>
+<p><a class="el" href="index.html#user_guide">(Back to User Guide)</a></p>
+<h2><a class="anchor" id="user_guide_operations"></a>
+User Guide: Operations</h2>
 <p>Meaningful arithmetic operations between different physical quantities are supported via operator overloading. Mathematical operations between physical quantities are implemented efficiently with no runtime overhead compared to using raw floating-point numbers to represent the same data. For example:</p>
 <div class="fragment"><div class="line"><a class="code" href="classPhQ_1_1Velocity.html">PhQ::Velocity</a> velocity{{50.0, -10.0, 20.0}, <a class="code" href="namespacePhQ_1_1Unit.html#ade1b15225d4c0137f9572ee61f237d3ea1dd98d17d5349eac097bee8bca356093">PhQ::Unit::Speed::MetrePerSecond</a>};</div>
 <div class="line"><a class="code" href="classPhQ_1_1Time.html">PhQ::Time</a> time{10.0, <a class="code" href="namespacePhQ_1_1Unit.html#adbc97f010eafdca22d3b36aa61a56f57ac22cf8376b1893dcfcef0649fe1a7d87">PhQ::Unit::Time::Second</a>};</div>
@@ -390,9 +377,9 @@ Usage: Operations</h2>
 </div><!-- fragment --><p>The Physical Quantities library checks for divisions by zero in certain critical internal arithmetic operations. For example, <code><a class="el" href="classPhQ_1_1Direction.html" title="Three-dimensional Euclidean direction vector. Contains three components in Cartesian coordinates: x,...">PhQ::Direction</a></code> carefully checks for the zero vector case when normalizing its magnitude, and <code><a class="el" href="classPhQ_1_1Dyad.html" title="Three-dimensional Euclidean dyadic tensor. Contains nine components in Cartesian coordinates: xx,...">PhQ::Dyad</a></code> and <code><a class="el" href="classPhQ_1_1SymmetricDyad.html" title="Symmetric three-dimensional Euclidean dyadic tensor. Contains six components in Cartesian coordinates...">PhQ::SymmetricDyad</a></code> carefully check for a zero determinant when computing their inverse.</p>
 <p>However, in general, divisions by zero can occur during arithmetic operations between physical quantities. For example, <code><a class="el" href="classPhQ_1_1Length.html" title="Length, distance, or physical size. Can also represent a scalar component or magnitude of a position ...">PhQ::Length</a>&lt;&gt;::Zero() / <a class="el" href="classPhQ_1_1Time.html" title="Time. Can represent either a point in time, a time duration, or a period. For the inverse of time,...">PhQ::Time</a>&lt;&gt;::Zero()</code> results in a <code><a class="el" href="classPhQ_1_1Speed.html" title="Scalar velocity component or magnitude of a velocity vector. For a three-dimensional Euclidean veloci...">PhQ::Speed</a></code> with a value of "not-a-number" (<code>NaN</code>). C++ uses the IEEE 754 floating-point arithmetic standard such that divisions by zero result in <code>inf</code>, <code>-inf</code>, or <code>NaN</code>. If any of these special cases are a concern, use <code>try</code> and <code>catch</code> blocks or standard C++ utilities such as <code>std::isfinite</code>.</p>
 <p>Similarly, floating-point overflows and underflows can occur during arithmetic operations between physical quantities. If this is a concern, query the status of the C++ floating-point environment with <code>std::fetestexcept</code>.</p>
-<p><a class="el" href="index.html#usage">(Back to Usage)</a></p>
-<h2><a class="anchor" id="usage_units"></a>
-Usage: Units</h2>
+<p><a class="el" href="index.html#user_guide">(Back to User Guide)</a></p>
+<h2><a class="anchor" id="user_guide_units"></a>
+User Guide: Units</h2>
 <p>The Physical Quantities library handles unit conversions automatically, and all unit conversions are exact to within floating-point arithmetic precision.</p>
 <p>When a physical quantity object is constructed, its value is immediately converted to the standard unit of measure in the standard system of units: the metre-kilogram-second-kelvin (m·kg·s·K) system. This way, all physical quantities maintain their values in a consistent system of units. This approach greatly minimizes the number of unit conversions during program execution; when arithmetic operations are performed between physical quantities, no unit conversion is needed.</p>
 <p>The only other instances where a physical quantity undergoes a unit conversion is when its value is expressed in a different unit of measure or when the physical quantity itself is printed as a string expressed in a different unit of measure. These cases are illustrated in the following examples.</p>
@@ -456,9 +443,9 @@ Usage: Units</h2>
 <div class="line"><span class="comment">// 29.5025</span></div>
 <div class="ttc" id="aclassPhQ_1_1Energy_html"><div class="ttname"><a href="classPhQ_1_1Energy.html">PhQ::Energy</a></div><div class="ttdoc">Energy physical quantity. Can represent any kind of energy, such as kinetic energy,...</div><div class="ttdef"><b>Definition:</b> <a href="Energy_8hpp_source.html#l00073">Energy.hpp:73</a></div></div>
 </div><!-- fragment --><p>In general, when it comes to unit conversions, it is simpler to use the <code>Value</code> or <code>Print</code> member methods of physical quantities rather than to explicitly invoke conversion functions.</p>
-<p><a class="el" href="index.html#usage">(Back to Usage)</a></p>
-<h2><a class="anchor" id="usage_unit_systems"></a>
-Usage: Unit Systems</h2>
+<p><a class="el" href="index.html#user_guide">(Back to User Guide)</a></p>
+<h2><a class="anchor" id="user_guide_unit_systems"></a>
+User Guide: Unit Systems</h2>
 <p>Internally, physical quantities store their values in the metre-kilogram-second-kelvin (m·kg·s·K) system. Unit conversions are performed automatically when physical quantity objects are constructed. Other common systems of units of measure are also defined:</p>
 <ul>
 <li>Metre-kilogram-second-kelvin (m·kg·s·K) system</li>
@@ -496,9 +483,9 @@ Usage: Unit Systems</h2>
 <div class="line">std::optional&lt;PhQ::UnitSystem&gt; optional_system = <a class="code" href="namespacePhQ.html#a8cc3aae9a7b257010986c978ab8249e0">PhQ::RelatedUnitSystem</a>(unit);</div>
 <div class="line">assert(!optional_system.has_value());</div>
 </div><!-- fragment --><p>The above example shows that the pound (lbm) mass unit does not relate to any particular system of units.</p>
-<p><a class="el" href="index.html#usage">(Back to Usage)</a></p>
-<h2><a class="anchor" id="usage_models"></a>
-Usage: Models</h2>
+<p><a class="el" href="index.html#user_guide">(Back to User Guide)</a></p>
+<h2><a class="anchor" id="user_guide_models"></a>
+User Guide: Models</h2>
 <p>Some physical models and related operations are supported. Physical models allow complex mathematical calculations to be performed easily. For example:</p>
 <div class="fragment"><div class="line"><span class="keyword">const</span> std::unique_ptr&lt;const ConstitutiveModel&gt; constitutive_model =</div>
 <div class="line">    std::make_unique&lt;const ConstitutiveModel::ElasticIsotropicSolid&lt;double&gt;&gt;(</div>
@@ -522,9 +509,9 @@ Usage: Models</h2>
 <div class="ttc" id="aclassPhQ_1_1YoungModulus_html"><div class="ttname"><a href="classPhQ_1_1YoungModulus.html">PhQ::YoungModulus</a></div><div class="ttdoc">Young's modulus of elasticity of a deformable solid material. A measure of a deformable solid materia...</div><div class="ttdef"><b>Definition:</b> <a href="YoungModulus_8hpp_source.html#l00042">YoungModulus.hpp:42</a></div></div>
 <div class="ttc" id="anamespacePhQ_1_1Unit_html_abcbda7b992e98486ca609a164ae78a24aa7a808c7a03b7059369c362f420b2f1c"><div class="ttname"><a href="namespacePhQ_1_1Unit.html#abcbda7b992e98486ca609a164ae78a24aa7a808c7a03b7059369c362f420b2f1c">PhQ::Unit::Pressure::Gigapascal</a></div><div class="ttdeci">@ Gigapascal</div><div class="ttdoc">Gigapascal (GPa) pressure unit.</div></div>
 </div><!-- fragment --><p>The above example creates an elastic isotropic solid constitutive model from a Young's modulus and a Poisson's ratio, and then uses it to compute the stress tensor resulting from a given strain tensor.</p>
-<p><a class="el" href="index.html#usage">(Back to Usage)</a></p>
-<h2><a class="anchor" id="usage_dimensions"></a>
-Usage: Dimensions</h2>
+<p><a class="el" href="index.html#user_guide">(Back to User Guide)</a></p>
+<h2><a class="anchor" id="user_guide_dimensions"></a>
+User Guide: Dimensions</h2>
 <p>Seven independent base physical dimensions form the physical dimension set of any unit of measure or physical quantity. These seven independent base physical dimensions are: time (T), length (L), mass (M), electric current (I), temperature (Θ), amount of substance (N), and luminous intensity (J). Units of measure that share the same physical dimension set are of the same type and can be converted between one another.</p>
 <p>For example, the metre per second and the mile per hour are both units of measure that have the same physical dimension set of T^(-1)·L, which is the physical dimension set of speed, so these two units of measure can be converted between one another.</p>
 <p>On the other hand, the kilogram per cubic metre is a unit of measure with physical dimension set L^(-3)·M, which is the physical dimension set of mass density, so this unit of measure cannot be converted to either the metre per second or the mile per hour, which have a different physical dimension set.</p>
@@ -569,46 +556,44 @@ Usage: Dimensions</h2>
 <div class="line"><span class="comment">// Dimensions: L^(-3)·M</span></div>
 <div class="ttc" id="aclassPhQ_1_1DimensionalScalar_html_afb6ee843bf9ff8888de5a9dea1c00a94"><div class="ttname"><a href="classPhQ_1_1DimensionalScalar.html#afb6ee843bf9ff8888de5a9dea1c00a94">PhQ::DimensionalScalar&lt; Unit::MassDensity, double &gt;::Dimensions</a></div><div class="ttdeci">static constexpr const PhQ::Dimensions &amp; Dimensions()</div><div class="ttdoc">Physical dimension set of this physical quantity.</div><div class="ttdef"><b>Definition:</b> <a href="DimensionalScalar_8hpp_source.html#l00054">DimensionalScalar.hpp:54</a></div></div>
 </div><!-- fragment --><p>The above example obtains the physical dimension set of mass density, which is L^(-3)·M.</p>
-<p><a class="el" href="index.html#usage">(Back to Usage)</a></p>
-<h1><a class="anchor" id="documentation"></a>
-Documentation</h1>
-<p>The full documentation of the Physical Quantities library is hosted here, at <a href="https://acodcha.github.io/phq-docs">https://acodcha.github.io/phq-docs</a>:</p>
+<p><a class="el" href="index.html#user_guide">(Back to User Guide)</a></p>
+<h1><a class="anchor" id="developer_guide"></a>
+Developer Guide</h1>
+<p>This section contains a developer guide for the Physical Quantities library.</p>
 <ul>
-<li><a href="namespaces.html">Namespaces</a>: <a href="namespaces.html">Namespace List</a>, <a href="namespacemembers.html">Namespace Members</a></li>
-<li><a href="annotated.html">Classes</a>: <a href="annotated.html">Class List</a>, <a href="hierarchy.html">Class Hierarchy</a>, <a href="functions.html">Class Members</a></li>
-<li><a href="files.html">Files</a></li>
+<li><a class="el" href="index.html#developer_guide_documentation">Documentation</a></li>
+<li><a class="el" href="index.html#developer_guide_installation">Installation</a></li>
+<li><a class="el" href="index.html#developer_guide_testing">Testing</a></li>
+<li><a class="el" href="index.html#developer_guide_coverage">Coverage</a></li>
 </ul>
-<p>Alternatively, the documentation can be built locally on your system. Doing so requires the following additional package:</p>
-<ul>
-<li><b>Doxygen</b>: The Doxygen library (<a href="https://www.doxygen.nl/index.html">https://www.doxygen.nl/index.html</a>) is used for building documentation. On Ubuntu, install it with <code>sudo apt install doxygen</code>.</li>
-</ul>
+<p><a class="el" href="index.html">(Back to Top)</a></p>
+<h2><a class="anchor" id="developer_guide_documentation"></a>
+Developer Guide: Documentation</h2>
+<p>The full documentation of the Physical Quantities library is hosted here, at <a href="https://acodcha.github.io/phq-docs">https://acodcha.github.io/phq-docs</a>.</p>
+<p>Alternatively, the Physical Quantities library's documentation can be built locally on your system with the Doxygen documentation generator. Install the Doxygen documentation generator on Ubuntu with <code>sudo apt install doxygen</code> or visit <a href="https://www.doxygen.nl/index.html">https://www.doxygen.nl/index.html</a> for alternate means of installation.</p>
 <p>Clone the Physical Quantities library's repository and build its documentation with:</p>
 <div class="fragment"><div class="line">git clone git@github.com:acodcha/phq.git <a class="code" href="namespacePhQ.html">PhQ</a></div>
 <div class="line">cd <a class="code" href="namespacePhQ.html">PhQ</a></div>
 <div class="line">doxygen Doxyfile</div>
 </div><!-- fragment --><p>This builds HTML documentation pages in the <code>PhQ/docs/html/</code> directory. Browse the documentation by opening the <code>PhQ/docs/html/index.html</code> file in a web browser.</p>
-<p><a class="el" href="index.html">(Back to Top)</a></p>
-<h1><a class="anchor" id="installation"></a>
-Installation</h1>
+<p><a class="el" href="index.html#developer_guide">(Back to Developer Guide)</a></p>
+<h2><a class="anchor" id="developer_guide_installation"></a>
+Developer Guide: Installation</h2>
 <p>If using the CMake build system, the Physical Quantities library can optionally be installed on your system to conveniently use it in your CMake projects. Alternatively, see the <a class="el" href="index.html#configuration">Configuration</a> section for other methods of use.</p>
-<p>Clone this library's repository, configure it, and install it with:</p>
+<p>Clone the Physical Quantities library's repository, configure it, and install it with:</p>
 <div class="fragment"><div class="line">git clone git@github.com:acodcha/phq.git <a class="code" href="namespacePhQ.html">PhQ</a></div>
 <div class="line">cd <a class="code" href="namespacePhQ.html">PhQ</a></div>
 <div class="line">mkdir build</div>
 <div class="line">cd build</div>
 <div class="line">cmake ..</div>
 <div class="line">sudo make install</div>
-</div><!-- fragment --><p>This is a header-only library, so no compilation is needed. On most systems, the above code installs this library's headers to <code>/usr/local/include/PhQ</code> and writes configuration files to <code>/usr/local/share/PhQ</code>. You can uninstall the library by simply deleting these directories.</p>
-<p><a class="el" href="index.html">(Back to Top)</a></p>
-<h1><a class="anchor" id="testing"></a>
-Testing</h1>
-<p>The Physical Quantities library is automatically tested whenever it is updated.</p>
-<p>Testing can optionally be performed locally on your system. Doing so requires the following additional package:</p>
-<ul>
-<li><b>GoogleTest</b>: The GoogleTest library (<a href="https://github.com/google/googletest">https://github.com/google/googletest</a>) is used for testing. On Ubuntu, install it with <code>sudo apt install libgtest-dev</code>.</li>
-</ul>
+</div><!-- fragment --><p>This is a header-only library, so no compilation is needed. On most systems, the above code installs the Physical Quantities library's headers to <code>/usr/local/include/PhQ</code> and writes configuration files to <code>/usr/local/share/PhQ</code>. You can uninstall the library by simply deleting these directories.</p>
+<p><a class="el" href="index.html#developer_guide">(Back to Developer Guide)</a></p>
+<h2><a class="anchor" id="developer_guide_testing"></a>
+Developer Guide: Testing</h2>
+<p>The Physical Quantities library makes extensive use of tests and is automatically tested before being updated. Testing can also be performed locally on your system with the GoogleTest library. Install the GoogleTest library on Ubuntu with <code>sudo apt install libgtest-dev</code> or visit <a href="https://github.com/google/googletest">https://github.com/google/googletest</a> for alternate means of installation.</p>
 <p>Testing instructions differ depending on your build system.</p>
-<p>If using the CMake build system, you can manually test the Physical Quantities library on your system with:</p>
+<p>If using the CMake build system, test the Physical Quantities library on your system with:</p>
 <div class="fragment"><div class="line">git clone git@github.com:acodcha/phq.git <a class="code" href="namespacePhQ.html">PhQ</a></div>
 <div class="line">cd <a class="code" href="namespacePhQ.html">PhQ</a></div>
 <div class="line">mkdir build</div>
@@ -616,21 +601,17 @@ Testing</h1>
 <div class="line">cmake .. -DTEST_PHQ_LIBRARY=ON</div>
 <div class="line">make --jobs=16</div>
 <div class="line">make test</div>
-</div><!-- fragment --><p>If using the Bazel build system, you can manually test the Physical Quantities library on your system with:</p>
+</div><!-- fragment --><p>If using the Bazel build system, test the Physical Quantities library on your system with:</p>
 <div class="fragment"><div class="line">git clone git@github.com:acodcha/phq.git <a class="code" href="namespacePhQ.html">PhQ</a></div>
 <div class="line">cd <a class="code" href="namespacePhQ.html">PhQ</a></div>
 <div class="line">bazel build <span class="comment">//:all</span></div>
 <div class="line">bazel test <span class="comment">//:all</span></div>
-</div><!-- fragment --><p><a class="el" href="index.html">(Back to Top)</a></p>
-<h1><a class="anchor" id="coverage"></a>
-Coverage</h1>
-<p>Code coverage (also known as test coverage) measures the extent to which a library's source code is covered by its tests. The Physical Quantities library currently has 100% coverage.</p>
-<p>The Physical Quantities library's code coverage can optionally be computed locally on your system. Doing so requires the following additional package:</p>
-<ul>
-<li><b>GoogleTest</b>: The GoogleTest library (<a href="https://github.com/google/googletest">https://github.com/google/googletest</a>) is used for testing. On Ubuntu, install it with <code>sudo apt install libgtest-dev</code>.</li>
-<li><b>LCOV</b>: The LCOV program (<a href="https://github.com/linux-test-project/lcov">https://github.com/linux-test-project/lcov</a>) is used for computing code coverage. On Ubuntu, install it with <code>sudo apt install lcov</code>.</li>
-</ul>
-<p>In addition to these requirements, code coverage computation also requires the CMake build system and either the GCC C++ compiler or the Clang C++ compiler; see the <a href="#requirements">Requirements</a> section for more information on these.</p>
+</div><!-- fragment --><p><a class="el" href="index.html#developer_guide">(Back to Developer Guide)</a></p>
+<h2><a class="anchor" id="developer_guide_coverage"></a>
+Developer Guide: Coverage</h2>
+<p>Code coverage (also known as test coverage) measures the extent to which a library's source code is covered by its tests. The Physical Quantities library currently has 100% code coverage and aims to maintain this complete level of coverage going forward.</p>
+<p>The Physical Quantities library's code coverage can be computed locally on your system with the GoogleTest library and the LCOV program. Install the GoogleTest library on Ubuntu with <code>sudo apt install libgtest-dev</code> or visit <a href="https://github.com/google/googletest">https://github.com/google/googletest</a> for alternate means of installation. Install the LCOV program on Ubuntu with <code>sudo apt install lcov</code> or visit <a href="https://github.com/linux-test-project/lcov">https://github.com/linux-test-project/lcov</a> for alternate means of installation.</p>
+<p>In addition to these requirements, code coverage computation also requires the CMake build system and either the GCC C++ compiler or the Clang C++ compiler; see the <a class="el" href="index.html#configuration">Configuration</a> section for more information.</p>
 <p>Compute the Physical Quantities library's code coverage with:</p>
 <div class="fragment"><div class="line">git clone git@github.com:acodcha/phq.git <a class="code" href="namespacePhQ.html">PhQ</a></div>
 <div class="line">cd <a class="code" href="namespacePhQ.html">PhQ</a></div>
@@ -640,7 +621,7 @@ Coverage</h1>
 <div class="line">make --jobs=16</div>
 <div class="line">./bin/all_tests &amp;&amp; make coverage</div>
 </div><!-- fragment --><p>This generates an HTML report in the <code>PhQ/coverage/</code> directory. Browse the report by opening the <code>PhQ/coverage/index.html</code> file in a web browser.</p>
-<p><a class="el" href="index.html">(Back to Top)</a></p>
+<p><a class="el" href="index.html#developer_guide">(Back to Developer Guide)</a></p>
 <h1><a class="anchor" id="license"></a>
 License</h1>
 <p>Copyright © 2020-2024 Alexandre Coderre-Chabot</p>
