@@ -103,6 +103,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search','.html');
 <li><a class="el" href="index.html#configuration">Configuration</a>: <a class="el" href="index.html#configuration_cmake">CMake</a>, <a class="el" href="index.html#configuration_bazel">Bazel</a></li>
 <li><a class="el" href="index.html#background">Background</a>: <a class="el" href="index.html#background_theory">Theory</a>, <a class="el" href="index.html#background_design">Design</a></li>
 <li><a class="el" href="index.html#user_guide">User Guide</a>: <a class="el" href="index.html#user_guide_basics">Basics</a>, <a class="el" href="index.html#user_guide_vectors_and_tensors">Vectors and Tensors</a>, <a class="el" href="index.html#user_guide_operations">Operations</a>, <a class="el" href="index.html#user_guide_units">Units</a>, <a class="el" href="index.html#user_guide_unit_systems">Unit Systems</a>, <a class="el" href="index.html#user_guide_models">Models</a>, <a class="el" href="index.html#user_guide_dimensions">Dimensions</a></li>
+<li><a class="el" href="index.html#features">Features</a>: <a class="el" href="index.html#features_physical_quantities">Physical Quantities</a>, <a class="el" href="index.html#features_physical_models">Physical Models</a>, <a class="el" href="index.html#features_units">Units</a>, <a class="el" href="index.html#features_unit_systems">Unit Systems</a></li>
 <li><a class="el" href="index.html#developer_guide">Developer Guide</a>: <a class="el" href="index.html#developer_guide_documentation">Documentation</a>, <a class="el" href="index.html#developer_guide_installation">Installation</a>, <a class="el" href="index.html#developer_guide_testing">Testing</a>, <a class="el" href="index.html#developer_guide_coverage">Coverage</a></li>
 <li><a class="el" href="index.html#license">License</a></li>
 </ul>
@@ -586,6 +587,179 @@ User Guide: Dimensions</h2>
 <div class="ttc" id="aclassPhQ_1_1DimensionalScalar_html_afb6ee843bf9ff8888de5a9dea1c00a94"><div class="ttname"><a href="classPhQ_1_1DimensionalScalar.html#afb6ee843bf9ff8888de5a9dea1c00a94">PhQ::DimensionalScalar&lt; Unit::MassDensity, double &gt;::Dimensions</a></div><div class="ttdeci">static constexpr const PhQ::Dimensions &amp; Dimensions()</div><div class="ttdoc">Physical dimension set of this physical quantity.</div><div class="ttdef"><b>Definition:</b> <a href="DimensionalScalar_8hpp_source.html#l00054">DimensionalScalar.hpp:54</a></div></div>
 </div><!-- fragment --><p>The above example obtains the physical dimension set of mass density, which is L^(-3)·M.</p>
 <p><a class="el" href="index.html#user_guide">(Back to User Guide)</a></p>
+<h1><a class="anchor" id="features"></a>
+Features Guide</h1>
+<p>This section provides an overview of the features of the Physical Quantities library:</p>
+<ul>
+<li><a class="el" href="index.html#features_physical_quantities">Physical Quantities</a></li>
+<li><a class="el" href="index.html#features_physical_models">Physical Models</a></li>
+<li><a class="el" href="index.html#features_units">Units</a></li>
+<li><a class="el" href="index.html#features_unit_systems">Unit Systems</a></li>
+</ul>
+<p><a class="el" href="index.html">(Back to Top)</a></p>
+<h2><a class="anchor" id="features_physical_quantities"></a>
+Features: Physical Quantities</h2>
+<p>The Physical Quantities library features the following physical quantities:</p>
+<ul>
+<li><a class="el" href="classPhQ_1_1Acceleration.html" title="Three-dimensional Euclidean acceleration vector. Contains three components in Cartesian coordinates: ...">PhQ::Acceleration</a></li>
+<li><a class="el" href="classPhQ_1_1Angle.html" title="Plane angle between two lines or dihedral angle between two planes.">PhQ::Angle</a></li>
+<li><a class="el" href="classPhQ_1_1AngularSpeed.html" title="Angular speed, also known as angular rate or angular frequency. Represents the time rate of change of...">PhQ::AngularSpeed</a></li>
+<li><a class="el" href="classPhQ_1_1Area.html" title="Surface area or cross-sectional area. Can also represent a scalar component of a vector area or the m...">PhQ::Area</a></li>
+<li><a class="el" href="classPhQ_1_1BulkDynamicViscosity.html" title="Bulk dynamic viscosity, also known as volume dynamic viscosity or dilatational dynamic viscosity....">PhQ::BulkDynamicViscosity</a></li>
+<li><a class="el" href="classPhQ_1_1Direction.html" title="Three-dimensional Euclidean direction vector. Contains three components in Cartesian coordinates: x,...">PhQ::Direction</a></li>
+<li><a class="el" href="classPhQ_1_1Displacement.html" title="Three-dimensional Euclidean displacement vector. Contains three components in Cartesian coordinates: ...">PhQ::Displacement</a></li>
+<li><a class="el" href="classPhQ_1_1DisplacementGradient.html" title="Three-dimensional Euclidean displacement gradient dyadic tensor. Gradient of the displacement vector....">PhQ::DisplacementGradient</a></li>
+<li><a class="el" href="classPhQ_1_1DynamicKinematicPressure.html" title="Dynamic kinematic pressure, which is dynamic pressure divided by mass density; see PhQ::DynamicPressu...">PhQ::DynamicKinematicPressure</a></li>
+<li><a class="el" href="classPhQ_1_1DynamicPressure.html" title="Dynamic pressure, which is the additional pressure arising from a flowing fluid&#39;s kinetic energy....">PhQ::DynamicPressure</a></li>
+<li><a class="el" href="classPhQ_1_1DynamicViscosity.html" title="Dynamic viscosity, also known as molecular dynamic viscosity. Dynamic viscosity is the relationship b...">PhQ::DynamicViscosity</a></li>
+<li><a class="el" href="classPhQ_1_1ElectricCharge.html" title="Electric charge.">PhQ::ElectricCharge</a></li>
+<li><a class="el" href="classPhQ_1_1ElectricCurrent.html" title="Electric current, also known as amperage. Represents a flow of electric charge or a time rate of chan...">PhQ::ElectricCurrent</a></li>
+<li><a class="el" href="classPhQ_1_1Energy.html" title="Energy physical quantity. Can represent any kind of energy, such as kinetic energy,...">PhQ::Energy</a></li>
+<li><a class="el" href="classPhQ_1_1Force.html" title="Three-dimensional Euclidean force vector. Contains three components in Cartesian coordinates: x,...">PhQ::Force</a></li>
+<li><a class="el" href="classPhQ_1_1Frequency.html" title="Frequency. Inverse of a time duration. See also PhQ::Time.">PhQ::Frequency</a></li>
+<li><a class="el" href="classPhQ_1_1GasConstant.html" title="Gas constant of a gas. For the mass-specific gas constant, see PhQ::SpecificGasConstant.">PhQ::GasConstant</a></li>
+<li><a class="el" href="classPhQ_1_1HeatCapacityRatio.html" title="Heat capacity ratio, also known as ratio of specific heats, adiabatic index, or Laplace&#39;s coefficient...">PhQ::HeatCapacityRatio</a></li>
+<li><a class="el" href="classPhQ_1_1HeatFlux.html" title="Three-dimensional Euclidean heat flux vector. Contains three components in Cartesian coordinates: x,...">PhQ::HeatFlux</a></li>
+<li><a class="el" href="classPhQ_1_1IsentropicBulkModulus.html" title="Isentropic bulk modulus. Not to be confused with the isothermal bulk modulus; see PhQ::IsothermalBulk...">PhQ::IsentropicBulkModulus</a></li>
+<li><a class="el" href="classPhQ_1_1IsobaricHeatCapacity.html" title="Isobaric heat capacity, also known as heat capacity at constant pressure. For the mass-specific isoba...">PhQ::IsobaricHeatCapacity</a></li>
+<li><a class="el" href="classPhQ_1_1IsochoricHeatCapacity.html" title="Isochoric heat capacity, also known as heat capacity at constant volume. For the mass-specific isocho...">PhQ::IsochoricHeatCapacity</a></li>
+<li><a class="el" href="classPhQ_1_1IsothermalBulkModulus.html" title="Isothermal bulk modulus of a material. Not to be confused with the isentropic bulk modulus; see PhQ::...">PhQ::IsothermalBulkModulus</a></li>
+<li><a class="el" href="classPhQ_1_1KinematicViscosity.html" title="Kinematic viscosity, also known as molecular kinematic viscosity. Defined as dynamic viscosity divide...">PhQ::KinematicViscosity</a></li>
+<li><a class="el" href="classPhQ_1_1LameFirstModulus.html" title="Lamé&#39;s first modulus of elasticity of a deformable solid material. First of the two Lamé parameters....">PhQ::LameFirstModulus</a></li>
+<li><a class="el" href="classPhQ_1_1Length.html" title="Length, distance, or physical size. Can also represent a scalar component or magnitude of a position ...">PhQ::Length</a></li>
+<li><a class="el" href="classPhQ_1_1LinearThermalExpansionCoefficient.html" title="Linear thermal expansion coefficient. Not to be confused with the volumetric thermal expansion coeffi...">PhQ::LinearThermalExpansionCoefficient</a></li>
+<li><a class="el" href="classPhQ_1_1MachNumber.html" title="Mach number of a fluid flow. Measures the local compressibility of a fluid flow. Represents the ratio...">PhQ::MachNumber</a></li>
+<li><a class="el" href="classPhQ_1_1Mass.html" title="Mass. For the time rate of change of mass, see PhQ::MassRate; see also PhQ::Time and PhQ::Frequency.">PhQ::Mass</a></li>
+<li><a class="el" href="classPhQ_1_1MassDensity.html" title="Mass density. Mass per unit volume; see PhQ::Mass and PhQ::Volume.">PhQ::MassDensity</a></li>
+<li><a class="el" href="classPhQ_1_1MassRate.html" title="Mass rate. Can represent the time rate of change of a mass or a mass flow rate; see PhQ::Mass,...">PhQ::MassRate</a></li>
+<li><a class="el" href="classPhQ_1_1Memory.html" title="Computer memory. For the time rate of change of computer memory, see PhQ::MemoryRate; see also PhQ::T...">PhQ::Memory</a></li>
+<li><a class="el" href="classPhQ_1_1MemoryRate.html" title="Computer memory rate. Can represent the time rate of change of memory or a memory transfer speed; see...">PhQ::MemoryRate</a></li>
+<li><a class="el" href="classPhQ_1_1PWaveModulus.html" title="P-wave modulus of elasticity of a deformable solid material. A measure of a deformable solid material...">PhQ::PWaveModulus</a></li>
+<li><a class="el" href="classPhQ_1_1PlanarAcceleration.html" title="Two-dimensional Euclidean acceleration vector in the XY plane. Contains two components in Cartesian c...">PhQ::PlanarAcceleration</a></li>
+<li><a class="el" href="classPhQ_1_1PlanarDirection.html" title="two-dimensional Euclidean direction vector in the XY plane. Contains two components in Cartesian coor...">PhQ::PlanarDirection</a></li>
+<li><a class="el" href="classPhQ_1_1PlanarDisplacement.html" title="Two-dimensional Euclidean displacement vector in the XY plane. Contains two components in Cartesian c...">PhQ::PlanarDisplacement</a></li>
+<li><a class="el" href="classPhQ_1_1PlanarForce.html" title="Two-dimensional Euclidean force vector in the XY plane. Contains two components in Cartesian coordina...">PhQ::PlanarForce</a></li>
+<li><a class="el" href="classPhQ_1_1PlanarHeatFlux.html" title="Two-dimensional Euclidean heat flux vector in the XY plane. Contains two components in Cartesian coor...">PhQ::PlanarHeatFlux</a></li>
+<li><a class="el" href="classPhQ_1_1PlanarPosition.html" title="Two-dimensional Euclidean position vector in the XY plane. Contains two components in Cartesian coord...">PhQ::PlanarPosition</a></li>
+<li><a class="el" href="classPhQ_1_1PlanarTemperatureGradient.html" title="Two-dimensional Euclidean temperature gradient vector in the XY plane. Contains two components in Car...">PhQ::PlanarTemperatureGradient</a></li>
+<li><a class="el" href="classPhQ_1_1PlanarTraction.html" title="Two-dimensional Euclidean traction vector in the XY plane. Contains two components in Cartesian coord...">PhQ::PlanarTraction</a></li>
+<li><a class="el" href="classPhQ_1_1PlanarVelocity.html" title="Two-dimensional Euclidean velocity vector in the XY plane. Contains two components in Cartesian coord...">PhQ::PlanarVelocity</a></li>
+<li><a class="el" href="classPhQ_1_1PoissonRatio.html" title="Poisson&#39;s ratio of a deformable solid material. Measures the deformation of a deformable solid materi...">PhQ::PoissonRatio</a></li>
+<li><a class="el" href="classPhQ_1_1Position.html" title="Three-dimensional Euclidean position vector. Contains three components in Cartesian coordinates: x,...">PhQ::Position</a></li>
+<li><a class="el" href="classPhQ_1_1Power.html" title="Power. Time rate of change of energy or energy transfer rate; see PhQ::Energy, PhQ::Time,...">PhQ::Power</a></li>
+<li><a class="el" href="classPhQ_1_1PrandtlNumber.html" title="Prandtl number of a fluid. Represents the ratio of the momentum diffusivity to the thermal diffusivit...">PhQ::PrandtlNumber</a></li>
+<li><a class="el" href="classPhQ_1_1ReynoldsNumber.html" title="Reynolds number of a fluid flow. Measures the local turbulence of a fluid flow. Represents the ratio ...">PhQ::ReynoldsNumber</a></li>
+<li><a class="el" href="classPhQ_1_1ScalarAcceleration.html" title="Scalar acceleration component or magnitude of an acceleration vector. For a three-dimensional Euclide...">PhQ::ScalarAcceleration</a></li>
+<li><a class="el" href="classPhQ_1_1ScalarAngularAcceleration.html" title="Scalar angular acceleration. Represents the time rate of change of an angular speed; see also PhQ::An...">PhQ::ScalarAngularAcceleration</a></li>
+<li><a class="el" href="classPhQ_1_1ScalarDisplacementGradient.html" title="Scalar component or resultant of a three-dimensional Euclidean displacement gradient dyadic tensor....">PhQ::ScalarDisplacementGradient</a></li>
+<li><a class="el" href="classPhQ_1_1ScalarForce.html" title="Scalar force component or magnitude of a force vector. For a three-dimensional Euclidean force vector...">PhQ::ScalarForce</a></li>
+<li><a class="el" href="classPhQ_1_1ScalarHeatFlux.html" title="Scalar heat flux component or magnitude of a heat flux vector. For a three-dimensional Euclidean heat...">PhQ::ScalarHeatFlux</a></li>
+<li><a class="el" href="classPhQ_1_1ScalarStrain.html" title="Scalar component or resultant of a three-dimensional Euclidean strain symmetric dyadic tensor....">PhQ::ScalarStrain</a></li>
+<li><a class="el" href="classPhQ_1_1ScalarStrainRate.html" title="Scalar component or resultant of a three-dimensional Euclidean strain rate symmetric dyadic tensor....">PhQ::ScalarStrainRate</a></li>
+<li><a class="el" href="classPhQ_1_1ScalarStress.html" title="Scalar component or resultant of a three-dimensional Euclidean Cauchy stress symmetric dyadic tensor....">PhQ::ScalarStress</a></li>
+<li><a class="el" href="classPhQ_1_1ScalarTemperatureGradient.html" title="Scalar temperature gradient component or magnitude of a temperature gradient vector....">PhQ::ScalarTemperatureGradient</a></li>
+<li><a class="el" href="classPhQ_1_1ScalarThermalConductivity.html" title="Scalar component or resultant of a three-dimensional Euclidean thermal conductivity symmetric dyadic ...">PhQ::ScalarThermalConductivity</a></li>
+<li><a class="el" href="classPhQ_1_1ScalarTraction.html" title="Scalar traction component or magnitude of a traction vector. Traction is similar to pressure; however...">PhQ::ScalarTraction</a></li>
+<li><a class="el" href="classPhQ_1_1ScalarVelocityGradient.html" title="Scalar component or resultant of a three-dimensional Euclidean velocity gradient dyadic tensor....">PhQ::ScalarVelocityGradient</a></li>
+<li><a class="el" href="classPhQ_1_1ShearModulus.html" title="Shear modulus of elasticity of a deformable solid material. A measure of a deformable solid material&#39;...">PhQ::ShearModulus</a></li>
+<li><a class="el" href="classPhQ_1_1SolidAngle.html" title="Solid angle. Measures the field of view of a portion of the surface of the unit sphere viewed from th...">PhQ::SolidAngle</a></li>
+<li><a class="el" href="classPhQ_1_1SoundSpeed.html" title="Speed of sound. Applies to any deformable material, including fluids and deformable solids....">PhQ::SoundSpeed</a></li>
+<li><a class="el" href="classPhQ_1_1SpecificEnergy.html" title="Mass-specific energy. Energy per unit mass; see PhQ::Energy and PhQ::Mass.">PhQ::SpecificEnergy</a></li>
+<li><a class="el" href="classPhQ_1_1SpecificGasConstant.html" title="Mass-specific gas constant of a gas. Gas constant per unit mass; see PhQ::GasConstant and PhQ::Mass....">PhQ::SpecificGasConstant</a></li>
+<li><a class="el" href="classPhQ_1_1SpecificIsobaricHeatCapacity.html" title="Mass-specific isobaric heat capacity, also known as mass-specific heat capacity at constant pressure,...">PhQ::SpecificIsobaricHeatCapacity</a></li>
+<li><a class="el" href="classPhQ_1_1SpecificIsochoricHeatCapacity.html" title="Mass-specific isochoric heat capacity, also known as mass-specific heat capacity at constant volume,...">PhQ::SpecificIsochoricHeatCapacity</a></li>
+<li><a class="el" href="classPhQ_1_1SpecificPower.html" title="Mass-specific power. Power per unit mass; see PhQ::Power and PhQ::Mass.">PhQ::SpecificPower</a></li>
+<li><a class="el" href="classPhQ_1_1Speed.html" title="Scalar velocity component or magnitude of a velocity vector. For a three-dimensional Euclidean veloci...">PhQ::Speed</a></li>
+<li><a class="el" href="classPhQ_1_1StaticKinematicPressure.html" title="Static kinematic pressure, which is static pressure divided by mass density; see PhQ::StaticPressure ...">PhQ::StaticKinematicPressure</a></li>
+<li><a class="el" href="classPhQ_1_1StaticPressure.html" title="Static pressure. Pressure of a fluid at rest. Not to be confused with dynamic pressure,...">PhQ::StaticPressure</a></li>
+<li><a class="el" href="classPhQ_1_1Strain.html" title="Three-dimensional Euclidean strain symmetric dyadic tensor. Contains six components in Cartesian coor...">PhQ::Strain</a></li>
+<li><a class="el" href="classPhQ_1_1StrainRate.html" title="Three-dimensional Euclidean strain rate symmetric dyadic tensor. Time rate of change of strain....">PhQ::StrainRate</a></li>
+<li><a class="el" href="classPhQ_1_1Stress.html" title="Three-dimensional Euclidean Cauchy stress symmetric dyadic tensor. Contains six components in Cartesi...">PhQ::Stress</a></li>
+<li><a class="el" href="classPhQ_1_1SubstanceAmount.html" title="Amount of substance. Typically measured in moles (mol).">PhQ::SubstanceAmount</a></li>
+<li><a class="el" href="classPhQ_1_1Temperature.html" title="Temperature. For a temperature difference, see PhQ::TemperatureDifference. For the gradient of temper...">PhQ::Temperature</a></li>
+<li><a class="el" href="classPhQ_1_1TemperatureDifference.html" title="Temperature difference. Not to be confused with temperature; see PhQ::Temperature....">PhQ::TemperatureDifference</a></li>
+<li><a class="el" href="classPhQ_1_1TemperatureGradient.html" title="Three-dimensional Euclidean temperature gradient vector. Contains three components in Cartesian coord...">PhQ::TemperatureGradient</a></li>
+<li><a class="el" href="classPhQ_1_1ThermalConductivity.html" title="Three-dimensional Euclidean Cauchy thermal conductivity symmetric dyadic tensor. Contains six compone...">PhQ::ThermalConductivity</a></li>
+<li><a class="el" href="classPhQ_1_1ThermalDiffusivity.html" title="Thermal diffusivity of a material. Measures the rate of heat transfer inside a material....">PhQ::ThermalDiffusivity</a></li>
+<li><a class="el" href="classPhQ_1_1Time.html" title="Time. Can represent either a point in time, a time duration, or a period. For the inverse of time,...">PhQ::Time</a></li>
+<li><a class="el" href="classPhQ_1_1TotalKinematicPressure.html" title="Total kinematic pressure, which is total pressure divided by mass density; see PhQ::TotalPressure and...">PhQ::TotalKinematicPressure</a></li>
+<li><a class="el" href="classPhQ_1_1TotalPressure.html" title="Total pressure, which is the sum of static pressure and dynamic pressure; see PhQ::StaticPressure and...">PhQ::TotalPressure</a></li>
+<li><a class="el" href="classPhQ_1_1Traction.html" title="Three-dimensional Euclidean traction vector. Contains three components in Cartesian coordinates: x,...">PhQ::Traction</a></li>
+<li><a class="el" href="classPhQ_1_1TransportEnergyConsumption.html" title="Transport energy consumption, also known as energy consumption in transport. A measure of energy use ...">PhQ::TransportEnergyConsumption</a></li>
+<li><a class="el" href="classPhQ_1_1VectorArea.html" title="Three-dimensional Euclidean vector area. Contains three components in Cartesian coordinates: x,...">PhQ::VectorArea</a></li>
+<li><a class="el" href="classPhQ_1_1Velocity.html" title="Three-dimensional Euclidean velocity vector. Contains three components in Cartesian coordinates: x,...">PhQ::Velocity</a></li>
+<li><a class="el" href="classPhQ_1_1VelocityGradient.html" title="Three-dimensional Euclidean velocity gradient dyadic tensor. Gradient of the velocity vector....">PhQ::VelocityGradient</a></li>
+<li><a class="el" href="classPhQ_1_1Volume.html" title="Volume. For the time rate of change of volume, see PhQ::VolumeRate; see also PhQ::Time and PhQ::Frequ...">PhQ::Volume</a></li>
+<li><a class="el" href="classPhQ_1_1VolumeRate.html" title="Volume rate. Can represent a time rate of change of a volume or a volume flow rate....">PhQ::VolumeRate</a></li>
+<li><a class="el" href="classPhQ_1_1VolumetricThermalExpansionCoefficient.html" title="Volumetric thermal expansion coefficient. Not to be confused with the linear thermal expansion coeffi...">PhQ::VolumetricThermalExpansionCoefficient</a></li>
+<li><a class="el" href="classPhQ_1_1YoungModulus.html" title="Young&#39;s modulus of elasticity of a deformable solid material. A measure of a deformable solid materia...">PhQ::YoungModulus</a></li>
+</ul>
+<p><a class="el" href="index.html#features">(Back to Features)</a></p>
+<h2><a class="anchor" id="features_physical_models"></a>
+Features: Physical Models</h2>
+<p>The Physical Quantities library features the following physical models:</p>
+<ul>
+<li><a class="el" href="classPhQ_1_1ConstitutiveModel.html" title="Abstract base class for a material&#39;s constitutive model, which is a model that defines the relationsh...">PhQ::ConstitutiveModel</a><ul>
+<li><a class="el" href="classPhQ_1_1ConstitutiveModel_1_1CompressibleNewtonianFluid.html" title="Constitutive model for a compressible Newtonian fluid. This is the simplest constitutive model for a ...">PhQ::ConstitutiveModel::CompressibleNewtonianFluid</a></li>
+<li><a class="el" href="classPhQ_1_1ConstitutiveModel_1_1ElasticIsotropicSolid.html" title="Constitutive model for an elastic isotropic solid. This is the simplest constitutive model for a defo...">PhQ::ConstitutiveModel::ElasticIsotropicSolid</a></li>
+<li><a class="el" href="classPhQ_1_1ConstitutiveModel_1_1IncompressibleNewtonianFluid.html" title="Constitutive model for an incompressible Newtonian fluid. This is the simplest constitutive model for...">PhQ::ConstitutiveModel::IncompressibleNewtonianFluid</a></li>
+</ul>
+</li>
+</ul>
+<p><a class="el" href="index.html#features">(Back to Features)</a></p>
+<h2><a class="anchor" id="features_units"></a>
+Features: Units</h2>
+<p>The Physical Quantities library features the following units of measure:</p>
+<ul>
+<li><a class="el" href="namespacePhQ_1_1Unit.html#acdc177702368d31d132069881da0dc14" title="Acceleration units.">PhQ::Unit::Acceleration</a></li>
+<li><a class="el" href="namespacePhQ_1_1Unit.html#a9caad3962141845d1013a3f3cedadd6b" title="Angle units.">PhQ::Unit::Angle</a></li>
+<li><a class="el" href="namespacePhQ_1_1Unit.html#ab54ec1ebc34bacf3b20c0cba25d117c0" title="Angular acceleration units.">PhQ::Unit::AngularAcceleration</a></li>
+<li><a class="el" href="namespacePhQ_1_1Unit.html#aed2734f97b5aad1f5e6b6c1687515a2e" title="Angular speed units.">PhQ::Unit::AngularSpeed</a></li>
+<li><a class="el" href="namespacePhQ_1_1Unit.html#ac96e5c00e68a948a801f04655ce2dd95" title="Area units.">PhQ::Unit::Area</a></li>
+<li><a class="el" href="namespacePhQ_1_1Unit.html#aa5769157bf6f9b47d5e55e5d49525734" title="Diffusivity units.">PhQ::Unit::Diffusivity</a></li>
+<li><a class="el" href="namespacePhQ_1_1Unit.html#a2965437513428b4a248171d0d4b57d10" title="Dynamic viscosity units.">PhQ::Unit::DynamicViscosity</a></li>
+<li><a class="el" href="namespacePhQ_1_1Unit.html#ad707ace41fdc584294ad7c3c3c1bb8f4" title="Electric charge units.">PhQ::Unit::ElectricCharge</a></li>
+<li><a class="el" href="namespacePhQ_1_1Unit.html#a13f9f21c5700828a8dd50d809db3814d" title="Electric current units.">PhQ::Unit::ElectricCurrent</a></li>
+<li><a class="el" href="namespacePhQ_1_1Unit.html#a5fd3823ba60b168b5550a29b088facb6" title="Energy units.">PhQ::Unit::Energy</a></li>
+<li><a class="el" href="namespacePhQ_1_1Unit.html#a3d148d3ea4f67aaf566421387ec35ca2" title="Energy flux units.">PhQ::Unit::EnergyFlux</a></li>
+<li><a class="el" href="namespacePhQ_1_1Unit.html#a20e1ca5befd77a102d307dd0e77baa1d" title="Force units.">PhQ::Unit::Force</a></li>
+<li><a class="el" href="namespacePhQ_1_1Unit.html#a5690cf24c854447e014932672e591da1" title="Frequency units.">PhQ::Unit::Frequency</a></li>
+<li><a class="el" href="namespacePhQ_1_1Unit.html#ae51c45184415130709c004e537d677a4" title="Heat capacity units.">PhQ::Unit::HeatCapacity</a></li>
+<li><a class="el" href="namespacePhQ_1_1Unit.html#a3c167018d0818cf5b0ce11aafe7dc67c" title="Length units.">PhQ::Unit::Length</a></li>
+<li><a class="el" href="namespacePhQ_1_1Unit.html#a2e6f71b9e47d2b68ce4a58b527b46e09" title="Mass units.">PhQ::Unit::Mass</a></li>
+<li><a class="el" href="namespacePhQ_1_1Unit.html#a2cfc5b9d935144540fcd9649b479f559" title="Mass density units.">PhQ::Unit::MassDensity</a></li>
+<li><a class="el" href="namespacePhQ_1_1Unit.html#a98123a66bc1ff76add59d03fde7195b7" title="Mass rate units. Can represent the time rate of change of a mass or a mass flow rate.">PhQ::Unit::MassRate</a></li>
+<li><a class="el" href="namespacePhQ_1_1Unit.html#aa4cf8203c6f86fa98b30535747b9a8d3" title="Computer memory units.">PhQ::Unit::Memory</a></li>
+<li><a class="el" href="namespacePhQ_1_1Unit.html#abcf57f41172d02143992c1d00b8e00cb" title="Computer memory rate unit. Can represent the time rate of change of memory or a memory transfer speed...">PhQ::Unit::MemoryRate</a></li>
+<li><a class="el" href="namespacePhQ_1_1Unit.html#a2f881c3bc67ee80fdb51d8f64df4eece" title="Power units.">PhQ::Unit::Power</a></li>
+<li><a class="el" href="namespacePhQ_1_1Unit.html#abcbda7b992e98486ca609a164ae78a24" title="Pressure units.">PhQ::Unit::Pressure</a></li>
+<li><a class="el" href="namespacePhQ_1_1Unit.html#ac2f80fa1b57e9e3e4bd1fe2db1905884" title="Solid angle units. Measures the field of view of a portion of the surface of the unit sphere viewed f...">PhQ::Unit::SolidAngle</a></li>
+<li><a class="el" href="namespacePhQ_1_1Unit.html#a8af9b072f084d6e969238f4cf089ffb4" title="Mass-specific energy units.">PhQ::Unit::SpecificEnergy</a></li>
+<li><a class="el" href="namespacePhQ_1_1Unit.html#a32b7847e0f4b371a31637cc207ed46e1" title="Mass-specific heat capacity units.">PhQ::Unit::SpecificHeatCapacity</a></li>
+<li><a class="el" href="namespacePhQ_1_1Unit.html#abeb76b00111f69bc769e12910520e927" title="Mass-specific power units.">PhQ::Unit::SpecificPower</a></li>
+<li><a class="el" href="namespacePhQ_1_1Unit.html#ade1b15225d4c0137f9572ee61f237d3e" title="Speed units.">PhQ::Unit::Speed</a></li>
+<li><a class="el" href="namespacePhQ_1_1Unit.html#a79857f614e4ca41f98abf938a339e0e5" title="Amount of substance units.">PhQ::Unit::SubstanceAmount</a></li>
+<li><a class="el" href="namespacePhQ_1_1Unit.html#adbbc35ccec867274c2d5878f9ba51cf5" title="Temperature units. Not to be confused with temperature difference units. For example,...">PhQ::Unit::Temperature</a></li>
+<li><a class="el" href="namespacePhQ_1_1Unit.html#afad0be5fa4539d760cb25b8303ffa961" title="Temperature difference units. Not to be confused with temperature units. For example,...">PhQ::Unit::TemperatureDifference</a></li>
+<li><a class="el" href="namespacePhQ_1_1Unit.html#a2841a75fd5b008b7213bd428f956505f" title="Temperature gradient units.">PhQ::Unit::TemperatureGradient</a></li>
+<li><a class="el" href="namespacePhQ_1_1Unit.html#a0cbffcfe7ada490d750ddb437d702177" title="Thermal conductivity units.">PhQ::Unit::ThermalConductivity</a></li>
+<li><a class="el" href="namespacePhQ_1_1Unit.html#a54258088e4a5c39a277c4258920fcacc" title="Thermal expansion units.">PhQ::Unit::ThermalExpansion</a></li>
+<li><a class="el" href="namespacePhQ_1_1Unit.html#adbc97f010eafdca22d3b36aa61a56f57" title="Time units.">PhQ::Unit::Time</a></li>
+<li><a class="el" href="namespacePhQ_1_1Unit.html#a9837fdae7f8e23edcddec30332bc5ccc" title="Energy consumption in transport units.">PhQ::Unit::TransportEnergyConsumption</a></li>
+<li><a class="el" href="namespacePhQ_1_1Unit.html#a9db0744c7327e0be668ead2519667f65" title="Volume units.">PhQ::Unit::Volume</a></li>
+<li><a class="el" href="namespacePhQ_1_1Unit.html#a17ef0d77e9f87dd3aa1066e55ff16593" title="Volume rate units. Can represent a time rate of change of a volume or a volume flow rate.">PhQ::Unit::VolumeRate</a></li>
+</ul>
+<p><a class="el" href="index.html#features">(Back to Features)</a></p>
+<h2><a class="anchor" id="features_unit_systems"></a>
+Features: Unit Systems</h2>
+<p>The Physical Quantities library features the following consistent systems of units of measure:</p>
+<ul>
+<li><a class="el" href="namespacePhQ.html#a11a8ef8b3ca67e2a3ddd4d8aec4a88a2ad2c524e2be35eebfdddf7d06699800ed" title="Metre-kilogram-second-kelvin (m·kg·s·K) system.">PhQ::UnitSystem::MetreKilogramSecondKelvin</a></li>
+<li><a class="el" href="namespacePhQ.html#a11a8ef8b3ca67e2a3ddd4d8aec4a88a2aacb147822a12594ec1e580916fad9919" title="Millimetre-gram-second-kelvin (mm·g·s·K) system.">PhQ::UnitSystem::MillimetreGramSecondKelvin</a></li>
+<li><a class="el" href="namespacePhQ.html#a11a8ef8b3ca67e2a3ddd4d8aec4a88a2a784cb5bb3e3147455f03848ef880adee" title="Foot-pound-second-rankine (ft·lbf·s·°R) system.">PhQ::UnitSystem::FootPoundSecondRankine</a></li>
+<li><a class="el" href="namespacePhQ.html#a11a8ef8b3ca67e2a3ddd4d8aec4a88a2ad75d6152f75b2911b7f41a7532d68fab" title="Inch-pound-second-rankine (in·lbf·s·°R) system.">PhQ::UnitSystem::InchPoundSecondRankine</a></li>
+</ul>
+<p><a class="el" href="index.html#features">(Back to Features)</a></p>
 <h1><a class="anchor" id="developer_guide"></a>
 Developer Guide</h1>
 <p>This section presents information pertinent to software developers of the Physical Quantities library:</p>
