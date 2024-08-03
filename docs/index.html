@@ -102,7 +102,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search','.html');
 <li><a class="el" href="index.html#introduction">Introduction</a></li>
 <li><a class="el" href="index.html#configuration">Configuration</a>: <a class="el" href="index.html#configuration_cmake">CMake</a>, <a class="el" href="index.html#configuration_bazel">Bazel</a></li>
 <li><a class="el" href="index.html#background">Background</a>: <a class="el" href="index.html#background_theory">Theory</a>, <a class="el" href="index.html#background_design">Design</a></li>
-<li><a class="el" href="index.html#user_guide">User Guide</a>: <a class="el" href="index.html#user_guide_basics">Basics</a>, <a class="el" href="index.html#user_guide_vectors_and_tensors">Vectors and Tensors</a>, <a class="el" href="index.html#user_guide_operations">Operations</a>, <a class="el" href="index.html#user_guide_units">Units</a>, <a class="el" href="index.html#user_guide_unit_systems">Unit Systems</a>, <a class="el" href="index.html#user_guide_models">Models</a>, <a class="el" href="index.html#user_guide_dimensions">Dimensions</a></li>
+<li><a class="el" href="index.html#user_guide">User Guide</a>: <a class="el" href="index.html#user_guide_basics">Basics</a>, <a class="el" href="index.html#user_guide_vectors_and_tensors">Vectors and Tensors</a>, <a class="el" href="index.html#user_guide_operations">Operations</a>, <a class="el" href="index.html#user_guide_models">Models</a>, <a class="el" href="index.html#user_guide_units">Units</a>, <a class="el" href="index.html#user_guide_unit_systems">Unit Systems</a>, <a class="el" href="index.html#user_guide_dimensions">Dimensions</a></li>
 <li><a class="el" href="index.html#features">Features</a>: <a class="el" href="index.html#features_physical_quantities">Physical Quantities</a>, <a class="el" href="index.html#features_models">Models</a>, <a class="el" href="index.html#features_units">Units</a>, <a class="el" href="index.html#features_unit_systems">Unit Systems</a></li>
 <li><a class="el" href="index.html#developer_guide">Developer Guide</a>: <a class="el" href="index.html#developer_guide_documentation">Documentation</a>, <a class="el" href="index.html#developer_guide_installation">Installation</a>, <a class="el" href="index.html#developer_guide_testing">Testing</a>, <a class="el" href="index.html#developer_guide_coverage">Coverage</a></li>
 <li><a class="el" href="index.html#license">License</a></li>
@@ -250,9 +250,9 @@ User Guide</h1>
 <li><a class="el" href="index.html#user_guide_basics">Basics</a></li>
 <li><a class="el" href="index.html#user_guide_vectors_and_tensors">Vectors and Tensors</a></li>
 <li><a class="el" href="index.html#user_guide_operations">Operations</a></li>
+<li><a class="el" href="index.html#user_guide_models">Models</a></li>
 <li><a class="el" href="index.html#user_guide_units">Units</a></li>
 <li><a class="el" href="index.html#user_guide_unit_systems">Unit Systems</a></li>
-<li><a class="el" href="index.html#user_guide_models">Models</a></li>
 <li><a class="el" href="index.html#user_guide_dimensions">Dimensions</a></li>
 </ul>
 <p>In addition to this user guide, the full documentation of the Physical Quantities library is hosted at <a href="https://acodcha.github.io/phq-docs">https://acodcha.github.io/phq-docs</a>.</p>
@@ -411,6 +411,32 @@ User Guide: Operations</h2>
 <p>However, in general, divisions by zero can occur during arithmetic operations between physical quantities. For example, <code><a class="el" href="classPhQ_1_1Length.html" title="Length, distance, or physical size. Can also represent a scalar component or magnitude of a position ...">PhQ::Length</a>&lt;&gt;::Zero() / <a class="el" href="classPhQ_1_1Time.html" title="Time. Can represent either a point in time, a time duration, or a period. For the inverse of time,...">PhQ::Time</a>&lt;&gt;::Zero()</code> results in a <code><a class="el" href="classPhQ_1_1Speed.html" title="Scalar velocity component or magnitude of a velocity vector. For a three-dimensional Euclidean veloci...">PhQ::Speed</a></code> with a value of "not-a-number" (<code>NaN</code>). C++ uses the IEEE 754 floating-point arithmetic standard such that divisions by zero result in <code>inf</code>, <code>-inf</code>, or <code>NaN</code>. If any of these special cases are a concern, use <code>try</code> and <code>catch</code> blocks or standard C++ utilities such as <code>std::isfinite</code>.</p>
 <p>Similarly, floating-point overflows and underflows can occur during arithmetic operations between physical quantities. If this is a concern, query the status of the C++ floating-point environment with <code>std::fetestexcept</code>.</p>
 <p><a class="el" href="index.html#user_guide">(Back to User Guide)</a></p>
+<h2><a class="anchor" id="user_guide_models"></a>
+User Guide: Models</h2>
+<p>The Physical Quantities library supports certain physical models. These physical models allow tedious mathematical calculations to be performed easily. For example:</p>
+<div class="fragment"><div class="line"><span class="keyword">const</span> std::unique_ptr&lt;const ConstitutiveModel&gt; constitutive_model =</div>
+<div class="line">    std::make_unique&lt;const ConstitutiveModel::ElasticIsotropicSolid&lt;double&gt;&gt;(</div>
+<div class="line">        <a class="code" href="classPhQ_1_1YoungModulus.html">PhQ::YoungModulus&lt;double&gt;</a>{70.0, <a class="code" href="namespacePhQ_1_1Unit.html#abcbda7b992e98486ca609a164ae78a24aa7a808c7a03b7059369c362f420b2f1c">PhQ::Unit::Pressure::Gigapascal</a>},</div>
+<div class="line">        <a class="code" href="classPhQ_1_1PoissonRatio.html">PhQ::PoissonRatio&lt;double&gt;</a>{0.33});</div>
+<div class="line"> </div>
+<div class="line"><a class="code" href="classPhQ_1_1Strain.html">PhQ::Strain&lt;double&gt;</a> strain{32.0,  <span class="comment">// xx</span></div>
+<div class="line">                           -4.0,  <span class="comment">// xy</span></div>
+<div class="line">                           -2.0,  <span class="comment">// xz</span></div>
+<div class="line">                           16.0,  <span class="comment">// yy</span></div>
+<div class="line">                           -1.0,  <span class="comment">// yz</span></div>
+<div class="line">                            8.0}; <span class="comment">// zz</span></div>
+<div class="line"> </div>
+<div class="line"><a class="code" href="classPhQ_1_1Stress.html">PhQ::Stress&lt;double&gt;</a> stress = constitutive_model-&gt;<a class="code" href="classPhQ_1_1Stress.html#a32614bebae67f9980ee16d1309bce22c">Stress</a>(strain);</div>
+<div class="line">std::cout &lt;&lt; stress &lt;&lt; std::endl;</div>
+<div class="line"><span class="comment">// (4.54489164086687305e+12, -2.10526315789473663e+11, -1.05263157894736832e+11;</span></div>
+<div class="line"><span class="comment">//     3.70278637770897803e+12, -5.26315789473684158e+10; 3.28173374613003076e+12) Pa</span></div>
+<div class="ttc" id="aclassPhQ_1_1PoissonRatio_html"><div class="ttname"><a href="classPhQ_1_1PoissonRatio.html">PhQ::PoissonRatio</a></div><div class="ttdoc">Poisson's ratio of a deformable solid material. Measures the deformation of a deformable solid materi...</div><div class="ttdef"><b>Definition:</b> <a href="PoissonRatio_8hpp_source.html#l00041">PoissonRatio.hpp:41</a></div></div>
+<div class="ttc" id="aclassPhQ_1_1Strain_html"><div class="ttname"><a href="classPhQ_1_1Strain.html">PhQ::Strain</a></div><div class="ttdoc">Three-dimensional Euclidean strain symmetric dyadic tensor. Contains six components in Cartesian coor...</div><div class="ttdef"><b>Definition:</b> <a href="Strain_8hpp_source.html#l00068">Strain.hpp:68</a></div></div>
+<div class="ttc" id="aclassPhQ_1_1Stress_html_a32614bebae67f9980ee16d1309bce22c"><div class="ttname"><a href="classPhQ_1_1Stress.html#a32614bebae67f9980ee16d1309bce22c">PhQ::Stress::Stress</a></div><div class="ttdeci">Stress()=default</div><div class="ttdoc">Default constructor. Constructs a stress tensor with an uninitialized value.</div></div>
+<div class="ttc" id="aclassPhQ_1_1YoungModulus_html"><div class="ttname"><a href="classPhQ_1_1YoungModulus.html">PhQ::YoungModulus</a></div><div class="ttdoc">Young's modulus of elasticity of a deformable solid material. A measure of a deformable solid materia...</div><div class="ttdef"><b>Definition:</b> <a href="YoungModulus_8hpp_source.html#l00042">YoungModulus.hpp:42</a></div></div>
+<div class="ttc" id="anamespacePhQ_1_1Unit_html_abcbda7b992e98486ca609a164ae78a24aa7a808c7a03b7059369c362f420b2f1c"><div class="ttname"><a href="namespacePhQ_1_1Unit.html#abcbda7b992e98486ca609a164ae78a24aa7a808c7a03b7059369c362f420b2f1c">PhQ::Unit::Pressure::Gigapascal</a></div><div class="ttdeci">@ Gigapascal</div><div class="ttdoc">Gigapascal (GPa) pressure unit.</div></div>
+</div><!-- fragment --><p>The above example creates an elastic isotropic solid constitutive model from a Young's modulus and a Poisson's ratio, and then uses it to compute the stress tensor resulting from a given strain tensor.</p>
+<p><a class="el" href="index.html#user_guide">(Back to User Guide)</a></p>
 <h2><a class="anchor" id="user_guide_units"></a>
 User Guide: Units</h2>
 <p>The Physical Quantities library handles unit conversions automatically, and all unit conversions are exact to within floating-point arithmetic precision.</p>
@@ -516,32 +542,6 @@ User Guide: Unit Systems</h2>
 <div class="line">std::optional&lt;PhQ::UnitSystem&gt; optional_system = <a class="code" href="namespacePhQ.html#a8cc3aae9a7b257010986c978ab8249e0">PhQ::RelatedUnitSystem</a>(unit);</div>
 <div class="line">assert(!optional_system.has_value());</div>
 </div><!-- fragment --><p>The above example shows that the pound (lbm) mass unit does not relate to any particular system of units.</p>
-<p><a class="el" href="index.html#user_guide">(Back to User Guide)</a></p>
-<h2><a class="anchor" id="user_guide_models"></a>
-User Guide: Models</h2>
-<p>Some physical models and related operations are supported. Physical models allow complex mathematical calculations to be performed easily. For example:</p>
-<div class="fragment"><div class="line"><span class="keyword">const</span> std::unique_ptr&lt;const ConstitutiveModel&gt; constitutive_model =</div>
-<div class="line">    std::make_unique&lt;const ConstitutiveModel::ElasticIsotropicSolid&lt;double&gt;&gt;(</div>
-<div class="line">        <a class="code" href="classPhQ_1_1YoungModulus.html">PhQ::YoungModulus&lt;double&gt;</a>{70.0, <a class="code" href="namespacePhQ_1_1Unit.html#abcbda7b992e98486ca609a164ae78a24aa7a808c7a03b7059369c362f420b2f1c">PhQ::Unit::Pressure::Gigapascal</a>},</div>
-<div class="line">        <a class="code" href="classPhQ_1_1PoissonRatio.html">PhQ::PoissonRatio&lt;double&gt;</a>{0.33});</div>
-<div class="line"> </div>
-<div class="line"><a class="code" href="classPhQ_1_1Strain.html">PhQ::Strain&lt;double&gt;</a> strain{32.0,  <span class="comment">// xx</span></div>
-<div class="line">                           -4.0,  <span class="comment">// xy</span></div>
-<div class="line">                           -2.0,  <span class="comment">// xz</span></div>
-<div class="line">                           16.0,  <span class="comment">// yy</span></div>
-<div class="line">                           -1.0,  <span class="comment">// yz</span></div>
-<div class="line">                            8.0}; <span class="comment">// zz</span></div>
-<div class="line"> </div>
-<div class="line"><a class="code" href="classPhQ_1_1Stress.html">PhQ::Stress&lt;double&gt;</a> stress = constitutive_model-&gt;<a class="code" href="classPhQ_1_1Stress.html#a32614bebae67f9980ee16d1309bce22c">Stress</a>(strain);</div>
-<div class="line">std::cout &lt;&lt; stress &lt;&lt; std::endl;</div>
-<div class="line"><span class="comment">// (4.54489164086687305e+12, -2.10526315789473663e+11, -1.05263157894736832e+11;</span></div>
-<div class="line"><span class="comment">//     3.70278637770897803e+12, -5.26315789473684158e+10; 3.28173374613003076e+12) Pa</span></div>
-<div class="ttc" id="aclassPhQ_1_1PoissonRatio_html"><div class="ttname"><a href="classPhQ_1_1PoissonRatio.html">PhQ::PoissonRatio</a></div><div class="ttdoc">Poisson's ratio of a deformable solid material. Measures the deformation of a deformable solid materi...</div><div class="ttdef"><b>Definition:</b> <a href="PoissonRatio_8hpp_source.html#l00041">PoissonRatio.hpp:41</a></div></div>
-<div class="ttc" id="aclassPhQ_1_1Strain_html"><div class="ttname"><a href="classPhQ_1_1Strain.html">PhQ::Strain</a></div><div class="ttdoc">Three-dimensional Euclidean strain symmetric dyadic tensor. Contains six components in Cartesian coor...</div><div class="ttdef"><b>Definition:</b> <a href="Strain_8hpp_source.html#l00068">Strain.hpp:68</a></div></div>
-<div class="ttc" id="aclassPhQ_1_1Stress_html_a32614bebae67f9980ee16d1309bce22c"><div class="ttname"><a href="classPhQ_1_1Stress.html#a32614bebae67f9980ee16d1309bce22c">PhQ::Stress::Stress</a></div><div class="ttdeci">Stress()=default</div><div class="ttdoc">Default constructor. Constructs a stress tensor with an uninitialized value.</div></div>
-<div class="ttc" id="aclassPhQ_1_1YoungModulus_html"><div class="ttname"><a href="classPhQ_1_1YoungModulus.html">PhQ::YoungModulus</a></div><div class="ttdoc">Young's modulus of elasticity of a deformable solid material. A measure of a deformable solid materia...</div><div class="ttdef"><b>Definition:</b> <a href="YoungModulus_8hpp_source.html#l00042">YoungModulus.hpp:42</a></div></div>
-<div class="ttc" id="anamespacePhQ_1_1Unit_html_abcbda7b992e98486ca609a164ae78a24aa7a808c7a03b7059369c362f420b2f1c"><div class="ttname"><a href="namespacePhQ_1_1Unit.html#abcbda7b992e98486ca609a164ae78a24aa7a808c7a03b7059369c362f420b2f1c">PhQ::Unit::Pressure::Gigapascal</a></div><div class="ttdeci">@ Gigapascal</div><div class="ttdoc">Gigapascal (GPa) pressure unit.</div></div>
-</div><!-- fragment --><p>The above example creates an elastic isotropic solid constitutive model from a Young's modulus and a Poisson's ratio, and then uses it to compute the stress tensor resulting from a given strain tensor.</p>
 <p><a class="el" href="index.html#user_guide">(Back to User Guide)</a></p>
 <h2><a class="anchor" id="user_guide_dimensions"></a>
 User Guide: Dimensions</h2>
