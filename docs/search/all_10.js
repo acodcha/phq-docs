@@ -1,26 +1,4 @@
 var searchData=
 [
-  ['radian_699',['Radian',['../namespacePhQ_1_1Unit.html#a9caad3962141845d1013a3f3cedadd6ba50c62e3ca8d8ec8732a7f968a3bf2c7c',1,'PhQ::Unit']]],
-  ['radianperhour_700',['RadianPerHour',['../namespacePhQ_1_1Unit.html#aed2734f97b5aad1f5e6b6c1687515a2ea877b92af153d45c098a2a0fd408bcaa2',1,'PhQ::Unit']]],
-  ['radianperminute_701',['RadianPerMinute',['../namespacePhQ_1_1Unit.html#aed2734f97b5aad1f5e6b6c1687515a2eaddb91955f6c2caf952a3e04d69bb80d1',1,'PhQ::Unit']]],
-  ['radianpersecond_702',['RadianPerSecond',['../namespacePhQ_1_1Unit.html#aed2734f97b5aad1f5e6b6c1687515a2ea5c3a8480970c0c8602b25a071947d34d',1,'PhQ::Unit']]],
-  ['radianpersquarehour_703',['RadianPerSquareHour',['../namespacePhQ_1_1Unit.html#ab54ec1ebc34bacf3b20c0cba25d117c0a3bb9300dc724558aaae89e6eebcd237f',1,'PhQ::Unit']]],
-  ['radianpersquareminute_704',['RadianPerSquareMinute',['../namespacePhQ_1_1Unit.html#ab54ec1ebc34bacf3b20c0cba25d117c0ae1202f77c776f55c9a57aff54cfa2ae6',1,'PhQ::Unit']]],
-  ['radianpersquaresecond_705',['RadianPerSquareSecond',['../namespacePhQ_1_1Unit.html#ab54ec1ebc34bacf3b20c0cba25d117c0afa4298febc93bb3f8b84c392239fb4f2',1,'PhQ::Unit']]],
-  ['rankine_706',['Rankine',['../namespacePhQ_1_1Unit.html#afad0be5fa4539d760cb25b8303ffa961a22ebae77a156b83cd52c31ffe36659e4',1,'PhQ::Unit::Rankine()'],['../namespacePhQ_1_1Unit.html#adbbc35ccec867274c2d5878f9ba51cf5a22ebae77a156b83cd52c31ffe36659e4',1,'PhQ::Unit::Rankine()']]],
-  ['rankineperfoot_707',['RankinePerFoot',['../namespacePhQ_1_1Unit.html#a2841a75fd5b008b7213bd428f956505fa7d7bd5ad95ec71446c2a0caa2c0ba2bf',1,'PhQ::Unit']]],
-  ['rankineperinch_708',['RankinePerInch',['../namespacePhQ_1_1Unit.html#a2841a75fd5b008b7213bd428f956505fa0a4c4f64bedcffb3d702372584291879',1,'PhQ::Unit']]],
-  ['reciprocaltemperature_709',['ReciprocalTemperature',['../namespacePhQ_1_1Unit.html#a046c3fff93edf7bf4a9485a302aa9cb9',1,'PhQ::Unit']]],
-  ['reciprocaltemperature_2ehpp_710',['ReciprocalTemperature.hpp',['../ReciprocalTemperature_8hpp.html',1,'']]],
-  ['relateddimensions_711',['RelatedDimensions',['../namespacePhQ.html#a98e1033cfd731b86818153456a7edd0d',1,'PhQ']]],
-  ['relatedunitsystem_712',['RelatedUnitSystem',['../namespacePhQ.html#a8cc3aae9a7b257010986c978ab8249e0',1,'PhQ']]],
-  ['revolution_713',['Revolution',['../namespacePhQ_1_1Unit.html#a9caad3962141845d1013a3f3cedadd6baad09b2d48b2811c68e5a2bf421f7f2f2',1,'PhQ::Unit']]],
-  ['revolutionperhour_714',['RevolutionPerHour',['../namespacePhQ_1_1Unit.html#aed2734f97b5aad1f5e6b6c1687515a2ea3fdcc1032586f4ccb03029e2f8f915b8',1,'PhQ::Unit']]],
-  ['revolutionperminute_715',['RevolutionPerMinute',['../namespacePhQ_1_1Unit.html#aed2734f97b5aad1f5e6b6c1687515a2ea323bc32d82dfcd558004ceb0847f08d3',1,'PhQ::Unit']]],
-  ['revolutionpersecond_716',['RevolutionPerSecond',['../namespacePhQ_1_1Unit.html#aed2734f97b5aad1f5e6b6c1687515a2ea35650601a135259ffc74c1b984af688b',1,'PhQ::Unit']]],
-  ['revolutionpersquarehour_717',['RevolutionPerSquareHour',['../namespacePhQ_1_1Unit.html#ab54ec1ebc34bacf3b20c0cba25d117c0af20306b5fef43ed4d32a60858b24be61',1,'PhQ::Unit']]],
-  ['revolutionpersquareminute_718',['RevolutionPerSquareMinute',['../namespacePhQ_1_1Unit.html#ab54ec1ebc34bacf3b20c0cba25d117c0a28a0248c67082322edba4832b873a928',1,'PhQ::Unit']]],
-  ['revolutionpersquaresecond_719',['RevolutionPerSquareSecond',['../namespacePhQ_1_1Unit.html#ab54ec1ebc34bacf3b20c0cba25d117c0a486e34d611d134ed32ee6363624a7ba3',1,'PhQ::Unit']]],
-  ['reynoldsnumber_720',['ReynoldsNumber',['../classPhQ_1_1ReynoldsNumber.html',1,'PhQ::ReynoldsNumber&lt; NumericType &gt;'],['../classPhQ_1_1ReynoldsNumber.html#ab4c7867e8418019aad2d47794133820c',1,'PhQ::ReynoldsNumber::ReynoldsNumber(ReynoldsNumber&lt; NumericType &gt; &amp;&amp;other) noexcept=default'],['../classPhQ_1_1ReynoldsNumber.html#ae23e49f30825293de11dc1a37367141e',1,'PhQ::ReynoldsNumber::ReynoldsNumber(const ReynoldsNumber&lt; OtherNumericType &gt; &amp;other)'],['../classPhQ_1_1ReynoldsNumber.html#abf29e2622fd49849607f26063dc34a5e',1,'PhQ::ReynoldsNumber::ReynoldsNumber(const ReynoldsNumber&lt; NumericType &gt; &amp;other)=default'],['../classPhQ_1_1ReynoldsNumber.html#aabce9722f78300dffa8754dedb5984ef',1,'PhQ::ReynoldsNumber::ReynoldsNumber(const Speed&lt; NumericType &gt; &amp;speed, const Length&lt; NumericType &gt; &amp;length, const KinematicViscosity&lt; NumericType &gt; &amp;kinematic_viscosity)'],['../classPhQ_1_1ReynoldsNumber.html#ac36edeeb9ea8dfe7a192a15b9a803792',1,'PhQ::ReynoldsNumber::ReynoldsNumber(const MassDensity&lt; NumericType &gt; &amp;mass_density, const Speed&lt; NumericType &gt; &amp;speed, const Length&lt; NumericType &gt; &amp;length, const DynamicViscosity&lt; NumericType &gt; &amp;dynamic_viscosity)'],['../classPhQ_1_1ReynoldsNumber.html#aeb942af6ae3b88cf7718575dd17d2017',1,'PhQ::ReynoldsNumber::ReynoldsNumber(const NumericType value)'],['../classPhQ_1_1ReynoldsNumber.html#afef448f29bc381eb03873070524e5cbf',1,'PhQ::ReynoldsNumber::ReynoldsNumber()=default']]],
-  ['reynoldsnumber_2ehpp_721',['ReynoldsNumber.hpp',['../ReynoldsNumber_8hpp.html',1,'']]]
+  ['quantities_0',['quantities',['../index.html#features_physical_quantities',1,'Features: Physical Quantities'],['../index.html',1,'Physical Quantities']]]
 ];
